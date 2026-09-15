@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1994,
+  "title": "The Year the Web Got a Business Model",
+  "era": "foundation",
+  "narrative": "The web stops being a research project and starts being an industry. Netscape is founded, the first banner ad sells, the first secure purchase happens, and the W3C is created to keep it all open. Yahoo! turns a list of links into a front door, and PHP is born in a developer's spare scripts.",
+  "felt_like": {
+    "os": "Windows 3.1 / Mac System 7",
+    "browser": "NCSA Mosaic / early Netscape",
+    "messenger": "IRC / email",
+    "social_network": "Usenet / mailing lists",
+    "music": "Audio CDs / cassette",
+    "phone": "Landline / early GSM",
+    "video": "VHS / cable TV",
+    "website": "gray pages, under construction GIFs, 'best viewed in Netscape'"
+  },
+  "events": [
+    "netscape-founded-1994",
+    "first-banner-ad-1994",
+    "yahoo-founded-1994",
+    "lycos-launch-1994",
+    "w3c-founded-1994",
+    "netmarket-first-sale-1994",
+    "hotwired-launch-1994",
+    "php-created-1994",
+    "playstation-launch-1994"
+  ]
+}

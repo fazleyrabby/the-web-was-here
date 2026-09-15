@@ -1,0 +1,202 @@
+[
+  {
+    "id": "bitcoin-genesis-block-2009",
+    "title": "Bitcoin's Genesis Block Mined",
+    "year": 2009,
+    "date": "2009-01-03",
+    "category": ["software", "business"],
+    "type": "technology_release",
+    "summary": "Satoshi Nakamoto mines the first Bitcoin block, embedding a newspaper headline about bank bailouts in the coinbase transaction.",
+    "narrative": "On January 3, 2009, Satoshi Nakamoto mines the genesis block of the Bitcoin network. Embedded in the code is a message: 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.' It's a political statement — a middle finger to the financial system that just crashed the global economy. The first Bitcoin transaction sends 10 BTC to Hal Finney. The decentralized revolution begins.",
+    "why_it_matters": "The birth of cryptocurrency. Proved that decentralized digital money could actually work. The embedded newspaper headline is a permanent monument to the 2008 financial crisis and the motivation behind Bitcoin.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["crypto-boom", "blockchain", "defi", "nft-2021", "el-salvador-2021"],
+    "tags": ["bitcoin", "genesis-block", "satoshi-nakamoto", "cryptocurrency", "blockchain"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Bitcoin: Genesis Block",
+        "url": "https://en.wikipedia.org/wiki/Genesis_block",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-launch-2009",
+    "title": "WhatsApp Launches",
+    "year": 2009,
+    "date": "2009-01-01",
+    "category": ["communication", "software"],
+    "type": "company_launch",
+    "summary": "Jan Koum and Brian Acton launch WhatsApp, a simple messaging app that replaces SMS and eventually reaches 2 billion users.",
+    "narrative": "Two ex-Yahoo employees, Jan Koum and Brian Acton, are frustrated with how hard it is to message people across different phones and carriers. They build WhatsApp — simple, reliable, cross-platform messaging. No ads, no games, no gimmicks. Just messages. It starts on iPhone, then BlackBerry, then Android. By 2009, it's already huge in Europe and growing fast everywhere else.",
+    "why_it_matters": "Killed SMS. Created the modern messaging app category. Proved that simple, reliable, cross-platform communication wins. The $19 billion Facebook acquisition in 2014 validated the messaging-first model.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["messaging-apps", "telegram-2013", "signal-privacy", "facebook-acquisition-2014"],
+    "tags": ["whatsapp", "messaging", "sms", "mobile", "communication"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "WhatsApp: History",
+        "url": "https://en.wikipedia.org/wiki/WhatsApp",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "spotify-us-launch-2009",
+    "title": "Spotify Expands to More Markets",
+    "year": 2009,
+    "date": "2009-07-14",
+    "category": ["entertainment", "business"],
+    "type": "platform_growth",
+    "summary": "Spotify continues its European expansion, reaching more countries and cementing streaming as the future of music.",
+    "narrative": "After launching in Sweden in 2007 and the UK in 2008, Spotify keeps expanding across Europe. Each new market proves the model: free music with ads, premium for offline. The music industry is still skeptical, but the numbers don't lie. People are streaming more than they ever downloaded. The shift from ownership to access is accelerating.",
+    "why_it_matters": "Established streaming as the dominant music model. Proved that freemium works for entertainment. Forced every major label to embrace streaming or die.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["apple-music-2015", "streaming-economy", "death-of-the-mp3", "podcast-acquisitions"],
+    "tags": ["spotify", "music", "streaming", "europe", "freemium"],
+    "region": ["europe", "global"],
+    "sources": [
+      {
+        "title": "Spotify: Global Expansion",
+        "url": "https://en.wikipedia.org/wiki/Spotify",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "4g-lte-launch-2009",
+    "title": "4G LTE Networks Begin Rollout",
+    "year": 2009,
+    "date": "2009-12-14",
+    "category": ["hardware", "communication"],
+    "type": "technology_release",
+    "summary": "Verizon and Sprint launch 4G LTE networks, promising mobile broadband speeds that make the mobile web actually usable.",
+    "narrative": "3G is fine for email and basic browsing. But video? Streaming? Real-time anything? 3G can't handle it. 4G LTE changes everything. Download speeds jump from 1-2 Mbps to 5-12 Mbps. Suddenly, streaming Netflix on your phone works. Video calls become reliable. The mobile web stops being a compromise and starts being the primary way people access the internet.",
+    "why_it_matters": "Made mobile internet fast enough for streaming, video calls, and real-time apps. Enabled the mobile-first era. Paved the way for Uber, Instagram Stories, TikTok, and every bandwidth-hungry mobile app.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["mobile-first", "streaming-mobile", "uber-2009", "video-calls", "tiktok-2016"],
+    "tags": ["4g", "lte", "mobile", "broadband", "verizon"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "4G: History and Deployment",
+        "url": "https://en.wikipedia.org/wiki/4G",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "uber-founding-2009",
+    "title": "Uber Is Founded",
+    "year": 2009,
+    "date": "2009-03-01",
+    "category": ["business", "software"],
+    "type": "company_launch",
+    "summary": "Travis Kalanick and Garrett Camp found Uber, a ride-hailing app that disrupts the taxi industry and launches the gig economy.",
+    "narrative": "Travis Kalanick and Garrett Camp can't get a cab in Paris. They have an idea: what if you could tap a button and a car shows up? Uber starts as 'UberCab' in San Francisco — black cars, premium pricing. It's exclusive and expensive. But the concept is revolutionary. Drivers are contractors, not employees. Surge pricing adjusts to demand. The taxi industry is about to be destroyed.",
+    "why_it_matters": "Created the gig economy. Disrupted transportation worldwide. Proved that platform businesses could scale globally. Spawned a generation of on-demand startups. Changed how cities think about transportation.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["lyft-2012", "gig-economy", "on-demand-economy", "regulatory-battles", "waymo-2016"],
+    "tags": ["uber", "gig-economy", "ride-hailing", "transportation", "on-demand"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Uber: Founding and History",
+        "url": "https://en.wikipedia.org/wiki/Uber",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "angry-birds-2009",
+    "title": "Angry Birds Takes Over the World",
+    "year": 2009,
+    "date": "2009-12-11",
+    "category": ["gaming", "culture"],
+    "type": "viral_event",
+    "summary": "Rovio releases Angry Birds on iOS. The simple physics-based game becomes the most downloaded app of all time.",
+    "narrative": "A Finnish game studio that's nearly bankrupt creates a game about flinging birds at pigs. It's absurd. It's addictive. It's everywhere. Angry Birds becomes the first mobile game phenomenon. Everyone's playing it — on the bus, in meetings, on the toilet. It proves that mobile gaming isn't just for kids. It's for everyone. Rovio becomes a billion-dollar company overnight.",
+    "why_it_matters": "Proved mobile gaming could be massive. Created the template for casual mobile games. Spawned merchandise, movies, and a franchise. Changed how the games industry thinks about platforms.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["mobile-gaming", "casual-games", "app-store-games", "flappy-bird-2013"],
+    "tags": ["angry-birds", "mobile-gaming", "ios", "rovio", "casual"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Angry Birds: History",
+        "url": "https://en.wikipedia.org/wiki/Angry_Birds",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "google-wave-2009",
+    "title": "Google Wave Launches (and Fails)",
+    "year": 2009,
+    "date": "2009-05-27",
+    "category": ["software", "communication"],
+    "type": "product_launch",
+    "summary": "Google launches Wave, a real-time collaboration platform. It's too ambitious, too confusing, and it dies within a year.",
+    "narrative": "Google Wave is supposed to be the future of communication. It's email, chat, documents, and wikis all in one. It's real-time. It's collaborative. It's also completely baffling. Nobody knows what it is or how to use it. The invite-only launch creates hype. The product creates confusion. Google kills it in 2010. But the ideas live on in Google Docs, Slack, and every collaboration tool that followed.",
+    "why_it_matters": "Proved that even Google can fail at product. But the underlying ideas — real-time collaboration, rich text, shared documents — became foundational to modern tools. Failure as innovation.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["google-docs", "slack-2013", "real-time-collaboration", "notion-2016"],
+    "tags": ["google-wave", "collaboration", "failure", "google", "real-time"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Google Wave: Rise and Fall",
+        "url": "https://en.wikipedia.org/wiki/Google_Wave",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "tweetdeck-2009",
+    "title": "TweetDeck Becomes Essential",
+    "year": 2009,
+    "date": "2009-03-01",
+    "category": ["software", "social"],
+    "type": "product_launch",
+    "summary": "TweetDeck launches as a desktop Twitter client with columns, streams, and real-time updates. Power users flock to it.",
+    "narrative": "Twitter's web interface is basic. TweetDeck gives you columns — your timeline, mentions, DMs, searches — all updating in real-time. It's overwhelming and perfect. Journalists, power users, and social media managers live in TweetDeck. It makes Twitter feel like a command center. Twitter eventually acquires it and then kills it, because of course they do.",
+    "why_it_matters": "Defined the 'power user' Twitter experience. Showed that third-party clients could be better than the official app. Inspired column-based interfaces in other tools.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["twitter-clients", "social-media-management", "column-ui", "buffer-2010"],
+    "tags": ["tweetdeck", "twitter", "desktop-app", "social-media", "columns"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "TweetDeck: History",
+        "url": "https://en.wikipedia.org/wiki/TweetDeck",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

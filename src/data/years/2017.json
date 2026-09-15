@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2017,
+  "title": "The Year the Bills Came Due",
+  "era": "platform-era",
+  "narrative": "Equifax exposed 147 million Americans. WannaCry crippled hospitals worldwide. The FCC killed net neutrality. Bitcoin went parabolic. #MeToo proved social media could drive real change. Alexa moved into millions of homes. The internet's consequences — and its power — became impossible to ignore.",
+  "felt_like": {
+    "os": "iOS 11 / Android 8 Oreo",
+    "browser": "Chrome / Safari",
+    "messenger": "WhatsApp / Messenger",
+    "social_network": "Instagram Stories / Snapchat",
+    "music": "Spotify / Apple Music",
+    "phone": "iPhone X / Samsung Galaxy S8",
+    "video": "YouTube / Netflix / Amazon Prime Video",
+    "website": "Cookie consent popups, cryptocurrency charts, and breach notification emails"
+  },
+  "events": [
+    "equifax-breach-2017",
+    "bitcoin-boom-2017",
+    "metoo-2017",
+    "alexa-mainstream-2017",
+    "gdpr-announced-2017",
+    "blueborne-2017",
+    "wannacry-2017",
+    "snapchat-ipo-2017",
+    "fcc-net-neutrality-2017",
+    "slack-bots-2017"
+  ]
+}

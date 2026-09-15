@@ -1,0 +1,176 @@
+---
+import { getVisitCount } from '../lib/visits';
+
+const ABACUS_NAMESPACE = 'twwh-archive';
+const ABACUS_KEY = 'visits';
+const ABACUS_BASE = 'https://abacus.jasoncameron.dev';
+
+const initialCount = await getVisitCount();
+---
+
+<div
+  class="visitor-counter"
+  id="visitor-counter"
+  data-namespace={ABACUS_NAMESPACE}
+  data-key={ABACUS_KEY}
+  data-base={ABACUS_BASE}
+  data-initial-count={initialCount}
+  title="Total site visits — live"
+>
+  <span class="visitor-counter__pulse" aria-hidden="true">
+    <span class="visitor-counter__ping"></span>
+    <span class="visitor-counter__core"></span>
+  </span>
+  <span class="visitor-counter__label">Visits</span>
+  <span class="visitor-counter__count" id="visitor-count-number" aria-live="polite">
+    {initialCount.toLocaleString()}
+  </span>
+</div>
+
+<script>
+  function isDev(): boolean {
+    const host = window.location.hostname;
+    return (
+      host === 'localhost' ||
+      host === '127.0.0.1' ||
+      host.endsWith('.local') ||
+      window.location.port !== ''
+    );
+  }
+
+  function isBot(): boolean {
+    const ua = navigator.userAgent.toLowerCase();
+    const patterns = [
+      'bot', 'spider', 'crawler', 'preview', 'lighthouse', 'headless',
+      'phantomjs', 'selenium', 'puppeteer', 'playwright', 'curl', 'wget',
+      'monitor', 'uptime', 'scrap',
+    ];
+    return patterns.some((p) => ua.includes(p)) || (navigator as any).webdriver === true;
+  }
+
+  function animateCount(el: HTMLElement, start: number, end: number, duration = 800) {
+    if (start === end) {
+      el.textContent = end.toLocaleString();
+      return;
+    }
+    const startTime = performance.now();
+    function update(now: number) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(start + (end - start) * eased).toLocaleString();
+      if (progress < 1) requestAnimationFrame(update);
+      else el.textContent = end.toLocaleString();
+    }
+    requestAnimationFrame(update);
+  }
+
+  async function initVisitorCounter() {
+    const wrapper = document.getElementById('visitor-counter');
+    const countEl = document.getElementById('visitor-count-number');
+    if (!wrapper || !countEl) return;
+
+    const base = wrapper.getAttribute('data-base') || 'https://abacus.jasoncameron.dev';
+    const ns = wrapper.getAttribute('data-namespace') || 'twwh-archive';
+    const key = wrapper.getAttribute('data-key') || 'visits';
+    const initialCount = parseInt(wrapper.getAttribute('data-initial-count') || '0', 10);
+
+    const sessionKey = 'twwh_visit_tracked';
+    const alreadyTracked = sessionStorage.getItem(sessionKey) === 'true';
+    let current = initialCount;
+
+    if (!isDev() && !isBot() && !alreadyTracked) {
+      try {
+        sessionStorage.setItem(sessionKey, 'true');
+        const res = await fetch(`${base}/hit/${ns}/${key}`, { method: 'GET' });
+        if (res.ok) {
+          const data = await res.json();
+          if (typeof data?.value === 'number') current = data.value;
+        }
+      } catch (_) {}
+    } else {
+      try {
+        const res = await fetch(`${base}/get/${ns}/${key}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (typeof data?.value === 'number') current = data.value;
+        }
+      } catch (_) {}
+    }
+
+    try {
+      localStorage.setItem('twwh_cached_visits', String(current));
+    } catch (_) {}
+
+    if (current !== initialCount) {
+      animateCount(countEl, initialCount, current);
+    } else {
+      countEl.textContent = current.toLocaleString();
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initVisitorCounter);
+  } else {
+    initVisitorCounter();
+  }
+  document.addEventListener('astro:page-load', initVisitorCounter);
+</script>
+
+<style>
+  .visitor-counter {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.9rem;
+    background: var(--bg-card);
+    border: 2.5px solid var(--bark);
+    border-radius: 3px;
+    box-shadow: var(--shadow-brutal-sm);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--bark);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    user-select: none;
+    transition: all 0.2s var(--ease-bounce);
+  }
+  .visitor-counter:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--bark);
+    background: var(--yellow);
+  }
+  .visitor-counter__pulse {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8px;
+    height: 8px;
+  }
+  .visitor-counter__ping {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    background: var(--green);
+    opacity: 0.75;
+    animation: visitorPing 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  .visitor-counter__core {
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 9999px;
+    background: var(--green);
+    box-shadow: 0 0 6px rgba(0, 204, 102, 0.6);
+  }
+  .visitor-counter__label { color: var(--text-muted); }
+  .visitor-counter__count {
+    font-weight: 500;
+    color: var(--bark);
+    min-width: 2ch;
+  }
+  @keyframes visitorPing {
+    75%, 100% { transform: scale(2.5); opacity: 0; }
+  }
+</style>

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2011,
+  "title": "The Year Social Media Changed the World",
+  "era": "mobile-social",
+  "narrative": "Google+ tries to kill Facebook and fails. Snapchat creates disappearing messages. Instagram hits a million users. The Arab Spring proves social media can topple governments. Occupy Wall Street goes viral. HTML5 kills Flash. The web grows up.",
+  "felt_like": {
+    "os": "Windows 7 / Mac OS X Lion",
+    "browser": "Chrome / Firefox",
+    "messenger": "WhatsApp / Facebook Chat",
+    "social_network": "Facebook / Twitter / Google+",
+    "music": "Spotify / Pandora",
+    "phone": "iPhone 4S / Samsung Galaxy S2",
+    "video": "YouTube / Netflix streaming",
+    "website": "apps were replacing websites"
+  },
+  "events": [
+    "google-plus-launch-2011",
+    "instagram-1m-users-2011",
+    "snapchat-launch-2011",
+    "icq-shutdown-2011",
+    "kindle-fire-2011",
+    "occupy-wall-street-2011",
+    "html5-finalized-2011",
+    "spotify-us-launch-2011",
+    "netflix-dvd-split-2011",
+    "arab-spring-twitter-2011"
+  ]
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "id": "zoom-boom-2020",
+    "title": "Zoom Goes from 10M to 300M Daily Users",
+    "year": 2020,
+    "date": "2020-04-21",
+    "category": ["communication", "business"],
+    "type": "platform_shift",
+    "summary": "Zoom's daily meeting participants jump from 10 million to over 300 million as COVID-19 forces the world remote.",
+    "narrative": "December 2019: 10 million daily participants. April 2020: 300 million. Zoom becomes a verb. 'Can we Zoom?' replaces 'Can we meet?' Teachers teach on Zoom. Doctors see patients on Zoom. Families have dinner on Zoom. The stock price triples. There are privacy problems — 'Zoom bombing' becomes a thing. Eric Yuan, an immigrant who was denied a visa eight times, builds the tool that keeps the world connected during a pandemic.",
+    "why_it_matters": "Defined remote work and pandemic communication. Proved that video conferencing could scale to hundreds of millions. Changed how the world thinks about offices.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["remote-work-permanent", "zoom-fatigue", "virtual-events", "hybrid-office"],
+    "tags": ["zoom", "remote-work", "pandemic", "video-conferencing", "covid"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Zoom: 30x Growth in a Few Months",
+        "url": "https://en.wikipedia.org/wiki/Zoom_(software)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      },
+      {
+        "title": "Zoom Q1 Earnings 2020",
+        "url": "https://techcrunch.com/2020/06/02/remote-work-helps-zoom-grow-169-in-one-year-posting-328-2m-q1-revenue/",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "covid-remote-work-2020",
+    "title": "The Great Remote Work Experiment",
+    "year": 2020,
+    "date": "2020-03-11",
+    "category": ["business", "communication"],
+    "type": "cultural_event",
+    "summary": "COVID-19 forces billions of workers into remote work overnight, transforming the global workplace permanently.",
+    "narrative": "March 2020: the World Health Organization declares a pandemic. Companies that had never considered remote work send everyone home. Slack, Zoom, Microsoft Teams, Google Meet — every collaboration tool sees explosive growth. Productivity tools, virtual backgrounds, Slack channels for pets. The office doesn't die, but it changes forever. Some people never go back.",
+    "why_it_matters": "Accelerated remote work by a decade. Proved distributed teams could work. Changed urban geography as people left expensive cities.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["hybrid-work", "zoom-fatigue", "digital-nomad-boom", "commercial-real-estate-crisis"],
+    "tags": ["remote-work", "pandemic", "covid", "work-from-home", "collaboration-tools"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "The Remote Work Revolution",
+        "url": "https://techcrunch.com/2020/03/06/as-coronavirus-pandemic-spreads-demand-for-remote-work-startups-spikes/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "clubhouse-2020",
+    "title": "Clubhouse Launches",
+    "year": 2020,
+    "date": "2020-03-20",
+    "category": ["social", "communication"],
+    "type": "company_launch",
+    "summary": "Clubhouse launches as an invite-only audio social app, sparking the 'audio social' trend.",
+    "narrative": "Paul Davison and Rohan Seth launch Clubhouse in the early days of the pandemic. It's audio-only — like a conference call you choose to join. Elon Musk talks about memes. Mark Zuckerberg talks about VR. The app grows 10x in December 2020 alone. Twitter launches Spaces. Facebook launches Hotline. Spotify acquires Anchor's competitor. The audio social craze peaks, then fades. Clubhouse had 8 employees when it went viral.",
+    "why_it_matters": "Created the audio social category. Forced every major platform to build audio features. Proved that pandemic-driven product-market fit can be fleeting.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["twitter-spaces", "spotify-greenroom", "audio-social-peak", "pandemic-startups"],
+    "tags": ["clubhouse", "audio", "social", "pandemic", "invite-only"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Clubhouse: The Full Story",
+        "url": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "tiktok-explosion-2020",
+    "title": "TikTok Becomes the Most Downloaded App",
+    "year": 2020,
+    "date": "2020-04-01",
+    "category": ["social", "entertainment"],
+    "type": "platform_shift",
+    "summary": "TikTok surpasses 2 billion downloads globally, becoming the defining social media platform of the pandemic era.",
+    "narrative": "TikTok was already growing. Then the pandemic hit and everyone was home with nothing to do. Short-form video fills the void. Dances go viral. Songs go viral. People discover they can edit video on their phones and it looks professional. The algorithm learns what you like faster than any platform before. Instagram copies it with Reels. YouTube copies it with Shorts. TikTok changes what 'social media' means.",
+    "why_it_matters": "Redefined social media as short-form video. The algorithm became the most sophisticated content recommendation engine. Created a new creator economy. Forced competitors to copy.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["instagram-reels", "youtube-shorts", "short-form-video-dominance", "tiktok-ban-threats"],
+    "tags": ["tiktok", "short-video", "algorithm", "creator-economy", "pandemic"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "TikTok: The Pandemic Platform",
+        "url": "https://en.wikipedia.org/wiki/TikTok",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "stimulus-check-memes-2020",
+    "title": "Stimulus Check Memes and Internet Humor",
+    "year": 2020,
+    "date": "2020-03-27",
+    "category": ["viral-culture", "social"],
+    "type": "internet_meme",
+    "summary": "US government stimulus checks become the biggest meme of 2020 as Americans cope with the pandemic through humor.",
+    "narrative": "The CARES Act sends $1,200 to every American. The IRS website crashes. People post their stimulus check status obsessively. Memes explode — from 'I am once again asking' Bernie Sanders to 'stonks' to 'this is fine' dogs. The internet becomes the coping mechanism for an entire nation. TikTok dances, quarantine baking, Tiger King — 2020 is the year internet culture becomes real culture.",
+    "why_it_matters": "Internet memes became the dominant form of cultural commentary. The pandemic accelerated the merger of online and offline life.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["meme-economy", "social-media-culture", "pandemic-humor", "internet-mainstream"],
+    "tags": ["memes", "stimulus", "pandemic", "tiktok", "tiger-king"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "The Pandemic Internet",
+        "url": "https://en.wikipedia.org/wiki/TikTok",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ps5-xsx-launch-2020",
+    "title": "PS5 and Xbox Series X Launch",
+    "year": 2020,
+    "date": "2020-11-12",
+    "category": ["hardware", "entertainment"],
+    "type": "product_launch",
+    "summary": "Sony PlayStation 5 and Microsoft Xbox Series X launch during a global chip shortage, selling out instantly.",
+    "narrative": "The next generation arrives during a pandemic. Both consoles sell out in minutes. Scalpers use bots to buy up inventory. PS5 prices on eBay hit $1,000+. The chip shortage is real — semiconductor supply chains can't keep up. Both consoles are incredible machines. But you can't buy one. The scalper problem becomes a cultural flashpoint about bots, fairness, and supply chains.",
+    "why_it_matters": "Highlighted the global semiconductor shortage. Exposed the bot/scalper problem in console launches. Gaming revenue surpasses movies and music combined during lockdowns.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["chip-shortage-2021", "scalper-bots", "gaming-revenue-record", "semiconductor-crisis"],
+    "tags": ["ps5", "xbox", "gaming", "chip-shortage", "scalper"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "PS5 Launch and the Chip Shortage",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_5",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "apple-silicon-2020",
+    "title": "Apple M1 Chip Announced",
+    "year": 2020,
+    "date": "2020-11-10",
+    "category": ["hardware", "software"],
+    "type": "product_launch",
+    "summary": "Apple announces the M1 chip, transitioning Macs from Intel to ARM-based custom silicon.",
+    "narrative": "Apple says goodbye to Intel. The M1 chip is ARM-based, custom-designed, and shockingly fast. The new MacBook Air has no fan, all-day battery life, and outperforms most Intel MacBooks. Developers have to recompile their apps. Rosetta 2 handles the translation. Within two years, Intel's market share collapses. Apple proves that designing your own chips is the future.",
+    "why_it_matters": "Ended Intel's dominance in PC chips. Proved ARM could compete in laptops. Triggered a wave of ARM-based laptop chips from Qualcomm, Microsoft, and others.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["qualcomm-snapdragon-x", "arm-laptops", "intel-decline", "custom-silicon"],
+    "tags": ["apple", "m1", "silicon", "intel", "arm"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Apple Silicon: The M1 Revolution",
+        "url": "https://en.wikipedia.org/wiki/Apple_M1",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "doordash-ipo-2020",
+    "title": "DoorDash IPO Validates Delivery Economy",
+    "year": 2020,
+    "date": "2020-12-10",
+    "category": ["business", "web"],
+    "type": "business_event",
+    "summary": "DoorDash IPOs at $102 billion valuation, proving the delivery economy is pandemic-proof.",
+    "narrative": "DoorDash goes public during the pandemic and becomes the most valuable food delivery company. The IPO raises $3.4 billion. The stock doubles on day one. At $102 billion, it's worth more than McDonald's. The delivery economy isn't a pandemic fad — it's a permanent shift. Restaurants that survived learned to optimize for delivery. Ghost kitchens emerge. The way we eat changes forever.",
+    "why_it_matters": "Validated the on-demand delivery model at massive scale. Proved pandemic-driven behaviors could become permanent. Accelerated the ghost kitchen trend.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["ghost-kitchens", "delivery-apps-global", "restaurant-transformation", "last-mile-delivery"],
+    "tags": ["doordash", "delivery", "ipo", "food", "pandemic-economy"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "DoorDash IPO",
+        "url": "https://en.wikipedia.org/wiki/DoorDash",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "spacex-crew-dragon-2020",
+    "title": "SpaceX Crew Dragon Reaches ISS",
+    "year": 2020,
+    "date": "2020-05-30",
+    "category": ["hardware", "business"],
+    "type": "product_launch",
+    "summary": "SpaceX launches NASA astronauts to the ISS aboard Crew Dragon, the first commercial crewed spaceflight.",
+    "narrative": "May 30, 2020: SpaceX launches Doug Hurley and Bob Behnken to the International Space Station. It's the first crewed orbital launch from American soil since the Space Shuttle retired in 2011. It's the first commercial crewed spaceflight ever. Elon Musk cries. NASA is relieved. The future of space travel is commercial. SpaceX proves that private companies can do what only governments used to do.",
+    "why_it_matters": "Opened the era of commercial spaceflight. Proved SpaceX could carry humans safely. Changed the relationship between NASA and private industry.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["spacex-starship", "commercial-space", "boeing-starliner", "space-tourism"],
+    "tags": ["spacex", "nasa", "crew-dragon", "space", "commercial"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "SpaceX Crew Dragon: The Mission",
+        "url": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "robinhood-gamestop-2020",
+    "title": "Robinhood and the Meme Stock Prelude",
+    "year": 2020,
+    "date": "2020-12-01",
+    "category": ["business", "viral-culture"],
+    "type": "cultural_event",
+    "summary": "Robinhood's commission-free trading and Reddit's r/WallStreetBets set the stage for the GameStop short squeeze.",
+    "narrative": "Robinhood makes stock trading free and addictive. Gamification of finance — confetti animations, push notifications, instant deposits. Meanwhile, Reddit's r/WallStreetBets community discovers that hedge funds are shorting GameStop. They buy. And buy. And buy. The short squeeze that's coming in January 2021 will shake Wall Street to its core. The seed is planted in 2020.",
+    "why_it_matters": "Democratized stock trading. Gamified finance. The r/WallStreetBets movement proved that retail investors could challenge institutional players.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["gamestop-squeeze-2021", "meme-stocks", "retail-investing", "financial-gamification"],
+    "tags": ["robinhood", "trading", "reddit", "wallstreetbets", "stocks"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Robinhood: The App That Changed Trading",
+        "url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

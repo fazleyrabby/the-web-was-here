@@ -1,0 +1,267 @@
+---
+interface Props {
+  year: number;
+}
+
+const { year } = Astro.props;
+
+function groupFor(y: number): string {
+  if (y <= 1994) return 'foundation';
+  if (y <= 1999) return 'early-web';
+  if (y <= 2004) return 'bust-rebuild';
+  if (y <= 2009) return 'web-2';
+  if (y <= 2014) return 'mobile';
+  if (y <= 2019) return 'platform';
+  if (y <= 2022) return 'pandemic';
+  return 'ai';
+}
+
+const g = groupFor(year);
+---
+
+<div class="year-art" data-group={g} aria-hidden="true">
+  <div class="year-art__scene">
+    {g === 'foundation' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="30" y="26" width="140" height="100" rx="6" stroke="var(--bark)" stroke-width="4" fill="var(--yellow)" />
+        <rect x="44" y="40" width="112" height="72" rx="3" fill="#141414" />
+        <rect class="scan" x="52" y="52" width="96" height="4" rx="2" fill="var(--green)" />
+        <rect class="scan scan--2" x="52" y="66" width="72" height="4" rx="2" fill="var(--green)" />
+        <rect class="scan scan--3" x="52" y="80" width="84" height="4" rx="2" fill="var(--green)" />
+        <rect class="cursor" x="52" y="94" width="8" height="10" fill="var(--pink)" />
+        <rect x="58" y="126" width="84" height="10" rx="2" stroke="var(--bark)" stroke-width="3" fill="var(--bg)" />
+        <rect x="86" y="136" width="28" height="6" rx="2" stroke="var(--bark)" stroke-width="3" fill="var(--bg)" />
+        <rect x="196" y="70" width="34" height="46" rx="3" stroke="var(--bark)" stroke-width="3.5" fill="var(--blue)" />
+        <rect x="204" y="78" width="18" height="14" rx="2" fill="var(--bg)" stroke="var(--bark)" stroke-width="2" />
+        <rect x="204" y="98" width="18" height="12" rx="2" fill="var(--bg)" stroke="var(--bark)" stroke-width="2" />
+        <path class="wave" d="M14 156 q 8 -14 16 0 t 16 0 t 16 0" stroke="var(--pink)" stroke-width="3.5" fill="none" stroke-linecap="round" />
+      </svg>
+    )}
+
+    {g === 'early-web' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="24" y="24" width="160" height="120" rx="5" stroke="var(--bark)" stroke-width="4" fill="var(--bg-elevated)" />
+        <rect x="24" y="24" width="160" height="22" rx="5" fill="var(--blue)" stroke="var(--bark)" stroke-width="3.5" />
+        <circle cx="38" cy="35" r="4" fill="var(--pink)" />
+        <circle cx="52" cy="35" r="4" fill="var(--yellow)" />
+        <circle cx="66" cy="35" r="4" fill="var(--green)" />
+        <rect class="loadbar" x="40" y="60" width="0" height="10" rx="5" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect x="40" y="84" width="110" height="8" rx="4" fill="var(--bark)" opacity="0.2" />
+        <rect x="40" y="100" width="80" height="8" rx="4" fill="var(--bark)" opacity="0.2" />
+        <rect x="40" y="116" width="96" height="8" rx="4" fill="var(--bark)" opacity="0.2" />
+        <circle class="orbit" cx="196" cy="70" r="30" stroke="var(--bark)" stroke-width="3.5" fill="var(--green)" />
+        <ellipse cx="196" cy="70" rx="12" ry="30" stroke="var(--bark)" stroke-width="2.5" />
+        <path d="M166 70 h60" stroke="var(--bark)" stroke-width="2.5" />
+        <circle class="dot" cx="196" cy="40" r="5" fill="var(--pink)" />
+      </svg>
+    )}
+
+    {g === 'bust-rebuild' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <path d="M20 160 h200" stroke="var(--bark)" stroke-width="3.5" />
+        <path d="M20 160 v-120" stroke="var(--bark)" stroke-width="3.5" />
+        <path class="crashline" d="M30 44 L70 38 L100 52 L130 60 L150 110 L170 140 L210 152" stroke="var(--red)" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="70" cy="38" r="5" fill="var(--yellow)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle cx="150" cy="110" r="5" fill="var(--pink)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle class="disc" cx="196" cy="52" r="28" stroke="var(--bark)" stroke-width="3.5" fill="var(--purple)" />
+        <circle cx="196" cy="52" r="8" fill="var(--bg)" stroke="var(--bark)" stroke-width="2.5" />
+        <path class="note" d="M92 118 v-26 l 22 -6 v 26" stroke="var(--green)" stroke-width="3.5" fill="none" stroke-linecap="round" />
+        <circle cx="86" cy="118" r="6" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle cx="108" cy="112" r="6" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+      </svg>
+    )}
+
+    {g === 'web-2' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="30" y="30" width="180" height="106" rx="6" stroke="var(--bark)" stroke-width="4" fill="var(--pink)" />
+        <path class="play" d="M108 62 L150 84 L108 106 Z" fill="var(--bg-elevated)" stroke="var(--bark)" stroke-width="3.5" stroke-linejoin="round" />
+        <rect x="42" y="116" width="156" height="10" rx="5" fill="var(--bark)" opacity="0.35" />
+        <rect class="vidbar" x="42" y="116" width="0" height="10" rx="5" fill="var(--yellow)" />
+        <rect x="150" y="12" width="72" height="40" rx="10" stroke="var(--bark)" stroke-width="3.5" fill="var(--green)" />
+        <path d="M162 52 l -6 14 l 20 -14" fill="var(--green)" stroke="var(--bark)" stroke-width="3" stroke-linejoin="round" />
+        <rect class="thumb" x="160" y="24" width="52" height="7" rx="3.5" fill="var(--bark)" opacity="0.5" />
+      </svg>
+    )}
+
+    {g === 'mobile' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="86" y="16" width="72" height="140" rx="12" stroke="var(--bark)" stroke-width="4" fill="var(--bg-elevated)" />
+        <rect x="98" y="30" width="48" height="8" rx="4" fill="var(--bark)" opacity="0.3" />
+        <rect class="app app--1" x="100" y="50" width="18" height="18" rx="5" fill="var(--pink)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect class="app app--2" x="126" y="50" width="18" height="18" rx="5" fill="var(--blue)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect class="app app--3" x="100" y="76" width="18" height="18" rx="5" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect class="app app--4" x="126" y="76" width="18" height="18" rx="5" fill="var(--yellow)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect class="app app--5" x="100" y="102" width="18" height="18" rx="5" fill="var(--purple)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect class="app app--6" x="126" y="102" width="18" height="18" rx="5" fill="var(--orange)" stroke="var(--bark)" stroke-width="2.5" />
+        <path class="sig" d="M172 60 q 14 -18 28 0" stroke="var(--orange)" stroke-width="4" fill="none" stroke-linecap="round" />
+        <path class="sig sig--2" d="M166 46 q 20 -26 40 0" stroke="var(--orange)" stroke-width="4" fill="none" stroke-linecap="round" />
+        <path d="M36 120 q 14 -16 28 0 q 14 -16 28 0" stroke="var(--blue)" stroke-width="4" fill="none" stroke-linecap="round" />
+        <circle class="dot" cx="52" cy="146" r="6" fill="var(--teal)" stroke="var(--bark)" stroke-width="2.5" />
+      </svg>
+    )}
+
+    {g === 'platform' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="24" y="20" width="96" height="140" rx="10" stroke="var(--bark)" stroke-width="4" fill="var(--bg-elevated)" />
+        <g class="feed">
+          <rect x="34" y="32" width="76" height="34" rx="6" fill="var(--blue)" stroke="var(--bark)" stroke-width="2.5" />
+          <rect x="34" y="72" width="76" height="34" rx="6" fill="var(--pink)" stroke="var(--bark)" stroke-width="2.5" />
+          <rect x="34" y="112" width="76" height="34" rx="6" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+        </g>
+        <path class="heart" d="M164 66 c -8 -10 -24 -4 -24 8 c 0 12 24 26 24 26 s 24 -14 24 -26 c 0 -12 -16 -18 -24 -8 z" fill="var(--red)" stroke="var(--bark)" stroke-width="3.5" stroke-linejoin="round" />
+        <circle cx="204" cy="140" r="6" fill="var(--purple)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle cx="180" cy="156" r="6" fill="var(--orange)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle cx="222" cy="116" r="6" fill="var(--teal)" stroke="var(--bark)" stroke-width="2.5" />
+        <path class="link" d="M204 140 L180 156 M204 140 L222 116" stroke="var(--bark)" stroke-width="2.5" />
+      </svg>
+    )}
+
+    {g === 'pandemic' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="28" y="24" width="150" height="110" rx="8" stroke="var(--bark)" stroke-width="4" fill="var(--bg-elevated)" />
+        <rect x="40" y="36" width="40" height="30" rx="4" fill="var(--blue)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect x="86" y="36" width="40" height="30" rx="4" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect x="132" y="36" width="34" height="30" rx="4" fill="var(--purple)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect class="speaker" x="40" y="74" width="40" height="30" rx="4" fill="var(--yellow)" stroke="var(--bark)" stroke-width="3" />
+        <rect x="86" y="74" width="40" height="30" rx="4" fill="var(--orange)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect x="132" y="74" width="34" height="30" rx="4" fill="var(--pink)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect x="40" y="112" width="40" height="14" rx="4" fill="var(--teal)" stroke="var(--bark)" stroke-width="2.5" />
+        <rect x="86" y="112" width="40" height="14" rx="4" fill="var(--blue)" stroke="var(--bark)" stroke-width="2.5" />
+        <path class="sig" d="M196 60 q 14 -18 28 0" stroke="var(--green)" stroke-width="4" fill="none" stroke-linecap="round" />
+        <path class="sig sig--2" d="M190 44 q 20 -26 40 0" stroke="var(--green)" stroke-width="4" fill="none" stroke-linecap="round" />
+        <path d="M186 150 h 44 v -24 l -22 -16 l -22 16 z" stroke="var(--bark)" stroke-width="3.5" fill="var(--yellow)" stroke-linejoin="round" />
+      </svg>
+    )}
+
+    {g === 'ai' && (
+      <svg viewBox="0 0 240 180" fill="none">
+        <rect x="70" y="40" width="100" height="100" rx="10" stroke="var(--bark)" stroke-width="4" fill="var(--bg-elevated)" />
+        <rect x="90" y="60" width="60" height="60" rx="6" fill="var(--purple)" stroke="var(--bark)" stroke-width="3" />
+        <text x="120" y="100" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="var(--bg-elevated)">AI</text>
+        <path d="M70 62 h-16 M70 90 h-16 M70 118 h-16 M170 62 h16 M170 90 h16 M170 118 h16" stroke="var(--bark)" stroke-width="3.5" />
+        <path d="M90 40 v-14 M120 40 v-14 M150 40 v-14 M90 140 v14 M120 140 v14 M150 140 v14" stroke="var(--bark)" stroke-width="3.5" />
+        <circle class="node node--1" cx="34" cy="62" r="6" fill="var(--pink)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle class="node node--2" cx="34" cy="118" r="6" fill="var(--blue)" stroke="var(--bark)" stroke-width="2.5" />
+        <circle class="node node--3" cx="206" cy="90" r="6" fill="var(--green)" stroke="var(--bark)" stroke-width="2.5" />
+        <path class="spark" d="M196 24 l 5 12 l 12 5 l -12 5 l -5 12 l -5 -12 l -12 -5 l 12 -5 z" fill="var(--yellow)" stroke="var(--bark)" stroke-width="2.5" stroke-linejoin="round" />
+        <path class="spark spark--2" d="M40 138 l 4 9 l 9 4 l -9 4 l -4 9 l -4 -9 l -9 -4 l 9 -4 z" fill="var(--teal)" stroke="var(--bark)" stroke-width="2.5" stroke-linejoin="round" />
+      </svg>
+    )}
+  </div>
+
+  <span class="year-art__tag">{g.replace('-', ' ')} era</span>
+</div>
+
+<style>
+  .year-art {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .year-art__scene {
+    border: var(--border-thick);
+    border-radius: 6px;
+    background: var(--bg-card);
+    box-shadow: var(--shadow-brutal);
+    padding: 1rem;
+    transform: rotate(-1.5deg);
+    transition: transform 0.35s var(--ease-bounce);
+  }
+  .year-art:hover .year-art__scene {
+    transform: rotate(1deg) scale(1.02);
+  }
+  .year-art__scene svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .year-art__tag {
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    background: var(--bark);
+    color: var(--bg);
+    padding: 0.25rem 0.7rem;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+
+  /* shared animations */
+  @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+  .cursor { animation: blink 1s step-end infinite; }
+
+  @keyframes scanMove { 0% { width: 20px; opacity: 0.4; } 50% { width: 96px; opacity: 1; } 100% { width: 20px; opacity: 0.4; } }
+  .scan { animation: scanMove 2.4s ease-in-out infinite; }
+  .scan--2 { animation-delay: 0.3s; }
+  .scan--3 { animation-delay: 0.6s; }
+
+  @keyframes waveMove { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
+  .wave { animation: waveMove 1.6s ease-in-out infinite; }
+
+  @keyframes loadFill { 0% { width: 0; } 70% { width: 128px; } 100% { width: 128px; } }
+  .loadbar { animation: loadFill 2.6s ease-in-out infinite; }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .orbit { transform-origin: 196px 70px; animation: spin 9s linear infinite; }
+
+  @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+  .dot { animation: bob 2s ease-in-out infinite; }
+
+  @keyframes draw { 0% { stroke-dashoffset: 400; } 60%, 100% { stroke-dashoffset: 0; } }
+  .crashline { stroke-dasharray: 400; animation: draw 3s ease-in-out infinite; }
+
+  .disc { transform-origin: 196px 52px; animation: spin 7s linear infinite; }
+
+  @keyframes noteFloat { 0%, 100% { transform: translateY(0); opacity: 1; } 50% { transform: translateY(-6px); opacity: 0.7; } }
+  .note { animation: noteFloat 1.8s ease-in-out infinite; }
+
+  @keyframes pulsePlay { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+  .play { transform-origin: 129px 84px; animation: pulsePlay 1.6s ease-in-out infinite; }
+
+  @keyframes vidFill { 0% { width: 0; } 80% { width: 156px; } 100% { width: 156px; } }
+  .vidbar { animation: vidFill 4s ease-in-out infinite; }
+
+  @keyframes thumbPop { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-4px) rotate(-6deg); } }
+  .thumb { transform-origin: 186px 27px; animation: thumbPop 1.5s ease-in-out infinite; }
+
+  @keyframes appPop { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.14); } }
+  .app { transform-box: fill-box; transform-origin: center; animation: appPop 2.4s ease-in-out infinite; }
+  .app--1 { animation-delay: 0s; } .app--2 { animation-delay: 0.2s; }
+  .app--3 { animation-delay: 0.4s; } .app--4 { animation-delay: 0.6s; }
+  .app--5 { animation-delay: 0.8s; } .app--6 { animation-delay: 1s; }
+
+  @keyframes sigPulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+  .sig { animation: sigPulse 1.8s ease-in-out infinite; }
+  .sig--2 { animation-delay: 0.4s; }
+
+  @keyframes feedScroll { 0%, 20% { transform: translateY(0); } 45%, 65% { transform: translateY(-40px); } 90%, 100% { transform: translateY(0); } }
+  .feed { animation: feedScroll 6s ease-in-out infinite; }
+
+  @keyframes heartBeat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.18); } 30% { transform: scale(1); } 45% { transform: scale(1.12); } 60% { transform: scale(1); } }
+  .heart { transform-box: fill-box; transform-origin: center; animation: heartBeat 2.2s ease-in-out infinite; }
+
+  @keyframes linkPulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+  .link { animation: linkPulse 2s ease-in-out infinite; }
+
+  @keyframes speakerGlow { 0%, 100% { filter: drop-shadow(0 0 0 transparent); } 50% { filter: drop-shadow(0 0 6px var(--yellow)); } }
+  .speaker { animation: speakerGlow 2.4s ease-in-out infinite; }
+
+  @keyframes nodePulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.25); } }
+  .node { transform-box: fill-box; transform-origin: center; animation: nodePulse 2s ease-in-out infinite; }
+  .node--2 { animation-delay: 0.4s; }
+  .node--3 { animation-delay: 0.8s; }
+
+  @keyframes sparkle { 0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; } 50% { transform: scale(0.8) rotate(20deg); opacity: 0.7; } }
+  .spark { transform-box: fill-box; transform-origin: center; animation: sparkle 1.8s ease-in-out infinite; }
+  .spark--2 { animation-delay: 0.6s; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .year-art * { animation: none !important; }
+  }
+</style>

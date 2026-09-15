@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2018,
+  "title": "The Year the Party Ended",
+  "era": "platform-era",
+  "narrative": "GDPR enforcement forced a global privacy reckoning. Cambridge Analytica destroyed trust in Facebook. Fortnite became a cultural operating system for kids. TikTok launched the short-form video revolution. The platforms built in the optimistic 2010s started facing the consequences of their power.",
+  "felt_like": {
+    "os": "iOS 12 / Android 9 Pie",
+    "browser": "Chrome / Safari",
+    "messenger": "WhatsApp / Messenger",
+    "social_network": "TikTok / Instagram",
+    "music": "Spotify / Apple Music",
+    "phone": "iPhone X / Samsung Galaxy S9",
+    "video": "YouTube / Netflix / Fortnite streams",
+    "website": "Cookie consent walls, breach notifications, and algorithmic feeds"
+  },
+  "events": [
+    "gdpr-enforcement-2018",
+    "cambridge-analytica-2018",
+    "tiktok-merger-2018",
+    "fortnite-cultural-2018",
+    "march-for-our-lives-2018",
+    "youtube-ad-pocalypse-2018",
+    "iphone-x-2017",
+    "facebook-redesign-2018",
+    "steam-fortnite-2018",
+    "blackout-challenge-2018"
+  ]
+}

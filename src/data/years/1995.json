@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1995,
+  "title": "The Year the Web Exploded",
+  "era": "early-web",
+  "narrative": "Windows 95 ships with Internet Explorer. Netscape goes public and launches the dot-com gold rush. Java promises to make the web interactive. AltaVista makes the web searchable. GeoCities gives everyone a homepage. The internet stops being academic and starts being cultural.",
+  "felt_like": {
+    "os": "Windows 95",
+    "browser": "Netscape Navigator / Internet Explorer 1",
+    "messenger": "ICQ (uh oh!)",
+    "social_network": "GeoCities neighborhoods",
+    "music": "Winamp with MP3s",
+    "phone": "Nokia 2110",
+    "video": "Mosaic animated GIFs",
+    "website": "a GeoCities page with a hit counter and animated fire"
+  },
+  "events": [
+    "java-launch-1995",
+    "internet-explorer-1995",
+    "netscape-ipo-1995",
+    "geocities-launch-1995",
+    "altavista-launch-1995",
+    "icq-launch-1996-preview",
+    "windows-95-launch-1995",
+    "html-2.0-1995",
+    "yahoo-ipo-1996-preview"
+  ]
+}

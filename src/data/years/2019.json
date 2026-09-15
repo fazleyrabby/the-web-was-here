@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2019,
+  "title": "The Year Everything Was About to Change",
+  "era": "platform-era",
+  "narrative": "Disney+ detonated the streaming wars. Google Stadia promised console-free gaming. Foldable phones hinted at the future. 5G networks began rolling out. TikTok's algorithm rewired how social media works. Zoom went public, unknowingly preparing for a world that would need it. The platforms were ready. The world wasn't ready for what came next.",
+  "felt_like": {
+    "os": "iOS 13 / Android 10",
+    "browser": "Chrome / Safari",
+    "messenger": "WhatsApp / Messenger / Telegram",
+    "social_network": "TikTok / Instagram / Twitter",
+    "music": "Spotify / Apple Music",
+    "phone": "iPhone 11 / Samsung Galaxy S10 / Huawei Mate 30",
+    "video": "YouTube / Netflix / Disney+ / Fortnite",
+    "website": "Streaming wars, algorithmic feeds, and data breach notifications"
+  },
+  "events": [
+    "google-stadia-2019",
+    "disney-plus-2019",
+    "joker-movie-2019",
+    "zoom-ipo-2019",
+    "foldable-phones-2019",
+    "5g-launch-2019",
+    "whatsapp-zero-click-2019",
+    "tiktok-algorithm-2019",
+    "hk-protests-tech-2019",
+    "iran-internet-shutdown-2019"
+  ]
+}

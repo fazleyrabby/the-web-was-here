@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1993,
+  "title": "The Year the Web Went Visual",
+  "era": "foundation",
+  "narrative": "Mosaic puts images on the same page as text and the Web becomes something you want to look at. The number of servers grows 300-fold in a year. Windows 3.1 lands on desks everywhere, and the browser stops being a research tool and starts being a habit.",
+  "felt_like": {
+    "os": "Windows 3.1 / Mac System 7",
+    "browser": "NCSA Mosaic",
+    "messenger": "IRC / Talk",
+    "social_network": "Usenet newsgroups",
+    "music": "Audio CDs / Winamp not yet",
+    "phone": "Landline / brick mobile",
+    "video": "Cable TV / VHS",
+    "website": "gray background, blue underlined links, maybe one inline GIF"
+  },
+  "events": [
+    "mosaic-browser-1993",
+    "gif-a2-b-1993",
+    "windows-31-released-1993",
+    "nls-gopher-closed-1993",
+    "first-graphic-novel-online-1993",
+    "online-gambling-first-1993",
+    "first-web-directory-1993",
+    "interNIC-established-1993",
+    "mcnc-ncsa-mosaic-publicity-1993"
+  ]
+}

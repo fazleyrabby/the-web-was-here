@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2016,
+  "title": "The Year Reality Bent",
+  "era": "platform-era",
+  "narrative": "Pokémon GO made augmented reality a global obsession. Facebook Live changed how the world broadcasts. Snapchat put a camera on your face. The post-truth era began. Yahoo revealed the largest data breach in history. The internet started to feel like it was everywhere — and nowhere safe.",
+  "felt_like": {
+    "os": "iOS 10 / Android 7 Nougat",
+    "browser": "Chrome",
+    "messenger": "WhatsApp / Messenger",
+    "social_network": "Snapchat / Instagram",
+    "music": "Spotify / Apple Music",
+    "phone": "iPhone 7 / Samsung Galaxy S7",
+    "video": "YouTube / Netflix / Facebook Live",
+    "website": "Pokémon GO maps, live streams, and filter bubbles"
+  },
+  "events": [
+    "pokemon-go-2016",
+    "facebook-live-2016",
+    "snapchat-spectacles-2016",
+    "brexit-tech-2016",
+    "post-truth-2016",
+    "yahoo-breach-2016",
+    "nmt-launch-2016",
+    "uber-autonomous-2016",
+    "usb-c-transition-2016",
+    "niansky-2016"
+  ]
+}

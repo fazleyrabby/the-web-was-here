@@ -1,0 +1,252 @@
+[
+  {
+    "id": "google-founding-1998",
+    "title": "Google Founded",
+    "year": 1998,
+    "date": "1998-09-04",
+    "category": ["search", "business"],
+    "type": "company_launch",
+    "summary": "Larry Page and Sergey Brin incorporate Google Inc. after developing PageRank at Stanford.",
+    "narrative": "Two Stanford PhD students build a search engine that ranks pages by how many other pages link to them. They call it BackRub. Then they rename it Google, a misspelling of 'googol.' Their first office is Susan Wojcicki's garage in Menlo Park. Yahoo and AltaVista already exist. But Google finds better results. It starts small and eats the world.",
+    "why_it_matters": "PageRank revolutionized search. Google became the default way humans find information. The garage origin story became Silicon Valley mythology.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["google-ipo-2004", "adwords-2000", "gmail-2004", "google-dominance"],
+    "tags": ["google", "search", "stanford", "pagerank", "garage"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Google: Our History",
+        "url": "https://about.google/intl/en/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ie-wins-browser-war-1998",
+    "title": "Internet Explorer 4.0 Bundled with Windows",
+    "year": 1998,
+    "date": "1998-06-25",
+    "category": ["software", "web"],
+    "type": "platform_shift",
+    "summary": "Microsoft bundles Internet Explorer with Windows, effectively winning the first browser war against Netscape.",
+    "narrative": "Netscape Navigator had 90% market share in 1995. Then Microsoft bundles IE with Windows and gives it away free. By 1998, IE crosses 50% and keeps climbing. Netscape开源s their browser but it's too late. The antitrust trial begins. The browser war is over. Microsoft won. For a while.",
+    "why_it_matters": "Demonstrated the power of bundling. Led to the antitrust case that defined tech regulation. Showed that open-source could fight back (eventually).",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["antitrust-microsoft-1998", "netscape-collapse", "firefox-rise-2004", "chrome-2008"],
+    "tags": ["internet-explorer", "netscape", "microsoft", "browser-war", "antitrust"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "The Browser Wars",
+        "url": "https://en.wikipedia.org/wiki/Browser_wars",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "amazon-ebay-growth-1998",
+    "title": "Amazon and eBay Go Public",
+    "year": 1998,
+    "date": "1998-05-22",
+    "category": ["business", "web"],
+    "type": "business_event",
+    "summary": "Amazon and eBay's IPOs in 1998 validate e-commerce and online auctions as billion-dollar businesses.",
+    "narrative": "Amazon IPOs at $18 a share. eBay IPOs at $53. Amazon is losing money. eBay is printing money. Jeff Bezos says he's playing the long game. Wall Street is skeptical. The dot-com bubble is inflating. But both companies survive the crash. Amazon becomes the everything store. eBay defines online auctions. Both become verbs.",
+    "why_it_matters": "Proved e-commerce was real. Created the template for modern online marketplaces. Both companies survived the dot-com crash that killed hundreds of competitors.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["dot-com-crash-2000", "amazon-prime-2005", "ebay-paypal-separation-2015", "ecommerce-boom"],
+    "tags": ["amazon", "ebay", "ipo", "ecommerce", "auction"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Amazon.com History",
+        "url": "https://en.wikipedia.org/wiki/History_of_Amazon",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-antitrust-1998",
+    "title": "Microsoft Antitrust Trial Begins",
+    "year": 1998,
+    "date": "1998-10-19",
+    "category": ["business", "software"],
+    "type": "cultural_event",
+    "summary": "The US Department of Justice sues Microsoft for anti-competitive practices, beginning the biggest tech antitrust case in history.",
+    "narrative": "Bill Gates testifies via video deposition and comes across as evasive and combative. The government argues Microsoft used its Windows monopoly to crush Netscape. The famous 'chair throwing' scene. Judge Jackson eventually rules Microsoft is a monopoly. The case reshapes how the world thinks about big tech.",
+    "why_it_matters": "First major tech antitrust case. Set precedents for how governments regulate technology monopolies. The ruling forced Microsoft to open up to competitors.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["eu-google-antitrust-2017", "tech-regulation", "microsoft-open-source", "browser-choice"],
+    "tags": ["microsoft", "antitrust", "doj", "bill-gates", "monopoly"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "United States v. Microsoft Corp.",
+        "url": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "icq-aim-1998",
+    "title": "IM Wars: ICQ vs AIM",
+    "year": 1998,
+    "date": "1998-01-01",
+    "category": ["communication", "software"],
+    "type": "cultural_event",
+    "summary": "Instant messaging explodes as ICQ and AOL Instant Messenger fight for dominance of real-time communication.",
+    "narrative": "ICQ launched in 1996 and made 'uh oh' a sound everyone knew. AOL responds with AIM in 1997. By 1998, IM is how people communicate. Away messages become an art form. Buddy lists become social graphs. File sharing, chat rooms, and that satisfying door-open sound. This is the first time most people experience real-time online communication.",
+    "why_it_matters": "Created the real-time communication paradigm. Away messages were proto-status updates. Buddy lists were proto-social graphs. Directly influenced every messaging app since.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["gtalk-2005", "whatsapp-2009", "slack-2013", "discord-2015"],
+    "tags": ["icq", "aim", "instant-messaging", "chat", "away-message"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "The Golden Age of Instant Messaging",
+        "url": "https://en.wikipedia.org/wiki/Instant_messaging",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "mp3-napster-1998",
+    "title": "MP3 and the Napster Prelude",
+    "year": 1998,
+    "date": "1998-01-01",
+    "category": ["entertainment", "software"],
+    "type": "cultural_event",
+    "summary": "MP3 format gains mainstream adoption and the Digital Millennium Copyright Act is signed into law.",
+    "narrative": "The MP3 format makes music files small enough to share over the internet. Diamond Multimedia releases the Rio PMP300, the first portable MP3 player. The RIAA panics. Congress passes the DMCA. Napster is about to change everything. But in 1998, it's still mostly about MP3.com and downloading individual songs.",
+    "why_it_matters": "MP3 killed the album. The DMCA set the legal framework for digital content. Together they started the music industry's digital transformation.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["napster-1999", "itunes-store-2003", "streaming-music", "dmca-debates"],
+    "tags": ["mp3", "music", "digital", "dmca", "riaa"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "MP3: The Definitive Source",
+        "url": "https://en.wikipedia.org/wiki/MP3",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "geocities-peak-1998",
+    "title": "GeoCities Peak and the Personal Web",
+    "year": 1998,
+    "date": "1998-01-01",
+    "category": ["web", "design"],
+    "type": "cultural_event",
+    "summary": "GeoCities reaches its peak as millions of people build their first personal websites with animated GIFs and guestbooks.",
+    "narrative": "GeoCities gives everyone a free homepage with neighborhoods — Hollywood for entertainment, SiliconValley for tech, Tokyo for anime. Your page has a hit counter, a guestbook, animated GIF flames, and a marquee that says 'Welcome to My Page.' It's ugly, it's chaotic, and it's the most democratic creative expression the world has ever seen.",
+    "why_it_matters": "Taught millions of people HTML. Created the first web communities. The personal homepage is the ancestor of every social media profile.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["myspace-profiles-2003", "blogging-era-2002", "social-media-profiles", "web-design-evolution"],
+    "tags": ["geocities", "html", "personal-homepage", "web-design", "guestbook"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "GeoCities: A History",
+        "url": "https://en.wikipedia.org/wiki/GeoCities",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "aol-digital-city-1998",
+    "title": "AOL Dominates ISP Market",
+    "year": 1998,
+    "date": "1998-01-01",
+    "category": ["business", "communication"],
+    "type": "platform_shift",
+    "summary": "AOL reaches 12 million subscribers, becoming the dominant internet gateway for American households.",
+    "narrative": "You can't escape AOL. The CDs are everywhere — in your mailbox, at the grocery store, in magazines. 'You've Got Mail' becomes a cultural catchphrase. AOL Instant Messenger connects millions. For most Americans, AOL IS the internet. It's walled, it's curated, and it's about to face the open web.",
+    "why_it_matters": "Brought the internet to mainstream America. Created the walled-garden model. AOL's decline would teach the industry that open beats closed.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["dialup-to-broadband", "walled-gardens", "aol-time-warner-2000", "open-web"],
+    "tags": ["aol", "isp", "dialup", "walled-garden", "email"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "AOL: The Rise and Fall",
+        "url": "https://en.wikipedia.org/wiki/AOL",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "real-audio-1998",
+    "title": "RealAudio Streaming",
+    "year": 1998,
+    "date": "1998-01-01",
+    "category": ["entertainment", "software"],
+    "type": "technology_release",
+    "summary": "RealPlayer and RealAudio make streaming media possible, enabling live radio and video over the internet.",
+    "narrative": "Before YouTube, before Spotify, before Netflix streaming, there was RealPlayer. The little purple icon that buffered. You'd click a link to listen to a radio station from Tokyo. It would buffer. And buffer. And buffer. Then play for 30 seconds and buffer again. But it was LIVE. You were hearing something from the other side of the world in real time. That was magic.",
+    "why_it_matters": "Pioneered streaming media. Proved live audio/video over the internet was possible. Set the technical foundation for every streaming service that followed.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["youtube-streaming-2005", "spotify-2008", "netflix-streaming-2007", "live-streaming"],
+    "tags": ["realplayer", "streaming", "audio", "video", "buffering"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "RealNetworks History",
+        "url": "https://en.wikipedia.org/wiki/RealNetworks",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "xml-web-services-1998",
+    "title": "XML 1.0 Published",
+    "year": 1998,
+    "date": "1998-02-10",
+    "category": ["web", "development"],
+    "type": "standardization",
+    "summary": "The W3C publishes the XML 1.0 specification, establishing the foundation for data interchange on the web.",
+    "narrative": "HTML tells browsers how to display things. XML tells computers what things mean. It's boring compared to the browser wars, but XML becomes the backbone of web services, SOAP, RSS feeds, and enterprise software. Every API you've ever used has XML DNA, even if JSON eventually stole its lunch.",
+    "why_it_matters": "Created the standard for structured data exchange. Enabled web services, RSS, and modern APIs. JSON may be more popular now, but XML built the foundation.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["web-services-2000", "rss-feeds-2002", "json-adoption-2010", "soap-apis"],
+    "tags": ["xml", "w3c", "standard", "data", "web-services"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "XML 1.0 Specification",
+        "url": "https://www.w3.org/TR/REC-xml/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

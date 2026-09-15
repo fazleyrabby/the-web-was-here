@@ -1,0 +1,252 @@
+[
+  {
+    "id": "google-stadia-2019",
+    "title": "Google Stadia Promises Console-Free Gaming",
+    "year": 2019,
+    "date": "2019-11-19",
+    "category": ["gaming", "software"],
+    "type": "product_launch",
+    "summary": "Google launches Stadia, a cloud gaming service that promises to stream AAA games to any screen without a console.",
+    "narrative": "Google's pitch is irresistible: play AAA games on your phone, laptop, or TV without buying a $500 console. Stadia streams from Google's data centers, using the same infrastructure that powers YouTube. The launch is rocky — limited game library, spotty performance, and a confusing controller situation. But the idea is right. Cloud gaming is the future. Google just wasn't ready for the present.",
+    "why_it_matters": "Proved cloud gaming was technically feasible. Accelerated Microsoft's xCloud and NVIDIA's GeForce Now development. Showed that infrastructure doesn't guarantee product success.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["xcloud-development", "geforce-now", "cloud-gaming-future", "console-ownership-decline"],
+    "tags": ["google-stadia", "cloud-gaming", "streaming", "gaming", "infrastructure"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Google Stadia",
+        "url": "https://en.wikipedia.org/wiki/Stadia",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "disney-plus-2019",
+    "title": "Disney+ Launches and Shatters Records",
+    "year": 2019,
+    "date": "2019-11-12",
+    "category": ["media", "business"],
+    "type": "product_launch",
+    "summary": "Disney+ launches and gains 10 million subscribers on day one, instantly becoming a major streaming competitor.",
+    "narrative": "Disney doesn't just enter the streaming wars. It detonates them. Disney+ launches with Marvel, Star Wars, Pixar, and the entire Disney vault for $6.99/month. Ten million people sign up on day one. The app crashes from demand. Netflix's stock drops 6% overnight. The Mouse House has the content library that makes streaming inevitable. The streaming wars are no longer a two-horse race.",
+    "why_it_matters": "Disrupted the streaming landscape overnight. Forced every media company to accelerate their streaming plans. Proved that content libraries win in streaming.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["streaming-wars", "netstock-drop", "media-conglomerate-streaming", "bundling-strategies"],
+    "tags": ["disney-plus", "streaming", "disney", "netflix", "entertainment"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Disney+",
+        "url": "https://en.wikipedia.org/wiki/Disney%2B",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "joker-movie-2019",
+    "title": "Joker Becomes a Cultural Lightning Rod",
+    "year": 2019,
+    "date": "2019-10-04",
+    "category": ["culture", "media"],
+    "type": "cultural_moment",
+    "summary": "Todd Phillips' Joker becomes the highest-grossing R-rated film, sparking debates about mental health, violence, and meme culture.",
+    "narrative": "Joker isn't just a movie. It's a meme factory. Joaquin Phoenix's portrayal of Arthur Fleck becomes the most imitated character of 2019. The dance on the stairs becomes a TikTok trend. The 'we live in a society' discourse goes mainstream. The film wins the Golden Lion at Venice despite controversy. It makes over $1 billion on a $55 million budget. The incel-to-mainstream pipeline becomes a cultural talking point.",
+    "why_it_matters": "Demonstrated how meme culture can drive box office success. Sparked conversations about representation and mental health in media. Changed how studios think about franchise filmmaking.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["meme-to-box-office", "mental-health-awareness", "franchise-elseworlds", "cultural-discourse"],
+    "tags": ["joker", "movie", "memes", "dc-comics", "culture"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Joker (2019 film)",
+        "url": "https://en.wikipedia.org/wiki/Joker_(2019_film)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "zoom-ipo-2019",
+    "title": "Zoom Goes Public",
+    "year": 2019,
+    "date": "2019-04-18",
+    "category": ["business", "communication"],
+    "type": "market_event",
+    "summary": "Zoom Video Communications IPOs at $36 per share, valuing the company at $16 billion.",
+    "narrative": "Nobody outside the enterprise software world pays attention to Zoom's IPO. The stock jumps 72% on day one. Eric Yuan, the CEO who left Cisco to build a better video conferencing tool, becomes a billionaire. The product is simple: reliable video calls that actually work. No one realizes how essential that simplicity will become. In 12 months, a pandemic will make Zoom a household name. The timing is almost too perfect.",
+    "why_it_matters": "Validated enterprise video conferencing as a major market. Positioned Zoom perfectly for the pandemic boom. Proved that 'boring' enterprise software could be a massive business.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["pandemic-zoom-2020", "remote-work-infrastructure", "video-conferencing-standard", "virtual-backgrounds"],
+    "tags": ["zoom", "ipo", "video-conferencing", "enterprise", "remote-work"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Zoom Video Communications",
+        "url": "https://en.wikipedia.org/wiki/Zoom_Video_Communications",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "foldable-phones-2019",
+    "title": "Foldable Phones Arrive",
+    "year": 2019,
+    "date": "2019-02-20",
+    "category": ["hardware", "design"],
+    "type": "product_launch",
+    "summary": "Samsung and Huawei announce foldable smartphones, promising to reinvent the phone form factor.",
+    "narrative": "Samsung shows off the Galaxy Fold: a phone that unfolds into a tablet. Huawei counters with the Mate X. The demos are stunning. The reality is fragile. Early review units break. Samsung delays launch by months. The Fold relaunches with fixes. It costs $1,980. The idea is right: screens should be bigger when you need them and smaller when you don't. The execution isn't there yet. But the seed is planted.",
+    "why_it_matters": "Introduced a new form factor to the smartphone market. Proved flexible display technology was real. Set the stage for the foldable market that would grow through 2025.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["samsung-fold-market", "flip-phones", "flexible-displays", "tablet-phone-convergence"],
+    "tags": ["foldable", "samsung", "huawei", "smartphone", "display"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Samsung Galaxy Fold",
+        "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fold",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "5g-launch-2019",
+    "title": "5G Networks Begin Rolling Out",
+    "year": 2019,
+    "date": "2019-04-03",
+    "category": ["hardware", "standards"],
+    "type": "platform_shift",
+    "summary": "South Korea and the US begin launching 5G networks, promising 100x speed improvements over 4G.",
+    "narrative": "South Korea flips the switch on 5G first. Verizon follows in the US. The promises are enormous: 100x faster speeds, 1ms latency, capacity for a million devices per square kilometer. Self-driving cars! Remote surgery! Smart cities! The reality in 2019 is more modest: slightly faster downloads in select areas. But the infrastructure is being laid. 5G will take years to reach its potential. The race between the US and China for 5G dominance becomes geopolitical.",
+    "why_it_matters": "Began the next generation of wireless connectivity. Sparked US-China tech competition over infrastructure. Laid the groundwork for IoT, autonomous vehicles, and edge computing.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["us-china-tech-war", "iot-infrastructure", "edge-computing", "smart-city-development"],
+    "tags": ["5g", "wireless", "infrastructure", "south-korea", "geopolitics"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "5G",
+        "url": "https://en.wikipedia.org/wiki/5G",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "whatsapp-zero-click-2019",
+    "title": "WhatsApp Zero-Click Exploit Discovered",
+    "year": 2019,
+    "date": "2019-05-13",
+    "category": ["security", "software"],
+    "type": "security_incident",
+    "summary": "NSO Group's Pegasus spyware is found exploiting a WhatsApp vulnerability to surveil journalists and activists.",
+    "narrative": "Security researchers discover that NSO Group's Pegasus spyware can take over a WhatsApp phone with just a missed call. No clicking links. No downloading apps. Just a call that you never even see. The exploit is used to surveil journalists, human rights lawyers, and activists. WhatsApp sues NSO Group. The case exposes how commercial spyware has become a tool for governments to silence critics. Encryption doesn't help when the attack happens at the device level.",
+    "why_it_matters": "Revealed the commercial spyware industry's reach. Showed that even end-to-end encrypted apps could be compromised. Sparked a global debate about surveillance technology.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["spyware-awareness", "encryption-debate", "nsopro lawsuits", "digital-rights"],
+    "tags": ["whatsapp", "spyware", "nso-group", "surveillance", "encryption"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Pegasus (spyware)",
+        "url": "https://en.wikipedia.org/wiki/Pegasus_(spyware)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "tiktok-algorithm-2019",
+    "title": "TikTok's Algorithm Becomes the Talk of Silicon Valley",
+    "year": 2019,
+    "date": "2019-06-01",
+    "category": ["software", "culture"],
+    "type": "platform_shift",
+    "summary": "TikTok's recommendation algorithm proves so effective that every major platform scrambles to copy it.",
+    "narrative": "TikTok's For You Page doesn't care about your friends. It doesn't care about your follower count. It only cares about what you watch, how long you watch it, and what makes you keep scrolling. The algorithm is so good that it can make anyone famous overnight. Silicon Valley is obsessed. Instagram copies it with Reels. YouTube copies it with Shorts. Snapchat copies it with Spotlight. The feed-based social network dies. The interest-based feed takes over.",
+    "why_it_matters": "Killed the follower-based social graph. Proved that interest-based recommendations drive more engagement. Forced every social platform to rebuild their algorithms.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["reels-algorithm", "shorts-algorithm", "interest-graph", "creator-economy-disruption"],
+    "tags": ["tiktok", "algorithm", "for-you-page", "social-media", "recommendation"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "TikTok: Algorithm and features",
+        "url": "https://en.wikipedia.org/wiki/TikTok#Algorithm",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "hk-protests-tech-2019",
+    "title": "Hong Kong Protests Demonstrate Tech-Enabled Activism",
+    "year": 2019,
+    "date": "2019-06-09",
+    "category": ["culture", "security"],
+    "type": "cultural_moment",
+    "summary": "Hong Kong protesters use AirDrop, Telegram, and decentralized coordination to organize the largest protests in the city's history.",
+    "narrative": "Two million people march in Hong Kong — that's one in four residents. The protests are organized through Telegram groups, with no central leader. Protesters use AirDrop to spread information to mainland Chinese tourists. They wear masks to defeat facial recognition. They use umbrellas to block CCTV cameras. It's the most technologically sophisticated protest movement in history. The playbook is studied by activists worldwide.",
+    "why_it_matters": "Created the blueprint for tech-enabled protest movements. Demonstrated how decentralized communication resists authoritarian control. Influenced protest tactics globally.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["protest-tech", "decentralized-organizing", "surveillance-resistance", "telegram-adoption"],
+    "tags": ["hong-kong", "protests", "telegram", "airdrop", "surveillance"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "2019–2020 Hong Kong protests",
+        "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "iran-internet-shutdown-2019",
+    "title": "Iran Shuts Down the Internet During Protests",
+    "year": 2019,
+    "date": "2019-11-16",
+    "category": ["security", "standards"],
+    "type": "political_event",
+    "summary": "Iran implements a near-total internet shutdown during nationwide protests, demonstrating the power of state-controlled infrastructure.",
+    "narrative": "When protests erupt over fuel price increases, Iran pulls the plug. Not censorship. A complete internet shutdown. For a week, 80 million people are cut off from the outside world. The shutdown is so thorough that even VPNs can't help. Human rights organizations can't verify what's happening. The government controls the infrastructure, and the infrastructure is turned off. It's a preview of what state-controlled internet looks like.",
+    "why_it_matters": "Demonstrated how governments can weaponize internet infrastructure. Spurred development of mesh networking and censorship circumvention tools. Made internet freedom a national security issue.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["mesh-networking", "internet-freedom-tools", "infrastructure-sovereignty", "digital-rights"],
+    "tags": ["iran", "internet-shutdown", "censorship", "protests", "infrastructure"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Internet shutdowns and restrictions during the 2019 Iranian protests",
+        "url": "https://en.wikipedia.org/wiki/2019_Iranian_protests#Internet_shutdown",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

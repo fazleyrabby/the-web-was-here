@@ -1,0 +1,60 @@
+---
+import YearLayout from '../../layouts/Year.astro';
+import YearBody from '../../components/YearBody.astro';
+
+const eventModules = import.meta.glob('../../data/events/*.json', { eager: true });
+const yearModules = import.meta.glob('../../data/years/*.json', { eager: true });
+
+function unwrap(mod: any) {
+  return mod && mod.default !== undefined ? mod.default : mod;
+}
+
+export function getStaticPaths() {
+  const years = import.meta.glob('../../data/years/*.json', { eager: true });
+  const nums = Object.keys(years)
+    .map((path) => parseInt(path.split('/').pop()!.replace('.json', ''), 10))
+    .sort((a, b) => a - b);
+  return nums.map((year) => ({ params: { year: String(year) } }));
+}
+
+const { year } = Astro.params;
+const yearNum = parseInt(year!, 10);
+
+const yearData = unwrap(yearModules[`../../data/years/${year}.json`]) ?? {};
+const events = unwrap(eventModules[`../../data/events/${year}.json`]) ?? [];
+
+const title = yearData.title ?? `${year}`;
+const narrative = yearData.narrative;
+const feltLike = yearData.felt_like;
+---
+
+<YearLayout year={yearNum} title={title} narrative={narrative}>
+  {events.length > 0 ? (
+    <YearBody events={events} feltLike={feltLike} />
+  ) : (
+    <div class="placeholder">
+      <p class="placeholder__text">Events for {year} are being researched and curated.</p>
+      <p class="placeholder__hint">Check back soon.</p>
+    </div>
+  )}
+</YearLayout>
+
+<style>
+  .placeholder {
+    text-align: center;
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    border: 2px dashed var(--bark);
+    border-radius: 4px;
+    background: var(--bg-card);
+  }
+  .placeholder__text {
+    font-family: var(--font-hand);
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+  }
+  .placeholder__hint {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+</style>

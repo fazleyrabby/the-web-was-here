@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 2001,
+  "title": "The Year the Web Grew Up",
+  "era": "bust-rebuild",
+  "narrative": "The dot-com crash wipes out trillions, but the tools that outlast it arrive anyway. Wikipedia opens its doors, the iPod puts a thousand songs in your pocket, Windows XP unifies the PC, and Napster is shut down — proof that the old world was still in charge. September 11 turns the Internet into a news wire and a way to reach people when phones failed.",
+  "felt_like": {
+    "os": "Windows XP / Mac OS X",
+    "browser": "Internet Explorer 6",
+    "messenger": "MSN Messenger / AIM",
+    "social_network": "Friendster (coming) / forums",
+    "music": "iPod / MP3 players",
+    "phone": "Nokia 8210",
+    "video": "RealPlayer",
+    "website": "guestbooks, hit counters, marquee text"
+  },
+  "events": [
+    "wikipedia-launch-2001",
+    "ipod-launch-2001",
+    "windows-xp-launch-2001",
+    "dotcom-crash-2001",
+    "napster-shutdown-2001",
+    "september-11-internet-2001",
+    "flash-animation-era-2001",
+    "instant-messenger-wars-2001",
+    "xbox-launch-2001"
+  ]
+}

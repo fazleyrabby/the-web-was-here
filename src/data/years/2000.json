@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2000,
+  "title": "The Year the Bubble Peaked",
+  "era": "bust-rebuild",
+  "narrative": "The NASDAQ hits its all-time high in March, then everything that was built on hype starts to wobble. AOL buys Time Warner in the largest merger in history. Napster makes music free for 80 million people. Broadband quietly passes five million homes and the always-on Internet begins.",
+  "felt_like": {
+    "os": "Windows 98 / Mac OS 9",
+    "browser": "Internet Explorer 5 / Netscape 6",
+    "messenger": "AIM / ICQ",
+    "social_network": "Napster / forums",
+    "music": "Napster / burned CDs",
+    "phone": "Nokia 3310",
+    "video": "RealPlayer / QuickTime",
+    "website": "Flash intros, 'Best viewed in 800x600', visitor counters"
+  },
+  "events": [
+    "dotcom-bubble-peak-2000",
+    "mac-osx-launch-2000",
+    "playstation2-launch-2000",
+    "broadband-tipping-point-2000",
+    "aol-time-warner-merger-2000",
+    "napster-peak-2000",
+    "w3c-css2-spec-2000",
+    "mobile-internet-wap-2000"
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "wordpress-launch-2003",
+    "title": "WordPress Launches",
+    "year": 2003,
+    "date": "2003-05-27",
+    "category": ["software", "web", "culture"],
+    "type": "product_launch",
+    "summary": "WordPress is released as an open-source blogging platform, eventually powering over 40% of the entire web.",
+    "narrative": "Mike Little and Matt Mullenweg fork b2/cafelog and create WordPress. It's free, open-source, and designed for blogging. The first version is simple: write posts, add categories, pick a theme. But the plugin architecture is genius. Anyone can extend it. Within a few years, WordPress isn't just for blogs — it powers news sites, e-commerce stores, portfolios, and corporate websites. By 2024, WordPress runs 43% of all websites on the internet. It's the most successful open-source project in web history.",
+    "why_it_matters": "Democratized website creation. The plugin ecosystem created an entire industry. Proved open-source could power the majority of the web.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["wix-2006", "squarespace-2004", "cms-revolution", "open-source-web"],
+    "tags": ["wordpress", "blogging", "open-source", "cms", "matt-mullenweg"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "WordPress",
+        "url": "https://en.wikipedia.org/wiki/WordPress",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "skype-launch-2003",
+    "title": "Skype Launches",
+    "year": 2003,
+    "date": "2003-08-29",
+    "category": ["communication", "software"],
+    "type": "website_launch",
+    "summary": "Skype launches as a peer-to-peer VoIP application, making free voice and video calls over the internet mainstream.",
+    "narrative": "Niklas Zennström and Janus Friis, the guys behind Kazaa, build something different: free phone calls over the internet. You download the software, create an account, and call anyone else on Skype for free. International calls that used to cost $1/minute are suddenly free. It's peer-to-peer, like Napster, but for voice. The quality isn't perfect — there's latency, compression artifacts, dropped calls — but it's free. Skype becomes the default for long-distance families, international businesses, and anyone who can't afford phone bills. eBay buys it for $2.6 billion in 2005.",
+    "why_it_matters": "Democratized international communication. Killed the long-distance phone call. Pioneered consumer video calling. Changed how businesses communicate globally.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["zoom-2011", "facetime-2010", "voip-revolution", "remote-work"],
+    "tags": ["skype", "voip", "communication", "peer-to-peer", "video-call"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Skype",
+        "url": "https://en.wikipedia.org/wiki/Skype",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "itunes-store-2003",
+    "title": "iTunes Music Store Launches",
+    "year": 2003,
+    "date": "2003-04-28",
+    "category": ["music", "business", "software"],
+    "type": "product_launch",
+    "summary": "Apple opens the iTunes Music Store, selling songs for $0.99 and proving that digital music distribution can be profitable.",
+    "narrative": "Steve Jobs convinces the music industry — battered by Napster and piracy — to let Apple sell their songs online. $0.99 per song. No DRM-free downloads (yet), but the experience is seamless. You find a song, click buy, it's in your library in seconds. The store sells 1 million songs in its first five days. It's the first time the music industry embraces digital distribution instead of fighting it. The iPod + iTunes combo becomes the most successful music ecosystem ever built. The $0.99 price point becomes the standard for a decade.",
+    "why_it_matters": "Proved digital music distribution could be profitable. Saved the music industry from piracy. Created the template for App Stores, Spotify, and all digital content platforms.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["spotify-2008", "app-store-2008", "digital-music", "music-streaming"],
+    "tags": ["itunes", "apple", "music", "digital-store", "99-cents"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "ITunes Store",
+        "url": "https://en.wikipedia.org/wiki/ITunes_Store",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "myspace-launch-2003",
+    "title": "MySpace Launches",
+    "year": 2003,
+    "date": "2003-08-01",
+    "category": ["social", "culture", "music"],
+    "type": "website_launch",
+    "summary": "MySpace launches as a social networking site, quickly becoming the most popular social network in the United States.",
+    "narrative": "Chris DeWolfe and Tom Anderson build MySpace in a few weeks. It's designed to be a place for bands and their fans, but it becomes something bigger. Everyone wants a profile page. You customize it with HTML, CSS, and auto-playing music. Your top 8 friends is the most important social ranking in existence. Bands build fanbases directly. The Killers, Arctic Monkeys, and Lily Allen break through MySpace before traditional media. At its peak, MySpace is the most visited website in America — more than Google.",
+    "why_it_matters": "Created the template for social networking profiles. Democratized music discovery. Proved user-generated content could be a business. Made profile customization an art form.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["facebook-2004", "social-profiles", "music-discovery", "user-generated-content"],
+    "tags": ["myspace", "social-network", "music", "profile", "customization"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Myspace",
+        "url": "https://en.wikipedia.org/wiki/Myspace",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "safari-browser-launch-2003",
+    "title": "Apple Launches Safari Browser",
+    "year": 2003,
+    "date": "2003-01-07",
+    "category": ["software", "web"],
+    "type": "product_launch",
+    "summary": "Apple introduces Safari, its own web browser, breaking free from Internet Explorer on the Mac and eventually becoming the dominant mobile browser.",
+    "narrative": "For years, Apple shipped Internet Explorer as the default Mac browser. Steve Jobs decides that's over. Apple acquires the KHTML rendering engine from KDE, forks it into WebKit, and builds Safari. It's faster, more standards-compliant, and it's Apple's own. Safari launches in beta and becomes the default browser on every Mac. WebKit will eventually power Chrome (before Google forks it) and every iOS browser. Apple's browser strategy will have massive implications for the web's future — including the App Store's browser-based commerce rules.",
+    "why_it_matters": "Gave Apple control over the browser experience. WebKit became the foundation for Chrome and mobile browsing. Enabled the App Store web-view rules that shape iOS development.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["chrome-2008", "webkit", "mobile-browsing", "ios-browser-rules"],
+    "tags": ["safari", "apple", "browser", "webkit", "khtml"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Safari (web browser)",
+        "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "flickr-launch-2003",
+    "title": "Flickr Launches",
+    "year": 2003,
+    "date": "2003-02-10",
+    "category": ["social", "media"],
+    "type": "website_launch",
+    "summary": "Flickr launches as a photo-sharing platform, pioneering social photography, tagging, and community curation.",
+    "narrative": "Stewart Butterfield and Caterina Fake build Flickr as a feature for a game that never launches. It becomes the best photo-sharing site on the web. Tags, comments, groups, explore — it's social photography before 'social photography' is a thing. The API is open, so developers build apps on top of it. Flickr becomes the Instagram of its era. Yahoo acquires it in 2005. For a few years, Flickr is the best place to be a photographer online. The community is passionate, the curation is human, and the experience is magical.",
+    "why_it_matters": "Pioneered social photo sharing, tagging, and community curation. The API model influenced every platform that followed. Created the template for Instagram and Pinterest.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["instagram-2010", "pinterest-2010", "social-photo-sharing", "open-api-movement"],
+    "tags": ["flickr", "photography", "social", "tags", "yahoo"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Flickr",
+        "url": "https://en.wikipedia.org/wiki/Flickr",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "overture-search-ads-2003",
+    "title": "Overture Dominates Search Advertising",
+    "year": 2003,
+    "date": "2003-01-01",
+    "category": ["business", "search"],
+    "type": "cultural_event",
+    "summary": "Overture Services (formerly GoTo.com) pioneers the paid search advertising model that will fund the entire internet economy.",
+    "narrative": "Bill Gross invented the pay-per-click auction model at GoTo.com in 1998. By 2003, Overture is printing money. Companies bid on keywords, and their ads appear above search results. It's simple, measurable, and it works. Yahoo and MSN license Overture's technology. Google watches closely and develops its own system — AdWords — which uses click-through rate to determine ad ranking, not just bids. The result? Better ads, happier users, and more money. Google's AdWords launches in 2000 but gets refined in 2003. Search advertising becomes the foundation of the internet economy.",
+    "why_it_matters": "Created the pay-per-click advertising model that funds most free web services. Google's refinement of this model made them the most profitable company in history.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["google-adwords", "facebook-ads", "programmatic-advertising", "attention-economy"],
+    "tags": ["overture", "search-ads", "pay-per-click", "advertising", "google"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Overture Services",
+        "url": "https://en.wikipedia.org/wiki/Overture_Services",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "second-life-launch-2003",
+    "title": "Second Life Opens to the Public",
+    "year": 2003,
+    "date": "2003-06-23",
+    "category": ["gaming", "social", "culture"],
+    "type": "website_launch",
+    "summary": "Second Life launches as a virtual world where users create everything, from buildings to businesses to identities.",
+    "narrative": "Linden Lab builds a virtual world with no predefined goals. You create an avatar, buy virtual land, and build whatever you want. Real money changes hands. Entrepreneurs build virtual businesses that earn real income. Reuters opens a bureau. Universities build campuses. It's the metaverse before the metaverse has a name. The hype peaks in 2006-2007, but Second Life keeps going. It's proof that virtual economies and digital identity are real concepts, not science fiction.",
+    "why_it_matters": "Pioneered user-created virtual worlds and digital economies. Proved virtual property and identity have real value. Influenced every metaverse and VR concept that followed.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["metaverse", "vr-chat", "digital-economies", "virtual-property"],
+    "tags": ["second-life", "virtual-world", "metaverse", "avatar", "economy"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Second Life",
+        "url": "https://en.wikipedia.org/wiki/Second_Life",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

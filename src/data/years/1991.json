@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1991,
+  "title": "The Web Awakens",
+  "era": "foundation",
+  "narrative": "1991 was the year the World Wide Web stepped out of CERN's shadows and into the world. Tim Berners-Lee posted his quiet announcement on Usenet, Linus Torvalds released Linux, and a camera at Cambridge invented the webcam.",
+  "felt_like": {
+    "os": "MS-DOS 5.0 / Windows 3.0 / Linux 0.01",
+    "browser": "N/A (WorldWideWeb on NeXT only)",
+    "messenger": "IRC / BBS chat",
+    "social_network": "Usenet newsgroups / BBS communities",
+    "music": "Grunge erupts—Nirvana's Nevermind",
+    "phone": "Rotary phones / early cellular bricks",
+    "video": "VHS tapes / early laser discs",
+    "website": "Simple text pages with blue underlined links"
+  },
+  "events": [
+    "world-wide-web-public-1991",
+    "linux-kernel-released-1991",
+    "first-webcam-1991",
+    "first-web-server-outside-cern-1991",
+    "commodore-amiga-still-alive-1991",
+    "pdf-format-standardized-1991",
+    "microsoft-activex-1991",
+    "aol-free-trial-disk-1991",
+    "first-domain-names-registered-1991"
+  ]
+}

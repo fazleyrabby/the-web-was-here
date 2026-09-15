@@ -1,0 +1,227 @@
+[
+  {
+    "id": "mosaic-browser-1993",
+    "title": "NCSA Mosaic 1.0 Released",
+    "year": 1993,
+    "date": "1993-04-22",
+    "category": ["software", "browser"],
+    "type": "launch",
+    "summary": "NCSA Mosaic 1.0 was released for Unix, Windows, and Mac, making the web accessible to millions.",
+    "narrative": "On April 22, 1993, NCSA released Mosaic 1.0 for free download. Within weeks, it was the most popular program on the internet. For the first time, ordinary people could browse the web with a point-and-click interface. Images loaded right alongside text, and navigating was as simple as clicking blue underlined words. The web had its killer app.",
+    "why_it_matters": "Mosaic brought the web to the masses and established the browser as the primary interface to the internet.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["netscape-founded-1994", "ie-1995", "browser-wars-1998"],
+    "tags": ["mosaic", "browser", "ncsa", "release"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "NCSA Mosaic - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "gif-a2-b-1993",
+    "title": "GIF89a Animation Standard Released",
+    "year": 1993,
+    "date": "1993-06-01",
+    "category": ["software", "media"],
+    "type": "launch",
+    "summary": "The GIF89a specification introduced animation support, enabling the animated GIFs that would define internet culture.",
+    "narrative": "The original GIF format was useful but static. GIF89a changed everything by adding animation support—multiple images stored in one file, playing in sequence. This simple addition would create an entire internet culture of animated memes, dancing baby GIFs, and eventually the reaction GIFs that dominate social media today. It was a small technical update with enormous cultural consequences.",
+    "why_it_matters": "Animated GIFs became a universal language of internet expression, from memes to reaction images.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["animated-gif-culture-1999", "reaction-gifs-2010s"],
+    "tags": ["gif", "animation", "format", "meme"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Graphics Interchange Format - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Graphics_Interchange_Format",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "windows-31-released-1993",
+    "title": "Windows 3.1 Released",
+    "year": 1993,
+    "date": "1993-04-06",
+    "category": ["software", "operating-system"],
+    "type": "launch",
+    "summary": "Microsoft released Windows 3.1, the most popular operating system of the early 1990s.",
+    "narrative": "Windows 3.1 wasn't just an operating system—it was a cultural phenomenon. With its Solitaire game, Minesweeper, and colorful interface, it brought computing to millions of homes. For many, this was their first experience with a graphical user interface. The sound of its startup chime became the soundtrack of the early 90s.",
+    "why_it_matters": "Windows 3.1 established Microsoft's dominance in personal computing and prepared millions for the internet age.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["windows-95-1995", "internet-explorer-1995"],
+    "tags": ["windows", "microsoft", "operating-system", "gui"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Windows 3.1x - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Windows_3.1x",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nls-gopher-closed-1993",
+    "title": "University of Minnesota Charges for Gopher",
+    "year": 1993,
+    "date": "1993-02-01",
+    "category": ["business", "standards"],
+    "type": "milestone",
+    "summary": "The University of Minnesota announced it would charge licensing fees for Gopher, accelerating its decline.",
+    "narrative": "Gopher was the web's biggest competitor until the University of Minnesota made a fatal mistake: they announced they would charge licensing fees for Gopher servers. In a world built on free and open protocols, this was seen as a betrayal. Users and administrators abandoned Gopher en masse for the free and open World Wide Web. The decision accelerated the web's dominance.",
+    "why_it_matters": "This decision pushed users toward the open web, demonstrating that free standards would win on the internet.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["open-source-movement-1998", "linux-kernel-released-1991"],
+    "tags": ["gopher", "licensing", "university", "decline"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Gopher (protocol) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gopher_(protocol)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-graphic-novel-online-1993",
+    "title": "First Web Comics Published",
+    "year": 1993,
+    "date": "1993-05-01",
+    "category": ["culture", "media"],
+    "type": "innovation",
+    "summary": "Early web comics began appearing online, pioneering digital storytelling.",
+    "narrative": "Artists were among the first to see the web's creative potential. In 1993, the first web comics appeared—simple image files linked together with navigation. These digital comics demonstrated that the web could be a creative medium, not just an information repository. They would eventually evolve into a massive industry with works like XKCD and Homestar Runner.",
+    "why_it_matters": "Web comics proved that the web could be a creative platform, inspiring generations of digital artists.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["xkcd-launched-2005", "webtoon-rise-2010s"],
+    "tags": ["comics", "webcomics", "art", "digital"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Webcomic - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Webcomic",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "online-gambling-first-1993",
+    "title": "First Online Gambling Site",
+    "year": 1993,
+    "date": "1993-09-01",
+    "category": ["gaming", "business"],
+    "type": "launch",
+    "summary": "The first internet gambling sites began operating, pioneering online gaming.",
+    "narrative": "Before online casinos became a billion-dollar industry, a few pioneering sites began offering gambling over the internet. Using simple interfaces and email-based transactions, these early sites demonstrated that people would gamble online. The legal and regulatory battles that followed would shape internet commerce for decades.",
+    "why_it_matters": "Online gambling pioneered secure online transactions and raised fundamental questions about internet regulation.",
+    "impact": 3,
+    "nostalgia": 2,
+    "influence": ["online-poker-boom-2003", "sports-betting-legalization-2018"],
+    "tags": ["gambling", "online", "gaming", "legal"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Online gambling - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Online_gambling",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-web-directory-1993",
+    "title": "First Web Directories Emerge",
+    "year": 1993,
+    "date": "1993-06-01",
+    "category": ["search", "software"],
+    "type": "launch",
+    "summary": "The first human-curated web directories appeared, helping users navigate the growing web.",
+    "narrative": "As the web grew from hundreds to thousands of pages, people needed help finding things. The first web directories—hand-curated lists of websites organized by category—began appearing. These directories were the web's first search engines, albeit maintained by humans rather than algorithms. They would inspire Yahoo!, DMOZ, and the entire search industry.",
+    "why_it_matters": "Web directories established the concept of organizing web content, leading to search engines and SEO.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["yahoo-founded-1994", "dmoz-1998", "google-founded-1998"],
+    "tags": ["directory", "search", "navigation", "curated"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Web directory - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Web_directory",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "interNIC-established-1993",
+    "title": "InterNIC Established for Domain Management",
+    "year": 1993,
+    "date": "1993-01-01",
+    "category": ["infrastructure", "standards"],
+    "type": "milestone",
+    "summary": "InterNIC was established to manage domain name registration, professionalizing the DNS system.",
+    "narrative": "As domain names became valuable property, the internet needed organized management. InterNIC took over domain registration from the government, creating a professional system for managing the .com, .org, and .net namespaces. This was the beginning of domain names as a business, and the foundation for the domain gold rush of the late 90s.",
+    "why_it_matters": "InterNIC professionalized domain management and established the infrastructure for the domain name industry.",
+    "impact": 3,
+    "nostalgia": 2,
+    "influence": ["verisign-1995", "domain-squatter-1994"],
+    "tags": ["internic", "domain", "dns", "management"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "InterNIC - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/InterNIC",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "mcnc-ncsa-mosaic-publicity-1993",
+    "title": "Mosaic Featured in Major Media",
+    "year": 1993,
+    "date": "1993-11-01",
+    "category": ["culture", "media"],
+    "type": "milestone",
+    "summary": "NCSA Mosaic received widespread media coverage, bringing the web to public attention.",
+    "narrative": "The New York Times ran a front-page story on Mosaic, and suddenly everyone was talking about the World Wide Web. The browser that had been popular in academic circles was now a cultural phenomenon. Download requests skyrocketed as curious non-technical users tried the web for the first time. The internet had entered the mainstream consciousness.",
+    "why_it_matters": "Media coverage brought the web to mainstream awareness and attracted the investment that would fuel the dot-com boom.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["netscape-founded-1994", "dot-com-boom-1995"],
+    "tags": ["media", "coverage", "mainstream", "mosaic"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "NCSA Mosaic - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

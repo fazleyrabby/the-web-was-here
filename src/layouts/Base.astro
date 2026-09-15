@@ -1,0 +1,303 @@
+---
+import VisitorCounter from '../components/VisitorCounter.astro';
+import ScrollProgress from '../components/ScrollProgress.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = "The Web Was Here", description = "A living archive of the Internet we grew up with." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
+  </head>
+  <body>
+    <ScrollProgress />
+    <div class="grain"></div>
+    <nav class="nav">
+      <a href="/" class="nav__logo">TWWH</a>
+      <div class="nav__links">
+        <a href="/">Timeline</a>
+        <a href="/the-web/1998">1998</a>
+        <a href="/the-web/2005">2005</a>
+        <a href="/the-web/2007">2007</a>
+        <a href="/the-web/2010">2010</a>
+        <a href="/the-web/2020">2020</a>
+      </div>
+      <div class="nav__mobile-jump">
+        <select class="nav__select" aria-label="Jump to a year" onchange="if(this.value) window.location.href=this.value">
+          <option value="">Jump to year ▾</option>
+          <option value="/">Overview</option>
+          <option value="/the-web/1990">1990 — Foundation</option>
+          <option value="/the-web/1995">1995 — Early Web</option>
+          <option value="/the-web/1998">1998 — Browser Wars</option>
+          <option value="/the-web/2001">2001 — Dot-Com Bust</option>
+          <option value="/the-web/2005">2005 — Web 2.0</option>
+          <option value="/the-web/2007">2007 — Mobile Web</option>
+          <option value="/the-web/2010">2010 — Social Era</option>
+          <option value="/the-web/2015">2015 — Platform Era</option>
+          <option value="/the-web/2020">2020 — Remote Web</option>
+          <option value="/the-web/2024">2024 — AI Web</option>
+        </select>
+      </div>
+    </nav>
+    <main>
+      <slot />
+    </main>
+    <div class="retro-pattern-band" aria-hidden="true"></div>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__doodle">
+          <svg viewBox="0 0 800 20" fill="none"><path d="M0 10 Q 40 2 80 10 T 160 10 T 240 10 T 320 10 T 400 10 T 480 10 T 560 10 T 640 10 T 720 10 T 800 10" stroke="var(--bark)" stroke-width="2.5" fill="none" /></svg>
+        </div>
+        <p class="footer__title">The Web Was Here</p>
+        <p class="footer__sub">A living archive of the Internet we grew up with.</p>
+        <div class="footer__tags">
+          <span class="footer__tag footer__tag--pink">web</span>
+          <span class="footer__tag footer__tag--green">design</span>
+          <span class="footer__tag footer__tag--yellow">social</span>
+          <span class="footer__tag footer__tag--blue">hardware</span>
+          <span class="footer__tag footer__tag--orange">culture</span>
+        </div>
+        <div class="footer__counter">
+          <VisitorCounter />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --font-hand: 'Nanum Pen Script', cursive;
+    --font-body: 'Space Grotesk', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-editorial: 'Playfair Display', Georgia, serif;
+
+    --bg: #e8e4de;
+    --bg-elevated: #ffffff;
+    --bg-card: #ffffff;
+
+    --bark: #1a1a1a;
+    --black: #000000;
+
+    --pink: #e6194b;
+    --green: #00994d;
+    --yellow: #f0b800;
+    --blue: #2255ee;
+    --orange: #e65522;
+    --purple: #8822ee;
+    --red: #dd002e;
+    --teal: #009988;
+
+    --text-primary: #0a0a0a;
+    --text-secondary: #2c2824;
+    --text-muted: #54504a;
+
+    --border: 3px solid var(--bark);
+    --border-thick: 4px solid var(--bark);
+    --border-chonk: 5px solid var(--bark);
+
+    --shadow-brutal: 6px 6px 0 var(--bark);
+    --shadow-brutal-sm: 4px 4px 0 var(--bark);
+    --shadow-brutal-lg: 8px 8px 0 var(--bark);
+
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    --spacing-2xl: 8rem;
+
+    --max-width: 1200px;
+
+    --ease-bounce: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    scrollbar-color: var(--bark) var(--bg);
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--bark); border-radius: 0; }
+
+  ::selection { background: var(--yellow); color: var(--bark); }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .grain {
+    position: fixed; inset: 0; pointer-events: none; z-index: 9999; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  a:focus-visible { outline: 4px solid var(--pink); outline-offset: 3px; }
+  img { max-width: 100%; height: auto; display: block; }
+
+  .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: rgba(232, 228, 222, 0.94);
+    backdrop-filter: blur(16px);
+    border-bottom: var(--border-thick);
+  }
+
+  .nav__logo {
+    font-family: var(--font-hand); font-size: 1.8rem; font-weight: 700;
+    color: var(--pink); transition: transform 0.25s var(--ease-out), color 0.25s var(--ease-out);
+  }
+  .nav__logo:hover { color: var(--orange); transform: scale(1.05) rotate(-2deg); }
+
+  .nav__links { display: flex; gap: var(--spacing-lg); }
+  .nav__links a {
+    font-family: var(--font-hand); font-size: 1.25rem; font-weight: 600;
+    color: var(--text-secondary); transition: color 0.2s var(--ease-out);
+    position: relative; padding: 0.25rem 0;
+  }
+  .nav__links a::after {
+    content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px;
+    background: var(--pink); transform: scaleX(0); transform-origin: left center;
+    transition: transform 0.25s var(--ease-out);
+  }
+  .nav__links a:hover { color: var(--pink); }
+  .nav__links a:hover::after { transform: scaleX(1); }
+
+  .nav__mobile-jump { display: none; }
+  .nav__select {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.45rem 0.8rem;
+    background: var(--bg-card);
+    border: 2.5px solid var(--bark);
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 var(--bark);
+    color: var(--bark);
+    cursor: pointer;
+  }
+
+  .retro-pattern-band {
+    width: 100%;
+    height: 48px;
+    border-top: var(--border-thick);
+    border-bottom: var(--border-thick);
+    background-image: url('/images/illustrations/pattern-retro-icons.jpg');
+    background-repeat: repeat-x;
+    background-size: 48px 48px;
+    opacity: 0.9;
+  }
+
+  @media (max-width: 680px) {
+    .nav__links { display: none; }
+    .nav__mobile-jump { display: block; }
+  }
+
+  .footer {
+    padding: var(--spacing-2xl) var(--spacing-lg) var(--spacing-xl);
+    position: relative; z-index: 1;
+  }
+  .footer__inner { max-width: var(--max-width); margin: 0 auto; text-align: center; }
+  .footer__doodle { margin-bottom: var(--spacing-lg); opacity: 0.3; }
+  .footer__doodle svg { width: 100%; max-width: 800px; height: 20px; }
+  .footer__title {
+    font-family: var(--font-hand); font-size: 2rem; font-weight: 700;
+    color: var(--pink); margin-bottom: var(--spacing-sm);
+  }
+  .footer__sub {
+    font-family: var(--font-editorial); font-style: italic; font-size: 1rem;
+    color: var(--text-muted); margin-bottom: var(--spacing-lg);
+  }
+  .footer__tags { display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap; }
+  .footer__tag {
+    font-family: var(--font-mono); font-size: 0.7rem; padding: 0.3rem 0.8rem;
+    border: 2.5px solid var(--bark); border-radius: 2px;
+    text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500;
+  }
+  .footer__tag--pink { background: var(--pink); color: #fff; }
+  .footer__tag--green { background: var(--green); color: var(--bark); }
+  .footer__tag--yellow { background: var(--yellow); color: var(--bark); }
+  .footer__tag--blue { background: var(--blue); color: #fff; }
+  .footer__tag--orange { background: var(--orange); color: #fff; }
+  .footer__counter { display: flex; justify-content: center; margin-top: var(--spacing-lg); }
+
+  main { padding-top: 4.5rem; position: relative; z-index: 1; }
+
+  /* ===== GLOBAL SCROLL REVEAL ===== */
+  .js .scroll-reveal,
+  .js .scroll-reveal-card {
+    opacity: 0;
+  }
+  .js .scroll-reveal.revealed {
+    animation: revealUp 0.7s var(--ease-out) var(--reveal-delay, 0s) both;
+  }
+  .js .scroll-reveal-card.revealed {
+    animation: cardIn 0.55s var(--ease-out) var(--reveal-delay, 0s) both;
+  }
+  @keyframes revealUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateY(28px) rotate(1.5deg); }
+    to { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .js .scroll-reveal, .js .scroll-reveal-card { opacity: 1; }
+    .js .scroll-reveal.revealed, .js .scroll-reveal-card.revealed { animation: none; }
+  }
+</style>
+
+<script>
+  function initReveal() {
+    const els = document.querySelectorAll('.scroll-reveal, .scroll-reveal-card');
+    if (!els.length) return;
+    if (!('IntersectionObserver' in window)) {
+      els.forEach((el) => el.classList.add('revealed'));
+      return;
+    }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -60px 0px' }
+    );
+    els.forEach((el) => {
+      if (!el.classList.contains('revealed')) observer.observe(el);
+    });
+  }
+  initReveal();
+  document.addEventListener('astro:page-load', initReveal);
+</script>

@@ -1,0 +1,259 @@
+[
+  {
+    "id": "youtube-launch-2005",
+    "title": "YouTube Launches",
+    "year": 2005,
+    "date": "2005-02-14",
+    "category": ["entertainment", "web"],
+    "type": "website_launch",
+    "summary": "YouTube goes live, making video upload and sharing accessible to anyone with an internet connection.",
+    "narrative": "Three former PayPal employees — Chad Hurley, Steve Chen, and Jawed Karim — create a simple way to share videos online. The first video, 'Me at the zoo,' is 18 seconds of Jawed at the San Diego Zoo talking about elephants. It's rough, unpolished, and completely revolutionary. Within months, 'Lazy Sunday' from SNL turns YouTube into a cultural phenomenon. Within 18 months, Google buys it for $1.65 billion.",
+    "why_it_matters": "Democratized video publishing. Created the creator economy. Made 'going viral' a real thing. Transformed entertainment, education, and politics forever.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["creator-economy-2010", "tiktok-2016", "streaming-wars-2020", "youtube-monetization-2007"],
+    "tags": ["youtube", "video", "user-generated-content", "streaming", "google"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "YouTube: The Complete History",
+        "url": "https://www.youtube.com/watch?v=kPa7bsKwL-c",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      },
+      {
+        "title": "Wired: The Story of YouTube",
+        "url": "https://en.wikipedia.org/wiki/YouTube",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "google-maps-2005",
+    "title": "Google Maps Launches",
+    "year": 2005,
+    "date": "2005-02-08",
+    "category": ["web", "software"],
+    "type": "website_launch",
+    "summary": "Google launches its mapping service with satellite imagery, local search, and driving directions.",
+    "narrative": "Before Google Maps, getting directions meant printing MapQuest pages or unfolding giant paper maps in your car. Google Maps made maps interactive — you could drag, zoom, switch to satellite view, and search for nearby restaurants. The satellite view alone felt like spy technology for regular people. Then the API launched, and suddenly every website wanted a map.",
+    "why_it_matters": "Killed paper maps. The API model created an entire ecosystem of location-based services. Paved the way for Uber, Lyft, Google Street View, and the entire geolocation economy.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["uber-2009", "google-street-view-2007", "geolocation-services", "uber-api-2014"],
+    "tags": ["google", "maps", "geolocation", "api", "satellite"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Google Maps: 15 years of mapping the world",
+        "url": "https://en.wikipedia.org/wiki/Google_Maps",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "myspace-news-corp-2005",
+    "title": "MySpace Acquired by News Corp",
+    "year": 2005,
+    "date": "2005-07-18",
+    "category": ["business", "social"],
+    "type": "acquisition",
+    "summary": "Rupert Murdoch's News Corp acquires MySpace for $580 million, validating social media as big business.",
+    "narrative": "MySpace is the biggest social network on the planet. Bands have pages. Kids customize their profiles with glitter GIFs and auto-playing music. News Corp pays $580 million and everyone says Murdoch overpaid. He didn't. Not yet, anyway. MySpace is printing money from display ads. For about 18 more months, it's the most visited website in America.",
+    "why_it_matters": "First major social media acquisition. Proved social networks had real business value. But News Corp's aggressive monetization would eventually drive users to Facebook.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["facebook-dominance-2008", "social-media-valuation", "news-corp-digital"],
+    "tags": ["myspace", "news-corp", "acquisition", "social-network", "profile-page"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "News Corp Acquires MySpace",
+        "url": "https://en.wikipedia.org/wiki/MySpace",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "reddit-launch-2005",
+    "title": "Reddit Launches",
+    "year": 2005,
+    "date": "2005-06-23",
+    "category": ["web", "social"],
+    "type": "website_launch",
+    "summary": "Reddit goes live as 'the front page of the internet,' a link aggregation and discussion platform.",
+    "narrative": "Two MIT grads, Steve Huffman and Alexis Ohanian, build a simple site where people submit links and vote on them. The best stuff rises to the top. It's Digg before Digg implodes, but with better community tools. The subreddit system lets communities form around anything. Eventually, 'Reddit' becomes synonymous with 'I saw it on Reddit' for half the content on the internet.",
+    "why_it_matters": "Created the modern link aggregation format. Subreddits pioneered interest-based community design. Became the de facto 'front page' of internet culture.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["digg-fall-2010", "community-moderation", "subreddit-model", "reddit-wallstreetbets-2021"],
+    "tags": ["reddit", "community", "link-aggregation", "upvote", "subreddit"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Reddit: The Early Days",
+        "url": "https://www.reddit.com/r/announcements/comments/legacy_of_reddit/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "web2-0-term-2005",
+    "title": "Web 2.0 Concept Takes Hold",
+    "year": 2005,
+    "date": "2005-10-01",
+    "category": ["web", "design"],
+    "type": "cultural_event",
+    "summary": "Tim O'Reilly popularizes 'Web 2.0' to describe the shift toward user-generated content, social media, and rich web applications.",
+    "narrative": "The dot-com bust killed the hype but not the web. Tim O'Reilly coins 'Web 2.0' to describe what comes next: blogs, wikis, social networks, folksonomies. The web isn't just pages anymore — it's a platform. Ajax makes websites feel like applications. Flickr, del.icio.us, and Digg show what happens when users are participants, not just consumers.",
+    "why_it_matters": "Defined an era. The '2.0' suffix became ubiquitous. Established the philosophical shift from static web to participatory web.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["ajax-revolution-2005", "social-media-boom-2006", "user-generated-content", "platform-economy"],
+    "tags": ["web-2.0", "ajax", "user-generated-content", "flickr", "delicious", "digg"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Tim O'Reilly: What Is Web 2.0",
+        "url": "https://en.wikipedia.org/wiki/Web_2.0",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "flickr-yahoo-2005",
+    "title": "Flickr Launches and Gets Acquired by Yahoo",
+    "year": 2005,
+    "date": "2005-02-15",
+    "category": ["social", "design"],
+    "type": "company_launch",
+    "summary": "Flickr launches as a photo-sharing platform and is acquired by Yahoo within months, pioneering social photography.",
+    "narrative": "Flickr makes photo sharing social. Tags, comments, groups, explore — it's the Instagram before Instagram. Yahoo acquires it in March 2005 and for a while, Flickr is the best place to be a photographer online. The community is passionate, the curation is human, and the API is open. It won't last forever, but for a few years, Flickr is magic.",
+    "why_it_matters": "Pioneered social photo sharing, tagging, and community curation. The API became a model for open platforms. Influenced every photo-sharing service that followed.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["instagram-2010", "social-photo-sharing", "tagging-systems", "open-api-movement"],
+    "tags": ["flickr", "yahoo", "photography", "tags", "social-sharing"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Flickr: A History",
+        "url": "https://en.wikipedia.org/wiki/Flickr",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "google-earth-2005",
+    "title": "Google Earth Released",
+    "year": 2005,
+    "date": "2005-06-28",
+    "category": ["software", "web"],
+    "type": "product_launch",
+    "summary": "Google Earth launches, giving anyone the ability to explore the planet from their desktop.",
+    "narrative": "Keyhole, Inc. built satellite imagery software for the military. Google acquires it, rebrands it as Google Earth, and releases it for free. Suddenly anyone can zoom from space to their backyard. People spend hours just exploring. It feels like having a personal satellite. Governments get nervous. Conspiracy theorists get excited. Everyone else just thinks it's really cool.",
+    "why_it_matters": "Made satellite imagery accessible to the public. Inspired a generation of geospatial applications. Proved free tools could change how we see the world.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["google-maps-api-2005", "geolocation-privacy-debates", "street-view-2007"],
+    "tags": ["google", "satellite", "geospatial", "exploration", "maps"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Google Earth: History and Impact",
+        "url": "https://earth.google.com/intl/en/about/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "million-dollar-homepage-2005",
+    "title": "The Million Dollar Homepage",
+    "year": 2005,
+    "date": "2005-08-26",
+    "category": ["viral-culture", "business"],
+    "type": "viral_event",
+    "summary": "Alex Tew, a 21-year-old from England, sells 1 million pixels on his website for $1 each to fund his university education.",
+    "narrative": "A broke college student in Nottingham has an idea: sell pixels on a giant 1000x1000 grid. Each pixel costs $1. Minimum purchase is 10x10. He calls it the Million Dollar Homepage. It goes viral. Companies buy pixels to put their logos. People buy pixels as jokes. The last 1,000 pixels sell on eBay for $38,100. Alex Tew graduates debt-free.",
+    "why_it_matters": "Proved the power of viral internet marketing. Showed that attention is currency. Became a case study in every business school's marketing class.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["attention-economy", "viral-marketing", "pixel-ads", "indie-hacker-culture"],
+    "tags": ["viral", "pixels", "marketing", "indie", "fundraising"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "The Million Dollar Homepage",
+        "url": "https://www.milliondollarhomepage.com/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "firefox-growth-2005",
+    "title": "Firefox 1.0 Explodes",
+    "year": 2005,
+    "date": "2005-11-09",
+    "category": ["software", "web"],
+    "type": "product_launch",
+    "summary": "Firefox 1.0 launches and quickly gains market share, challenging Internet Explorer's decade-long dominance.",
+    "narrative": "Internet Explorer has 90% market share and nobody cares. Mozilla releases Firefox 1.0 with tabbed browsing, pop-up blocking, and extensions. People actually care. Within four months, Firefox passes 50 million downloads. The Download Day campaign gets Mozilla into the Guinness Book of World Records. Microsoft finally starts paying attention to the browser again.",
+    "why_it_matters": "Broke IE's monopoly. Proved open-source browsers could compete. Saved the web from stagnation by forcing Microsoft to innovate again.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["chrome-2008", "browser-wars", "extensions-ecosystem", "open-source-browser"],
+    "tags": ["firefox", "mozilla", "browser", "open-source", "ie"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Firefox 1.0 Launch",
+        "url": "https://en.wikipedia.org/wiki/Firefox_1.0",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "podcasting-rise-2005",
+    "title": "Podcasting Goes Mainstream",
+    "year": 2005,
+    "date": "2005-09-17",
+    "category": ["entertainment", "communication"],
+    "type": "cultural_event",
+    "summary": "Apple adds podcast support to iTunes, and podcasting explodes as a medium.",
+    "narrative": "Adam Curry, a former MTV VJ, and Dave Winer, the RSS guy, figure out how to auto-download audio files to iPods. They call them podcasts — a portmanteau of iPod and broadcast. Apple adds a podcast directory to iTunes 4.9. Suddenly everyone's making a podcast. The medium goes from hacker curiosity to mainstream distribution in months.",
+    "why_it_matters": "Created the modern podcasting ecosystem. Democratized audio publishing. Paved the way for Serial, Joe Rogan, and the entire podcast industry.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["serial-2014", "podcast-industry", "spotify-podcasts-2019", "audio-content"],
+    "tags": ["podcasting", "itunes", "apple", "audio", "rss"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "The History of Podcasting",
+        "url": "https://en.wikipedia.org/wiki/Podcast#History",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

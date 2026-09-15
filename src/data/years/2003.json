@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2003,
+  "title": "The Year the Social Web Dawned",
+  "era": "bust-rebuild",
+  "narrative": "The pieces of the modern web click into place. WordPress makes blogging free, Skype makes calls free, the iTunes Store makes legal music easy, and MySpace makes the social network mainstream. Flickr shows that photos belong on the web, and Safari hints that the browser war is about to restart.",
+  "felt_like": {
+    "os": "Windows XP / Mac OS X Panther",
+    "browser": "Internet Explorer 6 / Safari",
+    "messenger": "MSN Messenger / Skype",
+    "social_network": "MySpace / Friendster",
+    "music": "iTunes / iPod",
+    "phone": "Nokia / flip phones",
+    "video": "QuickTime / Windows Media",
+    "website": "MySpace profiles, auto-playing songs, glitter GIFs"
+  },
+  "events": [
+    "wordpress-launch-2003",
+    "skype-launch-2003",
+    "itunes-store-2003",
+    "myspace-launch-2003",
+    "safari-browser-launch-2003",
+    "flickr-launch-2003",
+    "overture-search-ads-2003",
+    "second-life-launch-2003"
+  ]
+}

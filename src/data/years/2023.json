@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2023,
+  "title": "The Year AI Changed Everything",
+  "era": "ai-era",
+  "narrative": "ChatGPT explodes to 100 million users. Bing threatens Google. Twitter becomes X. Threads launches. The EU passes the AI Act. Tech layoffs reshape the industry. Barbenheimer proves cinema still matters. Apple announces Vision Pro. The AI era had officially begun.",
+  "felt_like": {
+    "os": "Windows 11 / macOS Sonoma",
+    "browser": "Chrome / Edge (with AI) / Arc",
+    "messenger": "Discord / iMessage / WhatsApp",
+    "social_network": "TikTok / X (Twitter) / Threads",
+    "music": "Spotify / TikTok",
+    "phone": "iPhone 15 / Samsung Galaxy S23",
+    "video": "Netflix / TikTok / YouTube Shorts",
+    "website": "AI chatbots on every landing page, 'Built with AI' badges everywhere"
+  },
+  "events": [
+    "chatgpt-explosion-2023",
+    "twitter-becomes-x-2023",
+    "threads-launch-2023",
+    "bing-ai-2023",
+    "tech-layoffs-2023",
+    "ai-regulation-eu-2023",
+    "barbenheimer-2023",
+    "apple-vision-pro-announce-2023"
+  ]
+}

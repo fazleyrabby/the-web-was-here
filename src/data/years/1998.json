@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 1998,
+  "title": "The Year Browsers Went to War",
+  "era": "foundation",
+  "narrative": "Google is founded in a garage. Microsoft bundles Internet Explorer and wins the browser war. Amazon and eBay go public. The dot-com bubble inflates. Instant messaging connects millions. The internet is about to change everything.",
+  "felt_like": {
+    "os": "Windows 98",
+    "browser": "Internet Explorer 4 / Netscape Navigator",
+    "messenger": "ICQ / AOL Instant Messenger",
+    "social_network": "GeoCities / AOL",
+    "music": "Winamp / RealPlayer",
+    "phone": "Nokia 5110",
+    "video": "RealPlayer streaming",
+    "website": "probably had a GeoCities page with animated GIFs"
+  },
+  "events": [
+    "google-founding-1998",
+    "ie-wins-browser-war-1998",
+    "amazon-ebay-growth-1998",
+    "microsoft-antitrust-1998",
+    "icq-aim-1998",
+    "mp3-napster-1998",
+    "geocities-peak-1998",
+    "aol-digital-city-1998",
+    "real-audio-1998",
+    "xml-web-services-1998"
+  ]
+}

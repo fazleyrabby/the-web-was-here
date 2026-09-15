@@ -1,0 +1,202 @@
+[
+  {
+    "id": "ai-assistants-everywhere-2026",
+    "title": "AI Assistants Are Everywhere",
+    "year": 2026,
+    "date": "2026-01-15",
+    "category": ["software", "culture", "business"],
+    "type": "platform_shift",
+    "summary": "AI assistants move from a separate app into the operating system, the browser, and the search box by default.",
+    "narrative": "You stop opening an AI tool and start simply asking. The assistant lives in the address bar, the document, the inbox, and the phone. It summarizes, drafts, plans, and acts. For many people the first place they look for an answer is no longer a list of links.",
+    "why_it_matters": "Folded AI into the basic interfaces of computing, shifting how people find information and get work done.",
+    "impact": 5,
+    "nostalgia": 1,
+    "influence": ["chatgpt-2022", "ai-search-shift-2026"],
+    "tags": ["ai", "assistants", "interfaces", "search"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Virtual assistant",
+        "url": "https://en.wikipedia.org/wiki/Virtual_assistant",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "agentic-web-2026",
+    "title": "The Agentic Web",
+    "year": 2026,
+    "date": "2026-02-20",
+    "category": ["software", "business", "standards"],
+    "type": "platform_shift",
+    "summary": "AI agents begin completing multi-step tasks on the web, from booking travel to filing forms, on a user's behalf.",
+    "narrative": "Instead of clicking through ten pages, you describe an outcome and an agent does the clicking. It compares, fills in, pays, and reports back. Websites start optimizing for software readers as much as human ones, and a new kind of traffic appears that never looks at a screen.",
+    "why_it_matters": "Signals a shift from browsing to delegation, changing what websites are built for and how they are monetized.",
+    "impact": 4,
+    "nostalgia": 1,
+    "influence": ["ai-assistants-everywhere-2026", "ai-search-shift-2026"],
+    "tags": ["ai-agents", "automation", "web", "future"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "AI agent",
+        "url": "https://en.wikipedia.org/wiki/AI_agent",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ai-search-shift-2026",
+    "title": "Search Becomes Answers",
+    "year": 2026,
+    "date": "2026-03-10",
+    "category": ["search", "media", "business"],
+    "type": "platform_shift",
+    "summary": "Generative answers displace the classic list of blue links, upending the economics of the open web.",
+    "narrative": "For thirty years, search meant a page of links and an implicit bargain: we send you traffic, you make content. When the answer appears directly, the click stops happening. Publishers watch referrals fall and start asking what the web is for when nobody visits it.",
+    "why_it_matters": "Threatens the traffic-for-content bargain that funded much of the web. Reshapes publishing, SEO, and discovery.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["google-founding-1998", "ai-assistants-everywhere-2026"],
+    "tags": ["search", "generative-ai", "publishing", "seo"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Search engine",
+        "url": "https://en.wikipedia.org/wiki/Search_engine",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "eu-ai-act-enforcement-2026",
+    "title": "AI Rules Take Effect",
+    "year": 2026,
+    "date": "2026-08-02",
+    "category": ["standards", "business", "culture"],
+    "type": "regulation",
+    "summary": "Major obligations of the EU AI Act begin to apply, forcing transparency and risk rules on high-impact AI systems.",
+    "narrative": "The first broad law written for artificial intelligence starts to bite. Companies must disclose how certain systems work, label generated content, and prove they manage risk. The rules apply to anyone serving European users, so the whole industry feels the change.",
+    "why_it_matters": "Establishes the first comprehensive legal framework for AI and sets a de facto global standard, much like GDPR did.",
+    "impact": 4,
+    "nostalgia": 1,
+    "influence": ["gdpr-2018", "ai-regulation-2023"],
+    "tags": ["ai", "regulation", "eu", "policy"],
+    "region": ["europe", "global"],
+    "sources": [
+      {
+        "title": "Artificial Intelligence Act",
+        "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "quantum-advantage-2026",
+    "title": "Quantum Computing Reaches Real Problems",
+    "year": 2026,
+    "date": "2026-05-12",
+    "category": ["hardware", "security", "standards"],
+    "type": "technology_release",
+    "summary": "Quantum systems begin solving narrow but commercially useful problems, accelerating the race to post-quantum cryptography.",
+    "narrative": "Quantum computers stop being only a laboratory curiosity. In chemistry, logistics, and optimization, they start beating classical machines at tightly defined tasks. At the same time, the clock ticks louder on encryption, pushing the web toward new math designed to survive them.",
+    "why_it_matters": "Brings quantum from theory to practice and forces the web to migrate to post-quantum encryption.",
+    "impact": 4,
+    "nostalgia": 1,
+    "influence": ["post-quantum-crypto", "cloud-computing-2006"],
+    "tags": ["quantum", "hardware", "cryptography", "security"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Quantum computing",
+        "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "open-source-ai-frontier-2026",
+    "title": "Open Models Close the Gap",
+    "year": 2026,
+    "date": "2026-04-18",
+    "category": ["software", "business", "culture"],
+    "type": "platform_shift",
+    "summary": "Open-weight AI models approach the frontier, letting anyone run powerful systems on their own hardware.",
+    "narrative": "For a few years the best models were locked behind a handful of APIs. Then open models catch up, and suddenly a student, a startup, or a government can run a capable assistant on a machine they control. Power over AI starts to spread outward.",
+    "why_it_matters": "Democratizes access to frontier AI and challenges the dominance of a few closed labs, echoing the open-source movement.",
+    "impact": 4,
+    "nostalgia": 1,
+    "influence": ["linux-1991", "chatgpt-2022"],
+    "tags": ["open-source", "ai", "models", "community"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Open-source artificial intelligence",
+        "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "spatial-computing-2026",
+    "title": "Spatial Computing Grows Up",
+    "year": 2026,
+    "date": "2026-06-05",
+    "category": ["hardware", "culture", "gaming"],
+    "type": "platform_shift",
+    "summary": "Mixed-reality headsets get lighter and cheaper, and spatial interfaces start showing up in everyday work.",
+    "narrative": "The first headsets were heavy, expensive, and mostly a demo. A few generations later they are comfortable enough to wear for an afternoon. Digital objects sit on real desks, meetings have presence, and the boundary between screen and room starts to blur.",
+    "why_it_matters": "Moves computing past the flat screen toward spatial interfaces, reviving the promise of virtual and augmented reality.",
+    "impact": 3,
+    "nostalgia": 2,
+    "influence": ["metaverse-2021", "vision-pro-2024"],
+    "tags": ["spatial-computing", "xr", "hardware", "interfaces"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Spatial computing",
+        "url": "https://en.wikipedia.org/wiki/Spatial_computing",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "ambient-computing-2026",
+    "title": "Computing Fades Into the Background",
+    "year": 2026,
+    "date": "2026-07-22",
+    "category": ["hardware", "culture", "software"],
+    "type": "culture_moment",
+    "summary": "Sensors, wearables, and always-listening devices make computing ambient rather than something you sit down to do.",
+    "narrative": "The screen was never the point, it was just the best interface we had. Now the house listens, the watch measures, the glasses annotate, and the assistant anticipates. Computing stops being a destination and becomes a layer over daily life — convenient, and a little unsettling.",
+    "why_it_matters": "Continues the shift from devices you visit to an environment that surrounds you, raising new questions about privacy.",
+    "impact": 3,
+    "nostalgia": 2,
+    "influence": ["mobile-era-2010", "privacy-debate-2010s"],
+    "tags": ["ambient", "iot", "wearables", "privacy"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Ambient intelligence",
+        "url": "https://en.wikipedia.org/wiki/Ambient_intelligence",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  }
+]

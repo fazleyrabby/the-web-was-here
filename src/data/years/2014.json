@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2014,
+  "title": "The Year the Internet Grew Up",
+  "era": "mobile-social",
+  "narrative": "The Ice Bucket Challenge raises $115 million. Facebook pays $19 billion for WhatsApp. Amazon buys Twitch. Heartbleed exposes the internet's fragile security. Net neutrality becomes a political battle. Bitcoin crashes after Mt. Gox. Uber changes transportation forever.",
+  "felt_like": {
+    "os": "Windows 8.1 / Mac OS X Yosemite",
+    "browser": "Chrome / Firefox",
+    "messenger": "WhatsApp / iMessage / Snapchat",
+    "social_network": "Facebook / Twitter / Instagram",
+    "music": "Spotify / Apple Music",
+    "phone": "iPhone 6 / Samsung Galaxy S5",
+    "video": "YouTube / Netflix / Twitch",
+    "website": "streaming-first, apps replacing websites"
+  },
+  "events": [
+    "ice-bucket-challenge-2014",
+    "whatsapp-facebook-acquisition-2014",
+    "twitch-amazon-acquisition-2014",
+    "heartbleed-2014",
+    "bitcoin-decline-2014",
+    "net-neutrality-debate-2014",
+    "fappening-2014",
+    "uber-global-expansion-2014",
+    "ebola-social-media-2014",
+    "flappy-bird-2014"
+  ]
+}

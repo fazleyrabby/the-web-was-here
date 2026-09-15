@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2008,
+  "title": "The Year the Mobile Revolution Started",
+  "era": "web-2",
+  "narrative": "Chrome reinvents the browser. Android launches. The App Store opens. Bitcoin is born. The financial crisis forces tech to get lean. The foundations of the mobile-first world are laid in a single year.",
+  "felt_like": {
+    "os": "Windows Vista / Mac OS X Leopard",
+    "browser": "Chrome (just launched) / Firefox 3",
+    "messenger": "MSN Messenger / Skype",
+    "social_network": "Facebook / MySpace (declining)",
+    "music": "iPod / Spotify (just in UK)",
+    "phone": "iPhone 3G / HTC Dream (first Android)",
+    "video": "YouTube",
+    "website": "probably had a Facebook app requesting your data"
+  },
+  "events": [
+    "chrome-launch-2008",
+    "android-launch-2008",
+    "app-store-2008",
+    "bitcoin-whitepaper-2008",
+    "financial-crisis-tech-2008",
+    "spotify-expansion-2008",
+    "facebook-platform-2008",
+    "myspace-decline-2008",
+    "obama-campaign-tech-2008",
+    "android-market-2008"
+  ]
+}

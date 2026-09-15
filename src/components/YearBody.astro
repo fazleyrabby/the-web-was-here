@@ -1,0 +1,191 @@
+---
+interface EventSource {
+  title: string;
+  url: string;
+}
+
+interface WebEvent {
+  id: string;
+  title: string;
+  year: number;
+  date?: string;
+  category: string[];
+  summary?: string;
+  narrative: string;
+  why_it_matters?: string;
+  impact: number;
+  nostalgia: number;
+  sources: EventSource[];
+}
+
+interface Props {
+  events: WebEvent[];
+  feltLike?: Record<string, string>;
+}
+
+const { events, feltLike } = Astro.props;
+
+const accentColors = [
+  'var(--pink)',
+  'var(--green)',
+  'var(--yellow)',
+  'var(--blue)',
+  'var(--orange)',
+  'var(--purple)',
+  'var(--teal)',
+];
+---
+
+{feltLike && (
+  <section class="felt-like">
+    <div class="felt-like__header">
+      <span class="felt-like__eyebrow">Time capsule</span>
+      <h3 class="felt-like__heading">What it felt like</h3>
+    </div>
+    <div class="felt-like__grid">
+      {Object.entries(feltLike).map(([key, value], i) => (
+        <div class="felt-like__item scroll-reveal-card" style={`--item-accent: ${accentColors[i % accentColors.length]}; --reveal-delay: ${i * 60}ms`}>
+          <span class="felt-like__key">{key.replace(/_/g, ' ')}</span>
+          <span class="felt-like__value">{value}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+<section class="events">
+  <div class="events__header">
+    <span class="events__eyebrow">The timeline</span>
+    <h2 class="events__heading">Events that shaped the year</h2>
+  </div>
+  <div class="events__list">
+    {events.map((event, i) => (
+      <article class="event scroll-reveal-card" data-event style={`--accent: ${accentColors[i % accentColors.length]}; --reveal-delay: ${Math.min(i, 6) * 60}ms`}>
+        <div class="event__left">
+          <span class="event__index">{String(i + 1).padStart(2, '0')}</span>
+          <div class="event__scores">
+            <div class="event__score" title={`Impact: ${event.impact}/5`}>
+              <span class="event__score-label">IMP</span>
+              <span class="event__score-bar">{'█'.repeat(event.impact)}{'░'.repeat(5 - event.impact)}</span>
+            </div>
+            <div class="event__score event__score--nostalgia" title={`Nostalgia: ${event.nostalgia}/5`}>
+              <span class="event__score-label">NOS</span>
+              <span class="event__score-bar">{'█'.repeat(event.nostalgia)}{'░'.repeat(5 - event.nostalgia)}</span>
+            </div>
+          </div>
+        </div>
+        <div class="event__right">
+          <div class="event__meta">
+            <span class="event__categories">
+              {event.category.map((cat) => (
+                <span class="event__category">{cat}</span>
+              ))}
+            </span>
+            <div class="event__meta-right">
+              {event.date && <span class="event__date">{event.date}</span>}
+              <button class="event__react-btn" aria-label="Relive this moment" title="Relive this moment">✨ Relive</button>
+            </div>
+          </div>
+          <h3 class="event__title">{event.title}</h3>
+          <p class="event__narrative">{event.narrative}</p>
+          {event.why_it_matters && <p class="event__why">{event.why_it_matters}</p>}
+          {event.sources.length > 0 && (
+            <div class="event__sources">
+              <svg class="event__arrow" viewBox="0 0 48 48" fill="none"><path d="M8 24 Q 16 18 24 24 T 40 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" /><path d="M34 18 L 40 24 L 34 30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" /></svg>
+              {event.sources.map((source) => (
+                <a href={source.url} class="event__source" target="_blank" rel="noopener">{source.title}</a>
+              ))}
+            </div>
+          )}
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  .felt-like { margin-bottom: var(--spacing-2xl); padding: var(--spacing-xl); background: var(--bg-card); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); }
+  .felt-like__header { margin-bottom: var(--spacing-xl); }
+  .felt-like__eyebrow { font-family: var(--font-mono); font-size: 0.72rem; color: var(--pink); text-transform: uppercase; letter-spacing: 0.12em; display: block; margin-bottom: var(--spacing-sm); font-weight: 600; }
+  .felt-like__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--bark); }
+  .felt-like__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--spacing-md); }
+  .felt-like__item { padding: var(--spacing-lg); background: var(--bg-elevated); border: 2.5px solid var(--bark); border-radius: 3px; box-shadow: 3px 3px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out); display: flex; flex-direction: column; gap: var(--spacing-sm); }
+  .felt-like__item:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--item-accent); border-color: var(--bark); }
+  .felt-like__key { font-family: var(--font-mono); font-size: 0.75rem; color: var(--bark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; display: inline-block; align-self: flex-start; padding: 0.15rem 0.4rem; background: var(--item-accent); border-radius: 2px; }
+  .felt-like__value { font-family: var(--font-body); font-size: 1rem; color: var(--text-primary); line-height: 1.5; display: block; }
+  .events__header { margin-bottom: var(--spacing-xl); }
+  .events__eyebrow { font-family: var(--font-mono); font-size: 0.72rem; color: var(--green); text-transform: uppercase; letter-spacing: 0.12em; display: block; margin-bottom: var(--spacing-sm); font-weight: 600; }
+  .events__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--bark); }
+  .events__list { display: flex; flex-direction: column; gap: var(--spacing-xl); }
+  .event { display: grid; grid-template-columns: 120px 1fr; gap: var(--spacing-xl); padding: var(--spacing-xl); background: var(--bg-card); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out); position: relative; }
+  .event:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0 var(--accent); }
+  .event__left { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-lg); padding-top: var(--spacing-xs); }
+  .event__index { font-family: var(--font-hand); font-size: 2.5rem; font-weight: 700; color: var(--accent); line-height: 1; opacity: 0.75; }
+  .event__scores { display: flex; flex-direction: column; gap: var(--spacing-sm); }
+  .event__score { display: flex; flex-direction: column; gap: 2px; }
+  .event__score-label { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); letter-spacing: 0.08em; font-weight: 600; }
+  .event__score-bar { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.03em; }
+  .event__score--nostalgia .event__score-bar { color: var(--green); }
+  .event__right { min-width: 0; }
+  .event__meta { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--spacing-sm); margin-bottom: var(--spacing-md); }
+  .event__meta-right { display: flex; align-items: center; gap: var(--spacing-sm); }
+  .event__categories { display: flex; gap: var(--spacing-xs); flex-wrap: wrap; }
+  .event__category { font-family: var(--font-mono); font-size: 0.72rem; color: #fff; padding: 0.25rem 0.65rem; border: 2px solid var(--bark); border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em; background: var(--accent); font-weight: 600; box-shadow: 2px 2px 0 var(--bark); }
+  .event__date { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
+  .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: var(--bark); background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out); }
+  .event__react-btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--bark); background: var(--pink); color: #fff; }
+  .event__title { font-family: var(--font-hand); font-size: 2.1rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md); line-height: 1.15; }
+  .event__narrative { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.75; margin-bottom: var(--spacing-md); max-width: 65ch; }
+  .event__why { font-family: var(--font-editorial); font-style: italic; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.65; padding: var(--spacing-md) var(--spacing-lg); border: 2px dashed var(--bark); border-radius: 3px; background: rgba(255, 255, 255, 0.5); margin-bottom: var(--spacing-md); }
+  .event__sources { margin-top: var(--spacing-md); padding-top: var(--spacing-md); border-top: 2.5px dashed var(--bark); display: flex; align-items: center; gap: var(--spacing-sm); flex-wrap: wrap; }
+  .event__arrow { width: 24px; height: 24px; color: var(--green); flex-shrink: 0; }
+  .event__source { font-family: var(--font-hand); font-size: 1.15rem; font-weight: 600; color: var(--blue); text-decoration: underline; text-decoration-style: wavy; text-decoration-color: var(--bark); text-underline-offset: 3px; transition: color 0.2s; }
+  .event__source:hover { color: var(--pink); }
+  .confetti-dot { position: fixed; width: 10px; height: 10px; border-radius: 2px; pointer-events: none; z-index: 9998; border: 2px solid var(--bark); will-change: transform, opacity; }
+  @media (max-width: 768px) { .event { grid-template-columns: 1fr; gap: var(--spacing-md); } .event__left { flex-direction: row; justify-content: space-between; } .event__scores { flex-direction: row; } }
+</style>
+
+<script>
+  const CONFETTI_COLORS = ['#e6194b', '#00994d', '#f0b800', '#2255ee', '#e65522', '#8822ee', '#009988'];
+
+  function burst(x: number, y: number) {
+    const n = 16;
+    for (let i = 0; i < n; i++) {
+      const dot = document.createElement('span');
+      dot.className = 'confetti-dot';
+      dot.style.background = CONFETTI_COLORS[i % CONFETTI_COLORS.length];
+      dot.style.left = x + 'px';
+      dot.style.top = y + 'px';
+      document.body.appendChild(dot);
+
+      const angle = (Math.PI * 2 * i) / n + Math.random() * 0.6;
+      const dist = 60 + Math.random() * 90;
+      const dx = Math.cos(angle) * dist;
+      const dy = Math.sin(angle) * dist;
+      const spin = Math.random() * 540 - 270;
+
+      const anim = dot.animate(
+        [
+          { transform: 'translate(-50%, -50%) scale(1) rotate(0deg)', opacity: 1 },
+          { transform: `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px)) scale(0.3) rotate(${spin}deg)`, opacity: 0 },
+        ],
+        { duration: 650 + Math.random() * 350, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
+      );
+      anim.onfinish = () => dot.remove();
+    }
+  }
+
+  function initReactions() {
+    document.querySelectorAll('.event__react-btn').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const rect = (btn as HTMLElement).getBoundingClientRect();
+        burst(rect.left + rect.width / 2, rect.top + rect.height / 2);
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initReactions);
+  else initReactions();
+  document.addEventListener('astro:page-load', initReactions);
+</script>

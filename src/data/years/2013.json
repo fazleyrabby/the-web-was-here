@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2013,
+  "title": "The Year Privacy Died and VR Was Born",
+  "era": "mobile-social",
+  "narrative": "Snowden reveals the NSA is watching everyone. Bitcoin hits $1,000 then Mt. Gox collapses. The Oculus Rift kickstarts VR. Vine creates the short-form video format. The PS4 and Xbox One launch. Black Lives Matter begins. Google Glass makes everyone uncomfortable.",
+  "felt_like": {
+    "os": "Windows 8 / Mac OS X Mavericks",
+    "browser": "Chrome / Firefox",
+    "messenger": "WhatsApp / iMessage / Kik",
+    "social_network": "Facebook / Twitter / Tumblr",
+    "music": "Spotify / Pandora / iTunes",
+    "phone": "iPhone 5S / Samsung Galaxy S4",
+    "video": "YouTube / Netflix / Twitch",
+    "website": "mobile-first was becoming default"
+  },
+  "events": [
+    "snowden-nsa-revelations-2013",
+    "bitcoin-1000-2013",
+    "ps4-xbox-one-launch-2013",
+    "oculus-rift-kickstarter-2013",
+    "vine-launch-2013",
+    "ea-origin-2013",
+    "google-glass-explorer-2013",
+    "yahoo-tumblr-acquisition-2013",
+    "black-lives-matter-2013",
+    "nokia-microsoft-acquisition-2013"
+  ]
+}

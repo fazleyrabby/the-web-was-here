@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1999,
+  "title": "The Year the Web Went Wireless",
+  "era": "early-web",
+  "narrative": "Napster kills the music industry. Wi-Fi untethers the internet. EverQuest creates addiction. Palm V puts computing in your pocket. Broadband replaces dial-up. The world prepares for Y2K while the future silently arrives.",
+  "felt_like": {
+    "os": "Windows 98 / Windows 2000",
+    "browser": "Internet Explorer 5 / Netscape Navigator 4",
+    "messenger": "AIM / ICQ / MSN Messenger",
+    "social_network": "AOL / GeoCities / early forums",
+    "music": "Winamp / Napster / MP3",
+    "phone": "Nokia 3210 / Motorola StarTAC",
+    "video": "RealPlayer / early QuickTime",
+    "website": "probably downloading MP3s on Napster"
+  },
+  "events": [
+    "napster-launch-1999",
+    "broadband-starts-1999",
+    "palm-pilot-1999",
+    "everquest-launch-1999",
+    "wifi-spec-1999",
+    "y2k-preparations-1999",
+    "i-will-survive-hoax-1999",
+    "mp3-com-riots-1999",
+    "windows-2000-preview-1999"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2009,
+  "title": "The Year Everything Went Mobile",
+  "era": "web-2",
+  "narrative": "Bitcoin's first block is mined in the shadow of a financial crisis. WhatsApp kills SMS. 4G makes mobile internet actually fast. Uber invents the gig economy. Angry Birds proves everyone's a gamer. The mobile-first world is no longer coming — it's here.",
+  "felt_like": {
+    "os": "Windows 7 / Mac OS X Snow Leopard",
+    "browser": "Chrome / Firefox 3.5",
+    "messenger": "WhatsApp (just launched) / MSN Messenger",
+    "social_network": "Facebook / Twitter",
+    "music": "Spotify / iPod",
+    "phone": "iPhone 3GS / HTC Hero (Android)",
+    "video": "YouTube / Netflix streaming",
+    "website": "probably had a FarmVille addiction you wouldn't admit to"
+  },
+  "events": [
+    "bitcoin-genesis-block-2009",
+    "whatsapp-launch-2009",
+    "spotify-us-launch-2009",
+    "4g-lte-launch-2009",
+    "uber-founding-2009",
+    "angry-birds-2009",
+    "google-wave-2009",
+    "tweetdeck-2009"
+  ]
+}

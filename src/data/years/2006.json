@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 2006,
+  "title": "The Year Social Went Mainstream",
+  "era": "web-2",
+  "narrative": "Twitter is born. Facebook opens to everyone. Google buys YouTube for $1.65 billion and everyone thinks they're crazy. Amazon starts renting servers. The Wii makes gaming a family activity. The web stops being a place you visit and starts being a place you live.",
+  "felt_like": {
+    "os": "Windows XP",
+    "browser": "Firefox 2 / Internet Explorer 7",
+    "messenger": "MSN Messenger / AIM",
+    "social_network": "MySpace / Facebook",
+    "music": "iPod / iTunes / LimeWire",
+    "phone": "Nokia N73 / Motorola RAZR",
+    "video": "YouTube (just acquired by Google)",
+    "website": "probably had a MySpace profile with auto-playing music"
+  },
+  "events": [
+    "twitter-founding-2006",
+    "justin-tv-2006",
+    "nintendo-wii-2006",
+    "google-youtube-acquisition-2006",
+    "facebook-open-registration-2006",
+    "aws-growth-2006",
+    "roku-founding-2006",
+    "linkedin-growth-2006",
+    "limewire-fall-2006"
+  ]
+}

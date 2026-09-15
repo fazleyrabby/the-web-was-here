@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2021,
+  "title": "The Year the Internet Went Crazy",
+  "era": "pandemic",
+  "narrative": "NFTs sell for millions. Facebook becomes Meta. Dogecoin goes to the moon. The chip shortage delays everything. Apple's M1 chips prove ARM is the future. Web3 promises a decentralized internet. Clubhouse peaks then crashes. The metaverse becomes a punchline before it even exists.",
+  "felt_like": {
+    "os": "Windows 11 / macOS Monterey",
+    "browser": "Chrome / Arc (early access)",
+    "messenger": "Discord / Slack / Telegram",
+    "social_network": "TikTok / Twitter / Clubhouse",
+    "music": "Spotify / TikTok sounds",
+    "phone": "iPhone 13 / Samsung Galaxy S21",
+    "video": "Netflix / TikTok / Twitch",
+    "website": "NFT marketplaces everywhere, Web3 landing pages with rainbow gradients"
+  },
+  "events": [
+    "nft-craze-2021",
+    "metaverse-rebrand-2021",
+    "dogecoin-musk-2021",
+    "apple-m1-macbook-2021",
+    "chip-shortage-2021",
+    "clubhouse-peak-2021",
+    "web3-hype-2021",
+    "amazon-luna-2021"
+  ]
+}

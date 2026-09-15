@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2022,
+  "title": "The Year the Bubble Burst",
+  "era": "pandemic",
+  "narrative": "Elon Musk buys Twitter and burns it down. FTX collapses in fraud. Crypto winter freezes digital assets. AI image generators change art forever. Wordle proves simple games still win. Ukraine goes digital. Twitter Blue becomes a cautionary tale. The internet grew up and grew cynical.",
+  "felt_like": {
+    "os": "Windows 11 / macOS Ventura",
+    "browser": "Chrome / Arc (beta)",
+    "messenger": "Discord / iMessage / Telegram",
+    "social_network": "Twitter (chaos era) / TikTok",
+    "music": "Spotify / TikTok sounds",
+    "phone": "iPhone 14 / Samsung Galaxy S22",
+    "video": "Netflix / TikTok / YouTube",
+    "website": "NFT marketplaces shutting down, Web3 landing pages turning dark"
+  },
+  "events": [
+    "elon-musk-twitter-2022",
+    "ftx-collapse-2022",
+    "dalle-midjourney-2022",
+    "ukraine-war-tech-2022",
+    "wordle-2022",
+    "musk-twitter-blue-2022",
+    "crypto-winter-2022",
+    "iphone-emergency-satellite-2022"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2020,
+  "title": "The Year Everything Went Remote",
+  "era": "ai-era",
+  "narrative": "COVID-19 forces the world online. Zoom goes from 10M to 300M users. TikTok explodes. Clubhouse creates audio social. Remote work becomes permanent. The delivery economy booms. SpaceX reaches the ISS. Apple announces the M1.",
+  "felt_like": {
+    "os": "Windows 10 / macOS Catalina",
+    "browser": "Chrome",
+    "messenger": "Zoom / Slack / Teams",
+    "social_network": "TikTok / Instagram",
+    "music": "Spotify",
+    "phone": "iPhone 12 / Samsung Galaxy S20",
+    "video": "Netflix / Zoom",
+    "website": "everything had a dark mode option"
+  },
+  "events": [
+    "zoom-boom-2020",
+    "covid-remote-work-2020",
+    "clubhouse-2020",
+    "tiktok-explosion-2020",
+    "stimulus-check-memes-2020",
+    "ps5-xsx-launch-2020",
+    "apple-silicon-2020",
+    "doordash-ipo-2020",
+    "spacex-crew-dragon-2020",
+    "robinhood-gamestop-2020"
+  ]
+}

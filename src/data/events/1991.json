@@ -1,0 +1,227 @@
+[
+  {
+    "id": "world-wide-web-public-1991",
+    "title": "World Wide Web Goes Public",
+    "year": 1991,
+    "date": "1991-08-06",
+    "category": ["standards", "software"],
+    "type": "launch",
+    "summary": "Tim Berners-Lee posted about the World Wide Web on the alt.hypertext newsgroup, making it available to the public for the first time.",
+    "narrative": "On August 6, 1991, Tim Berners-Lee made a modest post to a Usenet newsgroup called alt.hypertext, announcing a project called 'WorldWideWeb.' He described a hypertext system that could run on any computer. This quiet announcement was the web's debut to the world—no fanfare, no marketing, just a link and a description. Within months, curious programmers began building their own web browsers.",
+    "why_it_matters": "This marked the moment the web became available to anyone with an internet connection, beginning the information age.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["mosaic-browser-1993", "early-web-growth-1993"],
+    "tags": ["web", "public", "launch", "usenet"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "World Wide Web - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "linux-kernel-released-1991",
+    "title": "Linux Kernel First Released",
+    "year": 1991,
+    "date": "1991-09-17",
+    "category": ["software", "open-source"],
+    "type": "launch",
+    "summary": "Linus Torvalds released version 0.01 of the Linux kernel on Usenet, sparking the open-source movement.",
+    "narrative": "A 21-year-old Finnish student named Linus Torvalds posted a modest message to comp.os.minix: 'I'm doing a (free) operating system (just a hobby, won't be big and professional).' That hobby would become Linux, the operating system that runs most of the internet's servers, all of the world's top 500 supercomputers, and Android phones. His decision to release it freely under the GPL license was a revolutionary act of digital sharing.",
+    "why_it_matters": "Linux became the foundation of modern computing infrastructure and proved that open-source software could change the world.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["open-source-movement-1998", "google-linux-servers-1998"],
+    "tags": ["linux", "kernel", "open-source", "finland"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Linux - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linux",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-webcam-1991",
+    "title": "First Webcam Created at Cambridge",
+    "year": 1991,
+    "date": "1991-06-12",
+    "category": ["hardware", "innovation"],
+    "type": "innovation",
+    "summary": "The Trojan Room coffee pot camera was set up at Cambridge University to monitor a coffee pot, becoming the world's first webcam.",
+    "narrative": "In the Computer Science Department at Cambridge, researchers were tired of walking to the coffee machine only to find it empty. So they rigged up a camera that pointed at the pot and connected it to the network. The Trojan Room coffee pot became the world's first webcam—a technology that would eventually enable video calls, streaming, and the entire webcam industry. The camera ran until 2001, when the coffee pot was finally removed.",
+    "why_it_matters": "This humble experiment invented the webcam concept that would become essential for video communication decades later.",
+    "impact": 3,
+    "nostalgia": 5,
+    "influence": ["youtube-launched-2005", "twitch-launched-2011"],
+    "tags": ["webcam", "camera", "cambridge", "coffee"],
+    "region": ["europe"],
+    "sources": [
+      {
+        "title": "Trojan Room coffee pot - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-web-server-outside-cern-1991",
+    "title": "First Web Server Outside CERN",
+    "year": 1991,
+    "date": "1991-03-01",
+    "category": ["hardware", "standards"],
+    "type": "milestone",
+    "summary": "The first web server outside of CERN was installed at Stanford University, expanding the web's reach.",
+    "narrative": "The web was no longer CERN's secret. Paul Kunz from the SLAC (Stanford Linear Accelerator Center) visited CERN, was inspired by the hypertext system, and brought it back to California. Within weeks, the first web server outside CERN was running at Stanford, serving particle physics documents to researchers across America. The web had crossed the Atlantic.",
+    "why_it_matters": "This proved the web could run anywhere, establishing it as a global system rather than a CERN experiment.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["early-web-growth-1993", "mosaic-browser-1993"],
+    "tags": ["server", "stanford", "cern", "first"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "History of the World Wide Web - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "commodore-amiga-still-alive-1991",
+    "title": "Commodore Amiga 3000 Released",
+    "year": 1991,
+    "date": "1991-04-01",
+    "category": ["hardware", "multimedia"],
+    "type": "launch",
+    "summary": "Commodore released the Amiga 3000, a powerful multimedia computer that influenced early digital video and graphics.",
+    "narrative": "While IBM clones ran Windows and Macs dominated design studios, the Amiga 3000 was the multimedia powerhouse that video producers and artists dreamed about. With its custom chips and ability to overlay video with graphics, it was years ahead of its time. The Amiga's influence on early digital video production and the demoscene helped push the boundaries of what personal computers could create.",
+    "why_it_matters": "The Amiga pioneered multimedia computing and inspired a generation of digital artists and video producers.",
+    "impact": 3,
+    "nostalgia": 5,
+    "influence": ["demoscene-growth-1990s"],
+    "tags": ["amiga", "commodore", "multimedia", "hardware"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Amiga 3000 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amiga_3000",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "pdf-format-standardized-1991",
+    "title": "PDF Format Introduced by Adobe",
+    "year": 1991,
+    "date": "1991-01-01",
+    "category": ["software", "standards"],
+    "type": "launch",
+    "summary": "Adobe introduced the Portable Document Format (PDF), enabling documents to be shared across platforms.",
+    "narrative": "Before PDF, sharing a document between a Mac and a PC meant dealing with formatting nightmares. Adobe's Portable Document Format promised to look the same on any screen—a revolutionary idea in an era of incompatible systems. While it would take years for PDF to become ubiquitous, this was the beginning of digital document standardization that would transform business and publishing.",
+    "why_it_matters": "PDF became the universal standard for sharing documents, transforming paper-based workflows into digital ones.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["acrobat-reader-free-1993"],
+    "tags": ["pdf", "adobe", "document", "format"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Portable Document Format - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Portable_Document_Format",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-activex-1991",
+    "title": "Microsoft Begins ActiveX Development",
+    "year": 1991,
+    "date": "1991-06-01",
+    "category": ["software", "business"],
+    "type": "innovation",
+    "summary": "Microsoft began work on what would become ActiveX, their technology for interactive web content.",
+    "narrative": "As the web began to gain momentum, Microsoft started developing technologies to bring interactivity to web pages. ActiveX, which would eventually debut in 1996, was their answer to Java applets. This early work signaled Microsoft's recognition that the web would be important—and their determination to control how it worked on Windows.",
+    "why_it_matters": "This marked Microsoft's early engagement with web technologies, foreshadowing the browser wars to come.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["internet-explorer-1995", "browser-wars-1998"],
+    "tags": ["microsoft", "activex", "interactive", "web"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "ActiveX - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ActiveX",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "aol-free-trial-disk-1991",
+    "title": "AOL Distributes Free Trial Disks",
+    "year": 1991,
+    "date": "1991-01-01",
+    "category": ["business", "communication"],
+    "type": "milestone",
+    "summary": "America Online began its aggressive free trial disk distribution campaign, bringing online access to millions of Americans.",
+    "narrative": "AOL's strategy was deceptively simple: give away free trial CDs everywhere—cereal boxes, magazine inserts, mailboxes. These disks, which would eventually number in the billions, were the gateway to the internet for millions of Americans. The sound of a dial-up modem connecting became a cultural touchstone, and 'You've got mail!' became one of the first internet catchphrases.",
+    "why_it_matters": "AOL made the internet accessible to mainstream America and established the dial-up ISP model.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["aol-instant-messenger-1997", "dial-up-culture-1990s"],
+    "tags": ["aol", "dial-up", "internet", "access"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "America Online - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/America_Online",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-domain-names-registered-1991",
+    "title": "Domain Name System Gains Traction",
+    "year": 1991,
+    "date": "1991-01-15",
+    "category": ["standards", "infrastructure"],
+    "type": "milestone",
+    "summary": "Domain name registrations began to grow as more organizations connected to the internet.",
+    "narrative": "In the early 1990s, the Domain Name System was still young, and most organizations didn't see the need for their own .com address. But as more companies and universities connected to the internet, domain registrations began to climb. The pattern of 'company.com' that we take for granted today was just beginning to emerge. The land grab for good domain names was about to start.",
+    "why_it_matters": "Domain names became the addresses of the digital world, creating a new form of digital property.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["verisign-1995", "domain-squatter-1994"],
+    "tags": ["domain", "dns", "registration", "infrastructure"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Domain Name System - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

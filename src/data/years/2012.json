@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2012,
+  "title": "The Year Tech Went Public",
+  "era": "mobile-social",
+  "narrative": "Facebook goes public and crashes. Instagram gets acquired for a billion dollars. The Raspberry Pi puts computing in everyone's hands. 3D printing becomes mainstream. Hurricane Sandy proves the internet is infrastructure. The maker movement begins.",
+  "felt_like": {
+    "os": "Windows 7 / Mac OS X Mountain Lion",
+    "browser": "Chrome / Firefox",
+    "messenger": "WhatsApp / iMessage",
+    "social_network": "Facebook / Twitter / Tumblr",
+    "music": "Spotify / Pandora / iTunes",
+    "phone": "iPhone 5 / Samsung Galaxy S3",
+    "video": "YouTube / Netflix",
+    "website": "apps were replacing websites"
+  },
+  "events": [
+    "facebook-ipo-2012",
+    "facebook-instagram-acquisition-2012",
+    "hurricane-sandy-social-media-2012",
+    "obama-campaign-tech-2012",
+    "raspberry-pi-launch-2012",
+    "3d-printing-mainstream-2012",
+    "tumblr-100m-blogs-2012",
+    "nasa-curiosity-landing-2012",
+    "samsung-apple-patent-war-2012",
+    "linkedin-ipo-2012"
+  ]
+}

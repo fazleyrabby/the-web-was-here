@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Image Artifact",
+  "description": "A visual artifact in the archive",
+  "type": "object",
+  "required": ["id", "subject", "year", "type", "source", "rights"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "subject": {
+      "type": "string",
+      "description": "What this image depicts"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "screenshot", "product_photo", "logo", "advertisement",
+        "photograph", "ui", "website", "poster", "video",
+        "icon", "illustration"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": ["provider", "url"],
+      "properties": {
+        "provider": {
+          "type": "string",
+          "enum": ["internet-archive", "wikimedia", "official", "screenshot", "other"]
+        },
+        "url": { "type": "string", "format": "uri" },
+        "archive_url": { "type": "string", "format": "uri" },
+        "captured_at": { "type": "string", "format": "date" }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["public-domain", "cc0", "cc-by", "cc-by-sa", "fair-use", "copyrighted", "review-required"]
+        },
+        "license": { "type": "string" },
+        "author": { "type": "string" },
+        "redistribution": {
+          "type": "string",
+          "enum": ["allowed", "attribution-required", "link-only", "review-required"]
+        }
+      }
+    },
+    "credit": { "type": "string" },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "width": { "type": "integer" },
+        "height": { "type": "integer" }
+      }
+    },
+    "local": {
+      "type": "object",
+      "properties": {
+        "original": { "type": "string" },
+        "webp": { "type": "string" },
+        "avif": { "type": "string" },
+        "thumbnail": { "type": "string" }
+      }
+    }
+  }
+}

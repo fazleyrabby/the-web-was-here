@@ -1,0 +1,252 @@
+[
+  {
+    "id": "react-2015",
+    "title": "React 0.13 and React Native",
+    "year": 2015,
+    "date": "2015-03-26",
+    "category": ["development", "software"],
+    "type": "technology_release",
+    "summary": "Facebook releases React Native, bringing React's component model to iOS and Android development.",
+    "narrative": "React already changed web development. Now React Native brings the same ideas to mobile. Write once, run anywhere — but with native UI. The developer community goes wild. Within a year, React Native becomes the most popular mobile framework. It's not truly cross-platform. It's natively cross-platform. The distinction matters.",
+    "why_it_matters": "Unified web and mobile development. Created the 'learn once, write anywhere' paradigm. Spawned Flutter, Expo, and the entire cross-platform movement.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["flutter-2017", "expo-2015", "cross-platform-mobile", "react-ecosystem-growth"],
+    "tags": ["react", "react-native", "mobile", "facebook", "cross-platform"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "React Native: A New Architecture",
+        "url": "https://en.wikipedia.org/wiki/React_Native",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "apple-watch-2015",
+    "title": "Apple Watch Launches",
+    "year": 2015,
+    "date": "2015-04-24",
+    "category": ["hardware", "design"],
+    "type": "product_launch",
+    "summary": "Apple Watch launches, creating the modern smartwatch market and wearable computing category.",
+    "narrative": "Apple's first new product category since the iPad. Tim Cook calls it 'the most personal device yet.' Critics say nobody needs a watch that does what your phone already does. But Apple Watch finds its niche: fitness tracking, notifications, and Apple Pay. It becomes the world's best-selling watch, period. Not just smartwatch. Watch.",
+    "why_it_matters": "Made wearable computing mainstream. Created a new product category. Apple Watch's health features would eventually save lives.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["wearable-health", "smartwatch-market", "apple-fitness", "wearable-payments"],
+    "tags": ["apple-watch", "wearable", "smartwatch", "health", "fitness"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Apple Watch: A History",
+        "url": "https://en.wikipedia.org/wiki/Apple_Watch",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "uber-global-2015",
+    "title": "Uber Reaches 1 Million Rides Per Day",
+    "year": 2015,
+    "date": "2015-06-01",
+    "category": ["business", "software"],
+    "type": "platform_shift",
+    "summary": "Uber surpasses 1 million daily rides, becoming the defining gig economy platform.",
+    "narrative": "Uber's growth is insane. From one car in San Francisco in 2009 to a million rides a day in 2015. They're in 300 cities across 60 countries. The model is simple: tap a button, get a ride. But the implications are huge. Taxi medallions are worthless. Labor laws are being rewritten. 'Uber for X' becomes a startup template. The gig economy goes mainstream.",
+    "why_it_matters": "Created the gig economy template. Disrupted transportation globally. Launched the 'Uber for X' era of startups. Changed urban mobility forever.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["lyft-competition", "gig-economy-regulation", "uber-flying-cars", "delivery-apps"],
+    "tags": ["uber", "gig-economy", "ride-sharing", "transportation", "startup"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Uber: The Company That Changed Transportation",
+        "url": "https://en.wikipedia.org/wiki/Uber",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "apple-music-2015",
+    "title": "Apple Music Launches",
+    "year": 2015,
+    "date": "2015-06-30",
+    "category": ["entertainment", "business"],
+    "type": "product_launch",
+    "summary": "Apple launches its streaming music service, entering the battle against Spotify.",
+    "narrative": "Apple killed the iPod with the iPhone. Now they want to kill the download with streaming. Apple Music launches with a massive catalog, curated playlists by human DJs, and Beats 1 radio. Three months free, then $9.99/month. Spotify is nervous. The streaming wars begin. Apple has 800 million credit cards on file. That's a weapon.",
+    "why_it_matters": "Legitimized music streaming. Forced the industry to shift from downloads to streaming. Apple's distribution advantage made streaming mainstream.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["spotify-vs-apple-music", "streaming-wars-2020", "podcast-wars", "music-industry-transformation"],
+    "tags": ["apple-music", "streaming", "spotify", "music", "beats-1"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Apple Music Launch",
+        "url": "https://en.wikipedia.org/wiki/Apple_Music",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "windows-10-2015",
+    "title": "Windows 10 Launches",
+    "year": 2015,
+    "date": "2015-07-29",
+    "category": ["software", "business"],
+    "type": "product_launch",
+    "summary": "Microsoft releases Windows 10, skipping version 9 and pushing the 'Windows as a service' model.",
+    "narrative": "Microsoft skips Windows 9 and goes straight to 10. Free upgrade for Windows 7 and 8 users. Cortana is built in. The Start Menu is back. The Edge browser replaces Internet Explorer. But the real story is 'Windows as a service' — constant updates instead of big releases every few years. Microsoft learns from Windows 8's disaster.",
+    "why_it_matters": "End of the traditional OS release cycle. 'Windows as a service' became the model for all software. The last major Windows version before the AI era.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["windows-as-a-service", "edge-browser", "cortana-failure", "microsoft-comeback"],
+    "tags": ["windows-10", "microsoft", "os", "start-menu", "edge"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Windows 10: The Full Story",
+        "url": "https://en.wikipedia.org/wiki/Windows_10",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "twitch-acquisition-2015",
+    "title": "Amazon Acquires Twitch",
+    "year": 2015,
+    "date": "2015-08-25",
+    "category": ["entertainment", "business"],
+    "type": "acquisition",
+    "summary": "Amazon acquires Twitch for $970 million, betting big on live streaming and gaming culture.",
+    "narrative": "Twitch is what happens when Justin.tv pivots. Gaming streams blow up. Amazon pays nearly a billion dollars for a site where people watch other people play video games. Wall Street thinks Bezos is crazy. Then esports explodes. Then streamers become celebrities. Then Amazon gets Twitch Prime, which drives more Prime subscriptions. It's a long game. Bezos plays long games.",
+    "why_it_matters": "Validated live streaming as entertainment. Created the streamer economy. Twitch's model influenced YouTube Live, Facebook Gaming, and every live platform.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["youtube-live-streaming", "twitch-streamers", "esports-boom", "amazon-prime-gaming"],
+    "tags": ["twitch", "amazon", "streaming", "gaming", "live"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Amazon Acquires Twitch",
+        "url": "https://en.wikipedia.org/wiki/Twitch_(service)",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "slack-rise-2015",
+    "title": "Slack Becomes the Default Work Chat",
+    "year": 2015,
+    "date": "2015-01-01",
+    "category": ["communication", "business"],
+    "type": "platform_shift",
+    "summary": "Slack becomes the fastest-growing business app ever, making chat-based collaboration mainstream.",
+    "narrative": "Stewart Butterfield pivots from Flickr to Glitch to Slack. The name is an acronym for 'Searchable Log of All Conversation and Knowledge.' Slack makes work chat feel good. Custom emojis. GIFs in channels. Integrations with everything. Within a year, it's the fastest-growing SaaS company in history. Email starts to feel ancient.",
+    "why_it_matters": "Killed internal email for many companies. Created the modern team communication paradigm. Forced Microsoft to build Teams. Defined workplace collaboration for a generation.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["microsoft-teams-2017", "discord-adoption", "remote-work-tools", "chat-ops"],
+    "tags": ["slack", "workplace", "chat", "collaboration", "sas"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Slack: The History",
+        "url": "https://slack.com/about",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "deep-learning-2015",
+    "title": "Deep Learning Breakthroughs",
+    "year": 2015,
+    "date": "2015-06-01",
+    "category": ["software", "development"],
+    "type": "technology_release",
+    "summary": "DeepMind's AlphaGo, ResNet, and TensorFlow drive deep learning into mainstream tech consciousness.",
+    "narrative": "2015 is the year deep learning goes from academic curiosity to industry standard. Google releases TensorFlow. Microsoft's ResNet wins ImageNet. DeepMind's AlphaGo beats the European Go champion. The AI winter is officially over. Every tech company starts hiring ML engineers. The talent war begins.",
+    "why_it_matters": "Marked the start of the AI boom. TensorFlow democratized deep learning. AlphaGo proved AI could master creative, intuitive tasks.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["gpt-2018", "chatgpt-2022", "ai-everywhere", "ml-engineering"],
+    "tags": ["deep-learning", "tensorflow", "alphago", "ai", "machine-learning"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Deep Learning: A Brief History",
+        "url": "https://en.wikipedia.org/wiki/Deep_learning",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "google-self-driving-2015",
+    "title": "Google Self-Driving Car Project",
+    "year": 2015,
+    "date": "2015-01-01",
+    "category": ["hardware", "software"],
+    "type": "technology_release",
+    "summary": "Google's self-driving car project hits 1 million miles, proving autonomous vehicles are technically feasible.",
+    "narrative": "Google's self-driving cars have been quietly driving around Mountain View for years. In 2015, they hit 1 million autonomous miles. The cars are cute — little pod-like things without steering wheels. They work. They're safer than humans. But regulation, insurance, and public trust are huge hurdles. The project spins off as Waymo in 2016.",
+    "why_it_matters": "Proved self-driving cars work. Created the blueprint for autonomous vehicle development. The Waymo spinoff would become the leader in robotaxi services.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["waymo-2016", "tesla-autopilot", "robotaxi-industry", "ev-revolution"],
+    "tags": ["self-driving", "google", "autonomous", "waymo", "ai"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Waymo: Our History",
+        "url": "https://waymo.com/about/",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "peloton-2015",
+    "title": "Peloton Launches Connected Fitness",
+    "year": 2015,
+    "date": "2015-01-01",
+    "category": ["hardware", "entertainment"],
+    "type": "company_launch",
+    "summary": "Peloton launches its connected bike, creating the at-home fitness streaming category.",
+    "narrative": "John Foley has an idea: put a screen on a stationary bike and stream live classes. Peloton launches in 2015 with a $1,500 bike and a $39/month subscription. It's expensive. It's aspirational. It becomes a status symbol. The pandemic will later turn it into a $50 billion company. Then it will crash. But in 2015, it's just a really good idea.",
+    "why_it_matters": "Created the connected fitness category. Proved that subscription hardware could work. The model influenced every fitness company from Apple to Nike.",
+    "impact": 3,
+    "nostalgia": 2,
+    "influence": ["apple-fitness-plus-2020", "pandemic-fitness-2020", "connected-fitness", "subscription-hardware"],
+    "tags": ["peloton", "fitness", "connected", "streaming", "bike"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Peloton: The Company",
+        "url": "https://en.wikipedia.org/wiki/Peloton_(company)",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

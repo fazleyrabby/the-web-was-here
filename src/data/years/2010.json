@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2010,
+  "title": "The Year Mobile Ate the World",
+  "era": "mobile-era",
+  "narrative": "Instagram launches and takes over photography. The iPad creates the tablet market. Responsive web design becomes essential. Android overtakes iPhone. Facebook reaches 500 million users. The web goes mobile-first.",
+  "felt_like": {
+    "os": "Windows 7 / Mac OS X Snow Leopard",
+    "browser": "Chrome / Firefox",
+    "messenger": "WhatsApp / Facebook Chat",
+    "social_network": "Facebook / Twitter",
+    "music": "Spotify / iTunes",
+    "phone": "iPhone 4 / Samsung Galaxy S",
+    "video": "YouTube / Netflix streaming",
+    "website": "responsive layouts were still new"
+  },
+  "events": [
+    "instagram-launch-2010",
+    "ipad-launch-2010",
+    "responsive-design-2010",
+    "android-iphone-2010",
+    "facebook-500m-2010",
+    "foursquare-checkin-2010",
+    "whatsapp-2010",
+    "social-network-movie-2010",
+    "bitcoin-2010",
+    "apple-antenna-2010"
+  ]
+}

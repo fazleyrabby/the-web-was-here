@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2007,
+  "title": "The Year Everything Changed",
+  "era": "web-2",
+  "narrative": "The iPhone redefines the phone. Facebook goes mainstream. Twitter finds its voice. YouTube becomes a cultural force. The Web stops being a place you visit and starts being a place you live.",
+  "felt_like": {
+    "os": "Windows XP",
+    "browser": "Firefox 2 / Internet Explorer 7",
+    "messenger": "MSN Messenger",
+    "social_network": "MySpace / Facebook",
+    "music": "iPod / iTunes",
+    "phone": "Nokia N95 / iPhone",
+    "video": "YouTube",
+    "website": "probably had a gradient and a drop shadow"
+  },
+  "events": [
+    "iphone-2007",
+    "facebook-mainstream-2007",
+    "twitter-launch-2007",
+    "youtube-culture-2007",
+    "android-announce-2007",
+    "windows-vista-2007",
+    "kanye-interrupts-2007",
+    "flash-games-peak-2007",
+    "web2-design-2007",
+    "spotify-launch-2007"
+  ]
+}

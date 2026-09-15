@@ -1,0 +1,227 @@
+[
+  {
+    "id": "wikipedia-launch-2001",
+    "title": "Wikipedia Launches",
+    "year": 2001,
+    "date": "2001-01-15",
+    "category": ["web", "culture", "standards"],
+    "type": "website_launch",
+    "summary": "Wikipedia goes live as a free, collaboratively edited online encyclopedia, eventually becoming the largest reference work in human history.",
+    "narrative": "Jimmy Wales and Larry Sanger launch Nupedia — a rigorous, peer-reviewed online encyclopedia. It takes months to write a single article. The process is too slow. So they spin off a side project: Wikipedia. Anyone can edit anything. It's chaos. Experts scoff. Librarians roll their eyes. Within five years, Wikipedia has 200,000 articles in English. Within ten years, it has 3.5 million. It's the most visited website on the planet after Google. The experts were wrong. The crowd was right.",
+    "why_it_matters": "Proved collaborative knowledge creation at scale works. Became the world's most-used reference source. Democratized access to information for everyone with an internet connection.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["citizen-journalism", "open-source-knowledge", "wiki-culture", "google-knowledge-graph"],
+    "tags": ["wikipedia", "encyclopedia", "collaborative", "open-source", "knowledge"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wikipedia",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ipod-launch-2001",
+    "title": "Apple iPod Launches",
+    "year": 2001,
+    "date": "2001-10-23",
+    "category": ["hardware", "culture", "media"],
+    "type": "product_launch",
+    "summary": "Apple introduces the iPod, a portable music player with 1,000 songs in your pocket, fundamentally changing how people listen to music.",
+    "narrative": "Steve Jobs holds up a small white rectangle and says '1,000 songs in your pocket.' The audience gasps. Previous MP3 players held maybe 30 songs and looked like brick-sized medical devices. The iPod is elegant, simple, and the scroll wheel feels like the future. At $399, it's expensive — but it works beautifully with iTunes on your Mac. Within six months, Apple releases a Windows version. The iPod becomes a cultural icon. White earbuds everywhere. It's not just a music player; it's an identity.",
+    "why_it_matters": "Killed the portable CD player. Created Apple's hardware ecosystem. Proved design and user experience could win in commodity markets. The white earbuds became a status symbol.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["itunes-store-2003", "music-streaming", "apple-ecosystem", "design-thinking"],
+    "tags": ["ipod", "apple", "music", "portable", "mp3"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "IPod",
+        "url": "https://en.wikipedia.org/wiki/IPod",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "windows-xp-launch-2001",
+    "title": "Windows XP Launches",
+    "year": 2001,
+    "date": "2001-10-25",
+    "category": ["software", "culture"],
+    "type": "product_launch",
+    "summary": "Microsoft releases Windows XP, unifying the consumer and enterprise Windows lines and becoming the most widely used operating system in history.",
+    "narrative": "Windows ME was a disaster. Windows 2000 was for businesses. Windows XP merges the best of both: the stability of the NT kernel with the consumer-friendly interface. The Luna theme is bright blue and green — almost aggressively cheerful. The Start menu gets a makeover. Fast User Switching lets multiple people share a computer. Windows XP becomes the OS that defines an era. It lasts 13 years, through Service Packs and security patches, until Microsoft finally kills it in 2014. For better or worse, it's the operating system a billion people grew up with.",
+    "why_it_matters": "Most successful Windows release ever. Defined personal computing for over a decade. Became the baseline for browser and software compatibility testing.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["vista-failure-2007", "browser-compatibility", "gaming-platform", "enterprise-computing"],
+    "tags": ["windows", "microsoft", "xp", "operating-system", "luna"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Windows XP",
+        "url": "https://en.wikipedia.org/wiki/Windows_XP",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "dotcom-crash-2001",
+    "title": "The Dot-Com Crash Unfolds",
+    "year": 2001,
+    "date": "2001-03-10",
+    "category": ["business", "culture"],
+    "type": "cultural_event",
+    "summary": "The NASDAQ loses 78% of its value over the course of the year, erasing $5 trillion in market value and killing hundreds of internet companies.",
+    "narrative": "By 2001, the dot-com bust isn't a prediction — it's a corpse. Pets.com goes bankrupt in February. Webvan shuts down in July. Kozmo.com, boo.com, flooz.com — all dead. The NASDAQ drops from 5,000 to under 1,200. Entire office buildings in San Francisco go dark. Waiters who had stock options are back waiting tables. The survivors — Amazon, eBay, Google — are the ones who figured out how to make money. The rest become cautionary tales. The bust is brutal, but it clears the ground for what comes next.",
+    "why_it_matters": "Destroyed $5 trillion in market value. Killed hundreds of poorly-conceived internet companies. Forced the industry to focus on sustainable business models.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["lean-startups", "revenue-first", "web2-0-term-2005", "amazon-survival"],
+    "tags": ["dot-com", "crash", "bankruptcy", "nasdaq", "bust"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Dot-com bubble",
+        "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "napster-shutdown-2001",
+    "title": "Napster Shut Down by Court Order",
+    "year": 2001,
+    "date": "2001-07-11",
+    "category": ["music", "business", "culture"],
+    "type": "legal_event",
+    "summary": "A federal judge orders Napster to stop sharing copyrighted music, effectively killing the service that changed the music industry forever.",
+    "narrative": "Judge Marilyn Patel issues an injunction against Napster. Within days, the service goes dark. 80 million users lose their free music fountain. But the damage is done — the music industry knows it can't stop digital distribution, only delay it. Napster's death doesn't end piracy; it scatters it. Kazaa, LimeWire, and BitTorrent emerge from the ashes. The industry spends the next decade fighting a game of whack-a-mole. The real lesson? If you can't beat free, make paid better than free.",
+    "why_it_matters": "Killed the most popular file-sharing service but not file-sharing itself. Proved that litigation can't stop technology. Forced the music industry toward digital distribution.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["itunes-store-2003", "limewire", "bittorrent", "digital-music"],
+    "tags": ["napster", "shutdown", "music", "piracy", "court"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Napster",
+        "url": "https://en.wikipedia.org/wiki/Napster",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "september-11-internet-2001",
+    "title": "September 11 Reshapes the Internet",
+    "year": 2001,
+    "date": "2001-09-11",
+    "category": ["culture", "media"],
+    "type": "cultural_event",
+    "summary": "The 9/11 attacks make the internet a primary news source for the first time, as millions turn to websites for real-time information.",
+    "narrative": "When the planes hit, CNN's website crashes from traffic. So does Yahoo News. People can't get through on phone lines, so they turn to the web. Forums and message boards become real-time information networks. The Drudge Report, a one-man blog, breaks major stories before cable news. The internet isn't just entertainment anymore — it's a lifeline. The aftermath brings new concerns about surveillance, privacy, and the PATRIOT Act. The internet's relationship with government surveillance begins here.",
+    "why_it_matters": "Established the internet as a primary news source. Accelerated the decline of traditional media. Introduced a new era of government surveillance of online communications.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["blog-culture", "citizen-journalism", "surveillance", "patriot-act"],
+    "tags": ["september-11", "news", "media", "surveillance", "patriot-act"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Internet after September 11 attacks",
+        "url": "https://en.wikipedia.org/wiki/September_11_attacks#Aftermath",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "flash-animation-era-2001",
+    "title": "Flash Animation Peaks",
+    "year": 2001,
+    "date": "2001-06-01",
+    "category": ["media", "culture", "software"],
+    "type": "cultural_event",
+    "summary": "Macromedia Flash becomes the dominant platform for web animation, games, and interactive content, defining internet culture for years.",
+    "narrative": "Before YouTube, before TikTok, before viral video — there was Flash. Homestar Runner. Elf Bowling. The Bush Beam of Light. Stick figure fight animations. Flash is how creative people make things for the web. It's free to watch, easy to create, and the file sizes are tiny enough for dial-up. Newgrounds becomes the underground gallery. Macromedia (later Adobe) provides the tools. Flash is the web's creative engine, and for a few years, the weirdest, funniest, most creative stuff on the internet lives in .SWF files.",
+    "why_it_matters": "Democratized web animation and interactive content. Created an entire generation of web creators. Paved the way for modern web games and interactive media.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["html5-canvas", "web-games", "newgrounds", "homestar-runner"],
+    "tags": ["flash", "animation", "macromedia", "newgrounds", "interactive"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Adobe Flash",
+        "url": "https://en.wikipedia.org/wiki/Adobe_Flash",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "instant-messenger-wars-2001",
+    "title": "Instant Messenger Wars Heat Up",
+    "year": 2001,
+    "date": "2001-05-01",
+    "category": ["communication", "culture"],
+    "type": "cultural_event",
+    "summary": "AIM, MSN Messenger, ICQ, and Yahoo Messenger battle for dominance in the instant messaging space, with no single winner emerging.",
+    "narrative": "You have an AIM screen name. You have a buddy list. You know who's away and who's really there. AOL Instant Messenger dominates American high schools and colleges. MSN Messenger is huge internationally. ICQ — the original — still has diehards. Yahoo Messenger lets you send voice clips. Nobody can message across platforms. Your friends on AIM can't talk to your friends on MSN. It's the messaging equivalent of the phone company wars. The walled gardens will eventually crumble, but for now, you pick a side.",
+    "why_it_matters": "Established real-time messaging as core internet behavior. Created the buddy list paradigm. Showed the value of network effects in communication tools.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["slack-2013", "whatsapp-2009", "facebook-messenger", "cross-platform-messaging"],
+    "tags": ["instant-messenger", "aim", "msn", "icq", "yahoo"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Instant messaging",
+        "url": "https://en.wikipedia.org/wiki/Instant_messaging",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "xbox-launch-2001",
+    "title": "Microsoft Enters the Console Wars",
+    "year": 2001,
+    "date": "2001-11-15",
+    "category": ["gaming", "hardware", "business"],
+    "type": "product_launch",
+    "summary": "Microsoft launches the Xbox in North America, entering the console market with a $200 box and a killer app called Halo.",
+    "narrative": "Microsoft does something unthinkable: it builds a console. The Xbox is a beast — custom Intel processor, 8GB hard drive, built-in Ethernet. It's basically a PC in a black box. And then there's Halo. Bungie's sci-fi shooter is the game that makes people buy an Xbox. It's not just a launch title; it's a system seller. Xbox Live launches a year later, pioneering online console gaming. Sony thought they had the console market locked up. They were wrong.",
+    "why_it_matters": "Brought Microsoft into gaming. Halo proved console shooters could be as good as PC. Xbox Live pioneered online console multiplayer. Showed a software company could build hardware.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["xbox-live-2002", "halo-culture", "console-online", "microsoft-gaming"],
+    "tags": ["xbox", "microsoft", "halo", "gaming", "console"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Xbox (console)",
+        "url": "https://en.wikipedia.org/wiki/Xbox_(console)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

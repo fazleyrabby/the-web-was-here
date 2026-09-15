@@ -1,0 +1,202 @@
+[
+  {
+    "id": "apple-intelligence-2024",
+    "title": "Apple Launches Apple Intelligence",
+    "year": 2024,
+    "date": "2024-06-10",
+    "category": ["software", "hardware"],
+    "type": "product_launch",
+    "summary": "Apple introduces Apple Intelligence, integrating AI across iPhone, iPad, and Mac with on-device processing as a privacy differentiator.",
+    "narrative": "Apple waited. While Google, Microsoft, and OpenAI raced to ship AI features, Apple stayed quiet. Then at WWDC 2024, they unveiled Apple Intelligence — AI that lives on your device, not in the cloud. Writing tools, image generation, Siri with context, notification summaries. The twist? Most of it runs on the M-series chip locally. Your data stays yours. 'AI for the rest of us' — Apple's classic playbook of taking a technology others pioneered and making it accessible. OpenAI's Sam Altman appeared on stage. The partnership was controversial but strategic.",
+    "why_it_matters": "Brought AI to 2 billion Apple devices with a privacy-first approach. Redefined what on-device AI means. Forced competitors to rethink cloud-only AI strategies.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["on-device-ai", "privacy-ai", "siri-revival", "ai-mainstream"],
+    "tags": ["apple", "apple-intelligence", "ai", "iphone", "privacy", "on-device"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Apple Intelligence",
+        "url": "https://en.wikipedia.org/wiki/Apple_Intelligence",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "gemini-launch-2024",
+    "title": "Google Launches Gemini AI",
+    "year": 2024,
+    "date": "2024-02-15",
+    "category": ["software", "search"],
+    "type": "product_launch",
+    "summary": "Google's Gemini AI model launches as its most capable ever, powering Search, Workspace, and Android with multimodal intelligence.",
+    "narrative": "Google had been embarrassed by ChatGPT. Bard launched awkwardly. Now Gemini was the answer — a multimodal model that could understand text, images, audio, and video. 'Ultra,' 'Pro,' and 'Nano' tiers for different devices. Gemini was integrated into Google Search with AI Overviews (which sometimes told people to put glue on pizza). It powered Google Workspace. It lived on Android phones. Sundar Pichai called it the biggest science project Google had ever attempted. The AI wars were no longer about chatbots — they were about ecosystems.",
+    "why_it_matters": "Put Google back in the AI race. Created a multimodal AI ecosystem across search, productivity, and mobile. Changed how Google products work.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["ai-overviews", "google-ecosystem", "multimodal-ai", "ai-search"],
+    "tags": ["google", "gemini", "ai", "multimodal", "search", "android"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Gemini (language model)",
+        "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "vision-pro-launch-2024",
+    "title": "Apple Vision Pro Ships",
+    "year": 2024,
+    "date": "2024-02-02",
+    "category": ["hardware", "software"],
+    "type": "product_launch",
+    "summary": "Apple's $3,499 Vision Pro headset ships, bringing spatial computing to consumers with impressive tech but limited adoption.",
+    "narrative": "February 2, 2024: the day Apple's $3,499 ski goggles shipped. Lines formed at Apple Stores. People strapped them on in public — looking ridiculous but seeing the future. The technology was genuinely impressive: eye tracking, hand gestures, no controllers needed. But the weight, the price, and the isolation made it a niche product. Developers built apps. Some were magical. Most were demos. The Vision Pro proved spatial computing works. It also proved it's not ready for everyone yet. Apple was playing the long game — like the first iPhone, this was version one.",
+    "why_it_matters": "Shipped the most advanced consumer AR/VR headset ever. Proved spatial computing is viable but expensive. Set the stage for future, cheaper versions.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["spatial-computing", "ar-vr-future", "vision-pro-2", "immersive-computing"],
+    "tags": ["apple", "vision-pro", "spatial-computing", "vr", "ar", "headset"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Apple Vision Pro",
+        "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "tiktok-ban-threats-2024",
+    "title": "US Threatens TikTok Ban",
+    "year": 2024,
+    "date": "2024-04-24",
+    "category": ["social", "business"],
+    "type": "regulation",
+    "summary": "US Congress passes a bill forcing ByteDance to divest TikTok or face a ban, escalating geopolitical tensions over social media.",
+    "narrative": "For years, TikTok's Chinese ownership had been a political football. In 2024, Congress finally acted. The bill — bundled with foreign aid — gave ByteDance nine months to sell TikTok or be banned in the US. TikTok told users to call Congress. The phones rang. It didn't work. President Biden signed the bill. TikTok challenged it in court. The debate raged: national security or free speech? 170 million Americans used TikTok. Creators panicked. ByteDance refused to sell. The ban was later blocked by courts, but the message was clear — the era of unregulated global social media was ending.",
+    "why_it_matters": "Raised fundamental questions about national security vs. free speech. Showed that governments can target specific platforms. Created uncertainty for millions of creators.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["tiktok-uncertainty", "creator-economy", "social-media-regulation", "us-china-tech"],
+    "tags": ["tiktok", "ban", "bytedance", "congress", "national-security", "creator-economy"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Divest or ban TikTok Act",
+        "url": "https://en.wikipedia.org/wiki/TikTok_ban_in_the_United_States",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ai-agents-2024",
+    "title": "AI Agents Start Doing Real Work",
+    "year": 2024,
+    "date": "2024-06-01",
+    "category": ["software", "business"],
+    "type": "technology_breakthrough",
+    "summary": "AI agents emerge as the next frontier, with systems that can browse the web, write code, and complete multi-step tasks autonomously.",
+    "narrative": "2024 was the year AI stopped just answering questions and started doing things. OpenAI's GPT-4 could browse the web, create files, and run code. Anthropic's Claude could analyze entire codebases. Google's Gemini could process hours of video. 'AI agents' — systems that could plan, execute, and iterate — became the industry's obsession. Devin, the 'AI software engineer,' went viral. Computer-use agents that could navigate desktops appeared. The question shifted from 'Can AI think?' to 'Can AI do?' The answer was increasingly yes.",
+    "why_it_matters": "Shifted AI from passive assistance to active execution. Created new categories of AI-powered tools. Raised questions about job displacement and AI autonomy.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["autonomous-ai", "ai-coding", "agent-frameworks", "future-of-work"],
+    "tags": ["ai-agents", "autonomous", "gpt-4", "claude", "devin", "automation"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "AI agent",
+        "url": "https://en.wikipedia.org/wiki/AI_agent",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "sora-video-2024",
+    "title": "OpenAI Unveils Sora Video Generator",
+    "year": 2024,
+    "date": "2024-02-15",
+    "category": ["software", "media"],
+    "type": "technology_breakthrough",
+    "summary": "OpenAI's Sora generates photorealistic videos from text prompts, pushing AI capabilities into filmmaking and raising deepfake concerns.",
+    "narrative": "OpenAI dropped a demo reel that broke the internet. Sora could turn a sentence into a one-minute video — photorealistic, coherent, cinematic. A woman walking through Tokyo streets. Snow falling on a mountain. Dogs playing in a park. It looked like real footage. Filmmakers were amazed and terrified. The implications for deepfakes, misinformation, and creative work were enormous. Sora wasn't publicly available yet, but the demo alone shifted the conversation. Video was the next frontier of generative AI, and we weren't ready for it.",
+    "why_it_matters": "Demonstrated AI's ability to generate realistic video. Accelerated concerns about deepfakes and misinformation. Changed how the film industry thinks about AI.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["ai-video-future", "deepfake-concerns", "film-industry-ai", "generative-video"],
+    "tags": ["sora", "openai", "ai-video", "generative-ai", "deepfake", "filmmaking"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Sora (text-to-video model)",
+        "url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nvidia-dominance-2024",
+    "title": "Nvidia Becomes Most Valuable Company",
+    "year": 2024,
+    "date": "2024-06-18",
+    "category": ["business", "hardware"],
+    "type": "market_event",
+    "summary": "Nvidia briefly becomes the world's most valuable company as AI chip demand sends its stock soaring past $3 trillion.",
+    "narrative": "Jensen Huang's leather jacket became the most iconic outfit in tech. Nvidia — the company that made the GPUs powering the AI revolution — briefly surpassed Microsoft and Apple to become the world's most valuable company. The stock had risen 200%+ in a year. Every AI company needed Nvidia's chips. The H100 was the new oil. Governments competed to secure GPU supplies. Nvidia's market cap reflected a simple truth: whoever controls the hardware controls the AI future. Huang went from chip designer to the most powerful person in Silicon Valley.",
+    "why_it_matters": "Reflected the massive economic value of AI infrastructure. Showed that hardware is the bottleneck in the AI revolution. Changed Nvidia from a gaming company to a global power.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["gpu-shortage", "ai-infrastructure", "chip-wars", "nvidia-valuation"],
+    "tags": ["nvidia", "gpu", "ai-chips", "jensen-huang", "stock-market", "h100"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Nvidia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "no-kings-protest-2024",
+    "title": "No Kings Day Protests Go Viral",
+    "year": 2024,
+    "date": "2024-06-14",
+    "category": ["culture", "social"],
+    "type": "cultural_event",
+    "summary": "The 'No Kings' protest movement organizes mass demonstrations against authoritarianism, coordinated primarily through social media.",
+    "narrative": "On June 14, 2024, protests erupted across the United States under the 'No Kings' banner. Thousands took to the streets in coordinated demonstrations, organized primarily through social media platforms. The movement reflected growing tensions around democratic norms and political power. Social media's role in organizing mass protests — from the Arab Spring to Black Lives Matter to No Kings — continued to evolve. The internet remained humanity's most powerful tool for collective action.",
+    "why_it_matters": "Demonstrated social media's continued power for political organizing. Reflected global concerns about democratic backsliding. Showed that digital tools still enable grassroots movements.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["digital-activism", "social-media-politics", "protest-culture", "democratic-norms"],
+    "tags": ["protests", "no-kings", "activism", "social-media", "democracy"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "No Kings Day",
+        "url": "https://en.wikipedia.org/wiki/No_Kings_Day",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

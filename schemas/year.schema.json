@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Year Data",
+  "description": "Aggregated data for a single year in the timeline",
+  "type": "object",
+  "required": ["year", "title", "era", "events"],
+  "properties": {
+    "schema_version": { "type": "string", "default": "1.0" },
+    "year": {
+      "type": "integer",
+      "minimum": 1990,
+      "maximum": 2030
+    },
+    "title": {
+      "type": "string",
+      "description": "Short descriptor for the year"
+    },
+    "era": {
+      "type": "string",
+      "enum": [
+        "foundation", "early-web", "web-expansion", "web-2",
+        "mobile-social", "platform-era", "algorithmic", "ai-era"
+      ]
+    },
+    "narrative": {
+      "type": "string",
+      "description": "What the year felt like"
+    },
+    "felt_like": {
+      "type": "object",
+      "description": "Contextual snapshot of digital life",
+      "properties": {
+        "os": { "type": "string" },
+        "browser": { "type": "string" },
+        "messenger": { "type": "string" },
+        "social_network": { "type": "string" },
+        "music": { "type": "string" },
+        "phone": { "type": "string" },
+        "video": { "type": "string" },
+        "website": { "type": "string" }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of event IDs for this year"
+    }
+  }
+}

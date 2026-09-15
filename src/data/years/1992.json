@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1992,
+  "title": "The Web Goes Visual",
+  "era": "foundation",
+  "narrative": "1992 was the year the web learned to show pictures. Mosaic's graphical interface made the internet visual and intuitive, while Gopher's decline showed that open standards would win. The foundations of e-commerce were being laid.",
+  "felt_like": {
+    "os": "MS-DOS 5.0 / Windows 3.1 / System 7",
+    "browser": "Mosaic beta / ViolaWWW / Lynx",
+    "messenger": "IRC / CompuServe forums",
+    "social_network": "Usenet / BBS communities / CompuServe forums",
+    "music": "Grunge rules—Nirvana, Pearl Jam, Soundgarden",
+    "phone": "Early cell phones (brick-sized) / pay phones",
+    "video": "VHS tapes / early laserdiscs",
+    "website": "Simple pages with blue links and inline images"
+  },
+  "events": [
+    "mosaic-browser-beta-1992",
+    "first-online-bookstore-1992",
+    "early-web-growth-1992",
+    "gopher-protocol-1992",
+    "first-graphics-web-browser-1992",
+    "jpeg-format-created-1992",
+    "veronica-gopher-search-1992",
+    "first-credit-card-online-1992",
+    "compu-serv-graphics-1992"
+  ]
+}

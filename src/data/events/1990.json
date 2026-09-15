@@ -1,0 +1,227 @@
+[
+  {
+    "id": "tim-berners-lee-proposal-1990",
+    "title": "Tim Berners-Lee Proposes the World Wide Web",
+    "year": 1990,
+    "date": "1990-03-12",
+    "category": ["standards", "software"],
+    "type": "innovation",
+    "summary": "Tim Berners-Lee submitted a proposal titled 'Information Management: A Proposal' to his boss at CERN, laying the groundwork for the World Wide Web.",
+    "narrative": "In the quiet corridors of CERN, a British physicist had a radical idea: what if hypertext documents could be linked across the globe? His boss scrawled 'Vague but exciting' on the cover page, unaware that this scribble would precede the most transformative technology of the modern era. The proposal outlined a system where any piece of information could be linked to any other piece, creating an endless web of knowledge.",
+    "why_it_matters": "This proposal sparked the creation of the World Wide Web, fundamentally changing how humanity accesses and shares information.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["first-web-browser-1990", "world-wide-web-public-1991"],
+    "tags": ["hypertext", "cernet", "proposal", "origin"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "World Wide Web - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-web-browser-1990",
+    "title": "WorldWideWeb: The First Web Browser",
+    "year": 1990,
+    "date": "1990-12-25",
+    "category": ["software", "browser"],
+    "type": "launch",
+    "summary": "Tim Berners-Lee created WorldWideWeb, the first web browser and web editor, running on a NeXT computer at CERN.",
+    "narrative": "On Christmas Day, while most of the world unwrapped presents, Tim Berners-Lee unwrapped the future of communication. Running on the sleek NeXT machine he'd helped design, WorldWideWeb wasn't just a browser—it was an editor. You could both read and create web pages, embodying the democratic spirit of the emerging web. The program could also communicate with other NeXT machines, making it the first web client.",
+    "why_it_matters": "It was the first tool that allowed humans to browse and edit hypertext documents, making the web usable for the first time.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["first-web-server-1990", "world-wide-web-public-1991"],
+    "tags": ["browser", "nxt", "cernet", "first"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "WorldWideWeb (web browser) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WorldWideWeb",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-web-server-1990",
+    "title": "First Web Server Launched at CERN",
+    "year": 1990,
+    "date": "1990-12-20",
+    "category": ["hardware", "standards"],
+    "type": "launch",
+    "summary": "The first web server was launched at CERN on a NeXT computer, hosting the first website with the URL http://info.cern.ch.",
+    "narrative": "Behind a locked door in the CERN physics department sat a NeXT cube that would change everything. This machine became the world's first web server, hosting pages that described the World Wide Web project itself. The URL http://info.cern.ch was born, marking the beginning of web addresses as we know them. The machine's hostname was 'info', and it served the world's first website.",
+    "why_it_matters": "This server hosted the world's first website, establishing the fundamental infrastructure of the web.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["tim-berners-lee-proposal-1990", "world-wide-web-public-1991"],
+    "tags": ["server", "cernet", "http", "first"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "CERN - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/CERN",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "irc-invented-1990",
+    "title": "Internet Relay Chat (IRC) Invented",
+    "year": 1990,
+    "date": "1990-08-11",
+    "category": ["communication", "social"],
+    "type": "innovation",
+    "summary": "Jarkko Oikarinen created Internet Relay Chat (IRC) in Finland, pioneering real-time online communication.",
+    "narrative": "In the University of Oulu's computer lab, a Finnish student named Jarkko Oikarinen was about to invent the future of online communication. Inspired by BBS chat systems, he created IRC—a system where multiple users could join channels and talk in real time. What started as a simple extension to a BBS became the prototype for every chat application that followed, from AIM to Slack.",
+    "why_it_matters": "IRC pioneered the concept of real-time group chat and became the foundation for modern messaging platforms.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["aol-instant-messenger-1997", "icq-1996"],
+    "tags": ["irc", "chat", "real-time", "finland"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Internet Relay Chat - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "compuserve-gif-1990",
+    "title": "GIF Format Introduced by CompuServe",
+    "year": 1990,
+    "date": "1990-06-15",
+    "category": ["software", "media"],
+    "type": "launch",
+    "summary": "CompuServe introduced the Graphics Interchange Format (GIF) as a way to compress images for online transmission.",
+    "narrative": "In the pre-web internet of bulletin board systems and early online services, CompuServe needed a way to make images travel across slow modems. Their solution: the Graphics Interchange Format. Using LZW compression, GIF files were small enough to download in seconds rather than minutes. This simple image format would go on to become the language of internet expression through memes and animated reactions.",
+    "why_it_matters": "GIF became the universal format for simple images and animations on the internet, enabling visual communication online.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["animated-gif-culture-1999", "early-web-growth-1993"],
+    "tags": ["gif", "image", "compression", "format"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Graphics Interchange Format - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Graphics_Interchange_Format",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "europanet-launch-1990",
+    "title": "EurpaNet: Early European Network",
+    "year": 1990,
+    "date": "1990-01-01",
+    "category": ["communication", "standards"],
+    "type": "launch",
+    "summary": "European academic networks began interconnecting, laying groundwork for the pan-European internet infrastructure.",
+    "narrative": "As the Cold War ended, European universities and research institutions were quietly building their own connected network. EurpaNet and similar initiatives linked computing centers across borders, proving that the internet could be more than an American project. This interconnection of European networks would eventually feed into the global internet, bringing diverse voices to the digital conversation.",
+    "why_it_matters": "These early European networks demonstrated that the internet could be a global infrastructure, not just an American one.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["world-wide-web-public-1991"],
+    "tags": ["europe", "network", "academic", "infrastructure"],
+    "region": ["europe"],
+    "sources": [
+      {
+        "title": "History of the Internet - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ncsa-mosaic-nascent-1990",
+    "title": "NCSA Begins Mosaic Browser Development",
+    "year": 1990,
+    "date": "1990-09-01",
+    "category": ["software", "browser"],
+    "type": "innovation",
+    "summary": "The National Center for Supercomputing Applications (NCSA) at the University of Illinois began developing what would become the Mosaic web browser.",
+    "narrative": "While Tim Berners-Lee was building the web at CERN, a team of students at the University of Illinois were about to make it accessible to everyone. NCSA, already a hub for supercomputing research, saw the potential of Berners-Lee's creation and began work on a graphical browser that would make the web visual and intuitive. This early work would culminate in Mosaic, the browser that launched the web revolution.",
+    "why_it_matters": "The NCSA team would create Mosaic, the browser that made the World Wide Web accessible to non-technical users.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["mosaic-browser-1993", "netscape-founded-1994"],
+    "tags": ["ncsa", "mosaic", "browser", "development"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "NCSA Mosaic - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "usenet-growth-1990",
+    "title": "Usenet Reaches 1,000 Newsgroups",
+    "year": 1990,
+    "date": "1990-06-01",
+    "category": ["social", "communication"],
+    "type": "milestone",
+    "summary": "Usenet, the distributed discussion system, expanded to over 1,000 newsgroups covering diverse topics.",
+    "narrative": "Before Reddit, before forums, there was Usenet—a sprawling network of discussion groups where people debated, shared knowledge, and formed communities. By 1990, it had grown to over 1,000 newsgroups, from comp.sys.mac to rec.arts.startrek. Usenet was the internet's first true social network, where strangers from around the world could find others who shared their passions.",
+    "why_it_matters": "Usenet established the model for online communities and threaded discussions that would influence every social platform.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["reddit-launched-2005", "slashdot-launched-1997"],
+    "tags": ["usenet", "newsgroups", "community", "discussion"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Usenet - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Usenet",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "bbs-culture-peak-1990",
+    "title": "Bulletin Board Systems (BBS) Culture Peaks",
+    "year": 1990,
+    "date": "1990-12-31",
+    "category": ["culture", "communication"],
+    "type": "cultural_shift",
+    "summary": "Bulletin Board Systems reached peak popularity, with thousands of local dial-up systems serving as community hubs.",
+    "narrative": "Before the web connected everyone globally, BBSes connected communities locally. Across America and the world, hobbyists ran phone-based computer systems where neighbors could chat, share files, and play games. The modem's screech was the sound of connection—a ritual that millions performed nightly. From Software Creations to local hangouts, BBSes were where many first experienced online community.",
+    "why_it_matters": "BBSes created the first widespread digital communities and demonstrated the human desire for online connection.",
+    "impact": 3,
+    "nostalgia": 5,
+    "influence": ["irc-invented-1990", "aol-instant-messenger-1997"],
+    "tags": ["bbs", "dial-up", "community", "modem"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Bulletin board system - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bulletin_board_system",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

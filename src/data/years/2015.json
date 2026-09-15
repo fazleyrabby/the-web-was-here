@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2015,
+  "title": "The Year the Stack Got Real",
+  "era": "platform-maturity",
+  "narrative": "React Native brings web patterns to mobile. Apple Watch creates wearable computing. Uber becomes a verb. Apple Music enters the streaming wars. Deep learning breaks through. Windows 10 redefines the OS.",
+  "felt_like": {
+    "os": "Windows 10 / Mac OS X El Capitan",
+    "browser": "Chrome",
+    "messenger": "Slack / WhatsApp",
+    "social_network": "Instagram / Snapchat",
+    "music": "Spotify / Apple Music",
+    "phone": "iPhone 6s / Samsung Galaxy S6",
+    "video": "YouTube / Netflix",
+    "website": "flat design, Material Design, and lots of carousels"
+  },
+  "events": [
+    "react-2015",
+    "apple-watch-2015",
+    "uber-global-2015",
+    "apple-music-2015",
+    "windows-10-2015",
+    "twitch-acquisition-2015",
+    "slack-rise-2015",
+    "deep-learning-2015",
+    "google-self-driving-2015",
+    "peloton-2015"
+  ]
+}

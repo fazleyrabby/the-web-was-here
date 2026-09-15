@@ -1,0 +1,252 @@
+[
+  {
+    "id": "snowden-nsa-revelations-2013",
+    "title": "Snowden NSA Revelations",
+    "year": 2013,
+    "date": "2013-06-06",
+    "category": ["security", "culture"],
+    "type": "cultural_event",
+    "summary": "Edward Snowden leaks classified NSA documents revealing mass surveillance programs, changing the global conversation about privacy.",
+    "narrative": "A 29-year-old NSA contractor flies to Hong Kong with a laptop full of classified documents. He meets Glenn Greenwald and Laura Poitras in a hotel room. The Guardian publishes the first story: the NSA is collecting phone records of millions of Americans. Then it gets worse. PRISM. XKeyscore. The NSA is tapping undersea cables, hacking servers, and collecting data from Google, Facebook, and Apple. Snowden becomes the most wanted man in America. He's charged under the Espionage Act.",
+    "why_it_matters": "Changed the global conversation about surveillance and privacy. Forced tech companies to encrypt everything. Created the modern privacy movement. Snowden became the defining whistleblower of the digital age.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["encryption-everywhere", "privacy-legislation", "tech-encryption", "whistleblower-culture"],
+    "tags": ["snowden", "nsa", "surveillance", "privacy", "encryption"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Edward Snowden - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Edward_Snowden",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "bitcoin-1000-2013",
+    "title": "Bitcoin Hits $1,000",
+    "year": 2013,
+    "date": "2013-11-29",
+    "category": ["business", "culture"],
+    "type": "cultural_event",
+    "summary": "Bitcoin's price surges past $1,000 for the first time, reaching a market cap of $15 billion.",
+    "narrative": "Bitcoin goes from $13 to $1,000 in one year. The Silk Road gets shut down by the FBI. Bitcoin doesn't die — it moons. Every news outlet runs a Bitcoin story. Your uncle asks you how to buy Bitcoin. Mt. Gox, the biggest exchange, processes 70% of all Bitcoin transactions. It will collapse in February 2014. But for this moment, Bitcoin feels real. The crypto dream seems possible.",
+    "why_it_matters": "First major price milestone. Brought crypto to mainstream attention. The Mt. Gox collapse that followed became a cautionary tale. The $1,000 price was just the beginning.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["crypto-mainstream", "mt-gox-collapse-2014", "blockchain-hype", "crypto-regulation"],
+    "tags": ["bitcoin", "cryptocurrency", "price", "mt-gox", "crypto"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Bitcoin - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bitcoin",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ps4-xbox-one-launch-2013",
+    "title": "PS4 and Xbox One Launch",
+    "year": 2013,
+    "date": "2013-11-15",
+    "category": ["gaming", "hardware"],
+    "type": "product_launch",
+    "summary": "Sony PS4 and Microsoft Xbox One launch within weeks of each other, beginning the eighth generation of game consoles.",
+    "narrative": "Sony and Microsoft launch new consoles in November. The PS4 costs $399. The Xbox One costs $499 and requires Kinect. Microsoft reverses its always-online policy after massive backlash. The PS4 wins the generation on pure power and price. Both consoles have built-in streaming. Twitch becomes huge on PlayStation. Gaming becomes a spectator sport.",
+    "why_it_matters": "Defined the console generation. Streaming became integral to gaming. The always-online backlash showed consumer power. PlayStation's dominance shaped the industry for a decade.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["twitch-gaming", "console-streaming", "gaming-community", "always-online-backlash"],
+    "tags": ["playstation-4", "xbox-one", "gaming", "console", "launch"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "PlayStation 4 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_4",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "oculus-rift-kickstarter-2013",
+    "title": "Oculus Rift Kickstarter",
+    "year": 2013,
+    "date": "2013-08-01",
+    "category": ["gaming", "hardware"],
+    "type": "product_launch",
+    "summary": "Oculus Rift raises $2.4 million on Kickstarter, igniting the modern virtual reality revolution.",
+    "narrative": "Palmer Luckey, a 20-year-old with messy hair, posts a Kickstarter for a VR headset. He calls it the Oculus Rift. John Carmack, the legendary game developer, promotes it. The Kickstarter blows past its goal. The dev kit ships to backers in 2013. The demos are mind-blowing. You put on the headset and you're somewhere else. Facebook buys Oculus for $2 billion in 2014. The metaverse is born.",
+    "why_it_matters": "Revived virtual reality after decades of failure. Created the modern VR industry. Facebook's acquisition made VR a mainstream tech priority.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["facebook-oculus-acquisition-2014", "vr-industry", "metaverse", "virtual-reality-mainstream"],
+    "tags": ["oculus-rift", "vr", "kickstarter", "virtual-reality", "palmer-luckey"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Oculus Rift - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "vine-launch-2013",
+    "title": "Vine Launches",
+    "year": 2013,
+    "date": "2013-01-24",
+    "category": ["social", "media"],
+    "type": "platform_launch",
+    "summary": "Twitter launches Vine, a 6-second looping video app that creates a new format for short-form video content.",
+    "narrative": "Twitter buys a tiny app called Vine. It lets you make 6-second looping videos. It's absurdly simple. Kids go crazy for it. The Vine stars become famous: Logan Paul, Jake Paul, Lele Pons. The format is addictive. Six seconds forces creativity. Brands try to make Vines and fail. Teens make Vines that get millions of loops. The 6-second format doesn't survive, but the idea of short-form video is permanent.",
+    "why_it_matters": "Created the short-form video format. Directly influenced TikTok, Instagram Reels, and YouTube Shorts. The Vine star model created the modern influencer economy.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["tiktok-2016", "instagram-reels-2020", "youtube-shorts-2020", "influencer-economy"],
+    "tags": ["vine", "short-video", "looping", "twitter", "viral"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Vine (service) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vine_(service)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ea-origin-2013",
+    "title": "EA Launches Origin",
+    "year": 2013,
+    "date": "2013-01-01",
+    "category": ["gaming", "software"],
+    "type": "platform_launch",
+    "summary": "EA fully launches Origin as its digital distribution platform, challenging Steam's dominance in PC gaming.",
+    "narrative": "EA pulls its games from Steam and launches its own platform: Origin. Gamers are furious. They don't want another launcher. But EA has FIFA, Battlefield, Madden — games people will install anything to play. Origin is clunky, slow, and has customer service horror stories. It proves that even a bad platform can survive if it has exclusive content. Every publisher learns the lesson: build your own launcher.",
+    "why_it_matters": "Started the launcher wars. Every major publisher now has their own platform. Showed that content exclusivity drives platform adoption, even when the platform is inferior.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["epic-games-store-2018", "battle-net", "ubisoft-connect", "launcher-wars"],
+    "tags": ["ea", "origin", "pc-gaming", "digital-distribution", "steam"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "EA Origin - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Origin_(service)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "google-glass-explorer-2013",
+    "title": "Google Glass Explorer Edition",
+    "year": 2013,
+    "date": "2013-04-15",
+    "category": ["hardware", "culture"],
+    "type": "product_launch",
+    "summary": "Google ships the Glass Explorer Edition to early adopters, sparking a global debate about wearable technology and privacy.",
+    "narrative": "Google ships a computer that looks like glasses to 2,000 Explorers for $1,500. They look ridiculous. People call them 'Glassholes.' But the technology is real: heads-up display, voice commands, camera. Bars ban Glass. Restaurants ban Glass. The privacy debate explodes. Google pauses the project. The concept survives — smart glasses, AR, heads-up displays. The execution was just too early.",
+    "why_it_matters": "Pioneered the smart glasses concept. Sparked the privacy-vs-innovation debate. The backlash influenced how tech companies approach wearable cameras.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["smart-glasses", "ar-glasses", "wearable-tech", "privacy-debates"],
+    "tags": ["google-glass", "wearable", "smart-glasses", "privacy", "ar"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Google Glass - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Google_Glass",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "yahoo-tumblr-acquisition-2013",
+    "title": "Yahoo Acquires Tumblr for $1.1 Billion",
+    "year": 2013,
+    "date": "2013-05-20",
+    "category": ["business", "social"],
+    "type": "acquisition",
+    "summary": "Yahoo acquires Tumblr for $1.1 billion, promising to 'not screw it up' — and promptly screws it up.",
+    "narrative": "Marissa Mayer pays $1.1 billion for Tumblr. David Karp stays on as CEO. Mayer promises not to change it. Yahoo adds ads. They try to make it family-friendly. The community revolts. Tumblr's creative, counterculture identity clashes with Yahoo's corporate culture. Karp leaves in 2016. Yahoo gets sold to Verizon in 2017. Tumblr gets sold to Automattic for $3 million. From $1.1 billion to $3 million.",
+    "why_it_matters": "One of the worst acquisitions in tech history. Showed that buying a community doesn't mean you own it. The $3 million sale price became a cautionary tale.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["tech-acquisition-failures", "community-platforms", "yahoo-decline", "tumblr-nsfw-ban"],
+    "tags": ["yahoo", "tumblr", "acquisition", "failure", "community"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Tumblr - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tumblr",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "black-lives-matter-2013",
+    "title": "Black Lives Matter Movement Begins",
+    "year": 2013,
+    "date": "2013-07-13",
+    "category": ["social", "culture"],
+    "type": "cultural_event",
+    "summary": "The #BlackLivesMatter hashtag is created after the acquittal of George Zimmerman, becoming a global movement for racial justice.",
+    "narrative": "George Zimmerman is acquitted in the shooting death of Trayvon Martin. Alicia Garza writes a Facebook post: 'Black people. I love you. I love us. Our lives matter.' Patrisse Cullors adds the hashtag. #BlackLivesMatter is born. It starts as a social media call. It becomes the largest social movement in American history. The hashtag becomes a rallying cry, a protest sign, a way of seeing the world.",
+    "why_it_matters": "Created the most important social movement of the decade. Proved hashtags can become real-world movements. Changed how we talk about race and justice.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["hashtag-activism", "racial-justice", "social-movements", "george-floyd-2020"],
+    "tags": ["black-lives-matter", "hashtag", "racial-justice", "activism", "social-media"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Black Lives Matter - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nokia-microsoft-acquisition-2013",
+    "title": "Microsoft Acquires Nokia's Phone Business",
+    "year": 2013,
+    "date": "2013-09-02",
+    "category": ["business", "hardware"],
+    "type": "acquisition",
+    "summary": "Microsoft acquires Nokia's phone business for $7.2 billion, the final nail in the coffin for the world's former phone giant.",
+    "narrative": "Nokia was the world's biggest phone maker. Then the iPhone happened. Nokia chose Windows Phone. It didn't work. Stephen Elop, the CEO, was a former Microsoft executive. He steered Nokia toward Microsoft's platform. When Microsoft buys Nokia for $7.2 billion, it feels like a betrayal. Nokia's phone business dies slowly. By 2017, the brand is sold to HMD Global. The $7.2 billion write-off is one of the biggest in corporate history.",
+    "why_it_matters": "End of Nokia's phone empire. One of the worst corporate acquisitions in history. Microsoft's phone business never recovered. The $7.2 billion became a meme about corporate mismanagement.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["microsoft-phone-failure", "nokia-legacy", "smartphone-wars", "corporate-mismanagement"],
+    "tags": ["nokia", "microsoft", "acquisition", "phone", "windows-phone"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Microsoft acquires Nokia - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_Nokia",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

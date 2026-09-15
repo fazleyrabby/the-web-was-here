@@ -1,0 +1,227 @@
+[
+  {
+    "id": "twitter-founding-2006",
+    "title": "Twitter Is Born",
+    "year": 2006,
+    "date": "2006-03-21",
+    "category": ["social", "communication"],
+    "type": "company_launch",
+    "summary": "Jack Dorsey sends the first tweet: 'just setting up my twttr.' The 140-character microblogging platform is born.",
+    "narrative": "Jack Dorsey, Biz Stone, and Noah Glass at Odeo stumble onto the idea of status updates via SMS. They call it 'twttr,' inspired by Flickr. The first tweet goes out March 21, 2006. It's underwhelming. But the concept of broadcasting tiny thoughts to the world in real-time? That catches fire. Within a year, Twitter is the pulse of the internet.",
+    "why_it_matters": "Created the real-time public conversation. Changed how news breaks, how celebrities communicate, and how movements organize. The 140-character constraint forced an entire generation to write tighter.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["real-time-social-2007", "citizen-journalism", "hashtag-culture", "twitter-news-breaking"],
+    "tags": ["twitter", "microblogging", "social-media", "sms", "jack-dorsey"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Twitter: History",
+        "url": "https://en.wikipedia.org/wiki/Twitter",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "justin-tv-2006",
+    "title": "Justin.tv Goes Live",
+    "year": 2006,
+    "date": "2006-03-19",
+    "category": ["media", "culture"],
+    "type": "company_launch",
+    "summary": "Justin Kan streams his life 24/7 on Justin.tv, pioneering live streaming and eventually spawning Twitch.",
+    "narrative": "Justin Kan straps a camera to his head and broadcasts his entire life on the internet. It sounds absurd — because it is. But people watch. They watch him eat, sleep, code, and argue with his girlfriend. The lifecasting experiment reveals something huge: people want to watch other people do things, live, in real-time. The gaming section of Justin.tv eventually breaks off and becomes Twitch.",
+    "why_it_matters": "Pioneered the live-streaming format that became Twitch, YouTube Live, and the entire creator economy around live content. Proved that watching people do things is entertainment.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["twitch-2011", "live-streaming", "creator-economy", "just-chatting"],
+    "tags": ["justin-tv", "live-streaming", "lifecasting", "twitch", "justin-kan"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Justin.tv: The Early Days",
+        "url": "https://en.wikipedia.org/wiki/Justin.tv",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nintendo-wii-2006",
+    "title": "Nintendo Wii Launches",
+    "year": 2006,
+    "date": "2006-11-19",
+    "category": ["gaming", "hardware"],
+    "type": "product_launch",
+    "summary": "Nintendo releases the Wii with motion controls, making gaming accessible to everyone from kids to grandparents.",
+    "narrative": "Sony and Microsoft are in an arms race for graphics. Nintendo bets on something different: fun. The Wii Remote — a wand you wave around — turns gaming into a physical activity. Wii Sports comes bundled with the console. Suddenly your parents are bowling in the living room. Your grandma is playing tennis. Gaming stops being a nerd hobby and becomes a family activity.",
+    "why_it_matters": "Democratized gaming. Proved that innovation isn't about specs — it's about experience. Sold over 100 million units. Made motion controls mainstream.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["motion-controls", "casual-gaming", "switch-2017", "vr-gaming"],
+    "tags": ["nintendo", "wii", "gaming", "motion-controls", "wii-sports"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Wii: Launch and Legacy",
+        "url": "https://en.wikipedia.org/wiki/Wii",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "google-youtube-acquisition-2006",
+    "title": "Google Acquires YouTube",
+    "year": 2006,
+    "date": "2006-10-09",
+    "category": ["business", "media"],
+    "type": "acquisition",
+    "summary": "Google buys YouTube for $1.65 billion in stock, the biggest bet on user-generated content ever made.",
+    "narrative": "YouTube is 18 months old. It has no real revenue. It's burning through servers hosting millions of videos. Google writes a check for $1.65 billion. Everyone thinks it's insane. Within a decade, YouTube generates more ad revenue than any TV network. The acquisition proves that attention is worth more than content ownership.",
+    "why_it_matters": "Validated user-generated content as a business model. Gave YouTube the infrastructure to scale. Became the blueprint for platform acquisitions.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["creator-economy", "youtube-monetization", "platform-acquisitions", "google-dominance"],
+    "tags": ["google", "youtube", "acquisition", "video", "user-generated-content"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Google Acquires YouTube",
+        "url": "https://en.wikipedia.org/wiki/YouTube",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "facebook-open-registration-2006",
+    "title": "Facebook Opens to Everyone",
+    "year": 2006,
+    "date": "2006-09-26",
+    "category": ["social", "business"],
+    "type": "platform_shift",
+    "summary": "Facebook opens registration to anyone over 13 with a valid email address. The exclusivity is gone. The growth is unstoppable.",
+    "narrative": "For two years, Facebook was the cool college thing. You needed a .edu email. It felt exclusive, private, safe. Then Mark Zuckerberg opens the doors. High schoolers flood in. Then their parents. Then their grandparents. The 'walled garden' becomes a public square. MySpace starts bleeding users overnight.",
+    "why_it_matters": "Killed MySpace's dominance. Transformed Facebook from college novelty to global utility. Established the pattern of controlled exclusivity followed by mass opening.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["myspace-decline", "facebook-dominance", "social-graph", "platform-ecosystem"],
+    "tags": ["facebook", "social-network", "registration", "growth", "myspace"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Facebook: History",
+        "url": "https://en.wikipedia.org/wiki/Facebook",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "aws-growth-2006",
+    "title": "Amazon Web Services Takes Off",
+    "year": 2006,
+    "date": "2006-03-14",
+    "category": ["software", "business"],
+    "type": "product_launch",
+    "summary": "Amazon launches S3 and EC2, letting anyone rent computing power and storage over the internet. Cloud computing begins.",
+    "narrative": "In 2006, if you wanted to run a website, you bought servers. You racked them in a closet or paid a hosting company. Amazon flips the script: rent computing by the hour, pay only for what you use. S3 stores your files. EC2 runs your code. It sounds boring — it's infrastructure. But it's the most transformative technology shift since the browser. Every startup that followed was built on cloud computing.",
+    "why_it_matters": "Created the cloud computing industry. Eliminated the need for upfront server investment. Enabled the startup boom of the 2010s. Made 'scalability' a solved problem.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["cloud-native", "serverless", "startup-boom", "azure-gcp"],
+    "tags": ["aws", "cloud", "amazon", "ec2", "s3", "infrastructure"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Amazon Web Services: History",
+        "url": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "roku-founding-2006",
+    "title": "Roku Founded",
+    "year": 2006,
+    "date": "2006-01-01",
+    "category": ["hardware", "media"],
+    "type": "company_launch",
+    "summary": "Anthony Wood founds Roku to make streaming video simple. The streaming stick that changes how we watch TV is born.",
+    "narrative": "Anthony Wood has a history of building things people want: ReplayTV, the first DVR. Now he's betting that the future of TV is internet streaming. Roku starts as a Netflix project — literally a set-top box for Netflix streaming. Then Netflix spins it off. Roku pivots to aggregating every streaming service. The little purple box becomes the gateway to cord-cutting.",
+    "why_it_matters": "Made streaming TV accessible and affordable. Pioneered the streaming aggregator model. Helped kill cable TV and birth the streaming wars.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["streaming-wars", "cord-cutting", "apple-tv", "smart-tv"],
+    "tags": ["roku", "streaming", "television", "cord-cutting", "netflix"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Roku: Company History",
+        "url": "https://en.wikipedia.org/wiki/Roku",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "linkedin-growth-2006",
+    "title": "LinkedIn Hits 10 Million Users",
+    "year": 2006,
+    "date": "2006-10-01",
+    "category": ["social", "business"],
+    "type": "platform_growth",
+    "summary": "LinkedIn reaches 10 million users, establishing itself as the professional social network.",
+    "narrative": "While MySpace and Facebook fight over social life, LinkedIn quietly builds the professional network. Recruiters love it. Job seekers need it. Your online resume replaces the paper one. LinkedIn proves that social networking isn't just for sharing photos — it's for building careers. By 2006, it's the place where headhunters find you and where you pretend to be looking for a job.",
+    "why_it_matters": "Created the professional networking category. Changed how hiring works. Proved that social networks could be utilitarian, not just social.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["professional-networking", "recruiting-tech", "linkedin-ipo-2011"],
+    "tags": ["linkedin", "professional", "networking", "recruiting", "careers"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "LinkedIn: History",
+        "url": "https://en.wikipedia.org/wiki/LinkedIn",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "limewire-fall-2006",
+    "title": "LimeWire and the P2P Wars",
+    "year": 2006,
+    "date": "2006-09-01",
+    "category": ["software", "culture"],
+    "type": "cultural_event",
+    "summary": "LimeWire becomes the most popular file-sharing client. The music industry fights back with lawsuits.",
+    "narrative": "Napster dies, but file-sharing doesn't. LimeWire picks up the torch and runs with it. It's free, it's easy, and it's absolutely full of viruses. You think you're downloading the new Jay-Z album. You get a virus and a file called 'Linkin_Park_Numb_REAL.exe.' The RIAA sues individuals. Mothers get sued for their kids' downloads. The war on piracy reaches absurd heights.",
+    "why_it_matters": "Demonstrated the failure of prohibition as a digital strategy. Proved that people want convenience over legality. Pushed the industry toward legal streaming solutions.",
+    "impact": 3,
+    "nostalgia": 5,
+    "influence": ["spotify-2007", "piracy-debate", "digital-rights", "drm-failure"],
+    "tags": ["limewire", "file-sharing", "piracy", "p2p", "music"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "LimeWire: History",
+        "url": "https://en.wikipedia.org/wiki/LimeWire",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

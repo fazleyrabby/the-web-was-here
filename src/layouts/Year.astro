@@ -1,0 +1,317 @@
+---
+import Base from './Base.astro';
+import YearArt from '../components/YearArt.astro';
+
+interface Props {
+  year: number;
+  title: string;
+  narrative?: string;
+}
+
+const { year, title, narrative } = Astro.props;
+
+const MIN_YEAR = 1990;
+const MAX_YEAR = 2026;
+const prevYear = year > MIN_YEAR ? year - 1 : null;
+const nextYear = year < MAX_YEAR ? year + 1 : null;
+const randomYear = (() => {
+  let r = year;
+  while (r === year) r = MIN_YEAR + Math.floor(Math.random() * (MAX_YEAR - MIN_YEAR + 1));
+  return r;
+})();
+---
+
+<Base title={`${year} — The Web Was Here`}>
+  <header class="year-header">
+    <div class="year-header__doodles" aria-hidden="true">
+      <svg class="year-header__doodle" data-parallax="0.15" viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 18 L44 18 L32 28 L36 42 L24 32 L12 42 L16 28 L4 18 L20 18 Z" stroke="var(--orange)" stroke-width="2" fill="none" /></svg>
+      <svg class="year-header__doodle" data-parallax="0.3" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="var(--green)" stroke-width="2" fill="none" /><path d="M12 24 h24" stroke="var(--green)" stroke-width="1.5" /><ellipse cx="24" cy="24" rx="8" ry="18" stroke="var(--green)" stroke-width="1.5" fill="none" /></svg>
+      <svg class="year-header__doodle" data-parallax="0.22" viewBox="0 0 48 48" fill="none"><path d="M8 30 L8 12 L20 12 L20 30 M20 20 L36 20 L36 30" stroke="var(--blue)" stroke-width="2.5" fill="none" stroke-linecap="round" /><circle cx="36" cy="34" r="3" fill="var(--blue)" /></svg>
+      <svg class="year-header__doodle" data-parallax="0.4" viewBox="0 0 48 48" fill="none"><rect x="8" y="10" width="32" height="24" rx="2" stroke="var(--pink)" stroke-width="2.5" fill="none" /><path d="M6 38 h36" stroke="var(--pink)" stroke-width="2.5" stroke-linecap="round" /></svg>
+    </div>
+
+    <div class="year-header__inner">
+      <a href="/" class="year-header__back">&larr; Timeline</a>
+      <div class="year-header__grid">
+        <div class="year-header__text">
+          <h1 class="year-header__year" data-count-to={year}>{year}</h1>
+          <h2 class="year-header__title">{title}</h2>
+          {narrative && <p class="year-header__narrative">{narrative}</p>}
+        </div>
+        <div class="year-header__art">
+          <YearArt year={year} />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="year-content">
+    <slot />
+  </div>
+
+  <nav class="year-nav" aria-label="Year navigation">
+    {prevYear ? (
+      <a href={`/the-web/${prevYear}`} class="year-nav__link year-nav__link--prev">
+        <span class="year-nav__dir">&larr; Previous</span>
+        <span class="year-nav__num">{prevYear}</span>
+      </a>
+    ) : (
+      <span class="year-nav__link year-nav__link--disabled"><span class="year-nav__dir">&larr; Previous</span><span class="year-nav__num">—</span></span>
+    )}
+
+    <div class="year-nav__center">
+      <a href={`/the-web/${randomYear}`} class="year-nav__random" title="Jump to a random year" aria-label="Jump to a random year">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7 h4 l3 5 l-3 5 h-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M14 7 h6 v10 h-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12 h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" /></svg>
+        <span>Random year</span>
+      </a>
+      <select class="year-nav__jump" aria-label="Jump directly to any year" onchange="if(this.value) window.location.href=this.value">
+        <option value="">Jump year ▾</option>
+        {Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => MIN_YEAR + i).map((y) => (
+          <option value={`/the-web/${y}`} selected={y === year}>{y}</option>
+        ))}
+      </select>
+    </div>
+
+    {nextYear ? (
+      <a href={`/the-web/${nextYear}`} class="year-nav__link year-nav__link--next">
+        <span class="year-nav__dir">Next &rarr;</span>
+        <span class="year-nav__num">{nextYear}</span>
+      </a>
+    ) : (
+      <span class="year-nav__link year-nav__link--disabled"><span class="year-nav__dir">Next &rarr;</span><span class="year-nav__num">—</span></span>
+    )}
+  </nav>
+</Base>
+
+<style>
+  .year-header {
+    padding: var(--spacing-2xl) var(--spacing-lg) var(--spacing-xl);
+    position: relative;
+    overflow: hidden;
+    border-bottom: var(--border-thick);
+  }
+
+  .year-header__doodles { position: absolute; inset: 0; pointer-events: none; }
+  .year-header__doodle {
+    position: absolute;
+    width: 46px;
+    opacity: 0.35;
+    animation: float 8s ease-in-out infinite;
+    will-change: transform;
+  }
+  .year-header__doodle:nth-child(1) { top: 14%; right: 8%; animation-delay: 0s; }
+  .year-header__doodle:nth-child(2) { bottom: 14%; right: 18%; width: 38px; animation-delay: 1.2s; }
+  .year-header__doodle:nth-child(3) { top: 62%; left: 3%; width: 40px; animation-delay: 2s; }
+  .year-header__doodle:nth-child(4) { top: 30%; left: 3%; width: 42px; animation-delay: 0.6s; }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(3deg); }
+  }
+
+  .year-header__inner { max-width: var(--max-width); margin: 0 auto; position: relative; z-index: 1; }
+
+  .year-header__back {
+    font-family: var(--font-hand);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: transform 0.2s var(--ease-out), color 0.2s var(--ease-out);
+    display: inline-block;
+    margin-bottom: var(--spacing-lg);
+  }
+  .year-header__back:hover { color: var(--pink); transform: translateX(-4px); }
+
+  .year-header__grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: var(--spacing-xl);
+    align-items: center;
+  }
+
+  .year-header__year {
+    font-family: var(--font-hand);
+    font-size: clamp(4.5rem, 14vw, 9rem);
+    font-weight: 700;
+    line-height: 0.95;
+    color: var(--pink);
+    margin-bottom: var(--spacing-md);
+    text-shadow: 5px 5px 0 var(--bark);
+  }
+
+  .year-header__title {
+    font-family: var(--font-hand);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--bark);
+    margin-bottom: var(--spacing-lg);
+    max-width: 65ch;
+  }
+
+  .year-header__narrative {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    max-width: 60ch;
+    line-height: 1.7;
+  }
+
+  .year-header__art { display: flex; justify-content: center; }
+
+  .year-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+
+  /* ===== YEAR NAV ===== */
+  .year-nav {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg) var(--spacing-2xl);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+  }
+  .year-nav__link {
+    flex: 1;
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--bg-card);
+    border: var(--border-thick);
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 var(--bark);
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out), background 0.2s var(--ease-out);
+  }
+  .year-nav__link--next { text-align: right; }
+  .year-nav__link:hover { transform: translate(-3px, -3px); box-shadow: 7px 7px 0 var(--bark); border-color: var(--bark); background: var(--yellow); }
+  .year-nav__link--disabled { opacity: 0.35; pointer-events: none; }
+  .year-nav__dir { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); font-weight: 600; }
+  .year-nav__num { font-family: var(--font-hand); font-size: 1.8rem; font-weight: 700; color: var(--bark); line-height: 1; }
+
+  .year-nav__center {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .year-nav__random {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    background: var(--purple);
+    color: #fff;
+    border: var(--border-thick);
+    border-radius: 4px;
+    box-shadow: var(--shadow-brutal-sm);
+    font-family: var(--font-hand);
+    font-size: 1.15rem;
+    font-weight: 600;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out), background 0.2s var(--ease-out);
+  }
+  .year-nav__random svg { width: 20px; height: 20px; }
+  .year-nav__random:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--bark); background: var(--pink); }
+
+  .year-nav__jump {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.65rem 1rem;
+    background: var(--bg-card);
+    border: var(--border-thick);
+    border-radius: 4px;
+    box-shadow: var(--shadow-brutal-sm);
+    color: var(--bark);
+    cursor: pointer;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+  }
+  .year-nav__jump:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--bark);
+  }
+
+  @media (max-width: 900px) {
+    .year-header__grid { grid-template-columns: 1fr; gap: var(--spacing-xl); }
+    .year-header__art { order: -1; }
+    .year-art { max-width: 240px; }
+  }
+  @media (max-width: 680px) {
+    .year-nav { flex-direction: column; align-items: stretch; }
+    .year-nav__center { order: -1; width: 100%; justify-content: stretch; }
+    .year-nav__random { flex: 1; justify-content: center; }
+    .year-nav__jump { flex: 1; }
+    .year-nav__link--next { text-align: left; }
+  }
+</style>
+
+<script>
+  function initYearCount() {
+    const el = document.querySelector('.year-header__year') as HTMLElement | null;
+    if (!el) return;
+    const target = parseInt(el.getAttribute('data-count-to') || '', 10);
+    if (isNaN(target)) return;
+    const start = target - 25;
+    const duration = 900;
+    const t0 = performance.now();
+    function tick(now: number) {
+      const p = Math.min((now - t0) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = String(Math.round(start + (target - start) * eased));
+      if (p < 1) requestAnimationFrame(tick);
+      else el.textContent = String(target);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function initParallax() {
+    const els = Array.from(document.querySelectorAll('[data-parallax]')) as HTMLElement[];
+    if (!els.length) return;
+    let ticking = false;
+    function apply() {
+      const y = window.scrollY;
+      for (const el of els) {
+        const speed = parseFloat(el.getAttribute('data-parallax') || '0.2');
+        el.style.translate = `0 ${(y * speed).toFixed(1)}px`;
+      }
+      ticking = false;
+    }
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (!ticking) {
+          requestAnimationFrame(apply);
+          ticking = true;
+        }
+      },
+      { passive: true }
+    );
+    apply();
+  }
+
+  function initYearPage() {
+    initYearCount();
+    initParallax();
+    initYearKeys();
+  }
+
+  function initYearKeys() {
+    const prev = document.querySelector('.year-nav__link--prev') as HTMLAnchorElement | null;
+    const next = document.querySelector('.year-nav__link--next') as HTMLAnchorElement | null;
+    document.addEventListener('keydown', (e) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+      if (e.key === 'ArrowLeft' && prev) window.location.href = prev.href;
+      else if (e.key === 'ArrowRight' && next) window.location.href = next.href;
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initYearPage);
+  else initYearPage();
+  document.addEventListener('astro:page-load', initYearPage);
+</script>

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 2024,
+  "title": "The Year AI Became Infrastructure",
+  "era": "ai-era",
+  "narrative": "Apple Intelligence brings AI to billions. Gemini launches. Vision Pro ships. AI agents start doing real work. Sora generates video from text. Nvidia becomes the most valuable company. TikTok faces a US ban. The AI era stopped being a promise and started being a product.",
+  "felt_like": {
+    "os": "Windows 11 / macOS Sequoia",
+    "browser": "Chrome / Arc / Edge (AI-powered)",
+    "messenger": "iMessage / WhatsApp / Discord",
+    "social_network": "TikTok / X / Instagram Threads",
+    "music": "Spotify / TikTok sounds",
+    "phone": "iPhone 16 / Samsung Galaxy S24 / Pixel 9",
+    "video": "Netflix / TikTok / YouTube / Sora (early access)",
+    "website": "AI assistants embedded in every product, 'Powered by AI' badges on everything"
+  },
+  "events": [
+    "apple-intelligence-2024",
+    "gemini-launch-2024",
+    "vision-pro-launch-2024",
+    "tiktok-ban-threats-2024",
+    "ai-agents-2024",
+    "sora-video-2024",
+    "nvidia-dominance-2024",
+    "no-kings-protest-2024"
+  ]
+}

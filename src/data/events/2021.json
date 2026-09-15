@@ -1,0 +1,209 @@
+[
+  {
+    "id": "nft-craze-2021",
+    "title": "NFTs Go Mainstream",
+    "year": 2021,
+    "date": "2021-03-11",
+    "category": ["culture", "business"],
+    "type": "cultural_event",
+    "summary": "Beeple's digital collage sells for $69 million at Christie's, launching the NFT craze into the mainstream.",
+    "narrative": "In March, a digital artist named Mike Winkelmann — known as Beeple — sold a JPG file for $69.3 million at Christie's auction house. The internet lost its collective mind. Suddenly everyone was minting NFTs: tweets, memes, pixel art, music, sports highlights. OpenSea goes from niche marketplace to billion-dollar platform. People who'd never heard of blockchain were now arguing about gas fees. Profile picture projects like Bored Ape Yacht Club became status symbols. Then the crash came, and most NFTs became worthless JPEGs. But the technology itself — proving ownership of digital assets — quietly found real use cases.",
+    "why_it_matters": "Proved digital art could be monetized at scale. Introduced millions to blockchain concepts. Spawned debates about art, ownership, and speculation that persist today.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["opensea-valuation", "bored-ape-yacht-club", "nft-market-crash-2022", "web3-hype"],
+    "tags": ["nft", "blockchain", "digital-art", "beeply", "christies", "opensea"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "NFT: Non-fungible token",
+        "url": "https://en.wikipedia.org/wiki/Non-fungible_token",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      },
+      {
+        "title": "Beeple - Everydays",
+        "url": "https://en.wikipedia.org/wiki/Beeple",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "metaverse-rebrand-2021",
+    "title": "Facebook Becomes Meta",
+    "year": 2021,
+    "date": "2021-10-28",
+    "category": ["business", "social"],
+    "type": "company_rebrand",
+    "summary": "Facebook rebrands to Meta, betting the company's future on the metaverse and virtual reality.",
+    "narrative": "Mark Zuckerberg stood on a stage in October and announced that Facebook — the company that connected 3 billion people — was changing its name. Meta. The metaverse was going to be the next computing platform, he said. $10 billion poured into Reality Labs. Horizon Workrooms launched. VR headsets got better. And then... the metaverse never quite arrived. The stock cratered. Employees were skeptical. The word 'metaverse' became shorthand for corporate delusion. But Zuckerberg kept building, and by 2024, Meta's bet on AI would prove the doubters wrong about something else entirely.",
+    "why_it_matters": "Marked the biggest corporate rebrand of the decade. Signaled where Big Tech thought computing was headed. Created a template for how NOT to announce a pivot.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["metaverse-hype-cycle", "reality-labs-losses", "quest-2-sales", "ai-pivot-meta"],
+    "tags": ["facebook", "meta", "metaverse", "vr", "rebrand", "mark-zuckerberg"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Meta Platforms",
+        "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "dogecoin-musk-2021",
+    "title": "Elon Musk Sends Dogecoin to the Moon",
+    "year": 2021,
+    "date": "2021-05-08",
+    "category": ["culture", "business"],
+    "type": "cultural_event",
+    "summary": "Elon Musk's Dogecoin tweets and SNL appearance trigger a speculative frenzy around meme cryptocurrencies.",
+    "narrative": "A cryptocurrency that started as a joke — based on a Shiba Inu meme — hit a $90 billion market cap. And the main reason was one man's Twitter account. Elon Musk tweeted about Dogecoin relentlessly. 'To the moon!' became a rallying cry. Then on SNL in May, he called Dogecoin 'a hustle.' The price crashed 30% in minutes. Dogecoin holders were furious. But the craze had already done its damage — or its magic, depending on your perspective. It proved that in 2021, a tweet could move billions. And that the line between comedy and finance had permanently blurred.",
+    "why_it_matters": "Demonstrated the power of celebrity influence on crypto markets. Exposed the speculative nature of meme coins. Changed how regulators thought about market manipulation.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["crypto-crash-2022", "ftx-collapse", "doge-price-crash", "meme-stock-culture"],
+    "tags": ["dogecoin", "elon-musk", "crypto", "meme", "snl", "to-the-moon"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Dogecoin",
+        "url": "https://en.wikipedia.org/wiki/Dogecoin",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "apple-m1-macbook-2021",
+    "title": "Apple M1 MacBook Air Dominates Laptops",
+    "year": 2021,
+    "date": "2021-11-01",
+    "category": ["hardware", "software"],
+    "type": "product_launch",
+    "summary": "Apple's M1-powered MacBook Air becomes the best-selling laptop, proving ARM-based chips can outperform Intel.",
+    "narrative": "When Apple switched from Intel to its own M1 chip in late 2020, skeptics said ARM processors couldn't handle real work. A year later, the M1 MacBook Air was the best-selling laptop on Earth. It was fanless, lasted all day on a battery, and crushed Intel chips in benchmarks. Developers loved it. Creative professionals loved it. Even the $999 price point made it accessible. The Intel era of Mac was over before anyone expected. Windows laptop makers scrambled to respond. The entire PC industry shifted direction.",
+    "why_it_matters": "Ended Intel's dominance in laptops. Proved ARM architecture could scale. Forced the entire PC industry to rethink chip design.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["m1-pro-max", "arm-laptops", "intel-decline", "apple-silicon-ecosystem"],
+    "tags": ["apple", "m1", "macbook-air", "arm", "silicon", "laptop"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Apple M1",
+        "url": "https://en.wikipedia.org/wiki/Apple_M1",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "chip-shortage-2021",
+    "title": "Global Chip Shortage Hits Everything",
+    "year": 2021,
+    "date": "2021-01-15",
+    "category": ["hardware", "business"],
+    "type": "cultural_event",
+    "summary": "A global semiconductor shortage idles car factories, delays gaming consoles, and reshapes tech supply chains.",
+    "narrative": "You couldn't buy a PlayStation 5. Cars sat in parking lots missing $3 chips. Graphics cards cost three times their retail price. The semiconductor shortage — triggered by pandemic demand shifts, factory fires, and a perfect storm of supply constraints — revealed how fragile the global tech supply chain really was. Tesla shut down production. Nintendo couldn't make enough Switches. The US government passed the CHIPS Act. TSMC became the most important company most people had never heard of. The shortage lasted two years and changed how every tech company thought about manufacturing.",
+    "why_it_matters": "Exposed critical vulnerabilities in global supply chains. Led to major government interventions in semiconductor manufacturing. Reshaped tech geopolitics.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["chips-act", "tsmc-valuation", "gpu-mining-crisis", "supply-chain-reform"],
+    "tags": ["chip-shortage", "semiconductor", "supply-chain", "ps5", "gpu", "chips-act"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "2020s global chip shortage",
+        "url": "https://en.wikipedia.org/wiki/2020%E2%80%932023_global_chip_shortage",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "clubhouse-peak-2021",
+    "title": "Clubhouse Peaks at 2 Million Daily Users",
+    "year": 2021,
+    "date": "2021-02-01",
+    "category": ["social", "communication"],
+    "type": "platform_peak",
+    "summary": "Clubhouse hits 2 million daily active users and a $4 billion valuation before competitors flood the space.",
+    "narrative": "January and February 2021 were Clubhouse's moment. The invite-only audio app reached a $4 billion valuation. Every tech CEO wanted to be on the app. Elon Musk talked with Robinhood's CEO about GameStop. Mark Zuckerberg dropped by to discuss AI. Then Twitter launched Spaces. Facebook launched Live Audio Rooms. Spotify added Greenroom. LinkedIn built audio events. By summer, Clubhouse's growth stalled. By 2022, it was irrelevant. The audio social wave peaked in a quarter and crashed in a year. Clubhouse had the idea but not the moat.",
+    "why_it_matters": "Created the audio social category that every major platform copied. Demonstrated how fast pandemic-era viral growth could evaporate. Taught founders about building defensible products.",
+    "impact": 3,
+    "nostalgia": 4,
+    "influence": ["twitter-spaces", "spotify-greenroom", "audio-social-peak", "pandemic-startup-crash"],
+    "tags": ["clubhouse", "audio", "social", "invite-only", "pandemic", "viral"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Clubhouse (app)",
+        "url": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "web3-hype-2021",
+    "title": "Web3 Hype Takes Over Silicon Valley",
+    "year": 2021,
+    "date": "2021-10-15",
+    "category": ["culture", "standards"],
+    "type": "cultural_event",
+    "summary": "The 'Web3' narrative — blockchain-based decentralized internet — becomes Silicon Valley's dominant talking point.",
+    "narrative": "Everyone had a Web3 thesis. VCs poured billions into blockchain startups. 'Decentralized' became the word of the year. Ethereum's price hit $4,800. DAOs raised hundreds of millions. Crypto VCs launched billion-dollar funds. Jack Dorsey called Web3 a VC-owned scam. Elon Musk laughed at it. Then came the crash, the frauds, and the reality check. Most Web3 projects were vaporware or scams. But the underlying technology — smart contracts, decentralized finance, tokenization — quietly matured while the hype cycle burned through billions.",
+    "why_it_matters": "Redefined how tech people talked about the internet's future. Attracted massive capital to blockchain technology. Created a generation of crypto-native developers.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["crypto-crash-2022", "dao-experimentation", "nft-collapse", "blockchain-utility"],
+    "tags": ["web3", "blockchain", "ethereum", "crypto", "dao", "decentralized"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Web3",
+        "url": "https://en.wikipedia.org/wiki/Web3",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "amazon-luna-2021",
+    "title": "Amazon Luna and Cloud Gaming Expansion",
+    "year": 2021,
+    "date": "2021-09-30",
+    "category": ["gaming", "software"],
+    "type": "product_launch",
+    "summary": "Amazon launches Luna cloud gaming service publicly, joining Microsoft and Google in the cloud gaming race.",
+    "narrative": "Amazon finally launched Luna to the public in September 2021 — its answer to Google Stadia and Xbox Cloud Gaming. The service let you stream games to Fire TV, PC, Mac, iPhone, and Android. Google Stadia was already struggling. Microsoft's xCloud was gaining traction through Game Pass. Sony bought Bungie. The cloud gaming wars were on, but nobody was quite sure the market existed yet. Most gamers still preferred consoles and PCs. Luna would eventually get absorbed into Amazon's broader gaming strategy, but in 2021, it was one more bet on the future of how we play.",
+    "why_it_matters": "Signaled Amazon's entry into cloud gaming. Highlighted the growing competition in game streaming. Reflected Big Tech's belief that gaming was the next media frontier.",
+    "impact": 3,
+    "nostalgia": 2,
+    "influence": ["stadia-shutdown", "xcloud-growth", "cloud-gaming-future", "amazon-gaming"],
+    "tags": ["amazon", "luna", "cloud-gaming", "streaming", "gaming"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Amazon Luna",
+        "url": "https://en.wikipedia.org/wiki/Amazon_Luna",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

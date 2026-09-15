@@ -1,0 +1,227 @@
+[
+  {
+    "id": "netscape-founded-1994",
+    "title": "Netscape Founded",
+    "year": 1994,
+    "date": "1994-04-04",
+    "category": ["software", "business", "standards"],
+    "type": "company_launch",
+    "summary": "Marc Andreessen and Jim Clark found Mosaic Communications, later renamed Netscape, to build a commercial web browser.",
+    "narrative": "The man who helped build Mosaic leaves the university and starts a company to sell the web. They call it Netscape. Within a year they ship a browser that runs circles around everything else, go public, and briefly become worth more than many established companies. It is the first time the web feels like a gold rush.",
+    "why_it_matters": "Turned the browser into a commercial product and ignited the first browser war. Created the template for the fast-moving Internet company.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["ie-wins-browser-war-1998", "javascript-1995"],
+    "tags": ["netscape", "browser", "mosaic", "silicon-valley"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Netscape",
+        "url": "https://en.wikipedia.org/wiki/Netscape",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-banner-ad-1994",
+    "title": "The First Banner Ad",
+    "year": 1994,
+    "date": "1994-10-27",
+    "category": ["business", "media", "culture"],
+    "type": "business_milestone",
+    "summary": "AT&T runs the first clickable banner ad on HotWired, the web's first commercial magazine.",
+    "narrative": "A tiny rectangle at the top of a new online magazine asks: 'Have you ever clicked your mouse right here? You will.' It was an ad for AT&T. About 44 percent of people who saw it clicked. Nobody knew it yet, but the entire business model of the free web was born in that box.",
+    "why_it_matters": "Invented the display ad and the ad-supported web. Set the terms for how most online content would be funded for the next three decades.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["google-ads-2000", "ad-blockers-2000s"],
+    "tags": ["advertising", "hotwired", "att", "business-model"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Web banner",
+        "url": "https://en.wikipedia.org/wiki/Web_banner",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "yahoo-founded-1994",
+    "title": "Yahoo! Founded",
+    "year": 1994,
+    "date": "1994-01-01",
+    "category": ["search", "business", "culture"],
+    "type": "company_launch",
+    "summary": "Jerry Yang and David Filo start a hand-curated directory of the web called 'Jerry and David's Guide to the World Wide Web'.",
+    "narrative": "Two Stanford students start keeping a list of their favorite websites. The list gets too long, so they organize it into categories. It becomes Yahoo!, the front door to the Internet for a generation. For years, humans, not algorithms, decided what the web was worth finding.",
+    "why_it_matters": "Made the web navigable for ordinary people. Popularized the portal and the curated directory before search engines took over.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["google-founding-1998", "portal-era-1997"],
+    "tags": ["yahoo", "directory", "portal", "stanford"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Yahoo!",
+        "url": "https://en.wikipedia.org/wiki/Yahoo!",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "lycos-launch-1994",
+    "title": "Lycos Search Engine Launches",
+    "year": 1994,
+    "date": "1994-05-01",
+    "category": ["search", "software"],
+    "type": "technology_release",
+    "summary": "Carnegie Mellon's Lycos search engine goes live and quickly becomes one of the largest indexes on the web.",
+    "narrative": "Before Google, before even AltaVista, there was Lycos. It crawled millions of pages when that number still felt impossibly large, and it proved that search could be a business. It was the first search engine many people ever used by name.",
+    "why_it_matters": "One of the first successful web search engines. Helped establish search as the core function of the web.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["altavista-1995", "google-founding-1998"],
+    "tags": ["lycos", "search", "crawler", "carnegie-mellon"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Lycos",
+        "url": "https://en.wikipedia.org/wiki/Lycos",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "w3c-founded-1994",
+    "title": "The W3C Is Founded",
+    "year": 1994,
+    "date": "1994-10-01",
+    "category": ["standards", "software"],
+    "type": "organization",
+    "summary": "Tim Berners-Lee founds the World Wide Web Consortium at MIT to keep the web open and standardized.",
+    "narrative": "The web's inventor could have tried to own it. Instead he moves to MIT and builds a consortium to keep it open. The W3C becomes the place where competing companies agree on the rules — HTML, CSS, and the standards that let any browser read any page.",
+    "why_it_matters": "Institutionalized openness and interoperability. Its standards are the reason the web works across companies and devices.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["css1-1996", "html-standards-1990s"],
+    "tags": ["w3c", "standards", "tim-berners-lee", "open-web"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "World Wide Web Consortium",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "netmarket-first-sale-1994",
+    "title": "The First Secure Online Purchase",
+    "year": 1994,
+    "date": "1994-08-11",
+    "category": ["business", "security"],
+    "type": "business_milestone",
+    "summary": "NetMarket sells a Sting CD to a customer using encryption, the first secure retail transaction on the web.",
+    "narrative": "A man buys a CD over the Internet and pays with a credit card. It sounds ordinary now, but in 1994 it required new encryption to prove it could be done safely. That one purchase is the ancestor of every checkout page you have ever used.",
+    "why_it_matters": "Proved e-commerce could be secure. Opened the door to Amazon, eBay, and the entire online retail economy.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["amazon-founding-1994", "paypal-1998"],
+    "tags": ["ecommerce", "encryption", "security", "netmarket"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "E-commerce",
+        "url": "https://en.wikipedia.org/wiki/E-commerce",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "hotwired-launch-1994",
+    "title": "HotWired Launches",
+    "year": 1994,
+    "date": "1994-10-27",
+    "category": ["media", "culture", "business"],
+    "type": "media_launch",
+    "summary": "Wired magazine launches HotWired, the first commercial web magazine, and sells the first banner ads.",
+    "narrative": "A print magazine decides the future is online and builds a digital-only publication with its own voice, design, and advertising. HotWired hired writers, made art, and treated the web as a medium rather than a brochure. It showed that online publishing could be a real thing.",
+    "why_it_matters": "The first major commercial web publication. Established the model of digital media funded by advertising.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": ["first-banner-ad-1994", "blogging-2000s"],
+    "tags": ["hotwired", "wired", "media", "publishing"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "HotWired",
+        "url": "https://en.wikipedia.org/wiki/HotWired",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "php-created-1994",
+    "title": "PHP Is Created",
+    "year": 1994,
+    "date": "1994-06-08",
+    "category": ["software", "standards"],
+    "type": "technology_release",
+    "summary": "Rasmus Lerdorf writes a set of Perl scripts to track visits to his resume, the code that becomes PHP.",
+    "narrative": "A developer just wants to know who is reading his online resume, so he writes a few scripts. Other people ask for the code. He rewrites it, releases it, and it spreads. Decades later PHP still runs a huge share of the web, quietly powering the pages millions of people load every day.",
+    "why_it_matters": "Became one of the most widely used server-side languages. Made dynamic, database-driven websites accessible to ordinary developers.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["wordpress-launch-2003", "mysql-web-1990s"],
+    "tags": ["php", "programming", "server-side", "open-source"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "PHP",
+        "url": "https://en.wikipedia.org/wiki/PHP",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "playstation-launch-1994",
+    "title": "Sony PlayStation Launches",
+    "year": 1994,
+    "date": "1994-12-03",
+    "category": ["gaming", "hardware", "culture"],
+    "type": "product_launch",
+    "summary": "Sony releases the PlayStation in Japan, moving gaming from cartridges to CDs and from bedrooms to living rooms.",
+    "narrative": "Sony had never made a game console. It made one anyway, with discs instead of cartridges, 3D graphics, and a brand that felt grown-up. The PlayStation turned video games into mainstream pop culture and made gaming a serious global industry.",
+    "why_it_matters": "Expanded gaming to a mass adult audience and shifted the industry to CD-based 3D games. Established Sony as a console giant.",
+    "impact": 4,
+    "nostalgia": 5,
+    "influence": ["ps2-2000", "xbox-2001"],
+    "tags": ["playstation", "sony", "gaming", "console"],
+    "region": ["japan", "global"],
+    "sources": [
+      {
+        "title": "PlayStation (console)",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

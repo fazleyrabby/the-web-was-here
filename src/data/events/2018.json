@@ -1,0 +1,252 @@
+[
+  {
+    "id": "gdpr-enforcement-2018",
+    "title": "GDPR Goes Into Effect",
+    "year": 2018,
+    "date": "2018-05-25",
+    "category": ["standards", "security"],
+    "type": "regulatory_event",
+    "summary": "The EU's General Data Protection Regulation takes effect, fundamentally reshaping how companies handle personal data.",
+    "narrative": "May 25, 2018. The day every inbox fills with 'We've updated our privacy policy' emails. GDPR goes live and the internet changes overnight. Cookie consent banners appear everywhere. Companies scramble to delete data or get explicit consent. Google gets hit with a $57 million fine within months. The right to be forgotten becomes real. Europe writes the rules for the global internet — and Silicon Valley has to play along.",
+    "why_it_matters": "Set the global gold standard for data privacy. Forced every company worldwide to comply if they serve EU users. Inspired CCPA, LGPD, and dozens of privacy laws.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["ccpa-2020", "privacy-laws-global", "cookie-consent-culture", "data-minimization"],
+    "tags": ["gdpr", "privacy", "regulation", "eu", "data-protection"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "General Data Protection Regulation",
+        "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "cambridge-analytica-2018",
+    "title": "Cambridge Analytica Scandal",
+    "year": 2018,
+    "date": "2018-03-17",
+    "category": ["social", "security"],
+    "type": "scandal",
+    "summary": "Revelations that Cambridge Analytica harvested 87 million Facebook profiles for political targeting rocks the tech world.",
+    "narrative": "The New York Times and The Guardian break the story: Cambridge Analytica, a political consulting firm, harvested data from 87 million Facebook profiles through a personality quiz app. The data was used to target voters in the 2016 US election and Brexit. Mark Zuckerberg testifies before Congress. Facebook's stock drops 18% in two days. The phrase 'data privacy' enters everyday conversation. Facebook's 'move fast and break things' era is officially over.",
+    "why_it_matters": "Destroyed trust in social media's data practices. Led to the largest FTC fine in history ($5 billion). Changed how the world thinks about personal data and platform power.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["ftc-fine-2019", "data-privacy-awareness", "platform-accountability", "social-media-regulation"],
+    "tags": ["cambridge-analytica", "facebook", "data-privacy", "scandal", "elections"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Facebook–Cambridge Analytica data scandal",
+        "url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "tiktok-merger-2018",
+    "title": "TikTok Merges with Musical.ly",
+    "year": 2018,
+    "date": "2018-08-02",
+    "category": ["social", "culture"],
+    "type": "acquisition",
+    "summary": "ByteDance acquires Musical.ly and merges it with TikTok, creating the global short-form video juggernaut.",
+    "narrative": "ByteDance, the Chinese tech giant behind Douyin, pays $1 billion to acquire Musical.ly. The two apps merge under the TikTok name. 100 million existing Musical.ly users get folded into TikTok overnight. The algorithm is different from anything Western platforms have seen — it doesn't care about your followers, only about the content. Within a year, TikTok becomes the most downloaded app in the world. The short-form video era begins.",
+    "why_it_matters": "Created the platform that would define internet culture for the next five years. Introduced the 'For You Page' algorithm that every platform would copy. Made ByteDance a global tech power.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["reels-launch", "shorts-launch", "tiktok-algorithm", "byte-dance-global"],
+    "tags": ["tiktok", "musical-ly", "bytedance", "short-form-video", "social-media"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "TikTok",
+        "url": "https://en.wikipedia.org/wiki/TikTok",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "fortnite-cultural-2018",
+    "title": "Fortnite Becomes a Cultural Phenomenon",
+    "year": 2018,
+    "date": "2018-01-01",
+    "category": ["gaming", "culture"],
+    "type": "cultural_moment",
+    "summary": "Fortnite's Battle Royale mode reaches 200 million players, making it the biggest game in the world and a cultural force.",
+    "narrative": "Fortnite isn't just a game. It's where kids hang out. The Battle Royale mode drops 100 players onto an island where only one survives. It's free, it's cross-platform, and it's addictive. Celebrities play it. Athletes do victory dances from it. Schools ban it. Parents worry about it. At its peak, Fortnite has 80 million monthly players. It makes $5.4 billion in 2018. Epic Games becomes one of the most valuable companies in gaming.",
+    "why_it_matters": "Redefined gaming as a social space. Created the free-to-play battle royale template. Proved games could be cultural platforms, not just entertainment.",
+    "impact": 5,
+    "nostalgia": 5,
+    "influence": ["battle-royale-genre", "free-to-play-model", "gaming-social-spaces", "fortnite-metaverse"],
+    "tags": ["fortnite", "epic-games", "battle-royale", "gaming", "free-to-play"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Fortnite Battle Royale",
+        "url": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "march-for-our-lives-2018",
+    "title": "March for Our Lives Mobilizes a Generation",
+    "year": 2018,
+    "date": "2018-03-24",
+    "category": ["culture", "social"],
+    "type": "cultural_moment",
+    "summary": "Students organize the March for Our Lives after Parkland, using social media to mobilize the largest youth protest in history.",
+    "narrative": "After 17 people are killed at Marjory Stoneman Douglas High School in Parkland, Florida, students do something different: they go on social media and organize. David Hogg, Emma González, and their classmates use Twitter, Instagram, and YouTube to demand gun reform. On March 24, over 1.2 million people march in Washington and 800+ locations worldwide. It's the largest youth-led protest since Vietnam. Social media isn't just for memes anymore. It's for movements.",
+    "why_it_matters": "Proved social media could organize youth activism at unprecedented scale. Changed the gun control debate in America. Inspired a generation of young activists.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["youth-activism", "gun-reform-movement", "social-media-organizing", "student-politics"],
+    "tags": ["parkland", "march-for-our-lives", "gun-control", "activism", "social-media"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "March for Our Lives",
+        "url": "https://en.wikipedia.org/wiki/March_for_Our_Lives",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "youtube-ad-pocalypse-2018",
+    "title": "YouTube's Advertiser Apocalypse",
+    "year": 2018,
+    "date": "2018-02-01",
+    "category": ["media", "business"],
+    "type": "platform_shift",
+    "summary": "Major advertisers pull ads from YouTube over extremist content, forcing the platform to overhaul its moderation policies.",
+    "narrative": "Brands discover their ads running next to extremist videos. Procter & Gamble pulls $200 million. AT&T, Verizon, and Starbucks follow. YouTube's creator ecosystem panics — demonetization becomes a dirty word. The platform responds with stricter content policies, more human moderators, and algorithmic changes that push creators toward 'advertiser-friendly' content. The adpocalypse changes YouTube's culture forever. Creators start diversifying. The algorithm gets more conservative.",
+    "why_it_matters": "Forced YouTube to balance free speech with advertiser safety. Changed how platforms moderate content. Created the 'advertiser-friendly' content paradigm.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["youtube-moderation", "creator-economy-diversification", "content-moderation-debate", "advertiser-pressure"],
+    "tags": ["youtube", "adpocalypse", "content-moderation", "advertising", "creators"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "YouTube issues",
+        "url": "https://en.wikipedia.org/wiki/YouTube#Issues",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "iphone-x-2017",
+    "title": "iPhone X Redefines Smartphone Design",
+    "year": 2018,
+    "date": "2017-11-03",
+    "category": ["hardware", "design"],
+    "type": "product_launch",
+    "summary": "Apple's iPhone X removes the home button, introduces Face ID, and sets the template for modern smartphones.",
+    "narrative": "The iPhone X is Apple's biggest design overhaul since the original. No home button. Edge-to-edge OLED display. Face ID replaces Touch ID. The notch becomes the most copied design element in tech. Gestures replace buttons. The price hits $999 — a psychological barrier that becomes the new normal. Every Android phone starts copying the notch. The modern smartphone is born.",
+    "why_it_matters": "Set the design template every phone would follow. Made Face ID the standard for biometric authentication. Proved consumers would pay $1,000+ for a phone.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": ["face-id-adoption", "notch-design", "premium-phone-pricing", "gesture-navigation"],
+    "tags": ["iphone-x", "apple", "face-id", "notch", "smartphone-design"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "iPhone X",
+        "url": "https://en.wikipedia.org/wiki/iPhone_X",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "facebook-redesign-2018",
+    "title": "Facebook's 'Time Well Spent' Pivot",
+    "year": 2018,
+    "date": "2018-01-11",
+    "category": ["social", "culture"],
+    "type": "platform_shift",
+    "summary": "Mark Zuckerberg announces Facebook will prioritize 'meaningful social interactions' over passive content consumption.",
+    "narrative": "After a brutal 2017 of fake news, election interference, and addiction headlines, Zuckerberg makes a New Year's resolution: fix Facebook. The news feed algorithm shifts to prioritize posts from friends and family over publishers and brands. News outlets lose traffic overnight. Brands panic. The era of organic reach is officially dead. Facebook calls it 'time well spent.' Critics call it a PR move. The truth is somewhere in between.",
+    "why_it_matters": "Fundamentally changed how Facebook's algorithm works. Killed organic reach for publishers. Launched the 'time well spent' movement in tech ethics.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["time-well-spent-movement", "algorithm-transparency", "news-publisher-crisis", "social-media-ethics"],
+    "tags": ["facebook", "algorithm", "news-feed", "time-well-spent", "social-media"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Facebook news feed changes",
+        "url": "https://en.wikipedia.org/wiki/Facebook#History",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "steam-fortnite-2018",
+    "title": "Epic Bypasses Steam with Fortnite",
+    "year": 2018,
+    "date": "2018-08-01",
+    "category": ["gaming", "business"],
+    "type": "platform_shift",
+    "summary": "Fortnite's success without Steam proves games can thrive on their own launchers, challenging Valve's distribution dominance.",
+    "narrative": "Fortnite doesn't need Steam. Epic Games distributes it directly through their own launcher. And it works. 200 million players, zero Steam cut. The industry takes notice. If Fortnite can skip Steam, why can't everyone? Battle.net, Origin, Uplay — every publisher starts building their own launcher. The dream of a single PC game store fragments. Valve's 30% cut suddenly looks optional.",
+    "why_it_matters": "Proved major games could succeed without Steam. Sparked the launcher wars. Forced Valve to reconsider its revenue split. Changed PC game distribution forever.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["epic-games-store", "valve-revenue-split", "launcher-wars", "platform-fragmentation"],
+    "tags": ["fortnite", "epic-games", "steam", "launcher", "pc-gaming"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Epic Games Store",
+        "url": "https://en.wikipedia.org/wiki/Epic_Games_Store",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "blackout-challenge-2018",
+    "title": "TikTok's Blackout Challenge Goes Viral",
+    "year": 2018,
+    "date": "2018-10-01",
+    "category": ["culture", "social"],
+    "type": "cultural_moment",
+    "summary": "Dangerous challenges on TikTok highlight the platform's content moderation challenges and the risks of algorithmic amplification.",
+    "narrative": "TikTok's algorithm is designed to amplify engaging content. Sometimes that engagement comes from dangerous challenges. The 'blackout challenge' — users choking themselves until they pass out — goes viral. Kids get hurt. Parents panic. TikTok scrambles to moderate content it doesn't fully understand. The challenge becomes a case study in how algorithmic amplification can have real-world consequences. The platform's moderation infrastructure isn't ready for what the algorithm creates.",
+    "why_it_matters": "Exposed the dark side of algorithmic content amplification. Forced TikTok to invest heavily in content moderation. Sparked a global debate about platform responsibility.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["platform-moderation", "algorithmic-accountability", "youth-safety", "content-moderation-ai"],
+    "tags": ["tiktok", "challenges", "content-moderation", "youth-safety", "algorithm"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "TikTok: Safety and controversies",
+        "url": "https://en.wikipedia.org/wiki/TikTok#Safety_and_controversies",
+        "type": "secondary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

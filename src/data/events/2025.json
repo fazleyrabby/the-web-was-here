@@ -1,0 +1,177 @@
+[
+  {
+    "id": "ai-agents-mainstream-2025",
+    "title": "AI Agents Become Everyday Tools",
+    "year": 2025,
+    "date": "2025-03-01",
+    "category": ["software", "business"],
+    "type": "technology_breakthrough",
+    "summary": "AI agents capable of autonomous multi-step tasks become widely available, transforming how people work and interact with technology.",
+    "narrative": "By early 2025, AI agents had graduated from demos to daily tools. OpenAI's Operator could browse the web and complete purchases. Anthropic's Claude could manage your inbox and calendar. Google's Project Astra was always-on, always-watching, always-helping. The shift was profound: AI wasn't just answering questions anymore — it was doing tasks. Book flights, write reports, debug code, schedule meetings. The 'AI assistant' became as normal as the smartphone. Some people embraced it immediately. Others worried about a world where algorithms made decisions on their behalf. The debate was no longer theoretical.",
+    "why_it_matters": "Moved AI from conversational to operational. Created new productivity paradigms. Raised fundamental questions about human agency in an AI-mediated world.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["autonomous-computing", "ai-productivity", "agent-safety", "future-of-work"],
+    "tags": ["ai-agents", "operator", "claude", "autonomous", "productivity", "automation"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "AI agent",
+        "url": "https://en.wikipedia.org/wiki/AI_agent",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "quantum-advance-2025",
+    "title": "Quantum Computing Reaches New Milestone",
+    "year": 2025,
+    "date": "2025-06-15",
+    "category": ["hardware", "standards"],
+    "type": "technology_breakthrough",
+    "summary": "Quantum computers achieve significant error-correction breakthroughs, bringing practical quantum computing closer to reality.",
+    "narrative": "Quantum computing had been '10 years away' for 30 years. In 2025, it got closer. Google's Willow chip demonstrated meaningful error correction. IBM's new quantum processors showed stable qubit counts in the thousands. Microsoft announced topological qubits. The breakthroughs weren't about raw power — they were about reliability. Quantum error correction was the key bottleneck, and 2025 was the year it started to crack. Practical quantum applications in cryptography, drug discovery, and optimization were still years away, but the path was clearer than ever.",
+    "why_it_matters": "Advanced quantum computing from experimental to pre-commercial. Created new urgency for post-quantum cryptography. Showed that hardware innovation still matters in the AI age.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["post-quantum-cryptography", "quantum-commercialization", "cryptography-upgrade", "hardware-innovation"],
+    "tags": ["quantum-computing", "google-willow", "ibm", "error-correction", "hardware"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Quantum computing",
+        "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "spatial-computing-growth-2025",
+    "title": "Spatial Computing Goes Mainstream",
+    "year": 2025,
+    "date": "2025-01-01",
+    "category": ["hardware", "software"],
+    "type": "cultural_event",
+    "summary": "Spatial computing devices — from Vision Pro to Meta Quest — achieve mainstream adoption with lower prices and better content.",
+    "narrative": "2024's Vision Pro was too expensive for most people. 2025's spatial computing landscape was different. Meta launched Quest 3S at $299. Samsung partnered with Google on XR headsets. Apple released a cheaper Vision model. The content caught up: spatial video from iPhones, immersive sports, virtual workspaces. Spatial computing crossed the chasm from early adopters to mainstream. People used it for exercise, entertainment, and even remote work. The 'metaverse' rebranded as 'spatial computing' and finally found product-market fit.",
+    "why_it_matters": "Made spatial computing accessible to average consumers. Created a viable market for AR/VR content. Changed expectations for immersive experiences.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["ar-vr-adoption", "spatial-content", "meta-quest", "immersive-work"],
+    "tags": ["spatial-computing", "vr", "ar", "meta-quest", "vision-pro", "headset"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Spatial computing",
+        "url": "https://en.wikipedia.org/wiki/Spatial_computing",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ai-regulation-global-2025",
+    "title": "Global AI Regulation Frameworks Take Shape",
+    "year": 2025,
+    "date": "2025-05-01",
+    "category": ["standards", "business"],
+    "type": "regulation",
+    "summary": "Multiple countries implement AI regulation frameworks following the EU AI Act, creating a patchwork of global AI governance.",
+    "narrative": "2025 was the year AI regulation became real. The EU AI Act started enforcement. The US passed its first comprehensive AI legislation. China updated its AI rules. Japan, South Korea, and India published their own frameworks. The patchwork was messy — different rules in different countries — but it was progress. Companies now had to comply with AI safety requirements, transparency mandates, and content labeling rules. The AI industry grumbled about innovation being stifled. Regulators argued that without guardrails, the risks were too great. The balance between innovation and safety was the defining debate.",
+    "why_it_matters": "Created the first global infrastructure for AI governance. Forced AI companies to build safety and transparency into their products. Set precedents for how technology is regulated.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["ai-compliance", "global-ai-governance", "safety-standards", "innovation-debate"],
+    "tags": ["regulation", "ai-act", "governance", "safety", "compliance", "policy"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Artificial Intelligence Act",
+        "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "open-source-ai-2025",
+    "title": "Open Source AI Models Challenge Big Tech",
+    "year": 2025,
+    "date": "2025-02-01",
+    "category": ["software", "business"],
+    "type": "cultural_event",
+    "summary": "Meta's Llama, Mistral, and other open-source AI models close the gap with proprietary systems, democratizing AI development.",
+    "narrative": "For a while, it seemed like only OpenAI, Google, and Anthropic could build cutting-edge AI. Then Meta released Llama — fully open-source — and the game changed. Mistral, a French startup, published models that rivaled GPT-4. Alibaba's Qwen competed globally. The open-source AI movement democratized access to powerful models. Startups could now build AI products without paying billions in API fees. Researchers could study and improve models directly. The debate raged: was open-source AI safer (more eyes on the code) or more dangerous (anyone could misuse it)? The answer was probably both.",
+    "why_it_matters": "Democratized access to powerful AI models. Challenged the concentration of AI power in a few companies. Created a vibrant open-source AI ecosystem.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["llama-adoption", "mistral-growth", "ai-democratization", "open-source-movement"],
+    "tags": ["open-source", "llama", "mistral", "ai", "democratization", "meta"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Large language model",
+        "url": "https://en.wikipedia.org/wiki/Large_language_model",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative-revolution-2025",
+    "title": "AI-Native Creative Tools Transform Industries",
+    "year": 2025,
+    "date": "2025-04-01",
+    "category": ["software", "culture"],
+    "type": "cultural_event",
+    "summary": "AI-powered creative tools become standard in film, music, design, and writing, fundamentally changing how creative work is produced.",
+    "narrative": "In 2025, AI wasn't replacing creatives — it was supercharging them. Musicians used AI to generate stems and variations. Filmmakers used AI for storyboarding and pre-visualization. Designers used AI to iterate 100x faster. Writers used AI for research and first drafts. The tools were so good that the question 'Did AI make this?' became meaningless. Everything had AI in the pipeline. The creative industry split: those who adapted thrived, and those who resisted struggled. The definition of 'creative skill' expanded to include AI fluency.",
+    "why_it_matters": "Redefine what it means to be a creative professional. Made AI fluency a core creative skill. Changed production economics across entertainment industries.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["ai-film", "ai-music", "ai-design", "creative-tools", "future-of-creativity"],
+    "tags": ["ai-creative", "generative-ai", "film", "music", "design", "creative-tools"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Generative artificial intelligence",
+        "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "wearable-ai-companions-2025",
+    "title": "AI Wearable Companions Launch",
+    "year": 2025,
+    "date": "2025-03-15",
+    "category": ["hardware", "communication"],
+    "type": "product_launch",
+    "summary": "AI-powered wearable devices — pins, glasses, and earbuds — launch as the next computing platform beyond smartphones.",
+    "narrative": "The Humane AI Pin launched in 2024 and flopped. The Rabbit R1 was a curiosity. But in 2025, the category matured. Meta's Ray-Ban smart glasses with AI became genuinely useful — 'Hey Meta, what am I looking at?' worked. Samsung's Galaxy Ring tracked health with AI insights. OpenAI partnered with hardware makers on voice-first AI devices. The smartphone wasn't dead, but a new category was being born: ambient AI. Always-on, always-aware companions that didn't require pulling out a screen. We were just at the beginning.",
+    "why_it_matters": "Created a new computing category beyond smartphones. Changed how people interact with AI in daily life. Signaled the beginning of ambient computing.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["ambient-computing", "ai-wearables", "smart-glasses", "post-smartphone"],
+    "tags": ["wearables", "ai-pin", "smart-glasses", "ambient-ai", "meta-ray-ban"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "AI Pin",
+        "url": "https://en.wikipedia.org/wiki/AI_Pin",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

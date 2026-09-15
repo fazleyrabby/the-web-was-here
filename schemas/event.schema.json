@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Historical Event",
+  "description": "A single historical event in the Internet timeline",
+  "type": "object",
+  "required": ["id", "title", "year", "category", "type", "impact", "nostalgia"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (kebab-case, includes year)",
+      "pattern": "^[a-z0-9-]+-\\d{4}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Display name of the event"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1990,
+      "maximum": 2030
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Specific date if known (YYYY-MM-DD)"
+    },
+    "category": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "web", "design", "social", "viral-culture", "hardware",
+          "software", "development", "business", "search", "entertainment",
+          "communication", "bangladesh"
+        ]
+      },
+      "minItems": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "product_launch", "company_launch", "website_launch", "shutdown",
+        "acquisition", "technology_release", "design_trend", "social_trend",
+        "viral_event", "cultural_event", "hardware_release", "software_release",
+        "platform_shift", "business_event", "internet_meme", "community_event",
+        "standardization", "security_event", "prediction"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "description": "Brief factual description"
+    },
+    "narrative": {
+      "type": "string",
+      "description": "Human-written editorial narrative"
+    },
+    "why_it_matters": {
+      "type": "string",
+      "description": "Why this event shaped the Internet"
+    },
+    "impact": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Historical importance (1=Minor, 5=Defining)"
+    },
+    "nostalgia": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Emotional nostalgia factor (1=Low, 5=High)"
+    },
+    "influence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of events this influenced"
+    },
+    "inspired_by": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of events that inspired this"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "region": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["global", "usa", "europe", "asia", "south-asia", "bangladesh", "japan", "china"]
+      },
+      "default": ["global"]
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["screenshot", "product_photo", "logo", "advertisement", "photograph", "ui", "website", "poster", "video", "icon", "illustration"]
+          },
+          "image": { "type": "string" },
+          "video_id": { "type": "string" },
+          "provider": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["title", "url", "type"],
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "type": {
+          "type": "string",
+          "enum": ["primary", "secondary", "community"]
+        },
+        "accessed": { "type": "string", "format": "date" },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        }
+      }
+    }
+  }
+}

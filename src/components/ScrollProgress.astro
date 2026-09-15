@@ -1,0 +1,63 @@
+---
+---
+<div class="scroll-progress" id="scroll-progress" aria-hidden="true">
+  <div class="scroll-progress__bar" id="scroll-progress-bar"></div>
+</div>
+
+<script>
+  function updateProgress() {
+    const bar = document.getElementById('scroll-progress-bar');
+    if (!bar) return;
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - doc.clientHeight;
+    const pct = max > 0 ? doc.scrollTop / max : 0;
+    bar.style.transform = `scaleX(${pct})`;
+  }
+
+  let ticking = false;
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          updateProgress();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    },
+    { passive: true }
+  );
+  window.addEventListener('resize', updateProgress, { passive: true });
+  updateProgress();
+  document.addEventListener('astro:page-load', updateProgress);
+</script>
+
+<style>
+  .scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    z-index: 9999;
+    background: transparent;
+    pointer-events: none;
+  }
+  .scroll-progress__bar {
+    height: 100%;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left center;
+    background: linear-gradient(
+      90deg,
+      var(--pink),
+      var(--orange),
+      var(--yellow),
+      var(--green),
+      var(--blue),
+      var(--purple)
+    );
+    will-change: transform;
+  }
+</style>

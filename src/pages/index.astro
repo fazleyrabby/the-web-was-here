@@ -1,0 +1,497 @@
+---
+import Base from '../layouts/Base.astro';
+
+const eras = [
+  { start: 1990, end: 1994, label: "Foundation", color: "var(--pink)", tag: "THE DAWN" },
+  { start: 1995, end: 1999, label: "Early Web", color: "var(--yellow)", tag: "BROWSER WARS" },
+  { start: 2000, end: 2004, label: "Web Expansion", color: "var(--green)", tag: "BUST & REBUILD" },
+  { start: 2005, end: 2009, label: "Web 2.0", color: "var(--blue)", tag: "USER-GENERATED" },
+  { start: 2010, end: 2014, label: "Mobile + Social", color: "var(--orange)", tag: "POCKET REVOLUTION" },
+  { start: 2015, end: 2019, label: "Platform Era", color: "var(--purple)", tag: "ALGORITHMS" },
+  { start: 2020, end: 2022, label: "Pandemic Web", color: "var(--teal)", tag: "EVERYTHING REMOTE" },
+  { start: 2023, end: 2026, label: "AI Era", color: "var(--red)", tag: "MACHINE LEARNING" },
+];
+
+const years = [
+  1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,
+  2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,
+  2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,
+  2020,2021,2022,2023,2024,2025,2026
+];
+
+const featured = [
+  { year: 2007, title: "The Year Everything Changed", tagline: "iPhone. Facebook. Twitter. YouTube.", color: "var(--pink)", image: "/images/illustrations/era-2007-web2.jpg" },
+  { year: 1998, title: "Google & The Browser Wars", tagline: "A garage. Two browsers. One monopoly.", color: "var(--yellow)", image: "/images/illustrations/era-1998-desk.jpg" },
+  { year: 2010, title: "Mobile Ate the World", tagline: "Instagram. iPad. Responsive Design.", color: "var(--green)", image: "/images/illustrations/era-2010-mobile.jpg" },
+  { year: 2020, title: "Everything Went Remote", tagline: "Zoom. TikTok. COVID. The great experiment.", color: "var(--blue)", image: "/images/illustrations/era-2020-wfh.jpg" },
+];
+
+const eventModules = import.meta.glob('../data/events/*.json', { eager: true });
+const totalEvents = Object.values(eventModules).reduce(
+  (sum, mod: any) => sum + ((mod.default ?? mod) as unknown[]).length,
+  0
+);
+---
+
+<Base title="The Web Was Here — A Living Archive of the Internet">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg-text" aria-hidden="true">WEB</div>
+    <div class="hero__scattered" aria-hidden="true">
+      <span class="hero__scatter hero__scatter--1">1998</span>
+      <span class="hero__scatter hero__scatter--2">2005</span>
+      <span class="hero__scatter hero__scatter--3">2007</span>
+      <span class="hero__scatter hero__scatter--4">2010</span>
+      <span class="hero__scatter hero__scatter--5">2015</span>
+      <span class="hero__scatter hero__scatter--6">2020</span>
+    </div>
+
+    <div class="hero__container">
+      <div class="hero__inner">
+        <div class="hero__badge">An interactive archive of</div>
+        <h1 class="hero__title">
+          <span class="hero__title-line1">The Web</span>
+          <span class="hero__title-line2">Was Here</span>
+        </h1>
+        <p class="hero__subtitle">37 years of Internet history.<br/>Curated stories, real hardware, and digital nostalgia.</p>
+        <div class="hero__actions">
+          <a href="#explore" class="hero__cta hero__cta--primary">Explore the Timeline</a>
+          <a href="/the-web/2007" class="hero__cta hero__cta--ghost">Start at 2007 &rarr;</a>
+        </div>
+        <div class="hero__meta">
+          <span class="hero__stat">{totalEvents} curated events</span>
+          <span class="hero__dot">&middot;</span>
+          <span class="hero__stat">8 eras</span>
+          <span class="hero__dot">&middot;</span>
+          <span class="hero__stat">1990&mdash;2026</span>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__frame">
+          <div class="hero__frame-header">
+            <span class="hero__frame-dot hero__frame-dot--red"></span>
+            <span class="hero__frame-dot hero__frame-dot--yellow"></span>
+            <span class="hero__frame-dot hero__frame-dot--green"></span>
+            <span class="hero__frame-title">DIAL-UP READY • 1990–2026</span>
+          </div>
+          <img
+            src="/images/illustrations/hero-retro-crt.jpg"
+            alt="Hand-drawn retro CRT monitor displaying dial-up connection with floppy disks and pagers"
+            class="hero__img"
+            width="600"
+            height="338"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <svg viewBox="0 0 24 40" fill="none"><rect x="1" y="1" width="22" height="38" rx="11" stroke="var(--bark)" stroke-width="2.5" /><circle cx="12" cy="12" r="3" fill="var(--pink)"><animate attributeName="cy" values="10;24;10" dur="1.5s" repeatCount="indefinite" /></circle></svg>
+    </div>
+  </section>
+
+  <!-- SCROLL MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>1990</span><span>&bull;</span>
+      <span>WWW</span><span>&bull;</span>
+      <span>1993</span><span>&bull;</span>
+      <span>MOSAIC</span><span>&bull;</span>
+      <span>1995</span><span>&bull;</span>
+      <span>NETSCAPE</span><span>&bull;</span>
+      <span>1998</span><span>&bull;</span>
+      <span>GOOGLE</span><span>&bull;</span>
+      <span>2001</span><span>&bull;</span>
+      <span>DOT-COM BUST</span><span>&bull;</span>
+      <span>2004</span><span>&bull;</span>
+      <span>FACEBOOK</span><span>&bull;</span>
+      <span>2005</span><span>&bull;</span>
+      <span>YOUTUBE</span><span>&bull;</span>
+      <span>2007</span><span>&bull;</span>
+      <span>IPHONE</span><span>&bull;</span>
+      <span>2010</span><span>&bull;</span>
+      <span>INSTAGRAM</span><span>&bull;</span>
+      <span>2015</span><span>&bull;</span>
+      <span>REACT</span><span>&bull;</span>
+      <span>2020</span><span>&bull;</span>
+      <span>REMOTE</span><span>&bull;</span>
+      <span>2023</span><span>&bull;</span>
+      <span>AI</span><span>&bull;</span>
+    </div>
+  </div>
+
+  <!-- FEATURED -->
+  <section class="featured scroll-reveal">
+    <div class="featured__inner">
+      <div class="featured__header">
+        <h2 class="featured__heading">Featured Years</h2>
+        <svg class="featured__squiggle" viewBox="0 0 120 12" fill="none"><path d="M0 6 Q 15 1 30 6 T 60 6 T 90 6 T 120 6" stroke="var(--bark)" stroke-width="2.5" fill="none" /></svg>
+      </div>
+      <div class="featured__grid">
+        {featured.map((item, i) => (
+          <a href={`/the-web/${item.year}`} class="featured__card scroll-reveal-card" style={`--card-accent: ${item.color}; --reveal-delay: ${i * 90}ms`}>
+            <div class="featured__card-img">
+              <img src={item.image} alt="" loading="lazy" />
+            </div>
+            <div class="featured__card-content">
+              <span class="featured__card-tag">{item.tagline}</span>
+              <span class="featured__card-year">{item.year}</span>
+              <h3 class="featured__card-title">{item.title}</h3>
+              <span class="featured__card-cta">Explore &rarr;</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="explore" class="timeline scroll-reveal">
+    <div class="timeline__inner">
+      <div class="timeline__header">
+        <h2 class="timeline__heading">1990 &mdash; 2026</h2>
+        <p class="timeline__sub">36 years. Every year tells a story.</p>
+      </div>
+      <div class="eras">
+        {eras.map((era, i) => (
+          <a href={`/the-web/${era.start}`} class="era scroll-reveal-card" style={`--era-color: ${era.color}; --reveal-delay: ${i * 55}ms`}>
+            <span class="era__tag">{era.tag}</span>
+            <span class="era__years">{era.start}&mdash;{era.end}</span>
+            <h3 class="era__label">{era.label}</h3>
+          </a>
+        ))}
+      </div>
+      <div class="year-grid">
+        {years.map((year) => (
+          <a href={`/the-web/${year}`} class="year-cell">
+            <span class="year-cell__num">{year}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PURPOSE -->
+  <section class="purpose scroll-reveal">
+    <div class="purpose__inner">
+      <div class="purpose__left">
+        <span class="purpose__eyebrow">Why this exists</span>
+        <h2 class="purpose__title">Walk through the history of the Internet rather than reading about it.</h2>
+      </div>
+      <div class="purpose__right">
+        <div class="purpose__item scroll-reveal-card" style="--reveal-delay: 0ms">
+          <span class="purpose__num">01</span>
+          <div>
+            <h3 class="purpose__item-title">Preserve</h3>
+            <p>Important moments in digital history before they're forgotten.</p>
+          </div>
+        </div>
+        <div class="purpose__item scroll-reveal-card" style="--reveal-delay: 120ms">
+          <span class="purpose__num">02</span>
+          <div>
+            <h3 class="purpose__item-title">Remember</h3>
+            <p>Older users recognize what they lived through. Younger users discover what they missed.</p>
+          </div>
+        </div>
+        <div class="purpose__item scroll-reveal-card" style="--reveal-delay: 240ms">
+          <span class="purpose__num">03</span>
+          <div>
+            <h3 class="purpose__item-title">Understand</h3>
+            <p>What influenced what. The connections between products, technologies, and culture.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</Base>
+
+<style>
+  /* ====== HERO ====== */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-2xl) var(--spacing-lg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero__bg-text {
+    position: absolute;
+    font-family: var(--font-hand);
+    font-size: clamp(10rem, 25vw, 22rem);
+    font-weight: 700;
+    color: var(--bark);
+    opacity: 0.03;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    pointer-events: none; user-select: none;
+    line-height: 1; letter-spacing: -0.05em;
+  }
+
+  .hero__scattered { position: absolute; inset: 0; pointer-events: none; }
+  .hero__scatter {
+    position: absolute;
+    font-family: var(--font-mono); font-size: 0.7rem;
+    color: var(--text-muted); opacity: 0.3; letter-spacing: 0.05em;
+  }
+  .hero__scatter--1 { top: 12%; left: 8%; transform: rotate(-12deg); }
+  .hero__scatter--2 { top: 20%; right: 15%; transform: rotate(8deg); color: var(--pink); opacity: 0.5; }
+  .hero__scatter--3 { bottom: 25%; left: 12%; transform: rotate(-5deg); color: var(--yellow); opacity: 0.5; }
+  .hero__scatter--4 { bottom: 15%; right: 10%; transform: rotate(10deg); color: var(--green); opacity: 0.4; }
+  .hero__scatter--5 { top: 40%; left: 5%; transform: rotate(-8deg); color: var(--blue); opacity: 0.3; }
+  .hero__scatter--6 { top: 35%; right: 8%; transform: rotate(6deg); color: var(--orange); opacity: 0.4; }
+
+  /* Hero container */
+  .hero__container {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: var(--spacing-xl);
+    align-items: center;
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero__inner { text-align: left; }
+
+  .hero__badge {
+    font-family: var(--font-editorial); font-style: italic; font-size: 1.15rem;
+    color: var(--text-muted); margin-bottom: var(--spacing-sm);
+  }
+
+  .hero__title { margin-bottom: var(--spacing-md); line-height: 0.9; }
+  .hero__title-line1 {
+    display: block; font-family: var(--font-hand);
+    font-size: clamp(3.8rem, 8.5vw, 7.5rem); font-weight: 700;
+    color: var(--bark); letter-spacing: -0.03em;
+  }
+  .hero__title-line2 {
+    display: block; font-family: var(--font-hand);
+    font-size: clamp(3rem, 7vw, 6rem); font-weight: 600;
+    color: var(--pink); letter-spacing: -0.02em; margin-top: -0.1em;
+  }
+
+  .hero__subtitle {
+    font-size: 1.15rem; color: var(--text-secondary);
+    margin-bottom: var(--spacing-xl); line-height: 1.6;
+    max-width: 48ch;
+  }
+
+  .hero__actions { display: flex; gap: var(--spacing-md); justify-content: flex-start; flex-wrap: wrap; margin-bottom: var(--spacing-xl); }
+
+  .hero__cta {
+    display: inline-block; padding: 0.9rem 2rem;
+    font-family: var(--font-hand); font-size: 1.25rem; font-weight: 600;
+    border-radius: 4px; transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out), background 0.2s var(--ease-out);
+  }
+  .hero__cta--primary {
+    background: var(--pink); color: #fff;
+    border: 3px solid var(--bark); box-shadow: var(--shadow-brutal-sm);
+  }
+  .hero__cta--primary:hover {
+    transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--bark);
+    background: var(--orange);
+  }
+  .hero__cta--ghost {
+    background: var(--bg-card); color: var(--bark);
+    border: 3px solid var(--bark);
+  }
+  .hero__cta--ghost:hover {
+    transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--bark);
+    background: var(--yellow);
+  }
+
+  .hero__meta { display: flex; align-items: center; justify-content: flex-start; gap: var(--spacing-md); flex-wrap: wrap; }
+  .hero__stat { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase; }
+  .hero__dot { color: var(--bark); font-size: 1.2rem; }
+
+  .hero__visual { display: flex; justify-content: center; width: 100%; }
+  .hero__frame {
+    background: var(--bg-card);
+    border: var(--border-thick);
+    border-radius: 6px;
+    box-shadow: 8px 8px 0 var(--bark);
+    overflow: hidden;
+    width: 100%;
+    max-width: 480px;
+    transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+  }
+  .hero__frame:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 12px 12px 0 var(--bark);
+  }
+  .hero__frame-header {
+    background: var(--bark);
+    color: #fff;
+    padding: 0.45rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+  .hero__frame-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .hero__frame-dot--red { background: var(--pink); }
+  .hero__frame-dot--yellow { background: var(--yellow); }
+  .hero__frame-dot--green { background: var(--green); }
+  .hero__frame-title {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    color: var(--bg);
+    margin-left: auto;
+  }
+  .hero__img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero__scroll-hint {
+    position: absolute; bottom: var(--spacing-lg); left: 50%; transform: translateX(-50%);
+    opacity: 0.5;
+  }
+  .hero__scroll-hint svg { width: 28px; height: 44px; }
+
+  /* ====== MARQUEE ====== */
+  .marquee {
+    overflow: hidden; white-space: nowrap;
+    border-top: var(--border-thick); border-bottom: var(--border-thick);
+    padding: var(--spacing-md) 0;
+    background: var(--yellow);
+  }
+  .marquee__track {
+    display: inline-flex; gap: var(--spacing-lg);
+    font-family: var(--font-hand); font-size: 1.4rem; font-weight: 700;
+    color: var(--bark);
+    animation: marquee 30s linear infinite;
+  }
+  .marquee__track span { flex-shrink: 0; }
+  @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+  /* ====== FEATURED ====== */
+  .featured { padding: var(--spacing-2xl) var(--spacing-lg); position: relative; z-index: 1; }
+  .featured__inner { max-width: var(--max-width); margin: 0 auto; }
+  .featured__header { margin-bottom: var(--spacing-xl); }
+  .featured__heading { font-family: var(--font-hand); font-size: 2rem; font-weight: 700; color: var(--bark); margin-bottom: var(--spacing-xs); }
+  .featured__squiggle { width: 120px; height: 12px; }
+  .featured__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-xl); }
+
+  .featured__card {
+    display: flex; flex-direction: column;
+    background: var(--bg-card);
+    border: var(--border-thick); border-radius: 4px;
+    box-shadow: 6px 6px 0 var(--bark);
+    transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+    position: relative; overflow: hidden;
+  }
+  .featured__card:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 10px 10px 0 var(--card-accent);
+    border-color: var(--bark);
+  }
+  .featured__card-img {
+    width: 100%; height: 220px; overflow: hidden;
+    border-bottom: 3.5px solid var(--bark);
+  }
+  .featured__card-img img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .featured__card:hover .featured__card-img img {
+    transform: scale(1.04);
+  }
+  .featured__card-content {
+    padding: var(--spacing-xl) var(--spacing-lg);
+    display: flex; flex-direction: column; flex: 1;
+  }
+  .featured__card-tag {
+    font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600;
+    color: var(--bark); background: var(--card-accent); display: inline-block;
+    padding: 0.25rem 0.6rem; border: 2px solid var(--bark); border-radius: 3px;
+    box-shadow: 2px 2px 0 var(--bark);
+    margin-bottom: var(--spacing-sm); align-self: flex-start;
+  }
+  .featured__card-year { font-family: var(--font-hand); font-size: clamp(3rem, 6vw, 4.5rem); font-weight: 700; color: var(--card-accent); line-height: 1; margin-bottom: var(--spacing-xs); letter-spacing: -0.03em; }
+  .featured__card-title { font-family: var(--font-hand); font-size: 1.6rem; font-weight: 600; color: var(--bark); margin-bottom: var(--spacing-md); line-height: 1.2; }
+  .featured__card-cta { font-family: var(--font-mono); font-size: 0.75rem; color: var(--bark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-top: auto; }
+
+  /* ====== TIMELINE ====== */
+  .timeline { padding: var(--spacing-2xl) var(--spacing-lg); position: relative; z-index: 1; }
+  .timeline__inner { max-width: var(--max-width); margin: 0 auto; }
+  .timeline__header { margin-bottom: var(--spacing-xl); }
+  .timeline__heading { font-family: var(--font-hand); font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 700; color: var(--bark); margin-bottom: var(--spacing-xs); }
+  .timeline__sub { font-family: var(--font-editorial); font-style: italic; font-size: 1rem; color: var(--text-muted); }
+
+  .eras { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--spacing-md); margin-bottom: var(--spacing-2xl); }
+
+  .era {
+    display: flex; flex-direction: column; padding: var(--spacing-lg);
+    background: var(--bg-card); border: var(--border-thick); border-radius: 4px;
+    box-shadow: 4px 4px 0 var(--bark);
+    transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+    position: relative; overflow: hidden;
+  }
+  .era::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: var(--era-color); opacity: 0.08; transition: opacity 0.3s;
+  }
+  .era:hover::before { opacity: 0.2; }
+  .era:hover { transform: translate(-3px, -3px) rotate(-0.5deg); box-shadow: 7px 7px 0 var(--era-color); }
+  .era__tag { font-family: var(--font-mono); font-size: 0.65rem; color: var(--era-color); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--spacing-sm); font-weight: 600; }
+  .era__years { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); margin-bottom: var(--spacing-xs); }
+  .era__label { font-family: var(--font-hand); font-size: 1.5rem; font-weight: 700; color: var(--era-color); line-height: 1.1; }
+
+  .year-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 6px; }
+  .year-cell {
+    display: flex; align-items: center; justify-content: center;
+    padding: 0.9rem 0.5rem;
+    background: var(--bg-card); border: 2.5px solid var(--bark); border-radius: 3px;
+    box-shadow: 2px 2px 0 var(--bark);
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+  }
+  .year-cell:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--pink); background: var(--bg-elevated); }
+  .year-cell__num { font-family: var(--font-hand); font-size: 1.2rem; font-weight: 600; color: var(--text-secondary); transition: color 0.2s; }
+  .year-cell:hover .year-cell__num { color: var(--pink); }
+
+  /* ====== PURPOSE ====== */
+  .purpose { padding: var(--spacing-2xl) var(--spacing-lg); position: relative; z-index: 1; border-top: var(--border-thick); }
+  .purpose__inner { max-width: var(--max-width); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-2xl); align-items: start; }
+  .purpose__eyebrow { font-family: var(--font-mono); font-size: 0.72rem; color: var(--pink); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: var(--spacing-md); font-weight: 600; }
+  .purpose__title { font-family: var(--font-hand); font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: var(--bark); line-height: 1.15; }
+  .purpose__right { display: flex; flex-direction: column; gap: var(--spacing-xl); }
+  .purpose__item { display: flex; gap: var(--spacing-lg); align-items: flex-start; }
+  .purpose__num { font-family: var(--font-hand); font-size: 2.5rem; font-weight: 700; color: var(--pink); opacity: 0.7; line-height: 1; flex-shrink: 0; min-width: 3rem; }
+  .purpose__item-title { font-family: var(--font-hand); font-size: 1.4rem; font-weight: 700; color: var(--green); margin-bottom: var(--spacing-xs); }
+  .purpose__item p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; }
+
+  @media (max-width: 960px) {
+    .hero__container {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: var(--spacing-xl);
+    }
+    .hero__inner { text-align: center; }
+    .hero__actions { justify-content: center; }
+    .hero__meta { justify-content: center; }
+    .hero__visual { max-width: 440px; margin: 0 auto; }
+    .featured__grid { grid-template-columns: 1fr; }
+    .eras { grid-template-columns: repeat(2, 1fr); }
+    .purpose__inner { grid-template-columns: 1fr; gap: var(--spacing-xl); }
+  }
+
+  @media (max-width: 600px) {
+    .eras { grid-template-columns: 1fr; }
+    .year-grid { grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); }
+  }
+</style>

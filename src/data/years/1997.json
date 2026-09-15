@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "year": 1997,
+  "title": "The Year the Web Got Real",
+  "era": "early-web",
+  "narrative": "Amazon goes public. Netflix is born. Bluetooth untethers devices from cables. AIM connects millions. RealPlayer streams live video. The first weblogs appear. The internet stops being a novelty and starts becoming infrastructure.",
+  "felt_like": {
+    "os": "Windows 95 / Windows NT",
+    "browser": "Netscape Navigator 4 / Internet Explorer 4",
+    "messenger": "AIM / ICQ",
+    "social_network": "GeoCities / AOL",
+    "music": "Winamp / RealPlayer streaming",
+    "phone": "Nokia 6110 / Motorola StarTAC",
+    "video": "RealPlayer streaming (very small, very pixelated)",
+    "website": "a GeoCities page with an animated GIF and a guestbook"
+  },
+  "events": [
+    "amazon-ipo-1997",
+    "netflix-concept-1997",
+    "bluetooth-1.0-1997",
+    "realplayer-streaming-1997",
+    "aim-launch-1997",
+    "early-blogs-1997",
+    "dvd-launched-1997",
+    "w3c-css2-1997"
+  ]
+}

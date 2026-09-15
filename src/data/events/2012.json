@@ -1,0 +1,252 @@
+[
+  {
+    "id": "facebook-ipo-2012",
+    "title": "Facebook IPO",
+    "year": 2012,
+    "date": "2012-05-18",
+    "category": ["business", "social"],
+    "type": "ipo",
+    "summary": "Facebook goes public at $38 per share, the largest tech IPO in history at the time, but the stock immediately crashes.",
+    "narrative": "Facebook's IPO is the most hyped since Google. Mark Zuckerberg rings the NASDAQ bell in a hoodie. The stock opens at $38. It closes at $38.23 — barely above the offering price. Then it crashes. The NASDAQ glitch delays trades. Investors lose billions. The stock drops to $17 by September. Facebook becomes a verb. The stock will eventually recover — it reaches $1 trillion by 2021.",
+    "why_it_matters": "Largest tech IPO of its time. Proved social media could be a massive business. The IPO failure became a cautionary tale about hype vs. fundamentals.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["tech-ipo-history", "social-media-monetization", "facebook-metaverse", "silicon-valley-hype"],
+    "tags": ["facebook", "ipo", "nasdaq", "stock-market", "zuckerberg"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Facebook IPO - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Facebook_IPO",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "facebook-instagram-acquisition-2012",
+    "title": "Facebook Acquires Instagram for $1 Billion",
+    "year": 2012,
+    "date": "2012-04-09",
+    "category": ["business", "social"],
+    "type": "acquisition",
+    "summary": "Facebook acquires Instagram for $1 billion in cash and stock, the biggest social media acquisition in history.",
+    "narrative": "Facebook is scared of Instagram. The photo app has 30 million users and is growing fast. Mark Zuckerberg meets Kevin Systrom at a party. Two weeks later, Facebook offers $1 billion. Systrom says yes. At the time, $1 billion for a 13-person company with no revenue seems insane. By 2024, Instagram is worth over $100 billion. The acquisition that looked crazy looks like the steal of the century.",
+    "why_it_matters": "Biggest social media acquisition in history. Validated the mobile-first strategy. Instagram became Facebook's insurance policy against the next big thing.",
+    "impact": 5,
+    "nostalgia": 3,
+    "influence": ["tech-acquisitions", "mobile-first-strategy", "instagram-growth", "facebook-metaverse"],
+    "tags": ["facebook", "instagram", "acquisition", "billion", "mobile"],
+    "region": ["usa", "global"],
+    "sources": [
+      {
+        "title": "Facebook acquires Instagram - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Instagram#Acquisition_by_Facebook",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "hurricane-sandy-social-media-2012",
+    "title": "Hurricane Sandy Social Media Response",
+    "year": 2012,
+    "date": "2012-10-29",
+    "category": ["social", "culture"],
+    "type": "cultural_event",
+    "summary": "Hurricane Sandy becomes the first major disaster where social media is the primary tool for real-time information and rescue coordination.",
+    "narrative": "Sandy hits the East Coast. Power goes out. Cell towers fail. But people still have smartphones with battery life. Twitter becomes the emergency broadcast system. Instagram documents the flooding. The 'Frankenstorm' photo of a roller coaster in the ocean goes viral. FEMA uses social media for rescue coordination. The Red Cross uses Twitter to direct resources. The internet becomes infrastructure.",
+    "why_it_matters": "Proved social media is critical infrastructure during disasters. Changed how emergency services communicate. The 'Sandy selfie' became a new form of disaster documentation.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["disaster-social-media", "emergency-communications", "citizen-journalism", "social-media-infrastructure"],
+    "tags": ["hurricane-sandy", "social-media", "disaster", "twitter", "emergency"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Hurricane Sandy social media - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Sandy_in_New_Jersey",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "obama-campaign-tech-2012",
+    "title": "Obama's Data-Driven Campaign",
+    "year": 2012,
+    "date": "2012-11-06",
+    "category": ["business", "culture"],
+    "type": "cultural_event",
+    "summary": "Obama's re-election campaign uses big data, social media, and analytics to build the most sophisticated political operation in history.",
+    "narrative": "The Obama campaign builds a tech startup inside a political operation. They collect data on every voter. They run A/B tests on email subject lines. They use social media for micro-targeted ads. The campaign's tech team is led by a 28-year-old named Harper Reed. On election night, their analytics model predicts the outcome before the networks call it. Political campaigns will never be the same.",
+    "why_it_matters": "Changed politics forever. Proved data-driven campaigning works. Every campaign since 2012 has copied this playbook. The line between tech company and political operation blurred.",
+    "impact": 5,
+    "nostalgia": 2,
+    "influence": ["political-tech", "data-driven-campaigns", "micro-targeting", "cambridge-analytica-2018"],
+    "tags": ["obama", "campaign", "big-data", "social-media", "election"],
+    "region": ["usa"],
+    "sources": [
+      {
+        "title": "Obama 2012 campaign - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Barack_Obama_2012_presidential_campaign",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "raspberry-pi-launch-2012",
+    "title": "Raspberry Pi Launches",
+    "year": 2012,
+    "date": "2012-02-29",
+    "category": ["hardware", "culture"],
+    "type": "product_launch",
+    "summary": "The Raspberry Pi launches at $35, putting a full computer the size of a credit card in the hands of makers and students worldwide.",
+    "narrative": "A tiny computer the size of a credit card costs $35. It runs Linux. It has GPIO pins for electronics projects. It's designed to teach kids to code. It sells out immediately. The Raspberry Pi becomes the most popular British computer ever made. Makers use it for everything: retro gaming consoles, home automation, weather stations, robots. It creates the maker movement.",
+    "why_it_matters": "Democratized computing. Created the modern maker movement. Made computer science accessible to anyone. Sold over 60 million units by 2024.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["maker-movement", "stem-education", "iot-devices", "retro-gaming"],
+    "tags": ["raspberry-pi", "maker", "computing", "education", "diy"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Raspberry Pi - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "3d-printing-mainstream-2012",
+    "title": "3D Printing Goes Mainstream",
+    "year": 2012,
+    "date": "2012-01-01",
+    "category": ["hardware", "culture"],
+    "type": "cultural_event",
+    "summary": "Affordable desktop 3D printers like MakerBot Replicator bring additive manufacturing to consumers and classrooms.",
+    "narrative": "MakerBot sells the Replicator for $1,749. It's the first consumer 3D printer that actually works. You can print toys, phone cases, replacement parts. Shapeways lets you upload designs and they'll print and ship them. Maker Faires pop up everywhere. Schools buy 3D printers. The future of manufacturing feels personal. You'll never buy a replacement part again — you'll just print it.",
+    "why_it_matters": "Made manufacturing personal. Created the desktop manufacturing revolution. Every school now has a 3D printer. The maker movement gets its tool.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["maker-movement", "desktop-manufacturing", "raspberry-pi-2012", "educational-tech"],
+    "tags": ["3d-printing", "makerbot", "manufacturing", "maker", "diy"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "3D printing - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/3D_printing",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "tumblr-100m-blogs-2012",
+    "title": "Tumblr Reaches 100 Million Blogs",
+    "year": 2012,
+    "date": "2012-01-01",
+    "category": ["social", "media"],
+    "type": "platform_shift",
+    "summary": "Tumblr surpasses 100 million blogs, becoming the platform of choice for creative and counterculture communities.",
+    "narrative": "Tumblr is the anti-Facebook. It's anonymous, creative, and weird. David Karp started it when he was 21. By 2012, it's the place for fan fiction, art, memes, and counterculture. It's where teens go when they want to be themselves. The dashboard is addictive. The reblog function creates viral content chains. Yahoo buys it for $1.1 billion in 2013. It's one of the biggest mistakes in Yahoo's history.",
+    "why_it_matters": "Created the creative internet. Proved that anonymous, creative platforms could scale. The reblog chain influenced how content spreads online.",
+    "impact": 4,
+    "nostalgia": 4,
+    "influence": ["yahoo-tumblr-acquisition-2013", "fan-communities", "creative-internet", "meme-culture"],
+    "tags": ["tumblr", "blogging", "creative", "counterculture", "memes"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Tumblr - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tumblr",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nasa-curiosity-landing-2012",
+    "title": "Mars Curiosity Rover Landing",
+    "year": 2012,
+    "date": "2012-08-06",
+    "category": ["science", "culture"],
+    "type": "cultural_event",
+    "summary": "NASA's Curiosity rover lands on Mars while millions watch live on YouTube and social media.",
+    "narrative": "NASA lands a car-sized robot on Mars using a sky crane. The internet loses its mind. The '7 Minutes of Terror' video goes viral. NASA's social media team becomes the most popular government account on Earth. The first photos are shared on Twitter and Reddit. For a moment, the whole world cares about science again. The rover is still on Mars in 2024.",
+    "why_it_matters": "Proved government agencies could go viral. Made space exploration feel personal and accessible. NASA's social media playbook influenced every government communications strategy.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["nasa-social-media", "space-exploration", "science-communication", "live-streaming"],
+    "tags": ["mars", "curiosity", "nasa", "space", "rover"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Curiosity (rover) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "samsung-apple-patent-war-2012",
+    "title": "Samsung vs Apple Patent War",
+    "year": 2012,
+    "date": "2012-08-24",
+    "category": ["business", "hardware"],
+    "type": "legal_event",
+    "summary": "Apple wins $1.05 billion in damages from Samsung in the biggest patent lawsuit in tech history.",
+    "narrative": "Apple and Samsung have been suing each other in 10 countries simultaneously. The trial in San Jose is the main event. Apple shows internal Samsung documents proving they copied the iPhone's design. Samsung argues Apple isn't the only company that can make a rectangle. The jury awards Apple $1.05 billion. Samsung is furious. The case drags on for years. The design patents at stake will shape every smartphone that follows.",
+    "why_it_matters": "Defined the boundaries of design patents. Every smartphone design since has been influenced by this case. Showed how patent law struggles to keep up with tech.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": ["smartphone-design", "patent-law", "apple-samsung-rivalry", "design-patents"],
+    "tags": ["apple", "samsung", "patent", "lawsuit", "design"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "Apple Inc. v. Samsung Electronics Co. - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co.",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "linkedin-ipo-2012",
+    "title": "LinkedIn IPO",
+    "year": 2012,
+    "date": "2012-05-19",
+    "category": ["business", "social"],
+    "type": "ipo",
+    "summary": "LinkedIn goes public at $45 per share and doubles on its first day, proving professional social networking is a real business.",
+    "narrative": "LinkedIn is the social network nobody admits to using. But everyone has a profile. Reid Hoffman starts it in his living room in 2002. By 2012, it has 161 million members. The IPO opens at $45 and closes at $94. It's the first major social IPO since Facebook's disastrous debut. LinkedIn proves that a boring social network can be a great business.",
+    "why_it_matters": "Validated professional social networking. Proved that 'boring' businesses can scale. LinkedIn's Recruiter tool created a new industry.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": ["professional-networking", "linkedin-recruiting", "social-ipo", "career-networking"],
+    "tags": ["linkedin", "ipo", "professional", "networking", "careers"],
+    "region": ["global"],
+    "sources": [
+      {
+        "title": "LinkedIn - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LinkedIn",
+        "type": "primary",
+        "accessed": "2026-09-15",
+        "confidence": "high"
+      }
+    ]
+  }
+]

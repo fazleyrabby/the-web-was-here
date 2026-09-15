@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1990,
+  "title": "The Spark of the Web",
+  "era": "foundation",
+  "narrative": "1990 was the year the digital universe expanded beyond military and academic networks. Tim Berners-Lee's proposal at CERN planted the seed of the World Wide Web, while IRC and BBS culture proved that humans craved digital connection.",
+  "felt_like": {
+    "os": "MS-DOS 4.0 / Windows 3.0",
+    "browser": "N/A (pre-web era)",
+    "messenger": "IRC / BBS messages",
+    "social_network": "Usenet newsgroups",
+    "music": "Napster was years away—cassette tapes and CDs",
+    "phone": "Rotary phones and early cordless",
+    "video": "VHS tapes",
+    "website": "The first web page at info.cern.ch"
+  },
+  "events": [
+    "tim-berners-lee-proposal-1990",
+    "first-web-browser-1990",
+    "first-web-server-1990",
+    "irc-invented-1990",
+    "compuserve-gif-1990",
+    "europanet-launch-1990",
+    "ncsa-mosaic-nascent-1990",
+    "usenet-growth-1990",
+    "bbs-culture-peak-1990"
+  ]
+}

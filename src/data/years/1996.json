@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "year": 1996,
+  "title": "The Year the Web Got Real",
+  "era": "early-web",
+  "narrative": "CSS separates content from design. Hotmail proves email can live in a browser. RealPlayer streams audio and video. ICQ connects millions in real time. JavaScript makes web pages interactive. The web stops being static and starts being alive.",
+  "felt_like": {
+    "os": "Windows 95",
+    "browser": "Netscape Navigator 2 / Internet Explorer 3",
+    "messenger": "ICQ (uh oh!)",
+    "social_network": "GeoCities / WebTV",
+    "music": "Winamp / RealPlayer streaming",
+    "phone": "Nokia 6110",
+    "video": "RealPlayer 1.0 (if you're lucky)",
+    "website": "frames with a 'Click here to enter' splash page"
+  },
+  "events": [
+    "css1-1996",
+    "icq-mass-adoption-1996",
+    "hotmail-launch-1996",
+    "webtv-launch-1996",
+    "realplayer-1996",
+    "frame-pages-1996",
+    "bobby-early-accessibility-1996",
+    "giphy-precursor-1996",
+    "javascript-becomes-standard-1996"
+  ]
+}

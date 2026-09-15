@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "year": 2004,
+  "title": "The Year Web 2.0 Began",
+  "era": "web-2",
+  "narrative": "The rubble of the crash clears and the participatory web takes shape. Facebook starts in a dorm, Gmail resets what free email means, Firefox breaks Internet Explorer's grip, and World of Warcraft shows how deep online communities can go. Someone finally gives the whole shift a name: Web 2.0.",
+  "felt_like": {
+    "os": "Windows XP / Mac OS X Panther",
+    "browser": "Internet Explorer 6 / Firefox 1.0",
+    "messenger": "MSN Messenger / AIM",
+    "social_network": "Friendster / MySpace / Facebook",
+    "music": "iPod / iTunes",
+    "phone": "Flip phones / BlackBerry",
+    "video": "Windows Media / QuickTime",
+    "website": "rounded corners, gradients, glossy buttons, RSS icons"
+  },
+  "events": [
+    "facebook-launch-2004",
+    "gmail-launch-2004",
+    "firefox-1-0-2004",
+    "world-of-warcraft-2004",
+    "google-ipo-2004",
+    "podcasting-term-2004",
+    "digg-launch-2004",
+    "ubuntu-first-release-2004",
+    "web-2-0-conference-2004",
+    "psp-launch-2004"
+  ]
+}
