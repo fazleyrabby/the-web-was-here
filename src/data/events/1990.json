@@ -111,7 +111,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/hardware/next-cube-cern.png",
+    "image_caption": "Tim Berners-Lee's NeXTcube at CERN, the world's first web server."
   },
   {
     "id": "irc-invented-1990",
@@ -360,7 +362,9 @@
         "title": "Game Boy - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Game_Boy"
       }
-    ]
+    ],
+    "image": "/images/hardware/game-boy-dmg01.png",
+    "image_caption": "The original 8-bit Nintendo Game Boy (DMG-01) with monochrome green LCD screen."
   },
   {
     "id": "reunification-mandela-1990",

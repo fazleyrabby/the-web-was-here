@@ -391,7 +391,9 @@
         "title": "Wii - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Wii"
       }
-    ]
+    ],
+    "image": "/images/hardware/nintendo-wii.png",
+    "image_caption": "Nintendo Wii console with motion-sensing Wiimote."
   },
   {
     "id": "amy-winehouse-back-to-black-2006",

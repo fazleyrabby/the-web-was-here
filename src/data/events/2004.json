@@ -412,7 +412,9 @@
         "title": "Motorola Razr V3 - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Motorola_Razr_V3"
       }
-    ]
+    ],
+    "image": "/images/hardware/motorola-razr-v3.png",
+    "image_caption": "Motorola RAZR V3 ultra-slim aircraft-grade aluminum flip phone."
   },
   {
     "id": "nintendo-ds-touchscreen-2004",
@@ -434,7 +436,9 @@
         "title": "Nintendo DS - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nintendo_DS"
       }
-    ]
+    ],
+    "image": "/images/hardware/nintendo-ds.png",
+    "image_caption": "Original clamshell Nintendo DS with dual screens and touch stylus."
   },
   {
     "id": "indian-ocean-tsunami-2004",

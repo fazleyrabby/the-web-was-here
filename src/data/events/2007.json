@@ -37,7 +37,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/hardware/original-iphone.png",
+    "image_caption": "The original 2007 Apple iPhone with 3.5-inch multi-touch display."
   },
   {
     "id": "facebook-mainstream-2007",
@@ -327,7 +329,9 @@
         "title": "Amazon Kindle - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Amazon_Kindle"
       }
-    ]
+    ],
+    "image": "/images/hardware/amazon-kindle-1.png",
+    "image_caption": "First generation Amazon Kindle with asymmetric keyboard and E-Ink screen."
   },
   {
     "id": "rihanna-umbrella-graduation-2007",

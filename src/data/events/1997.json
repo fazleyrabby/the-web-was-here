@@ -371,7 +371,9 @@
         "title": "Tamagotchi - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Tamagotchi"
       }
-    ]
+    ],
+    "image": "/images/hardware/tamagotchi.png",
+    "image_caption": "Original Bandai Tamagotchi virtual pet digital egg keychain."
   },
   {
     "id": "radiohead-ok-computer-1997",

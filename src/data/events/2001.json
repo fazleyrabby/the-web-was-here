@@ -81,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/hardware/ipod-classic.png",
+    "image_caption": "Original 1st Generation Apple iPod with mechanical scroll wheel."
   },
   {
     "id": "windows-xp-launch-2001",
@@ -396,7 +398,9 @@
         "title": "Halo: Combat Evolved - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"
       }
-    ]
+    ],
+    "image": "/images/hardware/original-xbox.png",
+    "image_caption": "Microsoft Xbox console with Duke controller."
   },
   {
     "id": "apple-first-retail-stores-2001",

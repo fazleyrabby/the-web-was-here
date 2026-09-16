@@ -429,7 +429,9 @@
         "title": "Nintendo Switch - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nintendo_Switch"
       }
-    ]
+    ],
+    "image": "/images/hardware/nintendo-switch.png",
+    "image_caption": "Nintendo Switch hybrid console with neon blue and red Joy-Cons."
   },
   {
     "id": "fidget-spinner-craze-2017",
@@ -451,7 +453,9 @@
         "title": "Fidget spinner - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Fidget_spinner"
       }
-    ]
+    ],
+    "image": "/images/hardware/fidget-spinner.png",
+    "image_caption": "Three-pronged ball-bearing plastic fidget spinner."
   },
   {
     "id": "despacito-latin-pop-streaming-2017",

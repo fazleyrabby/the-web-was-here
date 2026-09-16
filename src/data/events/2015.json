@@ -79,7 +79,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/hardware/apple-watch.png",
+    "image_caption": "First generation Apple Watch with Digital Crown."
   },
   {
     "id": "uber-global-2015",

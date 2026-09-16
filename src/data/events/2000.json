@@ -121,7 +121,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/hardware/playstation-2.png",
+    "image_caption": "Sony PlayStation 2, the best-selling home console of all time."
   },
   {
     "id": "broadband-tipping-point-2000",
@@ -349,7 +351,9 @@
         "title": "Nokia 3310 - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nokia_3310"
       }
-    ]
+    ],
+    "image": "/images/hardware/nokia-3310.png",
+    "image_caption": "Nokia 3310 mobile phone, renowned for indestructible durability and Snake II."
   },
   {
     "id": "bush-gore-election-hanging-chads-2000",
