@@ -1,0 +1,765 @@
+---
+// Support Modal Component matching the /Users/rabbi/Desktop/Projects/spot design
+---
+
+<div class="modal-backdrop" id="support-modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="support-title">
+  <div class="support-modal-box" id="support-modal">
+    <!-- Header -->
+    <div class="support-header">
+      <div class="support-header-left">
+        <div class="support-icon-circle">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="1" x2="6" y2="4"></line>
+            <line x1="10" y1="1" x2="10" y2="4"></line>
+            <line x1="14" y1="1" x2="14" y2="4"></line>
+          </svg>
+        </div>
+        <div class="support-title-group">
+          <h2 class="support-title" id="support-title">Support the Project</h2>
+          <p class="support-subtitle">Keep open source work & creative coding alive</p>
+        </div>
+      </div>
+      <button type="button" class="support-close-btn" id="support-modal-close" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6L6 18M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Archival & Project Notice Banner -->
+    <div class="support-homelab-banner">
+      <div class="support-homelab-badge">
+        <span class="support-homelab-icon">💻</span>
+        <span class="support-homelab-ping" aria-hidden="true"></span>
+      </div>
+      <div class="support-homelab-info">
+        <div class="support-homelab-heading">
+          <strong class="support-homelab-title">Independent Digital Archive</strong>
+          <span class="support-homelab-pill">Living History</span>
+        </div>
+        <p class="support-homelab-desc">
+          The Web Was Here is an independent, non-profit archive preserving 36+ years of internet milestones, retro aesthetics, and web culture. Every contribution directly funds research, asset archival, and hosting!
+        </p>
+      </div>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="support-cards-list">
+      <!-- 1. SupportKori (Bangladesh) -->
+      <a href="https://supportkori.com/fazleyrabbi" target="_blank" rel="noopener noreferrer" class="support-tier-card card-kori">
+        <div class="tier-card-left">
+          <div class="tier-icon-badge kori-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </div>
+          <div class="tier-info">
+            <span class="tier-title">SupportKori</span>
+            <div class="tier-tag-pill kori-tag">
+              <span>🇧🇩 BD USERS / BKASH • NAGAD</span>
+            </div>
+            <span class="tier-desc">For Bangladesh users (BDT ৳)</span>
+          </div>
+        </div>
+        <div class="tier-action-btn kori-btn">
+          <span>Support ৳</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- 2. Buy Me a Coffee (Global) -->
+      <a href="https://buymeacoffee.com/fazleyrabbi" target="_blank" rel="noopener noreferrer" class="support-tier-card card-bmc">
+        <div class="tier-card-left">
+          <div class="tier-icon-badge bmc-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+              <line x1="6" y1="1" x2="6" y2="4"></line>
+              <line x1="10" y1="1" x2="10" y2="4"></line>
+              <line x1="14" y1="1" x2="14" y2="4"></line>
+            </svg>
+          </div>
+          <div class="tier-info">
+            <span class="tier-title">Buy Me a Coffee</span>
+            <div class="tier-tag-pill bmc-tag">
+              <span>GLOBAL / INTERNATIONAL</span>
+            </div>
+            <span class="tier-desc">Card, Apple Pay, Google Pay ($)</span>
+          </div>
+        </div>
+        <div class="tier-action-btn bmc-btn">
+          <span>Support $</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <!-- Section Divider -->
+    <div class="support-divider">
+      <div class="divider-line"></div>
+      <span class="divider-text">OR VIA DIRECT PAYONEER ($0 FEE)</span>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- Payoneer Box -->
+    <div class="payoneer-box" id="btn-copy-payoneer" role="button" tabindex="0" title="Click to copy Payoneer ID">
+      <div class="payoneer-top-row">
+        <span class="payoneer-label">Payoneer Customer ID:</span>
+        <span class="payoneer-fee-tag">$0 Fee Direct</span>
+      </div>
+
+      <div class="payoneer-id-display">
+        <span class="payoneer-id-value" id="payoneer-id-number">24076084</span>
+        <button type="button" class="payoneer-copy-btn" id="btn-payoneer-copy-action" title="Copy Payoneer ID">
+          <svg class="copy-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          <span id="payoneer-copy-label">Copy ID</span>
+        </button>
+      </div>
+
+      <div class="payoneer-tip">
+        <span class="tip-bulb">💡</span>
+        <span class="tip-text">Payoneer app: Go to <strong>Pay → Pay to recipient</strong> → Enter ID <strong class="gold-id">24076084</strong> or <strong class="gold-id">fazley111@gmail.com</strong>.</span>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="support-modal-footer">
+      <span class="footer-thankyou">Thank you for supporting web history! ✨</span>
+    </div>
+  </div>
+</div>
+
+<!-- Support Toast Container -->
+<div id="support-toast-container" class="support-toast-container" aria-live="polite"></div>
+
+<style>
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .modal-backdrop.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .support-modal-box {
+    width: 100%;
+    max-width: 490px;
+    background: #141720;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 24px 22px 20px 22px;
+    box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    transform: scale(0.95) translateY(10px);
+    transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    color: #f8fafc;
+    font-family: var(--font-body, system-ui, sans-serif);
+    box-sizing: border-box;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .support-modal-box * {
+    box-sizing: border-box;
+  }
+
+  .modal-backdrop.open .support-modal-box {
+    transform: scale(1) translateY(0);
+  }
+
+  /* Header */
+  .support-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .support-header-left {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  .support-icon-circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #1e2430;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f59e0b;
+    flex-shrink: 0;
+  }
+
+  .support-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .support-title {
+    font-family: var(--font-body, sans-serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #f8fafc;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+
+  .support-subtitle {
+    font-size: 0.82rem;
+    color: #94a3b8;
+    margin: 0;
+  }
+
+  .support-close-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    color: #64748b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .support-close-btn:hover {
+    color: #f8fafc;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  /* Archive Banner */
+  .support-homelab-banner {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(245, 158, 11, 0.06));
+    border: 1px solid rgba(56, 189, 248, 0.22);
+    border-radius: 14px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+  }
+
+  .support-homelab-badge {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .support-homelab-ping {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 8px #10b981;
+    animation: support-pulse 2s infinite ease-in-out;
+  }
+
+  @keyframes support-pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.85); }
+  }
+
+  .support-homelab-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  .support-homelab-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .support-homelab-title {
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: #f1f5f9;
+  }
+
+  .support-homelab-pill {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.28);
+    padding: 1px 7px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+
+  .support-homelab-desc {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.42;
+    color: #94a3b8;
+  }
+
+  /* Cards List */
+  .support-cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .support-tier-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border-radius: 14px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+  /* SupportKori Styling */
+  .card-kori {
+    background: #0d1a18;
+    border: 1px solid #144738;
+  }
+
+  .card-kori:hover {
+    border-color: #00df89;
+    box-shadow: 0 0 25px -5px rgba(0, 223, 137, 0.25);
+    transform: translateY(-1px);
+  }
+
+  .kori-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #00df89;
+    color: #081610;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .kori-tag {
+    background: rgba(0, 223, 137, 0.12);
+    border: 1px solid rgba(0, 223, 137, 0.3);
+    color: #00df89;
+  }
+
+  .kori-btn {
+    background: #00df89;
+    color: #081610;
+    font-weight: 700;
+  }
+
+  .kori-btn:hover {
+    background: #1aff9d;
+    transform: scale(1.02);
+  }
+
+  /* Buy Me a Coffee Styling */
+  .card-bmc {
+    background: #1b190f;
+    border: 1px solid #473a11;
+  }
+
+  .card-bmc:hover {
+    border-color: #ffdd00;
+    box-shadow: 0 0 25px -5px rgba(255, 221, 0, 0.25);
+    transform: translateY(-1px);
+  }
+
+  .bmc-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #ffdd00;
+    color: #141002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .bmc-tag {
+    background: rgba(255, 221, 0, 0.12);
+    border: 1px solid rgba(255, 221, 0, 0.3);
+    color: #ffdd00;
+  }
+
+  .bmc-btn {
+    background: #ffdd00;
+    color: #141002;
+    font-weight: 700;
+  }
+
+  .bmc-btn:hover {
+    background: #ffe433;
+    transform: scale(1.02);
+  }
+
+  /* Card Interior */
+  .tier-card-left {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    min-width: 0;
+  }
+
+  .tier-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .tier-title {
+    font-family: var(--font-body, sans-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #f8fafc;
+  }
+
+  .tier-tag-pill {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-mono, monospace);
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    width: fit-content;
+  }
+
+  .tier-desc {
+    font-size: 0.74rem;
+    color: #94a3b8;
+  }
+
+  .tier-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-family: var(--font-mono, monospace);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+    transition: all 0.15s ease;
+  }
+
+  /* Divider */
+  .support-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0 14px 0;
+  }
+
+  .divider-line {
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .divider-text {
+    font-size: 0.65rem;
+    font-family: var(--font-mono, monospace);
+    color: #64748b;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+
+  /* Payoneer Box */
+  .payoneer-box {
+    background: #171b24;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+
+  .payoneer-box:hover {
+    border-color: rgba(255, 221, 0, 0.3);
+    background: #1a1f2b;
+  }
+
+  .payoneer-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .payoneer-label {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    font-family: var(--font-mono, monospace);
+  }
+
+  .payoneer-fee-tag {
+    font-size: 0.78rem;
+    color: #00df89;
+    font-weight: 700;
+    font-family: var(--font-mono, monospace);
+  }
+
+  .payoneer-id-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0b0d13;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 7px 10px 7px 14px;
+  }
+
+  .payoneer-id-value {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffdd00;
+    font-family: var(--font-mono, monospace);
+    letter-spacing: 0.05em;
+  }
+
+  .payoneer-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #1e2430;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #f1f5f9;
+    font-size: 0.76rem;
+    font-weight: 600;
+    padding: 6px 11px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .payoneer-copy-btn:hover {
+    background: #2a3344;
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .payoneer-tip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 7px 9px;
+    font-size: 0.72rem;
+    color: #94a3b8;
+  }
+
+  .tip-bulb {
+    font-size: 0.8rem;
+  }
+
+  .gold-id {
+    color: #ffdd00;
+  }
+
+  /* Footer */
+  .support-modal-footer {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .footer-thankyou {
+    font-size: 0.78rem;
+    color: #64748b;
+  }
+
+  /* Toast Notification */
+  .support-toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    pointer-events: none;
+  }
+
+  :global(.support-toast) {
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: var(--font-mono, monospace);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    pointer-events: auto;
+    animation: toast-in 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  :global(.support-toast--success) {
+    border-color: rgba(0, 223, 137, 0.4);
+    color: #00df89;
+  }
+
+  :global(.support-toast.fade-out) {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  @keyframes toast-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @media (max-width: 520px) {
+    .support-modal-box {
+      padding: 18px 14px;
+    }
+    .support-tier-card {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .tier-action-btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
+
+<script>
+  function setupSupportModal() {
+    const backdrop = document.getElementById('support-modal-backdrop');
+    const closeBtn = document.getElementById('support-modal-close');
+    const openBtn = document.getElementById('btn-open-support');
+    const payoneerBox = document.getElementById('btn-copy-payoneer');
+    const payoneerCopyBtn = document.getElementById('btn-payoneer-copy-action');
+    const copyLabel = document.getElementById('payoneer-copy-label');
+
+    function openModal() {
+      if (!backdrop) return;
+      backdrop.classList.add('open');
+      backdrop.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      if (!backdrop) return;
+      backdrop.classList.remove('open');
+      backdrop.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    function showToast(message: string, type: 'success' | 'info' = 'info') {
+      const container = document.getElementById('support-toast-container');
+      if (!container) return;
+      const toast = document.createElement('div');
+      toast.className = `support-toast support-toast--${type}`;
+      toast.textContent = message;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.classList.add('fade-out');
+        setTimeout(() => toast.remove(), 300);
+      }, 3000);
+    }
+
+    async function copyPayoneerId(e?: Event) {
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+      try {
+        await navigator.clipboard.writeText('24076084');
+        if (copyLabel) copyLabel.textContent = 'Copied!';
+        showToast('📋 Copied Payoneer ID: 24076084', 'success');
+        setTimeout(() => {
+          if (copyLabel) copyLabel.textContent = 'Copy ID';
+        }, 2000);
+      } catch {
+        showToast('Payoneer ID: 24076084', 'info');
+      }
+    }
+
+    // Attach listeners
+    openBtn?.addEventListener('click', openModal);
+    closeBtn?.addEventListener('click', closeModal);
+    backdrop?.addEventListener('click', (e) => {
+      if (e.target === backdrop) closeModal();
+    });
+
+    payoneerBox?.addEventListener('click', copyPayoneerId);
+    payoneerCopyBtn?.addEventListener('click', copyPayoneerId);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && backdrop?.classList.contains('open')) {
+        closeModal();
+      }
+    });
+  }
+
+  setupSupportModal();
+  document.addEventListener('astro:page-load', setupSupportModal);
+</script>
