@@ -35,7 +35,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/world-wide-web-public-1991.png",
+    "image_caption": "Tim Berners-Lee posted about the World Wide Web on the alt.hypertext newsgroup, making it available to the public for the first time."
   },
   {
     "id": "linux-kernel-released-1991",
@@ -73,7 +75,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/linux-kernel-released-1991.png",
+    "image_caption": "Linus Torvalds released version 0.01 of the Linux kernel on Usenet, sparking the open-source movement."
   },
   {
     "id": "first-webcam-1991",
@@ -111,7 +115,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/first-webcam-1991.png",
+    "image_caption": "The Trojan Room coffee pot camera was set up at Cambridge University to monitor a coffee pot, becoming the world's first webcam."
   },
   {
     "id": "first-web-server-outside-cern-1991",
@@ -149,7 +155,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/first-web-server-outside-cern-1991.png",
+    "image_caption": "The first web server outside of CERN was installed at Stanford University, expanding the web's reach."
   },
   {
     "id": "commodore-amiga-still-alive-1991",
@@ -186,7 +194,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/commodore-amiga-still-alive-1991.jpg",
+    "image_caption": "Commodore released the Amiga 3000, a powerful multimedia computer that influenced early digital video and graphics."
   },
   {
     "id": "pdf-format-standardized-1991",
@@ -223,7 +233,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/pdf-format-standardized-1991.png",
+    "image_caption": "Adobe introduced the Portable Document Format (PDF), enabling documents to be shared across platforms."
   },
   {
     "id": "microsoft-activex-1991",
@@ -261,7 +273,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/microsoft-activex-1991.png",
+    "image_caption": "Microsoft began work on what would become ActiveX, their technology for interactive web content."
   },
   {
     "id": "aol-free-trial-disk-1991",
@@ -299,7 +313,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/aol-free-trial-disk-1991.png",
+    "image_caption": "America Online began its aggressive free trial disk distribution campaign, bringing online access to millions of Americans."
   },
   {
     "id": "first-domain-names-registered-1991",
@@ -337,7 +353,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1991/first-domain-names-registered-1991.png",
+    "image_caption": "Domain name registrations began to grow as more organizations connected to the internet."
   },
   {
     "id": "nirvana-nevermind-grunge-1991",
@@ -405,6 +423,8 @@
         "title": "Dissolution of the Soviet Union - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
       }
-    ]
+    ],
+    "image": "/images/events/1991/ussr-dissolution-desert-storm-1991.png",
+    "image_caption": "The Soviet Union officially dissolved on Christmas Day, while Desert Storm established CNN's 24-hour real-time war coverage."
   }
 ]

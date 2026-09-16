@@ -35,7 +35,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/mosaic-browser-beta-1992.png",
+    "image_caption": "NCSA Mosaic 0.5 was released, the first browser to display images inline with text."
   },
   {
     "id": "first-online-bookstore-1992",
@@ -73,7 +75,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/first-online-bookstore-1992.jpg",
+    "image_caption": "Several early online book ordering systems emerged, foreshadowing the e-commerce revolution."
   },
   {
     "id": "early-web-growth-1992",
@@ -111,7 +115,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/early-web-growth-1992.png",
+    "image_caption": "Web traffic on CERN's servers increased tenfold, with over a million HTTP requests by year's end."
   },
   {
     "id": "gopher-protocol-1992",
@@ -149,7 +155,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/gopher-protocol-1992.png",
+    "image_caption": "The Gopher protocol briefly rivaled the Web as the primary way to organize internet resources."
   },
   {
     "id": "first-graphics-web-browser-1992",
@@ -187,7 +195,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/first-graphics-web-browser-1992.png",
+    "image_caption": "ViolaWWW, the first graphical web browser with styling support, was released for Unix systems."
   },
   {
     "id": "jpeg-format-created-1992",
@@ -225,7 +235,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/jpeg-format-created-1992.jpg",
+    "image_caption": "The Joint Photographic Experts Group published the JPEG image compression standard."
   },
   {
     "id": "veronica-gopher-search-1992",
@@ -263,7 +275,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/veronica-gopher-search-1992.png",
+    "image_caption": "Veronica, the first search engine for Gopher space, was launched at the University of Nevada."
   },
   {
     "id": "first-credit-card-online-1992",
@@ -302,7 +316,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/first-credit-card-online-1992.jpg",
+    "image_caption": "The first secure online credit card transaction was processed, proving that e-commerce could be safe."
   },
   {
     "id": "compu-serv-graphics-1992",
@@ -340,7 +356,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1992/compu-serv-graphics-1992.jpg",
+    "image_caption": "CompuServe launched its Graphics Forum, becoming one of the first online services to support image sharing."
   },
   {
     "id": "first-sms-text-message-1992",
@@ -362,7 +380,9 @@
         "title": "SMS - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/SMS"
       }
-    ]
+    ],
+    "image": "/images/events/1992/first-sms-text-message-1992.jpg",
+    "image_caption": "22-year-old engineer Neil Papworth sent the world's first text message over the Vodafone GSM network."
   },
   {
     "id": "dr-dre-the-chronic-gfunk-1992",
@@ -384,7 +404,9 @@
         "title": "The Chronic - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/The_Chronic"
       }
-    ]
+    ],
+    "image": "/images/events/1992/dr-dre-the-chronic-gfunk-1992.jpeg",
+    "image_caption": "Dr. Dre released 'The Chronic', introducing Snoop Doggy Dogg and lazy Parliament-Funk synthesizer melodies to hip-hop."
   },
   {
     "id": "la-riots-and-clinton-1992",
@@ -406,6 +428,8 @@
         "title": "1992 Los Angeles riots - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
       }
-    ]
+    ],
+    "image": "/images/events/1992/la-riots-and-clinton-1992.jpg",
+    "image_caption": "Six days of civil unrest engulfed Los Angeles after the Rodney King verdict, while Bill Clinton won the White House on MTV appeal."
   }
 ]

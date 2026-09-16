@@ -36,7 +36,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/mosaic-browser-1993.png",
+    "image_caption": "NCSA Mosaic 1.0 was released for Unix, Windows, and Mac, making the web accessible to millions."
   },
   {
     "id": "gif-a2-b-1993",
@@ -74,7 +76,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/gif-a2-b-1993.jpg",
+    "image_caption": "The GIF89a specification introduced animation support, enabling the animated GIFs that would define internet culture."
   },
   {
     "id": "windows-31-released-1993",
@@ -150,7 +154,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/nls-gopher-closed-1993.jpg",
+    "image_caption": "The University of Minnesota announced it would charge licensing fees for Gopher, accelerating its decline."
   },
   {
     "id": "first-graphic-novel-online-1993",
@@ -226,7 +232,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/online-gambling-first-1993.jpg",
+    "image_caption": "The first internet gambling sites began operating, pioneering online gaming."
   },
   {
     "id": "first-web-directory-1993",
@@ -265,7 +273,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/first-web-directory-1993.jpg",
+    "image_caption": "The first human-curated web directories appeared, helping users navigate the growing web."
   },
   {
     "id": "interNIC-established-1993",
@@ -341,7 +351,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/mcnc-ncsa-mosaic-publicity-1993.png",
+    "image_caption": "NCSA Mosaic received widespread media coverage, bringing the web to public attention."
   },
   {
     "id": "cern-public-domain-web-1993",
@@ -363,7 +375,9 @@
         "title": "CERN puts the World Wide Web in public domain - CERN",
         "url": "https://home.cern/news/news/computing/thirty-years-open-web"
       }
-    ]
+    ],
+    "image": "/images/events/1993/cern-public-domain-web-1993.png",
+    "image_caption": "CERN made the World Wide Web source code available on a royalty-free basis forever."
   },
   {
     "id": "doom-shareware-multiplayer-1993",
@@ -385,7 +399,9 @@
         "title": "Doom (1993 video game) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)"
       }
-    ]
+    ],
+    "image": "/images/events/1993/doom-shareware-multiplayer-1993.jpg",
+    "image_caption": "John Carmack and John Romero released DOOM via shareware, bringing university computer networks to a screeching halt."
   },
   {
     "id": "jurassic-park-cgi-revolution-1993",

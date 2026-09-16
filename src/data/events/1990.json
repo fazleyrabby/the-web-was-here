@@ -35,7 +35,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/tim-berners-lee-proposal-1990.png",
+    "image_caption": "Tim Berners-Lee submitted a proposal titled 'Information Management: A Proposal' to his boss at CERN, laying the groundwork for the World Wide Web."
   },
   {
     "id": "first-web-browser-1990",
@@ -73,7 +75,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/first-web-browser-1990.png",
+    "image_caption": "Tim Berners-Lee created WorldWideWeb, the first web browser and web editor, running on a NeXT computer at CERN."
   },
   {
     "id": "first-web-server-1990",
@@ -151,7 +155,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/irc-invented-1990.png",
+    "image_caption": "Jarkko Oikarinen created Internet Relay Chat (IRC) in Finland, pioneering real-time online communication."
   },
   {
     "id": "compuserve-gif-1990",
@@ -189,7 +195,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/compuserve-gif-1990.jpg",
+    "image_caption": "CompuServe introduced the Graphics Interchange Format (GIF) as a way to compress images for online transmission."
   },
   {
     "id": "europanet-launch-1990",
@@ -226,7 +234,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/europanet-launch-1990.png",
+    "image_caption": "European academic networks began interconnecting, laying groundwork for the pan-European internet infrastructure."
   },
   {
     "id": "ncsa-mosaic-nascent-1990",
@@ -264,7 +274,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/ncsa-mosaic-nascent-1990.png",
+    "image_caption": "Research into distributed hypertext interfaces expanded, inspiring subsequent browser development at NCSA."
   },
   {
     "id": "usenet-growth-1990",
@@ -302,7 +314,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/usenet-growth-1990.png",
+    "image_caption": "Usenet, the distributed discussion system, expanded to over 1,000 newsgroups covering diverse topics."
   },
   {
     "id": "bbs-culture-peak-1990",
@@ -340,7 +354,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1990/bbs-culture-peak-1990.png",
+    "image_caption": "Bulletin Board Systems reached peak popularity, with thousands of local dial-up systems serving as community hubs."
   },
   {
     "id": "game-boy-mania-1990",
@@ -390,7 +406,9 @@
         "title": "Nelson Mandela - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nelson_Mandela"
       }
-    ]
+    ],
+    "image": "/images/events/1990/reunification-mandela-1990.jpg",
+    "image_caption": "Nelson Mandela walked free after 27 years and Germany officially reunited, reshaping global geopolitics."
   },
   {
     "id": "madonna-vogue-mchammer-1990",
@@ -412,6 +430,8 @@
         "title": "Vogue (Madonna song) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Vogue_(Madonna_song)"
       }
-    ]
+    ],
+    "image": "/images/events/1990/madonna-vogue-mchammer-1990.jpg",
+    "image_caption": "Madonna brought underground ballroom vogueing to the top of Billboard while MC Hammer made baggy pants and hip-hop dance universal."
   }
 ]

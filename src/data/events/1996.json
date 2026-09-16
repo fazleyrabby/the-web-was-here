@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/css1-1996.png",
+    "image_caption": "The W3C publishes Cascading Style Sheets Level 1, separating content from presentation for the first time."
   },
   {
     "id": "icq-mass-adoption-1996",
@@ -79,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/icq-mass-adoption-1996.png",
+    "image_caption": "ICQ explodes in popularity, reaching 5 million users and making instant messaging a mainstream phenomenon."
   },
   {
     "id": "hotmail-launch-1996",
@@ -120,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/hotmail-launch-1996.png",
+    "image_caption": "Sabeer Bhatia and Jack Smith launch Hotmail, the first free web-based email service, changing how people think about email."
   },
   {
     "id": "webtv-launch-1996",
@@ -161,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/webtv-launch-1996.jpg",
+    "image_caption": "WebTV launches, allowing people to browse the internet on their television sets using a set-top box and remote control."
   },
   {
     "id": "realplayer-1996",
@@ -203,7 +211,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/realplayer-1996.jpg",
+    "image_caption": "Progressive Networks releases RealPlayer, the first major streaming media player for audio and video over the internet."
   },
   {
     "id": "frame-pages-1996",
@@ -244,7 +254,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/frame-pages-1996.jpg",
+    "image_caption": "HTML frames become popular, creating multi-pane websites that break the back button and confuse everyone."
   },
   {
     "id": "bobby-early-accessibility-1996",
@@ -285,7 +297,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/bobby-early-accessibility-1996.png",
+    "image_caption": "The Center for Applied Special Technology releases Bobby, the first automated tool for checking web accessibility."
   },
   {
     "id": "giphy-precursor-1996",
@@ -326,7 +340,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/giphy-precursor-1996.jpg",
+    "image_caption": "Animated GIFs become the dominant form of web expression, decorating millions of GeoCities and Angelfire pages."
   },
   {
     "id": "javascript-becomes-standard-1996",
@@ -367,7 +383,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1996/javascript-becomes-standard-1996.png",
+    "image_caption": "Netscape Navigator 2.0 includes JavaScript, giving web pages interactivity and launching the most popular programming language in history."
   },
   {
     "id": "nintendo-64-mario-64-1996",
@@ -435,6 +453,8 @@
         "title": "Dolly (sheep) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
       }
-    ]
+    ],
+    "image": "/images/events/1996/dolly-the-sheep-cloned-1996.jpg",
+    "image_caption": "Scientists in Scotland successfully cloned the first mammal from an adult somatic cell."
   }
 ]

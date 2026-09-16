@@ -120,7 +120,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/netscape-ipo-1995.jpg",
+    "image_caption": "Netscape goes public on August 9, 1995, with its stock price doubling on the first day and launching the dot-com era."
   },
   {
     "id": "geocities-launch-1995",
@@ -161,7 +163,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/geocities-launch-1995.png",
+    "image_caption": "GeoCities launches, giving anyone a free homepage organized into themed 'neighborhoods' and democratizing web publishing."
   },
   {
     "id": "altavista-launch-1995",
@@ -203,7 +207,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/altavista-launch-1995.png",
+    "image_caption": "Digital Equipment Corporation launches AltaVista, the first search engine to index the full text of web pages at scale."
   },
   {
     "id": "icq-launch-1996-preview",
@@ -245,7 +251,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/icq-launch-1996-preview.png",
+    "image_caption": "Mirabilis releases ICQ, the first widespread instant messenger, introducing real-time online communication to the masses."
   },
   {
     "id": "windows-95-launch-1995",
@@ -327,7 +335,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/html-2_0-1995.png",
+    "image_caption": "The IETF publishes HTML 2.0 as an RFC, the first formal standard for the language that powers the web."
   },
   {
     "id": "yahoo-ipo-1996-preview",
@@ -368,7 +378,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/yahoo-ipo-1996-preview.png",
+    "image_caption": "Yahoo! becomes the most popular web directory, organizing the chaotic early web into browsable categories."
   },
   {
     "id": "toy-story-pixar-cgi-1995",
@@ -390,7 +402,9 @@
         "title": "Toy Story - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Toy_Story"
       }
-    ]
+    ],
+    "image": "/images/events/1995/toy-story-pixar-cgi-1995.png",
+    "image_caption": "Director John Lasseter and Steve Jobs' Pixar released the first entirely computer-animated feature film."
   },
   {
     "id": "ebay-auctionweb-founded-1995",
@@ -412,7 +426,9 @@
         "title": "eBay - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/EBay"
       }
-    ]
+    ],
+    "image": "/images/events/1995/ebay-auctionweb-founded-1995.png",
+    "image_caption": "On Labor Day weekend, French-born Iranian-American software engineer Pierre Omidyar coded AuctionWeb in his San Jose apartment."
   },
   {
     "id": "alanis-morissette-jagged-little-pill-1995",
@@ -434,6 +450,8 @@
         "title": "Jagged Little Pill - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Jagged_Little_Pill"
       }
-    ]
+    ],
+    "image": "/images/events/1995/alanis-morissette-jagged-little-pill-1995.jpg",
+    "image_caption": "21-year-old Canadian singer-songwriter Alanis Morissette released an unfiltered, cathartic alt-rock tour de force."
   }
 ]

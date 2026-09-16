@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/dotcom-bubble-peak-2000.png",
+    "image_caption": "The NASDAQ composite index hits 5,048.62, marking the peak of the dot-com speculative frenzy before a catastrophic crash."
   },
   {
     "id": "mac-osx-launch-2000",
@@ -164,7 +166,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/broadband-tipping-point-2000.png",
+    "image_caption": "U.S. broadband subscriptions surpass 5 million households, beginning the end of dial-up internet."
   },
   {
     "id": "aol-time-warner-merger-2000",
@@ -205,7 +209,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/aol-time-warner-merger-2000.png",
+    "image_caption": "America Online and Time Warner announce a $165 billion merger, creating the largest media company in the world."
   },
   {
     "id": "napster-peak-2000",
@@ -288,7 +294,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/w3c-css2-spec-2000.png",
+    "image_caption": "The World Wide Web Consortium publishes CSS2 as a formal recommendation, giving web developers powerful new tools for layout and design."
   },
   {
     "id": "mobile-internet-wap-2000",
@@ -329,7 +337,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/mobile-internet-wap-2000.jpg",
+    "image_caption": "WAP-enabled mobile phones begin offering basic internet access, giving millions their first taste of the mobile web."
   },
   {
     "id": "nokia-3310-snake-2000",
@@ -375,7 +385,9 @@
         "title": "2000 United States presidential election - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election"
       }
-    ]
+    ],
+    "image": "/images/events/2000/bush-gore-election-hanging-chads-2000.png",
+    "image_caption": "A 537-vote margin in Florida triggered a 36-day recount saga that birthed modern internet political satire."
   },
   {
     "id": "eminem-marshall-mathers-outkast-2000",

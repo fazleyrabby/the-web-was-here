@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/amazon-ipo-1997.jpg",
+    "image_caption": "Amazon goes public at $18 per share, raising $54 million and proving that online retail is a real business."
   },
   {
     "id": "netflix-concept-1997",
@@ -80,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/netflix-concept-1997.jpg",
+    "image_caption": "Reed Hastings and Marc Randolph found Netflix as a DVD-by-mail service, with a vision for on-demand entertainment."
   },
   {
     "id": "bluetooth-1.0-1997",
@@ -121,7 +125,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/bluetooth-1_0-1997.jpg",
+    "image_caption": "Ericsson releases the Bluetooth 1.0 specification, creating the wireless standard that will connect billions of devices."
   },
   {
     "id": "realplayer-streaming-1997",
@@ -162,7 +168,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/realplayer-streaming-1997.jpg",
+    "image_caption": "RealPlayer evolves from audio-only to full video streaming, enabling the first live internet broadcasts and changing media forever."
   },
   {
     "id": "aim-launch-1997",
@@ -203,7 +211,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/aim-launch-1997.png",
+    "image_caption": "AOL launches Instant Messenger, bringing instant messaging to millions of AOL subscribers and creating a cultural phenomenon."
   },
   {
     "id": "early-blogs-1997",
@@ -244,7 +254,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/early-blogs-1997.png",
+    "image_caption": "The first weblogs emerge, with individuals sharing personal thoughts and links in reverse-chronological format."
   },
   {
     "id": "dvd-launched-1997",
@@ -286,7 +298,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/dvd-launched-1997.jpg",
+    "image_caption": "The DVD format launches in the US, replacing VHS tapes and eventually enabling Netflix's DVD-by-mail business model."
   },
   {
     "id": "w3c-css2-1997",
@@ -327,7 +341,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1997/w3c-css2-1997.png",
+    "image_caption": "The W3C begins work on CSS2, expanding style capabilities with positioning, z-index, and media types."
   },
   {
     "id": "princess-diana-global-grief-1997",
@@ -349,7 +365,9 @@
         "title": "Death of Diana, Princess of Wales - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales"
       }
-    ]
+    ],
+    "image": "/images/events/1997/princess-diana-global-grief-1997.jpg",
+    "image_caption": "The tragic death of Diana, Princess of Wales in Paris triggered an unprecedented wave of global grief."
   },
   {
     "id": "tamagotchi-craze-1997",

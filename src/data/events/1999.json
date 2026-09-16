@@ -82,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/broadband-starts-1999.png",
+    "image_caption": "DSL and cable internet services expand rapidly, beginning the slow death of dial-up and enabling always-on internet connections."
   },
   {
     "id": "palm-pilot-1999",
@@ -124,7 +126,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/palm-pilot-1999.jpg",
+    "image_caption": "3Com releases the Palm V, the sleekest personal digital assistant ever made, bringing handheld computing to the mainstream."
   },
   {
     "id": "everquest-launch-1999",
@@ -208,7 +212,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/wifi-spec-1999.jpg",
+    "image_caption": "The IEEE ratifies 802.11b, the first widely-adopted Wi-Fi standard, enabling wireless networking at 11 Mbps."
   },
   {
     "id": "y2k-preparations-1999",
@@ -250,7 +256,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/y2k-preparations-1999.jpg",
+    "image_caption": "The world prepares for the Year 2000 bug, with governments and businesses spending billions to prevent computer systems from crashing."
   },
   {
     "id": "i-will-survive-hoax-1999",
@@ -335,7 +343,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/mp3-com-riots-1999.png",
+    "image_caption": "MP3.com becomes the hub of independent music, enabling unsigned artists to reach audiences directly without record labels."
   },
   {
     "id": "windows-2000-preview-1999",
@@ -399,7 +409,7 @@
         "url": "https://en.wikipedia.org/wiki/The_Matrix"
       }
     ],
-    "image": "/images/hardware/the-matrix-code.png",
+    "image": "/images/events/1999/the-matrix-cyberpunk-1999.jpg",
     "image_caption": "The iconic green falling digital code from The Matrix."
   },
   {
@@ -422,7 +432,9 @@
         "title": "Year 2000 problem - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Year_2000_problem"
       }
-    ]
+    ],
+    "image": "/images/events/1999/y2k-panic-preparations-1999.jpg",
+    "image_caption": "Fears that older two-digit year computer systems would crash at midnight caused worldwide preparations and dread."
   },
   {
     "id": "teen-pop-explosion-britney-backstreet-1999",
@@ -448,6 +460,8 @@
         "title": "Millennium (Backstreet Boys album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)"
       }
-    ]
+    ],
+    "image": "/images/events/1999/teen-pop-explosion-britney-backstreet-1999.jpg",
+    "image_caption": "Britney Spears' '...Baby One More Time' and the Backstreet Boys' 'Millennium' shattered music industry sales records."
   }
 ]
