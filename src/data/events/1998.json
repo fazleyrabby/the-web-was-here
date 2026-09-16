@@ -52,7 +52,7 @@
     ],
     "type": "platform_shift",
     "summary": "Microsoft bundles Internet Explorer with Windows, effectively winning the first browser war against Netscape.",
-    "narrative": "Netscape Navigator had 90% market share in 1995. Then Microsoft bundles IE with Windows and gives it away free. By 1998, IE crosses 50% and keeps climbing. Netscape\u5f00\u6e90s their browser but it's too late. The antitrust trial begins. The browser war is over. Microsoft won. For a while.",
+    "narrative": "Netscape Navigator had 90% market share in 1995. Then Microsoft bundles IE with Windows and gives it away free. By 1998, IE crosses 50% and keeps climbing. Netscape open-sources their browser (creating Mozilla), but it's too late. The antitrust trial begins. The browser war is over. Microsoft won. For a while.",
     "why_it_matters": "Demonstrated the power of bundling. Led to the antitrust case that defined tech regulation. Showed that open-source could fight back (eventually).",
     "impact": 5,
     "nostalgia": 3,
