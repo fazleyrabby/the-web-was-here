@@ -119,6 +119,31 @@ const totalEvents = Object.values(eventModules).reduce(
       <span>REMOTE</span><span>&bull;</span>
       <span>2023</span><span>&bull;</span>
       <span>AI</span><span>&bull;</span>
+      <!-- duplicate for seamless loop -->
+      <span aria-hidden="true">1990</span><span>&bull;</span>
+      <span>WWW</span><span>&bull;</span>
+      <span>1993</span><span>&bull;</span>
+      <span>MOSAIC</span><span>&bull;</span>
+      <span>1995</span><span>&bull;</span>
+      <span>NETSCAPE</span><span>&bull;</span>
+      <span>1998</span><span>&bull;</span>
+      <span>GOOGLE</span><span>&bull;</span>
+      <span>2001</span><span>&bull;</span>
+      <span>DOT-COM BUST</span><span>&bull;</span>
+      <span>2004</span><span>&bull;</span>
+      <span>FACEBOOK</span><span>&bull;</span>
+      <span>2005</span><span>&bull;</span>
+      <span>YOUTUBE</span><span>&bull;</span>
+      <span>2007</span><span>&bull;</span>
+      <span>IPHONE</span><span>&bull;</span>
+      <span>2010</span><span>&bull;</span>
+      <span>INSTAGRAM</span><span>&bull;</span>
+      <span>2015</span><span>&bull;</span>
+      <span>REACT</span><span>&bull;</span>
+      <span>2020</span><span>&bull;</span>
+      <span>REMOTE</span><span>&bull;</span>
+      <span>2023</span><span>&bull;</span>
+      <span>AI</span><span>&bull;</span>
     </div>
   </div>
 
@@ -133,7 +158,7 @@ const totalEvents = Object.values(eventModules).reduce(
         {featured.map((item, i) => (
           <a href={`/the-web/${item.year}`} class="featured__card scroll-reveal-card" style={`--card-accent: ${item.color}; --reveal-delay: ${i * 90}ms`}>
             <div class="featured__card-img">
-              <img src={item.image} alt="" loading="lazy" />
+              <img src={item.image} alt="" loading="lazy" onerror="this.style.display='none';this.parentNode.classList.add('featured__card-img--fallback')" />
             </div>
             <div class="featured__card-content">
               <span class="featured__card-tag">{item.tagline}</span>
@@ -403,6 +428,18 @@ const totalEvents = Object.values(eventModules).reduce(
   .featured__card-img {
     width: 100%; height: 220px; overflow: hidden;
     border-bottom: 3.5px solid var(--bark);
+    background: var(--bg);
+  }
+  .featured__card-img--fallback {
+    display: flex; align-items: center; justify-content: center;
+    background: repeating-linear-gradient(
+      -45deg,
+      var(--bg) 0px, var(--bg) 8px,
+      var(--bg-elevated) 8px, var(--bg-elevated) 16px
+    );
+  }
+  .featured__card-img--fallback::after {
+    content: '📷'; font-size: 2.5rem; opacity: 0.25;
   }
   .featured__card-img img {
     width: 100%; height: 100%; object-fit: cover;

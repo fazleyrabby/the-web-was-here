@@ -131,12 +131,14 @@ const randomYear = (() => {
 
   .year-header__year {
     font-family: var(--font-hand);
-    font-size: clamp(4.5rem, 14vw, 9rem);
+    font-size: clamp(3.5rem, 14vw, 9rem);
     font-weight: 700;
     line-height: 0.95;
     color: var(--pink);
     margin-bottom: var(--spacing-md);
     text-shadow: 5px 5px 0 var(--bark);
+    word-break: keep-all;
+    overflow-wrap: normal;
   }
 
   .year-header__title {
