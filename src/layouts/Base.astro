@@ -19,6 +19,8 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/images/logo.png" />
     <!-- Open Graph / Social -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
@@ -40,7 +42,10 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
     <div class="grain"></div>
     <nav class="nav">
       <div class="nav__left">
-        <a href="/" class="nav__logo">TWWH</a>
+        <a href="/" class="nav__logo" title="The Web Was Here">
+          <img src="/images/logo.png" alt="The Web Was Here Logo" class="nav__logo-img" width="30" height="30" />
+          <span class="nav__logo-text">TWWH</span>
+        </a>
         <div class="nav__links">
           <a href="/">Timeline</a>
           <a href="/the-web/1998">1998</a>
@@ -232,11 +237,23 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
   .nav__left { display: flex; align-items: center; gap: var(--spacing-xl); flex-shrink: 0; }
 
   .nav__logo {
+    display: inline-flex; align-items: center; gap: 0.5rem;
     font-family: var(--font-hand); font-size: 1.8rem; font-weight: 700;
     color: var(--pink); transition: transform 0.25s var(--ease-out), color 0.25s var(--ease-out);
-    line-height: 1; flex-shrink: 0;
+    line-height: 1; flex-shrink: 0; text-decoration: none;
   }
-  .nav__logo:hover { color: var(--orange); transform: scale(1.05) rotate(-2deg); }
+  .nav__logo-img {
+    width: 30px; height: 30px; border-radius: 6px;
+    border: 1px solid rgba(212, 168, 83, 0.4);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    display: block; flex-shrink: 0;
+    transition: transform 0.25s var(--ease-out), border-color 0.25s var(--ease-out);
+  }
+  .nav__logo:hover { color: var(--orange); transform: scale(1.05) rotate(-1deg); }
+  .nav__logo:hover .nav__logo-img {
+    transform: rotate(4deg) scale(1.08);
+    border-color: var(--orange);
+  }
 
   .nav__links { display: flex; gap: var(--spacing-lg); }
   .nav__links a {

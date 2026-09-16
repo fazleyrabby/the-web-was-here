@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import RetroCrtHero from '../components/RetroCrtHero.astro';
 
 const eras = [
   { start: 1990, end: 1994, label: "Foundation", color: "var(--pink)", tag: "THE DAWN" },
@@ -84,29 +85,7 @@ const totalEvents = Object.values(eventModules).reduce(
       </div>
 
       <div class="hero__visual">
-        <div class="hero__frame" id="crt-frame">
-          <div class="hero__frame-header">
-            <span class="hero__frame-dot hero__frame-dot--red"></span>
-            <span class="hero__frame-dot hero__frame-dot--yellow"></span>
-            <span class="hero__frame-dot hero__frame-dot--green"></span>
-            <span class="hero__frame-title">DIAL-UP READY • 1990–2026</span>
-            <button id="crt-sound-btn" class="hero__crt-sound-btn" title="Simulate 56k Modem Handshake">
-              <span class="crt-led"></span>
-              <span id="crt-status-text">🔊 56K DIAL-UP</span>
-            </button>
-          </div>
-          <div class="hero__screen-wrapper">
-            <img
-              src="/images/illustrations/hero-retro-crt.jpg"
-              alt="Hand-drawn retro CRT monitor displaying dial-up connection with floppy disks and pagers"
-              class="hero__img"
-              width="600"
-              height="338"
-            />
-            <div class="hero__scanlines" aria-hidden="true"></div>
-            <div class="hero__crt-glow" aria-hidden="true"></div>
-          </div>
-        </div>
+        <RetroCrtHero />
       </div>
     </div>
 
@@ -432,120 +411,7 @@ const totalEvents = Object.values(eventModules).reduce(
   .hero__dot { color: var(--bark); font-size: 1.2rem; }
 
   .hero__visual { display: flex; justify-content: center; width: 100%; }
-  .hero__frame {
-    background: var(--bg-card);
-    border: var(--border-thick);
-    border-radius: 6px;
-    box-shadow: 8px 8px 0 var(--bark);
-    overflow: hidden;
-    width: 100%;
-    max-width: 480px;
-    transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
-    position: relative;
-  }
-  .hero__frame:hover {
-    transform: translate(-3px, -3px);
-    box-shadow: 12px 12px 0 var(--bark);
-  }
-  .hero__frame--connecting {
-    animation: crtFlicker 0.15s infinite alternate;
-  }
-  @keyframes crtFlicker {
-    0% { filter: brightness(1) contrast(1); }
-    100% { filter: brightness(1.15) contrast(1.08) hue-rotate(3deg); }
-  }
 
-  .hero__frame-header {
-    background: var(--bark);
-    color: #fff;
-    padding: 0.45rem 0.8rem;
-    display: flex;
-    align-items: center;
-    gap: 0.45rem;
-  }
-  .hero__frame-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  .hero__frame-dot--red { background: var(--pink); }
-  .hero__frame-dot--yellow { background: var(--yellow); }
-  .hero__frame-dot--green { background: var(--green); }
-  .hero__frame-title {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-    color: #dedede;
-    margin-right: auto;
-  }
-
-  .hero__crt-sound-btn {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    font-weight: 700;
-    background: #2a2a2a;
-    color: #00ff88;
-    border: 1.5px solid #444;
-    border-radius: 3px;
-    padding: 0.2rem 0.5rem;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    transition: background 0.15s, color 0.15s, border-color 0.15s;
-  }
-  .hero__crt-sound-btn:hover {
-    background: #00ff88;
-    color: #000;
-    border-color: #00ff88;
-  }
-  .crt-led {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #00ff88;
-    box-shadow: 0 0 6px #00ff88;
-    animation: ledPulse 1.4s ease-in-out infinite;
-  }
-  @keyframes ledPulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-  }
-
-  .hero__screen-wrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: #111;
-  }
-  .hero__img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* CRT Scanlines and curvature glow */
-  .hero__scanlines {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background: repeating-linear-gradient(
-      rgba(0, 0, 0, 0) 0px,
-      rgba(0, 0, 0, 0) 2px,
-      rgba(0, 0, 0, 0.22) 2px,
-      rgba(0, 0, 0, 0.22) 4px
-    );
-    z-index: 2;
-    mix-blend-mode: multiply;
-  }
-  .hero__crt-glow {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.45);
-    z-index: 3;
-  }
 
   .hero__scroll-hint {
     position: absolute; bottom: var(--spacing-lg); left: 50%; transform: translateX(-50%);
@@ -846,14 +712,11 @@ const totalEvents = Object.values(eventModules).reduce(
 </style>
 
 <script>
-  import { playWarpSound, playDialUpSound, stopDialUp } from '../lib/sound';
+  import { playWarpSound } from '../lib/sound';
 
   function initHeroInteractive() {
     const warpBtn = document.getElementById('hero-warp-btn');
     const warpText = document.getElementById('hero-warp-text');
-    const crtSoundBtn = document.getElementById('crt-sound-btn');
-    const crtStatusText = document.getElementById('crt-status-text');
-    const crtFrame = document.getElementById('crt-frame');
 
     const years = [
       1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,
@@ -883,38 +746,6 @@ const totalEvents = Object.values(eventModules).reduce(
             }, 250);
           }
         }, 60);
-      };
-    }
-
-    if (crtSoundBtn && crtStatusText && crtFrame) {
-      let isPlaying = false;
-      let stopFn: (() => void) | null = null;
-
-      crtSoundBtn.onclick = (e) => {
-        e.stopPropagation();
-        if (isPlaying) {
-          if (stopFn) stopFn();
-          stopDialUp();
-          isPlaying = false;
-          crtFrame.classList.remove('hero__frame--connecting');
-          crtStatusText.textContent = '🔊 56K DIAL-UP';
-          return;
-        }
-
-        isPlaying = true;
-        crtFrame.classList.add('hero__frame--connecting');
-        crtStatusText.textContent = 'DIALING...';
-
-        stopFn = playDialUpSound((status) => {
-          crtStatusText.textContent = status;
-          if (status === 'ONLINE' || status === 'CONNECTED @ 56,000 BPS!') {
-            setTimeout(() => {
-              isPlaying = false;
-              crtFrame.classList.remove('hero__frame--connecting');
-              crtStatusText.textContent = '● 56K ONLINE';
-            }, 3000);
-          }
-        });
       };
     }
   }

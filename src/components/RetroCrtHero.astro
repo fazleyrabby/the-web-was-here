@@ -1,0 +1,1557 @@
+---
+// Retro CRT Monitor with interactive 56k Dial-Up and Netscape Navigator simulation
+---
+
+<div class="crt-chassis" id="twwh-crt-chassis">
+  <!-- Top vents -->
+  <div class="crt-vents" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Main CRT Monitor Bezel -->
+  <div class="crt-bezel">
+    <!-- Monitor Screen Area with glass curvature & scanlines -->
+    <div class="crt-screen-housing">
+      <div class="crt-screen" id="crt-screen">
+
+        <!-- LAYER 1: WINDOWS 95 DESKTOP & DIAL-UP NETWORKING MODAL -->
+        <div class="win95-desktop" id="win95-desktop">
+          <!-- Desktop Icons -->
+          <div class="win95-icons" aria-hidden="true">
+            <div class="win95-icon">
+              <span class="win95-icon__img">🌐</span>
+              <span class="win95-icon__label">The Internet</span>
+            </div>
+            <div class="win95-icon">
+              <span class="win95-icon__img">📞</span>
+              <span class="win95-icon__label">Dial-Up</span>
+            </div>
+            <div class="win95-icon">
+              <span class="win95-icon__img">🧭</span>
+              <span class="win95-icon__label">Netscape</span>
+            </div>
+            <div class="win95-icon">
+              <span class="win95-icon__img">🗑️</span>
+              <span class="win95-icon__label">Recycle Bin</span>
+            </div>
+          </div>
+
+          <!-- DIAL-UP MODAL WINDOW -->
+          <div class="win95-window" id="dialup-modal">
+            <div class="win95-window__titlebar">
+              <div class="win95-window__title">
+                <span class="win95-icon-sm">📞</span>
+                <span id="dialup-title-text">Connect To: The Web Archive</span>
+              </div>
+              <div class="win95-window__controls" aria-hidden="true">
+                <button type="button" class="win95-btn-box">?</button>
+                <button type="button" class="win95-btn-box">×</button>
+              </div>
+            </div>
+
+            <div class="win95-window__body">
+              <!-- Animated Phone / Modem Handshake illustration -->
+              <div class="modem-anim" id="modem-anim">
+                <div class="modem-anim__node">
+                  <span class="node-icon">💻</span>
+                  <span class="node-label">Your PC</span>
+                </div>
+                <div class="modem-anim__line">
+                  <div class="modem-anim__packet" id="modem-packet"></div>
+                  <span class="modem-anim__speed" id="modem-speed-label">56,000 bps</span>
+                </div>
+                <div class="modem-anim__node">
+                  <span class="node-icon" id="server-icon">📡</span>
+                  <span class="node-label">Web Gateway</span>
+                </div>
+              </div>
+
+              <!-- Connection Status Info -->
+              <div class="dialup-status-box">
+                <div class="dialup-status-row">
+                  <span class="dialup-label">Status:</span>
+                  <span class="dialup-value dialup-value--highlight" id="dialup-status-msg">Ready to connect...</span>
+                </div>
+                <div class="dialup-status-row">
+                  <span class="dialup-label">Phone:</span>
+                  <span class="dialup-value">1-800-424-9299</span>
+                </div>
+                <div class="dialup-status-row">
+                  <span class="dialup-label">Modem:</span>
+                  <span class="dialup-value">USRobotics Sportster 56K V.90</span>
+                </div>
+              </div>
+
+              <!-- Connection Progress Bar -->
+              <div class="win95-progress-outer">
+                <div class="win95-progress-bar" id="dialup-progress-bar"></div>
+              </div>
+
+              <!-- Modem LED Indicators -->
+              <div class="modem-leds">
+                <div class="modem-led-group">
+                  <span class="modem-led modem-led--green" id="led-mr"></span>
+                  <span class="modem-led-label">MR</span>
+                </div>
+                <div class="modem-led-group">
+                  <span class="modem-led modem-led--green" id="led-tr"></span>
+                  <span class="modem-led-label">TR</span>
+                </div>
+                <div class="modem-led-group">
+                  <span class="modem-led modem-led--red" id="led-cd"></span>
+                  <span class="modem-led-label">CD</span>
+                </div>
+                <div class="modem-led-group">
+                  <span class="modem-led modem-led--red" id="led-sd"></span>
+                  <span class="modem-led-label">SD</span>
+                </div>
+                <div class="modem-led-group">
+                  <span class="modem-led modem-led--green" id="led-rd"></span>
+                  <span class="modem-led-label">RD</span>
+                </div>
+              </div>
+
+              <!-- Dialog Action Buttons -->
+              <div class="win95-window__actions">
+                <button type="button" class="win95-btn win95-btn--primary" id="btn-dial-connect">
+                  <span class="btn-icon">📞</span> Dial & Connect
+                </button>
+                <button type="button" class="win95-btn" id="btn-skip-dial">
+                  Skip &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 2: NETSCAPE NAVIGATOR BROWSER -->
+        <div class="netscape-browser" id="netscape-browser">
+          <!-- Window Title Bar -->
+          <div class="win95-window__titlebar netscape-titlebar">
+            <div class="win95-window__title">
+              <span class="win95-icon-sm">🧭</span>
+              <span>Netscape Navigator - [AltaVista: The Web Was Here Archive]</span>
+            </div>
+            <div class="win95-window__controls" aria-hidden="true">
+              <button type="button" class="win95-btn-box">_</button>
+              <button type="button" class="win95-btn-box">□</button>
+              <button type="button" class="win95-btn-box">×</button>
+            </div>
+          </div>
+
+          <!-- Menu Bar -->
+          <div class="netscape-menubar" aria-hidden="true">
+            <span><u>F</u>ile</span>
+            <span><u>E</u>dit</span>
+            <span><u>V</u>iew</span>
+            <span><u>G</u>o</span>
+            <span><u>B</u>ookmarks</span>
+            <span><u>O</u>ptions</span>
+            <span><u>D</u>irectory</span>
+            <span><u>H</u>elp</span>
+          </div>
+
+          <!-- Toolbar with Netscape Buttons & Animated N Comet -->
+          <div class="netscape-toolbar">
+            <div class="netscape-buttons">
+              <button type="button" class="ns-tool-btn" id="ns-btn-back" title="Back">
+                <span class="ns-tool-icon">⬅️</span>
+                <span class="ns-tool-text">Back</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-forward" title="Forward">
+                <span class="ns-tool-icon">➡️</span>
+                <span class="ns-tool-text">Forward</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-home" title="Home">
+                <span class="ns-tool-icon">🏠</span>
+                <span class="ns-tool-text">Home</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-reload" title="Reload / Re-dial">
+                <span class="ns-tool-icon">🔄</span>
+                <span class="ns-tool-text">Reload</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-images" title="Images">
+                <span class="ns-tool-icon">🖼️</span>
+                <span class="ns-tool-text">Images</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-print" title="Print">
+                <span class="ns-tool-icon">🖨️</span>
+                <span class="ns-tool-text">Print</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-find" title="Find">
+                <span class="ns-tool-icon">🔍</span>
+                <span class="ns-tool-text">Find</span>
+              </button>
+              <button type="button" class="ns-tool-btn" id="ns-btn-stop" title="Stop">
+                <span class="ns-tool-icon">🛑</span>
+                <span class="ns-tool-text">Stop</span>
+              </button>
+            </div>
+
+            <!-- Iconic Netscape Animated "N" Logo -->
+            <div class="netscape-logo-box" id="netscape-logo" title="Netscape Navigator">
+              <div class="netscape-comets" id="netscape-comets">
+                <span class="comet comet-1"></span>
+                <span class="comet comet-2"></span>
+                <span class="comet comet-3"></span>
+              </div>
+              <div class="netscape-n-graphic">
+                <span class="ns-n-letter">N</span>
+                <div class="ns-n-ship">⛵</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location Bar -->
+          <div class="netscape-locationbar">
+            <span class="ns-loc-label">Netsite:</span>
+            <div class="ns-loc-input-wrap">
+              <input
+                type="text"
+                class="ns-loc-input"
+                id="ns-url-input"
+                value="http://www.altavista.digital.com/cgi-bin/query?q=the+web+was+here"
+                readonly
+              />
+            </div>
+          </div>
+
+          <!-- Webpage Viewport: AltaVista 1996 Search Results -->
+          <div class="netscape-viewport" id="netscape-viewport">
+            <div class="altavista-header">
+              <div class="altavista-brand">
+                <span class="av-logo">AltaVista</span>
+                <span class="av-tagline">The Search Engine of the World Wide Web</span>
+              </div>
+              <div class="av-search-form">
+                <input
+                  type="text"
+                  id="av-query-input"
+                  class="av-search-input"
+                  value="history of the internet 1990-2026"
+                  placeholder="Search years (e.g. 1998, 2007)..."
+                />
+                <button type="button" class="av-search-btn" id="av-btn-search">Search</button>
+                <button type="button" class="av-search-btn" id="av-btn-surprise">Surprise</button>
+              </div>
+            </div>
+
+            <!-- Search Meta -->
+            <div class="av-results-meta">
+              <span>AltaVista found <strong>37 document(s)</strong> in 0.38 seconds. Displaying internet milestones:</span>
+            </div>
+
+            <!-- Search Results List -->
+            <div class="av-results-list" id="av-results-list">
+              <!-- Result 1 -->
+              <article class="av-result">
+                <h3 class="av-result__title">
+                  <a href="/the-web/1995" class="av-result__link">1995: The Year the Web Exploded (Netscape IPO & JavaScript)</a>
+                </h3>
+                <p class="av-result__snippet">
+                  Marc Andreessen launches Netscape Navigator 1.0. Brendan Eich writes JavaScript in 10 days. The browser wars ignite and the world hops online via dial-up modems...
+                </p>
+                <div class="av-result__meta">
+                  <span class="av-result__url">http://thewebwashere.com/the-web/1995</span>
+                  <span class="av-result__date">&bull; Year 1995 &bull; 14.8KB</span>
+                </div>
+              </article>
+
+              <!-- Result 2 -->
+              <article class="av-result">
+                <h3 class="av-result__title">
+                  <a href="/the-web/1998" class="av-result__link">1998: Google Born in a Menlo Park Garage</a>
+                </h3>
+                <p class="av-result__snippet">
+                  Larry Page and Sergey Brin unleash PageRank on Stanford servers. Netscape goes open-source to spawn Mozilla while Microsoft IE 4 bundles into Windows 98...
+                </p>
+                <div class="av-result__meta">
+                  <span class="av-result__url">http://thewebwashere.com/the-web/1998</span>
+                  <span class="av-result__date">&bull; Year 1998 &bull; 18.2KB</span>
+                </div>
+              </article>
+
+              <!-- Result 3 -->
+              <article class="av-result">
+                <h3 class="av-result__title">
+                  <a href="/the-web/2007" class="av-result__link">2007: Steve Jobs & The Mobile Web Revolution</a>
+                </h3>
+                <p class="av-result__snippet">
+                  "An iPod, a phone, and an Internet communicator." Apple unveils the iPhone, Twitter blows up at SXSW, and modern web browsing moves right into our pockets...
+                </p>
+                <div class="av-result__meta">
+                  <span class="av-result__url">http://thewebwashere.com/the-web/2007</span>
+                  <span class="av-result__date">&bull; Year 2007 &bull; 21.0KB</span>
+                </div>
+              </article>
+
+              <!-- Result 4 -->
+              <article class="av-result">
+                <h3 class="av-result__title">
+                  <a href="/the-web/2005" class="av-result__link">2005: "Me at the zoo" — Dawn of Web 2.0 & YouTube</a>
+                </h3>
+                <p class="av-result__snippet">
+                  Jawed Karim uploads the very first 19-second video to YouTube. Reddit, MySpace, and AJAX dynamic interfaces redefine cyberspace into user-generated content...
+                </p>
+                <div class="av-result__meta">
+                  <span class="av-result__url">http://thewebwashere.com/the-web/2005</span>
+                  <span class="av-result__date">&bull; Year 2005 &bull; 16.4KB</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Bottom Status Bar -->
+          <div class="netscape-statusbar">
+            <div class="ns-status-left">
+              <span class="ns-status-lock" title="Security: Unencrypted HTTP 1.0">🔓</span>
+              <span class="ns-status-msg" id="ns-status-msg">Document: Done (14.2 KB)</span>
+            </div>
+            <div class="ns-status-progress">
+              <div class="ns-status-fill" id="ns-transfer-progress"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRT Tube Scanlines & Phosphor Overlays -->
+        <div class="crt-scanlines" aria-hidden="true"></div>
+        <div class="crt-glow" aria-hidden="true"></div>
+        <div class="crt-glass-reflection" aria-hidden="true"></div>
+
+        <!-- Power Off Screen Effect Layer -->
+        <div class="crt-off-overlay" id="crt-off-overlay"></div>
+      </div>
+    </div>
+
+    <!-- CRT Monitor Bottom Control Bezel -->
+    <div class="crt-controls-bezel">
+      <div class="crt-badge">
+        <span class="crt-brand">TWWH</span>
+        <span class="crt-model">MULTISYNC 17GX</span>
+      </div>
+
+      <div class="crt-physical-buttons">
+        <!-- Re-Dial Button -->
+        <button type="button" class="crt-dial-toggle-btn" id="crt-redial-btn" title="Re-run 56k Dial-Up sequence">
+          <span class="crt-dial-btn-icon">📞</span>
+          <span id="crt-redial-text">RE-DIAL 56K</span>
+        </button>
+
+        <!-- Sound FX Button -->
+        <button type="button" class="crt-sound-btn" id="crt-sound-toggle-btn" title="Toggle 56k Modem Sound FX">
+          <span class="crt-sound-icon" id="crt-sound-icon">🔊</span>
+          <span id="crt-sound-label">SOUND: ON</span>
+        </button>
+
+        <!-- Dials decoration -->
+        <div class="crt-dials" aria-hidden="true">
+          <div class="crt-dial" title="Brightness Dial"></div>
+          <div class="crt-dial" title="Contrast Dial"></div>
+        </div>
+
+        <!-- Power Button with LED -->
+        <div class="crt-power-group">
+          <span class="crt-power-led crt-power-led--on" id="crt-power-led" title="Power On"></span>
+          <button type="button" class="crt-power-btn" id="crt-power-btn" title="Toggle CRT Power">
+            PWR
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CRT Monitor Stand Base -->
+  <div class="crt-stand" aria-hidden="true">
+    <div class="crt-stand__neck"></div>
+    <div class="crt-stand__foot"></div>
+  </div>
+</div>
+
+<style>
+  /* =========================================
+     CRT CHASSIS & VINTAGE HARDWARE HOUSING
+     ========================================= */
+  .crt-chassis {
+    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+    position: relative;
+    user-select: none;
+  }
+
+  .crt-vents {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 4px;
+  }
+  .crt-vents span {
+    display: block;
+    width: 32px;
+    height: 4px;
+    background: #b5ada2;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+  }
+
+  .crt-bezel {
+    background: #d8d1c5;
+    background: linear-gradient(145deg, #e4ddd1 0%, #cdc6b9 100%);
+    border: 4px solid var(--bark);
+    border-radius: 12px 12px 16px 16px;
+    box-shadow: 8px 8px 0 var(--bark), inset 0 2px 3px rgba(255,255,255,0.7);
+    padding: 14px 14px 12px 14px;
+    position: relative;
+    transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
+  }
+  .crt-bezel:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 10px 10px 0 var(--bark);
+  }
+
+  /* Screen Housing (Dark Bevel surrounding curved tube) */
+  .crt-screen-housing {
+    background: #1e1d1a;
+    border: 3px solid #383531;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: inset 0 4px 12px rgba(0,0,0,0.8), 0 1px 2px rgba(255,255,255,0.4);
+  }
+
+  .crt-screen {
+    background: #000;
+    border-radius: 6px;
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+    color: #111;
+    font-family: var(--font-mono), monospace;
+  }
+
+  @media (max-width: 640px) {
+    .crt-screen {
+      height: 310px;
+    }
+  }
+
+  /* CRT Scanlines, Curve Glow & Glass Reflection */
+  .crt-scanlines {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0.24) 2px,
+      rgba(0, 0, 0, 0.24) 4px
+    );
+    z-index: 20;
+    mix-blend-mode: multiply;
+  }
+
+  .crt-glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    box-shadow: inset 0 0 45px rgba(0, 0, 0, 0.65), inset 0 0 10px rgba(0, 160, 255, 0.1);
+    z-index: 21;
+  }
+
+  .crt-glass-reflection {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(255, 255, 255, 0.03) 30%,
+      rgba(255, 255, 255, 0) 60%
+    );
+    z-index: 22;
+  }
+
+  /* Power Off Effect */
+  .crt-off-overlay {
+    position: absolute;
+    inset: 0;
+    background: #0a0a0a;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 30;
+    transition: opacity 0.2s ease;
+  }
+  .crt-screen.is-off .crt-off-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Screen Flicker when connecting */
+  .crt-screen.is-connecting {
+    animation: crtStaticPulse 0.12s infinite alternate;
+  }
+  @keyframes crtStaticPulse {
+    0% { filter: brightness(1) contrast(1); }
+    100% { filter: brightness(1.12) contrast(1.08) saturate(1.1); }
+  }
+
+  /* =========================================
+     LAYER 1: WINDOWS 95 DESKTOP & DIAL-UP
+     ========================================= */
+  .win95-desktop {
+    position: absolute;
+    inset: 0;
+    background: #008080;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 5;
+  }
+  .win95-desktop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.96);
+  }
+
+  .win95-icons {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1;
+  }
+  .win95-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 52px;
+    text-align: center;
+    cursor: default;
+  }
+  .win95-icon__img {
+    font-size: 1.4rem;
+    filter: drop-shadow(1px 1px 0 rgba(0,0,0,0.5));
+  }
+  .win95-icon__label {
+    font-size: 0.55rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    line-height: 1.1;
+    margin-top: 2px;
+  }
+
+  /* Windows 95 Classic Window */
+  .win95-window {
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+    width: 100%;
+    max-width: 350px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .win95-window__titlebar {
+    background: linear-gradient(90deg, #000080 0%, #1084d0 100%);
+    color: #ffffff;
+    padding: 3px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .win95-window__title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .win95-icon-sm {
+    font-size: 0.8rem;
+  }
+
+  .win95-window__controls {
+    display: flex;
+    gap: 2px;
+  }
+  .win95-btn-box {
+    background: #c0c0c0;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+    font-size: 0.65rem;
+    font-weight: 700;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .win95-window__body {
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  /* Modem Animation Graphic */
+  .modem-anim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-top: 1.5px solid #808080;
+    border-left: 1.5px solid #808080;
+    border-right: 1.5px solid #dfdfdf;
+    border-bottom: 1.5px solid #dfdfdf;
+    padding: 6px 12px;
+  }
+  .modem-anim__node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  .node-icon {
+    font-size: 1.3rem;
+  }
+  .node-label {
+    font-size: 0.55rem;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .modem-anim__line {
+    flex: 1;
+    margin: 0 12px;
+    height: 3px;
+    background: #b0b0b0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modem-anim__packet {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+    left: 0%;
+    opacity: 0;
+  }
+  .modem-anim.is-active .modem-anim__packet {
+    opacity: 1;
+    animation: packetTravel 0.8s infinite linear;
+  }
+  @keyframes packetTravel {
+    0% { left: 0%; background: #ff0000; }
+    50% { background: #ffaa00; }
+    100% { left: 95%; background: #00ff00; }
+  }
+
+  .modem-anim__speed {
+    position: absolute;
+    bottom: 5px;
+    font-size: 0.52rem;
+    color: #444;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  /* Status details inside modal */
+  .dialup-status-box {
+    font-size: 0.62rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .dialup-status-row {
+    display: flex;
+    gap: 6px;
+  }
+  .dialup-label {
+    color: #444;
+    width: 52px;
+    flex-shrink: 0;
+    font-weight: 600;
+  }
+  .dialup-value {
+    color: #000;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dialup-value--highlight {
+    color: #000080;
+    font-weight: 700;
+  }
+
+  /* Windows 95 Progress Bar */
+  .win95-progress-outer {
+    background: #ffffff;
+    border-top: 1.5px solid #808080;
+    border-left: 1.5px solid #808080;
+    border-right: 1.5px solid #dfdfdf;
+    border-bottom: 1.5px solid #dfdfdf;
+    height: 12px;
+    padding: 1px;
+  }
+  .win95-progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #000080;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #000080 0px,
+      #000080 8px,
+      #ffffff 8px,
+      #ffffff 10px
+    );
+    transition: width 0.2s linear;
+  }
+
+  /* Modem LED Lights */
+  .modem-leds {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background: #2a2a2a;
+    padding: 3px 8px;
+    border-radius: 2px;
+    border-top: 1px solid #111;
+  }
+  .modem-led-group {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .modem-led {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #444;
+  }
+  .modem-led--green.is-lit {
+    background: #00ff00;
+    box-shadow: 0 0 4px #00ff00;
+  }
+  .modem-led--red.is-lit {
+    background: #ff3300;
+    box-shadow: 0 0 4px #ff3300;
+  }
+  .modem-led-label {
+    font-size: 0.5rem;
+    color: #bbb;
+    font-weight: 700;
+  }
+
+  /* Win95 Action Buttons */
+  .win95-window__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 2px;
+  }
+  .win95-btn {
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #404040;
+    border-bottom: 2px solid #404040;
+    font-family: inherit;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    cursor: pointer;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .win95-btn:active {
+    border-top: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 4px 9px 2px 11px;
+  }
+  .win95-btn--primary {
+    border-color: #000080;
+    box-shadow: 0 0 0 1px #000000;
+  }
+
+  /* =========================================
+     LAYER 2: NETSCAPE NAVIGATOR BROWSER
+     ========================================= */
+  .netscape-browser {
+    position: absolute;
+    inset: 0;
+    background: #c0c0c0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(1.02);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+    z-index: 10;
+  }
+  .netscape-browser.is-active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+
+  .netscape-titlebar {
+    font-size: 0.65rem;
+  }
+
+  .netscape-menubar {
+    background: #c0c0c0;
+    border-bottom: 1px solid #808080;
+    padding: 1px 6px;
+    display: flex;
+    gap: 10px;
+    font-size: 0.58rem;
+    color: #000;
+  }
+
+  .netscape-toolbar {
+    background: #c0c0c0;
+    border-top: 1px solid #fff;
+    border-bottom: 1.5px solid #808080;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+
+  .netscape-buttons {
+    display: flex;
+    gap: 2px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .ns-tool-btn {
+    background: #c0c0c0;
+    border-top: 1.5px solid #fff;
+    border-left: 1.5px solid #fff;
+    border-right: 1.5px solid #404040;
+    border-bottom: 1.5px solid #404040;
+    padding: 2px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.5rem;
+    line-height: 1;
+    color: #000;
+    min-width: 28px;
+  }
+  .ns-tool-btn:active {
+    border-top: 1.5px solid #404040;
+    border-left: 1.5px solid #404040;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+  }
+  .ns-tool-icon {
+    font-size: 0.7rem;
+    margin-bottom: 1px;
+  }
+  .ns-tool-text {
+    font-family: sans-serif;
+    font-size: 0.48rem;
+  }
+
+  /* Netscape N Comet Animation Box */
+  .netscape-logo-box {
+    width: 32px;
+    height: 30px;
+    background: #000033;
+    border-top: 1.5px solid #808080;
+    border-left: 1.5px solid #808080;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .netscape-n-graphic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ns-n-letter {
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.15rem;
+    color: #00ffff;
+    text-shadow: 0 0 4px #00ffff, 1px 1px 0 #000;
+    line-height: 1;
+  }
+  .ns-n-ship {
+    position: absolute;
+    bottom: -3px;
+    right: -4px;
+    font-size: 0.45rem;
+  }
+
+  /* Comets / Meteors flying past the N */
+  .netscape-comets {
+    position: absolute;
+    inset: 0;
+  }
+  .comet {
+    position: absolute;
+    background: #ffffff;
+    height: 1px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  .netscape-logo-box.is-loading .comet-1 {
+    width: 10px;
+    top: 6px;
+    left: 100%;
+    animation: cometFly 0.6s infinite linear;
+  }
+  .netscape-logo-box.is-loading .comet-2 {
+    width: 14px;
+    top: 16px;
+    left: 100%;
+    animation: cometFly 0.5s infinite linear 0.2s;
+  }
+  .netscape-logo-box.is-loading .comet-3 {
+    width: 8px;
+    top: 24px;
+    left: 100%;
+    animation: cometFly 0.7s infinite linear 0.35s;
+  }
+  @keyframes cometFly {
+    0% { left: 100%; opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { left: -30%; opacity: 0; }
+  }
+
+  /* Location / Netsite URL Bar */
+  .netscape-locationbar {
+    background: #c0c0c0;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 1px solid #808080;
+    font-size: 0.6rem;
+  }
+  .ns-loc-label {
+    font-weight: 700;
+    color: #000;
+    font-size: 0.55rem;
+  }
+  .ns-loc-input-wrap {
+    flex: 1;
+    background: #ffffff;
+    border-top: 1.5px solid #808080;
+    border-left: 1.5px solid #808080;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    padding: 1px 4px;
+  }
+  .ns-loc-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: monospace;
+    font-size: 0.58rem;
+    color: #000080;
+  }
+
+  /* Viewport: AltaVista 1996 Results */
+  .netscape-viewport {
+    flex: 1;
+    background: #ffffff;
+    border-top: 1.5px solid #808080;
+    border-left: 1.5px solid #808080;
+    border-right: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    margin: 2px 4px;
+    padding: 6px 10px;
+    overflow-y: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+  }
+
+  .altavista-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+  .altavista-brand {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+  .av-logo {
+    font-family: 'Arial Black', Impact, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #0000cc;
+  }
+  .av-tagline {
+    font-family: Arial, sans-serif;
+    font-size: 0.52rem;
+    color: #555;
+    font-style: italic;
+  }
+
+  .av-search-form {
+    display: flex;
+    gap: 4px;
+  }
+  .av-search-input {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    font-size: 0.6rem;
+    padding: 2px 5px;
+    border: 1px solid #7f9db9;
+    border-radius: 2px;
+  }
+  .av-search-btn {
+    font-family: Arial, sans-serif;
+    font-size: 0.58rem;
+    font-weight: 700;
+    background: #e0e0e0;
+    border: 1px solid #707070;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+  .av-search-btn:hover {
+    background: #d0d0d0;
+  }
+
+  .av-results-meta {
+    font-family: Arial, sans-serif;
+    font-size: 0.52rem;
+    color: #444;
+    margin-bottom: 6px;
+  }
+
+  .av-results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .av-result {
+    line-height: 1.25;
+  }
+  .av-result__title {
+    font-size: 0.68rem;
+    margin-bottom: 1px;
+  }
+  .av-result__link {
+    color: #0000cc;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .av-result__link:visited {
+    color: #800080;
+  }
+  .av-result__link:hover {
+    color: #ff0000;
+  }
+  .av-result__snippet {
+    font-family: Arial, sans-serif;
+    font-size: 0.55rem;
+    color: #222;
+    margin-bottom: 1px;
+  }
+  .av-result__meta {
+    font-family: Arial, sans-serif;
+    font-size: 0.5rem;
+    color: #008000;
+  }
+  .av-result__url {
+    color: #008000;
+  }
+  .av-result__date {
+    color: #666;
+    margin-left: 4px;
+  }
+
+  /* Status Bar */
+  .netscape-statusbar {
+    background: #c0c0c0;
+    border-top: 1px solid #808080;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.55rem;
+    font-family: sans-serif;
+  }
+  .ns-status-left {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .ns-status-progress {
+    width: 65px;
+    height: 9px;
+    background: #ffffff;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+  .ns-status-fill {
+    width: 100%;
+    height: 100%;
+    background: #000080;
+    transition: width 0.2s linear;
+  }
+
+  /* =========================================
+     CRT HARDWARE BEZEL CONTROLS (BOTTOM)
+     ========================================= */
+  .crt-controls-bezel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .crt-badge {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+  .crt-brand {
+    font-family: 'Arial Black', Impact, sans-serif;
+    font-size: 0.75rem;
+    color: #4a443a;
+    letter-spacing: 0.05em;
+  }
+  .crt-model {
+    font-family: var(--font-mono), monospace;
+    font-size: 0.52rem;
+    font-weight: 700;
+    color: #7d7568;
+    letter-spacing: 0.08em;
+  }
+
+  .crt-physical-buttons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .crt-dial-toggle-btn,
+  .crt-sound-btn {
+    font-family: var(--font-mono), monospace;
+    font-size: 0.6rem;
+    font-weight: 700;
+    background: #2b2926;
+    color: #00ff88;
+    border: 1.5px solid #4a4640;
+    border-radius: 4px;
+    padding: 3px 7px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: background 0.15s, color 0.15s, transform 0.1s;
+    box-shadow: 0 2px 0 #181715;
+  }
+  .crt-dial-toggle-btn:hover,
+  .crt-sound-btn:hover {
+    background: #00ff88;
+    color: #000;
+    border-color: #00ff88;
+  }
+  .crt-dial-toggle-btn:active,
+  .crt-sound-btn:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+
+  .crt-sound-btn.is-muted {
+    color: #ff5555;
+    border-color: #553333;
+  }
+  .crt-sound-btn.is-muted:hover {
+    background: #ff5555;
+    color: #000;
+  }
+
+  /* Decorative rotary dials */
+  .crt-dials {
+    display: flex;
+    gap: 4px;
+  }
+  .crt-dial {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #8b8376;
+    border: 1px solid #4d473d;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
+    position: relative;
+  }
+  .crt-dial::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    width: 1px;
+    height: 4px;
+    background: #332f28;
+  }
+
+  /* Power Button & LED */
+  .crt-power-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 2px;
+  }
+  .crt-power-led {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #333;
+    transition: background 0.2s, box-shadow 0.2s;
+  }
+  .crt-power-led--on {
+    background: #00ff66;
+    box-shadow: 0 0 6px #00ff66;
+  }
+
+  .crt-power-btn {
+    font-family: var(--font-mono), monospace;
+    font-size: 0.52rem;
+    font-weight: 800;
+    background: #3c3730;
+    color: #d8d1c5;
+    border: 1px solid #201e1a;
+    border-radius: 3px;
+    padding: 2px 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 0 #181715;
+  }
+  .crt-power-btn:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+
+  /* =========================================
+     CRT STAND BASE
+     ========================================= */
+  .crt-stand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .crt-stand__neck {
+    width: 110px;
+    height: 12px;
+    background: #b5ada0;
+    border-left: 4px solid var(--bark);
+    border-right: 4px solid var(--bark);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+  }
+  .crt-stand__foot {
+    width: 220px;
+    height: 12px;
+    background: #c5bdae;
+    border: 4px solid var(--bark);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 6px 6px 0 var(--bark);
+  }
+</style>
+
+<script>
+  import { playDialUpSound, stopDialUp, isSoundMuted, toggleSoundMute, playChimeSound } from '../lib/sound';
+
+  function initRetroCrtHero() {
+    const screen = document.getElementById('crt-screen');
+    const win95Desktop = document.getElementById('win95-desktop');
+    const netscapeBrowser = document.getElementById('netscape-browser');
+    const modemAnim = document.getElementById('modem-anim');
+    const statusMsg = document.getElementById('dialup-status-msg');
+    const progressBar = document.getElementById('dialup-progress-bar');
+    const btnDial = document.getElementById('btn-dial-connect');
+    const btnSkip = document.getElementById('btn-skip-dial');
+    const redialBtn = document.getElementById('crt-redial-btn');
+    const redialText = document.getElementById('crt-redial-text');
+    const soundToggleBtn = document.getElementById('crt-sound-toggle-btn');
+    const soundLabel = document.getElementById('crt-sound-label');
+    const powerBtn = document.getElementById('crt-power-btn');
+    const powerLed = document.getElementById('crt-power-led');
+
+    // LEDs
+    const ledMr = document.getElementById('led-mr');
+    const ledTr = document.getElementById('led-tr');
+    const ledCd = document.getElementById('led-cd');
+    const ledSd = document.getElementById('led-sd');
+    const ledRd = document.getElementById('led-rd');
+
+    // Netscape elements
+    const netscapeLogo = document.getElementById('netscape-logo');
+    const nsReloadBtn = document.getElementById('ns-btn-reload');
+    const nsStatusMsg = document.getElementById('ns-status-msg');
+    const nsTransferProgress = document.getElementById('ns-transfer-progress');
+
+    // Search query elements
+    const avQueryInput = document.getElementById('av-query-input') as HTMLInputElement | null;
+    const avBtnSearch = document.getElementById('av-btn-search');
+    const avBtnSurprise = document.getElementById('av-btn-surprise');
+
+    if (!screen || !win95Desktop || !netscapeBrowser) return;
+
+    let isDialing = false;
+    let isConnected = false;
+    let isPoweredOn = true;
+    let stopModemSound: (() => void) | null = null;
+
+    // Initialize sound mute label
+    function updateSoundUi() {
+      const muted = isSoundMuted();
+      if (soundLabel) {
+        soundLabel.textContent = muted ? 'SOUND: OFF' : 'SOUND: ON';
+      }
+      if (soundToggleBtn) {
+        soundToggleBtn.classList.toggle('is-muted', muted);
+      }
+    }
+    updateSoundUi();
+
+    if (soundToggleBtn) {
+      soundToggleBtn.onclick = (e) => {
+        e.stopPropagation();
+        toggleSoundMute();
+        updateSoundUi();
+      };
+    }
+
+    // Toggle power
+    if (powerBtn && powerLed) {
+      powerBtn.onclick = (e) => {
+        e.stopPropagation();
+        isPoweredOn = !isPoweredOn;
+        if (!isPoweredOn) {
+          screen.classList.add('is-off');
+          powerLed.classList.remove('crt-power-led--on');
+          if (stopModemSound) stopModemSound();
+          stopDialUp();
+          isDialing = false;
+        } else {
+          screen.classList.remove('is-off');
+          powerLed.classList.add('crt-power-led--on');
+        }
+      };
+    }
+
+    // Dial-up state machine
+    function startDialUpSequence() {
+      if (isDialing) return;
+      isDialing = true;
+      isConnected = false;
+
+      // Show desktop & dialup modal
+      win95Desktop.classList.remove('is-hidden');
+      netscapeBrowser.classList.remove('is-active');
+      screen.classList.add('is-connecting');
+
+      if (redialText) redialText.textContent = 'DIALING...';
+      if (statusMsg) statusMsg.textContent = 'Dialing 1-800-424-9299...';
+      if (progressBar) progressBar.style.width = '15%';
+
+      if (modemAnim) modemAnim.classList.add('is-active');
+
+      // Modem lights sequence
+      if (ledMr) ledMr.classList.add('is-lit');
+      if (ledTr) ledTr.classList.add('is-lit');
+      if (ledCd) ledCd.classList.remove('is-lit');
+      if (ledSd) ledSd.classList.add('is-lit');
+      if (ledRd) ledRd.classList.remove('is-lit');
+
+      // Play modem synthesizer
+      stopModemSound = playDialUpSound((status) => {
+        if (!isDialing) return;
+
+        if (status === 'DIALING...') {
+          if (statusMsg) statusMsg.textContent = 'Dialing 1-800-424-9299...';
+          if (progressBar) progressBar.style.width = '25%';
+          if (ledSd) ledSd.classList.toggle('is-lit');
+        } else if (status === 'NEGOTIATING CARRIER...') {
+          if (statusMsg) statusMsg.textContent = 'Negotiating V.90 56,000 bps carrier...';
+          if (progressBar) progressBar.style.width = '60%';
+          if (ledCd) ledCd.classList.add('is-lit');
+          if (ledRd) ledRd.classList.add('is-lit');
+        } else if (status === 'CONNECTED @ 56,000 BPS!' || status === 'ONLINE') {
+          handleConnectionSuccess();
+        }
+      });
+
+      // Fallback timer in case audio is muted or completed
+      setTimeout(() => {
+        if (isDialing && !isConnected) {
+          handleConnectionSuccess();
+        }
+      }, 5500);
+    }
+
+    function handleConnectionSuccess() {
+      if (isConnected) return;
+      isConnected = true;
+      isDialing = false;
+
+      if (statusMsg) statusMsg.textContent = 'Connected at 57,600 bps!';
+      if (progressBar) progressBar.style.width = '100%';
+      screen.classList.remove('is-connecting');
+
+      if (ledCd) ledCd.classList.add('is-lit');
+      if (ledRd) ledRd.classList.add('is-lit');
+      if (ledSd) ledSd.classList.add('is-lit');
+
+      // Chime
+      playChimeSound();
+
+      // Launch Netscape
+      setTimeout(() => {
+        launchNetscape();
+      }, 750);
+    }
+
+    function launchNetscape() {
+      win95Desktop.classList.add('is-hidden');
+      netscapeBrowser.classList.add('is-active');
+
+      if (redialText) redialText.textContent = 'RE-DIAL 56K';
+
+      // Start Netscape Loading simulation
+      if (netscapeLogo) netscapeLogo.classList.add('is-loading');
+      if (nsStatusMsg) nsStatusMsg.textContent = 'Transferring: 14.8 KB from www.altavista.digital.com...';
+      if (nsTransferProgress) nsTransferProgress.style.width = '40%';
+
+      setTimeout(() => {
+        if (nsTransferProgress) nsTransferProgress.style.width = '80%';
+        if (nsStatusMsg) nsStatusMsg.textContent = 'Rendering HTML layout and hyperlinks...';
+      }, 400);
+
+      setTimeout(() => {
+        if (netscapeLogo) netscapeLogo.classList.remove('is-loading');
+        if (nsStatusMsg) nsStatusMsg.textContent = 'Document: Done (14.8 KB)';
+        if (nsTransferProgress) nsTransferProgress.style.width = '100%';
+      }, 850);
+    }
+
+    // Connect button click
+    if (btnDial) {
+      btnDial.onclick = () => startDialUpSequence();
+    }
+
+    // Skip directly to Netscape
+    if (btnSkip) {
+      btnSkip.onclick = () => {
+        if (stopModemSound) stopModemSound();
+        stopDialUp();
+        isDialing = false;
+        launchNetscape();
+      };
+    }
+
+    // Hardware Re-dial Button & Netscape Reload button
+    if (redialBtn) {
+      redialBtn.onclick = (e) => {
+        e.stopPropagation();
+        if (stopModemSound) stopModemSound();
+        stopDialUp();
+        isDialing = false;
+        startDialUpSequence();
+      };
+    }
+    if (nsReloadBtn) {
+      nsReloadBtn.onclick = (e) => {
+        e.stopPropagation();
+        startDialUpSequence();
+      };
+    }
+
+    // Search bar functionality
+    function handleSearch() {
+      if (!avQueryInput) return;
+      const val = avQueryInput.value.trim().toLowerCase();
+      // Match 4-digit years like 1998, 2007
+      const yearMatch = val.match(/\b(199\d|20[0-2]\d)\b/);
+      if (yearMatch) {
+        window.location.href = `/the-web/${yearMatch[1]}`;
+      } else {
+        // Jump to explore or random
+        const years = [1995, 1998, 2001, 2005, 2007, 2010, 2015, 2020];
+        const randomYear = years[Math.floor(Math.random() * years.length)];
+        window.location.href = `/the-web/${randomYear}`;
+      }
+    }
+
+    if (avBtnSearch) {
+      avBtnSearch.onclick = handleSearch;
+    }
+    if (avQueryInput) {
+      avQueryInput.onkeydown = (e) => {
+        if (e.key === 'Enter') handleSearch();
+      };
+    }
+    if (avBtnSurprise) {
+      avBtnSurprise.onclick = () => {
+        const years = [1990, 1995, 1998, 2001, 2005, 2007, 2010, 2015, 2020, 2024];
+        const target = years[Math.floor(Math.random() * years.length)];
+        window.location.href = `/the-web/${target}`;
+      };
+    }
+
+    // Initial state: Start on Netscape or Auto-demo connection once
+    // If the user hasn't connected yet, let's start with Netscape visible so the page looks gorgeous immediately,
+    // and when they click "RE-DIAL 56K" or "Dial & Connect", it plays the full sequence!
+    launchNetscape();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initRetroCrtHero);
+  } else {
+    initRetroCrtHero();
+  }
+  document.addEventListener('astro:page-load', initRetroCrtHero);
+</script>
