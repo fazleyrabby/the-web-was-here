@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/chrome-launch-2008.png",
+    "image_caption": "Google releases Chrome, a fast, minimal browser that treats each tab as its own process. The browser wars restart."
   },
   {
     "id": "android-launch-2008",
@@ -164,7 +166,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/bitcoin-whitepaper-2008.png",
+    "image_caption": "Satoshi Nakamoto publishes the Bitcoin whitepaper: 'A Peer-to-Peer Electronic Cash System.' The crypto era begins."
   },
   {
     "id": "financial-crisis-tech-2008",
@@ -205,7 +209,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/financial-crisis-tech-2008.png",
+    "image_caption": "Lehman Brothers collapses. The global financial crisis crashes the economy. Tech funding dries up, but the lean startup movement emerges."
   },
   {
     "id": "spotify-expansion-2008",
@@ -247,7 +253,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/spotify-expansion-2008.jpg",
+    "image_caption": "Spotify expands from Sweden to the UK, bringing free legal music streaming to a wider European audience."
   },
   {
     "id": "facebook-platform-2008",
@@ -288,7 +296,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/facebook-platform-2008.png",
+    "image_caption": "Facebook's developer platform takes off. Apps like FarmVille and Mafia Wars turn Facebook into a gaming and social platform."
   },
   {
     "id": "myspace-decline-2008",
@@ -371,7 +381,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/obama-campaign-tech-2008.jpg",
+    "image_caption": "Barack Obama's presidential campaign uses social media, email, and digital organizing to mobilize millions of voters."
   },
   {
     "id": "android-market-2008",
@@ -434,7 +446,9 @@
         "title": "Bankruptcy of Lehman Brothers - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
       }
-    ]
+    ],
+    "image": "/images/events/2008/lehman-brothers-financial-crisis-2008.jpg",
+    "image_caption": "The collapse of Wall Street titan Lehman Brothers triggered the worst global financial crisis since the Great Depression."
   },
   {
     "id": "lady-gaga-the-fame-2008",
@@ -456,7 +470,9 @@
         "title": "The Fame - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/The_Fame"
       }
-    ]
+    ],
+    "image": "/images/events/2008/lady-gaga-the-fame-2008.jpg",
+    "image_caption": "Stefani Germanotta burst onto pop airwaves with 'Just Dance' and 'Poker Face', reviving theatrical electro-pop."
   },
   {
     "id": "shutter-shades-keffiyeh-streetwear-2008",
@@ -478,6 +494,8 @@
         "title": "Shutter Shades - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Shutter_Shades"
       }
-    ]
+    ],
+    "image": "/images/events/2008/shutter-shades-keffiyeh-streetwear-2008.jpg",
+    "image_caption": "Slotted plastic Venetian sunglasses and woven keffiyeh scarves became unavoidable youth fashion statements."
   }
 ]

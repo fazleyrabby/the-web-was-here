@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/instagram-launch-2010.png",
+    "image_caption": "Instagram launches on iOS as a simple photo-sharing app with retro filters."
   },
   {
     "id": "ipad-launch-2010",
@@ -79,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/ipad-launch-2010.png",
+    "image_caption": "Apple launches the iPad, creating the modern tablet market."
   },
   {
     "id": "responsive-design-2010",
@@ -119,7 +123,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/responsive-design-2010.png",
+    "image_caption": "Ethan Marcotte publishes 'Responsive Web Design,' introducing fluid grids, flexible images, and media queries."
   },
   {
     "id": "android-iphone-2010",
@@ -160,7 +166,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/android-iphone-2010.png",
+    "image_caption": "Android surpasses iPhone in US market share for the first time, beginning its dominance of the global smartphone market."
   },
   {
     "id": "facebook-500m-2010",
@@ -243,7 +251,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/foursquare-checkin-2010.jpg",
+    "image_caption": "Foursquare popularizes location-based check-ins and gamified local discovery."
   },
   {
     "id": "whatsapp-2010",
@@ -284,7 +294,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/whatsapp-2010.png",
+    "image_caption": "WhatsApp crosses 10 million daily active users, proving that simple messaging apps can replace SMS."
   },
   {
     "id": "social-network-movie-2010",
@@ -366,7 +378,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/bitcoin-2010.png",
+    "image_caption": "Laszlo Hanyecz pays 10,000 BTC for two pizzas in the first known real-world Bitcoin transaction."
   },
   {
     "id": "apple-antenna-2010",
@@ -406,7 +420,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/apple-antenna-2010.png",
+    "image_caption": "iPhone 4's antenna design causes signal loss when held normally. Steve Jobs tells users 'you're holding it wrong.'"
   },
   {
     "id": "ipad-original-launch-2010",
@@ -452,7 +468,9 @@
         "title": "Deepwater Horizon oil spill - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
       }
-    ]
+    ],
+    "image": "/images/events/2010/deepwater-horizon-haiti-2010.jpg",
+    "image_caption": "Millions watched the underwater oil spill livestream, while the Haiti earthquake mobilized $30M in $10 text donations."
   },
   {
     "id": "katy-perry-teenage-dream-2010",

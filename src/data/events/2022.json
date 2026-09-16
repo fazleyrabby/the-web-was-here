@@ -131,7 +131,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/dalle-midjourney-2022.jpg",
+    "image_caption": "DALL-E 2 and Midjourney make AI-generated art accessible to everyone, sparking debates about creativity and copyright."
   },
   {
     "id": "ukraine-war-tech-2022",
@@ -173,7 +175,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/ukraine-war-tech-2022.png",
+    "image_caption": "Russia's invasion of Ukraine becomes the first major 'TikTok war' with real-time social media documentation."
   },
   {
     "id": "wordle-2022",
@@ -214,7 +218,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/wordle-2022.png",
+    "image_caption": "Josh Wardle's five-letter word game becomes a global phenomenon, with millions sharing daily results as colored squares."
   },
   {
     "id": "musk-twitter-blue-2022",
@@ -255,7 +261,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/musk-twitter-blue-2022.png",
+    "image_caption": "Twitter's paid verification system launches then pauses after impersonators cause chaos across the platform."
   },
   {
     "id": "crypto-winter-2022",
@@ -339,7 +347,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/iphone-emergency-satellite-2022.png",
+    "image_caption": "Apple's iPhone 14 introduces satellite connectivity for emergency SOS, making any cell tower unnecessary for distress calls."
   },
   {
     "id": "chatgpt-ai-revolution-inflection-2022",
@@ -361,7 +371,9 @@
         "title": "ChatGPT - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/ChatGPT"
       }
-    ]
+    ],
+    "image": "/images/events/2022/chatgpt-ai-revolution-inflection-2022.png",
+    "image_caption": "OpenAI released ChatGPT for free research preview, reaching 100 million users faster than any consumer application in history."
   },
   {
     "id": "james-webb-telescope-deep-field-2022",
@@ -407,6 +419,8 @@
         "title": "Adidas Samba - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Adidas_Samba"
       }
-    ]
+    ],
+    "image": "/images/events/2022/adidas-samba-clean-girl-fashion-2022.jpg",
+    "image_caption": "The vintage 1950 indoor soccer sneaker and slicked-back claw-clip buns defined the era's minimalist elegance."
   }
 ]

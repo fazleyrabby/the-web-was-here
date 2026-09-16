@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/bitcoin-genesis-block-2009.jpg",
+    "image_caption": "Satoshi Nakamoto mines the first Bitcoin block, embedding a newspaper headline about bank bailouts in the coinbase transaction."
   },
   {
     "id": "whatsapp-launch-2009",
@@ -80,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/whatsapp-launch-2009.png",
+    "image_caption": "Jan Koum and Brian Acton launch WhatsApp, a simple messaging app that replaces SMS and eventually reaches 2 billion users."
   },
   {
     "id": "spotify-us-launch-2009",
@@ -122,7 +126,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/spotify-us-launch-2009.jpg",
+    "image_caption": "Spotify continues its European expansion, reaching more countries and cementing streaming as the future of music."
   },
   {
     "id": "4g-lte-launch-2009",
@@ -165,7 +171,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/4g-lte-launch-2009.png",
+    "image_caption": "Verizon and Sprint launch 4G LTE networks, promising mobile broadband speeds that make the mobile web actually usable."
   },
   {
     "id": "uber-founding-2009",
@@ -208,7 +216,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/uber-founding-2009.jpg",
+    "image_caption": "Travis Kalanick and Garrett Camp found Uber, a ride-hailing app that disrupts the taxi industry and launches the gig economy."
   },
   {
     "id": "angry-birds-2009",
@@ -290,7 +300,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/google-wave-2009.png",
+    "image_caption": "Google launches Wave, a real-time collaboration platform. It's too ambitious, too confusing, and it dies within a year."
   },
   {
     "id": "tweetdeck-2009",
@@ -331,7 +343,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2009/tweetdeck-2009.png",
+    "image_caption": "TweetDeck launches as a desktop Twitter client with columns, streams, and real-time updates. Power users flock to it."
   },
   {
     "id": "michael-jackson-death-internet-crash-2009",
@@ -353,7 +367,9 @@
         "title": "Death of Michael Jackson - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson"
       }
-    ]
+    ],
+    "image": "/images/events/2009/michael-jackson-death-internet-crash-2009.jpg",
+    "image_caption": "The sudden death of the King of Pop caused unprecedented web traffic surges that crashed AIM, Twitter, and Wikipedia."
   },
   {
     "id": "kanye-taylor-vma-interruption-2009",
@@ -375,7 +391,9 @@
         "title": "2009 MTV Video Music Awards - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/2009_MTV_Video_Music_Awards"
       }
-    ]
+    ],
+    "image": "/images/events/2009/kanye-taylor-vma-interruption-2009.jpg",
+    "image_caption": "Kanye West walked onstage at the MTV VMAs and took the microphone from 19-year-old Taylor Swift."
   },
   {
     "id": "avatar-3d-cinema-revolution-2009",
@@ -397,6 +415,8 @@
         "title": "Avatar (2009 film) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
       }
-    ]
+    ],
+    "image": "/images/events/2009/avatar-3d-cinema-revolution-2009.jpg",
+    "image_caption": "James Cameron returned with a motion-captured photorealistic 3D sci-fi spectacle, becoming the highest-grossing film in history."
   }
 ]

@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/snowden-nsa-revelations-2013.jpg",
+    "image_caption": "Edward Snowden leaks classified NSA documents revealing mass surveillance programs, changing the global conversation about privacy."
   },
   {
     "id": "bitcoin-1000-2013",
@@ -80,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/bitcoin-1000-2013.png",
+    "image_caption": "Bitcoin's price surges past $1,000 for the first time, reaching a market cap of $15 billion."
   },
   {
     "id": "ps4-xbox-one-launch-2013",
@@ -121,7 +125,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/ps4-xbox-one-launch-2013.jpg",
+    "image_caption": "Sony PS4 and Microsoft Xbox One launch within weeks of each other, beginning the eighth generation of game consoles."
   },
   {
     "id": "oculus-rift-kickstarter-2013",
@@ -162,7 +168,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/oculus-rift-kickstarter-2013.jpg",
+    "image_caption": "Oculus Rift raises $2.4 million on Kickstarter, igniting the modern virtual reality revolution."
   },
   {
     "id": "vine-launch-2013",
@@ -203,7 +211,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/vine-launch-2013.png",
+    "image_caption": "Twitter launches Vine, a 6-second looping video app that creates a new format for short-form video content."
   },
   {
     "id": "ea-origin-2013",
@@ -244,7 +254,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/ea-origin-2013.jpg",
+    "image_caption": "EA fully launches Origin as its digital distribution platform, challenging Steam's dominance in PC gaming."
   },
   {
     "id": "google-glass-explorer-2013",
@@ -285,7 +297,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/google-glass-explorer-2013.jpg",
+    "image_caption": "Google ships the Glass Explorer Edition to early adopters, sparking a global debate about wearable technology and privacy."
   },
   {
     "id": "yahoo-tumblr-acquisition-2013",
@@ -326,7 +340,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/yahoo-tumblr-acquisition-2013.jpg",
+    "image_caption": "Yahoo acquires Tumblr for $1.1 billion, promising to 'not screw it up' \u2014 and promptly screws it up."
   },
   {
     "id": "black-lives-matter-2013",
@@ -368,7 +384,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/black-lives-matter-2013.png",
+    "image_caption": "The #BlackLivesMatter hashtag is created after the acquittal of George Zimmerman, becoming a global movement for racial justice."
   },
   {
     "id": "nokia-microsoft-acquisition-2013",
@@ -409,7 +427,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2013/nokia-microsoft-acquisition-2013.jpg",
+    "image_caption": "Microsoft acquires Nokia's phone business for $7.2 billion, the final nail in the coffin for the world's former phone giant."
   },
   {
     "id": "vine-short-form-video-2013",
@@ -431,7 +451,9 @@
         "title": "Vine (service) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Vine_(service)"
       }
-    ]
+    ],
+    "image": "/images/events/2013/vine-short-form-video-2013.png",
+    "image_caption": "Twitter released Vine, where users looped 6-second clips that established short-form comedic video."
   },
   {
     "id": "ios-7-flat-design-2013",
@@ -479,6 +501,8 @@
         "title": "Royals (song) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Royals_(song)"
       }
-    ]
+    ],
+    "image": "/images/events/2013/daft-punk-get-lucky-lorde-2013.jpg",
+    "image_caption": "French robots Daft Punk revived live disco-funk with Pharrell, while 16-year-old Lorde conquered the world with 'Royals'."
   }
 ]

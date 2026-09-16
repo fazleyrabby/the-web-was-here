@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/wordpress-launch-2003.png",
+    "image_caption": "WordPress is released as an open-source blogging platform, eventually powering over 40% of the entire web."
   },
   {
     "id": "skype-launch-2003",
@@ -80,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/skype-launch-2003.png",
+    "image_caption": "Skype launches as a peer-to-peer VoIP application, making free voice and video calls over the internet mainstream."
   },
   {
     "id": "itunes-store-2003",
@@ -122,7 +126,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/itunes-store-2003.png",
+    "image_caption": "Apple opens the iTunes Music Store, selling songs for $0.99 and proving that digital music distribution can be profitable."
   },
   {
     "id": "myspace-launch-2003",
@@ -289,7 +295,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/overture-search-ads-2003.png",
+    "image_caption": "Overture Services (formerly GoTo.com) pioneers the paid search advertising model that will fund the entire internet economy."
   },
   {
     "id": "second-life-launch-2003",
@@ -331,7 +339,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/second-life-launch-2003.png",
+    "image_caption": "Second Life launches as a virtual world where users create everything, from buildings to businesses to identities."
   },
   {
     "id": "columbia-disaster-iraq-war-2003",
@@ -353,7 +363,9 @@
         "title": "Space Shuttle Columbia disaster - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia_disaster"
       }
-    ]
+    ],
+    "image": "/images/events/2003/columbia-disaster-iraq-war-2003.jpg",
+    "image_caption": "Space Shuttle Columbia disintegrated during reentry, followed weeks later by the televised invasion of Iraq."
   },
   {
     "id": "beyonce-crazy-in-love-50cent-2003",

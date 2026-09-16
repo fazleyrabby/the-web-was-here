@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/ai-agents-mainstream-2025.jpg",
+    "image_caption": "AI agents capable of autonomous multi-step tasks become widely available, transforming how people work and interact with technology."
   },
   {
     "id": "quantum-advance-2025",
@@ -81,7 +83,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/quantum-advance-2025.jpg",
+    "image_caption": "Quantum computers achieve significant error-correction breakthroughs, bringing practical quantum computing closer to reality."
   },
   {
     "id": "spatial-computing-growth-2025",
@@ -123,7 +127,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/spatial-computing-growth-2025.jpg",
+    "image_caption": "Spatial computing devices \u2014 from Vision Pro to Meta Quest \u2014 achieve mainstream adoption with lower prices and better content."
   },
   {
     "id": "ai-regulation-global-2025",
@@ -165,7 +171,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/ai-regulation-global-2025.png",
+    "image_caption": "Multiple countries implement AI regulation frameworks following the EU AI Act, creating a patchwork of global AI governance."
   },
   {
     "id": "open-source-ai-2025",
@@ -207,7 +215,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/open-source-ai-2025.png",
+    "image_caption": "Meta's Llama, Mistral, and other open-source AI models close the gap with proprietary systems, democratizing AI development."
   },
   {
     "id": "ai-creative-revolution-2025",
@@ -250,7 +260,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/ai-creative-revolution-2025.png",
+    "image_caption": "AI-powered creative tools become standard in film, music, design, and writing, fundamentally changing how creative work is produced."
   },
   {
     "id": "wearable-ai-companions-2025",
@@ -292,7 +304,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2025/wearable-ai-companions-2025.jpg",
+    "image_caption": "AI-powered wearable devices \u2014 pins, glasses, and earbuds \u2014 launch as the next computing platform beyond smartphones."
   },
   {
     "id": "deepseek-open-reasoning-breakthrough-2025",
@@ -314,7 +328,9 @@
         "title": "DeepSeek - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/DeepSeek"
       }
-    ]
+    ],
+    "image": "/images/events/2025/deepseek-open-reasoning-breakthrough-2025.jpg",
+    "image_caption": "Open-weight frontier models demonstrated that efficient architectures could rival trillion-dollar compute labs."
   },
   {
     "id": "ray-ban-meta-smart-glasses-boom-2025",
@@ -336,6 +352,8 @@
         "title": "Ray-Ban Stories - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Ray-Ban_Stories"
       }
-    ]
+    ],
+    "image": "/images/events/2025/ray-ban-meta-smart-glasses-boom-2025.png",
+    "image_caption": "Stylish, lightweight glasses with multimodal computer vision and discreet audio became the breakout consumer device."
   }
 ]

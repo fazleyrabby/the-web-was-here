@@ -45,7 +45,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/youtube-launch-2005.png",
+    "image_caption": "YouTube goes live, making video upload and sharing accessible to anyone with an internet connection."
   },
   {
     "id": "google-maps-2005",
@@ -86,7 +88,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/google-maps-2005.png",
+    "image_caption": "Google launches its mapping service with satellite imagery, local search, and driving directions."
   },
   {
     "id": "myspace-news-corp-2005",
@@ -127,7 +131,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/myspace-news-corp-2005.jpg",
+    "image_caption": "Rupert Murdoch's News Corp acquires MySpace for $580 million, validating social media as big business."
   },
   {
     "id": "reddit-launch-2005",
@@ -169,7 +175,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/reddit-launch-2005.png",
+    "image_caption": "Reddit goes live as 'the front page of the internet,' a link aggregation and discussion platform."
   },
   {
     "id": "web2-0-term-2005",
@@ -211,7 +219,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/web2-0-term-2005.png",
+    "image_caption": "Tim O'Reilly popularizes 'Web 2.0' to describe the shift toward user-generated content, social media, and rich web applications."
   },
   {
     "id": "flickr-yahoo-2005",
@@ -252,7 +262,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/flickr-yahoo-2005.jpg",
+    "image_caption": "Flickr launches as a photo-sharing platform and is acquired by Yahoo within months, pioneering social photography."
   },
   {
     "id": "google-earth-2005",
@@ -292,7 +304,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/google-earth-2005.png",
+    "image_caption": "Google Earth launches, giving anyone the ability to explore the planet from their desktop."
   },
   {
     "id": "million-dollar-homepage-2005",
@@ -374,7 +388,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/firefox-growth-2005.png",
+    "image_caption": "Firefox 1.0 launches and quickly gains market share, challenging Internet Explorer's decade-long dominance."
   },
   {
     "id": "podcasting-rise-2005",
@@ -415,7 +431,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/podcasting-rise-2005.jpg",
+    "image_caption": "Apple adds podcast support to iTunes, and podcasting explodes as a medium."
   },
   {
     "id": "xbox-360-hd-gaming-2005",
@@ -461,7 +479,9 @@
         "title": "Hurricane Katrina - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Hurricane_Katrina"
       }
-    ]
+    ],
+    "image": "/images/events/2005/hurricane-katrina-devastation-2005.jpg",
+    "image_caption": "Catastrophic levee failures submerged 80% of New Orleans, exposing systemic failures and sparking digital relief."
   },
   {
     "id": "scene-emo-myspace-subculture-2005",
@@ -483,6 +503,8 @@
         "title": "Scene (subculture) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Scene_(subculture)"
       }
-    ]
+    ],
+    "image": "/images/events/2005/scene-emo-myspace-subculture-2005.jpg",
+    "image_caption": "Flat-ironed side bangs, band tees, and MySpace friend rankings defined a massive youth subculture movement."
   }
 ]

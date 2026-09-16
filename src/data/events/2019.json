@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/google-stadia-2019.png",
+    "image_caption": "Google launches Stadia, a cloud gaming service that promises to stream AAA games to any screen without a console."
   },
   {
     "id": "disney-plus-2019",
@@ -79,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/disney-plus-2019.png",
+    "image_caption": "Disney+ launches and gains 10 million subscribers on day one, instantly becoming a major streaming competitor."
   },
   {
     "id": "joker-movie-2019",
@@ -120,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/joker-movie-2019.jpg",
+    "image_caption": "Todd Phillips' Joker becomes the highest-grossing R-rated film, sparking debates about mental health, violence, and meme culture."
   },
   {
     "id": "zoom-ipo-2019",
@@ -161,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/zoom-ipo-2019.jpg",
+    "image_caption": "Zoom Video Communications IPOs at $36 per share, valuing the company at $16 billion."
   },
   {
     "id": "foldable-phones-2019",
@@ -202,7 +210,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/foldable-phones-2019.png",
+    "image_caption": "Samsung and Huawei announce foldable smartphones, promising to reinvent the phone form factor."
   },
   {
     "id": "5g-launch-2019",
@@ -243,7 +253,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/5g-launch-2019.png",
+    "image_caption": "South Korea and the US begin launching 5G networks, promising 100x speed improvements over 4G."
   },
   {
     "id": "whatsapp-zero-click-2019",
@@ -284,7 +296,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/whatsapp-zero-click-2019.png",
+    "image_caption": "NSO Group's Pegasus spyware is found exploiting a WhatsApp vulnerability to surveil journalists and activists."
   },
   {
     "id": "tiktok-algorithm-2019",
@@ -325,7 +339,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/tiktok-algorithm-2019.jpg",
+    "image_caption": "TikTok's recommendation algorithm proves so effective that every major platform scrambles to copy it."
   },
   {
     "id": "hk-protests-tech-2019",
@@ -366,7 +382,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/hk-protests-tech-2019.jpg",
+    "image_caption": "Hong Kong protesters use AirDrop, Telegram, and decentralized coordination to organize the largest protests in the city's history."
   },
   {
     "id": "iran-internet-shutdown-2019",
@@ -407,7 +425,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2019/iran-internet-shutdown-2019.jpg",
+    "image_caption": "Iran implements a near-total internet shutdown during nationwide protests, demonstrating the power of state-controlled infrastructure."
   },
   {
     "id": "old-town-road-tiktok-record-2019",
@@ -429,7 +449,9 @@
         "title": "Old Town Road - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Old_Town_Road"
       }
-    ]
+    ],
+    "image": "/images/events/2019/old-town-road-tiktok-record-2019.jpg",
+    "image_caption": "20-year-old Lil Nas X used TikTok memes to propel a $30 beat to a record 19 consecutive weeks at #1."
   },
   {
     "id": "first-black-hole-photograph-2019",

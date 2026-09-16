@@ -80,7 +80,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/justin-tv-2006.jpg",
+    "image_caption": "Justin Kan streams his life 24/7 on Justin.tv, pioneering live streaming and eventually spawning Twitch."
   },
   {
     "id": "nintendo-wii-2006",
@@ -121,7 +123,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/nintendo-wii-2006.png",
+    "image_caption": "Nintendo releases the Wii with motion controls, making gaming accessible to everyone from kids to grandparents."
   },
   {
     "id": "google-youtube-acquisition-2006",
@@ -163,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/google-youtube-acquisition-2006.png",
+    "image_caption": "Google buys YouTube for $1.65 billion in stock, the biggest bet on user-generated content ever made."
   },
   {
     "id": "facebook-open-registration-2006",
@@ -205,7 +211,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/facebook-open-registration-2006.png",
+    "image_caption": "Facebook opens registration to anyone over 13 with a valid email address. The exclusivity is gone. The growth is unstoppable."
   },
   {
     "id": "aws-growth-2006",
@@ -247,7 +255,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/aws-growth-2006.png",
+    "image_caption": "Amazon launches S3 and EC2, letting anyone rent computing power and storage over the internet. Cloud computing begins."
   },
   {
     "id": "roku-founding-2006",
@@ -288,7 +298,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/roku-founding-2006.jpg",
+    "image_caption": "Anthony Wood founds Roku to make streaming video simple. The streaming stick that changes how we watch TV is born."
   },
   {
     "id": "linkedin-growth-2006",
@@ -369,7 +381,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/limewire-fall-2006.png",
+    "image_caption": "LimeWire becomes the most popular file-sharing client. The music industry fights back with lawsuits."
   },
   {
     "id": "nintendo-wii-motion-craze-2006",
@@ -415,7 +429,9 @@
         "title": "Back to Black - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Back_to_Black"
       }
-    ]
+    ],
+    "image": "/images/events/2006/amy-winehouse-back-to-black-2006.jpg",
+    "image_caption": "Amy Winehouse's beehive hair, winged eyeliner, and raw Motown-tinged heartbreak in 'Rehab' captivated the world."
   },
   {
     "id": "skinny-jeans-indie-sleaze-dawn-2006",
@@ -437,6 +453,8 @@
         "title": "Indie sleaze - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Indie_sleaze"
       }
-    ]
+    ],
+    "image": "/images/events/2006/skinny-jeans-indie-sleaze-dawn-2006.jpg",
+    "image_caption": "Spray-on skinny jeans, American Apparel deep V-necks, and point-and-shoot flash photography took over youth fashion."
   }
 ]

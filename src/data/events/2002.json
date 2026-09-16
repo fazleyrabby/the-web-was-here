@@ -121,7 +121,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/camera-phone-era-2002.jpg",
+    "image_caption": "Japan's J-Phone launches the first camera phone with built-in sharing, while Samsung and others bring the technology to the US."
   },
   {
     "id": "tablet-pc-launch-2002",
@@ -162,7 +164,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/tablet-pc-launch-2002.jpg",
+    "image_caption": "Microsoft releases Windows XP Tablet PC Edition, an ambitious attempt to bring pen computing to the mainstream."
   },
   {
     "id": "xbox-live-launch-2002",
@@ -203,7 +207,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/xbox-live-launch-2002.png",
+    "image_caption": "Microsoft launches Xbox Live, the first major unified online gaming service for consoles, pioneering voice chat and online multiplayer."
   },
   {
     "id": "wifi-standard-802.11-2002",
@@ -244,7 +250,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/wifi-standard-802_11-2002.jpg",
+    "image_caption": "The 802.11b Wi-Fi standard becomes widely adopted, and the faster 802.11a and 802.11g standards emerge."
   },
   {
     "id": "blog-blogger-boom-2002",
@@ -286,7 +294,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/blog-blogger-boom-2002.png",
+    "image_caption": "Blogging platforms like Blogger and LiveJournal explode in popularity, turning everyday people into publishers."
   },
   {
     "id": "enron-scandal-2002",
@@ -327,7 +337,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/enron-scandal-2002.png",
+    "image_caption": "Enron's spectacular collapse reveals massive accounting fraud and shatters trust in corporate America and the internet economy."
   },
   {
     "id": "avril-lavigne-juicy-couture-2002",
@@ -371,7 +383,9 @@
         "title": "American Idol (season 1) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/American_Idol_(season_1)"
       }
-    ]
+    ],
+    "image": "/images/events/2002/american-idol-kelly-clarkson-2002.png",
+    "image_caption": "Fox launched American Idol, turning Simon Cowell's scathing critique and audience landline voting into a national ritual."
   },
   {
     "id": "eminem-lose-yourself-8mile-2002",
@@ -397,6 +411,8 @@
         "title": "8 Mile (film) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/8_Mile_(film)"
       }
-    ]
+    ],
+    "image": "/images/events/2002/eminem-lose-yourself-8mile-2002.jpg",
+    "image_caption": "Eminem's semi-autobiographical film 8 Mile became a box office smash, and 'Lose Yourself' won the Academy Award."
   }
 ]

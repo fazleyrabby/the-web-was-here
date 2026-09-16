@@ -46,7 +46,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/nft-craze-2021.png",
+    "image_caption": "Beeple's digital collage sells for $69 million at Christie's, launching the NFT craze into the mainstream."
   },
   {
     "id": "metaverse-rebrand-2021",
@@ -89,7 +91,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/metaverse-rebrand-2021.png",
+    "image_caption": "Facebook rebrands to Meta, betting the company's future on the metaverse and virtual reality."
   },
   {
     "id": "dogecoin-musk-2021",
@@ -131,7 +135,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/dogecoin-musk-2021.jpg",
+    "image_caption": "Elon Musk's Dogecoin tweets and SNL appearance trigger a speculative frenzy around meme cryptocurrencies."
   },
   {
     "id": "apple-m1-macbook-2021",
@@ -173,7 +179,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/apple-m1-macbook-2021.jpg",
+    "image_caption": "Apple's M1-powered MacBook Air becomes the best-selling laptop, proving ARM-based chips can outperform Intel."
   },
   {
     "id": "chip-shortage-2021",
@@ -258,7 +266,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/clubhouse-peak-2021.png",
+    "image_caption": "Clubhouse hits 2 million daily active users and a $4 billion valuation before competitors flood the space."
   },
   {
     "id": "web3-hype-2021",
@@ -301,7 +311,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/web3-hype-2021.jpg",
+    "image_caption": "The 'Web3' narrative \u2014 blockchain-based decentralized internet \u2014 becomes Silicon Valley's dominant talking point."
   },
   {
     "id": "amazon-luna-2021",
@@ -343,7 +355,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/amazon-luna-2021.png",
+    "image_caption": "Amazon launches Luna cloud gaming service publicly, joining Microsoft and Google in the cloud gaming race."
   },
   {
     "id": "gamestop-reddit-short-squeeze-2021",
@@ -387,7 +401,9 @@
         "title": "Squid Game - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Squid_Game"
       }
-    ]
+    ],
+    "image": "/images/events/2021/squid-game-netflix-sensation-2021.png",
+    "image_caption": "The South Korean survival drama captured 1.65 billion viewing hours in 28 days, becoming an international phenomenon."
   },
   {
     "id": "olivia-rodrigo-drivers-license-2021",
@@ -409,6 +425,8 @@
         "title": "Drivers License (song) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Drivers_License_(song)"
       }
-    ]
+    ],
+    "image": "/images/events/2021/olivia-rodrigo-drivers-license-2021.jpg",
+    "image_caption": "17-year-old Olivia Rodrigo broke Spotify's all-time streaming record and launched the multi-platinum album SOUR."
   }
 ]

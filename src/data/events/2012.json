@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/facebook-ipo-2012.jpg",
+    "image_caption": "Facebook goes public at $38 per share, the largest tech IPO in history at the time, but the stock immediately crashes."
   },
   {
     "id": "facebook-instagram-acquisition-2012",
@@ -80,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/facebook-instagram-acquisition-2012.png",
+    "image_caption": "Facebook acquires Instagram for $1 billion in cash and stock, the biggest social media acquisition in history."
   },
   {
     "id": "hurricane-sandy-social-media-2012",
@@ -121,7 +125,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/hurricane-sandy-social-media-2012.png",
+    "image_caption": "Hurricane Sandy becomes the first major disaster where social media is the primary tool for real-time information and rescue coordination."
   },
   {
     "id": "obama-campaign-tech-2012",
@@ -162,7 +168,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/obama-campaign-tech-2012.jpg",
+    "image_caption": "Obama's re-election campaign uses big data, social media, and analytics to build the most sophisticated political operation in history."
   },
   {
     "id": "raspberry-pi-launch-2012",
@@ -203,7 +211,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/raspberry-pi-launch-2012.jpg",
+    "image_caption": "The Raspberry Pi launches at $35, putting a full computer the size of a credit card in the hands of makers and students worldwide."
   },
   {
     "id": "3d-printing-mainstream-2012",
@@ -244,7 +254,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/3d-printing-mainstream-2012.jpg",
+    "image_caption": "Affordable desktop 3D printers like MakerBot Replicator bring additive manufacturing to consumers and classrooms."
   },
   {
     "id": "tumblr-100m-blogs-2012",
@@ -326,7 +338,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/nasa-curiosity-landing-2012.jpg",
+    "image_caption": "NASA's Curiosity rover lands on Mars while millions watch live on YouTube and social media."
   },
   {
     "id": "samsung-apple-patent-war-2012",
@@ -408,7 +422,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/linkedin-ipo-2012.png",
+    "image_caption": "LinkedIn goes public at $45 per share and doubles on its first day, proving professional social networking is a real business."
   },
   {
     "id": "psy-gangnam-style-billion-views-2012",
@@ -430,7 +446,9 @@
         "title": "Gangnam Style - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Gangnam_Style"
       }
-    ]
+    ],
+    "image": "/images/events/2012/psy-gangnam-style-billion-views-2012.jpg",
+    "image_caption": "Psy's comedic horse-riding dance video became the first video in history to hit 1 Billion YouTube views."
   },
   {
     "id": "higgs-boson-curiosity-mars-2012",

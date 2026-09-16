@@ -79,7 +79,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/facebook-live-2016.jpg",
+    "image_caption": "Facebook rolls out Live video to all users, making live streaming a core social media feature."
   },
   {
     "id": "snapchat-spectacles-2016",
@@ -161,7 +163,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/brexit-tech-2016.png",
+    "image_caption": "The UK votes to leave the EU, sending shockwaves through the European tech ecosystem and raising questions about data flows."
   },
   {
     "id": "post-truth-2016",
@@ -325,7 +329,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/uber-autonomous-2016.jpg",
+    "image_caption": "Uber begins testing self-driving cars with real passengers in Pittsburgh, the first major on-demand autonomous ride service."
   },
   {
     "id": "usb-c-transition-2016",
@@ -366,7 +372,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/usb-c-transition-2016.jpg",
+    "image_caption": "Apple's MacBook and Google's Pixel push USB-C as the universal connector, beginning the death of proprietary cables."
   },
   {
     "id": "niansky-2016",
@@ -407,7 +415,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/niansky-2016.png",
+    "image_caption": "A SpaceX Falcon 9 explosion destroys a Facebook satellite and causes WhatsApp and Instagram outages across Africa."
   },
   {
     "id": "apple-airpods-cord-cutting-2016",
@@ -457,7 +467,9 @@
         "title": "Brexit - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Brexit"
       }
-    ]
+    ],
+    "image": "/images/events/2016/brexit-and-trump-election-2016.png",
+    "image_caption": "Two seismic political shockwaves sparked intense global scrutiny into algorithmic newsfeeds and digital polarization."
   },
   {
     "id": "millennial-pink-chokers-2016",
@@ -479,6 +491,8 @@
         "title": "Millennial pink - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Shades_of_pink#Millennial_pink"
       }
-    ]
+    ],
+    "image": "/images/events/2016/millennial-pink-chokers-2016.png",
+    "image_caption": "A soft muted salmon blush color and velvet neck chokers became the defining visual markers of the generation."
   }
 ]

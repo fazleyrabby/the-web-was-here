@@ -39,6 +39,18 @@ const totalEvents = Object.values(eventModules).reduce(
   <section class="hero">
     <div class="hero__bg-text" aria-hidden="true">WEB</div>
     <div class="hero__scattered" aria-hidden="true">
+      <div class="hero__badge-sticker hero__badge-sticker--1">
+        <span class="badge-icon">🌐</span> BEST VIEWED IN 800×600
+      </div>
+      <div class="hero__badge-sticker hero__badge-sticker--2">
+        <span class="badge-icon">⚡</span> NETSCAPE 2.0 READY
+      </div>
+      <div class="hero__badge-sticker hero__badge-sticker--3">
+        <span class="badge-icon">💾</span> Y2K COMPLIANT
+      </div>
+      <div class="hero__badge-sticker hero__badge-sticker--4">
+        <span class="badge-icon">🚧</span> UNDER CONSTRUCTION
+      </div>
       <span class="hero__scatter hero__scatter--1">1998</span>
       <span class="hero__scatter hero__scatter--2">2005</span>
       <span class="hero__scatter hero__scatter--3">2007</span>
@@ -57,6 +69,9 @@ const totalEvents = Object.values(eventModules).reduce(
         <p class="hero__subtitle">37 years of Internet history.<br/>Curated stories, real hardware, and digital nostalgia.</p>
         <div class="hero__actions">
           <a href="#explore" class="hero__cta hero__cta--primary">Explore the Timeline</a>
+          <button id="hero-warp-btn" class="hero__cta hero__cta--warp" title="Time warp to a random year">
+            <span class="warp-dice">🎲</span> <span id="hero-warp-text">Surprise Me</span>
+          </button>
           <a href="/the-web/2007" class="hero__cta hero__cta--ghost">Start at 2007 &rarr;</a>
         </div>
         <div class="hero__meta">
@@ -69,20 +84,28 @@ const totalEvents = Object.values(eventModules).reduce(
       </div>
 
       <div class="hero__visual">
-        <div class="hero__frame">
+        <div class="hero__frame" id="crt-frame">
           <div class="hero__frame-header">
             <span class="hero__frame-dot hero__frame-dot--red"></span>
             <span class="hero__frame-dot hero__frame-dot--yellow"></span>
             <span class="hero__frame-dot hero__frame-dot--green"></span>
             <span class="hero__frame-title">DIAL-UP READY • 1990–2026</span>
+            <button id="crt-sound-btn" class="hero__crt-sound-btn" title="Simulate 56k Modem Handshake">
+              <span class="crt-led"></span>
+              <span id="crt-status-text">🔊 56K DIAL-UP</span>
+            </button>
           </div>
-          <img
-            src="/images/illustrations/hero-retro-crt.jpg"
-            alt="Hand-drawn retro CRT monitor displaying dial-up connection with floppy disks and pagers"
-            class="hero__img"
-            width="600"
-            height="338"
-          />
+          <div class="hero__screen-wrapper">
+            <img
+              src="/images/illustrations/hero-retro-crt.jpg"
+              alt="Hand-drawn retro CRT monitor displaying dial-up connection with floppy disks and pagers"
+              class="hero__img"
+              width="600"
+              height="338"
+            />
+            <div class="hero__scanlines" aria-hidden="true"></div>
+            <div class="hero__crt-glow" aria-hidden="true"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -258,18 +281,76 @@ const totalEvents = Object.values(eventModules).reduce(
     line-height: 1; letter-spacing: -0.05em;
   }
 
-  .hero__scattered { position: absolute; inset: 0; pointer-events: none; }
+  .hero__scattered { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
   .hero__scatter {
     position: absolute;
     font-family: var(--font-mono); font-size: 0.7rem;
     color: var(--text-muted); opacity: 0.3; letter-spacing: 0.05em;
   }
-  .hero__scatter--1 { top: 12%; left: 8%; transform: rotate(-12deg); }
-  .hero__scatter--2 { top: 20%; right: 15%; transform: rotate(8deg); color: var(--pink); opacity: 0.5; }
-  .hero__scatter--3 { bottom: 25%; left: 12%; transform: rotate(-5deg); color: var(--yellow); opacity: 0.5; }
-  .hero__scatter--4 { bottom: 15%; right: 10%; transform: rotate(10deg); color: var(--green); opacity: 0.4; }
-  .hero__scatter--5 { top: 40%; left: 5%; transform: rotate(-8deg); color: var(--blue); opacity: 0.3; }
-  .hero__scatter--6 { top: 35%; right: 8%; transform: rotate(6deg); color: var(--orange); opacity: 0.4; }
+  .hero__scatter--1 { top: 10%; left: 6%; transform: rotate(-12deg); }
+  .hero__scatter--2 { top: 16%; right: 18%; transform: rotate(8deg); color: var(--pink); opacity: 0.5; }
+  .hero__scatter--3 { bottom: 25%; left: 10%; transform: rotate(-5deg); color: var(--yellow); opacity: 0.5; }
+  .hero__scatter--4 { bottom: 12%; right: 12%; transform: rotate(10deg); color: var(--green); opacity: 0.4; }
+  .hero__scatter--5 { top: 45%; left: 3%; transform: rotate(-8deg); color: var(--blue); opacity: 0.3; }
+  .hero__scatter--6 { top: 38%; right: 6%; transform: rotate(6deg); color: var(--orange); opacity: 0.4; }
+
+  /* Retro Floating Badges */
+  .hero__badge-sticker {
+    position: absolute;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.28rem 0.55rem;
+    border: 2px solid var(--bark);
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 var(--bark);
+    letter-spacing: 0.04em;
+    pointer-events: auto;
+    cursor: default;
+    user-select: none;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+    animation: floatBadge 6s ease-in-out infinite;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .hero__badge-sticker:hover {
+    transform: scale(1.08) rotate(0deg) !important;
+    box-shadow: 5px 5px 0 var(--bark);
+  }
+  .hero__badge-sticker--1 {
+    top: 6%; left: 18%;
+    background: var(--yellow); color: var(--bark);
+    transform: rotate(-4deg);
+    animation-delay: 0s;
+  }
+  .hero__badge-sticker--2 {
+    top: 14%; right: 8%;
+    background: var(--blue); color: #fff;
+    transform: rotate(5deg);
+    animation-delay: 1.5s;
+  }
+  .hero__badge-sticker--3 {
+    bottom: 20%; left: 4%;
+    background: var(--green); color: #fff;
+    transform: rotate(-6deg);
+    animation-delay: 0.8s;
+  }
+  .hero__badge-sticker--4 {
+    bottom: 8%; right: 20%;
+    background: var(--orange); color: #fff;
+    transform: rotate(4deg);
+    animation-delay: 2.2s;
+  }
+  @keyframes floatBadge {
+    0%, 100% { transform: translateY(0px) rotate(var(--rot, -3deg)); }
+    50% { transform: translateY(-7px) rotate(var(--rot, -3deg)); }
+  }
+  .hero__badge-sticker--1 { --rot: -4deg; }
+  .hero__badge-sticker--2 { --rot: 5deg; }
+  .hero__badge-sticker--3 { --rot: -6deg; }
+  .hero__badge-sticker--4 { --rot: 4deg; }
 
   /* Hero container */
   .hero__container {
@@ -312,9 +393,11 @@ const totalEvents = Object.values(eventModules).reduce(
   .hero__actions { display: flex; gap: var(--spacing-md); justify-content: flex-start; flex-wrap: wrap; margin-bottom: var(--spacing-xl); }
 
   .hero__cta {
-    display: inline-block; padding: 0.9rem 2rem;
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
+    padding: 0.9rem 1.8rem;
     font-family: var(--font-hand); font-size: 1.25rem; font-weight: 600;
-    border-radius: 4px; transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out), background 0.2s var(--ease-out);
+    border-radius: 4px; cursor: pointer;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out), background 0.2s var(--ease-out);
   }
   .hero__cta--primary {
     background: var(--pink); color: #fff;
@@ -324,13 +407,24 @@ const totalEvents = Object.values(eventModules).reduce(
     transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--bark);
     background: var(--orange);
   }
+  .hero__cta--warp {
+    background: var(--yellow); color: var(--bark);
+    border: 3px solid var(--bark); box-shadow: var(--shadow-brutal-sm);
+  }
+  .hero__cta--warp:hover {
+    transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--bark);
+    background: #ffdd44;
+  }
+  .hero__cta--warp:active {
+    transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--bark);
+  }
   .hero__cta--ghost {
     background: var(--bg-card); color: var(--bark);
     border: 3px solid var(--bark);
   }
   .hero__cta--ghost:hover {
     transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--bark);
-    background: var(--yellow);
+    background: #ffffff;
   }
 
   .hero__meta { display: flex; align-items: center; justify-content: flex-start; gap: var(--spacing-md); flex-wrap: wrap; }
@@ -347,11 +441,20 @@ const totalEvents = Object.values(eventModules).reduce(
     width: 100%;
     max-width: 480px;
     transition: transform 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+    position: relative;
   }
   .hero__frame:hover {
     transform: translate(-3px, -3px);
     box-shadow: 12px 12px 0 var(--bark);
   }
+  .hero__frame--connecting {
+    animation: crtFlicker 0.15s infinite alternate;
+  }
+  @keyframes crtFlicker {
+    0% { filter: brightness(1) contrast(1); }
+    100% { filter: brightness(1.15) contrast(1.08) hue-rotate(3deg); }
+  }
+
   .hero__frame-header {
     background: var(--bark);
     color: #fff;
@@ -373,13 +476,75 @@ const totalEvents = Object.values(eventModules).reduce(
     font-family: var(--font-mono);
     font-size: 0.65rem;
     letter-spacing: 0.08em;
-    color: var(--bg);
-    margin-left: auto;
+    color: #dedede;
+    margin-right: auto;
+  }
+
+  .hero__crt-sound-btn {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    background: #2a2a2a;
+    color: #00ff88;
+    border: 1.5px solid #444;
+    border-radius: 3px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .hero__crt-sound-btn:hover {
+    background: #00ff88;
+    color: #000;
+    border-color: #00ff88;
+  }
+  .crt-led {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #00ff88;
+    box-shadow: 0 0 6px #00ff88;
+    animation: ledPulse 1.4s ease-in-out infinite;
+  }
+  @keyframes ledPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .hero__screen-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #111;
   }
   .hero__img {
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  /* CRT Scanlines and curvature glow */
+  .hero__scanlines {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0.22) 2px,
+      rgba(0, 0, 0, 0.22) 4px
+    );
+    z-index: 2;
+    mix-blend-mode: multiply;
+  }
+  .hero__crt-glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.45);
+    z-index: 3;
   }
 
   .hero__scroll-hint {
@@ -532,3 +697,85 @@ const totalEvents = Object.values(eventModules).reduce(
     .year-grid { grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); }
   }
 </style>
+
+<script>
+  import { playWarpSound, playDialUpSound, stopDialUp } from '../lib/sound';
+
+  function initHeroInteractive() {
+    const warpBtn = document.getElementById('hero-warp-btn');
+    const warpText = document.getElementById('hero-warp-text');
+    const crtSoundBtn = document.getElementById('crt-sound-btn');
+    const crtStatusText = document.getElementById('crt-status-text');
+    const crtFrame = document.getElementById('crt-frame');
+
+    const years = [
+      1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,
+      2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,
+      2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,
+      2020,2021,2022,2023,2024,2025,2026
+    ];
+
+    if (warpBtn && warpText) {
+      let isWarping = false;
+      warpBtn.onclick = () => {
+        if (isWarping) return;
+        isWarping = true;
+        playWarpSound();
+
+        const targetYear = years[Math.floor(Math.random() * years.length)];
+        let counter = 0;
+        const interval = setInterval(() => {
+          const preview = years[Math.floor(Math.random() * years.length)];
+          warpText.textContent = `Warping to ${preview}...`;
+          counter++;
+          if (counter >= 7) {
+            clearInterval(interval);
+            warpText.textContent = `⚡ Jumping to ${targetYear}!`;
+            setTimeout(() => {
+              window.location.href = `/the-web/${targetYear}`;
+            }, 250);
+          }
+        }, 60);
+      };
+    }
+
+    if (crtSoundBtn && crtStatusText && crtFrame) {
+      let isPlaying = false;
+      let stopFn: (() => void) | null = null;
+
+      crtSoundBtn.onclick = (e) => {
+        e.stopPropagation();
+        if (isPlaying) {
+          if (stopFn) stopFn();
+          stopDialUp();
+          isPlaying = false;
+          crtFrame.classList.remove('hero__frame--connecting');
+          crtStatusText.textContent = '🔊 56K DIAL-UP';
+          return;
+        }
+
+        isPlaying = true;
+        crtFrame.classList.add('hero__frame--connecting');
+        crtStatusText.textContent = 'DIALING...';
+
+        stopFn = playDialUpSound((status) => {
+          crtStatusText.textContent = status;
+          if (status === 'ONLINE' || status === 'CONNECTED @ 56,000 BPS!') {
+            setTimeout(() => {
+              isPlaying = false;
+              crtFrame.classList.remove('hero__frame--connecting');
+              crtStatusText.textContent = '● 56K ONLINE';
+            }, 3000);
+          }
+        });
+      };
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHeroInteractive);
+  } else {
+    initHeroInteractive();
+  }
+  document.addEventListener('astro:page-load', initHeroInteractive);
+</script>

@@ -45,7 +45,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/zoom-boom-2020.png",
+    "image_caption": "Zoom's daily meeting participants jump from 10 million to over 300 million as COVID-19 forces the world remote."
   },
   {
     "id": "covid-remote-work-2020",
@@ -86,7 +88,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/covid-remote-work-2020.png",
+    "image_caption": "COVID-19 forces billions of workers into remote work overnight, transforming the global workplace permanently."
   },
   {
     "id": "clubhouse-2020",
@@ -128,7 +132,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/clubhouse-2020.png",
+    "image_caption": "Clubhouse launches as an invite-only audio social app, sparking the 'audio social' trend."
   },
   {
     "id": "tiktok-explosion-2020",
@@ -169,7 +175,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/tiktok-explosion-2020.png",
+    "image_caption": "TikTok surpasses 2 billion downloads globally, becoming the defining social media platform of the pandemic era."
   },
   {
     "id": "stimulus-check-memes-2020",
@@ -210,7 +218,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/stimulus-check-memes-2020.jpg",
+    "image_caption": "US government stimulus checks become the biggest meme of 2020 as Americans cope with the pandemic through humor."
   },
   {
     "id": "ps5-xsx-launch-2020",
@@ -251,7 +261,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/ps5-xsx-launch-2020.png",
+    "image_caption": "Sony PlayStation 5 and Microsoft Xbox Series X launch during a global chip shortage, selling out instantly."
   },
   {
     "id": "apple-silicon-2020",
@@ -292,7 +304,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/apple-silicon-2020.jpg",
+    "image_caption": "Apple announces the M1 chip, transitioning Macs from Intel to ARM-based custom silicon."
   },
   {
     "id": "doordash-ipo-2020",
@@ -333,7 +347,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/doordash-ipo-2020.png",
+    "image_caption": "DoorDash IPOs at $102 billion valuation, proving the delivery economy is pandemic-proof."
   },
   {
     "id": "spacex-crew-dragon-2020",
@@ -374,7 +390,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/spacex-crew-dragon-2020.jpg",
+    "image_caption": "SpaceX launches NASA astronauts to the ISS aboard Crew Dragon, the first commercial crewed spaceflight."
   },
   {
     "id": "robinhood-gamestop-2020",
@@ -415,7 +433,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2020/robinhood-gamestop-2020.png",
+    "image_caption": "Robinhood's commission-free trading and Reddit's r/WallStreetBets set the stage for the GameStop short squeeze."
   },
   {
     "id": "animal-crossing-lockdown-comfort-2020",
@@ -459,7 +479,9 @@
         "title": "Blinding Lights - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Blinding_Lights"
       }
-    ]
+    ],
+    "image": "/images/events/2020/the-weeknd-blinding-lights-2020.jpg",
+    "image_caption": "Drenched in 80s analog synthesizers and red suits, Abel Tesfaye crafted the biggest Hot 100 hit in history."
   },
   {
     "id": "cottagecore-sweatpants-lockdown-fashion-2020",
@@ -481,6 +503,8 @@
         "title": "Cottagecore - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Cottagecore"
       }
-    ]
+    ],
+    "image": "/images/events/2020/cottagecore-sweatpants-lockdown-fashion-2020.jpg",
+    "image_caption": "Office slacks and high heels evaporated as remote workers embraced pastel tie-dye sweat sets and rural Cottagecore aesthetics."
   }
 ]

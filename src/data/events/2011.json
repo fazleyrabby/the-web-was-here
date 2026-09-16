@@ -37,7 +37,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/google-plus-launch-2011.jpg",
+    "image_caption": "Google launches Google+ to compete with Facebook, introducing Circles for managing social connections."
   },
   {
     "id": "instagram-1m-users-2011",
@@ -78,7 +80,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/instagram-1m-users-2011.png",
+    "image_caption": "Instagram reaches 1 million registered users in just 9 months, proving photo-sharing is the killer mobile social feature."
   },
   {
     "id": "snapchat-launch-2011",
@@ -159,7 +163,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/icq-shutdown-2011.png",
+    "image_caption": "ICQ, the original instant messenger that defined online chat, officially shuts down after 16 years."
   },
   {
     "id": "kindle-fire-2011",
@@ -199,7 +205,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/kindle-fire-2011.png",
+    "image_caption": "Amazon launches the Kindle Fire tablet at $199, undercutting the iPad and bringing affordable tablets to the masses."
   },
   {
     "id": "occupy-wall-street-2011",
@@ -241,7 +249,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/occupy-wall-street-2011.jpg",
+    "image_caption": "Occupy Wall Street uses social media to organize protests against economic inequality, reaching 951 cities worldwide."
   },
   {
     "id": "html5-finalized-2011",
@@ -282,7 +292,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/html5-finalized-2011.png",
+    "image_caption": "The W3C finalizes the HTML5 specification, enabling rich web applications without plugins like Flash."
   },
   {
     "id": "spotify-us-launch-2011",
@@ -323,7 +335,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/spotify-us-launch-2011.jpg",
+    "image_caption": "Spotify launches in the US after years of European availability, bringing streaming music to the American market."
   },
   {
     "id": "netflix-dvd-split-2011",
@@ -365,7 +379,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/netflix-dvd-split-2011.png",
+    "image_caption": "Netflix announces it will split DVD-by-mail and streaming into separate services with separate pricing, losing 800,000 subscribers."
   },
   {
     "id": "arab-spring-twitter-2011",
@@ -406,7 +422,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/arab-spring-twitter-2011.jpg",
+    "image_caption": "Twitter and Facebook become essential tools for organizing protests across the Middle East and North Africa."
   },
   {
     "id": "death-of-steve-jobs-2011",
@@ -428,7 +446,9 @@
         "title": "Steve Jobs - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Steve_Jobs"
       }
-    ]
+    ],
+    "image": "/images/events/2011/death-of-steve-jobs-2011.jpg",
+    "image_caption": "The visionary co-founder of Apple passed away, sparking spontaneous digital and physical memorials worldwide."
   },
   {
     "id": "adele-21-global-phenomenon-2011",
@@ -472,6 +492,8 @@
         "title": "iMessage - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/IMessage"
       }
-    ]
+    ],
+    "image": "/images/events/2011/imessage-blue-bubbles-2011.png",
+    "image_caption": "Apple released iOS 5 featuring iMessage, introducing end-to-end encrypted chats, typing dots, and blue bubbles."
   }
 ]

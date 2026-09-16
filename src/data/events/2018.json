@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/gdpr-enforcement-2018.png",
+    "image_caption": "The EU's General Data Protection Regulation takes effect, fundamentally reshaping how companies handle personal data."
   },
   {
     "id": "cambridge-analytica-2018",
@@ -120,7 +122,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/tiktok-merger-2018.png",
+    "image_caption": "ByteDance acquires Musical.ly and merges it with TikTok, creating the global short-form video juggernaut."
   },
   {
     "id": "fortnite-cultural-2018",
@@ -202,7 +206,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/march-for-our-lives-2018.png",
+    "image_caption": "Students organize the March for Our Lives after Parkland, using social media to mobilize the largest youth protest in history."
   },
   {
     "id": "youtube-ad-pocalypse-2018",
@@ -243,7 +249,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/youtube-ad-pocalypse-2018.png",
+    "image_caption": "Major advertisers pull ads from YouTube over extremist content, forcing the platform to overhaul its moderation policies."
   },
   {
     "id": "iphone-x-2017",
@@ -284,7 +292,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/iphone-x-2017.png",
+    "image_caption": "Apple's iPhone X removes the home button, introduces Face ID, and sets the template for modern smartphones."
   },
   {
     "id": "facebook-redesign-2018",
@@ -325,7 +335,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/facebook-redesign-2018.png",
+    "image_caption": "Mark Zuckerberg announces Facebook will prioritize 'meaningful social interactions' over passive content consumption."
   },
   {
     "id": "steam-fortnite-2018",
@@ -366,7 +378,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/steam-fortnite-2018.png",
+    "image_caption": "Fortnite's success without Steam proves games can thrive on their own launchers, challenging Valve's distribution dominance."
   },
   {
     "id": "blackout-challenge-2018",
@@ -407,7 +421,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/blackout-challenge-2018.png",
+    "image_caption": "Dangerous challenges on TikTok highlight the platform's content moderation challenges and the risks of algorithmic amplification."
   },
   {
     "id": "fortnite-ninja-drake-twitch-2018",
@@ -429,7 +445,9 @@
         "title": "Fortnite Battle Royale - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"
       }
-    ]
+    ],
+    "image": "/images/events/2018/fortnite-ninja-drake-twitch-2018.jpg",
+    "image_caption": "Epic Games' free-to-play battle royale became an international sensation, culminating in a record Twitch stream."
   },
   {
     "id": "black-panther-cultural-milestone-2018",

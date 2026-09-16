@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/ice-bucket-challenge-2014.jpg",
+    "image_caption": "The Ice Bucket Challenge goes viral, raising $115 million for ALS research through social media participation."
   },
   {
     "id": "whatsapp-facebook-acquisition-2014",
@@ -79,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/whatsapp-facebook-acquisition-2014.png",
+    "image_caption": "Facebook acquires WhatsApp for $19 billion, the largest tech acquisition in history."
   },
   {
     "id": "twitch-amazon-acquisition-2014",
@@ -120,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/twitch-amazon-acquisition-2014.png",
+    "image_caption": "Amazon acquires Twitch for $970 million, betting big on live-streaming and gaming culture."
   },
   {
     "id": "heartbleed-2014",
@@ -161,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/heartbleed-2014.png",
+    "image_caption": "The Heartbleed bug in OpenSSL exposes the private keys of millions of servers, affecting 17% of the internet."
   },
   {
     "id": "bitcoin-decline-2014",
@@ -202,7 +210,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/bitcoin-decline-2014.png",
+    "image_caption": "Mt. Gox, the world's largest Bitcoin exchange, files for bankruptcy after losing 850,000 bitcoins worth $450 million."
   },
   {
     "id": "net-neutrality-debate-2014",
@@ -243,7 +253,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/net-neutrality-debate-2014.jpg",
+    "image_caption": "The FCC proposes new rules that would allow paid internet fast lanes, sparking massive public backlash for net neutrality."
   },
   {
     "id": "fappening-2014",
@@ -325,7 +337,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/uber-global-expansion-2014.jpg",
+    "image_caption": "Uber expands to 200+ cities worldwide, fundamentally disrupting the taxi industry and creating the gig economy."
   },
   {
     "id": "ebola-social-media-2014",
@@ -366,7 +380,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/ebola-social-media-2014.png",
+    "image_caption": "Social media becomes the primary channel for Ebola information, misinformation, and public health communication during the West Africa outbreak."
   },
   {
     "id": "flappy-bird-2014",
@@ -407,7 +423,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/flappy-bird-2014.png",
+    "image_caption": "Flappy Bird, a simple mobile game by a Vietnamese developer, becomes the most downloaded app before the creator pulls it from stores."
   },
   {
     "id": "taylor-swift-1989-pop-transition-2014",
@@ -429,7 +447,9 @@
         "title": "1989 (Taylor Swift album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)"
       }
-    ]
+    ],
+    "image": "/images/events/2014/taylor-swift-1989-pop-transition-2014.jpg",
+    "image_caption": "Swift completed her transition to pure 80s synth-pop, selling 1.28 million copies in week one."
   },
   {
     "id": "normcore-fashion-movement-2014",
@@ -473,6 +493,8 @@
         "title": "iPhone 6 - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/IPhone_6"
       }
-    ]
+    ],
+    "image": "/images/events/2014/iphone-6-bendgate-2014.png",
+    "image_caption": "Apple gave in to consumer demand for large screens, but viral bend-test videos created an international PR storm."
   }
 ]

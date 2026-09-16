@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/react-2015.png",
+    "image_caption": "Facebook releases React Native, bringing React's component model to iOS and Android development."
   },
   {
     "id": "apple-watch-2015",
@@ -122,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/uber-global-2015.jpg",
+    "image_caption": "Uber surpasses 1 million daily rides, becoming the defining gig economy platform."
   },
   {
     "id": "apple-music-2015",
@@ -163,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/apple-music-2015.png",
+    "image_caption": "Apple launches its streaming music service, entering the battle against Spotify."
   },
   {
     "id": "windows-10-2015",
@@ -245,7 +251,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/twitch-acquisition-2015.png",
+    "image_caption": "Amazon acquires Twitch for $970 million, betting big on live streaming and gaming culture."
   },
   {
     "id": "slack-rise-2015",
@@ -286,7 +294,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/slack-rise-2015.png",
+    "image_caption": "Slack becomes the fastest-growing business app ever, making chat-based collaboration mainstream."
   },
   {
     "id": "deep-learning-2015",
@@ -327,7 +337,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/deep-learning-2015.jpg",
+    "image_caption": "DeepMind's AlphaGo, ResNet, and TensorFlow drive deep learning into mainstream tech consciousness."
   },
   {
     "id": "google-self-driving-2015",
@@ -368,7 +380,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/google-self-driving-2015.png",
+    "image_caption": "Google's self-driving car project hits 1 million miles, proving autonomous vehicles are technically feasible."
   },
   {
     "id": "peloton-2015",
@@ -409,7 +423,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/peloton-2015.jpg",
+    "image_caption": "Peloton launches its connected bike, creating the at-home fitness streaming category."
   },
   {
     "id": "same-sex-marriage-rainbow-filter-2015",
@@ -453,7 +469,9 @@
         "title": "Adidas Yeezy - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Adidas_Yeezy"
       }
-    ]
+    ],
+    "image": "/images/events/2015/yeezy-boost-athleisure-boom-2015.jpg",
+    "image_caption": "Kanye West partnered with Adidas on the Yeezy Boost 350, igniting the sneakerhead resale boom."
   },
   {
     "id": "drake-hotline-bling-meme-2015",
@@ -475,6 +493,8 @@
         "title": "Hotline Bling - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Hotline_Bling"
       }
-    ]
+    ],
+    "image": "/images/events/2015/drake-hotline-bling-meme-2015.png",
+    "image_caption": "Drake's quirky dancing inside James Turrell-inspired glowing cubes created an immortal two-panel meme."
   }
 ]

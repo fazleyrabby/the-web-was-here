@@ -36,6 +36,10 @@ const accentColors = [
   'var(--purple)',
   'var(--teal)',
 ];
+
+const allCategories = Array.from(
+  new Set(events.flatMap((e) => e.category || []))
+).sort();
 ---
 
 {feltLike && (
@@ -57,12 +61,33 @@ const accentColors = [
 
 <section class="events">
   <div class="events__header">
-    <span class="events__eyebrow">The timeline</span>
-    <h2 class="events__heading">Events that shaped the year</h2>
+    <div class="events__header-text">
+      <span class="events__eyebrow">The timeline</span>
+      <h2 class="events__heading">Events that shaped the year</h2>
+    </div>
+    <div class="events__filter-bar" id="events-filter-bar">
+      <span class="events__filter-label">CATEGORY:</span>
+      <button class="events__filter-pill active" data-category="all">
+        ALL <span class="filter-count">({events.length})</span>
+      </button>
+      {allCategories.map((cat) => {
+        const count = events.filter((e) => e.category?.includes(cat)).length;
+        return (
+          <button class="events__filter-pill" data-category={cat}>
+            {cat} <span class="filter-count">({count})</span>
+          </button>
+        );
+      })}
+    </div>
   </div>
   <div class="events__list">
     {events.map((event, i) => (
-      <article class="event scroll-reveal-card" data-event style={`--accent: ${accentColors[i % accentColors.length]}; --reveal-delay: ${Math.min(i, 6) * 60}ms`}>
+      <article
+        class="event scroll-reveal-card"
+        data-event
+        data-categories={event.category.join(' ')}
+        style={`--accent: ${accentColors[i % accentColors.length]}; --reveal-delay: ${Math.min(i, 6) * 60}ms`}
+      >
         <div class="event__left">
           <span class="event__index">{String(i + 1).padStart(2, '0')}</span>
           <div class="event__scores">
@@ -135,12 +160,74 @@ const accentColors = [
   .felt-like__item:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--item-accent); border-color: var(--bark); }
   .felt-like__key { font-family: var(--font-mono); font-size: 0.75rem; color: var(--bark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; display: inline-block; align-self: flex-start; padding: 0.15rem 0.4rem; background: var(--item-accent); border-radius: 2px; }
   .felt-like__value { font-family: var(--font-body); font-size: 1rem; color: var(--text-primary); line-height: 1.5; display: block; }
-  .events__header { margin-bottom: var(--spacing-xl); }
+  .events__header {
+    margin-bottom: var(--spacing-xl);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+  }
   .events__eyebrow { font-family: var(--font-mono); font-size: 0.72rem; color: var(--green); text-transform: uppercase; letter-spacing: 0.12em; display: block; margin-bottom: var(--spacing-sm); font-weight: 600; }
   .events__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--bark); }
+
+  /* Category Filter Pills */
+  .events__filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    padding: 0.4rem 0;
+  }
+  .events__filter-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    margin-right: 0.2rem;
+  }
+  .events__filter-pill {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.3rem 0.65rem;
+    background: var(--bg-card);
+    border: 2px solid var(--bark);
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 var(--bark);
+    color: var(--bark);
+    cursor: pointer;
+    transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out), background 0.15s, color 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  .events__filter-pill:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0 var(--bark);
+    background: var(--bg-elevated);
+  }
+  .events__filter-pill.active {
+    background: var(--pink);
+    color: #fff;
+    box-shadow: 3px 3px 0 var(--bark);
+    transform: translate(-1px, -1px);
+  }
+  .events__filter-pill.active .filter-count {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .filter-count {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
   .events__list { display: flex; flex-direction: column; gap: var(--spacing-xl); }
   .event { display: grid; grid-template-columns: 120px 1fr; gap: var(--spacing-xl); padding: var(--spacing-xl); background: var(--bg-card); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out); position: relative; }
   .event:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0 var(--accent); }
+  .event--hidden { display: none !important; }
   .event__left { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-lg); padding-top: var(--spacing-xs); }
   .event__index { font-family: var(--font-hand); font-size: 2.5rem; font-weight: 700; color: var(--accent); line-height: 1; opacity: 0.75; }
   .event__scores { display: flex; flex-direction: column; gap: var(--spacing-sm); }
@@ -154,8 +241,9 @@ const accentColors = [
   .event__categories { display: flex; gap: var(--spacing-xs); flex-wrap: wrap; }
   .event__category { font-family: var(--font-mono); font-size: 0.72rem; color: #fff; padding: 0.25rem 0.65rem; border: 2px solid var(--bark); border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em; background: var(--accent); font-weight: 600; box-shadow: 2px 2px 0 var(--bark); }
   .event__date { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
-  .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: var(--bark); background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out); }
+  .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: var(--bark); background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out), background 0.15s, color 0.15s; }
   .event__react-btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--bark); background: var(--pink); color: #fff; }
+  .event__react-btn.relived { background: var(--green) !important; color: #fff !important; }
   .event__title { font-family: var(--font-hand); font-size: 2.1rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md); line-height: 1.15; }
   .event__body--has-image { display: grid; grid-template-columns: 1fr 240px; gap: var(--spacing-xl); align-items: start; }
   .event__text { min-width: 0; }
@@ -175,10 +263,12 @@ const accentColors = [
 </style>
 
 <script>
+  import { playChimeSound } from '../lib/sound';
+
   const CONFETTI_COLORS = ['#e6194b', '#00994d', '#f0b800', '#2255ee', '#e65522', '#8822ee', '#009988'];
 
   function burst(x: number, y: number) {
-    const n = 16;
+    const n = 18;
     for (let i = 0; i < n; i++) {
       const dot = document.createElement('span');
       dot.className = 'confetti-dot';
@@ -188,7 +278,7 @@ const accentColors = [
       document.body.appendChild(dot);
 
       const angle = (Math.PI * 2 * i) / n + Math.random() * 0.6;
-      const dist = 60 + Math.random() * 90;
+      const dist = 70 + Math.random() * 110;
       const dx = Math.cos(angle) * dist;
       const dy = Math.sin(angle) * dist;
       const spin = Math.random() * 540 - 270;
@@ -204,17 +294,52 @@ const accentColors = [
     }
   }
 
-  function initReactions() {
+  function initYearPage() {
+    // 1. Reactions + 8-bit chime
     document.querySelectorAll('.event__react-btn').forEach((btn) => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
+        playChimeSound();
         const rect = (btn as HTMLElement).getBoundingClientRect();
         burst(rect.left + rect.width / 2, rect.top + rect.height / 2);
+
+        btn.classList.add('relived');
+        const originalText = btn.textContent;
+        btn.textContent = '✨ Relived! 🎉';
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.classList.remove('relived');
+        }, 2200);
+      });
+    });
+
+    // 2. Category Filters
+    const pills = document.querySelectorAll('.events__filter-pill');
+    const articles = document.querySelectorAll<HTMLElement>('.event[data-categories]');
+
+    pills.forEach((pill) => {
+      pill.addEventListener('click', () => {
+        pills.forEach((p) => p.classList.remove('active'));
+        pill.classList.add('active');
+
+        const filter = pill.getAttribute('data-category');
+        articles.forEach((article) => {
+          if (!filter || filter === 'all') {
+            article.classList.remove('event--hidden');
+          } else {
+            const cats = (article.getAttribute('data-categories') || '').split(' ');
+            if (cats.includes(filter)) {
+              article.classList.remove('event--hidden');
+            } else {
+              article.classList.add('event--hidden');
+            }
+          }
+        });
       });
     });
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initReactions);
-  else initReactions();
-  document.addEventListener('astro:page-load', initReactions);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initYearPage);
+  else initYearPage();
+  document.addEventListener('astro:page-load', initYearPage);
 </script>

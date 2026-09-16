@@ -75,7 +75,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2007/facebook-mainstream-2007.png",
+    "image_caption": "Facebook opens registration to anyone over 13, not just college students. Membership explodes."
   },
   {
     "id": "twitter-launch-2007",
@@ -113,7 +115,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2007/twitter-launch-2007.png",
+    "image_caption": "Twitter debuts at SXSW. The 140-character microblogging platform finds its audience."
   },
   {
     "id": "youtube-culture-2007",
@@ -240,7 +244,9 @@
     "region": [
       "global"
     ],
-    "sources": []
+    "sources": [],
+    "image": "/images/events/2007/flash-games-peak-2007.png",
+    "image_caption": "Flash games and animations reach their cultural peak. Newgrounds, Addicting Games, and Kongregate are thriving."
   },
   {
     "id": "web2-design-2007",
@@ -269,7 +275,9 @@
     "region": [
       "global"
     ],
-    "sources": []
+    "sources": [],
+    "image": "/images/events/2007/web2-design-2007.png",
+    "image_caption": "Glossy buttons, reflective surfaces, big typography, and rounded corners define the Web 2.0 aesthetic."
   },
   {
     "id": "spotify-launch-2007",
@@ -307,7 +315,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2007/spotify-launch-2007.jpg",
+    "image_caption": "Spotify launches in Sweden, promising free, legal music streaming. The music industry will never be the same."
   },
   {
     "id": "amazon-kindle-ereader-2007",
@@ -357,6 +367,8 @@
         "title": "Graduation (album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Graduation_(album)"
       }
-    ]
+    ],
+    "image": "/images/events/2007/rihanna-umbrella-graduation-2007.jpg",
+    "image_caption": "Rihanna's 'Umbrella' became the song of the summer, while Kanye West outsold 50 Cent in a historic sales battle."
   }
 ]

@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/equifax-breach-2017.jpg",
+    "image_caption": "Equifax reveals a breach exposing Social Security numbers, birth dates, and addresses of 147 million Americans."
   },
   {
     "id": "bitcoin-boom-2017",
@@ -79,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/bitcoin-boom-2017.png",
+    "image_caption": "Bitcoin breaks $10,000 for the first time, bringing cryptocurrency into mainstream consciousness."
   },
   {
     "id": "metoo-2017",
@@ -120,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/metoo-2017.jpg",
+    "image_caption": "Alyssa Milano's tweet revives Tarana Burke's phrase, and #MeToo becomes a global movement against sexual harassment."
   },
   {
     "id": "alexa-mainstream-2017",
@@ -161,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/alexa-mainstream-2017.jpg",
+    "image_caption": "Amazon Echo becomes the holiday must-have, making voice assistants a fixture in millions of homes."
   },
   {
     "id": "gdpr-announced-2017",
@@ -202,7 +210,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/gdpr-announced-2017.png",
+    "image_caption": "The EU confirms GDPR enforcement for May 2018, giving companies 16 months to overhaul their data practices."
   },
   {
     "id": "blueborne-2017",
@@ -243,7 +253,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/blueborne-2017.jpg",
+    "image_caption": "Armis discovers BlueBorne, a set of Bluetooth vulnerabilities affecting 5.3 billion devices without user interaction."
   },
   {
     "id": "wannacry-2017",
@@ -366,7 +378,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/fcc-net-neutrality-2017.png",
+    "image_caption": "The FCC repeals net neutrality rules, ending the principle that all internet traffic should be treated equally."
   },
   {
     "id": "slack-bots-2017",
@@ -407,7 +421,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/slack-bots-2017.jpg",
+    "image_caption": "Slack launches its bot platform and App Directory, turning chat into an operating system for work."
   },
   {
     "id": "nintendo-switch-zelda-botw-2017",

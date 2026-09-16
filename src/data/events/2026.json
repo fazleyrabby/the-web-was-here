@@ -36,7 +36,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/ai-assistants-everywhere-2026.jpg",
+    "image_caption": "AI assistants move from a separate app into the operating system, the browser, and the search box by default."
   },
   {
     "id": "agentic-web-2026",
@@ -75,7 +77,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/agentic-web-2026.png",
+    "image_caption": "AI agents begin completing multi-step tasks on the web, from booking travel to filing forms, on a user's behalf."
   },
   {
     "id": "ai-search-shift-2026",
@@ -114,7 +118,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/ai-search-shift-2026.png",
+    "image_caption": "Generative answers displace the classic list of blue links, upending the economics of the open web."
   },
   {
     "id": "eu-ai-act-enforcement-2026",
@@ -154,7 +160,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2026/eu-ai-act-enforcement-2026.png",
+    "image_caption": "Major obligations of the EU AI Act begin to apply, forcing transparency and risk rules on high-impact AI systems."
   },
   {
     "id": "quantum-advantage-2026",
@@ -193,7 +201,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/quantum-advantage-2026.jpg",
+    "image_caption": "Quantum systems begin solving narrow but commercially useful problems, accelerating the race to post-quantum cryptography."
   },
   {
     "id": "open-source-ai-frontier-2026",
@@ -232,7 +242,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/open-source-ai-frontier-2026.png",
+    "image_caption": "Open-weight AI models approach the frontier, letting anyone run powerful systems on their own hardware."
   },
   {
     "id": "spatial-computing-2026",
@@ -271,7 +283,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/spatial-computing-2026.jpg",
+    "image_caption": "Mixed-reality headsets get lighter and cheaper, and spatial interfaces start showing up in everyday work."
   },
   {
     "id": "ambient-computing-2026",
@@ -310,7 +324,9 @@
         "accessed": "2026-09-15",
         "confidence": "medium"
       }
-    ]
+    ],
+    "image": "/images/events/2026/ambient-computing-2026.jpg",
+    "image_caption": "Sensors, wearables, and always-listening devices make computing ambient rather than something you sit down to do."
   },
   {
     "id": "agentic-web-autonomous-action-2026",
@@ -332,7 +348,9 @@
         "title": "World Wide Web - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
       }
-    ]
+    ],
+    "image": "/images/events/2026/agentic-web-autonomous-action-2026.png",
+    "image_caption": "Websites evolved into dual-layer systems serving visual layouts for humans and structured protocols for AI agents."
   },
   {
     "id": "cryptographic-human-content-authenticity-2026",

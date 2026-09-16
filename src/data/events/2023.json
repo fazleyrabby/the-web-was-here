@@ -40,7 +40,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/chatgpt-explosion-2023.png",
+    "image_caption": "ChatGPT becomes the fastest-growing consumer application in history, reaching 100 million users in two months."
   },
   {
     "id": "twitter-becomes-x-2023",
@@ -83,7 +85,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/twitter-becomes-x-2023.png",
+    "image_caption": "Elon Musk rebrands Twitter to X, removing one of the most recognized brand names in social media history."
   },
   {
     "id": "threads-launch-2023",
@@ -124,7 +128,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/threads-launch-2023.png",
+    "image_caption": "Meta's Threads launches and becomes the fastest app to reach 100 million users, capitalizing on Twitter's chaos."
   },
   {
     "id": "bing-ai-2023",
@@ -167,7 +173,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/bing-ai-2023.png",
+    "image_caption": "Microsoft integrates ChatGPT into Bing, threatening Google's search monopoly for the first time in decades."
   },
   {
     "id": "tech-layoffs-2023",
@@ -211,7 +219,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/tech-layoffs-2023.png",
+    "image_caption": "Major tech companies lay off over 200,000 workers as the industry corrects from pandemic-era overhiring."
   },
   {
     "id": "ai-regulation-eu-2023",
@@ -253,7 +263,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/ai-regulation-eu-2023.png",
+    "image_caption": "The European Union agrees on the world's first comprehensive AI regulation framework, the AI Act."
   },
   {
     "id": "barbenheimer-2023",
@@ -302,7 +314,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/barbenheimer-2023.png",
+    "image_caption": "The simultaneous release of Barbie and Oppenheimer creates a global cultural moment that dominates social media for weeks."
   },
   {
     "id": "apple-vision-pro-announce-2023",
@@ -345,7 +359,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2023/apple-vision-pro-announce-2023.jpg",
+    "image_caption": "Apple unveils Vision Pro, its $3,499 spatial computing headset, marking Apple's biggest new product category since the Apple Watch."
   },
   {
     "id": "taylor-swift-eras-tour-economic-force-2023",
@@ -367,7 +383,9 @@
         "title": "The Eras Tour - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/The_Eras_Tour"
       }
-    ]
+    ],
+    "image": "/images/events/2023/taylor-swift-eras-tour-economic-force-2023.jpg",
+    "image_caption": "Taylor Swift embarked on the highest-grossing concert tour in music history, generating an estimated $5 billion in economic impact."
   },
   {
     "id": "quiet-luxury-gorpcore-fashion-2023",
@@ -389,7 +407,9 @@
         "title": "Quiet luxury - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Quiet_luxury"
       }
-    ]
+    ],
+    "image": "/images/events/2023/quiet-luxury-gorpcore-fashion-2023.jpg",
+    "image_caption": "HBO's Succession inspired unbranded cashmere elegance while trail shoes conquered urban fashion."
   },
   {
     "id": "openai-sam-altman-boardroom-drama-2023",
@@ -411,6 +431,8 @@
         "title": "Removal of Sam Altman from OpenAI - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI"
       }
-    ]
+    ],
+    "image": "/images/events/2023/openai-sam-altman-boardroom-drama-2023.jpg",
+    "image_caption": "OpenAI's non-profit board abruptly fired CEO Sam Altman, only to reinstate him within five days following staff rebellion."
   }
 ]

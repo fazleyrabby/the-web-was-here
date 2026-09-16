@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/apple-intelligence-2024.png",
+    "image_caption": "Apple introduces Apple Intelligence, integrating AI across iPhone, iPad, and Mac with on-device processing as a privacy differentiator."
   },
   {
     "id": "gemini-launch-2024",
@@ -81,7 +83,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/gemini-launch-2024.png",
+    "image_caption": "Google's Gemini AI model launches as its most capable ever, powering Search, Workspace, and Android with multimodal intelligence."
   },
   {
     "id": "vision-pro-launch-2024",
@@ -169,7 +173,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/tiktok-ban-threats-2024.png",
+    "image_caption": "US Congress passes a bill forcing ByteDance to divest TikTok or face a ban, escalating geopolitical tensions over social media."
   },
   {
     "id": "ai-agents-2024",
@@ -253,7 +259,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/sora-video-2024.jpg",
+    "image_caption": "OpenAI's Sora generates photorealistic videos from text prompts, pushing AI capabilities into filmmaking and raising deepfake concerns."
   },
   {
     "id": "nvidia-dominance-2024",
@@ -296,7 +304,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/nvidia-dominance-2024.jpg",
+    "image_caption": "Nvidia briefly becomes the world's most valuable company as AI chip demand sends its stock soaring past $3 trillion."
   },
   {
     "id": "no-kings-protest-2024",
@@ -337,7 +347,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/no-kings-protest-2024.jpg",
+    "image_caption": "The 'No Kings' protest movement organizes mass demonstrations against authoritarianism, coordinated primarily through social media."
   },
   {
     "id": "brat-summer-charli-xcx-2024",
@@ -359,7 +371,9 @@
         "title": "Brat (album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Brat_(album)"
       }
-    ]
+    ],
+    "image": "/images/events/2024/brat-summer-charli-xcx-2024.png",
+    "image_caption": "Charli XCX released BRAT with a low-res slime green square, sparking an inescapable summer aesthetic."
   },
   {
     "id": "kendrick-drake-rap-feud-2024",
@@ -381,7 +395,9 @@
         "title": "Drake\u2013Kendrick Lamar feud - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Drake%E2%80%93Kendrick_Lamar_feud"
       }
-    ]
+    ],
+    "image": "/images/events/2024/kendrick-drake-rap-feud-2024.jpg",
+    "image_caption": "A high-stakes rap rivalry played out on YouTube and TikTok, concluding with the smash hit 'Not Like Us'."
   },
   {
     "id": "crowdstrike-global-it-outage-2024",
@@ -403,6 +419,8 @@
         "title": "2024 CrowdStrike-related IT outages - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
       }
-    ]
+    ],
+    "image": "/images/events/2024/crowdstrike-global-it-outage-2024.jpg",
+    "image_caption": "A faulty sensor file from cybersecurity firm CrowdStrike crashed 8.5 million Windows computers worldwide."
   }
 ]

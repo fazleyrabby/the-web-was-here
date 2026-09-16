@@ -36,7 +36,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/facebook-launch-2004.png",
+    "image_caption": "Mark Zuckerberg launches 'TheFacebook' from a Harvard dorm room, initially limited to college students."
   },
   {
     "id": "gmail-launch-2004",
@@ -75,7 +77,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/gmail-launch-2004.png",
+    "image_caption": "Google launches Gmail with 1GB of free storage, far more than rivals, on April Fools' Day so nobody believes it."
   },
   {
     "id": "firefox-1-0-2004",
@@ -113,7 +117,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/firefox-1-0-2004.png",
+    "image_caption": "Mozilla releases Firefox 1.0, the first serious open-source challenger to Internet Explorer's monopoly."
   },
   {
     "id": "world-of-warcraft-2004",
@@ -192,7 +198,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/google-ipo-2004.jpg",
+    "image_caption": "Google holds its IPO, raising $1.67 billion and turning a search engine into one of the most valuable companies on Earth."
   },
   {
     "id": "podcasting-term-2004",
@@ -231,7 +239,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/podcasting-term-2004.jpg",
+    "image_caption": "The term 'podcasting' is coined, combining 'iPod' and 'broadcasting', and a new on-demand audio format takes off."
   },
   {
     "id": "digg-launch-2004",
@@ -271,7 +281,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/digg-launch-2004.png",
+    "image_caption": "Digg launches, letting users vote stories up or down to decide what the front page of the web looks like."
   },
   {
     "id": "ubuntu-first-release-2004",
@@ -309,7 +321,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/ubuntu-first-release-2004.png",
+    "image_caption": "The first Ubuntu release ships, promising a free, friendly Linux desktop that anyone can install."
   },
   {
     "id": "web-2-0-conference-2004",
@@ -350,7 +364,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/web-2-0-conference-2004.png",
+    "image_caption": "The first Web 2.0 Conference names a shift toward user-generated content, social software, and the web as a platform."
   },
   {
     "id": "psp-launch-2004",
@@ -390,7 +406,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2004/psp-launch-2004.png",
+    "image_caption": "Sony releases the PlayStation Portable, a handheld console that also plays movies and music."
   },
   {
     "id": "motorola-razr-v3-2004",
@@ -460,6 +478,8 @@
         "title": "2004 Indian Ocean earthquake and tsunami - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
       }
-    ]
+    ],
+    "image": "/images/events/2004/indian-ocean-tsunami-2004.jpg",
+    "image_caption": "A magnitude 9.1 undersea earthquake triggered catastrophic tsunamis, claiming over 227,000 lives across 14 countries."
   }
 ]

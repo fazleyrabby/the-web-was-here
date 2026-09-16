@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/wikipedia-launch-2001.png",
+    "image_caption": "Wikipedia goes live as a free, collaboratively edited online encyclopedia, eventually becoming the largest reference work in human history."
   },
   {
     "id": "ipod-launch-2001",
@@ -166,7 +168,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/dotcom-crash-2001.png",
+    "image_caption": "The NASDAQ loses 78% of its value over the course of the year, erasing $5 trillion in market value and killing hundreds of internet companies."
   },
   {
     "id": "napster-shutdown-2001",
@@ -208,7 +212,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/napster-shutdown-2001.png",
+    "image_caption": "A federal judge orders Napster to stop sharing copyrighted music, effectively killing the service that changed the music industry forever."
   },
   {
     "id": "september-11-internet-2001",
@@ -250,7 +256,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/september-11-internet-2001.jpeg",
+    "image_caption": "The 9/11 attacks make the internet a primary news source for the first time, as millions turn to websites for real-time information."
   },
   {
     "id": "flash-animation-era-2001",
@@ -292,7 +300,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/flash-animation-era-2001.png",
+    "image_caption": "Macromedia Flash becomes the dominant platform for web animation, games, and interactive content, defining internet culture for years."
   },
   {
     "id": "instant-messenger-wars-2001",
@@ -333,7 +343,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/instant-messenger-wars-2001.png",
+    "image_caption": "AIM, MSN Messenger, ICQ, and Yahoo Messenger battle for dominance in the instant messaging space, with no single winner emerging."
   },
   {
     "id": "xbox-launch-2001",
@@ -376,7 +388,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/xbox-launch-2001.png",
+    "image_caption": "Microsoft launches the Xbox in North America, entering the console market with a $200 box and a killer app called Halo."
   },
   {
     "id": "halo-combat-evolved-xbox-2001",
@@ -422,7 +436,9 @@
         "title": "Apple Store - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Apple_Store"
       }
-    ]
+    ],
+    "image": "/images/events/2001/apple-first-retail-stores-2001.png",
+    "image_caption": "Steve Jobs opened Apple's first retail stores in Virginia and California, defying predictions of failure."
   },
   {
     "id": "low-rise-jeans-y2k-fashion-2001",
