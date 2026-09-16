@@ -96,19 +96,19 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
       </div>
     </footer>
 
-    <!-- Bottom-Left HUD: Creator Badge & Support Me Button (matching spot) -->
+    <!-- Bottom-Left HUD: Creator Badge & Support Me Button (brutalist theme) -->
     <div class="hud-bottom-left" id="hud-bottom-left">
       <div class="hud-actions">
         <a
-          href="https://fazleyrabbi.me"
+          href="https://fazleyrabbi.xyz"
           target="_blank"
           rel="noopener noreferrer"
-          class="creator-badge glass-panel"
+          class="creator-badge"
           aria-label="Made by fazleyrabbi"
           id="creator-badge-link"
         >
           <span class="creator-badge__icon" aria-hidden="true">
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="var(--bark)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
             </svg>
           </span>
@@ -118,8 +118,8 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
           </span>
         </a>
 
-        <button type="button" class="support-btn glass-panel" id="btn-open-support" title="Support creator & development">
-          <svg class="coffee-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <button type="button" class="support-btn" id="btn-open-support" title="Support creator & development">
+          <svg class="coffee-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
             <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
             <line x1="6" y1="1" x2="6" y2="4"></line>
@@ -349,7 +349,7 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
     .js .scroll-reveal.revealed, .js .scroll-reveal-card.revealed { animation: none; }
   }
 
-  /* ===== HUD BOTTOM-LEFT: CREATOR BADGE & SUPPORT BUTTON ===== */
+  /* ===== HUD BOTTOM-LEFT: BRUTALIST BUTTON CLUSTER ===== */
   .hud-bottom-left {
     position: fixed;
     bottom: max(20px, calc(env(safe-area-inset-bottom, 0px) + 20px));
@@ -358,141 +358,136 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
     pointer-events: auto;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
 
   .hud-actions {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
 
-  /* Creator Badge */
+  /* Brutalist Creator Badge */
   .creator-badge {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
-    height: 34px;
-    padding: 0 10px;
+    gap: 6px;
+    height: 36px;
+    padding: 0 12px;
     box-sizing: border-box;
-    background: rgba(14, 18, 28, 0.88);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+    background: var(--bg-card);
+    border: 2.5px solid var(--bark);
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 var(--bark);
     text-decoration: none;
-    color: #94a3b8;
-    font-family: var(--font-body, system-ui, sans-serif);
+    color: var(--bark);
+    font-family: var(--font-mono);
     white-space: nowrap;
     flex-shrink: 0;
-    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.15s var(--ease-bounce), box-shadow 0.15s var(--ease-bounce), background 0.15s;
     user-select: none;
   }
 
   .creator-badge:hover {
-    border-color: rgba(245, 158, 11, 0.4);
-    background: rgba(24, 30, 46, 0.95);
-    color: #f8fafc;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    background: var(--yellow);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--bark);
+  }
+
+  .creator-badge:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0 var(--bark);
   }
 
   .creator-badge__icon {
     display: inline-flex;
     align-items: center;
-    color: #f59e0b;
-    opacity: 0.95;
+    color: var(--yellow);
     flex-shrink: 0;
-    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 0.2s var(--ease-bounce);
   }
 
   .creator-badge:hover .creator-badge__icon {
-    transform: scale(1.2);
+    transform: scale(1.25) rotate(-8deg);
+    color: var(--bark);
   }
 
   .creator-badge__text {
     display: inline-flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 4px;
+    gap: 5px;
     line-height: 1;
   }
 
   .creator-badge__label {
     font-size: 0.65rem;
-    font-weight: 500;
-    letter-spacing: 0.04em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #64748b;
+    color: var(--text-muted);
     line-height: 1;
-    transition: color 0.2s ease;
+    transition: color 0.15s;
   }
 
   .creator-badge:hover .creator-badge__label {
-    color: rgba(245, 158, 11, 0.85);
+    color: var(--bark);
   }
 
   .creator-badge__name {
     font-size: 0.76rem;
-    font-weight: 600;
-    color: #cbd5e1;
+    font-weight: 700;
+    color: var(--bark);
     line-height: 1;
-    transition: color 0.2s ease;
+    letter-spacing: 0.02em;
   }
 
-  .creator-badge:hover .creator-badge__name {
-    color: #ffffff;
-  }
-
-  /* Support Button */
+  /* Brutalist Support Button */
   .support-btn {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    height: 34px;
-    padding: 0 12px;
+    height: 36px;
+    padding: 0 13px;
     box-sizing: border-box;
-    border-radius: 8px;
-    font-family: var(--font-body, system-ui, sans-serif);
-    font-size: 0.78rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     line-height: 1;
-    color: #e2e8f0;
-    background: rgba(14, 18, 28, 0.88);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
+    color: var(--bark);
+    background: var(--yellow);
+    border: 2.5px solid var(--bark);
+    box-shadow: 3px 3px 0 var(--bark);
     text-decoration: none;
     pointer-events: auto;
-    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+    transition: transform 0.15s var(--ease-bounce), box-shadow 0.15s var(--ease-bounce), background 0.15s;
     cursor: pointer;
     user-select: none;
   }
 
   .support-btn:hover {
-    color: #fbbf24;
-    background: rgba(24, 30, 46, 0.95);
-    border-color: rgba(245, 158, 11, 0.4);
-    box-shadow: 0 8px 22px rgba(245, 158, 11, 0.22), inset 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    transform: translateY(-2px);
+    background: #ffe066;
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--bark);
   }
 
   .support-btn:active {
-    transform: translateY(0);
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0 var(--bark);
   }
 
   .coffee-icon {
-    color: #f59e0b;
+    color: var(--bark);
     flex-shrink: 0;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s var(--ease-bounce);
   }
 
   .support-btn:hover .coffee-icon {
-    transform: rotate(-10deg) scale(1.18);
+    transform: rotate(-12deg) scale(1.2);
   }
 
   @media (max-width: 520px) {
@@ -505,9 +500,9 @@ const { title = "The Web Was Here", description = "A living archive of the Inter
       display: none;
     }
     .creator-badge, .support-btn {
-      height: 32px;
+      height: 34px;
       padding: 0 10px;
-      font-size: 0.74rem;
+      font-size: 0.72rem;
     }
   }
 
