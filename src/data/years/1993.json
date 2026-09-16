@@ -5,14 +5,18 @@
   "era": "foundation",
   "narrative": "Mosaic puts images on the same page as text and the Web becomes something you want to look at. The number of servers grows 300-fold in a year. Windows 3.1 lands on desks everywhere, and the browser stops being a research tool and starts being a habit.",
   "felt_like": {
-    "os": "Windows 3.1 / Mac System 7",
-    "browser": "NCSA Mosaic",
-    "messenger": "IRC / Talk",
-    "social_network": "Usenet newsgroups",
-    "music": "Audio CDs / Winamp not yet",
-    "phone": "Landline / brick mobile",
-    "video": "Cable TV / VHS",
-    "website": "gray background, blue underlined links, maybe one inline GIF"
+    "os": "Windows 3.11 for Workgroups / MS-DOS 6.2",
+    "browser": "NCSA Mosaic 1.0 / Lynx / Cello",
+    "messenger": "IRC / Local BBS chat / University talk",
+    "social_network": "Usenet alt.* hierarchies",
+    "music": "Snoop Dogg, Wu-Tang Clan, Nirvana Unplugged, Pearl Jam",
+    "phone": "Motorola flip phone & translucent alphanumeric pagers",
+    "video": "VHS tapes & cathode-ray tube TVs with built-in VCRs",
+    "website": "Grey backgrounds with inline <img> tags in Mosaic",
+    "fashion": "Baggy overalls with one strap unbuckled, skater hoodies, backward ballcaps",
+    "gadget": "Apple Newton MessagePad & Sega Game Gear",
+    "news": "European Union established (Maastricht Treaty); World Trade Center bombing",
+    "culture": "Jurassic Park CGI revolution; The X-Files premieres"
   },
   "events": [
     "mosaic-browser-1993",
@@ -23,6 +27,9 @@
     "online-gambling-first-1993",
     "first-web-directory-1993",
     "interNIC-established-1993",
-    "mcnc-ncsa-mosaic-publicity-1993"
+    "mcnc-ncsa-mosaic-publicity-1993",
+    "cern-public-domain-web-1993",
+    "doom-shareware-multiplayer-1993",
+    "jurassic-park-cgi-revolution-1993"
   ]
 }

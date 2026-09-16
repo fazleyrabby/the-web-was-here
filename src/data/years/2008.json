@@ -5,14 +5,18 @@
   "era": "web-2",
   "narrative": "Chrome reinvents the browser. Android launches. The App Store opens. Bitcoin is born. The financial crisis forces tech to get lean. The foundations of the mobile-first world are laid in a single year.",
   "felt_like": {
-    "os": "Windows Vista / Mac OS X Leopard",
-    "browser": "Chrome (just launched) / Firefox 3",
-    "messenger": "MSN Messenger / Skype",
-    "social_network": "Facebook / MySpace (declining)",
-    "music": "iPod / Spotify (just in UK)",
-    "phone": "iPhone 3G / HTC Dream (first Android)",
-    "video": "YouTube",
-    "website": "probably had a Facebook app requesting your data"
+    "os": "Windows Vista Service Pack 1 / Mac OS X 10.5 Leopard",
+    "browser": "Google Chrome (brand new comic book launch!) / Firefox 3",
+    "messenger": "AIM / MSN / BBM (BlackBerry Messenger PIN)",
+    "social_network": "Facebook (surpasses MySpace) / Twitter / Tumblr",
+    "music": "Lady Gaga 'Just Dance', Katy Perry, Coldplay 'Viva La Vida', iPod Touch",
+    "phone": "iPhone 3G (plastic back, App Store!) / BlackBerry Curve / T-Mobile G1",
+    "video": "Hulu, YouTube 720p HD option, Netflix on Xbox 360",
+    "website": "Clean typography, CSS rounded corners (-webkit-border-radius), microblogging widgets",
+    "fashion": "Kanye shutter shades, keffiyeh scarves, band tees with blazers, gladiator sandals",
+    "gadget": "Apple iPhone 3G (with App Store) & First Android Phone (HTC Dream)",
+    "news": "Global Financial Crisis & Lehman Brothers collapse; Barack Obama elected US President",
+    "culture": "The Dark Knight (Heath Ledger's Joker); Twilight vampire mania"
   },
   "events": [
     "chrome-launch-2008",
@@ -24,6 +28,9 @@
     "facebook-platform-2008",
     "myspace-decline-2008",
     "obama-campaign-tech-2008",
-    "android-market-2008"
+    "android-market-2008",
+    "lehman-brothers-financial-crisis-2008",
+    "lady-gaga-the-fame-2008",
+    "shutter-shades-keffiyeh-streetwear-2008"
   ]
 }

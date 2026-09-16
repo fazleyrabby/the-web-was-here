@@ -5,14 +5,18 @@
   "era": "mobile-era",
   "narrative": "Instagram launches and takes over photography. The iPad creates the tablet market. Responsive web design becomes essential. Android overtakes iPhone. Facebook reaches 500 million users. The web goes mobile-first.",
   "felt_like": {
-    "os": "Windows 7 / Mac OS X Snow Leopard",
-    "browser": "Chrome / Firefox",
-    "messenger": "WhatsApp / Facebook Chat",
-    "social_network": "Facebook / Twitter",
-    "music": "Spotify / iTunes",
-    "phone": "iPhone 4 / Samsung Galaxy S",
-    "video": "YouTube / Netflix streaming",
-    "website": "responsive layouts were still new"
+    "os": "Windows 7 / Mac OS X 10.6 Snow Leopard / iOS 4",
+    "browser": "Google Chrome / Safari / Firefox 3.6",
+    "messenger": "WhatsApp (early) / BBM / Facebook Chat",
+    "social_network": "Facebook (surpasses 500M) / Twitter / Tumblr / early Instagram",
+    "music": "Katy Perry 'Teenage Dream', Kesha 'TiK ToK', Eminem 'Recovery'",
+    "phone": "iPhone 4 (Retina Display, glass back) & HTC Evo 4G",
+    "video": "YouTube 1080p, Netflix streaming on PS3 & Wii",
+    "website": "Responsive web design, CSS3 animations, flat UI beginnings",
+    "fashion": "Hipster mustache motifs, peplum tops, statement necklaces, Toms shoes, colored skinny jeans",
+    "gadget": "Apple iPad (original) & iPhone 4",
+    "news": "Deepwater Horizon oil spill; Haiti earthquake; WikiLeaks Afghan war logs",
+    "culture": "The Social Network movie; Inception spinning top debate; One Direction forms"
   },
   "events": [
     "instagram-launch-2010",
@@ -24,6 +28,9 @@
     "whatsapp-2010",
     "social-network-movie-2010",
     "bitcoin-2010",
-    "apple-antenna-2010"
+    "apple-antenna-2010",
+    "ipad-original-launch-2010",
+    "deepwater-horizon-haiti-2010",
+    "katy-perry-teenage-dream-2010"
   ]
 }

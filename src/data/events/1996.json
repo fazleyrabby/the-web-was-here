@@ -4,16 +4,32 @@
     "title": "CSS1 Specification Published",
     "year": 1996,
     "date": "1996-12-17",
-    "category": ["standards", "web"],
+    "category": [
+      "standards",
+      "web"
+    ],
     "type": "standardization",
     "summary": "The W3C publishes Cascading Style Sheets Level 1, separating content from presentation for the first time.",
-    "narrative": "Before CSS, if you wanted to make text red, you used <font color='red'> inside your HTML. Every page was a mess of inline styles. Håkon Wium Lie and Bert Bos propose a radical idea: what if the look of a page was separate from its content? The W3C publishes CSS1 on December 17, 1996. It's buggy. Browser support is terrible. Netscape ignores it. But the idea is revolutionary. Separation of concerns. Content in HTML. Presentation in CSS. This changes everything.",
+    "narrative": "Before CSS, if you wanted to make text red, you used <font color='red'> inside your HTML. Every page was a mess of inline styles. H\u00e5kon Wium Lie and Bert Bos propose a radical idea: what if the look of a page was separate from its content? The W3C publishes CSS1 on December 17, 1996. It's buggy. Browser support is terrible. Netscape ignores it. But the idea is revolutionary. Separation of concerns. Content in HTML. Presentation in CSS. This changes everything.",
     "why_it_matters": "CSS separated content from presentation, enabling responsive design, accessibility, and the modern web. It remains the foundation of web styling today.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["css2-1998", "responsive-design-2010", "css-frameworks", "web-accessibility"],
-    "tags": ["css", "w3c", "style", "web-standards", "hakon-wium-lie"],
-    "region": ["global"],
+    "influence": [
+      "css2-1998",
+      "responsive-design-2010",
+      "css-frameworks",
+      "web-accessibility"
+    ],
+    "tags": [
+      "css",
+      "w3c",
+      "style",
+      "web-standards",
+      "hakon-wium-lie"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Cascading Style Sheets",
@@ -29,16 +45,32 @@
     "title": "ICQ Reaches 5 Million Users",
     "year": 1996,
     "date": "1996-06-01",
-    "category": ["communication", "software"],
+    "category": [
+      "communication",
+      "software"
+    ],
     "type": "cultural_event",
     "summary": "ICQ explodes in popularity, reaching 5 million users and making instant messaging a mainstream phenomenon.",
-    "narrative": "ICQ hits 5 million registered users by mid-1996. The 'uh oh' sound is everywhere. People stay up all night chatting with strangers. The buddy list — this list of people you can reach right now — is a new concept. You don't email someone and wait. You check if they're green. If they're there, you talk. This is the beginning of always-on communication. America Online takes notice. They'll launch AIM in 1997.",
+    "narrative": "ICQ hits 5 million registered users by mid-1996. The 'uh oh' sound is everywhere. People stay up all night chatting with strangers. The buddy list \u2014 this list of people you can reach right now \u2014 is a new concept. You don't email someone and wait. You check if they're green. If they're there, you talk. This is the beginning of always-on communication. America Online takes notice. They'll launch AIM in 1997.",
     "why_it_matters": "ICQ proved that real-time messaging was what people wanted. It created the presence model (online/offline status) that every chat app uses today.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["aim-1997", "msn-messenger-1999", "online-presence", "chat-culture"],
-    "tags": ["icq", "instant-messaging", "presence", "online-status", "mirabilis"],
-    "region": ["global"],
+    "influence": [
+      "aim-1997",
+      "msn-messenger-1999",
+      "online-presence",
+      "chat-culture"
+    ],
+    "tags": [
+      "icq",
+      "instant-messaging",
+      "presence",
+      "online-status",
+      "mirabilis"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "ICQ",
@@ -54,16 +86,32 @@
     "title": "Hotmail Launches Free Web Email",
     "year": 1996,
     "date": "1996-07-04",
-    "category": ["communication", "business"],
+    "category": [
+      "communication",
+      "business"
+    ],
     "type": "platform_launch",
     "summary": "Sabeer Bhatia and Jack Smith launch Hotmail, the first free web-based email service, changing how people think about email.",
-    "narrative": "Sabeer Bhatia and Jack Smith want to access email from any computer. Not just their work machine. They build a web-based email service and launch it on July 4, 1996 — Independence Day. The tagline: 'Free, private, secure email that's always available.' Within 18 months, Hotmail has 12 million users. The trick? Every outgoing email has a footer: 'Get your free email at Hotmail.' Viral marketing before anyone called it that. Microsoft buys them for $400 million.",
+    "narrative": "Sabeer Bhatia and Jack Smith want to access email from any computer. Not just their work machine. They build a web-based email service and launch it on July 4, 1996 \u2014 Independence Day. The tagline: 'Free, private, secure email that's always available.' Within 18 months, Hotmail has 12 million users. The trick? Every outgoing email has a footer: 'Get your free email at Hotmail.' Viral marketing before anyone called it that. Microsoft buys them for $400 million.",
     "why_it_matters": "Hotmail proved email didn't need desktop software. It pioneered web-based email and viral marketing. It changed how people think about accessing their data from anywhere.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["gmail-2004", "yahoo-mail", "web-email", "viral-marketing"],
-    "tags": ["hotmail", "email", "free-email", "web-based", "microsoft"],
-    "region": ["global"],
+    "influence": [
+      "gmail-2004",
+      "yahoo-mail",
+      "web-email",
+      "viral-marketing"
+    ],
+    "tags": [
+      "hotmail",
+      "email",
+      "free-email",
+      "web-based",
+      "microsoft"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Hotmail",
@@ -79,16 +127,32 @@
     "title": "WebTV Launches",
     "year": 1996,
     "date": "1996-09-18",
-    "category": ["hardware", "web"],
+    "category": [
+      "hardware",
+      "web"
+    ],
     "type": "technology_release",
     "summary": "WebTV launches, allowing people to browse the internet on their television sets using a set-top box and remote control.",
     "narrative": "Steve Perlman and Bruce Leak build a set-top box that connects your TV to the internet. No computer needed. Just a box, a phone line, and a remote. WebTV costs $199 plus $19.95/month. It's clunky. It's slow. It's revolutionary. For the first time, your parents can check email without understanding what a computer is. Microsoft buys WebTV for $425 million in 1997 and renames it MSN TV. The dream of internet-on-TV won't really happen until Roku and Apple TV, decades later.",
     "why_it_matters": "WebTV was the first serious attempt to bring the internet to the living room. It foreshadowed smart TVs, streaming boxes, and the convergence of internet and television.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["smart-tv", "apple-tv-2007", "roku-2008", "internet-television"],
-    "tags": ["webtv", "set-top-box", "television", "internet", "microsoft"],
-    "region": ["usa"],
+    "influence": [
+      "smart-tv",
+      "apple-tv-2007",
+      "roku-2008",
+      "internet-television"
+    ],
+    "tags": [
+      "webtv",
+      "set-top-box",
+      "television",
+      "internet",
+      "microsoft"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "WebTV",
@@ -104,16 +168,33 @@
     "title": "RealPlayer 1.0 Released",
     "year": 1996,
     "date": "1996-04-01",
-    "category": ["software", "media"],
+    "category": [
+      "software",
+      "media"
+    ],
     "type": "technology_release",
     "summary": "Progressive Networks releases RealPlayer, the first major streaming media player for audio and video over the internet.",
-    "narrative": "Rob Glaser leaves Microsoft to build something he calls Progressive Networks. The product: RealAudio. You can listen to live radio over the internet. The first broadcast is a baseball game — a Seattle Mariners game on June 5, 1995. By 1996, RealPlayer 1.0 launches with video support. It buffers. It pixelates. It's glorious. You're watching a live video from another continent on your 28.8k modem. The future is here. It just needs more bandwidth.",
+    "narrative": "Rob Glaser leaves Microsoft to build something he calls Progressive Networks. The product: RealAudio. You can listen to live radio over the internet. The first broadcast is a baseball game \u2014 a Seattle Mariners game on June 5, 1995. By 1996, RealPlayer 1.0 launches with video support. It buffers. It pixelates. It's glorious. You're watching a live video from another continent on your 28.8k modem. The future is here. It just needs more bandwidth.",
     "why_it_matters": "RealPlayer pioneered streaming media. It proved that audio and video could be delivered over the internet in real time, laying the groundwork for YouTube, Netflix, and Spotify.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["youtube-streaming-2005", "netflix-streaming-2007", "spotify-2008", "live-streaming"],
-    "tags": ["realplayer", "streaming", "audio", "video", "realnetworks"],
-    "region": ["usa", "global"],
+    "influence": [
+      "youtube-streaming-2005",
+      "netflix-streaming-2007",
+      "spotify-2008",
+      "live-streaming"
+    ],
+    "tags": [
+      "realplayer",
+      "streaming",
+      "audio",
+      "video",
+      "realnetworks"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "RealPlayer",
@@ -129,16 +210,32 @@
     "title": "Frames and the Ugly Web",
     "year": 1996,
     "date": "1996-01-01",
-    "category": ["web", "design"],
+    "category": [
+      "web",
+      "design"
+    ],
     "type": "cultural_event",
     "summary": "HTML frames become popular, creating multi-pane websites that break the back button and confuse everyone.",
     "narrative": "Web designers discover <frameset> and lose their minds. Suddenly every website has a navigation frame on the left, a content frame in the middle, and a banner frame on top. The back button stops working. Printing pages becomes impossible. Linking to specific content is a nightmare. The 'Click here to enter our site' frameset becomes an icon of the mid-90s web. It's a terrible idea. But it's the only way to have persistent navigation. CSS and server-side includes will eventually fix this.",
     "why_it_matters": "Frames demonstrated the limits of early HTML. They showed that the web needed better layout mechanisms, directly motivating CSS development and server-side templating.",
     "impact": 2,
     "nostalgia": 4,
-    "influence": ["css1-1996", "server-side-includes", "ajax-2005", "single-page-apps"],
-    "tags": ["frames", "html", "web-design", "navigation", "user-experience"],
-    "region": ["global"],
+    "influence": [
+      "css1-1996",
+      "server-side-includes",
+      "ajax-2005",
+      "single-page-apps"
+    ],
+    "tags": [
+      "frames",
+      "html",
+      "web-design",
+      "navigation",
+      "user-experience"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Frameset",
@@ -154,16 +251,32 @@
     "title": "Bobby Web Accessibility Checker",
     "year": 1996,
     "date": "1996-01-01",
-    "category": ["standards", "software"],
+    "category": [
+      "standards",
+      "software"
+    ],
     "type": "technology_release",
     "summary": "The Center for Applied Special Technology releases Bobby, the first automated tool for checking web accessibility.",
     "narrative": "Before Bobby, nobody thought about whether blind people could use websites. The Center for Applied Special Technology builds a tool that checks your HTML and tells you what's broken for people with disabilities. It's named after a character who asks 'Can you use this?' Bobby shows that most of the web is inaccessible. Alt text missing. Forms without labels. Low contrast. The web accessibility movement begins. It will take decades to get traction.",
     "why_it_matters": "Bobby was the first tool to make web accessibility testable at scale. It laid the groundwork for WCAG standards and the accessibility-first design philosophy.",
     "impact": 3,
     "nostalgia": 2,
-    "influence": ["wcag-1.0-1999", "section-508", "web-accessibility", "a11y-movement"],
-    "tags": ["accessibility", "bobby", "cast", "web-standards", "disability"],
-    "region": ["usa"],
+    "influence": [
+      "wcag-1.0-1999",
+      "section-508",
+      "web-accessibility",
+      "a11y-movement"
+    ],
+    "tags": [
+      "accessibility",
+      "bobby",
+      "cast",
+      "web-standards",
+      "disability"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Web accessibility",
@@ -179,16 +292,32 @@
     "title": "Animated GIF Renaissance",
     "year": 1996,
     "date": "1996-01-01",
-    "category": ["culture", "media"],
+    "category": [
+      "culture",
+      "media"
+    ],
     "type": "cultural_event",
     "summary": "Animated GIFs become the dominant form of web expression, decorating millions of GeoCities and Angelfire pages.",
     "narrative": "The GIF format dates back to 1987, but in 1996 it becomes the language of the web. Animated fire, spinning logos, construction worker GIFs, dancing baby. Your GeoCities page isn't complete without at least seven animated GIFs. They slow down your page load. They make pages unreadable. They're also the most expressive thing the web has ever seen. You can't write animation in HTML. But you can embed a GIF. The web gets loud, colorful, and alive.",
     "why_it_matters": "Animated GIFs were the first form of web-native creative expression. They proved that visual communication was more powerful than text. The format is still dominant 30 years later.",
     "impact": 3,
     "nostalgia": 5,
-    "influence": ["giphy-2013", "reaction-gifs", "meme-culture", "web-design-evolution"],
-    "tags": ["gif", "animated", "web-design", "geocities", "expression"],
-    "region": ["global"],
+    "influence": [
+      "giphy-2013",
+      "reaction-gifs",
+      "meme-culture",
+      "web-design-evolution"
+    ],
+    "tags": [
+      "gif",
+      "animated",
+      "web-design",
+      "geocities",
+      "expression"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Animated GIF",
@@ -204,16 +333,32 @@
     "title": "JavaScript Ships with Netscape Navigator 2.0",
     "year": 1996,
     "date": "1996-03-01",
-    "category": ["software", "web"],
+    "category": [
+      "software",
+      "web"
+    ],
     "type": "technology_release",
     "summary": "Netscape Navigator 2.0 includes JavaScript, giving web pages interactivity and launching the most popular programming language in history.",
-    "narrative": "Brendan Eich builds JavaScript in 10 days at Netscape. He calls it Mocha, then LiveScript, then JavaScript — a marketing trick to ride Java's coattails. When Netscape 2.0 ships in March 1996, JavaScript is built in. You can now validate forms, create rollover effects, and build dynamic pages without any server round-trip. It's slow. It's inconsistent across browsers. It's the beginning of the interactive web. In 20 years, it will be the most widely used programming language on Earth.",
+    "narrative": "Brendan Eich builds JavaScript in 10 days at Netscape. He calls it Mocha, then LiveScript, then JavaScript \u2014 a marketing trick to ride Java's coattails. When Netscape 2.0 ships in March 1996, JavaScript is built in. You can now validate forms, create rollover effects, and build dynamic pages without any server round-trip. It's slow. It's inconsistent across browsers. It's the beginning of the interactive web. In 20 years, it will be the most widely used programming language on Earth.",
     "why_it_matters": "JavaScript brought interactivity to the web without plugins. It became the foundation of modern web development, Node.js, and the entire frontend ecosystem.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["ajax-2005", "jquery-2006", "nodejs-2009", "react-2013"],
-    "tags": ["javascript", "netscape", "brendan-eich", "programming", "interactive-web"],
-    "region": ["global"],
+    "influence": [
+      "ajax-2005",
+      "jquery-2006",
+      "nodejs-2009",
+      "react-2013"
+    ],
+    "tags": [
+      "javascript",
+      "netscape",
+      "brendan-eich",
+      "programming",
+      "interactive-web"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "JavaScript",
@@ -221,6 +366,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nintendo-64-mario-64-1996",
+    "title": "Nintendo 64 Launches with 'Super Mario 64'",
+    "year": 1996,
+    "date": "1996-06-23",
+    "category": [
+      "gadget",
+      "gaming"
+    ],
+    "type": "launch",
+    "summary": "Nintendo released the N64 featuring an analog thumbstick and the groundbreaking 3D masterpiece Super Mario 64.",
+    "narrative": "Shigeru Miyamoto didn't just translate Mario to 3D; he invented the camera system, fluid analog movement, and open-ended playground exploration that defined all modern third-person action games. From triple jumps outside Princess Peach's castle to four-player couch multiplayer in GoldenEye 007, the N64 made living rooms the epicenter of social gaming.",
+    "why_it_matters": "Super Mario 64 established the rules of 3D spatial navigation, camera control, and momentum in video games that are still standard today.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Nintendo 64 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_64"
+      }
+    ]
+  },
+  {
+    "id": "spice-girls-girl-power-1996",
+    "title": "Spice Girls Unleash 'Wannabe' & the 'Girl Power' Wave",
+    "year": 1996,
+    "date": "1996-07-08",
+    "category": [
+      "music",
+      "fashion"
+    ],
+    "type": "cultural_shift",
+    "summary": "Posh, Baby, Scary, Sporty, and Ginger Spice topped charts in 37 countries with their debut single 'Wannabe'.",
+    "narrative": "Bursting onto hotel banisters in the iconic one-shot music video, the Spice Girls brought unapologetic female friendship, high-energy pop, and distinct individual personas to global youth. Merchandising followed instantly: Union Jack dresses, platform Buffalo sneakers, Chupa Chups lollipops, and Polaroid cameras. 'Girl Power' became the defining feminist pop slogan of the decade.",
+    "why_it_matters": "The Spice Girls spearheaded the late-90s teen pop explosion, reviving British pop culture globally in a phenomenon nicknamed 'Spicemania'.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Wannabe (song) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wannabe_(song)"
+      }
+    ]
+  },
+  {
+    "id": "dolly-the-sheep-cloned-1996",
+    "title": "Dolly the Sheep Cloned at Roslin Institute",
+    "year": 1996,
+    "date": "1996-07-05",
+    "category": [
+      "science",
+      "news"
+    ],
+    "type": "milestone",
+    "summary": "Scientists in Scotland successfully cloned the first mammal from an adult somatic cell.",
+    "narrative": "Born at the Roslin Institute near Edinburgh, a Finn-Dorset sheep named Dolly shattered long-held scientific dogma that adult specialized cells could not be reprogrammed to create an entirely new living creature. When the news went public, it sparked global debate on genetics, ethics, stem cell research, and the potential cloning of human beings.",
+    "why_it_matters": "Dolly was hailed as one of the century's great scientific breakthroughs, opening the door to modern stem cell therapeutics and regenerative medicine.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Dolly (sheep) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
       }
     ]
   }

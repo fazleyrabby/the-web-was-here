@@ -5,25 +5,32 @@
   "era": "web-expansion",
   "narrative": "The term 'Web 2.0' enters the vocabulary. YouTube is born. MySpace becomes a cultural phenomenon. Google Maps changes how we see the world. The internet stops being a place you visit and starts being a place you participate in.",
   "felt_like": {
-    "os": "Windows XP",
-    "browser": "Firefox 1.0 / Internet Explorer 6",
-    "messenger": "MSN Messenger / AIM",
-    "social_network": "MySpace / Friendster",
-    "music": "iPod / iTunes / Napster",
-    "phone": "Nokia 3310 / Motorola RAZR",
-    "video": "YouTube (just launched)",
-    "website": "probably had a blog on Blogger or LiveJournal"
+    "os": "Windows XP Media Center / Mac OS X 10.4 Tiger (Dashboard widgets)",
+    "browser": "Firefox 1.5 / Internet Explorer 6",
+    "messenger": "AIM 5.9 / MSN Messenger 7.5 (nudges, winks) / Skype",
+    "social_network": "MySpace (custom HTML, music autoplay) / Facebook (expanding to high schools)",
+    "music": "iPod video with 5G click wheel, Fall Out Boy, Green Day, Gorillaz 'Feel Good Inc.'",
+    "phone": "Motorola RAZR / T-Mobile Sidekick II / Sony Ericsson Walkman phone",
+    "video": "YouTube (early grainy 320x240 uploads) & video iPod",
+    "website": "MySpace profiles with embedded songs, glittering text, top 8 friends",
+    "fashion": "Scene hair with flat-ironed side-swept bangs, skinny black jeans, checkerboard Vans, studded belts",
+    "gadget": "Xbox 360 (first HD console) & Apple iPod Nano (pencil-thin)",
+    "news": "Hurricane Katrina devastates New Orleans; London 7/7 bombings",
+    "culture": "Brokeback Mountain, Star Wars Episode III: Revenge of the Sith, The Office US debuts"
   },
   "events": [
     "youtube-launch-2005",
-    "myspace-news-corp-2005",
     "google-maps-2005",
+    "myspace-news-corp-2005",
     "reddit-launch-2005",
     "web2-0-term-2005",
     "flickr-yahoo-2005",
     "google-earth-2005",
     "million-dollar-homepage-2005",
     "firefox-growth-2005",
-    "podcasting-rise-2005"
+    "podcasting-rise-2005",
+    "xbox-360-hd-gaming-2005",
+    "hurricane-katrina-devastation-2005",
+    "scene-emo-myspace-subculture-2005"
   ]
 }

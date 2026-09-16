@@ -4,16 +4,31 @@
     "title": "Netscape Founded",
     "year": 1994,
     "date": "1994-04-04",
-    "category": ["software", "business", "standards"],
+    "category": [
+      "software",
+      "business",
+      "standards"
+    ],
     "type": "company_launch",
     "summary": "Marc Andreessen and Jim Clark found Mosaic Communications, later renamed Netscape, to build a commercial web browser.",
     "narrative": "The man who helped build Mosaic leaves the university and starts a company to sell the web. They call it Netscape. Within a year they ship a browser that runs circles around everything else, go public, and briefly become worth more than many established companies. It is the first time the web feels like a gold rush.",
     "why_it_matters": "Turned the browser into a commercial product and ignited the first browser war. Created the template for the fast-moving Internet company.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["ie-wins-browser-war-1998", "javascript-1995"],
-    "tags": ["netscape", "browser", "mosaic", "silicon-valley"],
-    "region": ["usa", "global"],
+    "influence": [
+      "ie-wins-browser-war-1998",
+      "javascript-1995"
+    ],
+    "tags": [
+      "netscape",
+      "browser",
+      "mosaic",
+      "silicon-valley"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Netscape",
@@ -29,16 +44,31 @@
     "title": "The First Banner Ad",
     "year": 1994,
     "date": "1994-10-27",
-    "category": ["business", "media", "culture"],
+    "category": [
+      "business",
+      "media",
+      "culture"
+    ],
     "type": "business_milestone",
     "summary": "AT&T runs the first clickable banner ad on HotWired, the web's first commercial magazine.",
     "narrative": "A tiny rectangle at the top of a new online magazine asks: 'Have you ever clicked your mouse right here? You will.' It was an ad for AT&T. About 44 percent of people who saw it clicked. Nobody knew it yet, but the entire business model of the free web was born in that box.",
     "why_it_matters": "Invented the display ad and the ad-supported web. Set the terms for how most online content would be funded for the next three decades.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["google-ads-2000", "ad-blockers-2000s"],
-    "tags": ["advertising", "hotwired", "att", "business-model"],
-    "region": ["usa", "global"],
+    "influence": [
+      "google-ads-2000",
+      "ad-blockers-2000s"
+    ],
+    "tags": [
+      "advertising",
+      "hotwired",
+      "att",
+      "business-model"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Web banner",
@@ -54,16 +84,31 @@
     "title": "Yahoo! Founded",
     "year": 1994,
     "date": "1994-01-01",
-    "category": ["search", "business", "culture"],
+    "category": [
+      "search",
+      "business",
+      "culture"
+    ],
     "type": "company_launch",
     "summary": "Jerry Yang and David Filo start a hand-curated directory of the web called 'Jerry and David's Guide to the World Wide Web'.",
     "narrative": "Two Stanford students start keeping a list of their favorite websites. The list gets too long, so they organize it into categories. It becomes Yahoo!, the front door to the Internet for a generation. For years, humans, not algorithms, decided what the web was worth finding.",
     "why_it_matters": "Made the web navigable for ordinary people. Popularized the portal and the curated directory before search engines took over.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["google-founding-1998", "portal-era-1997"],
-    "tags": ["yahoo", "directory", "portal", "stanford"],
-    "region": ["usa", "global"],
+    "influence": [
+      "google-founding-1998",
+      "portal-era-1997"
+    ],
+    "tags": [
+      "yahoo",
+      "directory",
+      "portal",
+      "stanford"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Yahoo!",
@@ -79,16 +124,30 @@
     "title": "Lycos Search Engine Launches",
     "year": 1994,
     "date": "1994-05-01",
-    "category": ["search", "software"],
+    "category": [
+      "search",
+      "software"
+    ],
     "type": "technology_release",
     "summary": "Carnegie Mellon's Lycos search engine goes live and quickly becomes one of the largest indexes on the web.",
     "narrative": "Before Google, before even AltaVista, there was Lycos. It crawled millions of pages when that number still felt impossibly large, and it proved that search could be a business. It was the first search engine many people ever used by name.",
     "why_it_matters": "One of the first successful web search engines. Helped establish search as the core function of the web.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["altavista-1995", "google-founding-1998"],
-    "tags": ["lycos", "search", "crawler", "carnegie-mellon"],
-    "region": ["usa", "global"],
+    "influence": [
+      "altavista-1995",
+      "google-founding-1998"
+    ],
+    "tags": [
+      "lycos",
+      "search",
+      "crawler",
+      "carnegie-mellon"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Lycos",
@@ -104,16 +163,30 @@
     "title": "The W3C Is Founded",
     "year": 1994,
     "date": "1994-10-01",
-    "category": ["standards", "software"],
+    "category": [
+      "standards",
+      "software"
+    ],
     "type": "organization",
     "summary": "Tim Berners-Lee founds the World Wide Web Consortium at MIT to keep the web open and standardized.",
-    "narrative": "The web's inventor could have tried to own it. Instead he moves to MIT and builds a consortium to keep it open. The W3C becomes the place where competing companies agree on the rules — HTML, CSS, and the standards that let any browser read any page.",
+    "narrative": "The web's inventor could have tried to own it. Instead he moves to MIT and builds a consortium to keep it open. The W3C becomes the place where competing companies agree on the rules \u2014 HTML, CSS, and the standards that let any browser read any page.",
     "why_it_matters": "Institutionalized openness and interoperability. Its standards are the reason the web works across companies and devices.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["css1-1996", "html-standards-1990s"],
-    "tags": ["w3c", "standards", "tim-berners-lee", "open-web"],
-    "region": ["usa", "global"],
+    "influence": [
+      "css1-1996",
+      "html-standards-1990s"
+    ],
+    "tags": [
+      "w3c",
+      "standards",
+      "tim-berners-lee",
+      "open-web"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "World Wide Web Consortium",
@@ -129,16 +202,30 @@
     "title": "The First Secure Online Purchase",
     "year": 1994,
     "date": "1994-08-11",
-    "category": ["business", "security"],
+    "category": [
+      "business",
+      "security"
+    ],
     "type": "business_milestone",
     "summary": "NetMarket sells a Sting CD to a customer using encryption, the first secure retail transaction on the web.",
     "narrative": "A man buys a CD over the Internet and pays with a credit card. It sounds ordinary now, but in 1994 it required new encryption to prove it could be done safely. That one purchase is the ancestor of every checkout page you have ever used.",
     "why_it_matters": "Proved e-commerce could be secure. Opened the door to Amazon, eBay, and the entire online retail economy.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["amazon-founding-1994", "paypal-1998"],
-    "tags": ["ecommerce", "encryption", "security", "netmarket"],
-    "region": ["usa", "global"],
+    "influence": [
+      "amazon-founding-1994",
+      "paypal-1998"
+    ],
+    "tags": [
+      "ecommerce",
+      "encryption",
+      "security",
+      "netmarket"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "E-commerce",
@@ -154,16 +241,31 @@
     "title": "HotWired Launches",
     "year": 1994,
     "date": "1994-10-27",
-    "category": ["media", "culture", "business"],
+    "category": [
+      "media",
+      "culture",
+      "business"
+    ],
     "type": "media_launch",
     "summary": "Wired magazine launches HotWired, the first commercial web magazine, and sells the first banner ads.",
     "narrative": "A print magazine decides the future is online and builds a digital-only publication with its own voice, design, and advertising. HotWired hired writers, made art, and treated the web as a medium rather than a brochure. It showed that online publishing could be a real thing.",
     "why_it_matters": "The first major commercial web publication. Established the model of digital media funded by advertising.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["first-banner-ad-1994", "blogging-2000s"],
-    "tags": ["hotwired", "wired", "media", "publishing"],
-    "region": ["usa", "global"],
+    "influence": [
+      "first-banner-ad-1994",
+      "blogging-2000s"
+    ],
+    "tags": [
+      "hotwired",
+      "wired",
+      "media",
+      "publishing"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "HotWired",
@@ -179,16 +281,29 @@
     "title": "PHP Is Created",
     "year": 1994,
     "date": "1994-06-08",
-    "category": ["software", "standards"],
+    "category": [
+      "software",
+      "standards"
+    ],
     "type": "technology_release",
     "summary": "Rasmus Lerdorf writes a set of Perl scripts to track visits to his resume, the code that becomes PHP.",
     "narrative": "A developer just wants to know who is reading his online resume, so he writes a few scripts. Other people ask for the code. He rewrites it, releases it, and it spreads. Decades later PHP still runs a huge share of the web, quietly powering the pages millions of people load every day.",
     "why_it_matters": "Became one of the most widely used server-side languages. Made dynamic, database-driven websites accessible to ordinary developers.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["wordpress-launch-2003", "mysql-web-1990s"],
-    "tags": ["php", "programming", "server-side", "open-source"],
-    "region": ["global"],
+    "influence": [
+      "wordpress-launch-2003",
+      "mysql-web-1990s"
+    ],
+    "tags": [
+      "php",
+      "programming",
+      "server-side",
+      "open-source"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "PHP",
@@ -204,16 +319,31 @@
     "title": "Sony PlayStation Launches",
     "year": 1994,
     "date": "1994-12-03",
-    "category": ["gaming", "hardware", "culture"],
+    "category": [
+      "gaming",
+      "hardware",
+      "culture"
+    ],
     "type": "product_launch",
     "summary": "Sony releases the PlayStation in Japan, moving gaming from cartridges to CDs and from bedrooms to living rooms.",
     "narrative": "Sony had never made a game console. It made one anyway, with discs instead of cartridges, 3D graphics, and a brand that felt grown-up. The PlayStation turned video games into mainstream pop culture and made gaming a serious global industry.",
     "why_it_matters": "Expanded gaming to a mass adult audience and shifted the industry to CD-based 3D games. Established Sony as a console giant.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["ps2-2000", "xbox-2001"],
-    "tags": ["playstation", "sony", "gaming", "console"],
-    "region": ["japan", "global"],
+    "influence": [
+      "ps2-2000",
+      "xbox-2001"
+    ],
+    "tags": [
+      "playstation",
+      "sony",
+      "gaming",
+      "console"
+    ],
+    "region": [
+      "japan",
+      "global"
+    ],
     "sources": [
       {
         "title": "PlayStation (console)",
@@ -221,6 +351,76 @@
         "type": "secondary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "playstation-japan-launch-1994",
+    "title": "Sony Unveils the PlayStation in Japan",
+    "year": 1994,
+    "date": "1994-12-03",
+    "category": [
+      "gadget",
+      "gaming"
+    ],
+    "type": "launch",
+    "summary": "Ken Kutaragi's 32-bit CD-ROM powerhouse launched in Japan, forever altering the console gaming landscape.",
+    "narrative": "Born from a bitter broken partnership with Nintendo, Sony's gamble was led by engineer Ken Kutaragi. The PlayStation relied on cheap CD-ROM media that could store real orchestral soundtracks, full-motion video, and complex 3D polygon graphics. Lines wrapped around Tokyo electronics retailers on launch day, initiating a dynasty that would dethrone cartridged giants Nintendo and Sega.",
+    "why_it_matters": "The PlayStation matured video games from toys for kids into an edgy lifestyle entertainment medium for teenagers and young adults.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "PlayStation (console) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+      }
+    ]
+  },
+  {
+    "id": "oj-simpson-chase-media-1994",
+    "title": "The O.J. Simpson Bronco Chase Captivates 95M Viewers",
+    "year": 1994,
+    "date": "1994-06-17",
+    "category": [
+      "news",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "A low-speed chase along California freeways drew 95 million viewers and interrupted the NBA Finals.",
+    "narrative": "On June 17, 1994, helicopters tracked Al Cowlings driving football legend O.J. Simpson in a white Ford Bronco down Interstate 405. Domino's Pizza reported record delivery volumes as the entire nation stayed glued to their living room screens. On early internet message boards and Usenet, people posted real-time commentary, previewing the dual-screen social viewing habits of the modern age.",
+    "why_it_matters": "It established the template for the modern 24/7 cable news sensation and live participatory pop-culture event.",
+    "impact": 4,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "O.J. Simpson chase - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case"
+      }
+    ]
+  },
+  {
+    "id": "hiphop-golden-illmatic-ready-to-die-1994",
+    "title": "Nas Drops 'Illmatic' & Biggie Drops 'Ready to Die'",
+    "year": 1994,
+    "date": "1994-04-19",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "East Coast hip-hop hit its zenith with two of the most critically celebrated and influential albums in music history.",
+    "narrative": "In April 1994, 20-year-old Queensbridge prodigy Nas released 'Illmatic'\u2014ten tracks of poetic, razor-sharp lyricism over beats by DJ Premier, Large Professor, and Pete Rock. Five months later, The Notorious B.I.G. released 'Ready to Die', blending cinematic Brooklyn street narratives with infectious Bad Boy pop hooks. The albums restored New York to hip-hop primacy and defined 90s urban culture.",
+    "why_it_matters": "These albums set the gold standard for rhyme cadence, storytelling, and hip-hop album production that influenced generations of artists.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Illmatic - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Illmatic"
+      },
+      {
+        "title": "Ready to Die - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ready_to_Die"
       }
     ]
   }

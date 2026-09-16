@@ -5,14 +5,18 @@
   "era": "foundation",
   "narrative": "The web stops being a research project and starts being an industry. Netscape is founded, the first banner ad sells, the first secure purchase happens, and the W3C is created to keep it all open. Yahoo! turns a list of links into a front door, and PHP is born in a developer's spare scripts.",
   "felt_like": {
-    "os": "Windows 3.1 / Mac System 7",
-    "browser": "NCSA Mosaic / early Netscape",
-    "messenger": "IRC / email",
-    "social_network": "Usenet / mailing lists",
-    "music": "Audio CDs / cassette",
-    "phone": "Landline / early GSM",
-    "video": "VHS / cable TV",
-    "website": "gray pages, under construction GIFs, 'best viewed in Netscape'"
+    "os": "Windows 3.11 / Mac System 7.5",
+    "browser": "Netscape Navigator 1.0 / Mosaic 2.0",
+    "messenger": "IRC / PowWow / BBS chat",
+    "social_network": "Usenet & CompuServe forums",
+    "music": "Green Day's Dookie, Weezer, TLC, Nas, Biggie",
+    "phone": "Motorola MicroTAC & translucent neon numeric pagers",
+    "video": "VHS tapes & laserdiscs",
+    "website": "Grey backgrounds with blue underlined hyperlinks",
+    "fashion": "Plaid flannel, slip dresses over baby tees, knee-high socks, Doc Martens",
+    "gadget": "Sony PlayStation (Japan debut) & Iomega Zip Drive 100MB",
+    "news": "O.J. Simpson Ford Bronco chase; Nelson Mandela elected President",
+    "culture": "Friends premieres on NBC; Pulp Fiction wins Cannes Palme d'Or"
   },
   "events": [
     "netscape-founded-1994",
@@ -23,6 +27,9 @@
     "netmarket-first-sale-1994",
     "hotwired-launch-1994",
     "php-created-1994",
-    "playstation-launch-1994"
+    "playstation-launch-1994",
+    "playstation-japan-launch-1994",
+    "oj-simpson-chase-media-1994",
+    "hiphop-golden-illmatic-ready-to-die-1994"
   ]
 }

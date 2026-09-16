@@ -5,14 +5,18 @@
   "era": "mobile-social",
   "narrative": "Snowden reveals the NSA is watching everyone. Bitcoin hits $1,000 then Mt. Gox collapses. The Oculus Rift kickstarts VR. Vine creates the short-form video format. The PS4 and Xbox One launch. Black Lives Matter begins. Google Glass makes everyone uncomfortable.",
   "felt_like": {
-    "os": "Windows 8 / Mac OS X Mavericks",
-    "browser": "Chrome / Firefox",
-    "messenger": "WhatsApp / iMessage / Kik",
-    "social_network": "Facebook / Twitter / Tumblr",
-    "music": "Spotify / Pandora / iTunes",
-    "phone": "iPhone 5S / Samsung Galaxy S4",
-    "video": "YouTube / Netflix / Twitch",
-    "website": "mobile-first was becoming default"
+    "os": "iOS 7 (Jony Ive kills skeuomorphism with neon flat design) / Windows 8.1",
+    "browser": "Chrome / Safari / Firefox",
+    "messenger": "Snapchat (Stories launched!) / WhatsApp / iMessage / Slack (beta)",
+    "social_network": "Vine (6-second comedy loop boom) / Instagram (video added) / Twitter IPO",
+    "music": "Daft Punk 'Get Lucky', Lorde 'Royals', Robin Thicke 'Blurred Lines', Drake",
+    "phone": "iPhone 5s (Touch ID fingerprint sensor & Gold color) & Moto X",
+    "video": "Vine loops / Netflix drops full seasons at once (House of Cards, Orange Is the New Black)",
+    "website": "Flat design everywhere, bright pastels, hero video headers, hamburger menus",
+    "fashion": "Normcore emerges, flannel tied around high-waisted shorts, black skinny jeans with ripped knees",
+    "gadget": "Sony PlayStation 4 & Apple iPhone 5s with Touch ID",
+    "news": "Edward Snowden leaks NSA PRISM surveillance; Boston Marathon bombing",
+    "culture": "Breaking Bad series finale; Disney's Frozen and 'Let It Go' madness"
   },
   "events": [
     "snowden-nsa-revelations-2013",
@@ -24,6 +28,9 @@
     "google-glass-explorer-2013",
     "yahoo-tumblr-acquisition-2013",
     "black-lives-matter-2013",
-    "nokia-microsoft-acquisition-2013"
+    "nokia-microsoft-acquisition-2013",
+    "vine-short-form-video-2013",
+    "ios-7-flat-design-2013",
+    "daft-punk-get-lucky-lorde-2013"
   ]
 }

@@ -16,6 +16,8 @@ interface WebEvent {
   impact: number;
   nostalgia: number;
   sources: EventSource[];
+  image?: string;
+  image_caption?: string;
 }
 
 interface Props {
@@ -87,6 +89,22 @@ const accentColors = [
             </div>
           </div>
           <h3 class="event__title">{event.title}</h3>
+          {event.image && (
+            <figure class="event__figure">
+              <div class="event__image-frame">
+                <img
+                  src={event.image}
+                  alt={event.title}
+                  loading="lazy"
+                  class="event__image"
+                  onerror="this.closest('.event__figure').style.display='none'"
+                />
+              </div>
+              {event.image_caption && (
+                <figcaption class="event__caption">{event.image_caption}</figcaption>
+              )}
+            </figure>
+          )}
           <p class="event__narrative">{event.narrative}</p>
           {event.why_it_matters && <p class="event__why">{event.why_it_matters}</p>}
           {event.sources.length > 0 && (
@@ -135,6 +153,10 @@ const accentColors = [
   .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: var(--bark); background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out); }
   .event__react-btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--bark); background: var(--pink); color: #fff; }
   .event__title { font-family: var(--font-hand); font-size: 2.1rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md); line-height: 1.15; }
+  .event__figure { margin: var(--spacing-md) 0 var(--spacing-lg); max-width: 580px; }
+  .event__image-frame { border: 2.5px solid var(--bark); border-radius: 4px; overflow: hidden; background: var(--bg-elevated); box-shadow: 4px 4px 0 var(--bark); }
+  .event__image { width: 100%; height: auto; max-height: 360px; object-fit: cover; display: block; }
+  .event__caption { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); margin-top: var(--spacing-xs); letter-spacing: 0.04em; }
   .event__narrative { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.75; margin-bottom: var(--spacing-md); max-width: 65ch; }
   .event__why { font-family: var(--font-editorial); font-style: italic; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.65; padding: var(--spacing-md) var(--spacing-lg); border: 2px dashed var(--bark); border-radius: 3px; background: rgba(255, 255, 255, 0.5); margin-bottom: var(--spacing-md); }
   .event__sources { margin-top: var(--spacing-md); padding-top: var(--spacing-md); border-top: 2.5px dashed var(--bark); display: flex; align-items: center; gap: var(--spacing-sm); flex-wrap: wrap; }

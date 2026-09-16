@@ -6,13 +6,17 @@
   "narrative": "1990 was the year the digital universe expanded beyond military and academic networks. Tim Berners-Lee's proposal at CERN planted the seed of the World Wide Web, while IRC and BBS culture proved that humans craved digital connection.",
   "felt_like": {
     "os": "MS-DOS 4.0 / Windows 3.0",
-    "browser": "N/A (pre-web era)",
-    "messenger": "IRC / BBS messages",
+    "browser": "N/A (Pre-web era)",
+    "messenger": "IRC / BBS dial-up message boards",
     "social_network": "Usenet newsgroups",
-    "music": "Napster was years away—cassette tapes and CDs",
-    "phone": "Rotary phones and early cordless",
-    "video": "VHS tapes",
-    "website": "The first web page at info.cern.ch"
+    "music": "Cassette tapes, Sony Walkman, and vinyl 45s",
+    "phone": "Rotary landlines & brick-sized Motorola DynaTACs",
+    "video": "VHS tapes rented from Blockbuster",
+    "website": "info.cern.ch (served on a NeXT Cube)",
+    "fashion": "Neon windbreakers, parachute pants, scrunchies & acid-wash denim",
+    "gadget": "Nintendo Game Boy (bundled with Tetris)",
+    "news": "Nelson Mandela freed; Germany formally reunifies",
+    "culture": "The Simpsons season one & Twin Peaks hysteria"
   },
   "events": [
     "tim-berners-lee-proposal-1990",
@@ -23,6 +27,9 @@
     "europanet-launch-1990",
     "ncsa-mosaic-nascent-1990",
     "usenet-growth-1990",
-    "bbs-culture-peak-1990"
+    "bbs-culture-peak-1990",
+    "game-boy-mania-1990",
+    "reunification-mandela-1990",
+    "madonna-vogue-mchammer-1990"
   ]
 }

@@ -5,14 +5,18 @@
   "era": "ai-era",
   "narrative": "COVID-19 forces the world online. Zoom goes from 10M to 300M users. TikTok explodes. Clubhouse creates audio social. Remote work becomes permanent. The delivery economy booms. SpaceX reaches the ISS. Apple announces the M1.",
   "felt_like": {
-    "os": "Windows 10 / macOS Catalina",
-    "browser": "Chrome",
-    "messenger": "Zoom / Slack / Teams",
-    "social_network": "TikTok / Instagram",
-    "music": "Spotify",
-    "phone": "iPhone 12 / Samsung Galaxy S20",
-    "video": "Netflix / Zoom",
-    "website": "everything had a dark mode option"
+    "os": "Windows 10 / macOS Big Sur (M1 Apple Silicon transition) / iOS 14",
+    "browser": "Chrome / Safari / Edge",
+    "messenger": "Zoom / Slack / Microsoft Teams / Discord",
+    "social_network": "TikTok (explosive lockdown growth) / Twitter / Instagram Reels / Clubhouse",
+    "music": "The Weeknd 'Blinding Lights', Dua Lipa 'Future Nostalgia', Roddy Ricch 'The Box'",
+    "phone": "iPhone 12 (5G, MagSafe, flat edges) & Samsung Galaxy S20 Ultra",
+    "video": "Netflix (Tiger King, The Queen's Gambit) / Disney+ / Zoom video calls",
+    "website": "Dark mode everywhere, Tailwind CSS boom, clean neo-brutalist cards",
+    "fashion": "Cottagecore aesthetic, tie-dye sweatpants sets, face masks as style, comfortable slippers",
+    "gadget": "Sony PlayStation 5 & Apple M1 MacBook Air",
+    "news": "COVID-19 global lockdowns; Black Lives Matter global protests; 2020 US Election",
+    "culture": "Tiger King phenomenon; Animal Crossing: New Horizons island escapism; sourdough bread baking"
   },
   "events": [
     "zoom-boom-2020",
@@ -24,6 +28,9 @@
     "apple-silicon-2020",
     "doordash-ipo-2020",
     "spacex-crew-dragon-2020",
-    "robinhood-gamestop-2020"
+    "robinhood-gamestop-2020",
+    "animal-crossing-lockdown-comfort-2020",
+    "the-weeknd-blinding-lights-2020",
+    "cottagecore-sweatpants-lockdown-fashion-2020"
   ]
 }

@@ -5,14 +5,18 @@
   "era": "foundation",
   "narrative": "Google is founded in a garage. Microsoft bundles Internet Explorer and wins the browser war. Amazon and eBay go public. The dot-com bubble inflates. Instant messaging connects millions. The internet is about to change everything.",
   "felt_like": {
-    "os": "Windows 98",
-    "browser": "Internet Explorer 4 / Netscape Navigator",
-    "messenger": "ICQ / AOL Instant Messenger",
-    "social_network": "GeoCities / AOL",
-    "music": "Winamp / RealPlayer",
-    "phone": "Nokia 5110",
-    "video": "RealPlayer streaming",
-    "website": "probably had a GeoCities page with animated GIFs"
+    "os": "Windows 98 / Mac OS 8.5",
+    "browser": "Internet Explorer 4.01 / Netscape Communicator 4.5",
+    "messenger": "AIM ('Buddy List' door slam) / ICQ / Yahoo Messenger",
+    "social_network": "SixDegrees.com / TalkCity chatrooms",
+    "music": "Britney Spears, Lauryn Hill, Cher 'Believe' Auto-Tune, MP3 downloads",
+    "phone": "Nokia 5110 with interchangeable faceplates",
+    "video": "DVD rentals entering Blockbuster & VHS",
+    "website": "Flash animations, cascading stylesheets (CSS), banner ad networks",
+    "fashion": "Frosted hair tips, oval wire-rim sunglasses, cargo pants, baby tees",
+    "gadget": "Apple iMac G3 Bondi Blue & Game Boy Color",
+    "news": "Clinton-Lewinsky scandal; Good Friday Agreement signed in Northern Ireland",
+    "culture": "The Truman Show presages reality TV; Pok\u00e9mon Red & Blue launch in the West"
   },
   "events": [
     "google-founding-1998",
@@ -24,6 +28,9 @@
     "geocities-peak-1998",
     "aol-digital-city-1998",
     "real-audio-1998",
-    "xml-web-services-1998"
+    "xml-web-services-1998",
+    "apple-imac-g3-bondi-blue-1998",
+    "pokemon-red-blue-craze-1998",
+    "drudge-report-breaks-lewinsky-1998"
   ]
 }

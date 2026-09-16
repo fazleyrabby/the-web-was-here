@@ -3,16 +3,20 @@
   "year": 2009,
   "title": "The Year Everything Went Mobile",
   "era": "web-2",
-  "narrative": "Bitcoin's first block is mined in the shadow of a financial crisis. WhatsApp kills SMS. 4G makes mobile internet actually fast. Uber invents the gig economy. Angry Birds proves everyone's a gamer. The mobile-first world is no longer coming — it's here.",
+  "narrative": "Bitcoin's first block is mined in the shadow of a financial crisis. WhatsApp kills SMS. 4G makes mobile internet actually fast. Uber invents the gig economy. Angry Birds proves everyone's a gamer. The mobile-first world is no longer coming \u2014 it's here.",
   "felt_like": {
-    "os": "Windows 7 / Mac OS X Snow Leopard",
-    "browser": "Chrome / Firefox 3.5",
-    "messenger": "WhatsApp (just launched) / MSN Messenger",
-    "social_network": "Facebook / Twitter",
-    "music": "Spotify / iPod",
-    "phone": "iPhone 3GS / HTC Hero (Android)",
-    "video": "YouTube / Netflix streaming",
-    "website": "probably had a FarmVille addiction you wouldn't admit to"
+    "os": "Windows 7 (huge relief after Vista!) / Mac OS X 10.6 Snow Leopard",
+    "browser": "Firefox 3.5 / Google Chrome / Internet Explorer 8",
+    "messenger": "BBM (BlackBerry PIN sharing) / Facebook Chat / WhatsApp (early)",
+    "social_network": "Facebook (status updates in third person) / Twitter (hashtag boom) / Tumblr",
+    "music": "The Black Eyed Peas 'I Gotta Feeling', Taylor Swift, Lady Gaga 'Bad Romance'",
+    "phone": "BlackBerry Bold 9000 & iPhone 3GS ('The S stands for Speed')",
+    "video": "Avatar 3D in IMAX & YouTube 1080p Full HD launch",
+    "website": "Clean minimal layouts, CSS3 gradients, early HTML5 demos, social share buttons",
+    "fashion": "Hipster indie sleaze at peak: galaxy leggings, deep V-necks, Toms canvas shoes, Ray-Ban clubmasters",
+    "gadget": "Apple iPhone 3GS & BlackBerry Bold 9700",
+    "news": "Michael Jackson's sudden death crashes web servers; Miracle on the Hudson",
+    "culture": "James Cameron's Avatar shatters box office; Kanye interrupts Taylor Swift at VMAs"
   },
   "events": [
     "bitcoin-genesis-block-2009",
@@ -22,6 +26,9 @@
     "uber-founding-2009",
     "angry-birds-2009",
     "google-wave-2009",
-    "tweetdeck-2009"
+    "tweetdeck-2009",
+    "michael-jackson-death-internet-crash-2009",
+    "kanye-taylor-vma-interruption-2009",
+    "avatar-3d-cinema-revolution-2009"
   ]
 }

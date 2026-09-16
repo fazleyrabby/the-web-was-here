@@ -4,16 +4,31 @@
     "title": "iPhone",
     "year": 2007,
     "date": "2007-06-29",
-    "category": ["hardware", "design"],
+    "category": [
+      "hardware",
+      "design"
+    ],
     "type": "product_launch",
     "summary": "Apple introduced the original iPhone, combining a phone, widescreen iPod, and internet communicator into one device.",
     "narrative": "Steve Jobs walks onstage and says he's introducing three products. A phone. A widescreen iPod. And an internet communicator. Then he reveals they're all the same device. The audience loses it. Within two years, every phone manufacturer on Earth is scrambling to catch up.",
     "why_it_matters": "Redefined the modern smartphone interface. Established the app economy. Made the mobile web inevitable.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["android-2008", "app-store-2008", "mobile-web-2007", "responsive-design-2010"],
-    "tags": ["apple", "smartphone", "touchscreen", "mobile"],
-    "region": ["global"],
+    "influence": [
+      "android-2008",
+      "app-store-2008",
+      "mobile-web-2007",
+      "responsive-design-2010"
+    ],
+    "tags": [
+      "apple",
+      "smartphone",
+      "touchscreen",
+      "mobile"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Apple iPhone Special Event 2007",
@@ -29,16 +44,27 @@
     "title": "Facebook Opens to Everyone",
     "year": 2007,
     "date": "2007-09-26",
-    "category": ["social"],
+    "category": [
+      "social"
+    ],
     "type": "platform_shift",
     "summary": "Facebook opens registration to anyone over 13, not just college students. Membership explodes.",
     "narrative": "For three years, Facebook was the cool college thing. Exclusive. Then they opened the doors. Suddenly your mom was on Facebook. Your boss was on Facebook. The social graph went from dorm rooms to the entire world.",
     "why_it_matters": "Transformed from college network to global platform. Set the stage for Facebook's dominance of social media for the next decade.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["social-media-dominance", "facebook-ipo-2012"],
-    "tags": ["facebook", "social-network", "platform"],
-    "region": ["global"],
+    "influence": [
+      "social-media-dominance",
+      "facebook-ipo-2012"
+    ],
+    "tags": [
+      "facebook",
+      "social-network",
+      "platform"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Facebook press release",
@@ -54,16 +80,29 @@
     "title": "Twitter Launches",
     "year": 2007,
     "date": "2007-07-15",
-    "category": ["social", "communication"],
+    "category": [
+      "social",
+      "communication"
+    ],
     "type": "company_launch",
     "summary": "Twitter debuts at SXSW. The 140-character microblogging platform finds its audience.",
     "narrative": "At SXSW 2007, Twitter's usage triples. People at the conference start live-tweeting. The concept of broadcasting your thoughts in real-time to anyone who'll listen? That's new. That changes everything.",
     "why_it_matters": "Created the real-time public conversation. Changed how news breaks. Introduced the concept of the social media timeline.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["real-time-social", "news-breaking", "social-media-timeline"],
-    "tags": ["twitter", "microblogging", "social"],
-    "region": ["global"],
+    "influence": [
+      "real-time-social",
+      "news-breaking",
+      "social-media-timeline"
+    ],
+    "tags": [
+      "twitter",
+      "microblogging",
+      "social"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Twitter history",
@@ -78,16 +117,30 @@
     "id": "youtube-culture-2007",
     "title": "YouTube Becomes a Cultural Force",
     "year": 2007,
-    "category": ["entertainment", "viral-culture"],
+    "category": [
+      "entertainment",
+      "viral-culture"
+    ],
     "type": "platform_shift",
     "summary": "YouTube, acquired by Google in 2006, becomes the de facto video platform. Viral videos become a cultural phenomenon.",
-    "narrative": "Charlie Bit My Finger. Evolution of Dance. Lazy Sunday. YouTube isn't just a website anymore — it's where culture happens. Anyone with a camera can reach millions. The democratization of video starts here.",
+    "narrative": "Charlie Bit My Finger. Evolution of Dance. Lazy Sunday. YouTube isn't just a website anymore \u2014 it's where culture happens. Anyone with a camera can reach millions. The democratization of video starts here.",
     "why_it_matters": "Killed traditional video distribution. Created the creator economy. Made viral video a universal language.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["creator-economy", "streaming-wars", "tiktok-2016"],
-    "tags": ["youtube", "video", "viral", "google"],
-    "region": ["global"],
+    "influence": [
+      "creator-economy",
+      "streaming-wars",
+      "tiktok-2016"
+    ],
+    "tags": [
+      "youtube",
+      "video",
+      "viral",
+      "google"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": []
   },
   {
@@ -95,16 +148,30 @@
     "title": "Android Announced",
     "year": 2007,
     "date": "2007-11-05",
-    "category": ["hardware", "software"],
+    "category": [
+      "hardware",
+      "software"
+    ],
     "type": "technology_release",
     "summary": "Google announces the Open Handset Alliance and Android, an open-source mobile operating system.",
     "narrative": "While Apple is defining what a smartphone should be, Google is building the alternative. Open. Free. For everyone. Android won't ship until 2008, but the announcement signals that mobile is the next battleground.",
     "why_it_matters": "Created the iOS/Android duopoly. Made smartphones accessible at every price point. Opened mobile to manufacturers worldwide.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["mobile-web-2007", "smartphone-ubiquity", "app-economy"],
-    "tags": ["android", "google", "mobile", "open-source"],
-    "region": ["global"],
+    "influence": [
+      "mobile-web-2007",
+      "smartphone-ubiquity",
+      "app-economy"
+    ],
+    "tags": [
+      "android",
+      "google",
+      "mobile",
+      "open-source"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Google press release",
@@ -120,65 +187,86 @@
     "title": "Windows Vista",
     "year": 2007,
     "date": "2007-01-30",
-    "category": ["software"],
+    "category": [
+      "software"
+    ],
     "type": "software_release",
     "summary": "Microsoft releases Windows Vista. UAC prompts become the universal punchline.",
     "narrative": "Vista was supposed to be the future of Windows. Instead it became a cautionary tale about bloated software. 'Are you sure you want to open Notepad?' became the joke that defined an era of software frustration.",
     "why_it_matters": "Demonstrated the limits of feature creep. Pushed many users toward Mac. Set the stage for Windows 7's redemption arc.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["windows-7-2009", "mac-adoption-2000s"],
-    "tags": ["microsoft", "windows", "operating-system"],
-    "region": ["global"],
-    "sources": []
-  },
-  {
-    "id": "kanye-interrupts-2007",
-    "title": "\"Imma Let You Finish\"",
-    "year": 2007,
-    "date": "2007-09-09",
-    "category": ["viral-culture"],
-    "type": "viral_event",
-    "summary": "Kanye West interrupts Taylor Swift's VMA acceptance speech. The meme is born.",
-    "narrative": "It happens live on MTV. Kanye grabs the mic. Taylor Swift stands there frozen. The internet explodes. Within hours, the moment is GIF'd, memed, remixed, and turned into a permanent part of internet vocabulary. 'Imma let you finish but...' becomes the go-to phrase for interrupting anything.",
-    "why_it_matters": "One of the first truly viral celebrity moments of the social media age. Demonstrated how quickly the internet can turn a moment into a permanent meme.",
-    "impact": 3,
-    "nostalgia": 4,
-    "influence": ["celebrity-memes", "viral-moments"],
-    "tags": ["meme", "kanye", "taylor-swift", "vma", "viral"],
-    "region": ["global"],
+    "influence": [
+      "windows-7-2009",
+      "mac-adoption-2000s"
+    ],
+    "tags": [
+      "microsoft",
+      "windows",
+      "operating-system"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": []
   },
   {
     "id": "flash-games-peak-2007",
     "title": "Flash Games Peak",
     "year": 2007,
-    "category": ["entertainment", "web"],
+    "category": [
+      "entertainment",
+      "web"
+    ],
     "type": "cultural_event",
     "summary": "Flash games and animations reach their cultural peak. Newgrounds, Addicting Games, and Kongregate are thriving.",
     "narrative": "Before app stores, before Steam sales, there were Flash games. You'd spend hours on Newgrounds playing Alien Hominid or trying to beat the interactive animations. It was indie gaming before indie gaming was a thing. HTML5 wouldn't kill Flash for another decade, but 2007 was its golden age.",
     "why_it_matters": "Proved that browser-based entertainment could be massive. Spawned entire careers. Created a generation of game developers who learned by making Flash games.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["browser-games", "indie-gaming", "html5-games"],
-    "tags": ["flash", "gaming", "newgrounds", "browser"],
-    "region": ["global"],
+    "influence": [
+      "browser-games",
+      "indie-gaming",
+      "html5-games"
+    ],
+    "tags": [
+      "flash",
+      "gaming",
+      "newgrounds",
+      "browser"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": []
   },
   {
     "id": "web2-design-2007",
     "title": "Web 2.0 Design Language",
     "year": 2007,
-    "category": ["design"],
+    "category": [
+      "design"
+    ],
     "type": "design_trend",
     "summary": "Glossy buttons, reflective surfaces, big typography, and rounded corners define the Web 2.0 aesthetic.",
-    "narrative": "Every startup in 2007 looks the same. Glossy blue buttons. Reflections underneath everything. Giant logos with 'Web 2.0' in the name. It's simultaneously the most optimistic and most derivative era of web design. But underneath the gloss, real design patterns are emerging — grids, card layouts, infinite scroll.",
+    "narrative": "Every startup in 2007 looks the same. Glossy blue buttons. Reflections underneath everything. Giant logos with 'Web 2.0' in the name. It's simultaneously the most optimistic and most derivative era of web design. But underneath the gloss, real design patterns are emerging \u2014 grids, card layouts, infinite scroll.",
     "why_it_matters": "Established the visual vocabulary that SaaS products still use today. The gloss faded, but the underlying patterns stuck.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["flat-design-2013", "material-design-2014", "saas-design"],
-    "tags": ["design", "web2", "aesthetic", "glossy"],
-    "region": ["global"],
+    "influence": [
+      "flat-design-2013",
+      "material-design-2014",
+      "saas-design"
+    ],
+    "tags": [
+      "design",
+      "web2",
+      "aesthetic",
+      "glossy"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": []
   },
   {
@@ -186,16 +274,29 @@
     "title": "Spotify Launches",
     "year": 2007,
     "date": "2007-10-07",
-    "category": ["entertainment"],
+    "category": [
+      "entertainment"
+    ],
     "type": "company_launch",
     "summary": "Spotify launches in Sweden, promising free, legal music streaming. The music industry will never be the same.",
     "narrative": "Napster tried to give us free music and got shut down. Spotify figured out how to give us free music legally. The catch? Ads. The result? The entire music industry pivots from ownership to access. Your MP3 collection is about to become irrelevant.",
     "why_it_matters": "Killed the MP3 download model. Forced the music industry to adapt. Created the streaming economy that now dominates entertainment.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["streaming-economy", "apple-music-2015", "death-of-the-mp3"],
-    "tags": ["spotify", "music", "streaming", "sweden"],
-    "region": ["europe"],
+    "influence": [
+      "streaming-economy",
+      "apple-music-2015",
+      "death-of-the-mp3"
+    ],
+    "tags": [
+      "spotify",
+      "music",
+      "streaming",
+      "sweden"
+    ],
+    "region": [
+      "europe"
+    ],
     "sources": [
       {
         "title": "Spotify founding story",
@@ -203,6 +304,54 @@
         "type": "secondary",
         "accessed": "2026-09-15",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "amazon-kindle-ereader-2007",
+    "title": "Amazon Unveils the Kindle & Ignites E-Book Revolution",
+    "year": 2007,
+    "date": "2007-11-19",
+    "category": [
+      "gadget",
+      "business"
+    ],
+    "type": "launch",
+    "summary": "Jeff Bezos introduced the Kindle with an electronic ink display and free built-in cellular connectivity.",
+    "narrative": "With its quirky asymmetric keyboard and crisp electrophoretic E-Ink screen that read like real paper in sunlight, the first Kindle sold out in five and a half hours. Amazon's revolutionary feature was Whispernet: users could buy and download any of 90,000 books in under 60 seconds over Sprint's 3G network without connecting to a computer or paying a monthly data fee.",
+    "why_it_matters": "The Kindle transformed the multi-century publishing industry, establishing e-books as a permanent format and changing how people read.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Amazon Kindle - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amazon_Kindle"
+      }
+    ]
+  },
+  {
+    "id": "rihanna-umbrella-graduation-2007",
+    "title": "Rihanna's 'Umbrella' & Kanye's 'Graduation' Defeats 50 Cent",
+    "year": 2007,
+    "date": "2007-09-11",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Rihanna's 'Umbrella' became the song of the summer, while Kanye West outsold 50 Cent in a historic sales battle.",
+    "narrative": "With its infectious 'ella, ella, eh, eh' hook and Jay-Z intro, Rihanna's 'Umbrella' sat atop the UK charts for 10 consecutive weeks amid record summer rain. Meanwhile, on September 11, Kanye West's arena-synth *Graduation* faced off against 50 Cent's *Curtis*. Kanye moved 957,000 units to 50 Cent's 691,000, formally ending street gangster rap's decade-long stranglehold on mainstream radio.",
+    "why_it_matters": "The sales duel marked a permanent shift toward electronic, emotional, and introspective hip-hop, paving the way for Drake, Kid Cudi, and modern trap.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Umbrella (song) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Umbrella_(song)"
+      },
+      {
+        "title": "Graduation (album) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Graduation_(album)"
       }
     ]
   }

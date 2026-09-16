@@ -5,14 +5,18 @@
   "era": "ai-era",
   "narrative": "Apple Intelligence brings AI to billions. Gemini launches. Vision Pro ships. AI agents start doing real work. Sora generates video from text. Nvidia becomes the most valuable company. TikTok faces a US ban. The AI era stopped being a promise and started being a product.",
   "felt_like": {
-    "os": "Windows 11 / macOS Sequoia",
-    "browser": "Chrome / Arc / Edge (AI-powered)",
-    "messenger": "iMessage / WhatsApp / Discord",
-    "social_network": "TikTok / X / Instagram Threads",
-    "music": "Spotify / TikTok sounds",
-    "phone": "iPhone 16 / Samsung Galaxy S24 / Pixel 9",
-    "video": "Netflix / TikTok / YouTube / Sora (early access)",
-    "website": "AI assistants embedded in every product, 'Powered by AI' badges on everything"
+    "os": "Windows 11 Copilot+ PC / macOS Sequoia / iOS 18 (Apple Intelligence)",
+    "browser": "Arc / Chrome / Perplexity AI search / Safari",
+    "messenger": "Signal / Telegram / WhatsApp / Discord / ChatGPT voice mode",
+    "social_network": "TikTok (facing US divestiture law) / Instagram Reels / Threads / X",
+    "music": "Charli XCX 'BRAT' (Brat Summer!), Sabrina Carpenter 'Espresso', Kendrick Lamar 'Not Like Us'",
+    "phone": "iPhone 16 Pro (Camera Control button) & Samsung Galaxy S24 Ultra (Galaxy AI)",
+    "video": "YouTube creator economy / TikTok / Max / Netflix",
+    "website": "Conversational answers replacing 10 blue links, AI agent-ready semantic markup",
+    "fashion": "Brat green lime accents, messy club-girl aesthetic, Blokecore football jerseys, leopard print",
+    "gadget": "Apple Vision Pro ($3,499) & Ray-Ban Meta AI smart glasses",
+    "news": "CrowdStrike global IT outage grounds flights; Total solar eclipse across North America; Paris 2024 Olympics",
+    "culture": "Brat Summer political & pop takeover; Kendrick vs. Drake rap feud ('Not Like Us')"
   },
   "events": [
     "apple-intelligence-2024",
@@ -22,6 +26,9 @@
     "ai-agents-2024",
     "sora-video-2024",
     "nvidia-dominance-2024",
-    "no-kings-protest-2024"
+    "no-kings-protest-2024",
+    "brat-summer-charli-xcx-2024",
+    "kendrick-drake-rap-feud-2024",
+    "crowdstrike-global-it-outage-2024"
   ]
 }

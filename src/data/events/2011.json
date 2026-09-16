@@ -4,16 +4,31 @@
     "title": "Google+ Launches",
     "year": 2011,
     "date": "2011-06-28",
-    "category": ["social", "business"],
+    "category": [
+      "social",
+      "business"
+    ],
     "type": "platform_launch",
     "summary": "Google launches Google+ to compete with Facebook, introducing Circles for managing social connections.",
-    "narrative": "Google decides it needs a social network. It launches Google+ with Circles — a way to organize friends into groups and share selectively. It feels fresh. The +1 button appears everywhere. For a moment, tech journalists declare Facebook is dead. But nobody can get their friends to switch. Google+ becomes a ghost town. The invite-only launch creates FOMO that fades fast.",
-    "why_it_matters": "Biggest failed social network in history. Forced Facebook to innovate. Google learned that you can't force social — people go where their friends are.",
+    "narrative": "Google decides it needs a social network. It launches Google+ with Circles \u2014 a way to organize friends into groups and share selectively. It feels fresh. The +1 button appears everywhere. For a moment, tech journalists declare Facebook is dead. But nobody can get their friends to switch. Google+ becomes a ghost town. The invite-only launch creates FOMO that fades fast.",
+    "why_it_matters": "Biggest failed social network in history. Forced Facebook to innovate. Google learned that you can't force social \u2014 people go where their friends are.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["facebook-circles", "google-shutdown-2019", "social-network-fatigue"],
-    "tags": ["google-plus", "google", "social-network", "circles", "failure"],
-    "region": ["global"],
+    "influence": [
+      "facebook-circles",
+      "google-shutdown-2019",
+      "social-network-fatigue"
+    ],
+    "tags": [
+      "google-plus",
+      "google",
+      "social-network",
+      "circles",
+      "failure"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Google+ on Wikipedia",
@@ -29,16 +44,32 @@
     "title": "Instagram Hits 1 Million Users",
     "year": 2011,
     "date": "2011-12-21",
-    "category": ["social", "business"],
+    "category": [
+      "social",
+      "business"
+    ],
     "type": "platform_shift",
     "summary": "Instagram reaches 1 million registered users in just 9 months, proving photo-sharing is the killer mobile social feature.",
-    "narrative": "Instagram hits 1 million users faster than any app in history. The retro filters make everyone look like a filmmaker. The square crop becomes iconic. Android users feel left out — it's still iOS only. Tech companies scramble to build photo apps. Facebook notices. The acquisition talks begin. Kevin Systrom is 27 years old.",
+    "narrative": "Instagram hits 1 million users faster than any app in history. The retro filters make everyone look like a filmmaker. The square crop becomes iconic. Android users feel left out \u2014 it's still iOS only. Tech companies scramble to build photo apps. Facebook notices. The acquisition talks begin. Kevin Systrom is 27 years old.",
     "why_it_matters": "Validated mobile-first social apps. Proved visual content dominates text. The growth curve became the template every startup wanted to copy.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["facebook-instagram-acquisition-2012", "visual-social-media", "influencer-economy", "mobile-app-growth"],
-    "tags": ["instagram", "photo-sharing", "mobile", "growth", "startup"],
-    "region": ["global"],
+    "influence": [
+      "facebook-instagram-acquisition-2012",
+      "visual-social-media",
+      "influencer-economy",
+      "mobile-app-growth"
+    ],
+    "tags": [
+      "instagram",
+      "photo-sharing",
+      "mobile",
+      "growth",
+      "startup"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Instagram - Wikipedia",
@@ -54,16 +85,32 @@
     "title": "Snapchat Launches",
     "year": 2011,
     "date": "2011-09-01",
-    "category": ["social", "communication"],
+    "category": [
+      "social",
+      "communication"
+    ],
     "type": "platform_launch",
     "summary": "Snapchat launches as Picabug, introducing disappearing messages and creating a new paradigm for private communication.",
-    "narrative": "Three Stanford students build an app where messages disappear after viewing. It's called Picabug, then Snap, then Snapchat. It feels wrong — why would you want photos to vanish? That's the point. Finally, a social app that doesn't need to be permanent. Parents are horrified. Teens love it. The ephemeral message becomes a new form of communication.",
+    "narrative": "Three Stanford students build an app where messages disappear after viewing. It's called Picabug, then Snap, then Snapchat. It feels wrong \u2014 why would you want photos to vanish? That's the point. Finally, a social app that doesn't need to be permanent. Parents are horrified. Teens love it. The ephemeral message becomes a new form of communication.",
     "why_it_matters": "Created the ephemeral messaging category. Forced social platforms to add disappearing content. Changed how teens think about privacy online. Stories format spread everywhere.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["instagram-stories-2016", "whatsapp-status-2017", "ephemeral-content", "teen-social-media"],
-    "tags": ["snapchat", "disappearing-messages", "ephemeral", "privacy", "teens"],
-    "region": ["global"],
+    "influence": [
+      "instagram-stories-2016",
+      "whatsapp-status-2017",
+      "ephemeral-content",
+      "teen-social-media"
+    ],
+    "tags": [
+      "snapchat",
+      "disappearing-messages",
+      "ephemeral",
+      "privacy",
+      "teens"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Snapchat - Wikipedia",
@@ -79,16 +126,31 @@
     "title": "ICQ Shuts Down",
     "year": 2011,
     "date": "2011-03-01",
-    "category": ["communication", "culture"],
+    "category": [
+      "communication",
+      "culture"
+    ],
     "type": "platform_shutdown",
     "summary": "ICQ, the original instant messenger that defined online chat, officially shuts down after 16 years.",
-    "narrative": "ICQ — 'I Seek You' — was the first instant messenger. The uh-oh sound. The green flower icon. Available since 1996. It survived AOL, MSN, and Yahoo. But smartphones killed it. WhatsApp, iMessage, and Facebook Messenger made desktop chat apps feel ancient. The shutdown is quiet, almost sad. A generation remembers the sound of that notification.",
+    "narrative": "ICQ \u2014 'I Seek You' \u2014 was the first instant messenger. The uh-oh sound. The green flower icon. Available since 1996. It survived AOL, MSN, and Yahoo. But smartphones killed it. WhatsApp, iMessage, and Facebook Messenger made desktop chat apps feel ancient. The shutdown is quiet, almost sad. A generation remembers the sound of that notification.",
     "why_it_matters": "End of an era. ICQ pioneered real-time online chat. Every messenger app today owes something to it. The uh-oh sound is internet nostalgia royalty.",
     "impact": 3,
     "nostalgia": 5,
-    "influence": ["whatsapp-2010", "messaging-apps", "online-chat-history"],
-    "tags": ["icq", "instant-messenger", "shutdown", "nostalgia", "chat"],
-    "region": ["global"],
+    "influence": [
+      "whatsapp-2010",
+      "messaging-apps",
+      "online-chat-history"
+    ],
+    "tags": [
+      "icq",
+      "instant-messenger",
+      "shutdown",
+      "nostalgia",
+      "chat"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "ICQ - Wikipedia",
@@ -104,16 +166,31 @@
     "title": "Amazon Kindle Fire",
     "year": 2011,
     "date": "2011-11-15",
-    "category": ["hardware", "business"],
+    "category": [
+      "hardware",
+      "business"
+    ],
     "type": "product_launch",
     "summary": "Amazon launches the Kindle Fire tablet at $199, undercutting the iPad and bringing affordable tablets to the masses.",
-    "narrative": "Amazon sells a tablet for $199. It's not as good as the iPad. It doesn't need to be. Jeff Bezos doesn't care about hardware margins — he wants you buying stuff on Amazon. The Kindle Fire is a shopping portal that happens to be a tablet. It sells millions. Every other Android tablet maker panics. The price race to the bottom begins.",
+    "narrative": "Amazon sells a tablet for $199. It's not as good as the iPad. It doesn't need to be. Jeff Bezos doesn't care about hardware margins \u2014 he wants you buying stuff on Amazon. The Kindle Fire is a shopping portal that happens to be a tablet. It sells millions. Every other Android tablet maker panics. The price race to the bottom begins.",
     "why_it_matters": "Brought tablets to the sub-$200 price point. Proved the content ecosystem model over hardware margins. Accelerated tablet adoption globally.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["budget-tablets", "amazon-ecosystem", "ipad-market-competition"],
-    "tags": ["kindle-fire", "amazon", "tablet", "affordable", "bezos"],
-    "region": ["global"],
+    "influence": [
+      "budget-tablets",
+      "amazon-ecosystem",
+      "ipad-market-competition"
+    ],
+    "tags": [
+      "kindle-fire",
+      "amazon",
+      "tablet",
+      "affordable",
+      "bezos"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Kindle Fire - Wikipedia",
@@ -129,16 +206,33 @@
     "title": "Occupy Wall Street Goes Viral",
     "year": 2011,
     "date": "2011-09-17",
-    "category": ["culture", "social"],
+    "category": [
+      "culture",
+      "social"
+    ],
     "type": "cultural_event",
     "summary": "Occupy Wall Street uses social media to organize protests against economic inequality, reaching 951 cities worldwide.",
-    "narrative": "Adbusters tweets about occupying Wall Street. The hashtag #OccupyWallStreet trends globally. Twitter, Facebook, and live-streaming make it possible. No single leader, no formal demands — just collective anger. Police pepper-spray students at UC Davis. The video goes viral. The phrase 'We are the 99%' enters the lexicon. It's the first major protest movement born on social media.",
+    "narrative": "Adbusters tweets about occupying Wall Street. The hashtag #OccupyWallStreet trends globally. Twitter, Facebook, and live-streaming make it possible. No single leader, no formal demands \u2014 just collective anger. Police pepper-spray students at UC Davis. The video goes viral. The phrase 'We are the 99%' enters the lexicon. It's the first major protest movement born on social media.",
     "why_it_matters": "Proved social media could organize real-world movements. Changed the language around economic inequality. Predicted the populism wave of the 2010s.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["arab-spring-2011", "black-lives-matter-2013", "social-media-activism", "income-inequality-discourse"],
-    "tags": ["occupy-wall-street", "protest", "inequality", "social-media", "activism"],
-    "region": ["usa", "global"],
+    "influence": [
+      "arab-spring-2011",
+      "black-lives-matter-2013",
+      "social-media-activism",
+      "income-inequality-discourse"
+    ],
+    "tags": [
+      "occupy-wall-street",
+      "protest",
+      "inequality",
+      "social-media",
+      "activism"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Occupy Wall Street - Wikipedia",
@@ -154,16 +248,32 @@
     "title": "HTML5 Specification Finalized",
     "year": 2011,
     "date": "2011-05-25",
-    "category": ["standards", "software"],
+    "category": [
+      "standards",
+      "software"
+    ],
     "type": "standard_release",
     "summary": "The W3C finalizes the HTML5 specification, enabling rich web applications without plugins like Flash.",
-    "narrative": "After years of browser wars, the web finally gets a modern standard. HTML5 brings native video, canvas drawing, local storage, and offline apps. Steve Jobs publishes 'Thoughts on Flash' — the iPhone will never support it. Adobe gives up. Flash dies. The open web wins. Web apps start feeling like real apps.",
+    "narrative": "After years of browser wars, the web finally gets a modern standard. HTML5 brings native video, canvas drawing, local storage, and offline apps. Steve Jobs publishes 'Thoughts on Flash' \u2014 the iPhone will never support it. Adobe gives up. Flash dies. The open web wins. Web apps start feeling like real apps.",
     "why_it_matters": "Killed Flash. Made web apps viable. Enabled the modern web experience. Without HTML5, there's no YouTube on mobile, no web games, no progressive web apps.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["flash-death-2017", "web-apps", "progressive-web-apps", "mobile-web"],
-    "tags": ["html5", "web-standards", "flash", "w3c", "open-web"],
-    "region": ["global"],
+    "influence": [
+      "flash-death-2017",
+      "web-apps",
+      "progressive-web-apps",
+      "mobile-web"
+    ],
+    "tags": [
+      "html5",
+      "web-standards",
+      "flash",
+      "w3c",
+      "open-web"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "HTML5 - Wikipedia",
@@ -179,16 +289,32 @@
     "title": "Spotify Launches in the US",
     "year": 2011,
     "date": "2011-07-14",
-    "category": ["media", "business"],
+    "category": [
+      "media",
+      "business"
+    ],
     "type": "platform_launch",
     "summary": "Spotify launches in the US after years of European availability, bringing streaming music to the American market.",
-    "narrative": "Europeans have had Spotify since 2008. Americans have been using VPNs to access it. Finally, it launches stateside. Free tier with ads. Premium for $9.99/month. The music industry is skeptical — they got burned by Napster. But streaming is inevitable. Spotify reaches 1 million US users in its first month. iTunes starts to feel old.",
+    "narrative": "Europeans have had Spotify since 2008. Americans have been using VPNs to access it. Finally, it launches stateside. Free tier with ads. Premium for $9.99/month. The music industry is skeptical \u2014 they got burned by Napster. But streaming is inevitable. Spotify reaches 1 million US users in its first month. iTunes starts to feel old.",
     "why_it_matters": "Brought streaming music mainstream in the world's biggest music market. Shifted the industry from ownership to access. Killed the album as the primary unit of music consumption.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["apple-music-2015", "streaming-music", "spotify-playlists", "album-decline"],
-    "tags": ["spotify", "streaming", "music", "usa", "subscription"],
-    "region": ["usa"],
+    "influence": [
+      "apple-music-2015",
+      "streaming-music",
+      "spotify-playlists",
+      "album-decline"
+    ],
+    "tags": [
+      "spotify",
+      "streaming",
+      "music",
+      "usa",
+      "subscription"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Spotify - Wikipedia",
@@ -204,16 +330,33 @@
     "title": "Netflix DVD/Streaming Split Disaster",
     "year": 2011,
     "date": "2011-09-18",
-    "category": ["business", "media"],
+    "category": [
+      "business",
+      "media"
+    ],
     "type": "business_decision",
     "summary": "Netflix announces it will split DVD-by-mail and streaming into separate services with separate pricing, losing 800,000 subscribers.",
-    "narrative": "Reed Hastings tries to split Netflix in two. Streaming stays Netflix. DVDs become Qwikster. The price goes up 60% for people who want both. Customers revolt. The stock drops 77%. Hastings apologizes. Qwikster dies within weeks. But the strategy was right — streaming is the future. Netflix just communicated it badly.",
+    "narrative": "Reed Hastings tries to split Netflix in two. Streaming stays Netflix. DVDs become Qwikster. The price goes up 60% for people who want both. Customers revolt. The stock drops 77%. Hastings apologizes. Qwikster dies within weeks. But the strategy was right \u2014 streaming is the future. Netflix just communicated it badly.",
     "why_it_matters": "Showed how quickly customer trust can be lost. Proved that streaming was the future of entertainment. The recovery became a masterclass in corporate pivots.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["streaming-wars", "netflix-recovery", "cord-cutting", "qwikster-meme"],
-    "tags": ["netflix", "streaming", "dvd", "qwikster", "customer-revolt"],
-    "region": ["usa", "global"],
+    "influence": [
+      "streaming-wars",
+      "netflix-recovery",
+      "cord-cutting",
+      "qwikster-meme"
+    ],
+    "tags": [
+      "netflix",
+      "streaming",
+      "dvd",
+      "qwikster",
+      "customer-revolt"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Qwikster - Wikipedia",
@@ -229,16 +372,32 @@
     "title": "Arab Spring Social Media Revolution",
     "year": 2011,
     "date": "2011-01-25",
-    "category": ["social", "culture"],
+    "category": [
+      "social",
+      "culture"
+    ],
     "type": "cultural_event",
     "summary": "Twitter and Facebook become essential tools for organizing protests across the Middle East and North Africa.",
     "narrative": "A street vendor in Tunisia sets himself on fire. The video spreads on Facebook. Protests erupt. The government falls. Then Egypt. Then Libya. Then Syria. Twitter becomes the wire service of the revolution. Governments shut down the internet. Protesters use dial-up modems and mesh networks. The world watches in real-time. Social media didn't cause the Arab Spring. But it made it impossible to ignore.",
-    "why_it_matters": "Demonstrated social media's power to topple governments. Changed how the world consumes news. Exposed the double-edged nature of platforms — liberation and surveillance.",
+    "why_it_matters": "Demonstrated social media's power to topple governments. Changed how the world consumes news. Exposed the double-edged nature of platforms \u2014 liberation and surveillance.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["social-media-activism", "internet-shutdowns", "citizen-journalism", "occupy-wall-street-2011"],
-    "tags": ["arab-spring", "twitter", "facebook", "revolution", "middle-east"],
-    "region": ["global"],
+    "influence": [
+      "social-media-activism",
+      "internet-shutdowns",
+      "citizen-journalism",
+      "occupy-wall-street-2011"
+    ],
+    "tags": [
+      "arab-spring",
+      "twitter",
+      "facebook",
+      "revolution",
+      "middle-east"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Arab Spring - Wikipedia",
@@ -246,6 +405,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "death-of-steve-jobs-2011",
+    "title": "Steve Jobs Passes Away at Age 56",
+    "year": 2011,
+    "date": "2011-10-05",
+    "category": [
+      "news",
+      "tech"
+    ],
+    "type": "milestone",
+    "summary": "The visionary co-founder of Apple passed away, sparking spontaneous digital and physical memorials worldwide.",
+    "narrative": "One day after Apple unveiled the iPhone 4S, Steve Jobs passed away from pancreatic cancer. Spontaneous memorials erupted outside glass Apple Stores across Tokyo, London, Paris, and New York, where grieving fans laid white roses, apples with bite marks, and illuminated iPads with condolences. His biographer Walter Isaacson published his definitive biography weeks later, becoming an instant global bestseller.",
+    "why_it_matters": "Jobs' passing was mourned like that of an artist or statesman, symbolizing technology's deep emotional connection to human creativity.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Steve Jobs - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs"
+      }
+    ]
+  },
+  {
+    "id": "adele-21-global-phenomenon-2011",
+    "title": "Adele's '21' Sells 31M Copies & Defies Streaming Transition",
+    "year": 2011,
+    "date": "2011-01-24",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "With heartbroken power ballads like 'Rolling in the Deep', 22-year-old Adele swept the planet.",
+    "narrative": "In an era when music pundits proclaimed that the full-length album was dead and physical sales were obsolete, London singer-songwriter Adele proved them spectacularly wrong. Armed with a volcanic voice and unvarnished emotional pain from a broken relationship, '21' spawned universal anthems like 'Someone Like You' and 'Set Fire to the Rain', spending 24 weeks at #1 in the US and selling 31 million copies globally.",
+    "why_it_matters": "It became the best-selling album of the 21st century, proving raw vocal authenticity and classic songwriting could unite all demographics.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "21 (Adele album) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/21_(Adele_album)"
+      }
+    ]
+  },
+  {
+    "id": "imessage-blue-bubbles-2011",
+    "title": "Apple Launches iMessage & Creates the Blue vs. Green Bubble Divide",
+    "year": 2011,
+    "date": "2011-10-12",
+    "category": [
+      "communication",
+      "gadget"
+    ],
+    "type": "launch",
+    "summary": "Apple released iOS 5 featuring iMessage, introducing end-to-end encrypted chats, typing dots, and blue bubbles.",
+    "narrative": "Shipped as an automatic upgrade in iOS 5, iMessage allowed iPhone, iPad, and Mac users to text, send high-res photos, and see real-time typing indicators over Wi-Fi and cellular without SMS carrier charges. Messages to fellow Apple users were colored vibrant blue, while SMS messages to Android phones reverted to standard green, unintentionally creating a potent social dynamic among young smartphone users.",
+    "why_it_matters": "iMessage became one of Apple's stickiest lock-in features, defining mobile social messaging etiquette in North America for over a decade.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "iMessage - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/IMessage"
       }
     ]
   }

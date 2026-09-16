@@ -4,16 +4,32 @@
     "title": "ALS Ice Bucket Challenge",
     "year": 2014,
     "date": "2014-07-29",
-    "category": ["social", "culture"],
+    "category": [
+      "social",
+      "culture"
+    ],
     "type": "viral_event",
     "summary": "The Ice Bucket Challenge goes viral, raising $115 million for ALS research through social media participation.",
-    "narrative": "Pete Frates, a former baseball player with ALS, challenges friends to dump ice water on their heads. The challenge spreads. Bill Gates builds a machine to do it. Mark Zuckerberg does it. Every celebrity does it. It's annoying. It works. The ALS Association raises $115 million in one summer — more than they've raised in a decade. The money funds research that leads to the discovery of a new ALS gene.",
+    "narrative": "Pete Frates, a former baseball player with ALS, challenges friends to dump ice water on their heads. The challenge spreads. Bill Gates builds a machine to do it. Mark Zuckerberg does it. Every celebrity does it. It's annoying. It works. The ALS Association raises $115 million in one summer \u2014 more than they've raised in a decade. The money funds research that leads to the discovery of a new ALS gene.",
     "why_it_matters": "Proved social media could drive massive fundraising. Created the template for viral charity challenges. The $115 million proved that awareness campaigns can have real impact.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["viral-charity", "social-media-fundraising", "challenge-culture", "ice-bucket-aftermath"],
-    "tags": ["ice-bucket", "als", "viral", "charity", "social-media"],
-    "region": ["global"],
+    "influence": [
+      "viral-charity",
+      "social-media-fundraising",
+      "challenge-culture",
+      "ice-bucket-aftermath"
+    ],
+    "tags": [
+      "ice-bucket",
+      "als",
+      "viral",
+      "charity",
+      "social-media"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Ice Bucket Challenge - Wikipedia",
@@ -29,16 +45,32 @@
     "title": "Facebook Acquires WhatsApp for $19 Billion",
     "year": 2014,
     "date": "2014-02-19",
-    "category": ["business", "communication"],
+    "category": [
+      "business",
+      "communication"
+    ],
     "type": "acquisition",
     "summary": "Facebook acquires WhatsApp for $19 billion, the largest tech acquisition in history.",
-    "narrative": "Jan Koum and Brian Acton built WhatsApp with a simple rule: no ads, no games, no gimmicks. Facebook offers $19 billion. Koum signs the deal on the door of a welfare office — the same office where he once collected food stamps as an immigrant kid. The deal is the largest tech acquisition ever. Koum and Acton leave Facebook in 2018 over privacy disagreements. They donate billions to charity.",
+    "narrative": "Jan Koum and Brian Acton built WhatsApp with a simple rule: no ads, no games, no gimmicks. Facebook offers $19 billion. Koum signs the deal on the door of a welfare office \u2014 the same office where he once collected food stamps as an immigrant kid. The deal is the largest tech acquisition ever. Koum and Acton leave Facebook in 2018 over privacy disagreements. They donate billions to charity.",
     "why_it_matters": "Largest tech acquisition in history. Validated messaging as the killer app. The founders leaving over privacy became a story about values vs. money.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["messaging-apps-global", "facebook-privacy", "tech-acquisitions", "immigrant-entrepreneur"],
-    "tags": ["whatsapp", "facebook", "acquisition", "billion", "messaging"],
-    "region": ["global"],
+    "influence": [
+      "messaging-apps-global",
+      "facebook-privacy",
+      "tech-acquisitions",
+      "immigrant-entrepreneur"
+    ],
+    "tags": [
+      "whatsapp",
+      "facebook",
+      "acquisition",
+      "billion",
+      "messaging"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "WhatsApp acquisition by Facebook - Wikipedia",
@@ -54,16 +86,32 @@
     "title": "Amazon Acquires Twitch",
     "year": 2014,
     "date": "2014-08-25",
-    "category": ["business", "gaming"],
+    "category": [
+      "business",
+      "gaming"
+    ],
     "type": "acquisition",
     "summary": "Amazon acquires Twitch for $970 million, betting big on live-streaming and gaming culture.",
     "narrative": "Twitch is where people watch other people play video games. It sounds stupid until you see the numbers. 55 million monthly visitors. 100 billion minutes watched per month. Google almost buys Twitch, but the deal falls through. Amazon swoops in for $970 million. Twitch becomes Amazon's crown jewel in gaming. Streamers become celebrities. Donations become a living. The creator economy gets a new engine.",
     "why_it_matters": "Validated live-streaming as a business. Created the streamer economy. Made watching games as popular as playing them. Twitch's community model influenced every platform.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["streamer-economy", "live-streaming", "youtube-live", "twitch-competitors"],
-    "tags": ["twitch", "amazon", "live-streaming", "gaming", "streamers"],
-    "region": ["global"],
+    "influence": [
+      "streamer-economy",
+      "live-streaming",
+      "youtube-live",
+      "twitch-competitors"
+    ],
+    "tags": [
+      "twitch",
+      "amazon",
+      "live-streaming",
+      "gaming",
+      "streamers"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Twitch - Wikipedia",
@@ -79,16 +127,32 @@
     "title": "Heartbleed Vulnerability",
     "year": 2014,
     "date": "2014-04-07",
-    "category": ["security", "software"],
+    "category": [
+      "security",
+      "software"
+    ],
     "type": "security_event",
     "summary": "The Heartbleed bug in OpenSSL exposes the private keys of millions of servers, affecting 17% of the internet.",
     "narrative": "A bug in OpenSSL, the software that encrypts most of the internet, has been lurking for two years. It's called Heartbleed. It lets attackers read the memory of servers, stealing passwords, private keys, and session tokens. 17% of the internet is vulnerable. Every major website is affected. The fix requires new SSL certificates. The bug was introduced by a single developer's mistake. The internet's security foundation was built on volunteer code.",
     "why_it_matters": "Exposed the fragility of internet infrastructure. Led to massive security overhaul. Showed that critical infrastructure depends on underfunded open-source projects. The OpenSSL project received much-needed funding.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["internet-security", "open-source-funding", "ssl-overhaul", "cybersecurity-awareness"],
-    "tags": ["heartbleed", "openssl", "security", "vulnerability", "encryption"],
-    "region": ["global"],
+    "influence": [
+      "internet-security",
+      "open-source-funding",
+      "ssl-overhaul",
+      "cybersecurity-awareness"
+    ],
+    "tags": [
+      "heartbleed",
+      "openssl",
+      "security",
+      "vulnerability",
+      "encryption"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Heartbleed - Wikipedia",
@@ -104,16 +168,32 @@
     "title": "Bitcoin Crashes After Mt. Gox Collapse",
     "year": 2014,
     "date": "2014-02-28",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "cultural_event",
     "summary": "Mt. Gox, the world's largest Bitcoin exchange, files for bankruptcy after losing 850,000 bitcoins worth $450 million.",
     "narrative": "Mt. Gox was processing 70% of all Bitcoin transactions. In February, it goes offline. Nobody knows why. Then the truth: 850,000 bitcoins are missing. The CEO, Mark Karpeles, is in Tokyo. He claims hackers stole them. The bitcoin price crashes from $1,000 to $300. The crypto world panics. Bitcoin is declared dead. It won't recover for two years. But the technology survives. The dream doesn't die.",
     "why_it_matters": "Biggest crypto disaster to date. Exposed the fragility of unregulated exchanges. The $450 million loss became the cautionary tale of crypto. Led to calls for regulation.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["crypto-regulation", "mt-gox-legacy", "bitcoin-recovery-2016", "exchange-security"],
-    "tags": ["bitcoin", "mt-gox", "crash", "crypto", "bankruptcy"],
-    "region": ["global"],
+    "influence": [
+      "crypto-regulation",
+      "mt-gox-legacy",
+      "bitcoin-recovery-2016",
+      "exchange-security"
+    ],
+    "tags": [
+      "bitcoin",
+      "mt-gox",
+      "crash",
+      "crypto",
+      "bankruptcy"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Mt. Gox - Wikipedia",
@@ -129,16 +209,32 @@
     "title": "Net Neutrality Debate Heats Up",
     "year": 2014,
     "date": "2014-01-01",
-    "category": ["standards", "business"],
+    "category": [
+      "standards",
+      "business"
+    ],
     "type": "cultural_event",
     "summary": "The FCC proposes new rules that would allow paid internet fast lanes, sparking massive public backlash for net neutrality.",
     "narrative": "The FCC proposes rules that would let ISPs charge websites for faster delivery. Netflix, Google, and Amazon are against it. Comcast and Verizon are for it. John Oliver dedicates a segment of his HBO show to the issue. His segment gets more views than the FCC's comment system can handle. The website crashes. Four million public comments flood in. It's the largest public comment campaign in FCC history. The rules change in 2015.",
     "why_it_matters": "Defined the net neutrality debate. Showed the power of viral activism on policy. The four million comments proved citizens care about how the internet is governed.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["fcc-net-neutrality-2015", "isp-regulation", "internet-governance", "john-oliver"],
-    "tags": ["net-neutrality", "fcc", "isps", "regulation", "open-internet"],
-    "region": ["usa"],
+    "influence": [
+      "fcc-net-neutrality-2015",
+      "isp-regulation",
+      "internet-governance",
+      "john-oliver"
+    ],
+    "tags": [
+      "net-neutrality",
+      "fcc",
+      "isps",
+      "regulation",
+      "open-internet"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Net neutrality in the United States - Wikipedia",
@@ -154,16 +250,32 @@
     "title": "The Fappening iCloud Hack",
     "year": 2014,
     "date": "2014-08-31",
-    "category": ["security", "culture"],
+    "category": [
+      "security",
+      "culture"
+    ],
     "type": "security_event",
     "summary": "Hundreds of private photos of celebrities are leaked from iCloud, raising urgent questions about cloud security and online privacy.",
-    "narrative": "Hundreds of private photos of celebrities — mostly women — appear on 4chan and Reddit. They were stolen from iCloud. The hack exploits a weakness in Apple's 'Find My iPhone' feature. Apple rushes to patch it. The victims include Jennifer Lawrence, Kate Upton, and Kirsten Dunst. The media blames the victims. Then it blames Apple. Then it blames the internet. The conversation shifts to: who owns your photos when they're in the cloud?",
+    "narrative": "Hundreds of private photos of celebrities \u2014 mostly women \u2014 appear on 4chan and Reddit. They were stolen from iCloud. The hack exploits a weakness in Apple's 'Find My iPhone' feature. Apple rushes to patch it. The victims include Jennifer Lawrence, Kate Upton, and Kirsten Dunst. The media blames the victims. Then it blames Apple. Then it blames the internet. The conversation shifts to: who owns your photos when they're in the cloud?",
     "why_it_matters": "Changed how people think about cloud security. Forced Apple to strengthen authentication. The victim-blaming sparked a conversation about online harassment and privacy.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["cloud-security", "apple-security", "online-privacy", "celebrity-hacking"],
-    "tags": ["icloud", "hack", "privacy", "celebrity", "security"],
-    "region": ["global"],
+    "influence": [
+      "cloud-security",
+      "apple-security",
+      "online-privacy",
+      "celebrity-hacking"
+    ],
+    "tags": [
+      "icloud",
+      "hack",
+      "privacy",
+      "celebrity",
+      "security"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "2014 celebrity photo hack - Wikipedia",
@@ -179,16 +291,32 @@
     "title": "Uber's Global Expansion",
     "year": 2014,
     "date": "2014-01-01",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "cultural_event",
     "summary": "Uber expands to 200+ cities worldwide, fundamentally disrupting the taxi industry and creating the gig economy.",
     "narrative": "Uber launches in 200 cities in one year. It's chaos. Taxis riot. Regulators scramble. Drivers protest. But people love it. Tap a button, a car shows up. No cash, no hailing, no awkward conversation. Travis Kalanick, the CEO, is aggressive, brilliant, and reckless. He picks fights with regulators, journalists, and competitors. Uber is valued at $40 billion. The gig economy is born.",
     "why_it_matters": "Created the gig economy model. Changed how people think about transportation. Sparked debates about labor rights, regulation, and the sharing economy. Valued at $82 billion by IPO.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["gig-economy", "lyft-competition", "ride-sharing", "labor-rights-debate"],
-    "tags": ["uber", "gig-economy", "transportation", "disruption", "kalanick"],
-    "region": ["global"],
+    "influence": [
+      "gig-economy",
+      "lyft-competition",
+      "ride-sharing",
+      "labor-rights-debate"
+    ],
+    "tags": [
+      "uber",
+      "gig-economy",
+      "transportation",
+      "disruption",
+      "kalanick"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Uber - Wikipedia",
@@ -204,16 +332,32 @@
     "title": "Ebola Outbreak Social Media Response",
     "year": 2014,
     "date": "2014-03-01",
-    "category": ["social", "culture"],
+    "category": [
+      "social",
+      "culture"
+    ],
     "type": "cultural_event",
     "summary": "Social media becomes the primary channel for Ebola information, misinformation, and public health communication during the West Africa outbreak.",
     "narrative": "Ebola outbreaks in West Africa. The WHO is slow to respond. Social media fills the gap. Doctors Without Borders posts real-time updates on Twitter. Facebook launches a donation feature. But misinformation spreads too. Fake cures, conspiracy theories, and panic go viral. The CDC has to debunk myths on social media. For the first time, public health organizations learn to fight a virus online.",
     "why_it_matters": "Changed how health organizations communicate during crises. Showed the double-edged nature of social media for public health. Created the template for pandemic communications.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["pandemic-communications", "health-misinformation", "social-media-health", "covid-19-social-media"],
-    "tags": ["ebola", "social-media", "health", "misinformation", "public-health"],
-    "region": ["global"],
+    "influence": [
+      "pandemic-communications",
+      "health-misinformation",
+      "social-media-health",
+      "covid-19-social-media"
+    ],
+    "tags": [
+      "ebola",
+      "social-media",
+      "health",
+      "misinformation",
+      "public-health"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "West African Ebola epidemic - Wikipedia",
@@ -229,16 +373,32 @@
     "title": "Flappy Bird Phenomenon",
     "year": 2014,
     "date": "2014-01-01",
-    "category": ["gaming", "culture"],
+    "category": [
+      "gaming",
+      "culture"
+    ],
     "type": "viral_event",
     "summary": "Flappy Bird, a simple mobile game by a Vietnamese developer, becomes the most downloaded app before the creator pulls it from stores.",
     "narrative": "Dong Nguyen, a Vietnamese game developer, makes a simple game: tap to make a bird fly through pipes. It's impossibly hard. It goes viral. It becomes the most downloaded app on the App Store. Nguyen can't handle the fame. He gets death threats. He pulls the game from the stores. The app disappears. Clone games flood the market. Flappy Bird becomes a symbol of viral mobile gaming and the pressure of sudden success.",
     "why_it_matters": "Proved simple mobile games could go mega-viral. The developer pulling it became a story about fame and mental health. Spawned an entire genre of Flappy Bird clones.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["mobile-gaming", "viral-games", "indie-game-success", "flappy-bird-clones"],
-    "tags": ["flappy-bird", "mobile-game", "viral", "indie", "gaming"],
-    "region": ["global"],
+    "influence": [
+      "mobile-gaming",
+      "viral-games",
+      "indie-game-success",
+      "flappy-bird-clones"
+    ],
+    "tags": [
+      "flappy-bird",
+      "mobile-game",
+      "viral",
+      "indie",
+      "gaming"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Flappy Bird - Wikipedia",
@@ -246,6 +406,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "taylor-swift-1989-pop-transition-2014",
+    "title": "Taylor Swift Drops '1989' & Pulls Catalog from Spotify",
+    "year": 2014,
+    "date": "2014-10-27",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Swift completed her transition to pure 80s synth-pop, selling 1.28 million copies in week one.",
+    "narrative": "Named after her birth year and recorded with Swedish hitmaker Max Martin, '1989' turned Taylor Swift from country-pop darling into an untouchable global pop titan with 'Shake It Off' and 'Blank Space'. Days after release, she pulled her entire catalog from Spotify, writing an op-ed declaring that 'music is art, and art is important and rare, and valuable things should be paid for.'",
+    "why_it_matters": "Swift's standoff catalyzed an industry-wide reckoning over music streaming economics, artist royalties, and the value of digital intellectual property.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "1989 (Taylor Swift album) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)"
+      }
+    ]
+  },
+  {
+    "id": "normcore-fashion-movement-2014",
+    "title": "Normcore: The Unpretentious Anti-Fashion Trend",
+    "year": 2014,
+    "date": "2014-02-26",
+    "category": [
+      "fashion",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "The deliberate rejection of luxury logos in favor of ordinary, nondescript basics took the fashion world by storm.",
+    "narrative": "First highlighted by trend-forecasting agency K-Hole, 'Normcore' found coolness in looking completely unexceptional. Fashionistas traded designer footwear for plain white Adidas Stan Smiths, chunky gray New Balance 990s, fleece zip-ups, Patagonia vests, and generic baseball caps. It was an ironic, comfortable antidote to exhausting hipster elitism and hyper-trendy fashion cycles.",
+    "why_it_matters": "Normcore presaged the shift toward utilitarian comfort, minimalist wardrobe capsules, and modern relaxed-fit workwear.",
+    "impact": 4,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Normcore - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Normcore"
+      }
+    ]
+  },
+  {
+    "id": "iphone-6-bendgate-2014",
+    "title": "Apple Releases iPhone 6 & Sparks 'Bendgate' Internet Frenzy",
+    "year": 2014,
+    "date": "2014-09-19",
+    "category": [
+      "gadget",
+      "viral-culture"
+    ],
+    "type": "launch",
+    "summary": "Apple gave in to consumer demand for large screens, but viral bend-test videos created an international PR storm.",
+    "narrative": "With screens expanded to 4.7 and 5.5 inches, the iPhone 6 and 6 Plus sold a record 10 million units in their opening weekend. But when early buyers reported their ultra-thin aluminum phones warping inside tight front pockets, YouTuber Unbox Therapy posted a video bending a 6 Plus barehanded. The video racked up tens of millions of views, forcing Apple to open its secret stress-testing labs to journalists.",
+    "why_it_matters": "Bendgate elevated YouTube product torture tests into high-stakes consumer journalism and prompted Apple to adopt hardened aerospace aluminum.",
+    "impact": 4,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "iPhone 6 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/IPhone_6"
       }
     ]
   }

@@ -4,16 +4,32 @@
     "title": "Instagram Launches",
     "year": 2010,
     "date": "2010-10-06",
-    "category": ["social", "design"],
+    "category": [
+      "social",
+      "design"
+    ],
     "type": "company_launch",
     "summary": "Instagram launches on iOS as a simple photo-sharing app with retro filters.",
     "narrative": "Kevin Systrom and Mike Krieger launch Burbn, then strip it down to just photos and filters. They rename it Instagram. The app launches on iOS only. One million downloads in two days. The retro filters make everyone feel like a photographer. By December, it has 1 million users. By 2012, Facebook pays $1 billion for it. By 2024, it has 2 billion users.",
     "why_it_matters": "Made photography social. Created the visual-first social media paradigm. Instagram filters became a cultural aesthetic. The acquisition price became a meme about undervaluing startups.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["snapchat-2011", "influencer-economy-2015", "tiktok-2016", "visual-social-media"],
-    "tags": ["instagram", "photo-sharing", "filters", "mobile-first", "facebook-acquisition"],
-    "region": ["global"],
+    "influence": [
+      "snapchat-2011",
+      "influencer-economy-2015",
+      "tiktok-2016",
+      "visual-social-media"
+    ],
+    "tags": [
+      "instagram",
+      "photo-sharing",
+      "filters",
+      "mobile-first",
+      "facebook-acquisition"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Instagram: From Launch to Billion Users",
@@ -29,16 +45,32 @@
     "title": "Apple iPad",
     "year": 2010,
     "date": "2010-04-03",
-    "category": ["hardware", "design"],
+    "category": [
+      "hardware",
+      "design"
+    ],
     "type": "product_launch",
     "summary": "Apple launches the iPad, creating the modern tablet market.",
     "narrative": "Steve Jobs says it's between a phone and a laptop. Critics call it a giant iPhone. The name sounds like a feminine hygiene product. But people love it. It's the best way to read, browse, and watch stuff on the couch. The iPad doesn't replace the laptop. It creates a new category: the tablet. Within two years, every electronics maker has one.",
     "why_it_matters": "Created the tablet market. Changed how people consume media. Responsive design became necessary because of iPad screen sizes. The app ecosystem expanded dramatically.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["responsive-design-2010", "tablets-everywhere", "ipad-kids", "mobile-web-growth"],
-    "tags": ["apple", "ipad", "tablet", "touchscreen", "mobile"],
-    "region": ["global"],
+    "influence": [
+      "responsive-design-2010",
+      "tablets-everywhere",
+      "ipad-kids",
+      "mobile-web-growth"
+    ],
+    "tags": [
+      "apple",
+      "ipad",
+      "tablet",
+      "touchscreen",
+      "mobile"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Apple iPad Launch Event",
@@ -54,16 +86,31 @@
     "title": "Responsive Web Design Coined",
     "year": 2010,
     "date": "2010-05-25",
-    "category": ["design", "development"],
+    "category": [
+      "design",
+      "development"
+    ],
     "type": "design_trend",
     "summary": "Ethan Marcotte publishes 'Responsive Web Design,' introducing fluid grids, flexible images, and media queries.",
     "narrative": "Ethan Marcotte writes an article for A List Apart that changes web design forever. He calls it 'responsive web design.' The idea: websites should adapt to any screen size. Fluid grids. Flexible images. CSS media queries. Instead of making a separate mobile site, you make one site that bends. It sounds obvious now. In 2010, it was revolutionary.",
     "why_it_matters": "Killed the separate mobile site. Made responsive design the industry standard. Every website built since 2012 owes something to this article.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["mobile-first-2011", "bootstrap-2011", "mobile-web-dominance-2016"],
-    "tags": ["responsive-design", "ethan-marcotte", "mobile", "css", "fluid-grid"],
-    "region": ["global"],
+    "influence": [
+      "mobile-first-2011",
+      "bootstrap-2011",
+      "mobile-web-dominance-2016"
+    ],
+    "tags": [
+      "responsive-design",
+      "ethan-marcotte",
+      "mobile",
+      "css",
+      "fluid-grid"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Responsive Web Design by Ethan Marcotte",
@@ -79,16 +126,32 @@
     "title": "Android Overtakes iPhone in Market Share",
     "year": 2010,
     "date": "2010-10-01",
-    "category": ["hardware", "business"],
+    "category": [
+      "hardware",
+      "business"
+    ],
     "type": "platform_shift",
     "summary": "Android surpasses iPhone in US market share for the first time, beginning its dominance of the global smartphone market.",
-    "narrative": "Google's open-source mobile OS reaches critical mass. Samsung Galaxy S, HTC Evo, Motorola Droid — suddenly there are Android phones everywhere. They're cheaper, they're on every carrier, and they're customizable. iPhone still makes more money per device. But Android wins on volume. By 2012, Android has 75% global market share.",
+    "narrative": "Google's open-source mobile OS reaches critical mass. Samsung Galaxy S, HTC Evo, Motorola Droid \u2014 suddenly there are Android phones everywhere. They're cheaper, they're on every carrier, and they're customizable. iPhone still makes more money per device. But Android wins on volume. By 2012, Android has 75% global market share.",
     "why_it_matters": "Proved open-source could win mobile. Created the two-OS duopoly. Android's reach brought smartphones to billions who couldn't afford iPhones.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["google-play-store", "android-dominance-global", "ios-vs-android", "mobile-first-design"],
-    "tags": ["android", "google", "smartphone", "market-share", "open-source"],
-    "region": ["global"],
+    "influence": [
+      "google-play-store",
+      "android-dominance-global",
+      "ios-vs-android",
+      "mobile-first-design"
+    ],
+    "tags": [
+      "android",
+      "google",
+      "smartphone",
+      "market-share",
+      "open-source"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Android Market Share History",
@@ -104,16 +167,32 @@
     "title": "Facebook Reaches 500 Million Users",
     "year": 2010,
     "date": "2010-07-22",
-    "category": ["social", "business"],
+    "category": [
+      "social",
+      "business"
+    ],
     "type": "platform_shift",
     "summary": "Facebook officially reaches 500 million active users, becoming the dominant social network on Earth.",
     "narrative": "Mark Zuckerberg posts that Facebook has half a billion users. That's 1 in 14 people on the planet. The Social Network movie comes out in October. David Fincher makes Zuckerberg look like a genius jerk. Winklevoss twins sue. Facebook settles. The platform is now too big to fail. Privacy settings are confusing. People complain. They don't leave.",
     "why_it_matters": "Reached critical mass. Became the default identity platform. The movie made tech culture mainstream. Privacy debates started here.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["facebook-ipo-2012", "cambridge-analytica-2018", "social-media-dominance", "privacy-debates"],
-    "tags": ["facebook", "social-network", "users", "zuckerberg", "social-network-movie"],
-    "region": ["global"],
+    "influence": [
+      "facebook-ipo-2012",
+      "cambridge-analytica-2018",
+      "social-media-dominance",
+      "privacy-debates"
+    ],
+    "tags": [
+      "facebook",
+      "social-network",
+      "users",
+      "zuckerberg",
+      "social-network-movie"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Facebook 500 Million Users",
@@ -129,16 +208,33 @@
     "title": "Foursquare and the Check-In Craze",
     "year": 2010,
     "date": "2010-01-01",
-    "category": ["social", "viral-culture"],
+    "category": [
+      "social",
+      "viral-culture"
+    ],
     "type": "cultural_event",
     "summary": "Foursquare popularizes location-based check-ins and gamified local discovery.",
-    "narrative": "Foursquare makes going places a game. Check in at the coffee shop enough times and you become Mayor. Friends can see where you are. It feels creepy and exciting at the same time. Every startup tries to add check-ins. Facebook adds places. Yelp adds check-ins. Google adds Latitude. The check-in craze peaks, then fades. But the underlying idea — location-aware services — becomes fundamental.",
+    "narrative": "Foursquare makes going places a game. Check in at the coffee shop enough times and you become Mayor. Friends can see where you are. It feels creepy and exciting at the same time. Every startup tries to add check-ins. Facebook adds places. Yelp adds check-ins. Google adds Latitude. The check-in craze peaks, then fades. But the underlying idea \u2014 location-aware services \u2014 becomes fundamental.",
     "why_it_matters": "Pioneered location-based social features. Gamified real-world behavior. Mayor badges were proto-achievements. The check-in model influenced every location service since.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["uber-location-2009", "yelp-check-in", "location-aware-services", "gamification"],
-    "tags": ["foursquare", "check-in", "location", "gamification", "mayor"],
-    "region": ["usa", "global"],
+    "influence": [
+      "uber-location-2009",
+      "yelp-check-in",
+      "location-aware-services",
+      "gamification"
+    ],
+    "tags": [
+      "foursquare",
+      "check-in",
+      "location",
+      "gamification",
+      "mayor"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Foursquare: A History",
@@ -154,16 +250,32 @@
     "title": "WhatsApp Gains Traction",
     "year": 2010,
     "date": "2010-01-01",
-    "category": ["communication", "software"],
+    "category": [
+      "communication",
+      "software"
+    ],
     "type": "company_launch",
     "summary": "WhatsApp crosses 10 million daily active users, proving that simple messaging apps can replace SMS.",
     "narrative": "Jan Koum and Brian Acton, both ex-Yahoo, build a simple status app. Then they pivot to messaging. No ads, no games, no gimmicks. Just messages. It works on any phone, any carrier, anywhere in the world. For people who can't afford SMS or live in countries with expensive data, WhatsApp is a lifeline. By 2012, it's processing 10 billion messages a day.",
     "why_it_matters": "Killed SMS internationally. Proved that ad-free, simple messaging could scale to billions. The $19 billion Facebook acquisition validated messaging as the killer app.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["telegram-2013", "signal-2014", "messaging-apps-global", "facebook-messenger-2011"],
-    "tags": ["whatsapp", "messaging", "sms", "mobile", "international"],
-    "region": ["global"],
+    "influence": [
+      "telegram-2013",
+      "signal-2014",
+      "messaging-apps-global",
+      "facebook-messenger-2011"
+    ],
+    "tags": [
+      "whatsapp",
+      "messaging",
+      "sms",
+      "mobile",
+      "international"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "WhatsApp: The Full Story",
@@ -179,16 +291,31 @@
     "title": "The Social Network Movie",
     "year": 2010,
     "date": "2010-10-01",
-    "category": ["entertainment", "cultural-event"],
+    "category": [
+      "entertainment",
+      "cultural-event"
+    ],
     "type": "cultural_event",
     "summary": "David Fincher's 'The Social Network' dramatizes Facebook's founding, making tech culture mainstream entertainment.",
     "narrative": "Aaron Sorkin writes the script. Trent Reznor and Atticus Ross do the score. Jesse Eisenberg plays Zuckerberg as a socially brilliant jerk. Justin Timberlake plays Sean Parker as a charming predator. The movie makes Facebook's origin story legendary. 'You don't get to 500 million friends without making a few enemies.' The opening line of every tech pitch deck for the next decade.",
     "why_it_matters": "Made Silicon Valley mythology mainstream. Created the template for tech biopics. The movie's version of events became the accepted narrative.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["tech-biopics", "silicon-valley-mythology", "startup-culture-glamorization"],
-    "tags": ["social-network", "movie", "facebook", "zuckerberg", "aaron-sorkin"],
-    "region": ["global"],
+    "influence": [
+      "tech-biopics",
+      "silicon-valley-mythology",
+      "startup-culture-glamorization"
+    ],
+    "tags": [
+      "social-network",
+      "movie",
+      "facebook",
+      "zuckerberg",
+      "aaron-sorkin"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "The Social Network - IMDb",
@@ -204,16 +331,33 @@
     "title": "Bitcoin First Real-World Transaction",
     "year": 2010,
     "date": "2010-05-22",
-    "category": ["business", "software"],
+    "category": [
+      "business",
+      "software"
+    ],
     "type": "cultural_event",
     "summary": "Laszlo Hanyecz pays 10,000 BTC for two pizzas in the first known real-world Bitcoin transaction.",
     "narrative": "A programmer in Jacksonville, Florida posts on BitcoinTalk: he'll pay 10,000 BTC for two pizzas. Someone orders Papa John's and pays with a credit card. Laszlo sends the Bitcoin. It's the first real-world transaction. The pizza is worth about $41. At Bitcoin's peak, those 10,000 BTC would be worth $690 million. Every year on May 22, the crypto world celebrates Bitcoin Pizza Day.",
     "why_it_matters": "First proof that Bitcoin could be used for real purchases. Created the most expensive pizza in history. Bitcoin Pizza Day became a cultural milestone in crypto.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["crypto-mainstream-2017", "bitcoin-boom-2021", "nft-craze-2021", "crypto-culture"],
-    "tags": ["bitcoin", "pizza", "crypto", "transaction", "pizza-day"],
-    "region": ["usa", "global"],
+    "influence": [
+      "crypto-mainstream-2017",
+      "bitcoin-boom-2021",
+      "nft-craze-2021",
+      "crypto-culture"
+    ],
+    "tags": [
+      "bitcoin",
+      "pizza",
+      "crypto",
+      "transaction",
+      "pizza-day"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Bitcoin Pizza Day",
@@ -229,16 +373,31 @@
     "title": "iPhone 4 Antennagate",
     "year": 2010,
     "date": "2010-06-24",
-    "category": ["hardware", "viral-culture"],
+    "category": [
+      "hardware",
+      "viral-culture"
+    ],
     "type": "viral_event",
     "summary": "iPhone 4's antenna design causes signal loss when held normally. Steve Jobs tells users 'you're holding it wrong.'",
     "narrative": "The iPhone 4 is beautiful. Glass front and back. Retina display. But there's a problem: hold it in your left hand and the signal drops. Tech blogs call it Antennagate. Steve Jobs responds with 'just avoid holding it that way.' The internet loses its mind. Apple eventually offers free bumper cases. The phrase 'you're holding it wrong' becomes a meme about corporate hubris.",
     "why_it_matters": "Became a case study in product design failures and PR disasters. 'You're holding it wrong' entered the tech lexicon. Apple's response shaped how companies handle product defects.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["apple-quality-reputation", "product-recall-precedent", "tech-pr-disasters"],
-    "tags": ["iphone-4", "antenna", "apple", "pr-disaster", "steve-jobs"],
-    "region": ["global"],
+    "influence": [
+      "apple-quality-reputation",
+      "product-recall-precedent",
+      "tech-pr-disasters"
+    ],
+    "tags": [
+      "iphone-4",
+      "antenna",
+      "apple",
+      "pr-disaster",
+      "steve-jobs"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "iPhone 4 Antennagate",
@@ -246,6 +405,72 @@
         "type": "secondary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "ipad-original-launch-2010",
+    "title": "Steve Jobs Unveils the Original Apple iPad",
+    "year": 2010,
+    "date": "2010-01-27",
+    "category": [
+      "gadget",
+      "design"
+    ],
+    "type": "launch",
+    "summary": "Steve Jobs introduced the 9.7-inch iPad, selling 300,000 units on day one and launching the modern tablet era.",
+    "narrative": "Sitting comfortably on stage in a black turtleneck and jeans on a classic leather armchair, Steve Jobs demonstrated browsing the web, flipping through photo albums, and reading The New York Times on a thin 9.7-inch glass slab. While cynics initially dismissed it as 'just a giant iPod touch', consumers fell in love with lean-back couch computing, buying 15 million iPads in its first nine months.",
+    "why_it_matters": "The iPad created the modern consumer tablet category, transforming reading, education, airplane entertainment, and retail point-of-sale systems.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "iPad (1st generation) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
+      }
+    ]
+  },
+  {
+    "id": "deepwater-horizon-haiti-2010",
+    "title": "Deepwater Horizon Disaster & Haiti Earthquake SMS Relief",
+    "year": 2010,
+    "date": "2010-04-20",
+    "category": [
+      "news",
+      "history"
+    ],
+    "type": "milestone",
+    "summary": "Millions watched the underwater oil spill livestream, while the Haiti earthquake mobilized $30M in $10 text donations.",
+    "narrative": "On April 20, the Deepwater Horizon offshore drilling rig exploded in the Gulf of Mexico, killing 11 workers and discharging nearly five million barrels of oil. A continuous underwater 'Spillcam' video feed transfixed viewers around the world. Earlier in January, when a catastrophic earthquake devastated Haiti, the Red Cross raised over $30 million by allowing mobile users to simply text 'HAITI' to 90999.",
+    "why_it_matters": "It demonstrated how live streaming video brought ecological disasters directly to screens, and proved mobile micro-donations could rapidly organize disaster relief.",
+    "impact": 5,
+    "nostalgia": 2,
+    "sources": [
+      {
+        "title": "Deepwater Horizon oil spill - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+      }
+    ]
+  },
+  {
+    "id": "katy-perry-teenage-dream-2010",
+    "title": "Katy Perry's 'Teenage Dream' Ties Michael Jackson Record",
+    "year": 2010,
+    "date": "2010-08-24",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Katy Perry produced five Billboard #1 singles from one album, tying Michael Jackson's Bad.",
+    "narrative": "Coated in whipped cream, candy landscapes, and sun-soaked California nostalgia, Katy Perry's 'Teenage Dream' was a pop juggernaut. Produced by Max Martin and Dr. Luke, 'California Gurls', 'Teenage Dream', 'Firework', 'E.T.', and 'Last Friday Night' all hit number one on the Billboard Hot 100, matching a chart record previously held only by Michael Jackson's 1987 album *Bad*.",
+    "why_it_matters": "It was the commercial high-water mark of early 2010s radio pop perfection before streaming fractured the universal monoculture.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Teenage Dream (Katy Perry album) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Teenage_Dream_(Katy_Perry_album)"
       }
     ]
   }

@@ -5,14 +5,18 @@
   "era": "platform-maturity",
   "narrative": "React Native brings web patterns to mobile. Apple Watch creates wearable computing. Uber becomes a verb. Apple Music enters the streaming wars. Deep learning breaks through. Windows 10 redefines the OS.",
   "felt_like": {
-    "os": "Windows 10 / Mac OS X El Capitan",
-    "browser": "Chrome",
-    "messenger": "Slack / WhatsApp",
-    "social_network": "Instagram / Snapchat",
-    "music": "Spotify / Apple Music",
-    "phone": "iPhone 6s / Samsung Galaxy S6",
-    "video": "YouTube / Netflix",
-    "website": "flat design, Material Design, and lots of carousels"
+    "os": "Windows 10 (free upgrade!) / iOS 9 / macOS El Capitan",
+    "browser": "Chrome / Edge (IE retired) / Safari",
+    "messenger": "Slack (default work communication) / Discord (launching) / WhatsApp",
+    "social_network": "Instagram (ditching strict square photos) / Snapchat (Lenses / dog filter!) / Twitter",
+    "music": "Apple Music launches, Adele '25' ('Hello'), Drake 'Hotline Bling', Kendrick Lamar",
+    "phone": "iPhone 6s (3D Touch, Rose Gold) & Samsung Galaxy S6 Edge",
+    "video": "Periscope & Meerkat live streaming craze / Netflix 4K",
+    "website": "Clean card UI, Flexbox, SVG icons, subtle micro-interactions",
+    "fashion": "Athleisure boom: Lululemon leggings everywhere, Yeezy Boost 350s, bomber jackets",
+    "gadget": "Apple Watch (first gen) & DJI Phantom 3 4K drone",
+    "news": "US Supreme Court legalizes same-sex marriage; Paris terrorist attacks & Climate Accord",
+    "culture": "Star Wars: The Force Awakens reboots franchise; Drake Hotline Bling meme dance"
   },
   "events": [
     "react-2015",
@@ -24,6 +28,9 @@
     "slack-rise-2015",
     "deep-learning-2015",
     "google-self-driving-2015",
-    "peloton-2015"
+    "peloton-2015",
+    "same-sex-marriage-rainbow-filter-2015",
+    "yeezy-boost-athleisure-boom-2015",
+    "drake-hotline-bling-meme-2015"
   ]
 }

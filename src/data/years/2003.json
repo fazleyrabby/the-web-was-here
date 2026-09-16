@@ -5,14 +5,18 @@
   "era": "bust-rebuild",
   "narrative": "The pieces of the modern web click into place. WordPress makes blogging free, Skype makes calls free, the iTunes Store makes legal music easy, and MySpace makes the social network mainstream. Flickr shows that photos belong on the web, and Safari hints that the browser war is about to restart.",
   "felt_like": {
-    "os": "Windows XP / Mac OS X Panther",
-    "browser": "Internet Explorer 6 / Safari",
-    "messenger": "MSN Messenger / Skype",
-    "social_network": "MySpace / Friendster",
-    "music": "iTunes / iPod",
-    "phone": "Nokia / flip phones",
-    "video": "QuickTime / Windows Media",
-    "website": "MySpace profiles, auto-playing songs, glitter GIFs"
+    "os": "Windows XP / Mac OS X 10.3 Panther",
+    "browser": "Internet Explorer 6.0 / Apple Safari 1.0",
+    "messenger": "AIM (subprofile lyrics, away messages) / MSN / Yahoo",
+    "social_network": "Friendster (server meltdowns) / MySpace (launching) / LiveJournal",
+    "music": "iTunes 99\u00a2 downloads, Beyonc\u00e9 'Crazy in Love', 50 Cent, Outkast 'Hey Ya!'",
+    "phone": "Motorola V600, Nokia 6600, Sony Ericsson T610",
+    "video": "QuickTime Movie Trailers, DVD box sets, Kazaa P2P downloads",
+    "website": "Blogging explosion on WordPress & TypePad, clean CSS layouts",
+    "fashion": "Von Dutch trucker hats, low-rise flare jeans, layered polo shirts, studded belts",
+    "gadget": "iPod 3rd Gen (dock connector, red touch buttons) & Game Boy Advance SP",
+    "news": "Space Shuttle Columbia disaster; US-led invasion of Iraq",
+    "culture": "The Lord of the Rings: Return of the King sweeps 11 Oscars; Finding Nemo"
   },
   "events": [
     "wordpress-launch-2003",
@@ -22,6 +26,9 @@
     "safari-browser-launch-2003",
     "flickr-launch-2003",
     "overture-search-ads-2003",
-    "second-life-launch-2003"
+    "second-life-launch-2003",
+    "columbia-disaster-iraq-war-2003",
+    "beyonce-crazy-in-love-50cent-2003",
+    "von-dutch-trucker-hats-2003"
   ]
 }

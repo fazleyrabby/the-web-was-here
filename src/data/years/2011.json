@@ -5,14 +5,18 @@
   "era": "mobile-social",
   "narrative": "Google+ tries to kill Facebook and fails. Snapchat creates disappearing messages. Instagram hits a million users. The Arab Spring proves social media can topple governments. Occupy Wall Street goes viral. HTML5 kills Flash. The web grows up.",
   "felt_like": {
-    "os": "Windows 7 / Mac OS X Lion",
-    "browser": "Chrome / Firefox",
-    "messenger": "WhatsApp / Facebook Chat",
-    "social_network": "Facebook / Twitter / Google+",
-    "music": "Spotify / Pandora",
-    "phone": "iPhone 4S / Samsung Galaxy S2",
-    "video": "YouTube / Netflix streaming",
-    "website": "apps were replacing websites"
+    "os": "Windows 7 / OS X Lion / iOS 5 (iMessage & Siri!)",
+    "browser": "Chrome (fastest browser on earth) / Firefox 4",
+    "messenger": "iMessage (blue vs green bubbles born!) / WhatsApp / BBM",
+    "social_network": "Instagram (photo filters: Kelvin, Toaster, Earlybird) / Twitter / Google+",
+    "music": "Adele '21' ('Rolling in the Deep'), LMFAO 'Party Rock Anthem', Spotify US",
+    "phone": "iPhone 4S (with Siri) & Samsung Galaxy S II",
+    "video": "Netflix streaming taking over, YouTube viral sensations",
+    "website": "Infinite scroll, CSS3 transitions, Google web fonts",
+    "fashion": "Color blocking, high-waisted denim shorts, Jeffrey Campbell Lita boots, sheer maxi skirts",
+    "gadget": "Nintendo 3DS (glasses-free 3D) & Apple iPhone 4S (Siri)",
+    "news": "Death of Steve Jobs; Arab Spring revolutions; Fukushima nuclear disaster",
+    "culture": "Game of Thrones premieres on HBO; Royal Wedding of Prince William & Kate Middleton"
   },
   "events": [
     "google-plus-launch-2011",
@@ -24,6 +28,9 @@
     "html5-finalized-2011",
     "spotify-us-launch-2011",
     "netflix-dvd-split-2011",
-    "arab-spring-twitter-2011"
+    "arab-spring-twitter-2011",
+    "death-of-steve-jobs-2011",
+    "adele-21-global-phenomenon-2011",
+    "imessage-blue-bubbles-2011"
   ]
 }

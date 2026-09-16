@@ -5,14 +5,18 @@
   "era": "web-2",
   "narrative": "The iPhone redefines the phone. Facebook goes mainstream. Twitter finds its voice. YouTube becomes a cultural force. The Web stops being a place you visit and starts being a place you live.",
   "felt_like": {
-    "os": "Windows XP",
-    "browser": "Firefox 2 / Internet Explorer 7",
-    "messenger": "MSN Messenger",
-    "social_network": "MySpace / Facebook",
-    "music": "iPod / iTunes",
-    "phone": "Nokia N95 / iPhone",
-    "video": "YouTube",
-    "website": "probably had a gradient and a drop shadow"
+    "os": "Windows Vista (Aero glass) / Mac OS X 10.5 Leopard",
+    "browser": "Firefox 2 / Internet Explorer 7 / Safari on iPhone",
+    "messenger": "AIM / MSN Messenger / early Twitter SMS (40404)",
+    "social_network": "MySpace (losing ground) / Facebook (News Feed backlash) / Tumblr",
+    "music": "iPod Classic (click wheel), Kanye West 'Graduation', Rihanna 'Umbrella'",
+    "phone": "Original iPhone (2G, multi-touch, no App Store) & Nokia N95",
+    "video": "YouTube / early Netflix streaming / Hulu announces",
+    "website": "Gradients, bevels, shiny mirrors, Web 2.0 badges, drop shadows",
+    "fashion": "American Apparel hoodies, skinny jeans, deep V-neck tees, oversized scarves, gladiator sandals",
+    "gadget": "Original iPhone & Amazon Kindle E-reader",
+    "news": "Subprime mortgage crisis begins; Virginia Tech tragedy",
+    "culture": "Mad Men premieres; Superbad captures teen comedy; Harry Potter book 7 released"
   },
   "events": [
     "iphone-2007",
@@ -21,9 +25,10 @@
     "youtube-culture-2007",
     "android-announce-2007",
     "windows-vista-2007",
-    "kanye-interrupts-2007",
     "flash-games-peak-2007",
     "web2-design-2007",
-    "spotify-launch-2007"
+    "spotify-launch-2007",
+    "amazon-kindle-ereader-2007",
+    "rihanna-umbrella-graduation-2007"
   ]
 }

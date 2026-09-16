@@ -5,14 +5,18 @@
   "era": "platform-era",
   "narrative": "GDPR enforcement forced a global privacy reckoning. Cambridge Analytica destroyed trust in Facebook. Fortnite became a cultural operating system for kids. TikTok launched the short-form video revolution. The platforms built in the optimistic 2010s started facing the consequences of their power.",
   "felt_like": {
-    "os": "iOS 12 / Android 9 Pie",
-    "browser": "Chrome / Safari",
-    "messenger": "WhatsApp / Messenger",
-    "social_network": "TikTok / Instagram",
-    "music": "Spotify / Apple Music",
-    "phone": "iPhone X / Samsung Galaxy S9",
-    "video": "YouTube / Netflix / Fortnite streams",
-    "website": "Cookie consent walls, breach notifications, and algorithmic feeds"
+    "os": "Windows 10 October / iOS 12 / Android 9 Pie",
+    "browser": "Chrome (celebrates 10th birthday) / Safari / Firefox Quantum",
+    "messenger": "WhatsApp (2 billion users) / Discord / Telegram / iMessage",
+    "social_network": "TikTok (merges with Musical.ly) / Instagram (IGTV launches) / Reddit redesign",
+    "music": "Drake 'Scorpion' ('In My Feelings' Kiki challenge), Ariana Grande 'thank u, next'",
+    "phone": "iPhone XS Max & iPhone XR (vibrant colors) & Google Pixel 3 (Night Sight)",
+    "video": "TikTok 15-second vertical clips / Fortnite Twitch streams with Drake",
+    "website": "GDPR cookie banners everywhere, dark mode system preference (prefers-color-scheme)",
+    "fashion": "Chunky 'ugly' sneakers, neon cycling shorts, oversized streetwear blazers, Supreme box logos",
+    "gadget": "Apple Watch Series 4 (with ECG heart sensor) & Oculus Go",
+    "news": "Thai cave rescue captivated global livestreams; Death of Stephen Hawking",
+    "culture": "Marvel's Black Panther becomes cultural milestone; Spider-Man: Into the Spider-Verse"
   },
   "events": [
     "gdpr-enforcement-2018",
@@ -24,6 +28,9 @@
     "iphone-x-2017",
     "facebook-redesign-2018",
     "steam-fortnite-2018",
-    "blackout-challenge-2018"
+    "blackout-challenge-2018",
+    "fortnite-ninja-drake-twitch-2018",
+    "black-panther-cultural-milestone-2018",
+    "ugly-dad-sneaker-trend-2018"
   ]
 }

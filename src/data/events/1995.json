@@ -4,16 +4,32 @@
     "title": "Java Programming Language Released",
     "year": 1995,
     "date": "1995-05-23",
-    "category": ["software", "web"],
+    "category": [
+      "software",
+      "web"
+    ],
     "type": "technology_release",
     "summary": "Sun Microsystems releases Java, promising 'write once, run anywhere' and introducing applets to the web.",
-    "narrative": "James Gosling and his team at Sun Microsystems have been quietly building a language for interactive television. They call it Oak. Then Green. Then Java. On May 23, at SunWorld, they announce it to the world. The killer feature isn't the language itself — it's the promise that Java applets will make web pages come alive. Animations, interactive games, real-time stock tickers. The demo is a spinning 3D molecule. The audience loses their minds. Java becomes the language of the future. Or at least, that's the promise.",
+    "narrative": "James Gosling and his team at Sun Microsystems have been quietly building a language for interactive television. They call it Oak. Then Green. Then Java. On May 23, at SunWorld, they announce it to the world. The killer feature isn't the language itself \u2014 it's the promise that Java applets will make web pages come alive. Animations, interactive games, real-time stock tickers. The demo is a spinning 3D molecule. The audience loses their minds. Java becomes the language of the future. Or at least, that's the promise.",
     "why_it_matters": "Java popularized the concept of platform-independent programming. Applets were the first attempt to make web pages interactive. Java became the backbone of enterprise software for decades.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["netscape-java-1995", "enterprise-java-2000", "android-2008", "javascript-naming"],
-    "tags": ["java", "sun-microsystems", "applets", "programming", "write-once-run-anywhere"],
-    "region": ["global"],
+    "influence": [
+      "netscape-java-1995",
+      "enterprise-java-2000",
+      "android-2008",
+      "javascript-naming"
+    ],
+    "tags": [
+      "java",
+      "sun-microsystems",
+      "applets",
+      "programming",
+      "write-once-run-anywhere"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Java (programming language)",
@@ -29,16 +45,32 @@
     "title": "Internet Explorer 1.0 Ships",
     "year": 1995,
     "date": "1995-08-16",
-    "category": ["software", "web"],
+    "category": [
+      "software",
+      "web"
+    ],
     "type": "technology_release",
     "summary": "Microsoft releases Internet Explorer 1.0, bundled with the Windows 95 Plus! Pack, igniting the browser wars.",
-    "narrative": "Microsoft originally plans to license Mosaic from Spyglass. Instead, they build their own browser and call it Internet Explorer. It ships as part of the Windows 95 Plus! Pack for $49. Netscape Navigator costs $39 and is 10x better. But Microsoft has something Netscape doesn't — Windows. Bill Gates writes his famous 'The Internet Tidal Wave' memo and suddenly the entire company pivots to the web. The browser war begins.",
+    "narrative": "Microsoft originally plans to license Mosaic from Spyglass. Instead, they build their own browser and call it Internet Explorer. It ships as part of the Windows 95 Plus! Pack for $49. Netscape Navigator costs $39 and is 10x better. But Microsoft has something Netscape doesn't \u2014 Windows. Bill Gates writes his famous 'The Internet Tidal Wave' memo and suddenly the entire company pivots to the web. The browser war begins.",
     "why_it_matters": "Started the first browser war. Microsoft's bundling strategy would eventually destroy Netscape and shape how the web was built for a decade.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["netscape-ipo-1995", "browser-wars", "ie-wins-browser-war-1998", "antitrust-microsoft-1998"],
-    "tags": ["internet-explorer", "microsoft", "browser", "windows-95", "netscape"],
-    "region": ["global"],
+    "influence": [
+      "netscape-ipo-1995",
+      "browser-wars",
+      "ie-wins-browser-war-1998",
+      "antitrust-microsoft-1998"
+    ],
+    "tags": [
+      "internet-explorer",
+      "microsoft",
+      "browser",
+      "windows-95",
+      "netscape"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Internet Explorer",
@@ -54,16 +86,32 @@
     "title": "Netscape IPO",
     "year": 1995,
     "date": "1995-08-09",
-    "category": ["business", "web"],
+    "category": [
+      "business",
+      "web"
+    ],
     "type": "business_event",
     "summary": "Netscape goes public on August 9, 1995, with its stock price doubling on the first day and launching the dot-com era.",
     "narrative": "Marc Andreessen and Jim Clark take Netscape public on August 9, 1995. The stock opens at $28 and closes at $58.25. The company isn't profitable. It has no revenue to speak of. But it owns the browser. And the browser IS the internet. This is the day Silicon Valley becomes Silicon Valley. Every venture capitalist in America suddenly wants to fund a web company. The dot-com gold rush begins.",
     "why_it_matters": "The Netscape IPO is considered the event that launched the dot-com bubble. It proved that web companies could go public with massive valuations despite having no profits.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["dot-com-boom-1996", "dot-com-crash-2000", "venture-capital-web", "mozilla-foundation-2003"],
-    "tags": ["netscape", "ipo", "dot-com", "nasdaq", "marc-andreessen"],
-    "region": ["usa"],
+    "influence": [
+      "dot-com-boom-1996",
+      "dot-com-crash-2000",
+      "venture-capital-web",
+      "mozilla-foundation-2003"
+    ],
+    "tags": [
+      "netscape",
+      "ipo",
+      "dot-com",
+      "nasdaq",
+      "marc-andreessen"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Netscape",
@@ -79,16 +127,32 @@
     "title": "GeoCities Launches",
     "year": 1995,
     "date": "1995-10-01",
-    "category": ["web", "culture"],
+    "category": [
+      "web",
+      "culture"
+    ],
     "type": "platform_launch",
     "summary": "GeoCities launches, giving anyone a free homepage organized into themed 'neighborhoods' and democratizing web publishing.",
-    "narrative": "David Bohnett and John Rezner create GeoCities, named after Geo, the satellite, and the cities of the mind. The concept is simple — give everyone a free homepage. But the genius is the neighborhoods. Hollywood for entertainment. SiliconValley for tech. Tokyo for anime. Paris for romance. Your page has a hit counter, a guestbook, and animated GIF fire. It's terrible design. It's beautiful democracy. Millions of people build their first website here.",
+    "narrative": "David Bohnett and John Rezner create GeoCities, named after Geo, the satellite, and the cities of the mind. The concept is simple \u2014 give everyone a free homepage. But the genius is the neighborhoods. Hollywood for entertainment. SiliconValley for tech. Tokyo for anime. Paris for romance. Your page has a hit counter, a guestbook, and animated GIF fire. It's terrible design. It's beautiful democracy. Millions of people build their first website here.",
     "why_it_matters": "GeoCities taught millions of people HTML. It was the first large-scale experiment in user-generated web content. The personal homepage is the ancestor of every social media profile.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["myspace-profiles-2003", "blogging-era-2002", "social-media-profiles", "html-education"],
-    "tags": ["geocities", "homepage", "html", "free-website", "web-design"],
-    "region": ["global"],
+    "influence": [
+      "myspace-profiles-2003",
+      "blogging-era-2002",
+      "social-media-profiles",
+      "html-education"
+    ],
+    "tags": [
+      "geocities",
+      "homepage",
+      "html",
+      "free-website",
+      "web-design"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "GeoCities",
@@ -104,16 +168,33 @@
     "title": "AltaVista Search Engine Launches",
     "year": 1995,
     "date": "1995-12-15",
-    "category": ["search", "software"],
+    "category": [
+      "search",
+      "software"
+    ],
     "type": "technology_release",
     "summary": "Digital Equipment Corporation launches AltaVista, the first search engine to index the full text of web pages at scale.",
-    "narrative": "Before AltaVista, searching the web meant flipping through Yahoo's hand-curated directory. Louis Monier and Michael Burrows at DEC build something different — a search engine that actually reads every page. AltaVista indexes 16 million pages on launch day. The interface is dead simple. A search box. A button. That's it. It finds things Yahoo can't. It becomes the Google of its era. For a brief, glorious moment, AltaVista is the best way to find anything on the internet.",
+    "narrative": "Before AltaVista, searching the web meant flipping through Yahoo's hand-curated directory. Louis Monier and Michael Burrows at DEC build something different \u2014 a search engine that actually reads every page. AltaVista indexes 16 million pages on launch day. The interface is dead simple. A search box. A button. That's it. It finds things Yahoo can't. It becomes the Google of its era. For a brief, glorious moment, AltaVista is the best way to find anything on the internet.",
     "why_it_matters": "AltaVista proved that full-text search at scale was possible. It established the search engine as the primary way to navigate the web, paving the way for Google.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["google-founding-1998", "search-engine-optimization", "web-crawling", "yahoo-search"],
-    "tags": ["altavista", "search", "digital-equipment", "full-text-search", "web-index"],
-    "region": ["usa", "global"],
+    "influence": [
+      "google-founding-1998",
+      "search-engine-optimization",
+      "web-crawling",
+      "yahoo-search"
+    ],
+    "tags": [
+      "altavista",
+      "search",
+      "digital-equipment",
+      "full-text-search",
+      "web-index"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "AltaVista",
@@ -129,16 +210,33 @@
     "title": "ICQ Public Beta Released",
     "year": 1995,
     "date": "1995-11-15",
-    "category": ["communication", "software"],
+    "category": [
+      "communication",
+      "software"
+    ],
     "type": "technology_release",
     "summary": "Mirabilis releases ICQ, the first widespread instant messenger, introducing real-time online communication to the masses.",
-    "narrative": "Four Israeli teenagers — Arik Vardi, Sefi Vigiser, Amnon Amir, and Yair Goldfinger — build something that lets you know when your friends are online. They call it ICQ, short for 'I Seek You.' The name is perfect. You download the software, get a number, and add your friends. When they come online, you get a notification. The sound — 'uh oh' — becomes the sound of the internet. Nobody had ever been able to reach out and touch someone online in real time before.",
-    "why_it_matters": "ICQ invented instant messaging. The concept of presence — knowing when someone is online — became foundational to every communication platform that followed.",
+    "narrative": "Four Israeli teenagers \u2014 Arik Vardi, Sefi Vigiser, Amnon Amir, and Yair Goldfinger \u2014 build something that lets you know when your friends are online. They call it ICQ, short for 'I Seek You.' The name is perfect. You download the software, get a number, and add your friends. When they come online, you get a notification. The sound \u2014 'uh oh' \u2014 becomes the sound of the internet. Nobody had ever been able to reach out and touch someone online in real time before.",
+    "why_it_matters": "ICQ invented instant messaging. The concept of presence \u2014 knowing when someone is online \u2014 became foundational to every communication platform that followed.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["aim-1997", "msn-messenger-1999", "whatsapp-2009", "online-presence"],
-    "tags": ["icq", "instant-messaging", "mirabilis", "israel", "uh-oh"],
-    "region": ["israel", "global"],
+    "influence": [
+      "aim-1997",
+      "msn-messenger-1999",
+      "whatsapp-2009",
+      "online-presence"
+    ],
+    "tags": [
+      "icq",
+      "instant-messaging",
+      "mirabilis",
+      "israel",
+      "uh-oh"
+    ],
+    "region": [
+      "israel",
+      "global"
+    ],
     "sources": [
       {
         "title": "ICQ",
@@ -154,16 +252,32 @@
     "title": "Windows 95 Launch",
     "year": 1995,
     "date": "1995-08-24",
-    "category": ["software", "culture"],
+    "category": [
+      "software",
+      "culture"
+    ],
     "type": "platform_launch",
     "summary": "Microsoft launches Windows 95 with a $300 million marketing campaign, bringing the Start menu and internet access to mainstream computing.",
-    "narrative": "Microsoft spends $300 million — more than any software launch in history. The Rolling Stones' 'Start Me Up' plays in every commercial. Lines form at midnight outside CompUSA. Windows 95 isn't just an operating system. It's a cultural event. The Start menu. The taskbar. The recycle bin. Everything changes. Bill Gates becomes the richest person in the world. And bundled inside the Plus! Pack is a little browser called Internet Explorer.",
+    "narrative": "Microsoft spends $300 million \u2014 more than any software launch in history. The Rolling Stones' 'Start Me Up' plays in every commercial. Lines form at midnight outside CompUSA. Windows 95 isn't just an operating system. It's a cultural event. The Start menu. The taskbar. The recycle bin. Everything changes. Bill Gates becomes the richest person in the world. And bundled inside the Plus! Pack is a little browser called Internet Explorer.",
     "why_it_matters": "Windows 95 brought computing to the masses. Its UI conventions (Start menu, taskbar, desktop) are still used today. The bundled Internet Explorer started the browser wars.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["internet-explorer-1995", "consumer-computing", "microsoft-dominance", "desktop-ui"],
-    "tags": ["windows-95", "microsoft", "start-menu", "bill-gates", "launch"],
-    "region": ["global"],
+    "influence": [
+      "internet-explorer-1995",
+      "consumer-computing",
+      "microsoft-dominance",
+      "desktop-ui"
+    ],
+    "tags": [
+      "windows-95",
+      "microsoft",
+      "start-menu",
+      "bill-gates",
+      "launch"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Windows 95",
@@ -179,16 +293,32 @@
     "title": "HTML 2.0 Standard Published",
     "year": 1995,
     "date": "1995-11-21",
-    "category": ["standards", "web"],
+    "category": [
+      "standards",
+      "web"
+    ],
     "type": "standardization",
     "summary": "The IETF publishes HTML 2.0 as an RFC, the first formal standard for the language that powers the web.",
     "narrative": "Tim Berners-Lee created HTML to share physics documents. But by 1995, millions of people are using it to build personal pages, company sites, and web directories. The web needs rules. The Internet Engineering Task Force publishes RFC 1866, defining HTML 2.0. Forms are added. Tables come later. But the standard says: this is how you make a web page. Everyone agrees. For now.",
     "why_it_matters": "HTML 2.0 was the first formal web standard. It established the process of standardizing web technologies that continues through the W3C and WHATWG today.",
     "impact": 3,
     "nostalgia": 2,
-    "influence": ["html-3.2-1997", "css1-1996", "w3c-founding-1994", "web-standards"],
-    "tags": ["html", "standard", "ietf", "rfc", "web"],
-    "region": ["global"],
+    "influence": [
+      "html-3.2-1997",
+      "css1-1996",
+      "w3c-founding-1994",
+      "web-standards"
+    ],
+    "tags": [
+      "html",
+      "standard",
+      "ietf",
+      "rfc",
+      "web"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "HTML",
@@ -204,16 +334,32 @@
     "title": "Yahoo! Directory Dominates",
     "year": 1995,
     "date": "1995-03-01",
-    "category": ["search", "business"],
+    "category": [
+      "search",
+      "business"
+    ],
     "type": "business_event",
     "summary": "Yahoo! becomes the most popular web directory, organizing the chaotic early web into browsable categories.",
-    "narrative": "Jerry Yang and David Filo start 'Jerry's Guide to the World Wide Web' as a hobby at Stanford. They rename it Yahoo! — the acronym stands for 'Yet Another Hierarchically Organized Oracle,' or so the story goes. By 1995, Yahoo! is THE way people find websites. It's not a search engine — it's a directory. A human-curated list of the entire internet. Categories within categories. The internet has a table of contents, and it's maintained by two guys in a trailer.",
+    "narrative": "Jerry Yang and David Filo start 'Jerry's Guide to the World Wide Web' as a hobby at Stanford. They rename it Yahoo! \u2014 the acronym stands for 'Yet Another Hierarchically Organized Oracle,' or so the story goes. By 1995, Yahoo! is THE way people find websites. It's not a search engine \u2014 it's a directory. A human-curated list of the entire internet. Categories within categories. The internet has a table of contents, and it's maintained by two guys in a trailer.",
     "why_it_matters": "Yahoo! proved that organizing the web was valuable. The directory model couldn't scale, but it shaped how people thought about navigating the internet before search engines took over.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["altavista-launch-1995", "google-founding-1998", "portal-era-1997", "web-directories"],
-    "tags": ["yahoo", "directory", "jerry-yang", "david-filo", "web-navigation"],
-    "region": ["usa"],
+    "influence": [
+      "altavista-launch-1995",
+      "google-founding-1998",
+      "portal-era-1997",
+      "web-directories"
+    ],
+    "tags": [
+      "yahoo",
+      "directory",
+      "jerry-yang",
+      "david-filo",
+      "web-navigation"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Yahoo!",
@@ -221,6 +367,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "toy-story-pixar-cgi-1995",
+    "title": "Pixar & Disney Release 'Toy Story': First 3D CGI Feature",
+    "year": 1995,
+    "date": "1995-11-22",
+    "category": [
+      "culture",
+      "tech"
+    ],
+    "type": "cultural_shift",
+    "summary": "Director John Lasseter and Steve Jobs' Pixar released the first entirely computer-animated feature film.",
+    "narrative": "Woody and Buzz Lightyear weren't just beloved characters\u2014they were milestones in rendering technology. Produced using Pixar's RenderMan software on a farm of 117 Sun Microsystems computers, the film took 800,000 machine hours to compute. Critics praised its heartfelt story and witty script, earning over $373 million and proving computer graphics could rival traditional hand-drawn animation in artistic soul.",
+    "why_it_matters": "Toy Story launched Pixar into an animation titan, revitalized Steve Jobs' personal fortune, and permanently altered feature animation history.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Toy Story - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Toy_Story"
+      }
+    ]
+  },
+  {
+    "id": "ebay-auctionweb-founded-1995",
+    "title": "Pierre Omidyar Launches eBay (AuctionWeb)",
+    "year": 1995,
+    "date": "1995-09-03",
+    "category": [
+      "business",
+      "web"
+    ],
+    "type": "launch",
+    "summary": "On Labor Day weekend, French-born Iranian-American software engineer Pierre Omidyar coded AuctionWeb in his San Jose apartment.",
+    "narrative": "The first item Omidyar posted was a broken laser pointer for $1. Astonished when a collector bought it for $14.83, Omidyar realized the internet could connect buyers and sellers of niche, long-tail goods with zero friction. Within months, people were bidding on vintage Pez dispensers, Beanie Babies, and sports cards, inventing peer-to-peer online commerce and consumer feedback ratings.",
+    "why_it_matters": "eBay democratized global commerce, proving complete strangers across the globe could trust each other to exchange money and goods online.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "eBay - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/EBay"
+      }
+    ]
+  },
+  {
+    "id": "alanis-morissette-jagged-little-pill-1995",
+    "title": "Alanis Morissette's 'Jagged Little Pill' Sweeps the World",
+    "year": 1995,
+    "date": "1995-06-13",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "21-year-old Canadian singer-songwriter Alanis Morissette released an unfiltered, cathartic alt-rock tour de force.",
+    "narrative": "Singles like 'You Oughta Know' (featuring Flea and Dave Navarro on bass and guitar) and 'Ironic' exploded onto radio airwaves and MTV. With unflinching honesty, vocal vulnerability, and raw rage, Morissette spoke to a generation of young women hungry for authentic expression. The album went on to sell over 33 million copies worldwide and won four Grammy Awards including Album of the Year.",
+    "why_it_matters": "It smashed the glass ceiling for 90s female rock artists on commercial radio and opened doors for Lilith Fair and alternative pop.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Jagged Little Pill - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jagged_Little_Pill"
       }
     ]
   }

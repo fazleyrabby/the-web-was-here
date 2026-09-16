@@ -5,14 +5,18 @@
   "era": "pandemic",
   "narrative": "NFTs sell for millions. Facebook becomes Meta. Dogecoin goes to the moon. The chip shortage delays everything. Apple's M1 chips prove ARM is the future. Web3 promises a decentralized internet. Clubhouse peaks then crashes. The metaverse becomes a punchline before it even exists.",
   "felt_like": {
-    "os": "Windows 11 / macOS Monterey",
-    "browser": "Chrome / Arc (early access)",
-    "messenger": "Discord / Slack / Telegram",
-    "social_network": "TikTok / Twitter / Clubhouse",
-    "music": "Spotify / TikTok sounds",
-    "phone": "iPhone 13 / Samsung Galaxy S21",
-    "video": "Netflix / TikTok / Twitch",
-    "website": "NFT marketplaces everywhere, Web3 landing pages with rainbow gradients"
+    "os": "Windows 11 (centered taskbar) / macOS Monterey / iOS 15",
+    "browser": "Chrome / Arc (early invite buzz) / Safari",
+    "messenger": "Discord / Telegram / WhatsApp / Slack",
+    "social_network": "TikTok / Twitter Spaces / Clubhouse (peaks and fades) / Instagram",
+    "music": "Olivia Rodrigo 'Drivers License', Lil Nas X 'Montero', Glass Animals 'Heat Waves'",
+    "phone": "iPhone 13 Pro (120Hz ProMotion screen) & Galaxy Z Flip 3",
+    "video": "Squid Game becomes Netflix's #1 show in history / TikTok livestreams",
+    "website": "Web3 badges, crypto wallet connect modals (MetaMask), Tailwind CSS",
+    "fashion": "Y2K revival explosion: wide-leg baggy cargo pants, claw clips, baby tees, corset tops",
+    "gadget": "Meta Quest 2 VR headset & Valve Steam Deck announcement",
+    "news": "US Capitol riot; Global COVID vaccine rollout; Ever Given blocks Suez Canal",
+    "culture": "Squid Game red jumpsuit craze; GameStop short squeeze; Beeple $69M NFT"
   },
   "events": [
     "nft-craze-2021",
@@ -22,6 +26,9 @@
     "chip-shortage-2021",
     "clubhouse-peak-2021",
     "web3-hype-2021",
-    "amazon-luna-2021"
+    "amazon-luna-2021",
+    "gamestop-reddit-short-squeeze-2021",
+    "squid-game-netflix-sensation-2021",
+    "olivia-rodrigo-drivers-license-2021"
   ]
 }

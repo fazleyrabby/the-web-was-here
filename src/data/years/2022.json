@@ -5,14 +5,18 @@
   "era": "pandemic",
   "narrative": "Elon Musk buys Twitter and burns it down. FTX collapses in fraud. Crypto winter freezes digital assets. AI image generators change art forever. Wordle proves simple games still win. Ukraine goes digital. Twitter Blue becomes a cautionary tale. The internet grew up and grew cynical.",
   "felt_like": {
-    "os": "Windows 11 / macOS Ventura",
-    "browser": "Chrome / Arc (beta)",
-    "messenger": "Discord / iMessage / Telegram",
-    "social_network": "Twitter (chaos era) / TikTok",
-    "music": "Spotify / TikTok sounds",
-    "phone": "iPhone 14 / Samsung Galaxy S22",
-    "video": "Netflix / TikTok / YouTube",
-    "website": "NFT marketplaces shutting down, Web3 landing pages turning dark"
+    "os": "Windows 11 22H2 / macOS Ventura / iOS 16 (customizable Lock Screens)",
+    "browser": "Chrome / Arc browser / Safari / Brave",
+    "messenger": "Signal / Telegram / WhatsApp / Discord",
+    "social_network": "BeReal (two minutes to post!) / TikTok / Twitter (Musk takeover chaos)",
+    "music": "Harry Styles 'As It Was', Bad Bunny 'Un Verano Sin Ti', Beyonc\u00e9 'Renaissance'",
+    "phone": "iPhone 14 Pro (Dynamic Island pill) & Google Pixel 7",
+    "video": "Stranger Things season 4 (Kate Bush 'Running Up That Hill' revival!) / TikTok",
+    "website": "AI text prompt boxes, Bento grid UI design, dark neo-brutalism",
+    "fashion": "'Clean Girl' aesthetic: slicked-back buns, gold hoop earrings, oversized blazers, Sambas",
+    "gadget": "Valve Steam Deck (PC handheld) & Apple Watch Ultra",
+    "news": "Russian invasion of Ukraine; Death of Queen Elizabeth II; US Supreme Court overturns Roe v. Wade",
+    "culture": "James Webb Space Telescope first deep field images; Wordle daily puzzle craze"
   },
   "events": [
     "elon-musk-twitter-2022",
@@ -22,6 +26,9 @@
     "wordle-2022",
     "musk-twitter-blue-2022",
     "crypto-winter-2022",
-    "iphone-emergency-satellite-2022"
+    "iphone-emergency-satellite-2022",
+    "chatgpt-ai-revolution-inflection-2022",
+    "james-webb-telescope-deep-field-2022",
+    "adidas-samba-clean-girl-fashion-2022"
   ]
 }

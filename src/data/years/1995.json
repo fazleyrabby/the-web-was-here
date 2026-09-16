@@ -5,14 +5,18 @@
   "era": "early-web",
   "narrative": "Windows 95 ships with Internet Explorer. Netscape goes public and launches the dot-com gold rush. Java promises to make the web interactive. AltaVista makes the web searchable. GeoCities gives everyone a homepage. The internet stops being academic and starts being cultural.",
   "felt_like": {
-    "os": "Windows 95",
-    "browser": "Netscape Navigator / Internet Explorer 1",
-    "messenger": "ICQ (uh oh!)",
-    "social_network": "GeoCities neighborhoods",
-    "music": "Winamp with MP3s",
-    "phone": "Nokia 2110",
-    "video": "Mosaic animated GIFs",
-    "website": "a GeoCities page with a hit counter and animated fire"
+    "os": "Windows 95 / Mac OS 7.5.1",
+    "browser": "Netscape Navigator 2.0 / Internet Explorer 1.0",
+    "messenger": "ICQ / PowWow / IRC",
+    "social_network": "GeoCities neighborhoods / The Palace",
+    "music": "Alanis Morissette, Coolio, TLC, Oasis, cassette & CD mix",
+    "phone": "Nokia 2110 & Motorola StarTAC predecessor",
+    "video": "VHS rentals & animated GIF loops",
+    "website": "Hit counters, Under Construction animated GIFs, MIDI music",
+    "fashion": "Slip dresses, choker necklaces, platform sneakers, bucket hats",
+    "gadget": "Sony PlayStation (US launch) & Iomega 100MB Zip Drive",
+    "news": "Oklahoma City bombing; Million Man March in Washington",
+    "culture": "Pixar's Toy Story debuts; Clueless defines 90s teen lexicon"
   },
   "events": [
     "java-launch-1995",
@@ -23,6 +27,9 @@
     "icq-launch-1996-preview",
     "windows-95-launch-1995",
     "html-2.0-1995",
-    "yahoo-ipo-1996-preview"
+    "yahoo-ipo-1996-preview",
+    "toy-story-pixar-cgi-1995",
+    "ebay-auctionweb-founded-1995",
+    "alanis-morissette-jagged-little-pill-1995"
   ]
 }

@@ -5,14 +5,18 @@
   "era": "foundation",
   "narrative": "1991 was the year the World Wide Web stepped out of CERN's shadows and into the world. Tim Berners-Lee posted his quiet announcement on Usenet, Linus Torvalds released Linux, and a camera at Cambridge invented the webcam.",
   "felt_like": {
-    "os": "MS-DOS 5.0 / Windows 3.0 / Linux 0.01",
-    "browser": "N/A (WorldWideWeb on NeXT only)",
-    "messenger": "IRC / BBS chat",
-    "social_network": "Usenet newsgroups / BBS communities",
-    "music": "Grunge erupts—Nirvana's Nevermind",
-    "phone": "Rotary phones / early cellular bricks",
-    "video": "VHS tapes / early laser discs",
-    "website": "Simple text pages with blue underlined links"
+    "os": "MS-DOS 5.0 / Mac System 7",
+    "browser": "CERN Line Mode Browser / WorldWideWeb",
+    "messenger": "IRC / MUDs / Talk command",
+    "social_network": "Usenet newsgroups & Fidonet",
+    "music": "Cassette mixtapes, grunge CD albums, boomboxes",
+    "phone": "Clear plastic landlines with neon lights & car phones",
+    "video": "VHS rentals & MTV music video blocks",
+    "website": "First public HTML files hosted on NeXT",
+    "fashion": "Thrift store flannels, ripped denim, Doc Martens, Hypercolor shirts",
+    "gadget": "Super Nintendo Entertainment System (SNES)",
+    "news": "Dissolution of the Soviet Union; Operation Desert Storm",
+    "culture": "Nirvana's Nevermind, Terminator 2, Silence of the Lambs"
   },
   "events": [
     "world-wide-web-public-1991",
@@ -23,6 +27,9 @@
     "pdf-format-standardized-1991",
     "microsoft-activex-1991",
     "aol-free-trial-disk-1991",
-    "first-domain-names-registered-1991"
+    "first-domain-names-registered-1991",
+    "nirvana-nevermind-grunge-1991",
+    "super-nintendo-snes-launch-1991",
+    "ussr-dissolution-desert-storm-1991"
   ]
 }

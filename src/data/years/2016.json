@@ -3,16 +3,20 @@
   "year": 2016,
   "title": "The Year Reality Bent",
   "era": "platform-era",
-  "narrative": "Pokémon GO made augmented reality a global obsession. Facebook Live changed how the world broadcasts. Snapchat put a camera on your face. The post-truth era began. Yahoo revealed the largest data breach in history. The internet started to feel like it was everywhere — and nowhere safe.",
+  "narrative": "Pok\u00e9mon GO made augmented reality a global obsession. Facebook Live changed how the world broadcasts. Snapchat put a camera on your face. The post-truth era began. Yahoo revealed the largest data breach in history. The internet started to feel like it was everywhere \u2014 and nowhere safe.",
   "felt_like": {
-    "os": "iOS 10 / Android 7 Nougat",
-    "browser": "Chrome",
-    "messenger": "WhatsApp / Messenger",
-    "social_network": "Snapchat / Instagram",
-    "music": "Spotify / Apple Music",
-    "phone": "iPhone 7 / Samsung Galaxy S7",
-    "video": "YouTube / Netflix / Facebook Live",
-    "website": "Pokémon GO maps, live streams, and filter bubbles"
+    "os": "Windows 10 Anniversary / iOS 10 / Android 7.0 Nougat",
+    "browser": "Chrome / Safari / Firefox Quantum in development",
+    "messenger": "iMessage with stickers & fireworks / WhatsApp end-to-end encryption / Telegram",
+    "social_network": "Instagram Stories (Snapchat clone) / Musical.ly / Snapchat Spectacles",
+    "music": "Drake 'Views' ('One Dance' hits 1B streams), Frank Ocean 'Blonde', Beyonc\u00e9 'Lemonade'",
+    "phone": "iPhone 7 (No headphone jack! Jet Black) & Google Pixel (first gen)",
+    "video": "Facebook Live (chewbacca mom) / YouTube creator drama / Netflix downloads",
+    "website": "Mobile-first, accelerated mobile pages (AMP), dark mode experiments",
+    "fashion": "Millennial pink, choker necklaces, Off-White industrial belts, dad hats",
+    "gadget": "Apple AirPods & Nintendo NES Classic Mini",
+    "news": "Donald Trump elected US President; Brexit referendum passes in UK; Cubs win World Series",
+    "culture": "Stranger Things season one retro craze; Leonardo DiCaprio finally wins Oscar"
   },
   "events": [
     "pokemon-go-2016",
@@ -24,6 +28,9 @@
     "nmt-launch-2016",
     "uber-autonomous-2016",
     "usb-c-transition-2016",
-    "niansky-2016"
+    "niansky-2016",
+    "apple-airpods-cord-cutting-2016",
+    "brexit-and-trump-election-2016",
+    "millennial-pink-chokers-2016"
   ]
 }

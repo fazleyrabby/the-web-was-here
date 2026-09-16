@@ -4,16 +4,33 @@
     "title": "Amazon.com IPO",
     "year": 1997,
     "date": "1997-05-15",
-    "category": ["business", "web"],
+    "category": [
+      "business",
+      "web"
+    ],
     "type": "business_event",
     "summary": "Amazon goes public at $18 per share, raising $54 million and proving that online retail is a real business.",
-    "narrative": "Jeff Bezos drives across the country with his wife MacKenzie to start a company in their garage. He sells books because books are the perfect product — uniform, non-perishable, and there are millions of titles. Amazon IPOs on May 15, 1997 at $18 a share. Bezos's letter to shareholders says 'it's all about the long term.' Wall Street thinks he's crazy. He's losing money. But he's growing revenue 900% a year. The letter becomes legendary. Amazon is still playing the long game.",
+    "narrative": "Jeff Bezos drives across the country with his wife MacKenzie to start a company in their garage. He sells books because books are the perfect product \u2014 uniform, non-perishable, and there are millions of titles. Amazon IPOs on May 15, 1997 at $18 a share. Bezos's letter to shareholders says 'it's all about the long term.' Wall Street thinks he's crazy. He's losing money. But he's growing revenue 900% a year. The letter becomes legendary. Amazon is still playing the long game.",
     "why_it_matters": "Amazon's IPO validated e-commerce at scale. Bezos's shareholder letter became a foundational text of long-term business thinking. Amazon would go on to reshape retail entirely.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["dot-com-boom", "dot-com-crash-2000", "amazon-prime-2005", "ecommerce-boom"],
-    "tags": ["amazon", "ipo", "jeff-bezos", "ecommerce", "books", "garage"],
-    "region": ["usa"],
+    "influence": [
+      "dot-com-boom",
+      "dot-com-crash-2000",
+      "amazon-prime-2005",
+      "ecommerce-boom"
+    ],
+    "tags": [
+      "amazon",
+      "ipo",
+      "jeff-bezos",
+      "ecommerce",
+      "books",
+      "garage"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Amazon.com",
@@ -29,16 +46,32 @@
     "title": "Netflix Founded",
     "year": 1997,
     "date": "1997-08-29",
-    "category": ["business", "media"],
+    "category": [
+      "business",
+      "media"
+    ],
     "type": "company_launch",
     "summary": "Reed Hastings and Marc Randolph found Netflix as a DVD-by-mail service, with a vision for on-demand entertainment.",
     "narrative": "Reed Hastings loses $40 at Blockbuster. That's the origin story, whether it's true or not. He and Marc Randolph found Netflix on August 29, 1997. The idea: rent DVDs online, no late fees, get them delivered by mail. Blockbuster laughs at them. The first DVD shipped is 'Beetlejuice.' In 1997, Netflix is just a DVD rental company with a website. But Reed Hastings has a bigger vision. On-demand video. Streaming. The future of entertainment. It'll take 10 years to get there.",
     "why_it_matters": "Netflix started as a DVD rental company but was founded with the vision of on-demand entertainment. It would eventually kill Blockbuster and transform the entire entertainment industry.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["netflix-streaming-2007", "blockbuster-closure-2010", "cord-cutting", "binge-watching"],
-    "tags": ["netflix", "dvd", "blockbuster", "reed-hastings", "streaming"],
-    "region": ["usa"],
+    "influence": [
+      "netflix-streaming-2007",
+      "blockbuster-closure-2010",
+      "cord-cutting",
+      "binge-watching"
+    ],
+    "tags": [
+      "netflix",
+      "dvd",
+      "blockbuster",
+      "reed-hastings",
+      "streaming"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Netflix",
@@ -54,16 +87,32 @@
     "title": "Bluetooth 1.0 Specification Released",
     "year": 1997,
     "date": "1997-05-20",
-    "category": ["hardware", "standards"],
+    "category": [
+      "hardware",
+      "standards"
+    ],
     "type": "standardization",
     "summary": "Ericsson releases the Bluetooth 1.0 specification, creating the wireless standard that will connect billions of devices.",
     "narrative": "Ericsson's Jaap Haartsen invents a short-range radio technology named after King Harald Bluetooth, who united Denmark and Norway. The idea is simple: replace cables. Connect your phone to your headset. Your laptop to your printer. Bluetooth 1.0 supports 721 kbps and works within 10 meters. In 1997, nobody cares. The technology is expensive and battery-hungry. But the idea is right. In 10 years, every phone will have Bluetooth. In 20 years, your entire home will be Bluetooth-connected.",
     "why_it_matters": "Bluetooth became the universal standard for short-range wireless communication. It connects billions of devices from phones to headphones to smart home sensors.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["wireless-headphones-2010", "smart-home", "bluetooth-speakers", "wearables"],
-    "tags": ["bluetooth", "wireless", "ericsson", "short-range", "king-harald"],
-    "region": ["global"],
+    "influence": [
+      "wireless-headphones-2010",
+      "smart-home",
+      "bluetooth-speakers",
+      "wearables"
+    ],
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "ericsson",
+      "short-range",
+      "king-harald"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Bluetooth",
@@ -79,16 +128,32 @@
     "title": "RealPlayer Enables Live Streaming",
     "year": 1997,
     "date": "1997-01-01",
-    "category": ["media", "software"],
+    "category": [
+      "media",
+      "software"
+    ],
     "type": "cultural_event",
     "summary": "RealPlayer evolves from audio-only to full video streaming, enabling the first live internet broadcasts and changing media forever.",
     "narrative": "RealPlayer upgrades from RealAudio to RealVideo. Now you can stream video, not just audio. The first major use: live events. The Rolling Stones concert. Boxing matches. News broadcasts. It's grainy. It buffers constantly. The video is the size of a postage stamp. But it's LIVE. You're watching something from the other side of the world on your computer screen. The concept of 'appointment television' begins to die. The concept of 'I'll watch it when I want' begins to live.",
     "why_it_matters": "RealPlayer's video streaming proved that live video over the internet was viable. It started the shift from scheduled broadcasting to on-demand viewing.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["youtube-streaming-2005", "hulu-2007", "netflix-streaming-2007", "live-streaming"],
-    "tags": ["realplayer", "streaming", "video", "live", "broadcasting"],
-    "region": ["global"],
+    "influence": [
+      "youtube-streaming-2005",
+      "hulu-2007",
+      "netflix-streaming-2007",
+      "live-streaming"
+    ],
+    "tags": [
+      "realplayer",
+      "streaming",
+      "video",
+      "live",
+      "broadcasting"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "RealPlayer",
@@ -104,16 +169,32 @@
     "title": "AOL Instant Messenger Launches",
     "year": 1997,
     "date": "1997-05-15",
-    "category": ["communication", "software"],
+    "category": [
+      "communication",
+      "software"
+    ],
     "type": "platform_launch",
     "summary": "AOL launches Instant Messenger, bringing instant messaging to millions of AOL subscribers and creating a cultural phenomenon.",
-    "narrative": "AOL sees ICQ's success and builds their own messenger. AIM launches on May 15, 1997, and it's immediately everywhere because AOL already has millions of subscribers. The door-open sound. The door-close sound. Away messages that say 'BRB' or 'at the mall.' Buddy profiles. File sharing. Chat rooms. AIM isn't just a messenger — it's a social platform. Your away message is your first social media status. Your buddy list is your first social graph.",
+    "narrative": "AOL sees ICQ's success and builds their own messenger. AIM launches on May 15, 1997, and it's immediately everywhere because AOL already has millions of subscribers. The door-open sound. The door-close sound. Away messages that say 'BRB' or 'at the mall.' Buddy profiles. File sharing. Chat rooms. AIM isn't just a messenger \u2014 it's a social platform. Your away message is your first social media status. Your buddy list is your first social graph.",
     "why_it_matters": "AIM brought instant messaging to the American mainstream. It created the social features (away messages, buddy profiles, status) that would define social media.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["msn-messenger-1999", "myspace-status-2003", "facebook-status-2004", "slack-2013"],
-    "tags": ["aim", "aol", "instant-messaging", "away-message", "buddy-list"],
-    "region": ["usa"],
+    "influence": [
+      "msn-messenger-1999",
+      "myspace-status-2003",
+      "facebook-status-2004",
+      "slack-2013"
+    ],
+    "tags": [
+      "aim",
+      "aol",
+      "instant-messaging",
+      "away-message",
+      "buddy-list"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "AOL Instant Messenger",
@@ -129,16 +210,32 @@
     "title": "The First Web Logs Appear",
     "year": 1997,
     "date": "1997-01-01",
-    "category": ["culture", "web"],
+    "category": [
+      "culture",
+      "web"
+    ],
     "type": "cultural_event",
     "summary": "The first weblogs emerge, with individuals sharing personal thoughts and links in reverse-chronological format.",
-    "narrative": "Nobody calls them blogs yet. They're 'web logs' — online journals where people share links and thoughts. Justin Hall starts linkinglog.com in 1996. Jorn Barger coins 'weblog' in December 1997. The format is simple: newest entries first, with timestamps. No comments yet. No RSS. No WordPress. Just people writing on the internet for anyone to read. It feels like writing letters to the world. Most of them have 12 readers. The concept of publishing without a publisher is radical.",
+    "narrative": "Nobody calls them blogs yet. They're 'web logs' \u2014 online journals where people share links and thoughts. Justin Hall starts linkinglog.com in 1996. Jorn Barger coins 'weblog' in December 1997. The format is simple: newest entries first, with timestamps. No comments yet. No RSS. No WordPress. Just people writing on the internet for anyone to read. It feels like writing letters to the world. Most of them have 12 readers. The concept of publishing without a publisher is radical.",
     "why_it_matters": "Blogs democratized publishing. They were the first social media, giving anyone a voice without needing a newspaper, TV station, or publisher.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["blogger-1999", "wordpress-2003", "blogging-era-2002", "social-media"],
-    "tags": ["blog", "weblog", "publishing", "journal", "personal-voice"],
-    "region": ["global"],
+    "influence": [
+      "blogger-1999",
+      "wordpress-2003",
+      "blogging-era-2002",
+      "social-media"
+    ],
+    "tags": [
+      "blog",
+      "weblog",
+      "publishing",
+      "journal",
+      "personal-voice"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Blog",
@@ -154,16 +251,33 @@
     "title": "DVD Format Launches in the US",
     "year": 1997,
     "date": "1997-03-26",
-    "category": ["hardware", "media"],
+    "category": [
+      "hardware",
+      "media"
+    ],
     "type": "technology_release",
     "summary": "The DVD format launches in the US, replacing VHS tapes and eventually enabling Netflix's DVD-by-mail business model.",
     "narrative": "Toshiba, Matsushita, and a consortium of electronics companies launch the Digital Versatile Disc. The first player is the Toshiba SD-3006 at $599. The first titles include 'Twister' and 'The Mask of Zorro.' DVDs look better than VHS. They're smaller. They don't eat your tape. And they have menus. Menus! The format war with DivX (not the codec) will be forgotten. But the DVD will transform how movies are distributed. Netflix's entire business depends on it.",
     "why_it_matters": "DVDs replaced VHS and created the home video market that enabled Netflix's DVD-by-mail model. They also proved that digital formats could replace physical media.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["netflix-concept-1997", "blockbuster-decline", "blu-ray-2006", "streaming-kills-dvd"],
-    "tags": ["dvd", "toshiba", "digital", "movie", "home-video"],
-    "region": ["usa", "global"],
+    "influence": [
+      "netflix-concept-1997",
+      "blockbuster-decline",
+      "blu-ray-2006",
+      "streaming-kills-dvd"
+    ],
+    "tags": [
+      "dvd",
+      "toshiba",
+      "digital",
+      "movie",
+      "home-video"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "DVD",
@@ -179,16 +293,32 @@
     "title": "CSS2 in Development",
     "year": 1997,
     "date": "1997-05-01",
-    "category": ["standards", "web"],
+    "category": [
+      "standards",
+      "web"
+    ],
     "type": "standardization",
     "summary": "The W3C begins work on CSS2, expanding style capabilities with positioning, z-index, and media types.",
     "narrative": "CSS1 was a start, but designers needed more. The W3C starts working on CSS2, adding the features that will make complex layouts possible: positioning, z-index for layering, media types for print, and more granular font control. It's published as a recommendation in 1998, but the real work happens in 1997. Browser vendors promise support. Netscape and Microsoft are more interested in proprietary extensions. The web standards movement will need to fight for years to get compliance.",
     "why_it_matters": "CSS2 introduced the positioning model that makes modern web layouts possible. It established the foundation for responsive design and complex page composition.",
     "impact": 3,
     "nostalgia": 2,
-    "influence": ["css2-1998", "responsive-design-2010", "css-frameworks", "web-layouts"],
-    "tags": ["css", "w3c", "positioning", "web-standards", "layout"],
-    "region": ["global"],
+    "influence": [
+      "css2-1998",
+      "responsive-design-2010",
+      "css-frameworks",
+      "web-layouts"
+    ],
+    "tags": [
+      "css",
+      "w3c",
+      "positioning",
+      "web-standards",
+      "layout"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Cascading Style Sheets Level 2",
@@ -196,6 +326,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "princess-diana-global-grief-1997",
+    "title": "The World Mourns Princess Diana",
+    "year": 1997,
+    "date": "1997-08-31",
+    "category": [
+      "news",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "The tragic death of Diana, Princess of Wales in Paris triggered an unprecedented wave of global grief.",
+    "narrative": "Over 2.5 billion people tuned in to watch Princess Diana's funeral, while Elton John performed 'Candle in the Wind 1997' at Westminster Abbey. Outside Kensington Palace, a sea of over 60 million flowers piled feet deep. On the emerging World Wide Web, remembrance sites and news portals crashed under the weight of people seeking information, marking one of the first major web traffic surges.",
+    "why_it_matters": "The tragedy transformed the British monarchy's public relationship and demonstrated how the web had become an international communal mourning ground.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Death of Diana, Princess of Wales - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales"
+      }
+    ]
+  },
+  {
+    "id": "tamagotchi-craze-1997",
+    "title": "Bandai's Tamagotchi Virtual Pet Craze",
+    "year": 1997,
+    "date": "1997-05-01",
+    "category": [
+      "gadget",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Japanese toy company Bandai released Tamagotchi in the West, creating a worldwide virtual pet frenzy.",
+    "narrative": "Egg-shaped keychains with low-res LCD screens and three small buttons beeped insistently from children's backpacks. Players had to feed, discipline, clean up after, and entertain their pixelated digital pets or watch them sprout angel wings and perish. Schools across the US and UK banned them from classrooms as kids desperately checked on their pets between lessons.",
+    "why_it_matters": "Tamagotchi proved that humans could develop profound emotional attachments to simple software and digital entities.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Tamagotchi - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi"
+      }
+    ]
+  },
+  {
+    "id": "radiohead-ok-computer-1997",
+    "title": "Radiohead Releases 'OK Computer'",
+    "year": 1997,
+    "date": "1997-05-21",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Radiohead's third studio album presaged 21st-century technological alienation, digital surveillance, and consumerist anxiety.",
+    "narrative": "Recorded in a secluded 16th-century mansion near Bath, 'OK Computer' blended lush guitars with Mellotrons, glitching Roland electronic drums, and robotic speech synthesizers like 'Fitter Happier'. Songs like 'Paranoid Android' and 'Karma Police' captured a visceral foreboding about modern automated life just as computers and office cubicles were swallowing everyday routine.",
+    "why_it_matters": "Widely ranked among the greatest rock albums ever recorded, it served as the prophetic philosophical soundtrack to the digital transition.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "OK Computer - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OK_Computer"
       }
     ]
   }

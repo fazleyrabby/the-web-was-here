@@ -3,16 +3,20 @@
   "year": 2001,
   "title": "The Year the Web Grew Up",
   "era": "bust-rebuild",
-  "narrative": "The dot-com crash wipes out trillions, but the tools that outlast it arrive anyway. Wikipedia opens its doors, the iPod puts a thousand songs in your pocket, Windows XP unifies the PC, and Napster is shut down — proof that the old world was still in charge. September 11 turns the Internet into a news wire and a way to reach people when phones failed.",
+  "narrative": "The dot-com crash wipes out trillions, but the tools that outlast it arrive anyway. Wikipedia opens its doors, the iPod puts a thousand songs in your pocket, Windows XP unifies the PC, and Napster is shut down \u2014 proof that the old world was still in charge. September 11 turns the Internet into a news wire and a way to reach people when phones failed.",
   "felt_like": {
-    "os": "Windows XP / Mac OS X",
-    "browser": "Internet Explorer 6",
-    "messenger": "MSN Messenger / AIM",
-    "social_network": "Friendster (coming) / forums",
-    "music": "iPod / MP3 players",
-    "phone": "Nokia 8210",
-    "video": "RealPlayer",
-    "website": "guestbooks, hit counters, marquee text"
+    "os": "Windows XP (Bliss wallpaper) / Mac OS X 10.0 Cheetah",
+    "browser": "Internet Explorer 6.0 / Netscape 6.2",
+    "messenger": "AIM / MSN Messenger with custom emoticons / Yahoo Messenger",
+    "social_network": "Napster (shutting down) / Audiogalaxy / Kazaa / LiveJournal",
+    "music": "Apple iPod (1,000 songs in your pocket), white earbuds, Daft Punk, Jay-Z",
+    "phone": "Motorola V60 & Ericsson T68 with color screen",
+    "video": "QuickTime trailers, Flash cartoons (Homestar Runner), DVD boxsets",
+    "website": "Rounded aqua buttons, drop shadows, bevels, Bliss green hills",
+    "fashion": "Low-rise flare jeans, whale tails, trucker hats, newsboy caps, frosted lip gloss",
+    "gadget": "Apple iPod (mechanical scroll wheel) & Microsoft Xbox",
+    "news": "September 11 attacks reshape geopolitics, aviation, and digital journalism",
+    "culture": "The Lord of the Rings: Fellowship of the Ring; Harry Potter film debut"
   },
   "events": [
     "wikipedia-launch-2001",
@@ -23,6 +27,9 @@
     "september-11-internet-2001",
     "flash-animation-era-2001",
     "instant-messenger-wars-2001",
-    "xbox-launch-2001"
+    "xbox-launch-2001",
+    "halo-combat-evolved-xbox-2001",
+    "apple-first-retail-stores-2001",
+    "low-rise-jeans-y2k-fashion-2001"
   ]
 }

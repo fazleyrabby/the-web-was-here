@@ -1,22 +1,38 @@
 [
   {
     "id": "pokemon-go-2016",
-    "title": "Pokémon GO Breaks Records",
+    "title": "Pok\u00e9mon GO Breaks Records",
     "year": 2016,
     "date": "2016-07-06",
-    "category": ["gaming", "culture"],
+    "category": [
+      "gaming",
+      "culture"
+    ],
     "type": "product_launch",
-    "summary": "Niantic's Pokémon GO launches and becomes the fastest app to reach 50 million downloads, igniting the AR gaming craze.",
-    "narrative": "Pokémon GO doesn't just launch. It erupts. Within days, people are flooding parks, cities, and random street corners chasing digital creatures through their phone cameras. It's the first time augmented reality feels like mass entertainment. McDonald's, churches, and even Holocaust museums become PokéStops. The app makes $200 million in its first month. For one summer, the entire world is playing the same game.",
+    "summary": "Niantic's Pok\u00e9mon GO launches and becomes the fastest app to reach 50 million downloads, igniting the AR gaming craze.",
+    "narrative": "Pok\u00e9mon GO doesn't just launch. It erupts. Within days, people are flooding parks, cities, and random street corners chasing digital creatures through their phone cameras. It's the first time augmented reality feels like mass entertainment. McDonald's, churches, and even Holocaust museums become Pok\u00e9Stops. The app makes $200 million in its first month. For one summer, the entire world is playing the same game.",
     "why_it_matters": "Proved augmented reality could reach mainstream audiences. Created location-based gaming as a category. Showed the power of nostalgia-driven tech products.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["ar-gaming-market", "location-based-apps", "niantic-future", "mobile-gaming-revenue"],
-    "tags": ["pokemon-go", "augmented-reality", "niantic", "mobile-gaming", "location"],
-    "region": ["global"],
+    "influence": [
+      "ar-gaming-market",
+      "location-based-apps",
+      "niantic-future",
+      "mobile-gaming-revenue"
+    ],
+    "tags": [
+      "pokemon-go",
+      "augmented-reality",
+      "niantic",
+      "mobile-gaming",
+      "location"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
-        "title": "Pokémon GO",
+        "title": "Pok\u00e9mon GO",
         "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
         "type": "primary",
         "accessed": "2026-09-15",
@@ -29,16 +45,32 @@
     "title": "Facebook Live Goes Global",
     "year": 2016,
     "date": "2016-04-06",
-    "category": ["communication", "media"],
+    "category": [
+      "communication",
+      "media"
+    ],
     "type": "platform_shift",
     "summary": "Facebook rolls out Live video to all users, making live streaming a core social media feature.",
-    "narrative": "Mark Zuckerberg bets big on live video. Facebook Live rolls out to everyone — not just celebrities and brands. Suddenly your aunt is live-streaming Thanksgiving dinner. But the darker side emerges fast: violent incidents are broadcast live, forcing Facebook to reckon with content moderation at scale. The feature changes how news breaks, how influencers build audiences, and how people document their lives.",
+    "narrative": "Mark Zuckerberg bets big on live video. Facebook Live rolls out to everyone \u2014 not just celebrities and brands. Suddenly your aunt is live-streaming Thanksgiving dinner. But the darker side emerges fast: violent incidents are broadcast live, forcing Facebook to reckon with content moderation at scale. The feature changes how news breaks, how influencers build audiences, and how people document their lives.",
     "why_it_matters": "Democratized live broadcasting. Forced platforms to develop real-time content moderation. Created the template for Instagram Live, TikTok LIVE, and YouTube's live features.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["instagram-live", "tiktok-live", "content-moderation", "live-streaming-economy"],
-    "tags": ["facebook", "live-streaming", "social-media", "video", "broadcasting"],
-    "region": ["global"],
+    "influence": [
+      "instagram-live",
+      "tiktok-live",
+      "content-moderation",
+      "live-streaming-economy"
+    ],
+    "tags": [
+      "facebook",
+      "live-streaming",
+      "social-media",
+      "video",
+      "broadcasting"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Facebook Live",
@@ -54,16 +86,32 @@
     "title": "Snapchat Spectacles Launch",
     "year": 2016,
     "date": "2016-09-24",
-    "category": ["hardware", "social"],
+    "category": [
+      "hardware",
+      "social"
+    ],
     "type": "product_launch",
     "summary": "Snapchat releases Spectacles, camera-equipped sunglasses that record 10-second circular videos.",
-    "narrative": "Evan Spiegel does something unexpected: he makes hardware. Spectacles look like bright yellow sunglasses with a camera built in. Tap a button, record 10 seconds, and the video appears in Snapchat as a circular format — designed for how eyes actually see. A vending machine called Snapbot dispenses them randomly. The scarcity marketing works. Spectacles sell out instantly. They're the first major consumer AR wearable from a social company.",
+    "narrative": "Evan Spiegel does something unexpected: he makes hardware. Spectacles look like bright yellow sunglasses with a camera built in. Tap a button, record 10 seconds, and the video appears in Snapchat as a circular format \u2014 designed for how eyes actually see. A vending machine called Snapbot dispenses them randomly. The scarcity marketing works. Spectacles sell out instantly. They're the first major consumer AR wearable from a social company.",
     "why_it_matters": "Pioneered the smart glasses category before Meta Ray-Bans. Proved social companies could make hardware. The circular video format influenced how platforms think about first-person content.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["meta-ray-bans", "ar-wearables", "first-person-content", "snap-hardware"],
-    "tags": ["snapchat", "spectacles", "wearable", "camera", "smart-glasses"],
-    "region": ["usa"],
+    "influence": [
+      "meta-ray-bans",
+      "ar-wearables",
+      "first-person-content",
+      "snap-hardware"
+    ],
+    "tags": [
+      "snapchat",
+      "spectacles",
+      "wearable",
+      "camera",
+      "smart-glasses"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Spectacles (product)",
@@ -79,16 +127,32 @@
     "title": "Brexit Vote Shakes Tech Industry",
     "year": 2016,
     "date": "2016-06-23",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "political_event",
     "summary": "The UK votes to leave the EU, sending shockwaves through the European tech ecosystem and raising questions about data flows.",
     "narrative": "Nobody in tech saw it coming. The UK votes 52% to 48% to leave the European Union. Tech companies that set up London HQs to access the single market suddenly face an uncertain future. VC funding dries up. Startups worry about losing access to EU talent. Data privacy rules that were about to get simpler with GDPR now get complicated. The pound crashes. Silicon Roundabout goes quiet.",
     "why_it_matters": "Disrupted European tech hub strategies. Complicated cross-border data flows. Accelerated Dublin, Berlin, and Paris as alternative tech hubs.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["eu-data-regulation", "london-tech-exodus", "gdpr-implementation", "brexit-ongoing"],
-    "tags": ["brexit", "uk", "eu", "tech-industry", "regulation"],
-    "region": ["global"],
+    "influence": [
+      "eu-data-regulation",
+      "london-tech-exodus",
+      "gdpr-implementation",
+      "brexit-ongoing"
+    ],
+    "tags": [
+      "brexit",
+      "uk",
+      "eu",
+      "tech-industry",
+      "regulation"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "United Kingdom European Union membership referendum",
@@ -104,16 +168,32 @@
     "title": "Oxford Names 'Post-Truth' Word of the Year",
     "year": 2016,
     "date": "2016-11-16",
-    "category": ["culture", "media"],
+    "category": [
+      "culture",
+      "media"
+    ],
     "type": "cultural_moment",
     "summary": "Oxford Dictionaries names 'post-truth' as its 2016 Word of the Year, reflecting a world where facts matter less than feelings.",
-    "narrative": "After Brexit and the 2016 US election, Oxford Dictionaries makes it official: we live in a post-truth world. The word's usage jumped 2,000% in 2016. Social media algorithms reward outrage over accuracy. Fake news sites outperform real journalism. Filter bubbles calcify. It's not that people stopped caring about truth — it's that the infrastructure of the internet made it easy to ignore inconvenient facts.",
+    "narrative": "After Brexit and the 2016 US election, Oxford Dictionaries makes it official: we live in a post-truth world. The word's usage jumped 2,000% in 2016. Social media algorithms reward outrage over accuracy. Fake news sites outperform real journalism. Filter bubbles calcify. It's not that people stopped caring about truth \u2014 it's that the infrastructure of the internet made it easy to ignore inconvenient facts.",
     "why_it_matters": "Crystallized the misinformation crisis. Marked the moment social media's impact on democracy became undeniable. Launched a global conversation about media literacy.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["misinformation-crisis", "media-literacy", "platform-moderation", "fact-checking"],
-    "tags": ["post-truth", "misinformation", "fake-news", "media", "democracy"],
-    "region": ["global"],
+    "influence": [
+      "misinformation-crisis",
+      "media-literacy",
+      "platform-moderation",
+      "fact-checking"
+    ],
+    "tags": [
+      "post-truth",
+      "misinformation",
+      "fake-news",
+      "media",
+      "democracy"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Word of the Year 2016",
@@ -129,16 +209,32 @@
     "title": "Yahoo Data Breach Exposes 3 Billion Accounts",
     "year": 2016,
     "date": "2016-09-22",
-    "category": ["security", "business"],
+    "category": [
+      "security",
+      "business"
+    ],
     "type": "security_incident",
-    "summary": "Yahoo reveals a 2013 breach affecting all 3 billion user accounts — the largest data breach in history.",
-    "narrative": "Yahoo drops a bombshell: hackers compromised every single one of its 3 billion accounts in 2013. Names, emails, passwords, security questions — all of it. The breach wasn't just big. It was universal. Every Yahoo user was affected. The revelation comes right as Verizon is trying to buy Yahoo for $4.8 billion. Verizon knocks $350 million off the price. The breach becomes the textbook case for why password reuse is deadly.",
+    "summary": "Yahoo reveals a 2013 breach affecting all 3 billion user accounts \u2014 the largest data breach in history.",
+    "narrative": "Yahoo drops a bombshell: hackers compromised every single one of its 3 billion accounts in 2013. Names, emails, passwords, security questions \u2014 all of it. The breach wasn't just big. It was universal. Every Yahoo user was affected. The revelation comes right as Verizon is trying to buy Yahoo for $4.8 billion. Verizon knocks $350 million off the price. The breach becomes the textbook case for why password reuse is deadly.",
     "why_it_matters": "Largest data breach in history at the time. Triggered a cybersecurity awakening for consumers. Changed how companies value security in M&A deals.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["password-managers", "cybersecurity-awareness", "verizon-yahoo-deal", "data-breach-disclosure"],
-    "tags": ["yahoo", "data-breach", "cybersecurity", "hacking", "passwords"],
-    "region": ["global"],
+    "influence": [
+      "password-managers",
+      "cybersecurity-awareness",
+      "verizon-yahoo-deal",
+      "data-breach-disclosure"
+    ],
+    "tags": [
+      "yahoo",
+      "data-breach",
+      "cybersecurity",
+      "hacking",
+      "passwords"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Yahoo! data breaches",
@@ -154,16 +250,32 @@
     "title": "Google's Neural Machine Translation",
     "year": 2016,
     "date": "2016-09-26",
-    "category": ["software", "culture"],
+    "category": [
+      "software",
+      "culture"
+    ],
     "type": "technology_release",
     "summary": "Google launches Neural Machine Translation, dramatically improving Google Translate's quality overnight.",
     "narrative": "Google Translate has been useful but rough for years. Then Google switches to Neural Machine Translation and the improvement is jaw-dropping. Suddenly translations read naturally instead of sounding like word salad. The system uses a deep neural network that considers entire sentences at once, not word-by-word. It works across 103 languages. In one update, Google Translate goes from embarrassment to essential tool.",
     "why_it_matters": "Proved neural networks could solve real-world language problems. Set the stage for GPT, BERT, and the entire LLM revolution. Made cross-language communication dramatically more accessible.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["bert-2018", "gpt-series", "neural-translation", "language-ai"],
-    "tags": ["google-translate", "neural-network", "translation", "nmt", "machine-learning"],
-    "region": ["global"],
+    "influence": [
+      "bert-2018",
+      "gpt-series",
+      "neural-translation",
+      "language-ai"
+    ],
+    "tags": [
+      "google-translate",
+      "neural-network",
+      "translation",
+      "nmt",
+      "machine-learning"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Google Neural Machine Translation",
@@ -179,16 +291,32 @@
     "title": "Uber Launches Self-Driving Cars in Pittsburgh",
     "year": 2016,
     "date": "2016-09-14",
-    "category": ["software", "business"],
+    "category": [
+      "software",
+      "business"
+    ],
     "type": "product_launch",
     "summary": "Uber begins testing self-driving cars with real passengers in Pittsburgh, the first major on-demand autonomous ride service.",
-    "narrative": "Uber rolls out self-driving Ford Fusions in Pittsburgh. Passengers can opt in to ride in a car with no human behind the wheel — just a safety operator in the front seat. It's clumsy. The cars brake too hard. They struggle with bridges. But it's happening. In a real American city, you can hail a robot taxi. Pittsburgh becomes ground zero for the autonomous vehicle wars.",
+    "narrative": "Uber rolls out self-driving Ford Fusions in Pittsburgh. Passengers can opt in to ride in a car with no human behind the wheel \u2014 just a safety operator in the front seat. It's clumsy. The cars brake too hard. They struggle with bridges. But it's happening. In a real American city, you can hail a robot taxi. Pittsburgh becomes ground zero for the autonomous vehicle wars.",
     "why_it_matters": "First large-scale public deployment of autonomous ride-hailing. Accelerated the AV race between Uber, Waymo, and Tesla. Raised critical questions about safety and regulation.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["waymo-robotaxis", "tesla-autopilot", "av-regulation", "uber-waymo-lawsuit"],
-    "tags": ["uber", "self-driving", "autonomous", "pittsburgh", "robotaxi"],
-    "region": ["usa"],
+    "influence": [
+      "waymo-robotaxis",
+      "tesla-autopilot",
+      "av-regulation",
+      "uber-waymo-lawsuit"
+    ],
+    "tags": [
+      "uber",
+      "self-driving",
+      "autonomous",
+      "pittsburgh",
+      "robotaxi"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Uber Autonomous Vehicles",
@@ -204,16 +332,32 @@
     "title": "USB-C Becomes the New Standard",
     "year": 2016,
     "date": "2016-03-01",
-    "category": ["hardware", "standards"],
+    "category": [
+      "hardware",
+      "standards"
+    ],
     "type": "platform_shift",
     "summary": "Apple's MacBook and Google's Pixel push USB-C as the universal connector, beginning the death of proprietary cables.",
     "narrative": "2016 is the year the cable drawer starts to simplify. Apple puts USB-C on the MacBook. Google puts it on the Pixel. Android manufacturers follow. The reversible connector that handles power, data, and video in one port starts to replace everything.dongle life is real. But so is the promise: one cable for all your devices. The transition is painful. The destination is clear.",
     "why_it_matters": "Started the universal connector revolution. Made one-cable-for-all a reality. The EU would later mandate USB-C by law in 2024.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["eu-usb-c-mandate", "apple-usb-c", "universal-connector", "dongle-life"],
-    "tags": ["usb-c", "connectivity", "hardware", "standards", "apple"],
-    "region": ["global"],
+    "influence": [
+      "eu-usb-c-mandate",
+      "apple-usb-c",
+      "universal-connector",
+      "dongle-life"
+    ],
+    "tags": [
+      "usb-c",
+      "connectivity",
+      "hardware",
+      "standards",
+      "apple"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "USB Type-C",
@@ -229,16 +373,32 @@
     "title": "SpaceX Rocket Explosion Takes Down WhatsApp",
     "year": 2016,
     "date": "2016-09-01",
-    "category": ["hardware", "communication"],
+    "category": [
+      "hardware",
+      "communication"
+    ],
     "type": "infrastructure_incident",
     "summary": "A SpaceX Falcon 9 explosion destroys a Facebook satellite and causes WhatsApp and Instagram outages across Africa.",
-    "narrative": "SpaceX's Falcon 9 rocket explodes on the launch pad at Cape Canaveral. On board: a $200 million Amos-6 satellite that Facebook was leasing to bring internet to sub-Saharan Africa. The explosion doesn't just destroy the satellite — it takes down WhatsApp, Instagram, and Facebook across parts of Africa for hours. Mark Zuckerberg posts that he's 'deeply disappointed.' The fragility of global internet infrastructure becomes painfully clear.",
+    "narrative": "SpaceX's Falcon 9 rocket explodes on the launch pad at Cape Canaveral. On board: a $200 million Amos-6 satellite that Facebook was leasing to bring internet to sub-Saharan Africa. The explosion doesn't just destroy the satellite \u2014 it takes down WhatsApp, Instagram, and Facebook across parts of Africa for hours. Mark Zuckerberg posts that he's 'deeply disappointed.' The fragility of global internet infrastructure becomes painfully clear.",
     "why_it_matters": "Revealed how dependent global internet connectivity is on physical infrastructure. Highlighted the digital divide. Forced tech companies to rethink satellite internet strategies.",
     "impact": 3,
     "nostalgia": 2,
-    "influence": ["starlink-development", "internet-infrastructure", "digital-divide", "satellite-internet"],
-    "tags": ["spacex", "satellite", "infrastructure", "facebook", "africa"],
-    "region": ["global"],
+    "influence": [
+      "starlink-development",
+      "internet-infrastructure",
+      "digital-divide",
+      "satellite-internet"
+    ],
+    "tags": [
+      "spacex",
+      "satellite",
+      "infrastructure",
+      "facebook",
+      "africa"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Amos-6 (satellite)",
@@ -246,6 +406,76 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-cord-cutting-2016",
+    "title": "Apple Ditches Headphone Jack & Launches AirPods",
+    "year": 2016,
+    "date": "2016-09-07",
+    "category": [
+      "gadget",
+      "design"
+    ],
+    "type": "launch",
+    "summary": "Apple removed the century-old 3.5mm headphone jack on the iPhone 7, introducing wireless AirPods.",
+    "narrative": "Phil Schiller invoked the word 'Courage' on stage to explain ditching the analog audio jack, inviting intense mockery and memes comparing the white AirPods to broken electric toothbrush heads. But when consumers popped open the dental-floss dental case and experienced seamless optical ear detection and beamforming microphones, AirPods became an instant status symbol and a multi-billion dollar business.",
+    "why_it_matters": "AirPods normalized true wireless audio, rendering wired headphones nearly obsolete for general consumer use.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "AirPods - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/AirPods"
+      }
+    ]
+  },
+  {
+    "id": "brexit-and-trump-election-2016",
+    "title": "Brexit Vote & Trump Election: The Social Media Echo Chamber",
+    "year": 2016,
+    "date": "2016-11-08",
+    "category": [
+      "news",
+      "culture"
+    ],
+    "type": "milestone",
+    "summary": "Two seismic political shockwaves sparked intense global scrutiny into algorithmic newsfeeds and digital polarization.",
+    "narrative": "In June, the UK voted to exit the European Union; in November, reality television host and billionaire Donald Trump won the US presidency. Both results defied establishment polling models and forced an agonizing post-mortem into how algorithmic Facebook news feeds, targeted ad micro-targeting, and online polarization reshaped democratic consensus.",
+    "why_it_matters": "2016 was the pivotal turning point when governments and tech leaders recognized social media algorithms as powerful geopolitical forces.",
+    "impact": 5,
+    "nostalgia": 2,
+    "sources": [
+      {
+        "title": "2016 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election"
+      },
+      {
+        "title": "Brexit - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brexit"
+      }
+    ]
+  },
+  {
+    "id": "millennial-pink-chokers-2016",
+    "title": "Millennial Pink & the 90s Choker Renaissance",
+    "year": 2016,
+    "date": "2016-05-01",
+    "category": [
+      "fashion",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "A soft muted salmon blush color and velvet neck chokers became the defining visual markers of the generation.",
+    "narrative": "Coined by design writers, 'Millennial Pink'\u2014a calming, androgynous grapefruit-tinted blush\u2014dominated everything from Glossier cosmetic packaging to Instagram interior design and tech gadgets like the Rose Gold iPhone. Simultaneously, 90s velvet ribbon and plastic tattoo chokers re-emerged on every red carpet and festival grounds.",
+    "why_it_matters": "It became the definitive aesthetic shade of a generation, signaling a design shift toward gender-fluid minimalism and nostalgic retro revival.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Millennial pink - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shades_of_pink#Millennial_pink"
       }
     ]
   }

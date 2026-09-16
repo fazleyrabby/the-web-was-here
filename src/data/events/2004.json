@@ -4,16 +4,30 @@
     "title": "Facebook Launches",
     "year": 2004,
     "date": "2004-02-04",
-    "category": ["social", "culture"],
+    "category": [
+      "social",
+      "culture"
+    ],
     "type": "platform_launch",
     "summary": "Mark Zuckerberg launches 'TheFacebook' from a Harvard dorm room, initially limited to college students.",
-    "narrative": "A sophomore builds a site to compare classmates, gets in trouble for it, then builds something bigger. Facebook spreads dorm by dorm, campus by campus. For years it stays exclusive and cool. The wall, the poke, the profile — a whole vocabulary of online friendship is invented one feature at a time.",
+    "narrative": "A sophomore builds a site to compare classmates, gets in trouble for it, then builds something bigger. Facebook spreads dorm by dorm, campus by campus. For years it stays exclusive and cool. The wall, the poke, the profile \u2014 a whole vocabulary of online friendship is invented one feature at a time.",
     "why_it_matters": "Grew into the dominant social network of the next two decades and reshaped how people present themselves online.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["facebook-mainstream-2007", "social-media-dominance"],
-    "tags": ["facebook", "social-network", "harvard", "zuckerberg"],
-    "region": ["usa", "global"],
+    "influence": [
+      "facebook-mainstream-2007",
+      "social-media-dominance"
+    ],
+    "tags": [
+      "facebook",
+      "social-network",
+      "harvard",
+      "zuckerberg"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Facebook",
@@ -29,16 +43,30 @@
     "title": "Gmail Launches",
     "year": 2004,
     "date": "2004-04-01",
-    "category": ["communication", "software", "business"],
+    "category": [
+      "communication",
+      "software",
+      "business"
+    ],
     "type": "product_launch",
     "summary": "Google launches Gmail with 1GB of free storage, far more than rivals, on April Fools' Day so nobody believes it.",
-    "narrative": "Hotmail gave you a few megabytes. Google offered a gigabyte — hundreds of times more — and announced it on April 1 so the Internet assumed it was a joke. It was not. Gmail's search-based inbox and conversation threading quietly rewrote how email should work.",
+    "narrative": "Hotmail gave you a few megabytes. Google offered a gigabyte \u2014 hundreds of times more \u2014 and announced it on April 1 so the Internet assumed it was a joke. It was not. Gmail's search-based inbox and conversation threading quietly rewrote how email should work.",
     "why_it_matters": "Reset expectations for free email and storage. Made web apps feel as capable as desktop software.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["google-dominance", "cloud-storage-2000s"],
-    "tags": ["gmail", "google", "email", "storage"],
-    "region": ["global"],
+    "influence": [
+      "google-dominance",
+      "cloud-storage-2000s"
+    ],
+    "tags": [
+      "gmail",
+      "google",
+      "email",
+      "storage"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Gmail",
@@ -54,16 +82,29 @@
     "title": "Firefox 1.0 Challenges Internet Explorer",
     "year": 2004,
     "date": "2004-11-09",
-    "category": ["software", "standards"],
+    "category": [
+      "software",
+      "standards"
+    ],
     "type": "software_release",
     "summary": "Mozilla releases Firefox 1.0, the first serious open-source challenger to Internet Explorer's monopoly.",
-    "narrative": "After Netscape collapsed, its code was given to the public. A small community rebuilt it into something fast, safe, and full of features people actually wanted — like tabs and pop-up blocking. Firefox proved that the open web could beat a monopoly on merit.",
+    "narrative": "After Netscape collapsed, its code was given to the public. A small community rebuilt it into something fast, safe, and full of features people actually wanted \u2014 like tabs and pop-up blocking. Firefox proved that the open web could beat a monopoly on merit.",
     "why_it_matters": "Broke Internet Explorer's dominance and forced browsers to compete on speed and standards again.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["chrome-launch-2008", "browser-wars-2010s"],
-    "tags": ["firefox", "mozilla", "browser", "open-source"],
-    "region": ["global"],
+    "influence": [
+      "chrome-launch-2008",
+      "browser-wars-2010s"
+    ],
+    "tags": [
+      "firefox",
+      "mozilla",
+      "browser",
+      "open-source"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Firefox",
@@ -79,16 +120,30 @@
     "title": "World of Warcraft Launches",
     "year": 2004,
     "date": "2004-11-23",
-    "category": ["gaming", "culture", "social"],
+    "category": [
+      "gaming",
+      "culture",
+      "social"
+    ],
     "type": "product_launch",
     "summary": "Blizzard releases World of Warcraft, which becomes the defining massively multiplayer online game of its era.",
     "narrative": "Millions of people log into the same persistent world, join guilds, raid dungeons, and make friends they never meet in person. WoW turns online games into social spaces and turns 'see you online' into a real kind of friendship.",
     "why_it_matters": "Brought MMOs to the mainstream and demonstrated the scale of online communities. A rehearsal for today's virtual worlds.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["second-life-2003", "metaverse-2021"],
-    "tags": ["wow", "blizzard", "mmo", "gaming"],
-    "region": ["global"],
+    "influence": [
+      "second-life-2003",
+      "metaverse-2021"
+    ],
+    "tags": [
+      "wow",
+      "blizzard",
+      "mmo",
+      "gaming"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "World of Warcraft",
@@ -104,16 +159,31 @@
     "title": "Google Goes Public",
     "year": 2004,
     "date": "2004-08-19",
-    "category": ["business", "search"],
+    "category": [
+      "business",
+      "search"
+    ],
     "type": "business_milestone",
     "summary": "Google holds its IPO, raising $1.67 billion and turning a search engine into one of the most valuable companies on Earth.",
     "narrative": "Six years after two students started ranking web pages in a garage, Google sells shares to the public. Its famous 'don't be evil' letter promises to put users first. For a while, that promise felt real, and the company's ad machine started printing money.",
     "why_it_matters": "Turned search advertising into the most profitable business model on the web and funded Google's expansion into everything.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["adwords-2000", "google-dominance", "android-announce-2007"],
-    "tags": ["google", "ipo", "search", "advertising"],
-    "region": ["usa", "global"],
+    "influence": [
+      "adwords-2000",
+      "google-dominance",
+      "android-announce-2007"
+    ],
+    "tags": [
+      "google",
+      "ipo",
+      "search",
+      "advertising"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Google",
@@ -129,16 +199,30 @@
     "title": "Podcasting Gets Its Name",
     "year": 2004,
     "date": "2004-02-12",
-    "category": ["media", "culture", "communication"],
+    "category": [
+      "media",
+      "culture",
+      "communication"
+    ],
     "type": "culture_moment",
     "summary": "The term 'podcasting' is coined, combining 'iPod' and 'broadcasting', and a new on-demand audio format takes off.",
     "narrative": "RSS feeds could already deliver text automatically. Someone realizes they can deliver audio the same way, so shows land on your device overnight and play whenever you want. Radio stops being something you catch and becomes something you subscribe to.",
     "why_it_matters": "Created on-demand audio and the foundation of the modern podcast industry and creator economy.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["youtube-culture-2007", "creator-economy"],
-    "tags": ["podcast", "rss", "audio", "media"],
-    "region": ["global"],
+    "influence": [
+      "youtube-culture-2007",
+      "creator-economy"
+    ],
+    "tags": [
+      "podcast",
+      "rss",
+      "audio",
+      "media"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Podcast",
@@ -154,16 +238,31 @@
     "title": "Digg Launches",
     "year": 2004,
     "date": "2004-11-01",
-    "category": ["social", "media", "culture"],
+    "category": [
+      "social",
+      "media",
+      "culture"
+    ],
     "type": "platform_launch",
     "summary": "Digg launches, letting users vote stories up or down to decide what the front page of the web looks like.",
     "narrative": "Instead of editors deciding what mattered, the crowd would. Digg's front page became a real force, capable of sending so much traffic that a site could go down just from being linked. It was an early, chaotic experiment in collective attention.",
     "why_it_matters": "Popularized social voting and crowdsourced news, paving the way for Reddit and viral content platforms.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["reddit-rise-2000s", "viral-media-2010s"],
-    "tags": ["digg", "social-news", "voting", "crowdsourced"],
-    "region": ["usa", "global"],
+    "influence": [
+      "reddit-rise-2000s",
+      "viral-media-2010s"
+    ],
+    "tags": [
+      "digg",
+      "social-news",
+      "voting",
+      "crowdsourced"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Digg",
@@ -179,16 +278,29 @@
     "title": "Ubuntu 4.10 Debuts",
     "year": 2004,
     "date": "2004-10-20",
-    "category": ["software", "standards"],
+    "category": [
+      "software",
+      "standards"
+    ],
     "type": "software_release",
     "summary": "The first Ubuntu release ships, promising a free, friendly Linux desktop that anyone can install.",
     "narrative": "Linux had a reputation for being powerful but hostile. Ubuntu set out to be the opposite: free, predictable, and polite. Released every six months like clockwork, it became the gateway for a generation of developers into open-source software.",
     "why_it_matters": "Made Linux approachable and helped open-source become the default infrastructure of the modern Internet.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["cloud-computing-2006", "open-source-web"],
-    "tags": ["ubuntu", "linux", "open-source", "canonical"],
-    "region": ["global"],
+    "influence": [
+      "cloud-computing-2006",
+      "open-source-web"
+    ],
+    "tags": [
+      "ubuntu",
+      "linux",
+      "open-source",
+      "canonical"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Ubuntu",
@@ -204,16 +316,32 @@
     "title": "The Term 'Web 2.0' Catches On",
     "year": 2004,
     "date": "2004-10-05",
-    "category": ["culture", "business", "software"],
+    "category": [
+      "culture",
+      "business",
+      "software"
+    ],
     "type": "culture_moment",
     "summary": "The first Web 2.0 Conference names a shift toward user-generated content, social software, and the web as a platform.",
     "narrative": "The crash had killed the first web. Something new was growing in its place: sites that got better the more people used them. The conference gave it a name, and the name gave investors and builders a story to rally around. The participatory web had an identity.",
     "why_it_matters": "Framed the shift from static pages to platforms powered by users, defining the next decade of web business.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["youtube-2005", "facebook-mainstream-2007", "web2-design-2007"],
-    "tags": ["web2", "conference", "user-generated", "platform"],
-    "region": ["usa", "global"],
+    "influence": [
+      "youtube-2005",
+      "facebook-mainstream-2007",
+      "web2-design-2007"
+    ],
+    "tags": [
+      "web2",
+      "conference",
+      "user-generated",
+      "platform"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Web 2.0",
@@ -229,16 +357,31 @@
     "title": "Sony PSP Launches",
     "year": 2004,
     "date": "2004-12-12",
-    "category": ["gaming", "hardware", "culture"],
+    "category": [
+      "gaming",
+      "hardware",
+      "culture"
+    ],
     "type": "product_launch",
     "summary": "Sony releases the PlayStation Portable, a handheld console that also plays movies and music.",
     "narrative": "A game console that fits in your pocket and plays films on a tiny, gorgeous screen. The PSP tried to be the Walkman of the new century, and for a while it felt like the future was something you could hold in your hands.",
     "why_it_matters": "Pushed handheld gaming toward multimedia and set the stage for phones to eventually absorb the category.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["smartphone-gaming", "mobile-media-2007"],
-    "tags": ["psp", "sony", "handheld", "gaming"],
-    "region": ["japan", "global"],
+    "influence": [
+      "smartphone-gaming",
+      "mobile-media-2007"
+    ],
+    "tags": [
+      "psp",
+      "sony",
+      "handheld",
+      "gaming"
+    ],
+    "region": [
+      "japan",
+      "global"
+    ],
     "sources": [
       {
         "title": "PlayStation Portable",
@@ -246,6 +389,72 @@
         "type": "secondary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "motorola-razr-v3-2004",
+    "title": "Motorola RAZR V3: The Ultimate Flip Phone Icon",
+    "year": 2004,
+    "date": "2004-10-01",
+    "category": [
+      "gadget",
+      "design"
+    ],
+    "type": "launch",
+    "summary": "Motorola unveiled the ultra-slim aluminum RAZR V3, selling 130 million units as a global status symbol.",
+    "narrative": "At just 13.9 millimeters thin, crafted from aircraft-grade aluminum with an electroluminescent laser-etched keypad, the RAZR was pure pocket jewelry. Snapping it shut with one hand to hang up a call was the most satisfying gesture in consumer technology. From Hollywood red carpets to high school hallways, owning a silver\u2014and later hot pink\u2014RAZR was an unmistakable statement of cool.",
+    "why_it_matters": "The RAZR demonstrated that mobile phones were primarily fashion and identity accessories, setting high industrial design expectations before the smartphone era.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Motorola Razr V3 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Motorola_Razr_V3"
+      }
+    ]
+  },
+  {
+    "id": "nintendo-ds-touchscreen-2004",
+    "title": "Nintendo DS Introduces Dual Screens & Touchscreen Gaming",
+    "year": 2004,
+    "date": "2004-11-21",
+    "category": [
+      "gadget",
+      "gaming"
+    ],
+    "type": "launch",
+    "summary": "Nintendo launched the clamshell DS with dual screens and a stylus, defying doubters to sell 154 million units.",
+    "narrative": "Critics initially derided the dual screens and resistive stylus as an awkward gimmick. But Nintendo's vision of intuitive touch control proved prophetic. With games like Super Mario 64 DS, Nintendogs (where players spoke into the built-in microphone), and Brain Age, the DS attracted millions of non-gamers and became the second best-selling video game system of all time.",
+    "why_it_matters": "The Nintendo DS normalized touchscreen interfaces for hundreds of millions of people three years before the original iPhone launched.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Nintendo DS - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_DS"
+      }
+    ]
+  },
+  {
+    "id": "indian-ocean-tsunami-2004",
+    "title": "Indian Ocean Tsunami & the Dawn of Citizen Video Reporting",
+    "year": 2004,
+    "date": "2004-12-26",
+    "category": [
+      "news",
+      "web"
+    ],
+    "type": "milestone",
+    "summary": "A magnitude 9.1 undersea earthquake triggered catastrophic tsunamis, claiming over 227,000 lives across 14 countries.",
+    "narrative": "On the morning after Christmas, massive waves swept across coastal communities from Indonesia and Thailand to Sri Lanka and Somalia. For the first time, dramatic digital video footage captured on vacation camcorders and phone cameras was uploaded directly to blogs and forum threads, bypassing news networks. Internet users mobilized global donation drives through online relief links.",
+    "why_it_matters": "The tragedy catalyzed the modern era of crowdsourced emergency relief and citizen-led digital journalism during humanitarian crises.",
+    "impact": 5,
+    "nostalgia": 2,
+    "sources": [
+      {
+        "title": "2004 Indian Ocean earthquake and tsunami - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
       }
     ]
   }

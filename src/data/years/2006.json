@@ -5,14 +5,18 @@
   "era": "web-2",
   "narrative": "Twitter is born. Facebook opens to everyone. Google buys YouTube for $1.65 billion and everyone thinks they're crazy. Amazon starts renting servers. The Wii makes gaming a family activity. The web stops being a place you visit and starts being a place you live.",
   "felt_like": {
-    "os": "Windows XP",
-    "browser": "Firefox 2 / Internet Explorer 7",
-    "messenger": "MSN Messenger / AIM",
-    "social_network": "MySpace / Facebook",
-    "music": "iPod / iTunes / LimeWire",
-    "phone": "Nokia N73 / Motorola RAZR",
-    "video": "YouTube (just acquired by Google)",
-    "website": "probably had a MySpace profile with auto-playing music"
+    "os": "Windows XP SP2 / Mac OS X 10.4 Tiger (Intel transition)",
+    "browser": "Firefox 2.0 / Internet Explorer 7 (tabbed browsing!)",
+    "messenger": "AIM / MSN Messenger / Windows Live Messenger",
+    "social_network": "MySpace (peak year) / Facebook (opens to public) / Bebo",
+    "music": "Amy Winehouse, Justin Timberlake 'FutureSex/LoveSounds', iPod Video",
+    "phone": "Motorola RAZR / T-Mobile Sidekick 3 / BlackBerry Pearl",
+    "video": "YouTube (acquired by Google for $1.65B) & BitTorrent",
+    "website": "Glossy Web 2.0 badges, Ajax auto-complete dropdowns, RSS readers",
+    "fashion": "Skinny jeans replacing bootcut, oversized sunglasses, American Apparel basics, Ray-Ban Wayfarers",
+    "gadget": "Nintendo Wii & Apple MacBook (first Intel polycarbonate unibody)",
+    "news": "Pluto demoted from planet status; North Korea conducts first nuclear test",
+    "culture": "High School Musical phenomenon; Borat box office mockumentary hit"
   },
   "events": [
     "twitter-founding-2006",
@@ -23,6 +27,9 @@
     "aws-growth-2006",
     "roku-founding-2006",
     "linkedin-growth-2006",
-    "limewire-fall-2006"
+    "limewire-fall-2006",
+    "nintendo-wii-motion-craze-2006",
+    "amy-winehouse-back-to-black-2006",
+    "skinny-jeans-indie-sleaze-dawn-2006"
   ]
 }

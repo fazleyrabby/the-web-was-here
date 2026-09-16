@@ -5,14 +5,18 @@
   "era": "early-web",
   "narrative": "Napster kills the music industry. Wi-Fi untethers the internet. EverQuest creates addiction. Palm V puts computing in your pocket. Broadband replaces dial-up. The world prepares for Y2K while the future silently arrives.",
   "felt_like": {
-    "os": "Windows 98 / Windows 2000",
-    "browser": "Internet Explorer 5 / Netscape Navigator 4",
-    "messenger": "AIM / ICQ / MSN Messenger",
-    "social_network": "AOL / GeoCities / early forums",
-    "music": "Winamp / Napster / MP3",
-    "phone": "Nokia 3210 / Motorola StarTAC",
-    "video": "RealPlayer / early QuickTime",
-    "website": "probably downloading MP3s on Napster"
+    "os": "Windows 98 Second Edition / Mac OS 9",
+    "browser": "Internet Explorer 5.0 / Netscape Communicator 4.7",
+    "messenger": "AIM / MSN Messenger / ICQ 99b",
+    "social_network": "LiveJournal / Open Diary / BlackPlanet",
+    "music": "Napster MP3s, Backstreet Boys, TLC, Blink-182, Limp Bizkit",
+    "phone": "Nokia 3210 (internal antenna, composer) & Matrix slider 8110",
+    "video": "DVD players going mainstream & VHS recording",
+    "website": "Flash portals, animated intro screens, dot-com company billboards",
+    "fashion": "Y2K metallic shirts, visor sunglasses, bleached hair, inflatable furniture",
+    "gadget": "RIM BlackBerry 850 pager & Sega Dreamcast with 56k modem",
+    "news": "Y2K bug panic reaches fever pitch; Columbine High School shooting",
+    "culture": "The Matrix redefines action cinema & cyberpunk style; Fight Club"
   },
   "events": [
     "napster-launch-1999",
@@ -23,6 +27,9 @@
     "y2k-preparations-1999",
     "i-will-survive-hoax-1999",
     "mp3-com-riots-1999",
-    "windows-2000-preview-1999"
+    "windows-2000-preview-1999",
+    "the-matrix-cyberpunk-1999",
+    "y2k-panic-preparations-1999",
+    "teen-pop-explosion-britney-backstreet-1999"
   ]
 }

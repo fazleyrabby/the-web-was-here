@@ -5,14 +5,18 @@
   "era": "early-web",
   "narrative": "CSS separates content from design. Hotmail proves email can live in a browser. RealPlayer streams audio and video. ICQ connects millions in real time. JavaScript makes web pages interactive. The web stops being static and starts being alive.",
   "felt_like": {
-    "os": "Windows 95",
-    "browser": "Netscape Navigator 2 / Internet Explorer 3",
-    "messenger": "ICQ (uh oh!)",
-    "social_network": "GeoCities / WebTV",
-    "music": "Winamp / RealPlayer streaming",
-    "phone": "Nokia 6110",
-    "video": "RealPlayer 1.0 (if you're lucky)",
-    "website": "frames with a 'Click here to enter' splash page"
+    "os": "Windows 95 OSR2 / Mac OS 7.6",
+    "browser": "Netscape Navigator 3.0 / Internet Explorer 3.0",
+    "messenger": "ICQ ('Uh-oh!') / AIM prototype / IRC",
+    "social_network": "GeoCities / Tripod / WebChat Broadcasting System",
+    "music": "Spice Girls, 2Pac, The Fugees, No Doubt, CD players",
+    "phone": "Motorola StarTAC (clamshell icon) & Nokia 8110 (banana phone)",
+    "video": "VHS tapes & early DVD demonstration discs",
+    "website": "Framesets, table layouts, blinking text, guestbooks",
+    "fashion": "Spice Girls platform boots, Tommy Hilfiger logos, cargo pants, frosted lip gloss",
+    "gadget": "Nintendo 64 & PalmPilot 1000 PDA",
+    "news": "Dolly the Sheep becomes first cloned mammal; Atlanta Centennial Olympic Games",
+    "culture": "Independence Day box office smash; Scream revitalizes teen horror"
   },
   "events": [
     "css1-1996",
@@ -23,6 +27,9 @@
     "frame-pages-1996",
     "bobby-early-accessibility-1996",
     "giphy-precursor-1996",
-    "javascript-becomes-standard-1996"
+    "javascript-becomes-standard-1996",
+    "nintendo-64-mario-64-1996",
+    "spice-girls-girl-power-1996",
+    "dolly-the-sheep-cloned-1996"
   ]
 }

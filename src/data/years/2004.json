@@ -5,14 +5,18 @@
   "era": "web-2",
   "narrative": "The rubble of the crash clears and the participatory web takes shape. Facebook starts in a dorm, Gmail resets what free email means, Firefox breaks Internet Explorer's grip, and World of Warcraft shows how deep online communities can go. Someone finally gives the whole shift a name: Web 2.0.",
   "felt_like": {
-    "os": "Windows XP / Mac OS X Panther",
-    "browser": "Internet Explorer 6 / Firefox 1.0",
-    "messenger": "MSN Messenger / AIM",
-    "social_network": "Friendster / MySpace / Facebook",
-    "music": "iPod / iTunes",
-    "phone": "Flip phones / BlackBerry",
-    "video": "Windows Media / QuickTime",
-    "website": "rounded corners, gradients, glossy buttons, RSS icons"
+    "os": "Windows XP Service Pack 2 / Mac OS X 10.3",
+    "browser": "Mozilla Firefox 1.0 / Internet Explorer 6",
+    "messenger": "AIM / MSN Messenger / Yahoo Messenger",
+    "social_network": "MySpace ('Thanks for the add!') / Thefacebook (Harvard only) / Orkut",
+    "music": "Kanye West 'The College Dropout', Usher 'Yeah!', Green Day 'American Idiot'",
+    "phone": "Motorola RAZR V3 (anodized silver flip icon) & Sidekick II",
+    "video": "DVD rentals, bit torrent downloads, LimeWire, QuickTime",
+    "website": "Clean CSS, rounded corners, glossy buttons, Web 2.0 gradients",
+    "fashion": "Motorola RAZR in pocket, UGG boots with denim skirts, Hollister / Abercrombie tees",
+    "gadget": "Motorola RAZR V3 & Nintendo DS",
+    "news": "Indian Ocean tsunami disaster; Janet Jackson Super Bowl wardrobe malfunction",
+    "culture": "Mean Girls defines high school quote culture; World of Warcraft launches"
   },
   "events": [
     "facebook-launch-2004",
@@ -24,6 +28,9 @@
     "digg-launch-2004",
     "ubuntu-first-release-2004",
     "web-2-0-conference-2004",
-    "psp-launch-2004"
+    "psp-launch-2004",
+    "motorola-razr-v3-2004",
+    "nintendo-ds-touchscreen-2004",
+    "indian-ocean-tsunami-2004"
   ]
 }

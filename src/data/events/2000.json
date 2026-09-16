@@ -4,16 +4,33 @@
     "title": "The Dot-Com Bubble Peaks",
     "year": 2000,
     "date": "2000-03-10",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "cultural_event",
     "summary": "The NASDAQ composite index hits 5,048.62, marking the peak of the dot-com speculative frenzy before a catastrophic crash.",
-    "narrative": "In March 2000, the NASDAQ reaches a height that makes no sense. Pets.com has a Super Bowl ad. Webvan raised $375 million to deliver groceries. A company called TheGlobe.com IPO'd at $87 and hit $97 on day one — then never stopped falling. Nobody knew it yet, but the peak had just happened. The bubble didn't pop all at once — it deflated slowly, painfully, over the next two years. Hundreds of billions in market value evaporated. The phrase 'get rich quick' became 'get rich, lose everything.'",
+    "narrative": "In March 2000, the NASDAQ reaches a height that makes no sense. Pets.com has a Super Bowl ad. Webvan raised $375 million to deliver groceries. A company called TheGlobe.com IPO'd at $87 and hit $97 on day one \u2014 then never stopped falling. Nobody knew it yet, but the peak had just happened. The bubble didn't pop all at once \u2014 it deflated slowly, painfully, over the next two years. Hundreds of billions in market value evaporated. The phrase 'get rich quick' became 'get rich, lose everything.'",
     "why_it_matters": "Marked the end of irrational exuberance in tech. Destroyed the myth that any internet company could succeed. Forced Silicon Valley to learn about actual business models.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["dotcom-crash-2001", "lean-startups", "revenue-models", "webvan-failure"],
-    "tags": ["dot-com", "bubble", "nasdaq", "speculation", "crash"],
-    "region": ["usa", "global"],
+    "influence": [
+      "dotcom-crash-2001",
+      "lean-startups",
+      "revenue-models",
+      "webvan-failure"
+    ],
+    "tags": [
+      "dot-com",
+      "bubble",
+      "nasdaq",
+      "speculation",
+      "crash"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Dot-com bubble",
@@ -29,16 +46,32 @@
     "title": "Mac OS X Launches",
     "year": 2000,
     "date": "2000-03-24",
-    "category": ["software", "hardware"],
+    "category": [
+      "software",
+      "hardware"
+    ],
     "type": "product_launch",
     "summary": "Apple releases Mac OS X, a Unix-based operating system that would define the Mac platform for the next two decades.",
-    "narrative": "Steve Jobs takes the stage and introduces Mac OS X — a complete reinvention of the Mac operating system. It's built on NeXTSTEP, the Unix-based OS Jobs built after being fired from Apple. Classic Mac OS was colorful and friendly but fragile. OS X is industrial-strength, with protected memory, preemptive multitasking, and a jewel-toned interface called Aqua. At $129, it's the most ambitious OS upgrade in history. It stumbles at first — early adopters call it slow — but within a few years, it becomes the foundation for everything Apple does.",
+    "narrative": "Steve Jobs takes the stage and introduces Mac OS X \u2014 a complete reinvention of the Mac operating system. It's built on NeXTSTEP, the Unix-based OS Jobs built after being fired from Apple. Classic Mac OS was colorful and friendly but fragile. OS X is industrial-strength, with protected memory, preemptive multitasking, and a jewel-toned interface called Aqua. At $129, it's the most ambitious OS upgrade in history. It stumbles at first \u2014 early adopters call it slow \u2014 but within a few years, it becomes the foundation for everything Apple does.",
     "why_it_matters": "Gave Apple a modern, Unix-based OS that could scale from laptops to servers. Laid the groundwork for the iPhone, iPad, and Apple's entire ecosystem. Proved Apple could build enterprise-grade software.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["iphone-2007", "apple-ecosystem", "unix-mainstream", "aqua-interface"],
-    "tags": ["apple", "mac-os-x", "operating-system", "unix", "aqua"],
-    "region": ["global"],
+    "influence": [
+      "iphone-2007",
+      "apple-ecosystem",
+      "unix-mainstream",
+      "aqua-interface"
+    ],
+    "tags": [
+      "apple",
+      "mac-os-x",
+      "operating-system",
+      "unix",
+      "aqua"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Mac OS X",
@@ -54,16 +87,32 @@
     "title": "PlayStation 2 Launches",
     "year": 2000,
     "date": "2000-03-04",
-    "category": ["gaming", "hardware"],
+    "category": [
+      "gaming",
+      "hardware"
+    ],
     "type": "product_launch",
     "summary": "Sony launches the PlayStation 2 in Japan, beginning the best-selling console run in gaming history.",
-    "narrative": "The PS2 launches in Japan in March and hits North America in October. It plays DVDs — a huge deal when standalone DVD players cost $300+. The launch titles aren't amazing, but nobody cares. Grand Theft Auto III arrives in October 2001 and shows what the hardware can really do. The PS2 becomes the first console to pass 100 million units sold. It's still the best-selling console ever made, with 155 million units moved. For an entire generation, 'gaming' meant PlayStation.",
+    "narrative": "The PS2 launches in Japan in March and hits North America in October. It plays DVDs \u2014 a huge deal when standalone DVD players cost $300+. The launch titles aren't amazing, but nobody cares. Grand Theft Auto III arrives in October 2001 and shows what the hardware can really do. The PS2 becomes the first console to pass 100 million units sold. It's still the best-selling console ever made, with 155 million units moved. For an entire generation, 'gaming' meant PlayStation.",
     "why_it_matters": "Best-selling console of all time. Introduced DVD playback to the living room. Made gaming mainstream entertainment, not a kid's hobby.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["xbox-launch-2001", "gta3-2001", "dvd-adoption", "console-wars"],
-    "tags": ["playstation", "sony", "gaming", "dvd", "console"],
-    "region": ["global"],
+    "influence": [
+      "xbox-launch-2001",
+      "gta3-2001",
+      "dvd-adoption",
+      "console-wars"
+    ],
+    "tags": [
+      "playstation",
+      "sony",
+      "gaming",
+      "dvd",
+      "console"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "PlayStation 2",
@@ -79,16 +128,32 @@
     "title": "Broadband Adoption Crosses 5 Million",
     "year": 2000,
     "date": "2000-09-01",
-    "category": ["infrastructure", "culture"],
+    "category": [
+      "infrastructure",
+      "culture"
+    ],
     "type": "milestone",
     "summary": "U.S. broadband subscriptions surpass 5 million households, beginning the end of dial-up internet.",
-    "narrative": "In 2000, most Americans connect to the internet through a screeching modem and a phone line. But broadband — DSL and cable — is creeping into suburbs. AT&T, Comcast, and EarthLink start bundling high-speed internet with cable packages. It's expensive at first, but the experience is transformative: you can leave the internet 'on.' No more tying up the phone line. No more waiting 10 minutes to load a Flash animation. The shift is slow, but the genie is out of the bottle.",
-    "why_it_matters": "Enabled rich media, streaming, and everything that makes the modern web possible. Changed how people think about the internet — from something you visit to something that's always there.",
+    "narrative": "In 2000, most Americans connect to the internet through a screeching modem and a phone line. But broadband \u2014 DSL and cable \u2014 is creeping into suburbs. AT&T, Comcast, and EarthLink start bundling high-speed internet with cable packages. It's expensive at first, but the experience is transformative: you can leave the internet 'on.' No more tying up the phone line. No more waiting 10 minutes to load a Flash animation. The shift is slow, but the genie is out of the bottle.",
+    "why_it_matters": "Enabled rich media, streaming, and everything that makes the modern web possible. Changed how people think about the internet \u2014 from something you visit to something that's always there.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["streaming-media", "always-on-internet", "youtube-2005", "netflix-streaming"],
-    "tags": ["broadband", "dial-up", "internet", "dsl", "cable"],
-    "region": ["usa"],
+    "influence": [
+      "streaming-media",
+      "always-on-internet",
+      "youtube-2005",
+      "netflix-streaming"
+    ],
+    "tags": [
+      "broadband",
+      "dial-up",
+      "internet",
+      "dsl",
+      "cable"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Broadband in the United States",
@@ -104,16 +169,32 @@
     "title": "AOL-Time Warner Merger Announced",
     "year": 2000,
     "date": "2000-01-10",
-    "category": ["business", "media"],
+    "category": [
+      "business",
+      "media"
+    ],
     "type": "acquisition",
     "summary": "America Online and Time Warner announce a $165 billion merger, creating the largest media company in the world.",
-    "narrative": "Steve Case shakes hands with Jerry Levin and announces the biggest merger in history. The logic seems perfect: AOL brings the internet audience, Time Warner brings the content. It's the future of media! Except it's not. AOL's dial-up business is already dying. Time Warner's cable infrastructure isn't ready for broadband. The merger closes in January 2001 — right as the dot-com bubble bursts. Within two years, they write down $99 billion. It becomes the textbook example of hubris in tech.",
+    "narrative": "Steve Case shakes hands with Jerry Levin and announces the biggest merger in history. The logic seems perfect: AOL brings the internet audience, Time Warner brings the content. It's the future of media! Except it's not. AOL's dial-up business is already dying. Time Warner's cable infrastructure isn't ready for broadband. The merger closes in January 2001 \u2014 right as the dot-com bubble bursts. Within two years, they write down $99 billion. It becomes the textbook example of hubris in tech.",
     "why_it_matters": "Largest failed merger in history. Symbolized the hubris of the dot-com era. Proved that internet hype and real business are different things.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["aol-decline", "media-consolidation", "dotcom-crash-2001", "cable-broadband"],
-    "tags": ["aol", "time-warner", "merger", "media", "conglomerate"],
-    "region": ["usa"],
+    "influence": [
+      "aol-decline",
+      "media-consolidation",
+      "dotcom-crash-2001",
+      "cable-broadband"
+    ],
+    "tags": [
+      "aol",
+      "time-warner",
+      "merger",
+      "media",
+      "conglomerate"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "AOL Time Warner",
@@ -129,16 +210,33 @@
     "title": "Napster Reaches 80 Million Users",
     "year": 2000,
     "date": "2000-07-01",
-    "category": ["music", "culture", "business"],
+    "category": [
+      "music",
+      "culture",
+      "business"
+    ],
     "type": "cultural_event",
     "summary": "Napster, the peer-to-peer file sharing service, reaches 80 million registered users at its peak, sending the music industry into panic.",
-    "narrative": "Napster isn't the first peer-to-peer network, but it's the first one your mom could use. You type in a song name, click download, and it appears. Free. Metallica sues. The RIAA panics. College students download entire discographies overnight. The music industry sees its revenue drop 8% in a single year. Napster doesn't last — it gets shut down in 2001 — but it changes everything. The genie is out of the bottle. You can't put free music back.",
+    "narrative": "Napster isn't the first peer-to-peer network, but it's the first one your mom could use. You type in a song name, click download, and it appears. Free. Metallica sues. The RIAA panics. College students download entire discographies overnight. The music industry sees its revenue drop 8% in a single year. Napster doesn't last \u2014 it gets shut down in 2001 \u2014 but it changes everything. The genie is out of the bottle. You can't put free music back.",
     "why_it_matters": "Destroyed the music industry's business model overnight. Introduced mainstream users to peer-to-peer technology. Forced the industry to eventually embrace digital distribution.",
     "impact": 5,
     "nostalgia": 5,
-    "influence": ["itunes-store-2003", "piracy-wars", "streaming-music", "limewire"],
-    "tags": ["napster", "peer-to-peer", "music", "piracy", "file-sharing"],
-    "region": ["global"],
+    "influence": [
+      "itunes-store-2003",
+      "piracy-wars",
+      "streaming-music",
+      "limewire"
+    ],
+    "tags": [
+      "napster",
+      "peer-to-peer",
+      "music",
+      "piracy",
+      "file-sharing"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Napster",
@@ -154,16 +252,32 @@
     "title": "W3C Publishes CSS2 Recommendation",
     "year": 2000,
     "date": "2000-05-01",
-    "category": ["standards", "web"],
+    "category": [
+      "standards",
+      "web"
+    ],
     "type": "standards",
     "summary": "The World Wide Web Consortium publishes CSS2 as a formal recommendation, giving web developers powerful new tools for layout and design.",
-    "narrative": "Tables for layout. That's how the web looks good in 2000. Developers build invisible table grids just to position images and text. The W3C publishes CSS2 — cascading style sheets with positioning, z-index, media types, and more. The spec is powerful, but browser support is inconsistent. Internet Explorer 5 and Netscape 4 each interpret CSS differently. It takes years for CSS to reach its potential, but the seeds are planted here. The web will eventually look beautiful, just not yet.",
+    "narrative": "Tables for layout. That's how the web looks good in 2000. Developers build invisible table grids just to position images and text. The W3C publishes CSS2 \u2014 cascading style sheets with positioning, z-index, media types, and more. The spec is powerful, but browser support is inconsistent. Internet Explorer 5 and Netscape 4 each interpret CSS differently. It takes years for CSS to reach its potential, but the seeds are planted here. The web will eventually look beautiful, just not yet.",
     "why_it_matters": "Laid the groundwork for modern web design. Enabled responsive layouts, accessibility, and the separation of content from presentation. Slowly killed table-based layouts.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["css3-2011", "responsive-design", "web-standards", "table-layout-death"],
-    "tags": ["css", "w3c", "standards", "web-design", "html"],
-    "region": ["global"],
+    "influence": [
+      "css3-2011",
+      "responsive-design",
+      "web-standards",
+      "table-layout-death"
+    ],
+    "tags": [
+      "css",
+      "w3c",
+      "standards",
+      "web-design",
+      "html"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Cascading Style Sheets Level 2",
@@ -179,16 +293,32 @@
     "title": "WAP Mobile Internet Gains Traction",
     "year": 2000,
     "date": "2000-06-01",
-    "category": ["communication", "hardware"],
+    "category": [
+      "communication",
+      "hardware"
+    ],
     "type": "cultural_event",
     "summary": "WAP-enabled mobile phones begin offering basic internet access, giving millions their first taste of the mobile web.",
-    "narrative": "In 2000, your phone can make calls and send SMS. But with a WAP-enabled Nokia or Ericsson, you can also check email — sort of. The pages are tiny, text-only, and load over painfully slow cellular connections. There are no images, no video, no social media. Just text. It's terrible. But it's also revolutionary. For the first time, you can check the weather on a phone. You can read news headlines. The mobile internet is a whisper, but it's there. It won't really roar until the iPhone shows up in 2007.",
+    "narrative": "In 2000, your phone can make calls and send SMS. But with a WAP-enabled Nokia or Ericsson, you can also check email \u2014 sort of. The pages are tiny, text-only, and load over painfully slow cellular connections. There are no images, no video, no social media. Just text. It's terrible. But it's also revolutionary. For the first time, you can check the weather on a phone. You can read news headlines. The mobile internet is a whisper, but it's there. It won't really roar until the iPhone shows up in 2007.",
     "why_it_matters": "First widespread mobile internet experience. Proved demand existed for mobile data. Set the stage for smartphones and the mobile web revolution.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["iphone-2007", "mobile-web", "smartphone-revolution", "3g-networks"],
-    "tags": ["wap", "mobile", "nokia", "internet", "cellular"],
-    "region": ["global"],
+    "influence": [
+      "iphone-2007",
+      "mobile-web",
+      "smartphone-revolution",
+      "3g-networks"
+    ],
+    "tags": [
+      "wap",
+      "mobile",
+      "nokia",
+      "internet",
+      "cellular"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Wireless Application Protocol",
@@ -196,6 +326,76 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nokia-3310-snake-2000",
+    "title": "Nokia 3310 & the 'Snake II' Mobile Craze",
+    "year": 2000,
+    "date": "2000-09-01",
+    "category": [
+      "gadget",
+      "culture"
+    ],
+    "type": "launch",
+    "summary": "Nokia released the legendary 3310, selling 126 million units and making mobile gaming universal.",
+    "narrative": "Practically indestructible, with battery life lasting over a week and customizable Xpress-on clip-on covers, the Finnish phone was an instant classic. School buses and dorm rooms fell silent as teenagers navigated pixelated reptiles around dot obstacles in Snake II or keyed in custom monophonic ringtones note-by-note. It turned the mobile phone from a corporate executive tool into an indispensable teen lifestyle accessory.",
+    "why_it_matters": "The 3310 democratized mobile ownership for youth, popularizing SMS shorthand and mobile gaming years before smartphones.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Nokia 3310 - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nokia_3310"
+      }
+    ]
+  },
+  {
+    "id": "bush-gore-election-hanging-chads-2000",
+    "title": "Bush vs. Gore: The Florida Recount & Early Viral Satire",
+    "year": 2000,
+    "date": "2000-11-07",
+    "category": [
+      "news",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "A 537-vote margin in Florida triggered a 36-day recount saga that birthed modern internet political satire.",
+    "narrative": "Terms like 'hanging chads', 'pregnant chads', and 'butterfly ballots' dominated evening news for five weeks as officials held paper punch cards up to magnifying glasses. On the web, satirical Flash animations on sites like JibJab and early political blogs exploded, providing irreverent real-time commentary before the Supreme Court ended the recount in Bush v. Gore.",
+    "why_it_matters": "The election hyper-charged online political engagement and established the web as a central theater for civic discussion and political satire.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "2000 United States presidential election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election"
+      }
+    ]
+  },
+  {
+    "id": "eminem-marshall-mathers-outkast-2000",
+    "title": "Eminem's 'MMLP' & Outkast's 'Stankonia' Dominate Pop Culture",
+    "year": 2000,
+    "date": "2000-05-23",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Eminem sold 1.76 million copies in seven days, while Atlanta duo Outkast elevated hip-hop into cosmic art.",
+    "narrative": "Bleached-blonde Detroit rapper Eminem became the biggest lightning rod in American culture. 'The Marshall Mathers LP' broke Nielsen SoundScan records for the fastest-selling solo album in US history, propelled by the manic satire of 'The Real Slim Shady'. Later that autumn, Outkast dropped 'Stankonia' with 'Ms. Jackson' and 'B.O.B.', blending Southern bounce with psychedelic funk.",
+    "why_it_matters": "Hip-hop cemented its role as the dominant creative and commercial force in global music, transcending traditional racial and genre boundaries.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "The Marshall Mathers LP - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP"
+      },
+      {
+        "title": "Stankonia - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stankonia"
       }
     ]
   }

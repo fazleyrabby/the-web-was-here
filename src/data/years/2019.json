@@ -5,14 +5,18 @@
   "era": "platform-era",
   "narrative": "Disney+ detonated the streaming wars. Google Stadia promised console-free gaming. Foldable phones hinted at the future. 5G networks began rolling out. TikTok's algorithm rewired how social media works. Zoom went public, unknowingly preparing for a world that would need it. The platforms were ready. The world wasn't ready for what came next.",
   "felt_like": {
-    "os": "iOS 13 / Android 10",
-    "browser": "Chrome / Safari",
-    "messenger": "WhatsApp / Messenger / Telegram",
-    "social_network": "TikTok / Instagram / Twitter",
-    "music": "Spotify / Apple Music",
-    "phone": "iPhone 11 / Samsung Galaxy S10 / Huawei Mate 30",
-    "video": "YouTube / Netflix / Disney+ / Fortnite",
-    "website": "Streaming wars, algorithmic feeds, and data breach notifications"
+    "os": "macOS Catalina / iOS 13 (system-wide Dark Mode!) / Windows 10",
+    "browser": "Chrome / Edge switches to Chromium engine / Safari",
+    "messenger": "Discord / Telegram / WhatsApp / Signal",
+    "social_network": "TikTok (surpasses 1B downloads) / Instagram (hiding likes experiment) / Twitter",
+    "music": "Lil Nas X 'Old Town Road', Billie Eilish 'Bad Guy', Lizzo 'Truth Hurts'",
+    "phone": "iPhone 11 Pro (triple camera 'stove top' layout) & Samsung Galaxy Fold",
+    "video": "Disney+ launches with The Mandalorian (Baby Yoda!) / TikTok",
+    "website": "Dark mode default toggle, JAMstack, Jamstack headless architectures",
+    "fashion": "VSCO girl aesthetic (Hydro Flasks, scrunchies, oversized tees) & E-girl / E-boy chains",
+    "gadget": "Apple AirPods Pro (Noise Cancelling) & Nintendo Switch Lite",
+    "news": "First image of a Black Hole; Notre-Dame Cathedral fire; Greta Thunberg climate strikes",
+    "culture": "Avengers: Endgame becomes #1 box office film; Game of Thrones series finale"
   },
   "events": [
     "google-stadia-2019",
@@ -24,6 +28,9 @@
     "whatsapp-zero-click-2019",
     "tiktok-algorithm-2019",
     "hk-protests-tech-2019",
-    "iran-internet-shutdown-2019"
+    "iran-internet-shutdown-2019",
+    "old-town-road-tiktok-record-2019",
+    "first-black-hole-photograph-2019",
+    "vsco-girl-scrunchie-aesthetic-2019"
   ]
 }

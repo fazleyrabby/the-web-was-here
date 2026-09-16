@@ -5,14 +5,18 @@
   "era": "mobile-social",
   "narrative": "Facebook goes public and crashes. Instagram gets acquired for a billion dollars. The Raspberry Pi puts computing in everyone's hands. 3D printing becomes mainstream. Hurricane Sandy proves the internet is infrastructure. The maker movement begins.",
   "felt_like": {
-    "os": "Windows 7 / Mac OS X Mountain Lion",
-    "browser": "Chrome / Firefox",
-    "messenger": "WhatsApp / iMessage",
-    "social_network": "Facebook / Twitter / Tumblr",
-    "music": "Spotify / Pandora / iTunes",
-    "phone": "iPhone 5 / Samsung Galaxy S3",
-    "video": "YouTube / Netflix",
-    "website": "apps were replacing websites"
+    "os": "Windows 8 (Start button removed!) / OS X Mountain Lion / iOS 6",
+    "browser": "Chrome (officially overtakes IE as #1 globally) / Safari",
+    "messenger": "WhatsApp / iMessage / Facebook Messenger",
+    "social_network": "Instagram (bought by Facebook) / Twitter / Tumblr / Vine (acquired)",
+    "music": "Psy 'Gangnam Style' (breaks YouTube!), Carly Rae Jepsen 'Call Me Maybe', Kendrick Lamar",
+    "phone": "iPhone 5 (taller 4-inch screen, Lightning connector) & Samsung Galaxy S3",
+    "video": "Gangnam Style 1 Billion views / Netflix Originals announced",
+    "website": "Flat design starts killing skeuomorphism; parallax scrolling craze",
+    "fashion": "Peplum tops, sneaker wedges (Isabel Marant), dip-dyed ombre hair, galaxy print",
+    "gadget": "Raspberry Pi & Apple iPhone 5 (with Lightning port)",
+    "news": "London 2012 Olympics; Curiosity rover lands on Mars; Sandy Hook tragedy",
+    "culture": "The Avengers unites Marvel Cinematic Universe; Mayan calendar apocalypse panic"
   },
   "events": [
     "facebook-ipo-2012",
@@ -24,6 +28,9 @@
     "tumblr-100m-blogs-2012",
     "nasa-curiosity-landing-2012",
     "samsung-apple-patent-war-2012",
-    "linkedin-ipo-2012"
+    "linkedin-ipo-2012",
+    "psy-gangnam-style-billion-views-2012",
+    "higgs-boson-curiosity-mars-2012",
+    "sneaker-wedges-peplum-fashion-2012"
   ]
 }

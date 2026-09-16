@@ -4,16 +4,32 @@
     "title": "Equifax Data Breach Exposes 147 Million People",
     "year": 2017,
     "date": "2017-09-07",
-    "category": ["security", "business"],
+    "category": [
+      "security",
+      "business"
+    ],
     "type": "security_incident",
     "summary": "Equifax reveals a breach exposing Social Security numbers, birth dates, and addresses of 147 million Americans.",
-    "narrative": "Equifax, one of three major credit bureaus, announces that hackers exploited a known vulnerability to steal the most sensitive data imaginable: Social Security numbers, dates of birth, addresses, and driver's license numbers. 147 million Americans are affected. That's nearly every adult in the country. Equifax's response is catastrophic — the breach site is buggy, the CEO resigns, and Congress holds hearings. The breach changes how America thinks about identity theft.",
+    "narrative": "Equifax, one of three major credit bureaus, announces that hackers exploited a known vulnerability to steal the most sensitive data imaginable: Social Security numbers, dates of birth, addresses, and driver's license numbers. 147 million Americans are affected. That's nearly every adult in the country. Equifax's response is catastrophic \u2014 the breach site is buggy, the CEO resigns, and Congress holds hearings. The breach changes how America thinks about identity theft.",
     "why_it_matters": "Exposed the vulnerability of centralized personal data. Forced a national conversation about credit freezes and data rights. Led to stricter data breach notification laws.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["credit-freeze-laws", "data-breach-notification", "identity-theft-protection", "equifax-settlement"],
-    "tags": ["equifax", "data-breach", "cybersecurity", "identity-theft", "credit"],
-    "region": ["usa"],
+    "influence": [
+      "credit-freeze-laws",
+      "data-breach-notification",
+      "identity-theft-protection",
+      "equifax-settlement"
+    ],
+    "tags": [
+      "equifax",
+      "data-breach",
+      "cybersecurity",
+      "identity-theft",
+      "credit"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "2017 Equifax data breach",
@@ -29,16 +45,32 @@
     "title": "Bitcoin Surges Past $10,000",
     "year": 2017,
     "date": "2017-11-28",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "market_event",
     "summary": "Bitcoin breaks $10,000 for the first time, bringing cryptocurrency into mainstream consciousness.",
     "narrative": "Bitcoin starts the year under $1,000. By November, it crosses $10,000. By December, it nearly hits $20,000. Your Uber driver is talking about it. Your mom is asking how to buy it. Coinbase adds 100,000 users per day. The ICO craze funds everything from blockchain browsers to blockchain dental records. Then it crashes. But the genie is out of the bottle. Blockchain, crypto, and the idea of decentralized money will never go away.",
     "why_it_matters": "Brought cryptocurrency to mainstream awareness. Spawned the ICO craze and DeFi movement. Forced regulators worldwide to develop crypto policy.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["ico-craze", "defi-movement", "crypto-regulation", "blockchain-beyond-currency"],
-    "tags": ["bitcoin", "cryptocurrency", "blockchain", "ico", "finance"],
-    "region": ["global"],
+    "influence": [
+      "ico-craze",
+      "defi-movement",
+      "crypto-regulation",
+      "blockchain-beyond-currency"
+    ],
+    "tags": [
+      "bitcoin",
+      "cryptocurrency",
+      "blockchain",
+      "ico",
+      "finance"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "History of Bitcoin",
@@ -54,16 +86,32 @@
     "title": "#MeToo Movement Goes Viral",
     "year": 2017,
     "date": "2017-10-15",
-    "category": ["culture", "social"],
+    "category": [
+      "culture",
+      "social"
+    ],
     "type": "cultural_moment",
     "summary": "Alyssa Milano's tweet revives Tarana Burke's phrase, and #MeToo becomes a global movement against sexual harassment.",
     "narrative": "After Harvey Weinstein's abuse is exposed by the New York Times, actress Alyssa Milano tweets: 'If you've been sexually harassed or assaulted write me too as a reply.' In 24 hours, the phrase appears 12 million times. It's not just Hollywood. It's every industry, every country, every corner of the internet. #MeToo proves social media can catalyze real-world change. Movements don't start on Twitter. But Twitter makes them impossible to ignore.",
     "why_it_matters": "Demonstrated social media's power to catalyze social movements. Changed workplace policies worldwide. Proved that online activism can create real-world accountability.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["workplace-reform", "social-media-activism", "accountability-culture", "intersectional-feminism"],
-    "tags": ["metoo", "harassment", "social-media", "activism", "weinstein"],
-    "region": ["global"],
+    "influence": [
+      "workplace-reform",
+      "social-media-activism",
+      "accountability-culture",
+      "intersectional-feminism"
+    ],
+    "tags": [
+      "metoo",
+      "harassment",
+      "social-media",
+      "activism",
+      "weinstein"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Me Too movement",
@@ -79,16 +127,32 @@
     "title": "Amazon Echo and Alexa Go Mainstream",
     "year": 2017,
     "date": "2017-11-01",
-    "category": ["hardware", "software"],
+    "category": [
+      "hardware",
+      "software"
+    ],
     "type": "platform_shift",
     "summary": "Amazon Echo becomes the holiday must-have, making voice assistants a fixture in millions of homes.",
-    "narrative": "Amazon drops the Echo's price and floods the market. For the first time, millions of people have a smart speaker in their living room. 'Alexa, play music.' 'Alexa, set a timer.' 'Alexa, order more paper towels.' The voice interface feels like magic — until you realize Amazon is listening to everything. Privacy concerns mount. But the convenience wins. Google Home launches in response. The voice assistant wars begin.",
+    "narrative": "Amazon drops the Echo's price and floods the market. For the first time, millions of people have a smart speaker in their living room. 'Alexa, play music.' 'Alexa, set a timer.' 'Alexa, order more paper towels.' The voice interface feels like magic \u2014 until you realize Amazon is listening to everything. Privacy concerns mount. But the convenience wins. Google Home launches in response. The voice assistant wars begin.",
     "why_it_matters": "Made voice-first computing mainstream. Created the smart home category. Sparked a privacy debate about always-listening devices that continues today.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["google-home", "apple-homepod", "smart-home-market", "voice-privacy-debate"],
-    "tags": ["alexa", "amazon-echo", "voice-assistant", "smart-home", "privacy"],
-    "region": ["usa"],
+    "influence": [
+      "google-home",
+      "apple-homepod",
+      "smart-home-market",
+      "voice-privacy-debate"
+    ],
+    "tags": [
+      "alexa",
+      "amazon-echo",
+      "voice-assistant",
+      "smart-home",
+      "privacy"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Amazon Echo",
@@ -104,16 +168,32 @@
     "title": "GDPR Enforcement Date Announced",
     "year": 2017,
     "date": "2017-01-01",
-    "category": ["standards", "security"],
+    "category": [
+      "standards",
+      "security"
+    ],
     "type": "regulatory_event",
     "summary": "The EU confirms GDPR enforcement for May 2018, giving companies 16 months to overhaul their data practices.",
-    "narrative": "GDPR was adopted in 2016, but 2017 is when the clock starts ticking. May 25, 2018: that's the date. Every company that handles EU citizen data must comply — or face fines of up to 4% of global revenue. Suddenly, every website shows cookie consent popups. Privacy policies get rewritten. Data protection officers get hired. It's the most significant data privacy regulation in history, and the tech industry has 16 months to figure it out.",
+    "narrative": "GDPR was adopted in 2016, but 2017 is when the clock starts ticking. May 25, 2018: that's the date. Every company that handles EU citizen data must comply \u2014 or face fines of up to 4% of global revenue. Suddenly, every website shows cookie consent popups. Privacy policies get rewritten. Data protection officers get hired. It's the most significant data privacy regulation in history, and the tech industry has 16 months to figure it out.",
     "why_it_matters": "Set the global standard for data privacy. Forced every tech company to redesign data practices. Inspired similar laws in California, Brazil, and beyond.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["ccpa-california", "lgpd-brazil", "cookie-consent", "privacy-by-design"],
-    "tags": ["gdpr", "privacy", "regulation", "eu", "data-protection"],
-    "region": ["global"],
+    "influence": [
+      "ccpa-california",
+      "lgpd-brazil",
+      "cookie-consent",
+      "privacy-by-design"
+    ],
+    "tags": [
+      "gdpr",
+      "privacy",
+      "regulation",
+      "eu",
+      "data-protection"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "General Data Protection Regulation",
@@ -129,16 +209,32 @@
     "title": "BlueBorne Bluetooth Vulnerability Discovered",
     "year": 2017,
     "date": "2017-09-12",
-    "category": ["security", "hardware"],
+    "category": [
+      "security",
+      "hardware"
+    ],
     "type": "security_incident",
     "summary": "Armis discovers BlueBorne, a set of Bluetooth vulnerabilities affecting 5.3 billion devices without user interaction.",
-    "narrative": "Security researchers at Armis find a nightmare: a collection of Bluetooth vulnerabilities that let hackers take over your phone, laptop, or smart speaker — without you clicking anything. No pairing required. No confirmation needed. Just proximity. 5.3 billion devices are vulnerable. Android, iOS, Windows, Linux — everything. Apple quietly patches it. Android takes months. The attack vector is terrifying because Bluetooth is always on, and most people never think about it.",
+    "narrative": "Security researchers at Armis find a nightmare: a collection of Bluetooth vulnerabilities that let hackers take over your phone, laptop, or smart speaker \u2014 without you clicking anything. No pairing required. No confirmation needed. Just proximity. 5.3 billion devices are vulnerable. Android, iOS, Windows, Linux \u2014 everything. Apple quietly patches it. Android takes months. The attack vector is terrifying because Bluetooth is always on, and most people never think about it.",
     "why_it_matters": "Revealed how wireless protocols could be weaponized. Forced manufacturers to take Bluetooth security seriously. Highlighted the growing attack surface of IoT devices.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["iot-security", "bluetooth-patching", "wireless-security", "zero-click-attacks"],
-    "tags": ["blueborne", "bluetooth", "vulnerability", "cybersecurity", "iot"],
-    "region": ["global"],
+    "influence": [
+      "iot-security",
+      "bluetooth-patching",
+      "wireless-security",
+      "zero-click-attacks"
+    ],
+    "tags": [
+      "blueborne",
+      "bluetooth",
+      "vulnerability",
+      "cybersecurity",
+      "iot"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "BlueBorne (computer security)",
@@ -154,16 +250,32 @@
     "title": "WannaCry Ransomware Attack",
     "year": 2017,
     "date": "2017-05-12",
-    "category": ["security", "culture"],
+    "category": [
+      "security",
+      "culture"
+    ],
     "type": "security_incident",
     "summary": "WannaCry ransomware spreads to 200,000 computers across 150 countries, crippling hospitals, factories, and governments.",
-    "narrative": "Friday morning, hospitals across the UK go dark. Then telecommunications companies. Then factories. WannaCry spreads like wildfire, encrypting files and demanding Bitcoin ransom. It hits 200,000 systems in 150 countries. The NHS is devastated — surgeries are cancelled, ambulances diverted. A 22-year-old security researcher accidentally stops the spread by registering a domain name he found in the code. The attack exploits an NSA tool that was leaked by the Shadow Brokers. Nation-state hacking goes mainstream.",
+    "narrative": "Friday morning, hospitals across the UK go dark. Then telecommunications companies. Then factories. WannaCry spreads like wildfire, encrypting files and demanding Bitcoin ransom. It hits 200,000 systems in 150 countries. The NHS is devastated \u2014 surgeries are cancelled, ambulances diverted. A 22-year-old security researcher accidentally stops the spread by registering a domain name he found in the code. The attack exploits an NSA tool that was leaked by the Shadow Brokers. Nation-state hacking goes mainstream.",
     "why_it_matters": "Worst ransomware attack in history at the time. Exposed the danger of unpatched systems. Changed how governments think about cyber weapons.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["ransomware-epidemic", "nsa-leaks", "cybersecurity-funding", "hospital-it-security"],
-    "tags": ["wannacry", "ransomware", "cybersecurity", "nhs", "nsa"],
-    "region": ["global"],
+    "influence": [
+      "ransomware-epidemic",
+      "nsa-leaks",
+      "cybersecurity-funding",
+      "hospital-it-security"
+    ],
+    "tags": [
+      "wannacry",
+      "ransomware",
+      "cybersecurity",
+      "nhs",
+      "nsa"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "WannaCry ransomware attack",
@@ -179,16 +291,32 @@
     "title": "Snapchat IPO Values Snap at $24 Billion",
     "year": 2017,
     "date": "2017-03-02",
-    "category": ["business", "social"],
+    "category": [
+      "business",
+      "social"
+    ],
     "type": "market_event",
     "summary": "Snap Inc. goes public at $17 per share, the biggest tech IPO since Alibaba.",
-    "narrative": "Evan Spiegel takes Snap public. The IPO values the company at $24 billion — making 26-year-old Spiegel a billionaire on paper. Snap is the first major social media IPO since Twitter. But the real story is what Snap represents: a company that refuses to play by Facebook's rules. Disappearing messages. Camera-first design. No public like counts. Spiegel's vision of social media is fundamentally different. Wall Street is skeptical. Users don't care.",
+    "narrative": "Evan Spiegel takes Snap public. The IPO values the company at $24 billion \u2014 making 26-year-old Spiegel a billionaire on paper. Snap is the first major social media IPO since Twitter. But the real story is what Snap represents: a company that refuses to play by Facebook's rules. Disappearing messages. Camera-first design. No public like counts. Spiegel's vision of social media is fundamentally different. Wall Street is skeptical. Users don't care.",
     "why_it_matters": "Validated camera-first social media. Challenged Facebook's dominance. Inspired a generation of anti-engagement design choices.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["anti-engagement-design", "camera-first-social", "snap-stock-volatility", "instagram-stories-response"],
-    "tags": ["snapchat", "ipo", "snap-inc", "social-media", "wall-street"],
-    "region": ["usa"],
+    "influence": [
+      "anti-engagement-design",
+      "camera-first-social",
+      "snap-stock-volatility",
+      "instagram-stories-response"
+    ],
+    "tags": [
+      "snapchat",
+      "ipo",
+      "snap-inc",
+      "social-media",
+      "wall-street"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Snap Inc.",
@@ -204,16 +332,32 @@
     "title": "FCC Votes to Repeal Net Neutrality",
     "year": 2017,
     "date": "2017-12-14",
-    "category": ["standards", "business"],
+    "category": [
+      "standards",
+      "business"
+    ],
     "type": "regulatory_event",
     "summary": "The FCC repeals net neutrality rules, ending the principle that all internet traffic should be treated equally.",
-    "narrative": "Ajit Pai, the FCC chairman, holds up a giant prop of a fidget spinner and argues that net neutrality is government overreach. The FCC votes 3-2 to repeal the 2015 Open Internet Order. The internet reacts with fury. Comments on the FCC website crash from traffic. Protesters gather outside Verizon stores. The debate becomes a defining issue of internet freedom. ISPs celebrate. Consumers worry. The fight isn't over — it moves to the courts and state legislatures.",
+    "narrative": "Ajit Pai, the FCC chairman, holds up a giant prop of a fidget spinner and argues that net neutrality is government overreach. The FCC votes 3-2 to repeal the 2015 Open Internet Order. The internet reacts with fury. Comments on the FCC website crash from traffic. Protesters gather outside Verizon stores. The debate becomes a defining issue of internet freedom. ISPs celebrate. Consumers worry. The fight isn't over \u2014 it moves to the courts and state legislatures.",
     "why_it_matters": "Ended the principle of net neutrality in the US. Sparked a state-level net neutrality movement. Made internet freedom a political battleground.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["state-net-neutrality-laws", "isp-throttling", "internet-freedom-movement", "fcc-oversight"],
-    "tags": ["net-neutrality", "fcc", "internet-freedom", "regulation", "broadband"],
-    "region": ["usa"],
+    "influence": [
+      "state-net-neutrality-laws",
+      "isp-throttling",
+      "internet-freedom-movement",
+      "fcc-oversight"
+    ],
+    "tags": [
+      "net-neutrality",
+      "fcc",
+      "internet-freedom",
+      "regulation",
+      "broadband"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Net neutrality in the United States",
@@ -229,16 +373,32 @@
     "title": "Slack Introduces Bot Platform",
     "year": 2017,
     "date": "2017-04-01",
-    "category": ["communication", "software"],
+    "category": [
+      "communication",
+      "software"
+    ],
     "type": "platform_shift",
     "summary": "Slack launches its bot platform and App Directory, turning chat into an operating system for work.",
-    "narrative": "Slack opens the floodgates. Developers can now build bots that live inside Slack channels. Suddenly your team has a bot for standup meetings, a bot for code deployments, a bot for ordering lunch. The App Directory launches with 150+ integrations. Slack becomes not just a messaging app but a platform — the operating system for how teams work. Microsoft panics and starts building Teams.",
+    "narrative": "Slack opens the floodgates. Developers can now build bots that live inside Slack channels. Suddenly your team has a bot for standup meetings, a bot for code deployments, a bot for ordering lunch. The App Directory launches with 150+ integrations. Slack becomes not just a messaging app but a platform \u2014 the operating system for how teams work. Microsoft panics and starts building Teams.",
     "why_it_matters": "Created the chatbot-as-work-tool paradigm. Forced Microsoft to accelerate Teams development. Established Slack as the platform for workplace automation.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["microsoft-teams-2017", "chatbot-platforms", "workplace-automation", "slack-app-directory"],
-    "tags": ["slack", "bots", "workplace", "chatops", "platform"],
-    "region": ["global"],
+    "influence": [
+      "microsoft-teams-2017",
+      "chatbot-platforms",
+      "workplace-automation",
+      "slack-app-directory"
+    ],
+    "tags": [
+      "slack",
+      "bots",
+      "workplace",
+      "chatops",
+      "platform"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Slack Technologies",
@@ -246,6 +406,72 @@
         "type": "secondary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "nintendo-switch-zelda-botw-2017",
+    "title": "Nintendo Switch Launches with 'Zelda: Breath of the Wild'",
+    "year": 2017,
+    "date": "2017-03-03",
+    "category": [
+      "gadget",
+      "gaming"
+    ],
+    "type": "launch",
+    "summary": "Nintendo released the hybrid Switch console, uniting home television and portable handheld gaming.",
+    "narrative": "Recovering from the sluggish Wii U era, Nintendo delivered an innovative hybrid: a tablet with detachable Joy-Con controllers that slipped into a TV dock and seamlessly transitioned to portable play. Launching alongside 'The Legend of Zelda: Breath of the Wild'\u2014an open-world masterpiece of physics, climbing, and exploration\u2014the Switch became one of the best-selling gaming systems of all time.",
+    "why_it_matters": "The Switch dissolved the historic wall between home console performance and on-the-go portable handheld gaming.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Nintendo Switch - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_Switch"
+      }
+    ]
+  },
+  {
+    "id": "fidget-spinner-craze-2017",
+    "title": "Fidget Spinners Become the Global Toy Obsession",
+    "year": 2017,
+    "date": "2017-04-15",
+    "category": [
+      "gadget",
+      "viral-culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Three-pronged ball-bearing spinners exploded across classrooms, street corners, and viral YouTube videos.",
+    "narrative": "Promoted originally as sensory calming tools for ADHD and anxiety, ball-bearing plastic and brass fidget spinners became an all-consuming viral craze. Children practiced finger balance tricks, schools banned them from desks, and factories in Dongguan retooled around the clock to pump out millions of units before the fad evaporated almost as quickly as it arrived.",
+    "why_it_matters": "It was a textbook example of modern algorithmic viral product frenzies accelerated by YouTube trick videos and social media.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Fidget spinner - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fidget_spinner"
+      }
+    ]
+  },
+  {
+    "id": "despacito-latin-pop-streaming-2017",
+    "title": "Luis Fonsi & Daddy Yankee's 'Despacito' Breaks YouTube",
+    "year": 2017,
+    "date": "2017-01-12",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "The Puerto Rican reggaeton-pop smash tied the all-time Billboard record with 16 weeks at #1.",
+    "narrative": "Shot on the colorful streets of La Perla in Old San Juan, 'Despacito' blended acoustic guitar lines with irresistible reggaeton dembow percussion. Amplified by an English-Spanish remix featuring Justin Bieber, the track became a global juggernaut, shattering streaming records and becoming the first video to surpass 3, 4, 5, 6, and 7 billion views on YouTube.",
+    "why_it_matters": "Despacito permanently opened the global streaming ecosystem to Spanish-language Latin music, paving the way for Bad Bunny and Rosal\u00eda.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Despacito - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Despacito"
       }
     ]
   }

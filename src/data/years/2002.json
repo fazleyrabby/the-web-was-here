@@ -5,14 +5,18 @@
   "era": "bust-rebuild",
   "narrative": "The wreckage of the crash clears and something quieter takes root. Blogging tools make publishing personal, LinkedIn makes your career a network, camera phones put a lens in every pocket, and Wi-Fi untethers the laptop. The web stops being a place you visit and starts being something you carry.",
   "felt_like": {
-    "os": "Windows XP / Mac OS X Jaguar",
-    "browser": "Internet Explorer 6 / Safari",
-    "messenger": "MSN Messenger",
-    "social_network": "Friendster / Blogger",
-    "music": "iPod / Winamp",
-    "phone": "Nokia 7650 (camera phone)",
-    "video": "RealPlayer / Windows Media",
-    "website": "Moveable Type blogs, permalinks, RSS"
+    "os": "Windows XP Service Pack 1 / Mac OS X 10.2 Jaguar",
+    "browser": "Internet Explorer 6.0 / Mozilla 1.0 / Opera 6",
+    "messenger": "AIM (custom buddy icons & away messages) / MSN Messenger / Yahoo",
+    "social_network": "Friendster (beta buzz) / LiveJournal / Kazaa P2P",
+    "music": "Eminem 'Lose Yourself', Avril Lavigne, Nelly 'Hot in Herre', Kazaa MP3s",
+    "phone": "Sanyo SCP-5300 (first US camera phone) & Nokia 3510i",
+    "video": "Kazaa AVI movie clips & Netflix DVD red envelopes in mail",
+    "website": "Flash menu bars, CSS tableless layout movement begins",
+    "fashion": "Juicy Couture pink velour tracksuits, skater ties over tank tops, Von Dutch caps",
+    "gadget": "Sanyo SCP-5300 camera phone & iPod (2nd Gen with touch wheel)",
+    "news": "Euro currency physical banknotes enter circulation; Enron scandal",
+    "culture": "American Idol season one with Kelly Clarkson; Spider-Man box office sensation"
   },
   "events": [
     "linkedin-launch-2002",
@@ -22,6 +26,9 @@
     "xbox-live-launch-2002",
     "wifi-standard-802.11-2002",
     "blog-blogger-boom-2002",
-    "enron-scandal-2002"
+    "enron-scandal-2002",
+    "avril-lavigne-juicy-couture-2002",
+    "american-idol-kelly-clarkson-2002",
+    "eminem-lose-yourself-8mile-2002"
   ]
 }

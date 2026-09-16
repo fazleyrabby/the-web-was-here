@@ -4,16 +4,29 @@
     "title": "Mosaic Browser Beta Released",
     "year": 1992,
     "date": "1992-01-23",
-    "category": ["software", "browser"],
+    "category": [
+      "software",
+      "browser"
+    ],
     "type": "launch",
     "summary": "NCSA Mosaic 0.5 was released, the first browser to display images inline with text.",
-    "narrative": "While other browsers showed images in separate windows, Mosaic's genius was displaying them right alongside the text. Created by Marc Andreessen and Eric Bina at NCSA, Mosaic made the web visual for the first time. The small team, mostly undergraduate students, had created something that would change the world. The beta release for Unix was just the beginning—Windows and Mac versions would follow.",
+    "narrative": "While other browsers showed images in separate windows, Mosaic's genius was displaying them right alongside the text. Created by Marc Andreessen and Eric Bina at NCSA, Mosaic made the web visual for the first time. The small team, mostly undergraduate students, had created something that would change the world. The beta release for Unix was just the beginning\u2014Windows and Mac versions would follow.",
     "why_it_matters": "Mosaic made the web visual and intuitive, transforming it from an academic tool to a platform for everyone.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["mosaic-browser-1993", "netscape-founded-1994"],
-    "tags": ["mosaic", "browser", "images", "ncsa"],
-    "region": ["usa"],
+    "influence": [
+      "mosaic-browser-1993",
+      "netscape-founded-1994"
+    ],
+    "tags": [
+      "mosaic",
+      "browser",
+      "images",
+      "ncsa"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "NCSA Mosaic - Wikipedia",
@@ -29,16 +42,29 @@
     "title": "Early Online Bookstores Emerge",
     "year": 1992,
     "date": "1992-03-01",
-    "category": ["business", "e-commerce"],
+    "category": [
+      "business",
+      "e-commerce"
+    ],
     "type": "innovation",
     "summary": "Several early online book ordering systems emerged, foreshadowing the e-commerce revolution.",
-    "narrative": "Before Amazon, there were online bookstores experimenting with selling books through computer networks. These early ventures used email ordering and bulletin board systems to let customers browse catalogs and place orders. The concept of shopping from your computer seemed futuristic—and for most people, it was. But these pioneers were laying the groundwork for a retail revolution that would begin in earnest just two years later.",
+    "narrative": "Before Amazon, there were online bookstores experimenting with selling books through computer networks. These early ventures used email ordering and bulletin board systems to let customers browse catalogs and place orders. The concept of shopping from your computer seemed futuristic\u2014and for most people, it was. But these pioneers were laying the groundwork for a retail revolution that would begin in earnest just two years later.",
     "why_it_matters": "These early experiments proved that people would buy products online, paving the way for Amazon and e-commerce.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["amazon-founded-1994", "e-commerce-boom-1990s"],
-    "tags": ["ecommerce", "bookstore", "shopping", "early"],
-    "region": ["usa"],
+    "influence": [
+      "amazon-founded-1994",
+      "e-commerce-boom-1990s"
+    ],
+    "tags": [
+      "ecommerce",
+      "bookstore",
+      "shopping",
+      "early"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "E-commerce - Wikipedia",
@@ -54,16 +80,29 @@
     "title": "Web Traffic Increases 10x",
     "year": 1992,
     "date": "1992-12-31",
-    "category": ["standards", "infrastructure"],
+    "category": [
+      "standards",
+      "infrastructure"
+    ],
     "type": "milestone",
     "summary": "Web traffic on CERN's servers increased tenfold, with over a million HTTP requests by year's end.",
-    "narrative": "The numbers were still tiny by later standards, but the trajectory was clear. Web traffic at CERN grew tenfold during 1992, from a few thousand requests per month to tens of thousands. Each request represented a curious soul exploring the web's pages. The web was no longer a curiosity—it was growing exponentially.",
+    "narrative": "The numbers were still tiny by later standards, but the trajectory was clear. Web traffic at CERN grew tenfold during 1992, from a few thousand requests per month to tens of thousands. Each request represented a curious soul exploring the web's pages. The web was no longer a curiosity\u2014it was growing exponentially.",
     "why_it_matters": "This exponential growth pattern foreshadowed the explosive expansion of the web in coming years.",
     "impact": 3,
     "nostalgia": 2,
-    "influence": ["mosaic-browser-1993", "world-wide-web-public-1991"],
-    "tags": ["growth", "traffic", "cern", "http"],
-    "region": ["global"],
+    "influence": [
+      "mosaic-browser-1993",
+      "world-wide-web-public-1991"
+    ],
+    "tags": [
+      "growth",
+      "traffic",
+      "cern",
+      "http"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "History of the World Wide Web - Wikipedia",
@@ -79,16 +118,29 @@
     "title": "Gopher Protocol Peaks in Popularity",
     "year": 1992,
     "date": "1992-01-01",
-    "category": ["software", "standards"],
+    "category": [
+      "software",
+      "standards"
+    ],
     "type": "cultural_shift",
     "summary": "The Gopher protocol briefly rivaled the Web as the primary way to organize internet resources.",
-    "narrative": "In the early 1990s, Gopher was the web's biggest competitor. Created at the University of Minnesota, Gopher organized information into menus and submenus—simple, text-based, and efficient. Universities and libraries adopted it widely. But when Gopher's creators tried to charge licensing fees in 1993, users fled to the free and open World Wide Web. Gopher's decline was the web's rise.",
+    "narrative": "In the early 1990s, Gopher was the web's biggest competitor. Created at the University of Minnesota, Gopher organized information into menus and submenus\u2014simple, text-based, and efficient. Universities and libraries adopted it widely. But when Gopher's creators tried to charge licensing fees in 1993, users fled to the free and open World Wide Web. Gopher's decline was the web's rise.",
     "why_it_matters": "Gopher's fall demonstrated that open standards would win over proprietary systems on the internet.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["mosaic-browser-1993", "world-wide-web-public-1991"],
-    "tags": ["gopher", "protocol", "menu", "university"],
-    "region": ["usa"],
+    "influence": [
+      "mosaic-browser-1993",
+      "world-wide-web-public-1991"
+    ],
+    "tags": [
+      "gopher",
+      "protocol",
+      "menu",
+      "university"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Gopher (protocol) - Wikipedia",
@@ -104,16 +156,29 @@
     "title": "ViolaWWW: First Graphical Web Browser",
     "year": 1992,
     "date": "1992-04-01",
-    "category": ["software", "browser"],
+    "category": [
+      "software",
+      "browser"
+    ],
     "type": "launch",
     "summary": "ViolaWWW, the first graphical web browser with styling support, was released for Unix systems.",
-    "narrative": "While Mosaic was still in beta, Pei-Yuan Wei had already created ViolaWWW—a graphical browser for Unix that supported stylesheets and scripting. Running on the X Window System, it showed that the web could be more than just text and images. ViolaWWW was the first browser to support embedded objects and stylesheets, features we now take for granted.",
+    "narrative": "While Mosaic was still in beta, Pei-Yuan Wei had already created ViolaWWW\u2014a graphical browser for Unix that supported stylesheets and scripting. Running on the X Window System, it showed that the web could be more than just text and images. ViolaWWW was the first browser to support embedded objects and stylesheets, features we now take for granted.",
     "why_it_matters": "ViolaWWW pioneered browser features like stylesheets and scripting that became web standards.",
     "impact": 3,
     "nostalgia": 3,
-    "influence": ["mosaic-browser-1993", "css-standard-1996"],
-    "tags": ["violawww", "browser", "unix", "graphical"],
-    "region": ["usa"],
+    "influence": [
+      "mosaic-browser-1993",
+      "css-standard-1996"
+    ],
+    "tags": [
+      "violawww",
+      "browser",
+      "unix",
+      "graphical"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "ViolaWWW - Wikipedia",
@@ -129,16 +194,29 @@
     "title": "JPEG Standard Published",
     "year": 1992,
     "date": "1992-09-18",
-    "category": ["standards", "media"],
+    "category": [
+      "standards",
+      "media"
+    ],
     "type": "launch",
     "summary": "The Joint Photographic Experts Group published the JPEG image compression standard.",
-    "narrative": "While GIF handled simple graphics beautifully, photographs needed something more. JPEG used lossy compression to shrink photos to manageable sizes while maintaining acceptable quality. This was crucial for the web—without JPEG, sharing photographs online would have been painfully slow. The format would become the standard for digital photography, from cameras to smartphones.",
+    "narrative": "While GIF handled simple graphics beautifully, photographs needed something more. JPEG used lossy compression to shrink photos to manageable sizes while maintaining acceptable quality. This was crucial for the web\u2014without JPEG, sharing photographs online would have been painfully slow. The format would become the standard for digital photography, from cameras to smartphones.",
     "why_it_matters": "JPEG made it possible to share photographs on the web, enabling everything from online news to social media.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["digital-camera-revolution-2000s", "instagram-launched-2010"],
-    "tags": ["jpeg", "image", "compression", "standard"],
-    "region": ["global"],
+    "influence": [
+      "digital-camera-revolution-2000s",
+      "instagram-launched-2010"
+    ],
+    "tags": [
+      "jpeg",
+      "image",
+      "compression",
+      "standard"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "JPEG - Wikipedia",
@@ -154,16 +232,29 @@
     "title": "Veronica Search Engine for Gopher",
     "year": 1992,
     "date": "1992-02-01",
-    "category": ["search", "software"],
+    "category": [
+      "search",
+      "software"
+    ],
     "type": "launch",
     "summary": "Veronica, the first search engine for Gopher space, was launched at the University of Nevada.",
-    "narrative": "Before Google, before even Yahoo!, there was Veronica—Very Easy Rodent-Oriented Net-wide Index to computer Archives. This search engine for Gopher space let users search through thousands of menu items across the internet. It was primitive by modern standards, but it proved that people needed ways to find information online. The age of search had begun.",
+    "narrative": "Before Google, before even Yahoo!, there was Veronica\u2014Very Easy Rodent-Oriented Net-wide Index to computer Archives. This search engine for Gopher space let users search through thousands of menu items across the internet. It was primitive by modern standards, but it proved that people needed ways to find information online. The age of search had begun.",
     "why_it_matters": "Veronica established the concept of internet search engines, foreshadowing Google and the search industry.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["yahoo-founded-1994", "google-founded-1998"],
-    "tags": ["veronica", "search", "gopher", "index"],
-    "region": ["usa"],
+    "influence": [
+      "yahoo-founded-1994",
+      "google-founded-1998"
+    ],
+    "tags": [
+      "veronica",
+      "search",
+      "gopher",
+      "index"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Veronica (search engine) - Wikipedia",
@@ -179,16 +270,30 @@
     "title": "First Online Credit Card Transaction",
     "year": 1992,
     "date": "1992-08-01",
-    "category": ["business", "e-commerce", "security"],
+    "category": [
+      "business",
+      "e-commerce",
+      "security"
+    ],
     "type": "innovation",
     "summary": "The first secure online credit card transaction was processed, proving that e-commerce could be safe.",
-    "narrative": "People wanted to buy things online, but fear of credit card theft held them back. In 1992, a small company demonstrated secure online credit card processing, using encryption to protect financial data. This technical achievement didn't make headlines, but it removed one of the biggest barriers to online shopping. The trust it建立 would be essential for the e-commerce boom to come.",
+    "narrative": "People wanted to buy things online, but fear of credit card theft held them back. In 1992, a small company demonstrated secure online credit card processing, using encryption to protect financial data. This technical achievement didn't make headlines, but it removed one of the biggest barriers to online shopping. The trust it\u5efa\u7acb would be essential for the e-commerce boom to come.",
     "why_it_matters": "Secure online transactions were essential for e-commerce to become a mainstream reality.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["amazon-founded-1994", "paypal-founded-1998"],
-    "tags": ["credit-card", "security", "transaction", "commerce"],
-    "region": ["usa"],
+    "influence": [
+      "amazon-founded-1994",
+      "paypal-founded-1998"
+    ],
+    "tags": [
+      "credit-card",
+      "security",
+      "transaction",
+      "commerce"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "E-commerce - Wikipedia",
@@ -204,16 +309,29 @@
     "title": "CompuServe Introduces Graphics Forum",
     "year": 1992,
     "date": "1992-06-01",
-    "category": ["media", "social"],
+    "category": [
+      "media",
+      "social"
+    ],
     "type": "launch",
     "summary": "CompuServe launched its Graphics Forum, becoming one of the first online services to support image sharing.",
     "narrative": "CompuServe's Graphics Forum was a revelation: you could actually see pictures online. Users shared pixel art, scanned photographs, and early digital creations. The forum used the GIF format that CompuServe had invented, creating an early ecosystem for digital image sharing. For many, this was their first experience with visual online communities.",
     "why_it_matters": "It pioneered visual online communities and demonstrated the appeal of image sharing on the internet.",
     "impact": 3,
     "nostalgia": 4,
-    "influence": ["flickr-launched-2004", "instagram-launched-2010"],
-    "tags": ["compuserve", "graphics", "forum", "images"],
-    "region": ["usa"],
+    "influence": [
+      "flickr-launched-2004",
+      "instagram-launched-2010"
+    ],
+    "tags": [
+      "compuserve",
+      "graphics",
+      "forum",
+      "images"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "CompuServe - Wikipedia",
@@ -221,6 +339,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "first-sms-text-message-1992",
+    "title": "First SMS Text Message Sent: 'Merry Christmas'",
+    "year": 1992,
+    "date": "1992-12-03",
+    "category": [
+      "gadget",
+      "communication"
+    ],
+    "type": "milestone",
+    "summary": "22-year-old engineer Neil Papworth sent the world's first text message over the Vodafone GSM network.",
+    "narrative": "Sitting at a desktop computer terminal in Berkshire, England, software developer Neil Papworth typed the 15-character message 'Merry Christmas' and sent it across Vodafone's cellular network to Richard Jarvis's 4.6-pound Orbitel 901 handset. The handset couldn't even reply\u2014it was built solely to receive. Neither man imagined that 160-character bursts would soon rival phone calls and shape global social communication.",
+    "why_it_matters": "SMS invented mobile messaging, giving birth to texting culture, acronyms like LOL and BRB, and eventually modern chat ecosystems.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "SMS - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SMS"
+      }
+    ]
+  },
+  {
+    "id": "dr-dre-the-chronic-gfunk-1992",
+    "title": "Dr. Dre Drops 'The Chronic' & G-Funk Takes Over",
+    "year": 1992,
+    "date": "1992-12-15",
+    "category": [
+      "music",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Dr. Dre released 'The Chronic', introducing Snoop Doggy Dogg and lazy Parliament-Funk synthesizer melodies to hip-hop.",
+    "narrative": "With rolling basslines, whining Moog synths, and laid-back cadence, 'The Chronic' redefined hip-hop from gritty New York street realism into sunny, low-riding West Coast cinema. Hits like 'Nuthin' but a 'G' Thang' dominated MTV rotations and car stereos, turning Death Row Records into an entertainment empire and cementing hip-hop as pop culture's definitive vanguard.",
+    "why_it_matters": "It established production values in hip-hop that matched major pop releases and launched Snoop Dogg into an enduring global cultural icon.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "The Chronic - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Chronic"
+      }
+    ]
+  },
+  {
+    "id": "la-riots-and-clinton-1992",
+    "title": "Los Angeles Riots & Bill Clinton's 'It's the Economy, Stupid'",
+    "year": 1992,
+    "date": "1992-04-29",
+    "category": [
+      "news",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Six days of civil unrest engulfed Los Angeles after the Rodney King verdict, while Bill Clinton won the White House on MTV appeal.",
+    "narrative": "The acquittal of LAPD officers in the videotaped beating of Rodney King ignited six days of intense civil disturbance across Los Angeles, captured from news helicopters in dizzying live TV feeds. Months later, 46-year-old Arkansas Governor Bill Clinton appeared on MTV playing the saxophone in sunglasses, bypassing traditional gatekeepers and capturing the youth vote to end 12 years of Republican presidency.",
+    "why_it_matters": "The LA riots exposed deep racial and economic fractures, while Clinton's MTV appearance signaled the modern fusion of youth media and politics.",
+    "impact": 4,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "1992 Los Angeles riots - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
       }
     ]
   }

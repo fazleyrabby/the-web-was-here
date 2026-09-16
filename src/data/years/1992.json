@@ -5,14 +5,18 @@
   "era": "foundation",
   "narrative": "1992 was the year the web learned to show pictures. Mosaic's graphical interface made the internet visual and intuitive, while Gopher's decline showed that open standards would win. The foundations of e-commerce were being laid.",
   "felt_like": {
-    "os": "MS-DOS 5.0 / Windows 3.1 / System 7",
-    "browser": "Mosaic beta / ViolaWWW / Lynx",
-    "messenger": "IRC / CompuServe forums",
-    "social_network": "Usenet / BBS communities / CompuServe forums",
-    "music": "Grunge rules—Nirvana, Pearl Jam, Soundgarden",
-    "phone": "Early cell phones (brick-sized) / pay phones",
-    "video": "VHS tapes / early laserdiscs",
-    "website": "Simple pages with blue links and inline images"
+    "os": "Windows 3.1 / Mac System 7.1",
+    "browser": "Erwise / ViolaWWW / Lynx",
+    "messenger": "IRC / Bitnet RELAY / Usenet",
+    "social_network": "The WELL / CompuServe forums",
+    "music": "Dr. Dre's G-Funk, cassette singles, Boyz II Men",
+    "phone": "Motorola MicroTAC flip phone & beepers",
+    "video": "VHS home camcorders & LaserDiscs",
+    "website": "Pure text and raw hyperlink documents",
+    "fashion": "Flannel tied at the waist, babydoll dresses with combat boots, backward ballcaps",
+    "gadget": "Sony MiniDisc player & IBM Simon smartphone prototype",
+    "news": "1992 Los Angeles Riots; Bill Clinton elected US President",
+    "culture": "Wayne's World, Aladdin, MTV's The Real World debuts"
   },
   "events": [
     "mosaic-browser-beta-1992",
@@ -23,6 +27,9 @@
     "jpeg-format-created-1992",
     "veronica-gopher-search-1992",
     "first-credit-card-online-1992",
-    "compu-serv-graphics-1992"
+    "compu-serv-graphics-1992",
+    "first-sms-text-message-1992",
+    "dr-dre-the-chronic-gfunk-1992",
+    "la-riots-and-clinton-1992"
   ]
 }

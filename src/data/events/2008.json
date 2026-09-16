@@ -4,16 +4,32 @@
     "title": "Google Chrome Launches",
     "year": 2008,
     "date": "2008-09-02",
-    "category": ["software", "web"],
+    "category": [
+      "software",
+      "web"
+    ],
     "type": "product_launch",
     "summary": "Google releases Chrome, a fast, minimal browser that treats each tab as its own process. The browser wars restart.",
-    "narrative": "Google announces a browser with a comic book. Seriously, a comic book. It explains how each tab runs in its own sandbox — if one crashes, the whole browser doesn't go down. Chrome is fast, clean, and treats the web as an application platform. Within two years, it's the most popular browser in the world. Microsoft and Mozilla scramble to catch up.",
+    "narrative": "Google announces a browser with a comic book. Seriously, a comic book. It explains how each tab runs in its own sandbox \u2014 if one crashes, the whole browser doesn't go down. Chrome is fast, clean, and treats the web as an application platform. Within two years, it's the most popular browser in the world. Microsoft and Mozilla scramble to catch up.",
     "why_it_matters": "Broke IE and Firefox's duopoly. Introduced process-per-tab architecture. Pushed web performance standards higher. Made the browser an operating system for web apps.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["browser-wars", "web-apps", "chromium-ecosystem", "electron-apps"],
-    "tags": ["chrome", "google", "browser", "v8", "javascript"],
-    "region": ["global"],
+    "influence": [
+      "browser-wars",
+      "web-apps",
+      "chromium-ecosystem",
+      "electron-apps"
+    ],
+    "tags": [
+      "chrome",
+      "google",
+      "browser",
+      "v8",
+      "javascript"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Google Chrome: Launch",
@@ -29,16 +45,32 @@
     "title": "First Android Phone Ships",
     "year": 2008,
     "date": "2008-10-22",
-    "category": ["hardware", "software"],
+    "category": [
+      "hardware",
+      "software"
+    ],
     "type": "product_launch",
     "summary": "The HTC Dream (T-Mobile G1) ships as the first Android phone, launching the open-source mobile revolution.",
-    "narrative": "After announcing Android in 2007, Google ships the first actual phone. It's the HTC Dream — a clunky slider with a trackball and a physical keyboard. It's not pretty. But it's open. Any manufacturer can use Android. Any carrier can customize it. Within two years, Android is on hundreds of devices. Within five years, it's the most popular mobile OS on Earth.",
+    "narrative": "After announcing Android in 2007, Google ships the first actual phone. It's the HTC Dream \u2014 a clunky slider with a trackball and a physical keyboard. It's not pretty. But it's open. Any manufacturer can use Android. Any carrier can customize it. Within two years, Android is on hundreds of devices. Within five years, it's the most popular mobile OS on Earth.",
     "why_it_matters": "Launched the iOS/Android duopoly that still dominates. Open-source model made smartphones accessible at every price point. Changed the balance of power in mobile.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["smartphone-ubiquity", "mobile-web", "app-economy", "samsung-galaxy"],
-    "tags": ["android", "google", "htc", "mobile", "open-source"],
-    "region": ["global"],
+    "influence": [
+      "smartphone-ubiquity",
+      "mobile-web",
+      "app-economy",
+      "samsung-galaxy"
+    ],
+    "tags": [
+      "android",
+      "google",
+      "htc",
+      "mobile",
+      "open-source"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "HTC Dream: The first Android phone",
@@ -54,16 +86,32 @@
     "title": "Apple App Store Opens",
     "year": 2008,
     "date": "2008-07-10",
-    "category": ["software", "business"],
+    "category": [
+      "software",
+      "business"
+    ],
     "type": "platform_launch",
     "summary": "Apple opens the App Store with 500 apps. The mobile app economy is born overnight.",
     "narrative": "Steve Jobs didn't want third-party apps on the iPhone. His team convinces him otherwise. The App Store launches with 500 apps and 10 million downloads in the first weekend. Within a year, there are 65,000 apps. The phrase 'there's an app for that' enters the lexicon. Suddenly, everyone's a mobile developer. The gold rush begins.",
     "why_it_matters": "Created the mobile app economy. Changed how software is distributed and monetized. Spawned industries: ride-sharing, mobile gaming, social media apps. Defined the modern smartphone experience.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["google-play-store", "app-economy", "mobile-gaming", "uber-2009"],
-    "tags": ["apple", "app-store", "ios", "mobile", "apps"],
-    "region": ["global"],
+    "influence": [
+      "google-play-store",
+      "app-economy",
+      "mobile-gaming",
+      "uber-2009"
+    ],
+    "tags": [
+      "apple",
+      "app-store",
+      "ios",
+      "mobile",
+      "apps"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "App Store: Launch and Impact",
@@ -79,16 +127,33 @@
     "title": "Bitcoin Whitepaper Published",
     "year": 2008,
     "date": "2008-10-31",
-    "category": ["software", "business"],
+    "category": [
+      "software",
+      "business"
+    ],
     "type": "technology_release",
     "summary": "Satoshi Nakamoto publishes the Bitcoin whitepaper: 'A Peer-to-Peer Electronic Cash System.' The crypto era begins.",
     "narrative": "Someone using the name Satoshi Nakamoto publishes a nine-page paper on a cryptography mailing list. It describes a digital currency that doesn't need banks. It uses math and proof-of-work instead of trust. Most people ignore it. The few who read it carefully realize it's either brilliant or insane. It's both. A month later, the Bitcoin network goes live.",
     "why_it_matters": "Launched the cryptocurrency revolution. Introduced blockchain technology to the world. Challenged the fundamental role of banks and governments in money. Sparked a debate about trust, decentralization, and value that continues today.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["bitcoin-mining-2009", "crypto-boom", "blockchain", "defi", "nft-2021"],
-    "tags": ["bitcoin", "cryptocurrency", "satoshi-nakamoto", "blockchain", "decentralization"],
-    "region": ["global"],
+    "influence": [
+      "bitcoin-mining-2009",
+      "crypto-boom",
+      "blockchain",
+      "defi",
+      "nft-2021"
+    ],
+    "tags": [
+      "bitcoin",
+      "cryptocurrency",
+      "satoshi-nakamoto",
+      "blockchain",
+      "decentralization"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Bitcoin: The Original Whitepaper",
@@ -104,16 +169,32 @@
     "title": "Global Financial Crisis Hits Tech",
     "year": 2008,
     "date": "2008-09-15",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "cultural_event",
     "summary": "Lehman Brothers collapses. The global financial crisis crashes the economy. Tech funding dries up, but the lean startup movement emerges.",
     "narrative": "Lehman Brothers files for bankruptcy on September 15, 2008. The global economy tanks. VC funding evaporates. Startups that raised money in 2007 can't raise more in 2008. But something interesting happens: the companies that survive are the lean ones. The ones that don't need VC money. The ones that ship fast and iterate. The crisis births the lean startup methodology and makes bootstrapping cool again.",
     "why_it_matters": "Forced tech to get lean. Killed bloated startups. Proved that resilience matters more than growth. Created the conditions for the startup boom of 2009-2012.",
     "impact": 4,
     "nostalgia": 2,
-    "influence": ["lean-startup", "bootstrapping", "saas-boom", "uber-2009"],
-    "tags": ["financial-crisis", "economy", "venture-capital", "lean-startup", "recession"],
-    "region": ["global"],
+    "influence": [
+      "lean-startup",
+      "bootstrapping",
+      "saas-boom",
+      "uber-2009"
+    ],
+    "tags": [
+      "financial-crisis",
+      "economy",
+      "venture-capital",
+      "lean-startup",
+      "recession"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "2008 Financial Crisis: Impact on Tech",
@@ -129,16 +210,33 @@
     "title": "Spotify Launches in the UK",
     "year": 2008,
     "date": "2008-02-01",
-    "category": ["entertainment", "business"],
+    "category": [
+      "entertainment",
+      "business"
+    ],
     "type": "company_launch",
     "summary": "Spotify expands from Sweden to the UK, bringing free legal music streaming to a wider European audience.",
-    "narrative": "Spotify launched in Sweden in 2007, but 2008 is when it starts to matter. The UK launch brings it to a major English-speaking market. The model is simple: free music with ads, or pay for premium. The music industry is terrified — but the downloads aren't paying the bills anymore. Streaming is the future, and Spotify is leading the charge.",
+    "narrative": "Spotify launched in Sweden in 2007, but 2008 is when it starts to matter. The UK launch brings it to a major English-speaking market. The model is simple: free music with ads, or pay for premium. The music industry is terrified \u2014 but the downloads aren't paying the bills anymore. Streaming is the future, and Spotify is leading the charge.",
     "why_it_matters": "Established streaming as the future of music distribution. Proved the freemium model could work for entertainment. Forced the music industry to embrace digital.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["apple-music-2015", "streaming-economy", "death-of-the-mp3", "podcast-acquisitions"],
-    "tags": ["spotify", "music", "streaming", "freemium", "uk"],
-    "region": ["europe", "global"],
+    "influence": [
+      "apple-music-2015",
+      "streaming-economy",
+      "death-of-the-mp3",
+      "podcast-acquisitions"
+    ],
+    "tags": [
+      "spotify",
+      "music",
+      "streaming",
+      "freemium",
+      "uk"
+    ],
+    "region": [
+      "europe",
+      "global"
+    ],
     "sources": [
       {
         "title": "Spotify: History and Expansion",
@@ -154,16 +252,32 @@
     "title": "Facebook Platform Explodes",
     "year": 2008,
     "date": "2008-05-01",
-    "category": ["social", "software"],
+    "category": [
+      "social",
+      "software"
+    ],
     "type": "platform_growth",
     "summary": "Facebook's developer platform takes off. Apps like FarmVille and Mafia Wars turn Facebook into a gaming and social platform.",
-    "narrative": "Facebook opens its platform to developers in 2007, but 2008 is when it explodes. Zynga launches FarmVille. People are obsessed with virtual crops. Mafia Wars. PetVille. Your Facebook feed becomes a stream of game requests. It's annoying — and incredibly profitable. Zynga makes billions. Facebook proves it's not just a social network. It's a platform.",
+    "narrative": "Facebook opens its platform to developers in 2007, but 2008 is when it explodes. Zynga launches FarmVille. People are obsessed with virtual crops. Mafia Wars. PetVille. Your Facebook feed becomes a stream of game requests. It's annoying \u2014 and incredibly profitable. Zynga makes billions. Facebook proves it's not just a social network. It's a platform.",
     "why_it_matters": "Established the platform model for social networks. Created the social gaming industry. Proved that third-party developers could build billion-dollar businesses on social platforms.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["zynga-ipo", "social-gaming", "platform-economy", "facebook-games"],
-    "tags": ["facebook", "platform", "zynga", "farmville", "social-gaming"],
-    "region": ["global"],
+    "influence": [
+      "zynga-ipo",
+      "social-gaming",
+      "platform-economy",
+      "facebook-games"
+    ],
+    "tags": [
+      "facebook",
+      "platform",
+      "zynga",
+      "farmville",
+      "social-gaming"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Facebook Platform",
@@ -179,16 +293,33 @@
     "title": "MySpace Starts to Crumble",
     "year": 2008,
     "date": "2008-06-01",
-    "category": ["social", "business"],
+    "category": [
+      "social",
+      "business"
+    ],
     "type": "platform_shift",
     "summary": "MySpace's user base collapses as Facebook surpasses it in unique visitors. The social network king falls.",
     "narrative": "In 2008, Facebook overtakes MySpace in unique visitors for the first time. MySpace is cluttered, slow, and filled with autoplay music and banner ads. Facebook is clean, fast, and focused. News Corp, which bought MySpace for $580 million in 2005, watches the value evaporate. MySpace tries to pivot to music and entertainment, but the users have already left. The fall is spectacular.",
     "why_it_matters": "Demonstrated that social networks can die fast. Proved that design and user experience matter more than first-mover advantage. Cautionary tale for every platform that prioritizes monetization over users.",
     "impact": 4,
     "nostalgia": 5,
-    "influence": ["facebook-dominance", "platform-decline", "design-matters", "news-corp-loss"],
-    "tags": ["myspace", "decline", "facebook", "social-network", "news-corp"],
-    "region": ["usa", "global"],
+    "influence": [
+      "facebook-dominance",
+      "platform-decline",
+      "design-matters",
+      "news-corp-loss"
+    ],
+    "tags": [
+      "myspace",
+      "decline",
+      "facebook",
+      "social-network",
+      "news-corp"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "MySpace: The Fall",
@@ -204,16 +335,32 @@
     "title": "Obama Campaign Masters Digital",
     "year": 2008,
     "date": "2008-11-04",
-    "category": ["culture", "social"],
+    "category": [
+      "culture",
+      "social"
+    ],
     "type": "cultural_event",
     "summary": "Barack Obama's presidential campaign uses social media, email, and digital organizing to mobilize millions of voters.",
-    "narrative": "Obama's campaign doesn't just use the internet — it weaponizes it. MyBarackObama.com lets supporters organize locally. Email fundraising breaks records. Facebook and YouTube become campaign tools. The campaign raises $500 million online. It's the first truly digital presidential campaign, and it changes how politics works forever.",
+    "narrative": "Obama's campaign doesn't just use the internet \u2014 it weaponizes it. MyBarackObama.com lets supporters organize locally. Email fundraising breaks records. Facebook and YouTube become campaign tools. The campaign raises $500 million online. It's the first truly digital presidential campaign, and it changes how politics works forever.",
     "why_it_matters": "Proved that digital organizing could win elections. Established social media as a political tool. Changed campaign fundraising forever. Paved the way for the social media political landscape we live in now.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["political-social-media", "digital-fundraising", "obama-2012", "twitter-politics"],
-    "tags": ["obama", "politics", "digital-campaign", "social-media", "fundraising"],
-    "region": ["usa"],
+    "influence": [
+      "political-social-media",
+      "digital-fundraising",
+      "obama-2012",
+      "twitter-politics"
+    ],
+    "tags": [
+      "obama",
+      "politics",
+      "digital-campaign",
+      "social-media",
+      "fundraising"
+    ],
+    "region": [
+      "usa"
+    ],
     "sources": [
       {
         "title": "Obama 2008 Campaign: Digital Strategy",
@@ -229,16 +376,32 @@
     "title": "Android Market Launches",
     "year": 2008,
     "date": "2008-10-22",
-    "category": ["software", "business"],
+    "category": [
+      "software",
+      "business"
+    ],
     "type": "platform_launch",
     "summary": "Google launches the Android Market alongside the first Android phone, creating an open app marketplace.",
-    "narrative": "Apple has the App Store. Google launches the Android Market — same concept, but open. Developers can publish without Apple's gatekeeping. At first, it's sparse. But the openness attracts developers who chafe under Apple's rules. The Android Market eventually becomes Google Play, and the two app stores divide the mobile world between them.",
+    "narrative": "Apple has the App Store. Google launches the Android Market \u2014 same concept, but open. Developers can publish without Apple's gatekeeping. At first, it's sparse. But the openness attracts developers who chafe under Apple's rules. The Android Market eventually becomes Google Play, and the two app stores divide the mobile world between them.",
     "why_it_matters": "Created the open alternative to Apple's walled garden. Established the duopoly app store model. Proved that open platforms could attract developers and users.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["google-play-store", "app-economy", "open-platforms", "mobile-development"],
-    "tags": ["android", "google-play", "app-store", "mobile", "open-source"],
-    "region": ["global"],
+    "influence": [
+      "google-play-store",
+      "app-economy",
+      "open-platforms",
+      "mobile-development"
+    ],
+    "tags": [
+      "android",
+      "google-play",
+      "app-store",
+      "mobile",
+      "open-source"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Google Play: History",
@@ -246,6 +409,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "lehman-brothers-financial-crisis-2008",
+    "title": "Lehman Brothers Collapses & Great Recession Hits",
+    "year": 2008,
+    "date": "2008-09-15",
+    "category": [
+      "news",
+      "business"
+    ],
+    "type": "milestone",
+    "summary": "The collapse of Wall Street titan Lehman Brothers triggered the worst global financial crisis since the Great Depression.",
+    "narrative": "Employees carrying cardboard boxes out of Lehman's Manhattan headquarters became the iconic image of a global economic meltdown. Toxic subprime mortgage debt froze credit markets, leading to government bailouts, massive foreclosures, and skyrocketing unemployment. Out of the ashes and cynicism toward centralized banking, Satoshi Nakamoto published the Bitcoin whitepaper weeks later.",
+    "why_it_matters": "The Great Recession reshaped global politics, devastated millennial career starts, and catalyzed the rise of decentralized cryptocurrencies and FinTech.",
+    "impact": 5,
+    "nostalgia": 2,
+    "sources": [
+      {
+        "title": "Bankruptcy of Lehman Brothers - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+      }
+    ]
+  },
+  {
+    "id": "lady-gaga-the-fame-2008",
+    "title": "Lady Gaga Explodes with 'The Fame' & Revives Dance Pop",
+    "year": 2008,
+    "date": "2008-08-19",
+    "category": [
+      "music",
+      "fashion"
+    ],
+    "type": "cultural_shift",
+    "summary": "Stefani Germanotta burst onto pop airwaves with 'Just Dance' and 'Poker Face', reviving theatrical electro-pop.",
+    "narrative": "Sporting sharp blonde bangs, metallic leotards, and origami sunglasses, Lady Gaga brought downtown New York avant-garde performance art to daytime radio. 'The Fame' yielded consecutive #1 hits in 'Just Dance' and 'Poker Face', fusing European electronic synthesizers with stadium pop hooks and reigniting dance music across mainstream America.",
+    "why_it_matters": "Lady Gaga redefined pop stardom for the digital era, blending theatrical haute couture fashion, viral video spectacles, and LGBTQ+ advocacy.",
+    "impact": 5,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "The Fame - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Fame"
+      }
+    ]
+  },
+  {
+    "id": "shutter-shades-keffiyeh-streetwear-2008",
+    "title": "Kanye Shutter Shades, Keffiyeh Scarves & Indie-Hop Style",
+    "year": 2008,
+    "date": "2008-04-01",
+    "category": [
+      "fashion",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "Slotted plastic Venetian sunglasses and woven keffiyeh scarves became unavoidable youth fashion statements.",
+    "narrative": "After Kanye West wore custom Alain Mikli slotted plastic 'shutter shades' in his 'Stronger' music video and Grammy performance, cheap plastic knockoffs flooded concert festivals and high school hallways. Paired with patterned keffiyeh scarves, brightly colored Nike Dunks, and graphic hoodies, this clash of hip-hop and indie aesthetics defined late-2000s streetwear.",
+    "why_it_matters": "It exemplified how viral music videos could turn an impractical novelty accessory into an inescapable global micro-trend within weeks.",
+    "impact": 4,
+    "nostalgia": 5,
+    "sources": [
+      {
+        "title": "Shutter Shades - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shutter_Shades"
       }
     ]
   }

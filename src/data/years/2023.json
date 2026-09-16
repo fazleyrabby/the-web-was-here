@@ -5,14 +5,18 @@
   "era": "ai-era",
   "narrative": "ChatGPT explodes to 100 million users. Bing threatens Google. Twitter becomes X. Threads launches. The EU passes the AI Act. Tech layoffs reshape the industry. Barbenheimer proves cinema still matters. Apple announces Vision Pro. The AI era had officially begun.",
   "felt_like": {
-    "os": "Windows 11 / macOS Sonoma",
-    "browser": "Chrome / Edge (with AI) / Arc",
-    "messenger": "Discord / iMessage / WhatsApp",
-    "social_network": "TikTok / X (Twitter) / Threads",
-    "music": "Spotify / TikTok",
-    "phone": "iPhone 15 / Samsung Galaxy S23",
-    "video": "Netflix / TikTok / YouTube Shorts",
-    "website": "AI chatbots on every landing page, 'Built with AI' badges everywhere"
+    "os": "Windows 11 Copilot / macOS Sonoma / iOS 17 (NameDrop & StandBy mode)",
+    "browser": "Arc / Chrome / Microsoft Edge with Copilot AI sidebar",
+    "messenger": "Discord / Telegram / WhatsApp / ChatGPT mobile app",
+    "social_network": "Meta Threads (fastest 100M users in history) / X (RIP blue bird) / TikTok",
+    "music": "Taylor Swift's Eras Tour phenomenon, SZA 'Kill Bill', Peso Pluma, Morgan Wallen",
+    "phone": "iPhone 15 Pro (Grade 5 Titanium & USB-C finally!) & Pixel 8 Pro",
+    "video": "Barbenheimer theatrical event / TikTok live NPCs ('Ice cream so good!')",
+    "website": "Bento grids, subtle glowing borders, interactive AI chat widgets",
+    "fashion": "'Quiet Luxury' (Succession cashmere, logo-less neutrals) & Gorpcore (Arc'teryx jackets, Salomon xt-6)",
+    "gadget": "Apple announces Vision Pro & Meta Quest 3",
+    "news": "Israel-Hamas war erupts; Titan submersible implosion; Sam Altman OpenAI boardroom drama",
+    "culture": "Barbenheimer summer box office sensation; Taylor Swift Eras Tour stimulates US economy"
   },
   "events": [
     "chatgpt-explosion-2023",
@@ -22,6 +26,9 @@
     "tech-layoffs-2023",
     "ai-regulation-eu-2023",
     "barbenheimer-2023",
-    "apple-vision-pro-announce-2023"
+    "apple-vision-pro-announce-2023",
+    "taylor-swift-eras-tour-economic-force-2023",
+    "quiet-luxury-gorpcore-fashion-2023",
+    "openai-sam-altman-boardroom-drama-2023"
   ]
 }

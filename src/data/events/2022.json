@@ -4,16 +4,34 @@
     "title": "Elon Musk Acquires Twitter for $44 Billion",
     "year": 2022,
     "date": "2022-10-27",
-    "category": ["social", "business"],
+    "category": [
+      "social",
+      "business"
+    ],
     "type": "acquisition",
     "summary": "Elon Musk completes his $44 billion acquisition of Twitter and immediately begins reshaping the platform.",
-    "narrative": "It started as a meme — Musk asking his followers if Twitter should have an edit button. Then he bought 9.2% of the company. Then he offered $54.20 per share (420 + 20, get it?). Then he tried to back out. Then a Delaware court said 'no, you have to buy it.' So he did. He walked in carrying a kitchen sink — 'let that sink in.' Within weeks: half the company was fired. The blue checkmark became a paid subscription. Advertisers fled. Competitors like Mastodon and Post.news saw sign-ups explode. The platform's name changed to X. Twitter as we knew it was gone in 30 days.",
+    "narrative": "It started as a meme \u2014 Musk asking his followers if Twitter should have an edit button. Then he bought 9.2% of the company. Then he offered $54.20 per share (420 + 20, get it?). Then he tried to back out. Then a Delaware court said 'no, you have to buy it.' So he did. He walked in carrying a kitchen sink \u2014 'let that sink in.' Within weeks: half the company was fired. The blue checkmark became a paid subscription. Advertisers fled. Competitors like Mastodon and Post.news saw sign-ups explode. The platform's name changed to X. Twitter as we knew it was gone in 30 days.",
     "why_it_matters": "Biggest social media acquisition ever. Changed the rules of content moderation. Created the 'X' era. Proved that one person's whim could reshape a global communications platform.",
     "impact": 5,
     "nostalgia": 4,
-    "influence": ["twitter-to-x", "mastodon-migration", "bluesky-growth", "advertiser-exodus"],
-    "tags": ["elon-musk", "twitter", "acquisition", "x", "social-media", "content-moderation"],
-    "region": ["usa", "global"],
+    "influence": [
+      "twitter-to-x",
+      "mastodon-migration",
+      "bluesky-growth",
+      "advertiser-exodus"
+    ],
+    "tags": [
+      "elon-musk",
+      "twitter",
+      "acquisition",
+      "x",
+      "social-media",
+      "content-moderation"
+    ],
+    "region": [
+      "usa",
+      "global"
+    ],
     "sources": [
       {
         "title": "Acquisition of Twitter by Elon Musk",
@@ -29,16 +47,33 @@
     "title": "FTX Collapses in Massive Crypto Fraud",
     "year": 2022,
     "date": "2022-11-11",
-    "category": ["business", "security"],
+    "category": [
+      "business",
+      "security"
+    ],
     "type": "scandal",
     "summary": "FTX, the world's second-largest crypto exchange, collapses overnight in one of the biggest fraud cases in history.",
     "narrative": "Sam Bankman-Fried was the golden boy of crypto. Tied-head hoodie. Effective altruism. $32 billion valuation. Then a rival exchange leaked a balance sheet showing FTX had been secretly using customer funds. Billions vanished. FTX filed for bankruptcy in 48 hours. SBF was arrested at his Bahamas penthouse. He'd been living in a $40 million apartment with roommates he was dating. The trial revealed that FTX was run like a college dorm with a bank account. Customers lost $8 billion. The crypto winter deepened. SBF was sentenced to 25 years in prison.",
     "why_it_matters": "Shattered trust in crypto exchanges. Accelerated regulatory pressure on the crypto industry. Proved that 'trust me bro' is not a business model.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["crypto-regulation", "exchange-custody-rules", "sbfs-trial", "crypto-trust-crisis"],
-    "tags": ["ftx", "sam-bankman-fried", "crypto", "fraud", "collapse", "bankruptcy"],
-    "region": ["global"],
+    "influence": [
+      "crypto-regulation",
+      "exchange-custody-rules",
+      "sbfs-trial",
+      "crypto-trust-crisis"
+    ],
+    "tags": [
+      "ftx",
+      "sam-bankman-fried",
+      "crypto",
+      "fraud",
+      "collapse",
+      "bankruptcy"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Fall of FTX",
@@ -54,16 +89,33 @@
     "title": "AI Image Generators Break Through",
     "year": 2022,
     "date": "2022-04-01",
-    "category": ["software", "culture"],
+    "category": [
+      "software",
+      "culture"
+    ],
     "type": "technology_breakthrough",
     "summary": "DALL-E 2 and Midjourney make AI-generated art accessible to everyone, sparking debates about creativity and copyright.",
-    "narrative": "DALL-E 2 launched in April, and suddenly anyone could type words and get images. 'A cat wearing a top hat, photorealistic' — and there it was. Midjourney followed, and its Discord-based interface made it social. People created art portfolios in minutes. Graphic designers panicked. Then came the copyright debates — can AI use your art to train? The US Copyright Office said AI-generated art couldn't be copyrighted. Stock photo companies started offering AI generation. The art world split into two camps: those who saw AI as a tool and those who saw it as theft. The debate still rages.",
+    "narrative": "DALL-E 2 launched in April, and suddenly anyone could type words and get images. 'A cat wearing a top hat, photorealistic' \u2014 and there it was. Midjourney followed, and its Discord-based interface made it social. People created art portfolios in minutes. Graphic designers panicked. Then came the copyright debates \u2014 can AI use your art to train? The US Copyright Office said AI-generated art couldn't be copyrighted. Stock photo companies started offering AI generation. The art world split into two camps: those who saw AI as a tool and those who saw it as theft. The debate still rages.",
     "why_it_matters": "Made AI art generation mainstream. Disrupted creative industries. Forced legal systems to grapple with AI and intellectual property.",
     "impact": 5,
     "nostalgia": 3,
-    "influence": ["stable-diffusion", "ai-copyright-debate", "creative-disruption", "generative-ai-boom"],
-    "tags": ["dalle", "midjourney", "ai-art", "generative-ai", "copyright", "creative"],
-    "region": ["global"],
+    "influence": [
+      "stable-diffusion",
+      "ai-copyright-debate",
+      "creative-disruption",
+      "generative-ai-boom"
+    ],
+    "tags": [
+      "dalle",
+      "midjourney",
+      "ai-art",
+      "generative-ai",
+      "copyright",
+      "creative"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "DALL-E",
@@ -86,16 +138,33 @@
     "title": "Ukraine War Goes Digital",
     "year": 2022,
     "date": "2022-02-24",
-    "category": ["communication", "security"],
+    "category": [
+      "communication",
+      "security"
+    ],
     "type": "cultural_event",
     "summary": "Russia's invasion of Ukraine becomes the first major 'TikTok war' with real-time social media documentation.",
-    "narrative": "When Russia invaded Ukraine in February, the world watched in real-time — not through TV broadcasts, but through TikToks, tweets, and Telegram channels. Soldiers filmed their own deployments. Citizens documented bombings from their phones. Elon Musk activated Starlink terminals in Ukraine, keeping the country online when Russian cyberattacks tried to shut it down. Cybersecurity became front-page news. Hacker groups like Anonymous declared war on Russia. The internet became a battlefield, a newsroom, and a lifeline all at once.",
+    "narrative": "When Russia invaded Ukraine in February, the world watched in real-time \u2014 not through TV broadcasts, but through TikToks, tweets, and Telegram channels. Soldiers filmed their own deployments. Citizens documented bombings from their phones. Elon Musk activated Starlink terminals in Ukraine, keeping the country online when Russian cyberattacks tried to shut it down. Cybersecurity became front-page news. Hacker groups like Anonymous declared war on Russia. The internet became a battlefield, a newsroom, and a lifeline all at once.",
     "why_it_matters": "Changed how wars are documented and perceived. Demonstrated the military importance of satellite internet. Accelerated the weaponization of social media.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["starlink-ukraine", "tiktok-war", "cyber-warfare", "digital-civil-defense"],
-    "tags": ["ukraine", "war", "tiktok", "starlink", "cyberwarfare", "social-media"],
-    "region": ["global"],
+    "influence": [
+      "starlink-ukraine",
+      "tiktok-war",
+      "cyber-warfare",
+      "digital-civil-defense"
+    ],
+    "tags": [
+      "ukraine",
+      "war",
+      "tiktok",
+      "starlink",
+      "cyberwarfare",
+      "social-media"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Russian invasion of Ukraine",
@@ -111,16 +180,32 @@
     "title": "Wordle Takes Over the Internet",
     "year": 2022,
     "date": "2022-01-01",
-    "category": ["culture", "gaming"],
+    "category": [
+      "culture",
+      "gaming"
+    ],
     "type": "cultural_event",
     "summary": "Josh Wardle's five-letter word game becomes a global phenomenon, with millions sharing daily results as colored squares.",
-    "narrative": "A simple word game created by a software engineer for his partner went viral in January 2022. Six guesses. Five letters. One daily puzzle. The genius wasn't the game — it was the sharing. Those colored squares (yellow, green, gray) became the first universal social media language of the year. Everyone played. Your mom played. Your CEO played. The New York Times bought it for a 'low seven figures.' Competitors and variants exploded: Worldle, Absurdle, Nerdle. But Wordle was the one. It proved that simple, shareable, daily rituals still have power in an era of infinite content.",
+    "narrative": "A simple word game created by a software engineer for his partner went viral in January 2022. Six guesses. Five letters. One daily puzzle. The genius wasn't the game \u2014 it was the sharing. Those colored squares (yellow, green, gray) became the first universal social media language of the year. Everyone played. Your mom played. Your CEO played. The New York Times bought it for a 'low seven figures.' Competitors and variants exploded: Worldle, Absurdle, Nerdle. But Wordle was the one. It proved that simple, shareable, daily rituals still have power in an era of infinite content.",
     "why_it_matters": "Proved simple games can achieve massive scale. Created a new form of social sharing. Showed that daily ritual is a powerful engagement mechanic.",
     "impact": 4,
     "nostalgia": 4,
-    "influence": ["nyt-games", "wordle-clones", "daily-rituals", "simple-game-design"],
-    "tags": ["wordle", "word-game", "viral", "nyt", "simple-design"],
-    "region": ["global"],
+    "influence": [
+      "nyt-games",
+      "wordle-clones",
+      "daily-rituals",
+      "simple-game-design"
+    ],
+    "tags": [
+      "wordle",
+      "word-game",
+      "viral",
+      "nyt",
+      "simple-design"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Wordle",
@@ -136,16 +221,32 @@
     "title": "Twitter Blue Verification Chaos",
     "year": 2022,
     "date": "2022-11-09",
-    "category": ["social", "business"],
+    "category": [
+      "social",
+      "business"
+    ],
     "type": "cultural_event",
     "summary": "Twitter's paid verification system launches then pauses after impersonators cause chaos across the platform.",
-    "narrative": "Musk's first big idea: charge $8/month for a blue checkmark. It launched on November 9. Within hours, fake accounts posing as Eli Lilly, Lockheed Martin, Nintendo, and even George W. Bush flooded the platform. Eli Lilly's stock dropped after a fake account tweeted 'insulin is now free.' The pharmaceutical company had to issue a statement. Twitter suspended the program after two days. It was the fastest product launch-and-reversal in social media history. The blue checkmark — once a symbol of identity verification — became a symbol of chaos.",
+    "narrative": "Musk's first big idea: charge $8/month for a blue checkmark. It launched on November 9. Within hours, fake accounts posing as Eli Lilly, Lockheed Martin, Nintendo, and even George W. Bush flooded the platform. Eli Lilly's stock dropped after a fake account tweeted 'insulin is now free.' The pharmaceutical company had to issue a statement. Twitter suspended the program after two days. It was the fastest product launch-and-reversal in social media history. The blue checkmark \u2014 once a symbol of identity verification \u2014 became a symbol of chaos.",
     "why_it_matters": "Demonstrated the dangers of hasty platform changes. Showed how verification systems protect against impersonation. Changed how we think about trust online.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["verification-systems", "platform-trust", "impersonation-risks", "blue-check-culture"],
-    "tags": ["twitter-blue", "verification", "impersonation", "elon-musk", "chaos"],
-    "region": ["global"],
+    "influence": [
+      "verification-systems",
+      "platform-trust",
+      "impersonation-risks",
+      "blue-check-culture"
+    ],
+    "tags": [
+      "twitter-blue",
+      "verification",
+      "impersonation",
+      "elon-musk",
+      "chaos"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "Twitter Blue",
@@ -161,16 +262,33 @@
     "title": "Crypto Winter Freezes Digital Assets",
     "year": 2022,
     "date": "2022-06-13",
-    "category": ["business", "culture"],
+    "category": [
+      "business",
+      "culture"
+    ],
     "type": "market_event",
     "summary": "Bitcoin crashes below $20,000 as crypto companies collapse, ushering in a prolonged bear market.",
-    "narrative": "Bitcoin hit $69,000 in November 2021. By June 2022, it was below $20,000. The crash took down everything: Celsius Network froze withdrawals. Three Arrows Capital collapsed. Voyager Digital filed for bankruptcy. Luna/Terra's algorithmic stablecoin imploded, wiping out $40 billion in days. The 'crypto winter' wasn't just a price drop — it was an existential crisis. Companies that had spent billions on Super Bowl ads disappeared overnight. The industry learned that hype cycles don't build sustainable businesses. Some survivors emerged stronger. Most didn't.",
+    "narrative": "Bitcoin hit $69,000 in November 2021. By June 2022, it was below $20,000. The crash took down everything: Celsius Network froze withdrawals. Three Arrows Capital collapsed. Voyager Digital filed for bankruptcy. Luna/Terra's algorithmic stablecoin imploded, wiping out $40 billion in days. The 'crypto winter' wasn't just a price drop \u2014 it was an existential crisis. Companies that had spent billions on Super Bowl ads disappeared overnight. The industry learned that hype cycles don't build sustainable businesses. Some survivors emerged stronger. Most didn't.",
     "why_it_matters": "Exposed the fragility of crypto infrastructure. Destroyed billions in retail wealth. Forced the industry to confront its own excesses.",
     "impact": 5,
     "nostalgia": 2,
-    "influence": ["ftx-collapse", "crypto-regulation", "stablecoin-scrutiny", "blockchain-utility"],
-    "tags": ["bitcoin", "crypto-winter", "crash", "celcius", "luna", "bear-market"],
-    "region": ["global"],
+    "influence": [
+      "ftx-collapse",
+      "crypto-regulation",
+      "stablecoin-scrutiny",
+      "blockchain-utility"
+    ],
+    "tags": [
+      "bitcoin",
+      "crypto-winter",
+      "crash",
+      "celcius",
+      "luna",
+      "bear-market"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "2022 cryptocurrency crash",
@@ -186,16 +304,33 @@
     "title": "iPhone 14 Gets Emergency SOS via Satellite",
     "year": 2022,
     "date": "2022-09-16",
-    "category": ["hardware", "communication"],
+    "category": [
+      "hardware",
+      "communication"
+    ],
     "type": "product_launch",
     "summary": "Apple's iPhone 14 introduces satellite connectivity for emergency SOS, making any cell tower unnecessary for distress calls.",
-    "narrative": "For the first time, you could call for help without cell service. The iPhone 14's Emergency SOS via Satellite used a custom modem to connect directly to satellites overhead. The interface was clever — it told you to point at the sky and find a satellite. It worked. People were rescued from remote mountains, deserts, and shipwrecks. Apple partnered with Globalstar for the satellite network. Android followed with Google's satellite SOS partnership. The feature quietly changed what a phone could be — not just a communication device, but a survival tool.",
+    "narrative": "For the first time, you could call for help without cell service. The iPhone 14's Emergency SOS via Satellite used a custom modem to connect directly to satellites overhead. The interface was clever \u2014 it told you to point at the sky and find a satellite. It worked. People were rescued from remote mountains, deserts, and shipwrecks. Apple partnered with Globalstar for the satellite network. Android followed with Google's satellite SOS partnership. The feature quietly changed what a phone could be \u2014 not just a communication device, but a survival tool.",
     "why_it_matters": "Made satellite communication accessible to regular people. Changed the definition of phone connectivity. Forced carriers and governments to rethink emergency infrastructure.",
     "impact": 4,
     "nostalgia": 3,
-    "influence": ["android-satellite", "satellite-messaging", "emergency-connectivity", "phone-evolution"],
-    "tags": ["iphone", "satellite", "emergency", "sos", "apple", "connectivity"],
-    "region": ["global"],
+    "influence": [
+      "android-satellite",
+      "satellite-messaging",
+      "emergency-connectivity",
+      "phone-evolution"
+    ],
+    "tags": [
+      "iphone",
+      "satellite",
+      "emergency",
+      "sos",
+      "apple",
+      "connectivity"
+    ],
+    "region": [
+      "global"
+    ],
     "sources": [
       {
         "title": "iPhone 14",
@@ -203,6 +338,72 @@
         "type": "primary",
         "accessed": "2026-09-15",
         "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "chatgpt-ai-revolution-inflection-2022",
+    "title": "OpenAI Launches ChatGPT & Sparks the Generative AI Revolution",
+    "year": 2022,
+    "date": "2022-11-30",
+    "category": [
+      "tech",
+      "software"
+    ],
+    "type": "milestone",
+    "summary": "OpenAI released ChatGPT for free research preview, reaching 100 million users faster than any consumer application in history.",
+    "narrative": "On the last day of November 2022, OpenAI opened up a simple chat interface powered by GPT-3.5 with Reinforcement Learning from Human Feedback. Users were astonished as the model composed poems, debugged complex Python code, passed Wharton MBA exams, and explained quantum mechanics in pirate dialect. Within two months, it crossed 100 million monthly active users, triggering a seismic AI race across Big Tech.",
+    "why_it_matters": "ChatGPT was the iPhone moment for Artificial Intelligence, transforming generative models from research curiosities into indispensable everyday tools.",
+    "impact": 5,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "ChatGPT - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ChatGPT"
+      }
+    ]
+  },
+  {
+    "id": "james-webb-telescope-deep-field-2022",
+    "title": "NASA's James Webb Telescope Unveils First Deep Field Images",
+    "year": 2022,
+    "date": "2022-07-11",
+    "category": [
+      "science",
+      "news"
+    ],
+    "type": "milestone",
+    "summary": "President Joe Biden revealed the first full-color infrared image of the cosmos from the $10B James Webb Space Telescope.",
+    "narrative": "Stationed one million miles from Earth at the second Lagrange point, the James Webb Space Telescope opened its 18 gold-coated beryllium hexagonal mirrors. The resulting deep-field image of galaxy cluster SMACS 0723 captured thousands of shimmering galaxies warped by gravitational lensing, revealing light emitted over 13 billion years ago just after the dawn of the universe.",
+    "why_it_matters": "JWST revolutionized observational astrophysics, providing humanity with unprecedented clarity into the formation of stars and early galaxies.",
+    "impact": 5,
+    "nostalgia": 3,
+    "sources": [
+      {
+        "title": "Webb's First Deep Field - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Webb%27s_First_Deep_Field"
+      }
+    ]
+  },
+  {
+    "id": "adidas-samba-clean-girl-fashion-2022",
+    "title": "Adidas Samba Resurgence & The 'Clean Girl' Minimalist Aesthetic",
+    "year": 2022,
+    "date": "2022-06-01",
+    "category": [
+      "fashion",
+      "culture"
+    ],
+    "type": "cultural_shift",
+    "summary": "The vintage 1950 indoor soccer sneaker and slicked-back claw-clip buns defined the era's minimalist elegance.",
+    "narrative": "Bulky dad shoes were replaced by a sleek, low-profile retro classic: the black-and-white gum-soled Adidas Samba. Spurred by models Bella Hadid and Kendall Jenner, Sambas sold out worldwide. The footwear paired with the viral 'Clean Girl' aesthetic\u2014dewy skincare, slicked-back buns secured with tortoiseshell claw clips, chunky gold hoop earrings, and oversized structured blazers.",
+    "why_it_matters": "It marked a clean, timeless shift away from maximalist streetwear toward accessible vintage European minimalism.",
+    "impact": 4,
+    "nostalgia": 4,
+    "sources": [
+      {
+        "title": "Adidas Samba - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adidas_Samba"
       }
     ]
   }

@@ -5,14 +5,18 @@
   "era": "ai-era",
   "narrative": "AI stops being a place you go and becomes the layer everything runs on. Assistants live inside the browser and the operating system, agents click through the web on your behalf, and answers replace lists of links. Regulation catches up, open models close the gap, and computing quietly dissolves into the room around you.",
   "felt_like": {
-    "os": "Windows 11 / macOS / Linux with built-in AI",
-    "browser": "Chrome / Safari / Arc with an assistant in the sidebar",
-    "messenger": "Signal / WhatsApp / in-app AI chat",
-    "social_network": "algorithmic feeds everywhere",
-    "music": "streaming, AI-assisted discovery",
-    "phone": "glass slab with an on-device model",
-    "video": "short-form video / AI-generated clips",
-    "website": "generated answers, agent-readable pages, labeled AI content"
+    "os": "Operating systems with native continuous agent orchestration",
+    "browser": "Agentic browsers executing multi-step tasks across the open web",
+    "messenger": "Encrypted messaging with integrated personal agent co-pilots",
+    "social_network": "Cryptographically signed human feeds & verified authentic content networks",
+    "music": "Spatial immersive audio, real-time stem remixing, vinyl analog counter-culture",
+    "phone": "Thin-slab neural engine glass with on-device generative reasoning",
+    "video": "Real-time interactive video synthesis and multi-perspective spatial sports",
+    "website": "Adaptive personal layouts, machine-readable agent APIs, provenance verification tags",
+    "fashion": "Cyber-minimalism, earth tones, anti-facial-recognition patterns, sustainable modular clothing",
+    "gadget": "Neural on-device companion rings & second-gen lightweight spatial headsets",
+    "news": "Global digital content provenance standards adopted; Quantum error mitigation milestone",
+    "culture": "The human-craft authenticity revival: valuing verified unassisted human artistry"
   },
   "events": [
     "ai-assistants-everywhere-2026",
@@ -22,6 +26,8 @@
     "quantum-advantage-2026",
     "open-source-ai-frontier-2026",
     "spatial-computing-2026",
-    "ambient-computing-2026"
+    "ambient-computing-2026",
+    "agentic-web-autonomous-action-2026",
+    "cryptographic-human-content-authenticity-2026"
   ]
 }

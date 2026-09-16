@@ -5,14 +5,18 @@
   "era": "early-web",
   "narrative": "Amazon goes public. Netflix is born. Bluetooth untethers devices from cables. AIM connects millions. RealPlayer streams live video. The first weblogs appear. The internet stops being a novelty and starts becoming infrastructure.",
   "felt_like": {
-    "os": "Windows 95 / Windows NT",
-    "browser": "Netscape Navigator 4 / Internet Explorer 4",
-    "messenger": "AIM / ICQ",
-    "social_network": "GeoCities / AOL",
-    "music": "Winamp / RealPlayer streaming",
-    "phone": "Nokia 6110 / Motorola StarTAC",
-    "video": "RealPlayer streaming (very small, very pixelated)",
-    "website": "a GeoCities page with an animated GIF and a guestbook"
+    "os": "Windows 95 / Windows 98 beta / Mac OS 8",
+    "browser": "Internet Explorer 4.0 / Netscape Communicator",
+    "messenger": "AOL Instant Messenger (AIM) / ICQ",
+    "social_network": "SixDegrees.com / GeoCities communities",
+    "music": "The Notorious B.I.G., Radiohead, Hanson, Puff Daddy, Winamp MP3s",
+    "phone": "Nokia 6110 with Snake game",
+    "video": "VHS & early Toshiba DVD players",
+    "website": "Flash intros, scrolling marquee text, webrings",
+    "fashion": "Baggy JNCO jeans, butterfly hair clips, tracksuits, bucket hats",
+    "gadget": "Tamagotchi virtual pets & first commercial DVD players",
+    "news": "Death of Princess Diana; Hong Kong handover to China",
+    "culture": "James Cameron's Titanic breaks records; Harry Potter book one published"
   },
   "events": [
     "amazon-ipo-1997",
@@ -22,6 +26,9 @@
     "aim-launch-1997",
     "early-blogs-1997",
     "dvd-launched-1997",
-    "w3c-css2-1997"
+    "w3c-css2-1997",
+    "princess-diana-global-grief-1997",
+    "tamagotchi-craze-1997",
+    "radiohead-ok-computer-1997"
   ]
 }
