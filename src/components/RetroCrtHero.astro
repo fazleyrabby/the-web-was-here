@@ -3,16 +3,14 @@
 ---
 
 <div class="crt-chassis" id="twwh-crt-chassis">
-  <!-- Top vents -->
-  <div class="crt-vents" aria-hidden="true">
-    <span></span><span></span><span></span><span></span><span></span><span></span>
-  </div>
+  <!-- Injection-molded beige monitor shell -->
+  <div class="crt-shell">
+    <span class="crt-shell__groove" aria-hidden="true"></span>
 
-  <!-- Main CRT Monitor Bezel -->
-  <div class="crt-bezel">
-    <!-- Monitor Screen Area with glass curvature & scanlines -->
-    <div class="crt-screen-housing">
-      <div class="crt-screen" id="crt-screen">
+    <!-- Deep 4-sided beveled screen recess -->
+    <div class="crt-recess">
+      <div class="crt-tube">
+        <div class="crt-screen" id="crt-screen">
 
         <!-- LAYER 1: WINDOWS 95 DESKTOP & DIAL-UP NETWORKING MODAL -->
         <div class="win95-desktop" id="win95-desktop">
@@ -321,46 +319,45 @@
         <!-- Power Off Screen Effect Layer -->
         <div class="crt-off-overlay" id="crt-off-overlay"></div>
       </div>
+      </div>
     </div>
 
-    <!-- CRT Monitor Bottom Control Bezel -->
-    <div class="crt-controls-bezel">
+    <!-- Lower chin: badge + physical controls -->
+    <div class="crt-chin">
       <div class="crt-badge">
         <span class="crt-brand">TWWH</span>
         <span class="crt-model">MULTISYNC 17GX</span>
       </div>
 
       <div class="crt-physical-buttons">
-        <!-- Re-Dial Button -->
-        <button type="button" class="crt-dial-toggle-btn" id="crt-redial-btn" title="Re-run 56k Dial-Up sequence">
-          <span class="crt-dial-btn-icon">📞</span>
-          <span id="crt-redial-text">RE-DIAL 56K</span>
+        <!-- Re-Dial pill rocker -->
+        <button type="button" class="crt-rocker crt-rocker--redial" id="crt-redial-btn" title="Re-run 56k Dial-Up sequence">
+          <span class="crt-rocker__icon">📞</span>
+          <span class="crt-rocker__label" id="crt-redial-text">RE-DIAL 56K</span>
         </button>
 
-        <!-- Sound FX Button -->
-        <button type="button" class="crt-sound-btn" id="crt-sound-toggle-btn" title="Toggle 56k Modem Sound FX">
-          <span class="crt-sound-icon" id="crt-sound-icon">🔊</span>
-          <span id="crt-sound-label">SOUND: ON</span>
+        <!-- Sound FX pill rocker -->
+        <button type="button" class="crt-rocker crt-rocker--sound" id="crt-sound-toggle-btn" title="Toggle 56k Modem Sound FX">
+          <span class="crt-rocker__icon" id="crt-sound-icon">🔊</span>
+          <span class="crt-rocker__label" id="crt-sound-label">SOUND: ON</span>
         </button>
 
-        <!-- Dials decoration -->
-        <div class="crt-dials" aria-hidden="true">
-          <div class="crt-dial" title="Brightness Dial"></div>
-          <div class="crt-dial" title="Contrast Dial"></div>
-        </div>
-
-        <!-- Power Button with LED -->
+        <!-- Power button with LED -->
         <div class="crt-power-group">
           <span class="crt-power-led crt-power-led--on" id="crt-power-led" title="Power On"></span>
-          <button type="button" class="crt-power-btn" id="crt-power-btn" title="Toggle CRT Power">
-            PWR
+          <button type="button" class="crt-power-btn" id="crt-power-btn" title="Toggle CRT Power" aria-label="Toggle CRT Power">
+            <span class="crt-power-btn__ring" aria-hidden="true"></span>
+            <span class="crt-power-btn__disc" aria-hidden="true"></span>
           </button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- CRT Monitor Stand Base -->
+  <!-- Set-back ventilation grille -->
+  <div class="crt-vent-grille" aria-hidden="true"></div>
+
+  <!-- Cylindrical neck & swivel pedestal foot -->
   <div class="crt-stand" aria-hidden="true">
     <div class="crt-stand__neck"></div>
     <div class="crt-stand__foot"></div>
@@ -373,54 +370,74 @@
      ========================================= */
   .crt-chassis {
     width: 100%;
-    max-width: 530px;
+    max-width: 540px;
     margin: 0 auto;
     position: relative;
     user-select: none;
+    --crt-chamfer: 16px;
+    filter: drop-shadow(0 24px 30px rgba(20, 18, 14, 0.28));
   }
 
-  .crt-vents {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding-bottom: 4px;
-  }
-  .crt-vents span {
-    display: block;
-    width: 32px;
-    height: 4px;
-    background: #b5ada2;
-    border-radius: 2px;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
-  }
-
-  .crt-bezel {
-    background: #d8d1c5;
-    background: linear-gradient(145deg, #e4ddd1 0%, #cdc6b9 100%);
-    border: 4px solid var(--bark);
-    border-radius: 12px 12px 16px 16px;
-    box-shadow: 8px 8px 0 var(--bark), inset 0 2px 3px rgba(255,255,255,0.7);
-    padding: 14px 14px 12px 14px;
+  /* Injection-molded beige shell */
+  .crt-shell {
     position: relative;
-    transition: transform 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out);
-  }
-  .crt-bezel:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 10px 10px 0 var(--bark);
+    border-radius: 20px;
+    background: linear-gradient(180deg, #eae4d6 0%, #dcd6c7 42%, #ccc4b4 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.75),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.14),
+      inset 1px 0 0 rgba(255, 255, 255, 0.3),
+      inset -1px 0 0 rgba(0, 0, 0, 0.08);
+    padding: 24px 24px 16px;
   }
 
-  /* Screen Housing (Dark Bevel surrounding curved tube) */
-  .crt-screen-housing {
-    background: #1e1d1a;
-    border: 3px solid #383531;
-    border-radius: 8px;
-    padding: 6px;
-    box-shadow: inset 0 4px 12px rgba(0,0,0,0.8), 0 1px 2px rgba(255,255,255,0.4);
+  /* Molded perimeter groove: recessed seam ~7px inside the bezel */
+  .crt-shell__groove {
+    position: absolute;
+    inset: 7px;
+    border-radius: 14px;
+    pointer-events: none;
+    border: 1px solid rgba(90, 84, 74, 0.28);
+    box-shadow:
+      inset 0 1px 2px rgba(90, 84, 74, 0.3),
+      0 1px 0 rgba(255, 255, 255, 0.55);
+  }
+
+  /* Deep 4-sided beveled screen recess (directional lighting) */
+  .crt-recess {
+    position: relative;
+    padding: var(--crt-chamfer);
+    border-radius: 15px;
+    background: conic-gradient(
+      from 0deg at 50% 50%,
+      #ece6d8 0deg,
+      #d9d2c2 38deg,
+      #b7ae9d 90deg,
+      #948b7a 132deg,
+      #6f6757 180deg,
+      #6b6354 205deg,
+      #a09989 270deg,
+      #d3cdbe 315deg,
+      #ece6d8 360deg
+    );
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.45),
+      inset 0 -1px 2px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Curved dark tube glass, set back inside the chamfer */
+  .crt-tube {
+    position: relative;
+    border-radius: 11px;
+    background: #050505;
+    box-shadow:
+      0 0 0 1px rgba(0, 0, 0, 0.85),
+      0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .crt-screen {
     background: #000;
-    border-radius: 6px;
+    border-radius: 11px;
     position: relative;
     height: 340px;
     overflow: hidden;
@@ -430,44 +447,54 @@
 
   @media (max-width: 640px) {
     .crt-screen {
-      height: 310px;
+      height: 300px;
     }
   }
 
-  /* CRT Scanlines, Curve Glow & Glass Reflection */
+  /* CRT Scanlines (phosphor) */
   .crt-scanlines {
     position: absolute;
     inset: 0;
     pointer-events: none;
     background: repeating-linear-gradient(
+      0deg,
       rgba(0, 0, 0, 0) 0px,
       rgba(0, 0, 0, 0) 2px,
-      rgba(0, 0, 0, 0.24) 2px,
-      rgba(0, 0, 0, 0.24) 4px
+      rgba(0, 0, 0, 0.22) 2px,
+      rgba(0, 0, 0, 0.22) 4px
     );
     z-index: 20;
     mix-blend-mode: multiply;
   }
 
+  /* Curved glass edge vignette */
   .crt-glow {
     position: absolute;
     inset: 0;
     pointer-events: none;
-    box-shadow: inset 0 0 45px rgba(0, 0, 0, 0.65), inset 0 0 10px rgba(0, 160, 255, 0.1);
+    background: radial-gradient(
+      ellipse at 50% 42%,
+      rgba(0, 0, 0, 0) 55%,
+      rgba(0, 0, 0, 0.25) 78%,
+      rgba(0, 0, 0, 0.62) 100%
+    );
     z-index: 21;
   }
 
+  /* Two-segment studio softbox glare across the upper third */
   .crt-glass-reflection {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
     pointer-events: none;
-    background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.08) 0%,
-      rgba(255, 255, 255, 0.03) 30%,
-      rgba(255, 255, 255, 0) 60%
-    );
     z-index: 22;
+    background:
+      linear-gradient(114deg, rgba(255, 255, 255, 0) 6%, rgba(255, 255, 255, 0.14) 15%, rgba(255, 255, 255, 0.04) 26%, rgba(255, 255, 255, 0) 34%),
+      linear-gradient(114deg, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.15) 55%, rgba(255, 255, 255, 0.04) 66%, rgba(255, 255, 255, 0) 74%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.55) 55%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.55) 55%, rgba(0, 0, 0, 0) 100%);
   }
 
   /* Power Off Effect */
@@ -1140,142 +1167,165 @@
   }
 
   /* =========================================
-     CRT HARDWARE BEZEL CONTROLS (BOTTOM)
+     LOWER CHIN & PHYSICAL CONTROLS
      ========================================= */
-  .crt-controls-bezel {
+  .crt-chin {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
-    padding-top: 8px;
-    gap: 8px;
+    padding: 18px 4px 2px;
+    gap: 10px;
     flex-wrap: wrap;
   }
 
   .crt-badge {
     display: flex;
-    align-items: baseline;
-    gap: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.15;
+    gap: 1px;
   }
   .crt-brand {
     font-family: 'Arial Black', Impact, sans-serif;
-    font-size: 0.75rem;
-    color: #4a443a;
+    font-size: 0.78rem;
+    color: #57503f;
     letter-spacing: 0.05em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
   }
   .crt-model {
     font-family: var(--font-mono), monospace;
-    font-size: 0.52rem;
+    font-size: 0.5rem;
     font-weight: 700;
-    color: #7d7568;
-    letter-spacing: 0.08em;
+    color: #8a8272;
+    letter-spacing: 0.1em;
   }
 
   .crt-physical-buttons {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
   }
 
-  .crt-dial-toggle-btn,
-  .crt-sound-btn {
-    font-family: var(--font-mono), monospace;
-    font-size: 0.6rem;
-    font-weight: 700;
-    background: #2b2926;
-    color: #00ff88;
-    border: 1.5px solid #4a4640;
-    border-radius: 4px;
-    padding: 3px 7px;
-    cursor: pointer;
+  /* Horizontal pill / capsule rocker buttons */
+  .crt-rocker {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
-    transition: background 0.15s, color 0.15s, transform 0.1s;
-    box-shadow: 0 2px 0 #181715;
+    gap: 5px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: var(--font-mono), monospace;
+    font-size: 0.56rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #4c463a;
+    background: linear-gradient(180deg, #e6e0d2 0%, #c8c1b1 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.8),
+      inset 0 -2px 3px rgba(0, 0, 0, 0.28),
+      0 1px 0 rgba(255, 255, 255, 0.5);
+    transition: transform 0.08s ease, box-shadow 0.08s ease;
   }
-  .crt-dial-toggle-btn:hover,
-  .crt-sound-btn:hover {
-    background: #00ff88;
-    color: #000;
-    border-color: #00ff88;
-  }
-  .crt-dial-toggle-btn:active,
-  .crt-sound-btn:active {
+  .crt-rocker:active {
     transform: translateY(1px);
-    box-shadow: none;
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.35),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.4);
+  }
+  .crt-rocker__icon {
+    font-size: 0.72rem;
+    line-height: 1;
+  }
+  .crt-rocker__label {
+    white-space: nowrap;
+  }
+  .crt-rocker.is-muted {
+    color: #8a8272;
+  }
+  .crt-rocker.is-muted .crt-rocker__icon {
+    filter: grayscale(1);
+    opacity: 0.55;
   }
 
-  .crt-sound-btn.is-muted {
-    color: #ff5555;
-    border-color: #553333;
-  }
-  .crt-sound-btn.is-muted:hover {
-    background: #ff5555;
-    color: #000;
-  }
-
-  /* Decorative rotary dials */
-  .crt-dials {
-    display: flex;
-    gap: 4px;
-  }
-  .crt-dial {
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background: #8b8376;
-    border: 1px solid #4d473d;
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
-    position: relative;
-  }
-  .crt-dial::after {
-    content: '';
-    position: absolute;
-    top: 1px;
-    left: 4px;
-    width: 1px;
-    height: 4px;
-    background: #332f28;
-  }
-
-  /* Power Button & LED */
+  /* Power group: pinhead LED + circular tactile power button */
   .crt-power-group {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
     margin-left: 2px;
   }
   .crt-power-led {
-    width: 6px;
-    height: 6px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    background: #333;
+    background: #3b362e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.7);
     transition: background 0.2s, box-shadow 0.2s;
   }
   .crt-power-led--on {
-    background: #00ff66;
-    box-shadow: 0 0 6px #00ff66;
+    background: #7dff66;
+    box-shadow: 0 0 3px #7dff66, 0 0 8px rgba(125, 255, 102, 0.65);
   }
 
   .crt-power-btn {
-    font-family: var(--font-mono), monospace;
-    font-size: 0.52rem;
-    font-weight: 800;
-    background: #3c3730;
-    color: #d8d1c5;
-    border: 1px solid #201e1a;
-    border-radius: 3px;
-    padding: 2px 5px;
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
     cursor: pointer;
-    box-shadow: 0 2px 0 #181715;
+    background: radial-gradient(circle at 50% 34%, #ddd7c8 0%, #b3ab9a 60%, #8f8777 100%);
+    box-shadow:
+      inset 0 2px 4px rgba(0, 0, 0, 0.5),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.4),
+      0 1px 0 rgba(255, 255, 255, 0.6);
+    transition: transform 0.08s ease;
   }
   .crt-power-btn:active {
     transform: translateY(1px);
-    box-shadow: none;
+  }
+  .crt-power-btn__ring {
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    border: 1px solid rgba(40, 36, 30, 0.45);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+  }
+  .crt-power-btn__disc {
+    position: absolute;
+    inset: 9px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 32%, #ece6d8 0%, #c8c1b1 90%);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
   }
 
   /* =========================================
-     CRT STAND BASE
+     SET-BACK VENTILATION GRILLE
+     ========================================= */
+  .crt-vent-grille {
+    width: 74%;
+    height: 26px;
+    margin: -2px auto 0;
+    border-radius: 0 0 9px 9px;
+    background-color: #b0a896;
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0) 3px,
+      rgba(36, 33, 27, 0.75) 3px,
+      rgba(36, 33, 27, 0.75) 5px
+    );
+    box-shadow:
+      inset 0 4px 7px rgba(0, 0, 0, 0.42),
+      inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  }
+
+  /* =========================================
+     NECK & SWIVEL PEDESTAL FOOT
      ========================================= */
   .crt-stand {
     display: flex;
@@ -1284,20 +1334,21 @@
     width: 100%;
   }
   .crt-stand__neck {
-    width: 110px;
-    height: 12px;
-    background: #b5ada0;
-    border-left: 4px solid var(--bark);
-    border-right: 4px solid var(--bark);
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+    width: 118px;
+    height: 32px;
+    margin-top: -2px;
+    background: linear-gradient(90deg, #7a7364 0%, #c6bfae 18%, #e7e1d3 50%, #bdb5a4 82%, #6f6859 100%);
+    border-radius: 0 0 12px 12px;
+    box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.35);
   }
   .crt-stand__foot {
-    width: 220px;
-    height: 12px;
-    background: #c5bdae;
-    border: 4px solid var(--bark);
-    border-radius: 0 0 10px 10px;
-    box-shadow: 6px 6px 0 var(--bark);
+    width: 252px;
+    height: 22px;
+    background: linear-gradient(180deg, #e5dfd1 0%, #cac3b3 55%, #a39b8b 100%);
+    border-radius: 14px 14px 8px 8px;
+    box-shadow:
+      inset 0 2px 0 rgba(255, 255, 255, 0.65),
+      inset 0 -2px 3px rgba(0, 0, 0, 0.25);
   }
 </style>
 
