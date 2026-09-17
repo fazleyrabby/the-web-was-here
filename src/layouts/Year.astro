@@ -239,12 +239,27 @@ const randomYear = (() => {
   }
 
   @media (max-width: 900px) {
-    .year-header__grid { grid-template-columns: 1fr; gap: var(--spacing-xl); }
+    .year-header__grid { grid-template-columns: 1fr; gap: var(--spacing-lg); }
     .year-header__art { order: -1; }
     .year-art { max-width: 240px; }
   }
+  @media (max-width: 768px) {
+    .year-header {
+      padding: var(--spacing-xl) var(--spacing-md) var(--spacing-lg);
+    }
+    .year-header__back {
+      margin-bottom: var(--spacing-md);
+    }
+    .year-header__title {
+      font-size: 1.5rem;
+      margin-bottom: var(--spacing-md);
+    }
+    .year-content {
+      padding: var(--spacing-lg) var(--spacing-md);
+    }
+  }
   @media (max-width: 680px) {
-    .year-nav { flex-direction: column; align-items: stretch; }
+    .year-nav { flex-direction: column; align-items: stretch; padding: 0 var(--spacing-md) var(--spacing-xl); }
     .year-nav__center { order: -1; width: 100%; justify-content: stretch; }
     .year-nav__random { flex: 1; justify-content: center; }
     .year-nav__jump { flex: 1; }
