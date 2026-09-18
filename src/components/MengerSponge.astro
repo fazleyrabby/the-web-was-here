@@ -1,0 +1,298 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<div class={`sponge ${className}`.trim()} data-sponge aria-hidden="true">
+  <canvas class="sponge__canvas" data-sponge-canvas></canvas>
+</div>
+
+<style>
+  .sponge {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .sponge__canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    transition: opacity 1s var(--ease-out, ease);
+  }
+  .sponge--ready .sponge__canvas { opacity: 1; }
+  @media (prefers-reduced-motion: reduce) {
+    .sponge__canvas { transition: none; }
+  }
+</style>
+
+<script>
+  type ThreeModule = typeof import('three');
+
+  const SELECTOR = '[data-sponge]';
+  const cleanups = new WeakMap<HTMLElement, () => void>();
+
+  let threePromise: Promise<ThreeModule> | null = null;
+  function loadThree(): Promise<ThreeModule> {
+    if (!threePromise) threePromise = import('three');
+    return threePromise;
+  }
+
+  function webglAvailable(): boolean {
+    try {
+      const c = document.createElement('canvas');
+      return !!(window.WebGLRenderingContext && (c.getContext('webgl2') || c.getContext('webgl')));
+    } catch {
+      return false;
+    }
+  }
+
+  // Raymarched Menger sponge SDF (based on the original shader), shaded as chrome.
+  const VERT = /* glsl */ `
+    varying vec2 vUv;
+    void main() {
+      vUv = uv;
+      gl_Position = vec4(position.xy, 0.0, 1.0);
+    }
+  `;
+
+  const FRAG = /* glsl */ `
+    precision highp float;
+    varying vec2 vUv;
+    uniform vec2 uResolution;
+    uniform vec2 uRot;
+    uniform float uOffsetX;
+    uniform float uHover;
+
+    mat2 rot(float a) { float s = sin(a), c = cos(a); return mat2(c, -s, s, c); }
+    float sdBox(vec3 p, vec3 b) { vec3 d = abs(p) - b; return length(max(d, 0.0)) + min(max(d.x, max(d.y, d.z)), 0.0); }
+
+    float map(vec3 p) {
+      float d = sdBox(p, vec3(1.0));
+      float s = 1.0;
+      for (int m = 0; m < 4; m++) {
+        vec3 a = mod(p * s, 2.0) - 1.0;
+        s *= 3.0;
+        vec3 r = abs(1.0 - 3.0 * abs(a));
+        float da = max(r.x, r.y);
+        float db = max(r.y, r.z);
+        float dc = max(r.z, r.x);
+        float c = (min(da, min(db, dc)) - 1.0) / s;
+        d = max(d, c);
+      }
+      return d - 0.018;   // offset -> slightly rounded edges instead of razor-sharp
+    }
+
+    vec3 calcNormal(vec3 p) {
+      vec2 e = vec2(0.0016, 0.0);
+      return normalize(vec3(
+        map(p + e.xyy) - map(p - e.xyy),
+        map(p + e.yxy) - map(p - e.yxy),
+        map(p + e.yyx) - map(p - e.yyx)
+      ));
+    }
+
+    // neutral studio environment -> chrome mirror reflections
+    vec3 envColor(vec3 dir) {
+      vec3 d = normalize(dir);
+      float t = d.y * 0.5 + 0.5;
+      vec3 col = mix(vec3(0.035, 0.04, 0.05), vec3(0.97, 0.99, 1.0), smoothstep(0.33, 0.95, t));
+      float band = smoothstep(0.14, 0.0, abs(t - 0.45));
+      col = mix(col, vec3(0.015, 0.018, 0.025), band * 0.9);
+      col += vec3(1.0) * smoothstep(0.86, 0.995, dot(d, normalize(vec3(0.25, 0.9, 0.35)))) * 1.7;
+      col += vec3(0.85, 0.92, 1.0) * smoothstep(0.9, 1.0, dot(d, normalize(vec3(-0.65, 0.3, 0.5)))) * 0.7;
+      col += vec3(1.0, 0.95, 0.9) * smoothstep(0.92, 1.0, dot(d, normalize(vec3(0.7, -0.15, 0.55)))) * 0.6;
+      return col;
+    }
+
+    void main() {
+      vec2 uv = (gl_FragCoord.xy - 0.5 * uResolution) / uResolution.y;
+      vec2 suv = uv - vec2(uOffsetX, 0.0);
+
+      // cheap cull: skip everything outside the object's screen bounds
+      if (abs(suv.x) > 0.6 || abs(suv.y) > 0.6) { gl_FragColor = vec4(0.0); return; }
+
+      vec3 ro = vec3(0.0, 0.0, -3.75);
+      vec3 rd = normalize(vec3(suv, 1.0));
+      rd.yz *= rot(uRot.x); rd.xz *= rot(uRot.y);
+      ro.yz *= rot(uRot.x); ro.xz *= rot(uRot.y);
+
+      float t = 0.0;
+      bool hit = false;
+      for (int i = 0; i < 90; i++) {
+        float d = map(ro + rd * t);
+        if (d < 0.0016) { hit = true; break; }
+        if (t > 7.0) break;
+        t += d;
+      }
+      if (!hit) { gl_FragColor = vec4(0.0); return; }
+
+      vec3 pos = ro + rd * t;
+      vec3 n = calcNormal(pos);
+      vec3 col = envColor(reflect(rd, n));
+      float fres = pow(1.0 - max(dot(n, -rd), 0.0), 5.0);
+      col += fres * 0.12;
+      gl_FragColor = vec4(col, 1.0);
+    }
+  `;
+
+  async function mountSponge(stage: HTMLElement, THREE: ThreeModule): Promise<() => void> {
+    const canvas = stage.querySelector<HTMLCanvasElement>('[data-sponge-canvas]');
+    if (!canvas) return () => {};
+
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const coarse = window.matchMedia('(pointer: coarse)').matches;
+    const small = window.innerWidth < 768;
+
+    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: false, powerPreference: 'high-performance' });
+    renderer.setClearAlpha(0);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, small || coarse ? 0.75 : 1));
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+
+    const uniforms = {
+      uResolution: { value: new THREE.Vector2(1, 1) },
+      uRot: { value: new THREE.Vector2(0, 0) },
+      uOffsetX: { value: 0.42 },
+      uHover: { value: 0 },
+    };
+    const material = new THREE.ShaderMaterial({
+      vertexShader: VERT,
+      fragmentShader: FRAG,
+      uniforms,
+      transparent: true,
+      depthTest: false,
+      depthWrite: false,
+    });
+    const quad = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), material);
+    quad.frustumCulled = false;
+    scene.add(quad);
+
+    function resize() {
+      const rect = stage.getBoundingClientRect();
+      const w = Math.max(1, Math.round(rect.width));
+      const h = Math.max(1, Math.round(rect.height));
+      renderer.setSize(w, h, false);
+      const size = renderer.getDrawingBufferSize(new THREE.Vector2());
+      uniforms.uResolution.value.copy(size);
+      const aspect = size.x / size.y;
+      uniforms.uOffsetX.value = small || coarse ? 0 : Math.min(0.42, 0.21 * aspect);
+      renderer.render(scene, camera);
+    }
+    const ro = new ResizeObserver(resize);
+    ro.observe(stage);
+
+    // hover = cursor inside the object's screen circle
+    const pointerNdc = new THREE.Vector2();
+    let hovering = false;
+    let aspect = 1;
+
+    const onPointer = (e: PointerEvent) => {
+      const rect = stage.getBoundingClientRect();
+      const nx = (e.clientX - rect.left) / rect.width;
+      const ny = (e.clientY - rect.top) / rect.height;
+      pointerNdc.set(nx * 2 - 1, -(ny * 2 - 1));
+      aspect = rect.width / rect.height;
+      const suvX = (nx - 0.5) * aspect - uniforms.uOffsetX.value;
+      const suvY = -(ny - 0.5);
+      const wasHovering = hovering;
+      hovering = Math.hypot(suvX, suvY) < 0.52;
+      if (hovering && !wasHovering) start();
+    };
+    window.addEventListener('pointermove', onPointer, { passive: true });
+
+    let visible = true;
+    const io = new IntersectionObserver((entries) => {
+      visible = entries.some((en) => en.isIntersecting);
+    }, { threshold: 0.01 });
+    io.observe(stage);
+
+    let raf = 0;
+    let running = false;
+    let rotX = 0;
+    let rotY = 0;
+    let hoverAmt = 0;
+    let last = 0;
+
+    function frame() {
+      raf = requestAnimationFrame(frame);
+      if (!visible || document.hidden) return;
+      const now = performance.now();
+      const dt = last ? Math.min(0.05, (now - last) / 1000) : 0;
+      last = now;
+
+      const tRotY = hovering ? pointerNdc.x * Math.PI : 0;
+      const tRotX = hovering ? -pointerNdc.y * Math.PI * 0.35 : 0;
+      rotY += (tRotY - rotY) * 0.12;
+      rotX += (tRotX - rotX) * 0.12;
+      uniforms.uRot.value.set(rotX, rotY);
+      hoverAmt += ((hovering ? 1 : 0) - hoverAmt) * 0.15;
+      uniforms.uHover.value = hoverAmt;
+
+      renderer.render(scene, camera);
+
+      const settled = !hovering && Math.abs(rotX) < 0.002 && Math.abs(rotY) < 0.002 && hoverAmt < 0.003;
+      if (settled) stop();
+    }
+
+    function start() {
+      if (running || reduce) return;
+      running = true;
+      last = 0;
+      frame();
+    }
+    function stop() {
+      running = false;
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+      last = 0;
+    }
+
+    resize();
+    if (!stage.classList.contains('sponge--failed')) stage.classList.add('sponge--ready');
+
+    return () => {
+      stop();
+      window.removeEventListener('pointermove', onPointer);
+      io.disconnect();
+      ro.disconnect();
+      quad.geometry.dispose();
+      material.dispose();
+      renderer.dispose();
+    };
+  }
+
+  function initAll() {
+    document.querySelectorAll<HTMLElement>(SELECTOR).forEach((stage) => {
+      if (stage.dataset.spongeInit === '1') return;
+      stage.dataset.spongeInit = '1';
+      if (!webglAvailable()) {
+        stage.classList.add('sponge--ready');
+        return;
+      }
+      loadThree()
+        .then((THREE) => mountSponge(stage, THREE))
+        .then((cleanup) => cleanups.set(stage, cleanup))
+        .catch((err) => console.warn('[menger-sponge] init failed', err));
+    });
+  }
+
+  function teardown() {
+    document.querySelectorAll<HTMLElement>(SELECTOR).forEach((stage) => {
+      const cleanup = cleanups.get(stage);
+      if (cleanup) cleanup();
+      cleanups.delete(stage);
+    });
+  }
+
+  initAll();
+  document.addEventListener('astro:page-load', initAll);
+  document.addEventListener('astro:before-swap', teardown);
+</script>
