@@ -1,6 +1,7 @@
 ---
 import Base from './Base.astro';
 import YearArt from '../components/YearArt.astro';
+import RobotHead from '../components/RobotHead.astro';
 import EraArtifacts from '../components/EraArtifacts.astro';
 import CommandPalette from '../components/CommandPalette.astro';
 import { eraForYear, type Era } from '../lib/era';
@@ -44,7 +45,13 @@ const randomYear = (() => {
           {narrative && <p class="year-header__narrative">{narrative}</p>}
         </div>
         <div class="year-header__art">
-          <YearArt year={year} />
+          {year === 2026 ? (
+            <RobotHead>
+              <YearArt slot="fallback" year={year} />
+            </RobotHead>
+          ) : (
+            <YearArt year={year} />
+          )}
         </div>
       </div>
     </div>

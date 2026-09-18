@@ -13,9 +13,13 @@
   },
   "dependencies": {
     "astro": "^7.3.2",
-    "roughjs": "^4.6.6"
+    "roughjs": "^4.6.6",
+    "three": "^0.186.0"
   },
   "allowScripts": {
     "esbuild": true
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0"
   }
 }
