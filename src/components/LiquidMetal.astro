@@ -1,0 +1,343 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<div class={`metal ${className}`.trim()} data-metal aria-hidden="true">
+  <canvas class="metal__canvas" data-metal-canvas></canvas>
+</div>
+
+<style>
+  .metal {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: auto;
+    overflow: hidden;
+  }
+  .metal__canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    transition: opacity 1s var(--ease-out, ease);
+  }
+  .metal--ready .metal__canvas { opacity: 1; }
+  @media (prefers-reduced-motion: reduce) {
+    .metal__canvas { transition: none; }
+  }
+</style>
+
+<script>
+  type ThreeModule = typeof import('three');
+
+  const SELECTOR = '[data-metal]';
+  const cleanups = new WeakMap<HTMLElement, () => void>();
+
+  let threePromise: Promise<ThreeModule> | null = null;
+  function loadThree(): Promise<ThreeModule> {
+    if (!threePromise) threePromise = import('three');
+    return threePromise;
+  }
+
+  function webglAvailable(): boolean {
+    try {
+      const c = document.createElement('canvas');
+      return !!(window.WebGLRenderingContext && (c.getContext('webgl2') || c.getContext('webgl')));
+    } catch {
+      return false;
+    }
+  }
+
+  function makeChromeEnv(THREE: ThreeModule) {
+    const c = document.createElement('canvas');
+    c.width = 1024;
+    c.height = 512;
+    const ctx = c.getContext('2d');
+    if (ctx) {
+      // neutral studio gradient (pure grayscale -> fully metallic silver)
+      const g = ctx.createLinearGradient(0, 0, 0, 512);
+      g.addColorStop(0.0, '#ffffff');
+      g.addColorStop(0.3, '#d7dbe1');
+      g.addColorStop(0.52, '#3c4149');
+      g.addColorStop(0.74, '#0c0e11');
+      g.addColorStop(1.0, '#040507');
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, 1024, 512);
+
+      const softbox = (x: number, y: number, w: number, h: number, color: string) => {
+        const rg = ctx.createRadialGradient(x, y, 0, x, y, Math.max(w, h) / 2);
+        rg.addColorStop(0, color);
+        rg.addColorStop(0.55, color.replace(/[\d.]+\)$/, '0.3)'));
+        rg.addColorStop(1, 'rgba(0,0,0,0)');
+        ctx.save();
+        ctx.translate(x, y);
+        ctx.scale(w / Math.max(w, h), h / Math.max(w, h));
+        ctx.translate(-x, -y);
+        ctx.fillStyle = rg;
+        ctx.beginPath();
+        ctx.arc(x, y, Math.max(w, h) / 2, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      };
+      // crisp white highlights only (no colour tint)
+      softbox(320, 56, 470, 118, 'rgba(255,255,255,1)');
+      softbox(780, 92, 340, 96, 'rgba(255,255,255,0.95)');
+      softbox(512, 148, 210, 52, 'rgba(255,255,255,0.9)');
+      softbox(150, 150, 260, 220, 'rgba(215,222,232,0.55)');
+      softbox(880, 190, 240, 200, 'rgba(200,206,216,0.5)');
+      const hb = ctx.createLinearGradient(0, 250, 0, 300);
+      hb.addColorStop(0, 'rgba(255,255,255,0)');
+      hb.addColorStop(0.5, 'rgba(255,255,255,0.6)');
+      hb.addColorStop(1, 'rgba(255,255,255,0)');
+      ctx.fillStyle = hb;
+      ctx.fillRect(0, 250, 1024, 50);
+    }
+    const tex = new THREE.CanvasTexture(c);
+    tex.mapping = THREE.EquirectangularReflectionMapping;
+    tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }
+
+  const METAL_GLSL = /* glsl */ `
+    uniform float uTime;
+    uniform float uAmp;
+    uniform vec3 uCursor;
+    uniform float uCursorStrength;
+    float lmNoise(vec3 p, float t) {
+      float a = sin(p.x * 2.3 + t * 0.9) * sin(p.y * 2.9 - t * 0.7) * sin(p.z * 2.6 + t * 1.1);
+      float b = sin(p.y * 4.7 + t * 1.5) * sin(p.z * 4.1 - t * 1.2);
+      float c = sin(p.x * 6.3 - t * 2.1) * sin(p.y * 5.7 + t * 1.8);
+      return a * 0.55 + b * 0.3 + c * 0.15;
+    }
+    float lmHeight(vec3 n, float t) {
+      float bulge = exp(-pow(1.0 - dot(n, uCursor), 2.0) * 7.0) * uCursorStrength;
+      return lmNoise(n, t) * uAmp + bulge;
+    }
+  `;
+
+  async function mountMetal(stage: HTMLElement, THREE: ThreeModule): Promise<() => void> {
+    const canvas = stage.querySelector<HTMLCanvasElement>('[data-metal-canvas]');
+    if (!canvas) return () => {};
+
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const coarse = window.matchMedia('(pointer: coarse)').matches;
+    const small = window.innerWidth < 768;
+
+    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true, powerPreference: 'high-performance' });
+    renderer.setClearAlpha(0);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, small || coarse ? 1.5 : 2));
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.05;
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
+    camera.position.set(0, 0, 5);
+
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    const envSrc = makeChromeEnv(THREE);
+    const envRT = pmrem.fromEquirectangular(envSrc);
+    scene.environment = envRT.texture;
+    envSrc.dispose();
+    pmrem.dispose();
+
+    const detail = small || coarse ? 16 : 40;
+    const geometry = new THREE.IcosahedronGeometry(1.42, detail);
+
+    const uniforms = {
+      uTime: { value: 0 },
+      uAmp: { value: 0.14 },
+      uCursor: { value: new THREE.Vector3(0, 0, 1) },
+      uCursorStrength: { value: 0 },
+    };
+    const material = new THREE.MeshStandardMaterial({
+      color: 0xffffff,
+      metalness: 1.0,
+      roughness: 0.03,
+      envMapIntensity: 1.8,
+    });
+    material.onBeforeCompile = (shader) => {
+      shader.uniforms.uTime = uniforms.uTime;
+      shader.uniforms.uAmp = uniforms.uAmp;
+      shader.uniforms.uCursor = uniforms.uCursor;
+      shader.uniforms.uCursorStrength = uniforms.uCursorStrength;
+      shader.vertexShader = `${METAL_GLSL}\n${shader.vertexShader}`;
+      shader.vertexShader = shader.vertexShader.replace(
+        '#include <beginnormal_vertex>',
+        `#include <beginnormal_vertex>
+         vec3 lmT1 = normalize(cross(objectNormal, vec3(0.0, 1.0, 0.0) + vec3(0.001)));
+         vec3 lmT2 = normalize(cross(objectNormal, lmT1));
+         float lmH0 = lmHeight(objectNormal, uTime);
+         float lmH1 = lmHeight(normalize(objectNormal + lmT1 * 0.1), uTime);
+         float lmH2 = lmHeight(normalize(objectNormal + lmT2 * 0.1), uTime);
+         objectNormal = normalize(objectNormal - (lmT1 * (lmH1 - lmH0) + lmT2 * (lmH2 - lmH0)) * 3.5);`
+      );
+      shader.vertexShader = shader.vertexShader.replace(
+        '#include <begin_vertex>',
+        `#include <begin_vertex>
+         transformed += normal * lmHeight(normal, uTime);`
+      );
+    };
+
+    const blob = new THREE.Mesh(geometry, material);
+    const group = new THREE.Group();
+    group.add(blob);
+    scene.add(group);
+
+    const key = new THREE.DirectionalLight(0xffffff, 1.7);
+    key.position.set(2.4, 3.0, 3.2);
+    const fill = new THREE.DirectionalLight(0xffffff, 0.8);
+    fill.position.set(-3.2, 0.4, 1.6);
+    const rim = new THREE.DirectionalLight(0xffffff, 0.9);
+    rim.position.set(2.2, -1.2, -2.6);
+    scene.add(key, fill, rim);
+
+    function layout() {
+      group.position.x = small ? 0 : 1.55;
+    }
+    layout();
+
+    function resize() {
+      const rect = stage.getBoundingClientRect();
+      const w = Math.max(1, Math.round(rect.width));
+      const h = Math.max(1, Math.round(rect.height));
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+    const ro = new ResizeObserver(() => {
+      layout();
+      resize();
+    });
+    ro.observe(stage);
+    resize();
+
+    const target = { x: 0, y: 0 };
+    const current = { x: 0, y: 0 };
+    let cursorActive = false;
+    const onPointer = (e: PointerEvent) => {
+      const rect = stage.getBoundingClientRect();
+      target.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      target.y = ((e.clientY - rect.top) / rect.height) * 2 - 1;
+      cursorActive = true;
+    };
+    const onLeave = () => {
+      cursorActive = false;
+    };
+    stage.addEventListener('pointermove', onPointer);
+    stage.addEventListener('pointerleave', onLeave);
+
+    let visible = true;
+    const io = new IntersectionObserver((entries) => {
+      visible = entries.some((en) => en.isIntersecting);
+      if (visible) start();
+    }, { threshold: 0.01 });
+    io.observe(stage);
+
+    const t0 = performance.now();
+    let raf = 0;
+    let running = false;
+    const tanHalf = Math.tan((camera.fov * Math.PI) / 360);
+    const worldDir = new THREE.Vector3();
+    const invQuat = new THREE.Quaternion();
+
+    function frame() {
+      raf = requestAnimationFrame(frame);
+      if (!visible || document.hidden) return;
+      const t = (performance.now() - t0) / 1000;
+      uniforms.uTime.value = t;
+      current.x += (target.x - current.x) * 0.06;
+      current.y += (target.y - current.y) * 0.06;
+
+      // cursor direction relative to the blob, converted into the blob's local space
+      const visibleH = 2 * tanHalf * camera.position.z;
+      const visibleW = visibleH * camera.aspect;
+      const blobNdcX = group.position.x / (visibleW / 2);
+      const blobNdcY = group.position.y / (visibleH / 2);
+      const dx = current.x - blobNdcX;
+      const dy = -current.y - blobNdcY;
+      worldDir.set(dx * camera.aspect * tanHalf, dy * tanHalf, -1).normalize();
+      invQuat.copy(group.quaternion).invert();
+      worldDir.applyQuaternion(invQuat);
+      uniforms.uCursor.value.copy(worldDir);
+      const targetStrength = cursorActive ? 0.2 : 0;
+      uniforms.uCursorStrength.value += (targetStrength - uniforms.uCursorStrength.value) * (cursorActive ? 0.12 : 0.05);
+
+      group.rotation.y = t * 0.18 + current.x * 0.7;
+      group.rotation.x = Math.sin(t * 0.3) * 0.18 + current.y * 0.5;
+      group.position.y = Math.sin(t * 0.7) * 0.06;
+      renderer.render(scene, camera);
+    }
+
+    function start() {
+      if (running || reduce) return;
+      running = true;
+      frame();
+    }
+    function stop() {
+      running = false;
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+    }
+
+    if (reduce) {
+      uniforms.uTime.value = 1.5;
+      group.rotation.set(0.2, 0.5, 0);
+      renderer.render(scene, camera);
+    } else {
+      start();
+    }
+
+    const onVisibility = () => {
+      if (document.hidden) stop();
+      else if (visible) start();
+    };
+    document.addEventListener('visibilitychange', onVisibility);
+
+    if (!stage.classList.contains('metal--failed')) stage.classList.add('metal--ready');
+
+    return () => {
+      stop();
+      document.removeEventListener('visibilitychange', onVisibility);
+      stage.removeEventListener('pointermove', onPointer);
+      stage.removeEventListener('pointerleave', onLeave);
+      io.disconnect();
+      ro.disconnect();
+      geometry.dispose();
+      material.dispose();
+      envRT.dispose();
+      renderer.dispose();
+    };
+  }
+
+  function initAll() {
+    document.querySelectorAll<HTMLElement>(SELECTOR).forEach((stage) => {
+      if (stage.dataset.metalInit === '1') return;
+      stage.dataset.metalInit = '1';
+      if (!webglAvailable()) {
+        stage.classList.add('metal--ready');
+        return;
+      }
+      loadThree()
+        .then((THREE) => mountMetal(stage, THREE))
+        .then((cleanup) => cleanups.set(stage, cleanup))
+        .catch((err) => console.warn('[liquid-metal] init failed', err));
+    });
+  }
+
+  function teardown() {
+    document.querySelectorAll<HTMLElement>(SELECTOR).forEach((stage) => {
+      const cleanup = cleanups.get(stage);
+      if (cleanup) cleanup();
+      cleanups.delete(stage);
+    });
+  }
+
+  initAll();
+  document.addEventListener('astro:page-load', initAll);
+  document.addEventListener('astro:before-swap', teardown);
+</script>
