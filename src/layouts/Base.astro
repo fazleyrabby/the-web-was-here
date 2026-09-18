@@ -225,7 +225,8 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { background: var(--bark); border-radius: 0; }
 
-  ::selection { background: var(--yellow); color: var(--bark); }
+  ::selection { background: var(--yellow); color: #0a0a0a; }
+  ::-moz-selection { background: var(--yellow); color: #0a0a0a; }
 
   body {
     font-family: var(--font-body);

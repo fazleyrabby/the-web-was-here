@@ -865,3 +865,47 @@ html[data-era='now'] .events__filter-pill {
 
 /* Early Web: neon accents need dark text on category chips */
 html[data-era='early-web'] .event__category { color: #0a0a0a; }
+
+/* ==========================================================================
+   YELLOW / LIGHT-ACCENT SURFACES ALWAYS NEED DARK INK
+   These sit on yellow or pastel chips and inherited --ink (white on dark eras).
+   ========================================================================== */
+html[data-era]:not([data-era='foundation']) .support-icon-badge,
+html[data-era]:not([data-era='foundation']) .bmc-icon,
+html[data-era]:not([data-era='foundation']) .bmc-btn,
+html[data-era]:not([data-era='foundation']) .bmc-tag,
+html[data-era]:not([data-era='foundation']) .kori-icon,
+html[data-era]:not([data-era='foundation']) .kori-btn,
+html[data-era]:not([data-era='foundation']) .kori-tag,
+html[data-era]:not([data-era='foundation']) .gold-id,
+html[data-era]:not([data-era='foundation']) .support-toast,
+html[data-era]:not([data-era='foundation']) .support-toast--success,
+html[data-era]:not([data-era='foundation']) .support-homelab-pill,
+html[data-era]:not([data-era='foundation']) .payoneer-fee-tag,
+html[data-era]:not([data-era='foundation']) .divider-text,
+html[data-era]:not([data-era='foundation']) .support-window-close {
+  color: #0a0a0a;
+}
+
+/* Tier cards turn light cream/green on hover — keep a dark surface in dark eras */
+html[data-era='pandemic'] .card-kori:hover,
+html[data-era='pandemic'] .card-bmc:hover,
+html[data-era='ai'] .card-kori:hover,
+html[data-era='ai'] .card-bmc:hover,
+html[data-era='now'] .card-kori:hover,
+html[data-era='now'] .card-bmc:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Yellow hover surfaces (creator badge, visitor counter, year nav) */
+html[data-era] .creator-badge:hover,
+html[data-era] .creator-badge:hover .creator-badge__name,
+html[data-era] .creator-badge:hover .creator-badge__label,
+html[data-era] .creator-badge:hover .creator-badge__icon,
+html[data-era] .visitor-counter:hover,
+html[data-era] .visitor-counter:hover .visitor-counter__count,
+html[data-era] .visitor-counter:hover .visitor-counter__label,
+html[data-era] .year-nav__link:hover .year-nav__num,
+html[data-era] .year-nav__link:hover .year-nav__dir {
+  color: #0a0a0a;
+}
