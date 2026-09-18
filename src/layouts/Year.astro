@@ -1,7 +1,7 @@
 ---
 import Base from './Base.astro';
 import YearArt from '../components/YearArt.astro';
-import GlassPrism from '../components/GlassPrism.astro';
+import ParticleField from '../components/ParticleField.astro';
 import EraArtifacts from '../components/EraArtifacts.astro';
 import CommandPalette from '../components/CommandPalette.astro';
 import { eraForYear, type Era } from '../lib/era';
@@ -28,7 +28,8 @@ const randomYear = (() => {
 ---
 
 <Base title={`${year} — The Web Was Here`} era={activeEra}>
-  <header class="year-header">
+  <header class={`year-header${year === 2026 ? ' year-header--now' : ''}`}>
+    {year === 2026 && <ParticleField />}
     <div class="year-header__doodles" aria-hidden="true">
       <svg class="year-header__doodle" data-parallax="0.15" viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 18 L44 18 L32 28 L36 42 L24 32 L12 42 L16 28 L4 18 L20 18 Z" stroke="var(--orange)" stroke-width="2" fill="none" /></svg>
       <svg class="year-header__doodle" data-parallax="0.3" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="var(--green)" stroke-width="2" fill="none" /><path d="M12 24 h24" stroke="var(--green)" stroke-width="1.5" /><ellipse cx="24" cy="24" rx="8" ry="18" stroke="var(--green)" stroke-width="1.5" fill="none" /></svg>
@@ -45,13 +46,7 @@ const randomYear = (() => {
           {narrative && <p class="year-header__narrative">{narrative}</p>}
         </div>
         <div class="year-header__art">
-          {year === 2026 ? (
-            <GlassPrism>
-              <YearArt slot="fallback" year={year} />
-            </GlassPrism>
-          ) : (
-            <YearArt year={year} />
-          )}
+          {year !== 2026 && <YearArt year={year} />}
         </div>
       </div>
     </div>
@@ -108,6 +103,7 @@ const randomYear = (() => {
   }
 
   .year-header__doodles { position: absolute; inset: 0; pointer-events: none; }
+  .year-header--now .year-header__doodles { display: none; }
   .year-header__doodle {
     position: absolute;
     width: 46px;
