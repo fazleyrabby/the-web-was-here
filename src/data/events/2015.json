@@ -210,7 +210,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2015/windows-10-2015.jpg",
+    "image_caption": "Microsoft releases Windows 10, skipping version 9 and pushing the 'Windows as a service' model."
   },
   {
     "id": "twitch-acquisition-2015",
@@ -447,7 +449,9 @@
         "title": "Obergefell v. Hodges - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges"
       }
-    ]
+    ],
+    "image": "/images/events/2015/same-sex-marriage-rainbow-filter-2015.jpg",
+    "image_caption": "The Supreme Court's Obergefell v. Hodges ruling legalized same-sex marriage, turning feeds into a sea of rainbows."
   },
   {
     "id": "yeezy-boost-athleisure-boom-2015",

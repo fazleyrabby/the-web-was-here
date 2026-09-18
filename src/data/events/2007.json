@@ -147,7 +147,9 @@
     "region": [
       "global"
     ],
-    "sources": []
+    "sources": [],
+    "image": "/images/events/2007/youtube-culture-2007.png",
+    "image_caption": "YouTube, acquired by Google in 2006, becomes the de facto video platform. Viral videos become a cultural phenomenon."
   },
   {
     "id": "android-announce-2007",
@@ -186,7 +188,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2007/android-announce-2007.png",
+    "image_caption": "Google announces the Open Handset Alliance and Android, an open-source mobile operating system."
   },
   {
     "id": "windows-vista-2007",
@@ -214,7 +218,9 @@
     "region": [
       "global"
     ],
-    "sources": []
+    "sources": [],
+    "image": "/images/events/2007/windows-vista-2007.png",
+    "image_caption": "Microsoft releases Windows Vista. UAC prompts become the universal punchline."
   },
   {
     "id": "flash-games-peak-2007",

@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/pokemon-go-2016.png",
+    "image_caption": "Niantic's Pok\u00e9mon GO launches and becomes the fastest app to reach 50 million downloads, igniting the AR gaming craze."
   },
   {
     "id": "facebook-live-2016",
@@ -122,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/snapchat-spectacles-2016.png",
+    "image_caption": "Snapchat releases Spectacles, camera-equipped sunglasses that record 10-second circular videos."
   },
   {
     "id": "brexit-tech-2016",
@@ -206,7 +210,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/post-truth-2016.png",
+    "image_caption": "Oxford Dictionaries names 'post-truth' as its 2016 Word of the Year, reflecting a world where facts matter less than feelings."
   },
   {
     "id": "yahoo-breach-2016",
@@ -247,7 +253,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/yahoo-breach-2016.jpg",
+    "image_caption": "Yahoo reveals a 2013 breach affecting all 3 billion user accounts \u2014 the largest data breach in history."
   },
   {
     "id": "nmt-launch-2016",
@@ -288,7 +296,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2016/nmt-launch-2016.png",
+    "image_caption": "Google launches Neural Machine Translation, dramatically improving Google Translate's quality overnight."
   },
   {
     "id": "uber-autonomous-2016",

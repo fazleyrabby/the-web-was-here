@@ -40,7 +40,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/elon-musk-twitter-2022.png",
+    "image_caption": "Elon Musk completes his $44 billion acquisition of Twitter and immediately begins reshaping the platform."
   },
   {
     "id": "ftx-collapse-2022",
@@ -82,7 +84,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/ftx-collapse-2022.png",
+    "image_caption": "FTX, the world's second-largest crypto exchange, collapses overnight in one of the biggest fraud cases in history."
   },
   {
     "id": "dalle-midjourney-2022",
@@ -305,7 +309,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2022/crypto-winter-2022.png",
+    "image_caption": "Bitcoin crashes below $20,000 as crypto companies collapse, ushering in a prolonged bear market."
   },
   {
     "id": "iphone-emergency-satellite-2022",

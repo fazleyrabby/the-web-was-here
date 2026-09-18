@@ -217,7 +217,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2024/ai-agents-2024.jpg",
+    "image_caption": "AI agents emerge as the next frontier, with systems that can browse the web, write code, and complete multi-step tasks autonomously."
   },
   {
     "id": "sora-video-2024",

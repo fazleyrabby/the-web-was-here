@@ -347,7 +347,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2005/million-dollar-homepage-2005.jpg",
+    "image_caption": "Alex Tew, a 21-year-old from England, sells 1 million pixels on his website for $1 each to fund his university education."
   },
   {
     "id": "firefox-growth-2005",
@@ -456,7 +458,7 @@
         "url": "https://en.wikipedia.org/wiki/Xbox_360"
       }
     ],
-    "image": "/images/hardware/xbox-360-spec.png",
+    "image": "/images/hardware/xbox-360-spec.jpg",
     "image_caption": "Microsoft Xbox 360 console with wireless controller."
   },
   {

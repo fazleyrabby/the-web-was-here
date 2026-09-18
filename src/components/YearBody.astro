@@ -154,11 +154,11 @@ const allCategories = Array.from(
   .felt-like { margin-bottom: var(--spacing-2xl); padding: var(--spacing-xl); background: var(--bg); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); }
   .felt-like__header { margin-bottom: var(--spacing-xl); }
   .felt-like__eyebrow { font-family: var(--font-mono); font-size: 0.72rem; color: var(--pink); text-transform: uppercase; letter-spacing: 0.12em; display: block; margin-bottom: var(--spacing-sm); font-weight: 600; }
-  .felt-like__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--bark); }
+  .felt-like__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--ink); }
   .felt-like__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--spacing-md); }
   .felt-like__item { padding: var(--spacing-lg); background: var(--bg-elevated); border: 2.5px solid var(--bark); border-radius: 3px; box-shadow: 3px 3px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out); display: flex; flex-direction: column; gap: var(--spacing-sm); }
   .felt-like__item:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--item-accent); border-color: var(--bark); }
-  .felt-like__key { font-family: var(--font-mono); font-size: 0.75rem; color: var(--bark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; display: inline-block; align-self: flex-start; padding: 0.15rem 0.4rem; background: var(--item-accent); border-radius: 2px; }
+  .felt-like__key { font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; display: inline-block; align-self: flex-start; padding: 0.15rem 0.5rem; background: var(--bg-elevated); border: 1.5px solid var(--item-accent); border-radius: 3px; }
   .felt-like__value { font-family: var(--font-body); font-size: 1rem; color: var(--text-primary); line-height: 1.5; display: block; }
   .events__header {
     margin-bottom: var(--spacing-xl);
@@ -169,7 +169,7 @@ const allCategories = Array.from(
     gap: var(--spacing-md);
   }
   .events__eyebrow { font-family: var(--font-mono); font-size: 0.72rem; color: var(--green); text-transform: uppercase; letter-spacing: 0.12em; display: block; margin-bottom: var(--spacing-sm); font-weight: 600; }
-  .events__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--bark); }
+  .events__heading { font-family: var(--font-hand); font-size: 2.2rem; font-weight: 700; color: var(--ink); }
 
   /* Category Filter Pills */
   .events__filter-bar {
@@ -197,7 +197,7 @@ const allCategories = Array.from(
     border: 2px solid var(--bark);
     border-radius: 3px;
     box-shadow: 2px 2px 0 var(--bark);
-    color: var(--bark);
+    color: var(--ink);
     cursor: pointer;
     transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out), background 0.15s, color 0.15s;
     display: inline-flex;
@@ -241,7 +241,7 @@ const allCategories = Array.from(
   .event__categories { display: flex; gap: var(--spacing-xs); flex-wrap: wrap; }
   .event__category { font-family: var(--font-mono); font-size: 0.72rem; color: #fff; padding: 0.25rem 0.65rem; border: 2px solid var(--bark); border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em; background: var(--accent); font-weight: 600; box-shadow: 2px 2px 0 var(--bark); }
   .event__date { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
-  .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: var(--bark); background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out), background 0.15s, color 0.15s; }
+  .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: #0a0a0a; background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out), background 0.15s, color 0.15s; }
   .event__react-btn:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--bark); background: var(--pink); color: #fff; }
   .event__react-btn.relived { background: var(--green) !important; color: #fff !important; }
   .event__title { font-family: var(--font-hand); font-size: 2.1rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-md); line-height: 1.15; }

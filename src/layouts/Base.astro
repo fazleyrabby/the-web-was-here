@@ -2,13 +2,15 @@
 import VisitorCounter from '../components/VisitorCounter.astro';
 import ScrollProgress from '../components/ScrollProgress.astro';
 import SupportModal from '../components/SupportModal.astro';
+import '../styles/eras.css';
 
 interface Props {
   title?: string;
   description?: string;
+  era?: string;
 }
 
-const { title = "The Web Was Here", description = "A living archive of the Internet we grew up with." } = Astro.props;
+const { title = "The Web Was Here", description = "A living archive of the Internet we grew up with.", era } = Astro.props;
 
 const SITE_URL = "https://the-web-was-here.vercel.app";
 const OG_IMAGE = `${SITE_URL}/images/illustrations/hero-retro-crt.jpg`;
@@ -16,7 +18,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-era={era}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,7 +46,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
     <meta name="twitter:image:alt" content="Vintage beige CRT monitor displaying a 90s web archive, with The Web Was Here branding" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Comic+Neue:wght@400;700&family=Inter:wght@300;400;500;600;700&family=VT323&display=swap" rel="stylesheet" />
     <script is:inline>document.documentElement.classList.add('js');</script>
   </head>
   <body>
@@ -63,6 +65,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
           <a href="/the-web/2007">2007</a>
           <a href="/the-web/2010">2010</a>
           <a href="/the-web/2020">2020</a>
+          <a href="/the-web/2026">2026</a>
         </div>
       </div>
       <div class="nav__controls">
@@ -82,6 +85,8 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
             <option value="/the-web/2015">2015 — Platform Era</option>
             <option value="/the-web/2020">2020 — Remote Web</option>
             <option value="/the-web/2024">2024 — AI Web</option>
+            <option value="/the-web/2025">2025 — AI Everywhere</option>
+            <option value="/the-web/2026">2026 — The Present</option>
           </select>
         </div>
       </div>
@@ -164,6 +169,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
 
     --bark: #1a1a1a;
     --black: #000000;
+    --ink: #1a1a1a;
 
     --pink: #e6194b;
     --green: #00994d;
@@ -194,6 +200,13 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
     --spacing-2xl: 8rem;
 
     --max-width: 1200px;
+
+    --radius: 4px;
+    --nav-bg: rgba(232, 228, 222, 0.94);
+    --bg-paper: #f4f1ec;
+    --link: var(--blue);
+    --bg-image: none;
+    --bg-size: auto;
 
     --ease-bounce: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -237,7 +250,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between;
     padding: 0.65rem var(--spacing-lg);
-    background: rgba(232, 228, 222, 0.94);
+    background: var(--nav-bg);
     backdrop-filter: blur(16px);
     border-bottom: var(--border-thick);
     box-sizing: border-box;
@@ -294,9 +307,9 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
   }
   .nav__btn:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--bark); }
   .nav__btn:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--bark); }
-  .nav__btn--warp { background: var(--yellow); color: var(--bark); }
+  .nav__btn--warp { background: var(--yellow); color: #0a0a0a; }
   .nav__btn--warp:hover { background: #ffe066; }
-  .nav__btn--sound { background: var(--bg-card); color: var(--bark); }
+  .nav__btn--sound { background: var(--bg-card); color: var(--ink); }
   .nav__btn--sound.muted { background: var(--bg); color: var(--text-muted); opacity: 0.8; }
 
   .nav__mobile-jump { display: none; flex-shrink: 1; min-width: 0; }
@@ -313,7 +326,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
     border: 2px solid var(--bark);
     border-radius: 3px;
     box-shadow: 2px 2px 0 var(--bark);
-    color: var(--bark);
+    color: var(--ink);
     cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -465,7 +478,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
     border-radius: 3px;
     box-shadow: 3px 3px 0 var(--bark);
     text-decoration: none;
-    color: var(--bark);
+    color: var(--ink);
     font-family: var(--font-mono);
     white-space: nowrap;
     flex-shrink: 0;
@@ -522,7 +535,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
   .creator-badge__name {
     font-size: 0.76rem;
     font-weight: 700;
-    color: var(--bark);
+    color: var(--ink);
     line-height: 1;
     letter-spacing: 0.02em;
   }
@@ -542,7 +555,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     line-height: 1;
-    color: var(--bark);
+    color: #0a0a0a;
     background: var(--yellow);
     border: 2.5px solid var(--bark);
     box-shadow: 3px 3px 0 var(--bark);

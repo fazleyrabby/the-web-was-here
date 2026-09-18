@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/linkedin-launch-2002.jpg",
+    "image_caption": "LinkedIn goes live as a professional networking site, creating the first major social network focused on careers and business connections."
   },
   {
     "id": "mac-osx-jaguar-2002",
@@ -80,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2002/mac-osx-jaguar-2002.jpg",
+    "image_caption": "Apple releases Mac OS X 10.2 Jaguar, the first version that feels truly polished and starts converting Windows users."
   },
   {
     "id": "camera-phone-era-2002",
@@ -361,7 +365,9 @@
         "title": "Let Go (Avril Lavigne album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Let_Go_(Avril_Lavigne_album)"
       }
-    ]
+    ],
+    "image": "/images/events/2002/avril-lavigne-juicy-couture-2002.jpg",
+    "image_caption": "Paris Hilton made pink velour Juicy tracksuits ubiquitous, while 17-year-old Avril Lavigne led a pop-punk revolution."
   },
   {
     "id": "american-idol-kelly-clarkson-2002",

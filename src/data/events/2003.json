@@ -171,7 +171,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/myspace-launch-2003.png",
+    "image_caption": "MySpace launches as a social networking site, quickly becoming the most popular social network in the United States."
   },
   {
     "id": "safari-browser-launch-2003",
@@ -212,7 +214,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/safari-browser-launch-2003.png",
+    "image_caption": "Apple introduces Safari, its own web browser, breaking free from Internet Explorer on the Mac and eventually becoming the dominant mobile browser."
   },
   {
     "id": "flickr-launch-2003",
@@ -253,7 +257,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2003/flickr-launch-2003.jpg",
+    "image_caption": "Flickr launches as a photo-sharing platform, pioneering social photography, tagging, and community curation."
   },
   {
     "id": "overture-search-ads-2003",
@@ -391,7 +397,9 @@
         "title": "Get Rich or Die Tryin' - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Get_Rich_or_Die_Tryin%27"
       }
-    ]
+    ],
+    "image": "/images/events/2003/beyonce-crazy-in-love-50cent-2003.jpg",
+    "image_caption": "Beyonc\u00e9 launched her solo superstar era with 'Crazy in Love', while 50 Cent dominated radio with 'In Da Club'."
   },
   {
     "id": "von-dutch-trucker-hats-2003",
@@ -413,6 +421,8 @@
         "title": "Von Dutch - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Von_Dutch"
       }
-    ]
+    ],
+    "image": "/images/events/2003/von-dutch-trucker-hats-2003.jpg",
+    "image_caption": "Foam and mesh trucker hats by Von Dutch became the defining fashion craze of Hollywood and malls alike."
   }
 ]

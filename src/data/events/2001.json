@@ -126,7 +126,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2001/windows-xp-launch-2001.png",
+    "image_caption": "Microsoft releases Windows XP, unifying the consumer and enterprise Windows lines and becoming the most widely used operating system in history."
   },
   {
     "id": "dotcom-crash-2001",
@@ -460,6 +462,8 @@
         "title": "I'm a Slave 4 U - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/I%27m_a_Slave_4_U"
       }
-    ]
+    ],
+    "image": "/images/events/2001/low-rise-jeans-y2k-fashion-2001.jpg",
+    "image_caption": "Britney Spears performed 'I'm a Slave 4 U' draped in a live Burmese python at the MTV VMAs, crowning low-rise denim."
   }
 ]

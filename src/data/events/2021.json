@@ -223,7 +223,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2021/chip-shortage-2021.png",
+    "image_caption": "A global semiconductor shortage idles car factories, delays gaming consoles, and reshapes tech supply chains."
   },
   {
     "id": "clubhouse-peak-2021",
@@ -379,7 +381,9 @@
         "title": "GameStop short squeeze - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze"
       }
-    ]
+    ],
+    "image": "/images/events/2021/gamestop-reddit-short-squeeze-2021.png",
+    "image_caption": "Retail traders organized on Reddit to send GameStop stock soaring 1,500%, inflicting billions in hedge fund losses."
   },
   {
     "id": "squid-game-netflix-sensation-2021",

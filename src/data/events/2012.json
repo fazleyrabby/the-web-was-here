@@ -297,7 +297,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/tumblr-100m-blogs-2012.jpg",
+    "image_caption": "Tumblr surpasses 100 million blogs, becoming the platform of choice for creative and counterculture communities."
   },
   {
     "id": "nasa-curiosity-landing-2012",
@@ -381,7 +383,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2012/samsung-apple-patent-war-2012.png",
+    "image_caption": "Apple wins $1.05 billion in damages from Samsung in the biggest patent lawsuit in tech history."
   },
   {
     "id": "linkedin-ipo-2012",
@@ -498,6 +502,8 @@
         "title": "Isabel Marant - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Isabel_Marant"
       }
-    ]
+    ],
+    "image": "/images/events/2012/sneaker-wedges-peplum-fashion-2012.jpg",
+    "image_caption": "Hidden-heel chunky wedge sneakers, structured peplum tops, and pastel ombre hair ruled youth fashion."
   }
 ]

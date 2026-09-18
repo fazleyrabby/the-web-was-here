@@ -296,7 +296,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/wannacry-2017.jpg",
+    "image_caption": "WannaCry ransomware spreads to 200,000 computers across 150 countries, crippling hospitals, factories, and governments."
   },
   {
     "id": "snapchat-ipo-2017",
@@ -337,7 +339,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2017/snapchat-ipo-2017.jpg",
+    "image_caption": "Snap Inc. goes public at $17 per share, the biggest tech IPO since Alibaba."
   },
   {
     "id": "fcc-net-neutrality-2017",
@@ -493,6 +497,8 @@
         "title": "Despacito - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Despacito"
       }
-    ]
+    ],
+    "image": "/images/events/2017/despacito-latin-pop-streaming-2017.png",
+    "image_caption": "The Puerto Rican reggaeton-pop smash tied the all-time Billboard record with 16 weeks at #1."
   }
 ]

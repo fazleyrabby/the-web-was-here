@@ -1,0 +1,185 @@
+---
+import { ERA_META, type Era } from '../lib/era';
+
+interface Props {
+  era: Era;
+  year: number;
+}
+
+const { era, year } = Astro.props;
+const meta = ERA_META[era];
+
+const hitCount = (year * 1337 + 4210) % 900000 + 100000;
+---
+
+<div class="era-banner">
+  <span class="era-banner__pill">
+    <strong>{meta.label}</strong>
+    <span>{meta.years}</span>
+  </span>
+  <span class="era-banner__blurb">{meta.blurb}</span>
+</div>
+
+{era === 'early-web' && (
+  <>
+    <div class="era-marquee" aria-hidden="true">
+      <span class="era-marquee__track">
+        ★ Welcome to my homepage ★ Best viewed in Netscape Navigator 3.0 ★ Sign my guestbook! ★
+        This page has been visited times ★ Under construction ★ Powered by GeoCities ★
+        ★ Welcome to my homepage ★ Best viewed in Netscape Navigator 3.0 ★ Sign my guestbook! ★
+      </span>
+    </div>
+    <div class="era-extras">
+      <span class="era-construction">🚧 Under Construction 🚧</span>
+      <span class="era-hitcounter">
+        <span class="era-hitcounter__label">You are visitor</span>
+        <span class="era-hitcounter__digits">{hitCount.toLocaleString()}</span>
+      </span>
+    </div>
+  </>
+)}
+
+{era === 'foundation' && (
+  <div class="era-extras era-extras--plain">
+    <span>This page is best viewed at 800 × 600</span>
+    <span>·</span>
+    <span>Last updated: {year}</span>
+  </div>
+)}
+
+{era === 'bust-rebuild' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--ie">Best viewed in Internet Explorer 6</span>
+    <span class="era-badge era-badge--flash">⚡ Flash intro loading…</span>
+  </div>
+)}
+
+{era === 'web-2' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--beta">BETA</span>
+    <span class="era-badge era-badge--rss">📡 RSS 2.0</span>
+    <span class="era-badge era-badge--beta">Sign up — it's free!</span>
+  </div>
+)}
+
+{era === 'mobile' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--flat">Swipe to explore</span>
+    <span class="era-badge era-badge--flat">Responsive · Retina ready</span>
+  </div>
+)}
+
+{era === 'platform' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--material"># Trending</span>
+    <span class="era-badge era-badge--material">For you</span>
+  </div>
+)}
+
+{era === 'pandemic' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--glass">🏠 Stay home, stay connected</span>
+    <span class="era-badge era-badge--glass">🌙 Dark mode</span>
+  </div>
+)}
+
+{era === 'ai' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--ai">✨ AI-assisted</span>
+    <span class="era-badge era-badge--ai">Generated · Verified</span>
+  </div>
+)}
+
+<style>
+  .era-banner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) var(--spacing-lg) 0;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+  }
+  .era-banner__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.3rem 0.85rem;
+    border: var(--border-thick);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+  }
+  .era-banner__pill strong { color: var(--text-primary); font-weight: 700; }
+  .era-banner__blurb {
+    font-family: var(--font-editorial);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  .era-extras {
+    max-width: var(--max-width);
+    margin: var(--spacing-md) auto 0;
+    padding: 0 var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .era-extras--plain { color: var(--text-muted); }
+
+  .era-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.28rem 0.7rem;
+    border: var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+  }
+  .era-badge--ie { background: linear-gradient(#4a7ad6, #003399); color: #fff; border-color: #003399; }
+  .era-badge--flash { background: #ff6600; color: #1a1a1a; border-color: #cc5200; }
+  .era-badge--beta { background: #ff7a18; color: #1a1a1a; border: none; border-radius: 999px; }
+  .era-badge--rss { background: #f7f7f7; color: #b23c00; border: 1px solid #b23c00; border-radius: 999px; }
+  .era-badge--flat { background: #fff; color: #007aff; border: none; border-radius: 999px; }
+  .era-badge--material { background: #6200ee; color: #fff; border: none; border-radius: 4px; }
+  .era-badge--glass {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    backdrop-filter: blur(10px);
+  }
+  .era-badge--ai {
+    background: linear-gradient(120deg, rgba(139, 92, 246, 0.25), rgba(34, 211, 238, 0.25));
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+  }
+
+  /* early-web specific */
+  .era-construction {
+    background: #ffff00; color: #000; border: 2px dashed #ff00ff;
+    padding: 0.28rem 0.7rem; border-radius: 0;
+  }
+  .era-hitcounter {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: #000; border: 2px ridge #00ff00; padding: 0.2rem 0.6rem; border-radius: 0;
+  }
+  .era-hitcounter__label { color: #00ff00; font-size: 0.6rem; }
+  .era-hitcounter__digits {
+    font-family: 'VT323', 'Courier New', monospace;
+    font-size: 1.15rem; letter-spacing: 0.12em; color: #00ff00;
+    text-shadow: 0 0 6px #00ff00;
+  }
+</style>

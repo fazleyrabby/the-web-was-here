@@ -40,7 +40,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/napster-launch-1999.png",
+    "image_caption": "Shawn Fanning and Sean Parker launch Napster, enabling peer-to-peer music sharing and disrupting the entire music industry."
   },
   {
     "id": "broadband-starts-1999",
@@ -171,7 +173,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/everquest-launch-1999.png",
+    "image_caption": "Sony Online Entertainment launches EverQuest, the massively multiplayer online RPG that creates addiction, community, and a virtual economy."
   },
   {
     "id": "wifi-spec-1999",
@@ -300,7 +304,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/i-will-survive-hoax-1999.jpg",
+    "image_caption": "Computer viruses become a mainstream concern as email worms spread rapidly and expose the vulnerability of internet-connected systems."
   },
   {
     "id": "mp3-com-riots-1999",
@@ -386,7 +392,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1999/windows-2000-preview-1999.png",
+    "image_caption": "Microsoft releases Windows 2000, combining the stability of NT with consumer features and laying groundwork for Windows XP."
   },
   {
     "id": "the-matrix-cyberpunk-1999",

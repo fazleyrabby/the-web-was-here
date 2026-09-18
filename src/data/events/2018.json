@@ -81,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/cambridge-analytica-2018.png",
+    "image_caption": "Revelations that Cambridge Analytica harvested 87 million Facebook profiles for political targeting rocks the tech world."
   },
   {
     "id": "tiktok-merger-2018",
@@ -165,7 +167,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2018/fortnite-cultural-2018.png",
+    "image_caption": "Fortnite's Battle Royale mode reaches 200 million players, making it the biggest game in the world and a cultural force."
   },
   {
     "id": "march-for-our-lives-2018",
@@ -469,7 +473,9 @@
         "title": "Black Panther (film) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)"
       }
-    ]
+    ],
+    "image": "/images/events/2018/black-panther-cultural-milestone-2018.png",
+    "image_caption": "Director Ryan Coogler and Chadwick Boseman brought the Afrofuturist world of Wakanda to life, grossing $1.34B."
   },
   {
     "id": "ugly-dad-sneaker-trend-2018",
@@ -491,6 +497,8 @@
         "title": "Sneakers as fashion - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Sneakers_as_fashion"
       }
-    ]
+    ],
+    "image": "/images/events/2018/ugly-dad-sneaker-trend-2018.jpg",
+    "image_caption": "Chunky, orthotic-looking multi-layered sneakers became the undisputed kings of luxury fashion."
   }
 ]

@@ -1,0 +1,867 @@
+/* ==========================================================================
+   ERA THEMES — each era restyles the content skin to match the web design
+   trends of its time. The archive frame (nav / footer / HUD) stays coherent,
+   but adopts the era's surface + type so the whole page feels like time travel.
+   ========================================================================== */
+
+/* Shared era chrome bits ---------------------------------------------------- */
+html[data-era] .era-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 1rem;
+  border-bottom: var(--border);
+  color: var(--text-muted);
+}
+
+/* ============================ 1990–1994 · FOUNDATION ====================== */
+html[data-era='foundation'] {
+  --bg: #c0c0c0;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-paper: #ededed;
+
+  --bark: #000000;
+  --ink: #000000;
+  --text-primary: #000000;
+  --text-secondary: #1a1a1a;
+  --text-muted: #444444;
+
+  --font-hand: 'Times New Roman', Times, serif;
+  --font-body: 'Times New Roman', Times, serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-editorial: 'Times New Roman', Times, serif;
+
+  --border: 1px solid #000;
+  --border-thick: 2px solid #000;
+  --border-chonk: 3px solid #000;
+  --shadow-brutal: none;
+  --shadow-brutal-sm: none;
+  --shadow-brutal-lg: none;
+  --radius: 0px;
+
+  --link: #0000ee;
+  --pink: #0000ee;
+  --green: #008000;
+  --yellow: #ffff00;
+  --blue: #0000ee;
+  --orange: #ff8c00;
+  --purple: #800080;
+  --red: #cc0000;
+  --teal: #008080;
+
+  --nav-bg: #c0c0c0;
+  --bg-image: none;
+  --bg-size: auto;
+}
+html[data-era='foundation'] body { background: #c0c0c0; }
+html[data-era='foundation'] .nav { border-bottom: 2px solid #000; }
+html[data-era='foundation'] .nav__logo-text,
+html[data-era='foundation'] .nav__links a { font-family: 'Times New Roman', serif; }
+html[data-era='foundation'] .event,
+html[data-era='foundation'] .felt-like,
+html[data-era='foundation'] .felt-like__item { border-radius: 0; box-shadow: none; }
+html[data-era='foundation'] .event::before { display: none; }
+html[data-era='foundation'] .event:hover,
+html[data-era='foundation'] .felt-like__item:hover { transform: none; box-shadow: none; }
+html[data-era='foundation'] .event__title { color: #0000ee; text-decoration: underline; }
+html[data-era='foundation'] .event__category {
+  background: #0000ee; color: #fff; border: 1px solid #000; border-radius: 0;
+}
+html[data-era='foundation'] .event__source { color: #0000ee; text-decoration: underline; text-decoration-style: solid; }
+html[data-era='foundation'] .event__arrow { color: #0000ee; }
+html[data-era='foundation'] .year-header__year { text-shadow: none; color: #000080; }
+html[data-era='foundation'] .retro-pattern-band { display: none; }
+
+/* ============================ 1995–1999 · EARLY WEB ======================= */
+html[data-era='early-web'] {
+  --bg: #000022;
+  --bg-card: #000044;
+  --bg-elevated: #000055;
+  --bg-paper: #000033;
+
+  --bark: #00ff00;
+  --ink: #ffff00;
+  --text-primary: #00ff66;
+  --text-secondary: #7dffb0;
+  --text-muted: #00aa66;
+
+  --font-hand: 'Comic Neue', 'Comic Sans MS', cursive;
+  --font-body: Verdana, Geneva, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-editorial: 'Comic Neue', 'Comic Sans MS', cursive;
+
+  --border: 2px dashed #00ff00;
+  --border-thick: 3px ridge #00ff00;
+  --border-chonk: 4px ridge #ffff00;
+  --shadow-brutal: 4px 4px 0 #ff00ff;
+  --shadow-brutal-sm: 3px 3px 0 #ff00ff;
+  --shadow-brutal-lg: 6px 6px 0 #ff00ff;
+  --radius: 0px;
+
+  --link: #ffff00;
+  --pink: #ff00ff;
+  --green: #00ff00;
+  --yellow: #ffff00;
+  --blue: #00ffff;
+  --orange: #ff9900;
+  --purple: #cc66ff;
+  --red: #ff4444;
+  --teal: #00ffcc;
+
+  --nav-bg: #000033;
+  --bg-image:
+    radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.18) 1.5px, transparent 1.5px),
+    radial-gradient(circle at 70% 65%, rgba(0, 255, 255, 0.16) 1.5px, transparent 1.5px);
+  --bg-size: 44px 44px, 66px 66px;
+}
+html[data-era='early-web'] body {
+  background-color: #000022;
+  background-image: var(--bg-image);
+  background-size: var(--bg-size);
+}
+html[data-era='early-web'] .nav { border-bottom: 3px ridge #00ff00; }
+html[data-era='early-web'] .nav__logo-text { color: #ffff00; text-shadow: 0 0 8px #ff00ff; }
+html[data-era='early-web'] .year-header__year {
+  color: #ffff00; text-shadow: 3px 3px 0 #ff00ff, 0 0 18px #00ff00;
+}
+html[data-era='early-web'] .year-header__title { color: #00ffff; }
+html[data-era='early-web'] .event,
+html[data-era='early-web'] .felt-like,
+html[data-era='early-web'] .felt-like__item { box-shadow: var(--shadow-brutal); }
+html[data-era='early-web'] .event__title {
+  color: #ffff00; text-shadow: 2px 2px 0 #ff00ff;
+  animation: eraBlink 1.6s steps(2, start) infinite;
+}
+html[data-era='early-web'] .event__category { border-radius: 0; }
+html[data-era='early-web'] .event__source { color: #00ffff; }
+html[data-era='early-web'] .footer__tag { border-radius: 0; }
+html[data-era='early-web'] .retro-pattern-band { opacity: 0.55; }
+html[data-era='early-web'] .era-marquee {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #ff00ff;
+  color: #ffff00;
+  border-top: 3px ridge #00ff00;
+  border-bottom: 3px ridge #00ff00;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+  font-size: 1.05rem;
+  padding: 0.3rem 0;
+}
+html[data-era='early-web'] .era-marquee__track {
+  display: inline-flex; gap: 2.5rem; padding-left: 100%;
+  animation: eraMarquee 22s linear infinite;
+}
+@keyframes eraMarquee { to { transform: translateX(-100%); } }
+@keyframes eraBlink { 50% { opacity: 0.55; } }
+
+/* ============================ 2000–2004 · BUST & REBUILD ================== */
+html[data-era='bust-rebuild'] {
+  --bg: #f2f5fa;
+  --bg-card: #ffffff;
+  --bg-elevated: #f7faff;
+  --bg-paper: #eef3fb;
+
+  --bark: #33507a;
+  --ink: #17233a;
+  --text-primary: #17233a;
+  --text-secondary: #33445f;
+  --text-muted: #64748b;
+
+  --font-hand: Verdana, Geneva, Tahoma, sans-serif;
+  --font-body: Verdana, Geneva, Tahoma, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-editorial: Georgia, 'Times New Roman', serif;
+
+  --border: 1px solid #a9bbd6;
+  --border-thick: 2px solid #33507a;
+  --border-chonk: 3px solid #33507a;
+  --shadow-brutal: 0 2px 5px rgba(23, 35, 58, 0.18);
+  --shadow-brutal-sm: 0 1px 3px rgba(23, 35, 58, 0.18);
+  --shadow-brutal-lg: 0 6px 18px rgba(23, 35, 58, 0.22);
+  --radius: 3px;
+
+  --link: #003399;
+  --pink: #cc0066;
+  --green: #2e8b2e;
+  --yellow: #f0b800;
+  --blue: #003399;
+  --orange: #ff6600;
+  --purple: #663399;
+  --red: #cc0000;
+  --teal: #008080;
+
+  --nav-bg: linear-gradient(#e4ecfb, #c3d4f0);
+  --bg-image: none;
+  --bg-size: auto;
+}
+html[data-era='bust-rebuild'] .nav { border-bottom: 2px solid #33507a; }
+html[data-era='bust-rebuild'] .nav__logo-text,
+html[data-era='bust-rebuild'] .nav__links a { font-family: Verdana, sans-serif; font-weight: 700; }
+html[data-era='bust-rebuild'] .year-header {
+  background: linear-gradient(#dce8fb, #f2f5fa);
+  border-bottom: 2px solid #33507a;
+}
+html[data-era='bust-rebuild'] .year-header__year { color: #003399; text-shadow: 1px 1px 0 #9fb6dd; }
+html[data-era='bust-rebuild'] .event,
+html[data-era='bust-rebuild'] .felt-like,
+html[data-era='bust-rebuild'] .felt-like__item {
+  box-shadow: inset 0 0 0 1px #fff, 0 1px 3px rgba(23, 35, 58, 0.2);
+}
+html[data-era='bust-rebuild'] .event__title { color: #003399; }
+html[data-era='bust-rebuild'] .event__category {
+  border-radius: 2px; border-width: 1px;
+  background: linear-gradient(#4a7ad6, #003399);
+}
+
+/* ============================ 2005–2009 · WEB 2.0 ======================== */
+html[data-era='web-2'] {
+  --bg: #e9eff6;
+  --bg-card: #ffffff;
+  --bg-elevated: #f7fbff;
+  --bg-paper: #f0f6ff;
+
+  --bark: #8aa0b8;
+  --ink: #1f2d3d;
+  --text-primary: #1f2d3d;
+  --text-secondary: #42556b;
+  --text-muted: #74879c;
+
+  --font-hand: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'Courier New', monospace;
+  --font-editorial: Georgia, 'Times New Roman', serif;
+
+  --border: 1px solid #cfdcea;
+  --border-thick: 1px solid #cfdcea;
+  --border-chonk: 2px solid #b9cce0;
+  --shadow-brutal: 0 6px 16px rgba(31, 60, 96, 0.14);
+  --shadow-brutal-sm: 0 2px 6px rgba(31, 60, 96, 0.12);
+  --shadow-brutal-lg: 0 14px 34px rgba(31, 60, 96, 0.18);
+  --radius: 14px;
+
+  --link: #2f80ed;
+  --pink: #ff4f81;
+  --green: #27ae60;
+  --yellow: #f2b705;
+  --blue: #2f80ed;
+  --orange: #ff7a18;
+  --purple: #9b51e0;
+  --red: #eb5757;
+  --teal: #2d9cdb;
+
+  --nav-bg: linear-gradient(#ffffff, #eef4fb);
+  --bg-image: linear-gradient(180deg, #eef4fb 0%, #e9eff6 40%, #e9eff6 100%);
+  --bg-size: auto;
+}
+html[data-era='web-2'] body { background: var(--bg-image); }
+html[data-era='web-2'] .nav { border-bottom: 1px solid #cfdcea; }
+html[data-era='web-2'] .year-header__year {
+  color: #2f80ed; text-shadow: none;
+  background: linear-gradient(#5aa0f5, #1c66c9);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+html[data-era='web-2'] .event,
+html[data-era='web-2'] .felt-like,
+html[data-era='web-2'] .felt-like__item {
+  border: 1px solid #dbe6f2;
+  background: linear-gradient(#ffffff, #f4f9ff);
+  box-shadow: var(--shadow-brutal);
+  position: relative;
+  overflow: hidden;
+}
+html[data-era='web-2'] .event::after {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 45%;
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+html[data-era='web-2'] .event:hover { transform: translateY(-3px); }
+html[data-era='web-2'] .event__category {
+  border-radius: 999px; border-width: 1px;
+  background: linear-gradient(#4a9af0, #1c66c9);
+}
+html[data-era='web-2'] .event__title { color: #1c66c9; }
+
+/* ============================ 2010–2014 · MOBILE + SOCIAL ================= */
+html[data-era='mobile'] {
+  --bg: #f5f5f7;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-paper: #f2f2f4;
+
+  --bark: #d9d9de;
+  --ink: #1c1c1e;
+  --text-primary: #1c1c1e;
+  --text-secondary: #3a3a3c;
+  --text-muted: #8e8e93;
+
+  --font-hand: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SF Mono', 'JetBrains Mono', monospace;
+  --font-editorial: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --border: 1px solid #e2e2e6;
+  --border-thick: 1px solid #e2e2e6;
+  --border-chonk: 2px solid #d5d5da;
+  --shadow-brutal: 0 1px 3px rgba(0, 0, 0, 0.08), 0 10px 28px rgba(0, 0, 0, 0.06);
+  --shadow-brutal-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --shadow-brutal-lg: 0 4px 10px rgba(0, 0, 0, 0.1), 0 18px 44px rgba(0, 0, 0, 0.08);
+  --radius: 12px;
+
+  --link: #007aff;
+  --pink: #ff2d55;
+  --green: #34c759;
+  --yellow: #ffcc00;
+  --blue: #007aff;
+  --orange: #ff9500;
+  --purple: #af52de;
+  --red: #ff3b30;
+  --teal: #5ac8fa;
+
+  --nav-bg: rgba(255, 255, 255, 0.82);
+  --bg-image: none;
+  --bg-size: auto;
+}
+html[data-era='mobile'] .nav { border-bottom: 1px solid #e2e2e6; }
+html[data-era='mobile'] .nav__logo-text,
+html[data-era='mobile'] .nav__links a { font-family: var(--font-body); font-weight: 600; }
+html[data-era='mobile'] .year-header {
+  background: linear-gradient(180deg, #ffffff, #f5f5f7);
+  border-bottom: 1px solid #e2e2e6;
+}
+html[data-era='mobile'] .year-header__year { color: #1c1c1e; text-shadow: none; }
+html[data-era='mobile'] .year-header__title { font-family: var(--font-body); font-weight: 600; }
+html[data-era='mobile'] .event,
+html[data-era='mobile'] .felt-like,
+html[data-era='mobile'] .felt-like__item { border-radius: 12px; }
+html[data-era='mobile'] .event::before { display: none; }
+html[data-era='mobile'] .event:hover { transform: translateY(-2px); }
+html[data-era='mobile'] .event__title { color: #1c1c1e; font-family: var(--font-body); font-weight: 700; }
+html[data-era='mobile'] .event__category {
+  border: none; border-radius: 999px;
+  background: rgba(0, 122, 255, 0.12); color: #007aff;
+}
+html[data-era='mobile'] .retro-pattern-band { opacity: 0.35; }
+
+/* ============================ 2015–2019 · PLATFORM ======================== */
+html[data-era='platform'] {
+  --bg: #fafafa;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-paper: #f5f5f5;
+
+  --bark: #e0e0e0;
+  --ink: #212121;
+  --text-primary: #212121;
+  --text-secondary: #424242;
+  --text-muted: #757575;
+
+  --font-hand: 'Space Grotesk', Inter, system-ui, sans-serif;
+  --font-body: Inter, 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-editorial: 'Space Grotesk', system-ui, sans-serif;
+
+  --border: 1px solid #e0e0e0;
+  --border-thick: 1px solid #e0e0e0;
+  --border-chonk: 2px solid #d5d5d5;
+  --shadow-brutal: 0 2px 4px rgba(0, 0, 0, 0.14), 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-brutal-sm: 0 1px 3px rgba(0, 0, 0, 0.16);
+  --shadow-brutal-lg: 0 6px 14px rgba(0, 0, 0, 0.16), 0 12px 32px rgba(0, 0, 0, 0.12);
+  --radius: 4px;
+
+  --link: #6200ee;
+  --pink: #e91e63;
+  --green: #03dac6;
+  --yellow: #ffab00;
+  --blue: #6200ee;
+  --orange: #ff6d00;
+  --purple: #6200ee;
+  --red: #b00020;
+  --teal: #03dac6;
+
+  --nav-bg: #ffffff;
+  --bg-image: none;
+  --bg-size: auto;
+}
+html[data-era='platform'] .nav { border-bottom: 1px solid #e0e0e0; }
+html[data-era='platform'] .nav__logo-text,
+html[data-era='platform'] .nav__links a { font-family: var(--font-body); font-weight: 600; }
+html[data-era='platform'] .year-header { border-bottom: 1px solid #e0e0e0; }
+html[data-era='platform'] .year-header__year {
+  color: #6200ee; text-shadow: none;
+  font-family: var(--font-body); font-weight: 700; letter-spacing: -0.03em;
+}
+html[data-era='platform'] .year-header__title { font-family: var(--font-body); font-weight: 700; }
+html[data-era='platform'] .event::before { display: none; }
+html[data-era='platform'] .event__title { color: #212121; font-family: var(--font-body); font-weight: 700; }
+html[data-era='platform'] .event__category {
+  border: none; border-radius: 4px;
+  background: #6200ee; color: #fff;
+}
+html[data-era='platform'] .felt-like__eyebrow,
+html[data-era='platform'] .events__eyebrow { color: #6200ee; }
+html[data-era='platform'] .retro-pattern-band { display: none; }
+
+/* ============================ 2020–2022 · PANDEMIC ======================== */
+html[data-era='pandemic'] {
+  --bg: #0e0e14;
+  --bg-card: rgba(255, 255, 255, 0.06);
+  --bg-elevated: rgba(255, 255, 255, 0.09);
+  --bg-paper: rgba(255, 255, 255, 0.04);
+
+  --bark: rgba(255, 255, 255, 0.22);
+  --ink: #ffffff;
+  --text-primary: #f5f5f7;
+  --text-secondary: #c7c7d1;
+  --text-muted: #8b8b98;
+
+  --font-hand: Inter, 'Space Grotesk', system-ui, sans-serif;
+  --font-body: Inter, 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-editorial: Inter, system-ui, sans-serif;
+
+  --border: 1px solid rgba(255, 255, 255, 0.14);
+  --border-thick: 1px solid rgba(255, 255, 255, 0.14);
+  --border-chonk: 2px solid rgba(255, 255, 255, 0.2);
+  --shadow-brutal: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --shadow-brutal-sm: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-brutal-lg: 0 16px 48px rgba(0, 0, 0, 0.55);
+  --radius: 20px;
+
+  --link: #22d3ee;
+  --pink: #f472b6;
+  --green: #22c55e;
+  --yellow: #facc15;
+  --blue: #60a5fa;
+  --orange: #fb923c;
+  --purple: #a78bfa;
+  --red: #f87171;
+  --teal: #2dd4bf;
+
+  --nav-bg: rgba(14, 14, 20, 0.72);
+  --bg-image:
+    radial-gradient(60% 50% at 15% 10%, rgba(124, 58, 237, 0.28), transparent 70%),
+    radial-gradient(50% 45% at 85% 20%, rgba(6, 182, 212, 0.22), transparent 70%),
+    radial-gradient(60% 60% at 50% 100%, rgba(244, 114, 182, 0.18), transparent 70%);
+  --bg-size: auto;
+}
+html[data-era='pandemic'] body {
+  background-color: #0e0e14;
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+}
+html[data-era='pandemic'] .grain { opacity: 0.06; }
+html[data-era='pandemic'] .nav { border-bottom: 1px solid rgba(255, 255, 255, 0.12); }
+html[data-era='pandemic'] .nav__logo-text { color: #a78bfa; }
+html[data-era='pandemic'] .nav__links a { color: var(--text-secondary); }
+html[data-era='pandemic'] .year-header { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+html[data-era='pandemic'] .year-header__year {
+  color: #fff; text-shadow: none;
+  background: linear-gradient(120deg, #a78bfa, #22d3ee, #f472b6);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+html[data-era='pandemic'] .year-header__title { font-family: var(--font-body); font-weight: 600; color: #fff; }
+html[data-era='pandemic'] .event,
+html[data-era='pandemic'] .felt-like,
+html[data-era='pandemic'] .felt-like__item {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+html[data-era='pandemic'] .event::before { display: none; }
+html[data-era='pandemic'] .event:hover { transform: translateY(-3px); border-color: rgba(255, 255, 255, 0.3); }
+html[data-era='pandemic'] .event__title { color: #fff; font-family: var(--font-body); font-weight: 600; }
+html[data-era='pandemic'] .event__category {
+  border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1); color: #fff;
+}
+html[data-era='pandemic'] .event__why { border-left-color: var(--purple); }
+html[data-era='pandemic'] .footer__tag { border-color: rgba(255, 255, 255, 0.25); }
+html[data-era='pandemic'] .retro-pattern-band { display: none; }
+html[data-era='pandemic'] .event__source { color: #22d3ee; }
+
+/* ============================ 2023–2025 · AI ERA ========================= */
+html[data-era='ai'] {
+  --bg: #08080d;
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --bg-elevated: rgba(255, 255, 255, 0.08);
+  --bg-paper: rgba(255, 255, 255, 0.03);
+
+  --bark: rgba(255, 255, 255, 0.18);
+  --ink: #ffffff;
+  --text-primary: #f2f2f7;
+  --text-secondary: #c2c2cf;
+  --text-muted: #8a8a99;
+
+  --font-hand: 'Space Grotesk', Inter, system-ui, sans-serif;
+  --font-body: Inter, 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-editorial: 'Space Grotesk', system-ui, sans-serif;
+
+  --border: 1px solid rgba(255, 255, 255, 0.12);
+  --border-thick: 1px solid rgba(255, 255, 255, 0.12);
+  --border-chonk: 2px solid rgba(255, 255, 255, 0.18);
+  --shadow-brutal: 0 10px 40px rgba(124, 58, 237, 0.28);
+  --shadow-brutal-sm: 0 6px 20px rgba(124, 58, 237, 0.22);
+  --shadow-brutal-lg: 0 20px 60px rgba(124, 58, 237, 0.36);
+  --radius: 16px;
+
+  --link: #22d3ee;
+  --pink: #f472b6;
+  --green: #a3e635;
+  --yellow: #fde047;
+  --blue: #60a5fa;
+  --orange: #fb923c;
+  --purple: #8b5cf6;
+  --red: #f87171;
+  --teal: #22d3ee;
+
+  --nav-bg: rgba(8, 8, 13, 0.72);
+  --bg-image:
+    radial-gradient(55% 45% at 20% 0%, rgba(139, 92, 246, 0.30), transparent 70%),
+    radial-gradient(50% 45% at 90% 15%, rgba(34, 211, 238, 0.22), transparent 70%),
+    radial-gradient(60% 55% at 70% 100%, rgba(244, 114, 182, 0.18), transparent 70%);
+  --bg-size: auto;
+}
+html[data-era='ai'] body {
+  background-color: #08080d;
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+}
+html[data-era='ai'] .grain { opacity: 0.05; }
+html[data-era='ai'] .nav { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+html[data-era='ai'] .nav__logo-text { color: #a78bfa; }
+html[data-era='ai'] .nav__links a { color: var(--text-secondary); }
+html[data-era='ai'] .year-header { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+html[data-era='ai'] .year-header__year {
+  color: #fff; text-shadow: none;
+  background: linear-gradient(120deg, #8b5cf6, #22d3ee, #f472b6);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+html[data-era='ai'] .year-header__title { font-family: var(--font-body); font-weight: 600; color: #fff; }
+html[data-era='ai'] .event,
+html[data-era='ai'] .felt-like,
+html[data-era='ai'] .felt-like__item {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+html[data-era='ai'] .event::before { display: none; }
+html[data-era='ai'] .event:hover { transform: translateY(-3px); border-color: rgba(139, 92, 246, 0.5); }
+html[data-era='ai'] .event__title { color: #fff; font-family: var(--font-body); font-weight: 600; }
+html[data-era='ai'] .event__category {
+  border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 999px;
+  background: rgba(139, 92, 246, 0.2); color: #fff;
+}
+html[data-era='ai'] .event__why { border-left-color: var(--purple); }
+html[data-era='ai'] .footer__tag { border-color: rgba(255, 255, 255, 0.22); }
+html[data-era='ai'] .retro-pattern-band { display: none; }
+html[data-era='ai'] .event__source { color: #22d3ee; }
+
+/* ============================ 2026 · THE PRESENT ========================= */
+/* Current-day web: near-black canvas, hairline borders, bento grids, one
+   restrained accent, AI-native chrome. Less gradient, more precision. */
+html[data-era='now'] {
+  --bg: #08090b;
+  --bg-card: #0e0f13;
+  --bg-elevated: #14151a;
+  --bg-paper: #0b0c10;
+
+  --bark: rgba(255, 255, 255, 0.1);
+  --ink: #f4f4f5;
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+
+  --font-hand: 'Space Grotesk', Inter, system-ui, sans-serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-editorial: 'Space Grotesk', system-ui, sans-serif;
+
+  --border: 1px solid rgba(255, 255, 255, 0.1);
+  --border-thick: 1px solid rgba(255, 255, 255, 0.1);
+  --border-chonk: 1px solid rgba(255, 255, 255, 0.16);
+  --shadow-brutal: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 20px 50px rgba(0, 0, 0, 0.5);
+  --shadow-brutal-sm: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 8px 24px rgba(0, 0, 0, 0.4);
+  --shadow-brutal-lg: 0 30px 70px rgba(0, 0, 0, 0.6);
+  --radius: 16px;
+
+  --link: #c6ff3d;
+  --accent: #c6ff3d;
+  --pink: #f9a8d4;
+  --green: #c6ff3d;
+  --yellow: #fde68a;
+  --blue: #7dd3fc;
+  --orange: #fdba74;
+  --purple: #a78bfa;
+  --red: #fca5a5;
+  --teal: #5eead4;
+
+  --nav-bg: rgba(8, 9, 11, 0.72);
+  --bg-image:
+    radial-gradient(50% 40% at 82% -8%, rgba(198, 255, 61, 0.1), transparent 70%),
+    radial-gradient(45% 40% at 8% 4%, rgba(125, 211, 252, 0.08), transparent 70%);
+  --bg-size: auto;
+}
+html[data-era='now'] body {
+  background-color: #08090b;
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+}
+html[data-era='now'] .grain { opacity: 0.045; }
+html[data-era='now'] .nav { border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+html[data-era='now'] .nav__logo-text { color: #c6ff3d; }
+html[data-era='now'] .nav__links a { color: var(--text-secondary); }
+html[data-era='now'] .nav__links a:hover { color: #c6ff3d; }
+html[data-era='now'] .nav__links a::after { background: #c6ff3d; }
+
+html[data-era='now'] .year-header { border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+html[data-era='now'] .year-header__year {
+  color: #fff; text-shadow: none; letter-spacing: -0.04em;
+  background: linear-gradient(180deg, #ffffff 0%, #8f8f98 100%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+html[data-era='now'] .year-header__title {
+  font-family: var(--font-body); font-weight: 600; letter-spacing: -0.02em; color: #fff;
+}
+html[data-era='now'] .year-header__narrative { color: var(--text-secondary); }
+html[data-era='now'] .year-header__back { color: var(--text-muted); }
+html[data-era='now'] .year-header__back:hover { color: #c6ff3d; }
+
+/* Bento event grid */
+html[data-era='now'] .events__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+html[data-era='now'] .event {
+  display: flex; flex-direction: column; gap: 1rem;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: var(--shadow-brutal-sm);
+}
+html[data-era='now'] .event:nth-child(1) { grid-column: 1 / -1; }
+html[data-era='now'] .event::before { display: none; }
+html[data-era='now'] .event:hover {
+  transform: translateY(-3px);
+  border-color: rgba(198, 255, 61, 0.4);
+  box-shadow: 0 0 0 1px rgba(198, 255, 61, 0.18), 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+html[data-era='now'] .event__left {
+  flex-direction: row; align-items: center; justify-content: space-between;
+  width: 100%; padding-top: 0; gap: 1rem;
+}
+html[data-era='now'] .event__scores { flex-direction: row; gap: 1rem; }
+html[data-era='now'] .event__index { opacity: 0.5; }
+html[data-era='now'] .event__title {
+  color: #fff; font-family: var(--font-body); font-weight: 600;
+  letter-spacing: -0.02em; font-size: 1.5rem;
+}
+html[data-era='now'] .event:nth-child(1) .event__title { font-size: 2.1rem; }
+html[data-era='now'] .event__narrative { color: var(--text-secondary); }
+html[data-era='now'] .event__body--has-image {
+  display: flex; flex-direction: column; gap: 1rem;
+}
+html[data-era='now'] .event__figure { max-width: 100%; order: 2; margin: 0; }
+html[data-era='now'] .event__image-frame {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: none;
+  background: #0b0c10;
+  min-height: 0;
+  max-height: none;
+  padding: 0.5rem;
+}
+html[data-era='now'] .event__image { max-height: 300px; }
+html[data-era='now'] .event__why {
+  border: none;
+  border-left: 2px solid #c6ff3d;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.8rem 1.1rem;
+  color: var(--text-secondary);
+}
+html[data-era='now'] .event__category {
+  border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04); color: var(--accent);
+  box-shadow: none;
+}
+html[data-era='now'] .event__react-btn {
+  background: #c6ff3d; border: none; box-shadow: none; color: #0a0a0a;
+  border-radius: 999px; font-family: var(--font-body); font-weight: 600;
+  font-size: 0.78rem; padding: 0.3rem 0.8rem;
+}
+html[data-era='now'] .event__react-btn:hover { background: #ffffff; color: #0a0a0a; }
+html[data-era='now'] .event__sources { border-top: 1px dashed rgba(255, 255, 255, 0.14); }
+html[data-era='now'] .event__source { color: #c6ff3d; text-decoration-color: rgba(198, 255, 61, 0.5); }
+html[data-era='now'] .event__source:hover { color: #fff; }
+
+html[data-era='now'] .felt-like,
+html[data-era='now'] .felt-like__item {
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+html[data-era='now'] .felt-like::before {
+  background: linear-gradient(90deg, #c6ff3d, #7dd3fc, #a78bfa);
+}
+html[data-era='now'] .felt-like__eyebrow,
+html[data-era='now'] .events__eyebrow { color: #c6ff3d; }
+html[data-era='now'] .footer__tag { border-color: rgba(255, 255, 255, 0.2); }
+html[data-era='now'] .retro-pattern-band { display: none; }
+
+@media (max-width: 820px) {
+  html[data-era='now'] .events__list { grid-template-columns: 1fr; }
+}
+
+/* Era banner pill (shown on every year page) */
+.era-banner__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.7rem;
+  border: var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+}
+.era-banner__pill strong { color: var(--text-primary); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-era='early-web'] .era-marquee__track { animation: none; padding-left: 1rem; }
+  html[data-era='early-web'] .event__title { animation: none; }
+}
+
+/* ==========================================================================
+   CONTRAST FIXES — dark eras: elements that use --bark as text on light or
+   translucent surfaces need a readable ink. Yellow buttons keep dark text.
+   ========================================================================== */
+html[data-era='pandemic'] .nav__btn--sound,
+html[data-era='pandemic'] .nav__select,
+html[data-era='pandemic'] .creator-badge,
+html[data-era='pandemic'] .visitor-counter,
+html[data-era='ai'] .nav__btn--sound,
+html[data-era='ai'] .nav__select,
+html[data-era='ai'] .creator-badge,
+html[data-era='ai'] .visitor-counter {
+  color: var(--ink);
+}
+
+html[data-era='pandemic'] .nav__btn--warp,
+html[data-era='pandemic'] .support-btn,
+html[data-era='pandemic'] .event__react-btn,
+html[data-era='ai'] .nav__btn--warp,
+html[data-era='ai'] .support-btn,
+html[data-era='ai'] .event__react-btn {
+  color: #0a0a0a;
+}
+
+html[data-era='pandemic'] .year-nav__link:hover .year-nav__num,
+html[data-era='pandemic'] .year-nav__link:hover .year-nav__dir,
+html[data-era='ai'] .year-nav__link:hover .year-nav__num,
+html[data-era='ai'] .year-nav__link:hover .year-nav__dir {
+  color: #0a0a0a;
+}
+
+html[data-era='pandemic'] .footer__title,
+html[data-era='ai'] .footer__title { color: var(--purple); }
+
+/* The Present (2026) */
+html[data-era='now'] .nav__btn--sound,
+html[data-era='now'] .nav__select,
+html[data-era='now'] .creator-badge,
+html[data-era='now'] .visitor-counter { color: var(--ink); }
+
+html[data-era='now'] .nav__btn--warp,
+html[data-era='now'] .support-btn,
+html[data-era='now'] .event__react-btn { color: #0a0a0a; }
+
+html[data-era='now'] .year-nav__link:hover .year-nav__num,
+html[data-era='now'] .year-nav__link:hover .year-nav__dir { color: #0a0a0a; }
+
+html[data-era='now'] .footer__title { color: #c6ff3d; }
+
+/* ==========================================================================
+   CHIP / PILL CONTRAST — accent palettes differ per era, but chips assume
+   white text. Force readable ink on light-accent backgrounds.
+   ========================================================================== */
+
+/* Footer tags: light/neon/pastel accents -> dark ink */
+html[data-era='early-web'] .footer__tag,
+html[data-era='web-2'] .footer__tag,
+html[data-era='mobile'] .footer__tag,
+html[data-era='bust-rebuild'] .footer__tag,
+html[data-era='platform'] .footer__tag,
+html[data-era='pandemic'] .footer__tag,
+html[data-era='ai'] .footer__tag,
+html[data-era='now'] .footer__tag {
+  color: #0a0a0a;
+}
+/* Deep-blue tags keep white text */
+html[data-era='bust-rebuild'] .footer__tag--blue,
+html[data-era='platform'] .footer__tag--blue {
+  color: #ffffff;
+}
+/* Foundation has a mixed palette */
+html[data-era='foundation'] .footer__tag--green { color: #ffffff; }
+html[data-era='foundation'] .footer__tag--yellow,
+html[data-era='foundation'] .footer__tag--orange { color: #0a0a0a; }
+
+/* Active filter pill + modal close (pink bg) -> dark ink except foundation */
+html[data-era='early-web'] .events__filter-pill.active,
+html[data-era='web-2'] .events__filter-pill.active,
+html[data-era='mobile'] .events__filter-pill.active,
+html[data-era='bust-rebuild'] .events__filter-pill.active,
+html[data-era='platform'] .events__filter-pill.active,
+html[data-era='pandemic'] .events__filter-pill.active,
+html[data-era='ai'] .events__filter-pill.active,
+html[data-era='now'] .events__filter-pill.active,
+html[data-era='early-web'] .support-window-close,
+html[data-era='web-2'] .support-window-close,
+html[data-era='mobile'] .support-window-close,
+html[data-era='bust-rebuild'] .support-window-close,
+html[data-era='platform'] .support-window-close,
+html[data-era='pandemic'] .support-window-close,
+html[data-era='ai'] .support-window-close,
+html[data-era='now'] .support-window-close,
+html[data-era='early-web'] .event__react-btn:hover,
+html[data-era='web-2'] .event__react-btn:hover,
+html[data-era='mobile'] .event__react-btn:hover,
+html[data-era='pandemic'] .event__react-btn:hover,
+html[data-era='ai'] .event__react-btn:hover,
+html[data-era='now'] .event__react-btn:hover {
+  color: #0a0a0a;
+}
+
+/* Random-year button (purple bg): light purples need dark ink */
+html[data-era='early-web'] .year-nav__random,
+html[data-era='web-2'] .year-nav__random,
+html[data-era='mobile'] .year-nav__random,
+html[data-era='pandemic'] .year-nav__random,
+html[data-era='ai'] .year-nav__random,
+html[data-era='now'] .year-nav__random {
+  color: #0a0a0a;
+}
+
+/* Inactive filter pills on dark eras use --bark as text; use readable ink */
+html[data-era='pandemic'] .events__filter-pill,
+html[data-era='ai'] .events__filter-pill,
+html[data-era='now'] .events__filter-pill {
+  color: var(--ink);
+}
+
+/* Early Web: neon accents need dark text on category chips */
+html[data-era='early-web'] .event__category { color: #0a0a0a; }

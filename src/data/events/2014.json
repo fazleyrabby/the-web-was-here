@@ -296,7 +296,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2014/fappening-2014.jpg",
+    "image_caption": "Hundreds of private photos of celebrities are leaked from iCloud, raising urgent questions about cloud security and online privacy."
   },
   {
     "id": "uber-global-expansion-2014",
@@ -471,7 +473,9 @@
         "title": "Normcore - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Normcore"
       }
-    ]
+    ],
+    "image": "/images/events/2014/normcore-fashion-movement-2014.jpg",
+    "image_caption": "The deliberate rejection of luxury logos in favor of ordinary, nondescript basics took the fashion world by storm."
   },
   {
     "id": "iphone-6-bendgate-2014",

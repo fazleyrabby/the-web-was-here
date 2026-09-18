@@ -123,7 +123,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2011/snapchat-launch-2011.png",
+    "image_caption": "Snapchat launches as Picabug, introducing disappearing messages and creating a new paradigm for private communication."
   },
   {
     "id": "icq-shutdown-2011",
@@ -470,7 +472,9 @@
         "title": "21 (Adele album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/21_(Adele_album)"
       }
-    ]
+    ],
+    "image": "/images/events/2011/adele-21-global-phenomenon-2011.jpg",
+    "image_caption": "With heartbroken power ballads like 'Rolling in the Deep', 22-year-old Adele swept the planet."
   },
   {
     "id": "imessage-blue-bubbles-2011",

@@ -1,14 +1,19 @@
 ---
 import Base from './Base.astro';
 import YearArt from '../components/YearArt.astro';
+import EraArtifacts from '../components/EraArtifacts.astro';
+import CommandPalette from '../components/CommandPalette.astro';
+import { eraForYear, type Era } from '../lib/era';
 
 interface Props {
   year: number;
   title: string;
   narrative?: string;
+  era?: string;
 }
 
-const { year, title, narrative } = Astro.props;
+const { year, title, narrative, era } = Astro.props;
+const activeEra: Era = (era as Era) || eraForYear(year);
 
 const MIN_YEAR = 1990;
 const MAX_YEAR = 2026;
@@ -21,7 +26,7 @@ const randomYear = (() => {
 })();
 ---
 
-<Base title={`${year} — The Web Was Here`}>
+<Base title={`${year} — The Web Was Here`} era={activeEra}>
   <header class="year-header">
     <div class="year-header__doodles" aria-hidden="true">
       <svg class="year-header__doodle" data-parallax="0.15" viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 18 L44 18 L32 28 L36 42 L24 32 L12 42 L16 28 L4 18 L20 18 Z" stroke="var(--orange)" stroke-width="2" fill="none" /></svg>
@@ -44,6 +49,8 @@ const randomYear = (() => {
       </div>
     </div>
   </header>
+
+  <EraArtifacts era={activeEra} year={year} />
 
   <div class="year-content">
     <slot />
@@ -81,6 +88,8 @@ const randomYear = (() => {
       <span class="year-nav__link year-nav__link--disabled"><span class="year-nav__dir">Next &rarr;</span><span class="year-nav__num">—</span></span>
     )}
   </nav>
+
+  {activeEra === 'now' && <CommandPalette />}
 </Base>
 
 <style>
@@ -145,7 +154,7 @@ const randomYear = (() => {
     font-family: var(--font-hand);
     font-size: 1.8rem;
     font-weight: 600;
-    color: var(--bark);
+    color: var(--ink);
     margin-bottom: var(--spacing-lg);
     max-width: 65ch;
   }
@@ -193,7 +202,7 @@ const randomYear = (() => {
   .year-nav__link:hover { transform: translate(-3px, -3px); box-shadow: 7px 7px 0 var(--bark); border-color: var(--bark); background: var(--yellow); }
   .year-nav__link--disabled { opacity: 0.35; pointer-events: none; }
   .year-nav__dir { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); font-weight: 600; }
-  .year-nav__num { font-family: var(--font-hand); font-size: 1.8rem; font-weight: 700; color: var(--bark); line-height: 1; }
+  .year-nav__num { font-family: var(--font-hand); font-size: 1.8rem; font-weight: 700; color: var(--ink); line-height: 1; }
 
   .year-nav__center {
     display: flex;
@@ -229,7 +238,7 @@ const randomYear = (() => {
     border: var(--border-thick);
     border-radius: 4px;
     box-shadow: var(--shadow-brutal-sm);
-    color: var(--bark);
+    color: var(--ink);
     cursor: pointer;
     transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
   }

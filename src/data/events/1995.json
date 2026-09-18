@@ -38,7 +38,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/java-launch-1995.png",
+    "image_caption": "Sun Microsystems releases Java, promising 'write once, run anywhere' and introducing applets to the web."
   },
   {
     "id": "internet-explorer-1995",
@@ -79,7 +81,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/internet-explorer-1995.png",
+    "image_caption": "Microsoft releases Internet Explorer 1.0, bundled with the Windows 95 Plus! Pack, igniting the browser wars."
   },
   {
     "id": "netscape-ipo-1995",
@@ -294,7 +298,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1995/windows-95-launch-1995.jpg",
+    "image_caption": "Microsoft launches Windows 95 with a $300 million marketing campaign, bringing the Start menu and internet access to mainstream computing."
   },
   {
     "id": "html-2.0-1995",

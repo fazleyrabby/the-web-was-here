@@ -209,7 +209,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/facebook-500m-2010.jpg",
+    "image_caption": "Facebook officially reaches 500 million active users, becoming the dominant social network on Earth."
   },
   {
     "id": "foursquare-checkin-2010",
@@ -336,7 +338,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2010/social-network-movie-2010.jpg",
+    "image_caption": "David Fincher's 'The Social Network' dramatizes Facebook's founding, making tech culture mainstream entertainment."
   },
   {
     "id": "bitcoin-2010",
@@ -492,6 +496,8 @@
         "title": "Teenage Dream (Katy Perry album) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Teenage_Dream_(Katy_Perry_album)"
       }
-    ]
+    ],
+    "image": "/images/events/2010/katy-perry-teenage-dream-2010.jpg",
+    "image_caption": "Katy Perry produced five Billboard #1 singles from one album, tying Michael Jackson's Bad."
   }
 ]

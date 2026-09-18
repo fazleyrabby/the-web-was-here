@@ -39,7 +39,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/twitter-founding-2006.png",
+    "image_caption": "Jack Dorsey sends the first tweet: 'just setting up my twttr.' The 140-character microblogging platform is born."
   },
   {
     "id": "justin-tv-2006",
@@ -340,7 +342,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2006/linkedin-growth-2006.png",
+    "image_caption": "LinkedIn reaches 10 million users, establishing itself as the professional social network."
   },
   {
     "id": "limewire-fall-2006",

@@ -124,7 +124,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/app-store-2008.jpg",
+    "image_caption": "Apple opens the App Store with 500 apps. The mobile app economy is born overnight."
   },
   {
     "id": "bitcoin-whitepaper-2008",
@@ -340,7 +342,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/myspace-decline-2008.jpg",
+    "image_caption": "MySpace's user base collapses as Facebook surpasses it in unique visitors. The social network king falls."
   },
   {
     "id": "obama-campaign-tech-2008",
@@ -424,7 +428,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2008/android-market-2008.png",
+    "image_caption": "Google launches the Android Market alongside the first Android phone, creating an open app marketplace."
   },
   {
     "id": "lehman-brothers-financial-crisis-2008",

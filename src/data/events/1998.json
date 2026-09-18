@@ -298,7 +298,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1998/geocities-peak-1998.png",
+    "image_caption": "GeoCities reaches its peak as millions of people build their first personal websites with animated GIFs and guestbooks."
   },
   {
     "id": "aol-digital-city-1998",
@@ -425,7 +427,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1998/xml-web-services-1998.png",
+    "image_caption": "The W3C publishes the XML 1.0 specification, establishing the foundation for data interchange on the web."
   },
   {
     "id": "apple-imac-g3-bondi-blue-1998",
@@ -472,7 +476,9 @@
         "title": "Pokmon Red and Blue - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
       }
-    ]
+    ],
+    "image": "/images/events/1998/pokemon-red-blue-craze-1998.jpg",
+    "image_caption": "Nintendo released Pok\u00e9mon Red and Blue for Game Boy in North America, launching an unmatched multimedia juggernaut."
   },
   {
     "id": "drudge-report-breaks-lewinsky-1998",

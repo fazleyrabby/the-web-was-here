@@ -116,7 +116,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/windows-31-released-1993.png",
+    "image_caption": "Microsoft released Windows 3.1, the most popular operating system of the early 1990s."
   },
   {
     "id": "nls-gopher-closed-1993",
@@ -194,7 +196,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/first-graphic-novel-online-1993.png",
+    "image_caption": "Early web comics began appearing online, pioneering digital storytelling."
   },
   {
     "id": "online-gambling-first-1993",
@@ -313,7 +317,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/1993/interNIC-established-1993.png",
+    "image_caption": "InterNIC was established to manage domain name registration, professionalizing the DNS system."
   },
   {
     "id": "mcnc-ncsa-mosaic-publicity-1993",
@@ -423,6 +429,8 @@
         "title": "Jurassic Park (film) - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
       }
-    ]
+    ],
+    "image": "/images/events/1993/jurassic-park-cgi-revolution-1993.jpg",
+    "image_caption": "Steven Spielberg and ILM amazed the world with computer-generated dinosaurs, transforming Hollywood cinema forever."
   }
 ]

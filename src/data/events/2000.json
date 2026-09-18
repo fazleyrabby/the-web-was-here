@@ -82,7 +82,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/mac-osx-launch-2000.jpg",
+    "image_caption": "Apple releases Mac OS X, a Unix-based operating system that would define the Mac platform for the next two decades."
   },
   {
     "id": "playstation2-launch-2000",
@@ -253,7 +255,9 @@
         "accessed": "2026-09-15",
         "confidence": "high"
       }
-    ]
+    ],
+    "image": "/images/events/2000/napster-peak-2000.png",
+    "image_caption": "Napster, the peer-to-peer file sharing service, reaches 80 million registered users at its peak, sending the music industry into panic."
   },
   {
     "id": "w3c-css2-spec-2000",
@@ -413,6 +417,8 @@
         "title": "Stankonia - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Stankonia"
       }
-    ]
+    ],
+    "image": "/images/events/2000/eminem-marshall-mathers-outkast-2000.jpg",
+    "image_caption": "Eminem sold 1.76 million copies in seven days, while Atlanta duo Outkast elevated hip-hop into cosmic art."
   }
 ]
