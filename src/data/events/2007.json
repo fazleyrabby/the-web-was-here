@@ -42,56 +42,18 @@
     "image_caption": "The original 2007 Apple iPhone with 3.5-inch multi-touch display."
   },
   {
-    "id": "facebook-mainstream-2007",
-    "title": "Facebook Opens to Everyone",
+    "id": "twitter-sxsw-2007",
+    "title": "Twitter Breaks Out at SXSW",
     "year": 2007,
-    "date": "2007-09-26",
-    "category": [
-      "social"
-    ],
-    "type": "platform_shift",
-    "summary": "Facebook opens registration to anyone over 13, not just college students. Membership explodes.",
-    "narrative": "For three years, Facebook was the cool college thing. Exclusive. Then they opened the doors. Suddenly your mom was on Facebook. Your boss was on Facebook. The social graph went from dorm rooms to the entire world.",
-    "why_it_matters": "Transformed from college network to global platform. Set the stage for Facebook's dominance of social media for the next decade.",
-    "impact": 5,
-    "nostalgia": 4,
-    "influence": [
-      "social-media-dominance",
-      "facebook-ipo-2012"
-    ],
-    "tags": [
-      "facebook",
-      "social-network",
-      "platform"
-    ],
-    "region": [
-      "global"
-    ],
-    "sources": [
-      {
-        "title": "Facebook press release",
-        "url": "https://en.wikipedia.org/wiki/Facebook",
-        "type": "primary",
-        "accessed": "2026-09-15",
-        "confidence": "high"
-      }
-    ],
-    "image": "/images/events/2007/facebook-mainstream-2007.png",
-    "image_caption": "Facebook opens registration to anyone over 13, not just college students. Membership explodes."
-  },
-  {
-    "id": "twitter-launch-2007",
-    "title": "Twitter Launches",
-    "year": 2007,
-    "date": "2007-07-15",
+    "date": "2007-03-09",
     "category": [
       "social",
       "communication"
     ],
     "type": "company_launch",
-    "summary": "Twitter debuts at SXSW. The 140-character microblogging platform finds its audience.",
-    "narrative": "At SXSW 2007, Twitter's usage triples. People at the conference start live-tweeting. The concept of broadcasting your thoughts in real-time to anyone who'll listen? That's new. That changes everything.",
-    "why_it_matters": "Created the real-time public conversation. Changed how news breaks. Introduced the concept of the social media timeline.",
+    "summary": "Twitter promotes its public messaging service at SXSW with screens showing attendees\u2019 posts.",
+    "narrative": "Twitter was already public in 2006. At SXSW in 2007, the team encouraged attendees to text JOIN SXSW to 40404 and displayed their posts on screens around the convention center. The event gave the young service a visible audience and helped make short public updates feel social.",
+    "why_it_matters": "SXSW helped introduce Twitter to a wider technology audience and showed how real-time public conversation could work at events.",
     "impact": 5,
     "nostalgia": 4,
     "influence": [
@@ -109,15 +71,15 @@
     ],
     "sources": [
       {
-        "title": "Twitter history",
-        "url": "https://en.wikipedia.org/wiki/Twitter",
-        "type": "secondary",
-        "accessed": "2026-09-15",
+        "title": "Twitter: Text JOIN SXSW to 40404",
+        "url": "https://blog.x.com/en_us/a/2007/text-join-sxsw-to-40404",
+        "type": "primary",
+        "accessed": "2026-09-23",
         "confidence": "high"
       }
     ],
-    "image": "/images/events/2007/twitter-launch-2007.png",
-    "image_caption": "Twitter debuts at SXSW. The 140-character microblogging platform finds its audience."
+    "image": "/images/events/2007/twitter-sxsw-2007.png",
+    "image_caption": "Twitter promoted its service to SXSW attendees in March 2007."
   },
   {
     "id": "youtube-culture-2007",
@@ -189,11 +151,11 @@
     ],
     "sources": [
       {
-        "title": "Google press release",
+        "title": "Wikipedia: Android (operating system)",
         "url": "https://en.wikipedia.org/wiki/Android_(operating_system)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2007/android-announce-2007.png",
@@ -314,46 +276,6 @@
     "image_caption": "Glossy buttons, reflective surfaces, big typography, and rounded corners define the Web 2.0 aesthetic."
   },
   {
-    "id": "spotify-launch-2007",
-    "title": "Spotify Launches",
-    "year": 2007,
-    "date": "2007-10-07",
-    "category": [
-      "entertainment"
-    ],
-    "type": "company_launch",
-    "summary": "Spotify launches in Sweden, promising free, legal music streaming. The music industry will never be the same.",
-    "narrative": "Napster tried to give us free music and got shut down. Spotify figured out how to give us free music legally. The catch? Ads. The result? The entire music industry pivots from ownership to access. Your MP3 collection is about to become irrelevant.",
-    "why_it_matters": "Killed the MP3 download model. Forced the music industry to adapt. Created the streaming economy that now dominates entertainment.",
-    "impact": 5,
-    "nostalgia": 3,
-    "influence": [
-      "streaming-economy",
-      "apple-music-2015",
-      "death-of-the-mp3"
-    ],
-    "tags": [
-      "spotify",
-      "music",
-      "streaming",
-      "sweden"
-    ],
-    "region": [
-      "europe"
-    ],
-    "sources": [
-      {
-        "title": "Spotify founding story",
-        "url": "https://www.spotify.com/us/about/",
-        "type": "secondary",
-        "accessed": "2026-09-15",
-        "confidence": "medium"
-      }
-    ],
-    "image": "/images/events/2007/spotify-launch-2007.jpg",
-    "image_caption": "Spotify launches in Sweden, promising free, legal music streaming. The music industry will never be the same."
-  },
-  {
     "id": "amazon-kindle-ereader-2007",
     "title": "Amazon Unveils the Kindle & Ignites E-Book Revolution",
     "year": 2007,
@@ -370,8 +292,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Amazon Kindle - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Amazon_Kindle"
+        "title": "Wikipedia: Amazon Kindle",
+        "url": "https://en.wikipedia.org/wiki/Amazon_Kindle",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/amazon-kindle-1.png",
@@ -394,12 +318,16 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Umbrella (song) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Umbrella_(song)"
+        "title": "Wikipedia: Umbrella (song)",
+        "url": "https://en.wikipedia.org/wiki/Umbrella_(song)",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Graduation (album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Graduation_(album)"
+        "title": "Wikipedia: Graduation (album)",
+        "url": "https://en.wikipedia.org/wiki/Graduation_(album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2007/rihanna-umbrella-graduation-2007.jpg",

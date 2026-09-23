@@ -39,11 +39,11 @@
         "confidence": "high"
       },
       {
-        "title": "Wired: The Story of YouTube",
+        "title": "Wikipedia: YouTube",
         "url": "https://en.wikipedia.org/wiki/YouTube",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/youtube-launch-2005.png",
@@ -82,11 +82,11 @@
     ],
     "sources": [
       {
-        "title": "Google Maps: 15 years of mapping the world",
+        "title": "Wikipedia: Google Maps",
         "url": "https://en.wikipedia.org/wiki/Google_Maps",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/google-maps-2005.png",
@@ -125,11 +125,11 @@
     ],
     "sources": [
       {
-        "title": "News Corp Acquires MySpace",
+        "title": "Wikipedia: MySpace",
         "url": "https://en.wikipedia.org/wiki/MySpace",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/myspace-news-corp-2005.jpg",
@@ -183,7 +183,6 @@
     "id": "web2-0-term-2005",
     "title": "Web 2.0 Concept Takes Hold",
     "year": 2005,
-    "date": "2005-10-01",
     "category": [
       "web",
       "design"
@@ -213,11 +212,11 @@
     ],
     "sources": [
       {
-        "title": "Tim O'Reilly: What Is Web 2.0",
+        "title": "Wikipedia: Web 2.0",
         "url": "https://en.wikipedia.org/wiki/Web_2.0",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/web2-0-term-2005.png",
@@ -256,11 +255,11 @@
     ],
     "sources": [
       {
-        "title": "Flickr: A History",
+        "title": "Wikipedia: Flickr",
         "url": "https://en.wikipedia.org/wiki/Flickr",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/flickr-yahoo-2005.jpg",
@@ -384,11 +383,11 @@
     ],
     "sources": [
       {
-        "title": "Firefox 1.0 Launch",
+        "title": "Wikipedia: Firefox 1.0",
         "url": "https://en.wikipedia.org/wiki/Firefox_1.0",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/firefox-growth-2005.png",
@@ -427,11 +426,11 @@
     ],
     "sources": [
       {
-        "title": "The History of Podcasting",
+        "title": "Wikipedia: Podcast",
         "url": "https://en.wikipedia.org/wiki/Podcast#History",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/podcasting-rise-2005.jpg",
@@ -454,8 +453,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Xbox 360 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Xbox_360"
+        "title": "Wikipedia: Xbox 360",
+        "url": "https://en.wikipedia.org/wiki/Xbox_360",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/xbox-360-spec.jpg",
@@ -478,8 +479,10 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Hurricane Katrina - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Hurricane_Katrina"
+        "title": "Wikipedia: Hurricane Katrina",
+        "url": "https://en.wikipedia.org/wiki/Hurricane_Katrina",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/hurricane-katrina-devastation-2005.jpg",
@@ -489,7 +492,6 @@
     "id": "scene-emo-myspace-subculture-2005",
     "title": "Scene Kids, Emo Bangs & MySpace Top 8 Drama",
     "year": 2005,
-    "date": "2005-09-01",
     "category": [
       "fashion",
       "culture"
@@ -502,8 +504,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Scene (subculture) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Scene_(subculture)"
+        "title": "Wikipedia: Scene (subculture)",
+        "url": "https://en.wikipedia.org/wiki/Scene_(subculture)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2005/scene-emo-myspace-subculture-2005.jpg",

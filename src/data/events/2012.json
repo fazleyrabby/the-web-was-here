@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook IPO - Wikipedia",
+        "title": "Wikipedia: Facebook IPO",
         "url": "https://en.wikipedia.org/wiki/Facebook_IPO",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/facebook-ipo-2012.jpg",
@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook acquires Instagram - Wikipedia",
+        "title": "Wikipedia: Instagram",
         "url": "https://en.wikipedia.org/wiki/Instagram#Acquisition_by_Facebook",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/facebook-instagram-acquisition-2012.png",
@@ -119,11 +119,11 @@
     ],
     "sources": [
       {
-        "title": "Hurricane Sandy social media - Wikipedia",
+        "title": "Wikipedia: Effects of Hurricane Sandy in New Jersey",
         "url": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Sandy_in_New_Jersey",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/hurricane-sandy-social-media-2012.png",
@@ -162,11 +162,11 @@
     ],
     "sources": [
       {
-        "title": "Obama 2012 campaign - Wikipedia",
+        "title": "Wikipedia: Barack Obama 2012 presidential campaign",
         "url": "https://en.wikipedia.org/wiki/Barack_Obama_2012_presidential_campaign",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/obama-campaign-tech-2012.jpg",
@@ -205,11 +205,11 @@
     ],
     "sources": [
       {
-        "title": "Raspberry Pi - Wikipedia",
+        "title": "Wikipedia: Raspberry Pi",
         "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/raspberry-pi-launch-2012.jpg",
@@ -219,7 +219,6 @@
     "id": "3d-printing-mainstream-2012",
     "title": "3D Printing Goes Mainstream",
     "year": 2012,
-    "date": "2012-01-01",
     "category": [
       "hardware",
       "culture"
@@ -248,11 +247,11 @@
     ],
     "sources": [
       {
-        "title": "3D printing - Wikipedia",
+        "title": "Wikipedia: 3D printing",
         "url": "https://en.wikipedia.org/wiki/3D_printing",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/3d-printing-mainstream-2012.jpg",
@@ -262,7 +261,6 @@
     "id": "tumblr-100m-blogs-2012",
     "title": "Tumblr Reaches 100 Million Blogs",
     "year": 2012,
-    "date": "2012-01-01",
     "category": [
       "social",
       "media"
@@ -291,11 +289,11 @@
     ],
     "sources": [
       {
-        "title": "Tumblr - Wikipedia",
+        "title": "Wikipedia: Tumblr",
         "url": "https://en.wikipedia.org/wiki/Tumblr",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/tumblr-100m-blogs-2012.jpg",
@@ -334,11 +332,11 @@
     ],
     "sources": [
       {
-        "title": "Curiosity (rover) - Wikipedia",
+        "title": "Wikipedia: Curiosity (rover)",
         "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/nasa-curiosity-landing-2012.jpg",
@@ -377,11 +375,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Inc. v. Samsung Electronics Co. - Wikipedia",
+        "title": "Wikipedia: Apple Inc. v. Samsung Electronics Co.",
         "url": "https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co.",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/samsung-apple-patent-war-2012.png",
@@ -420,11 +418,11 @@
     ],
     "sources": [
       {
-        "title": "LinkedIn - Wikipedia",
+        "title": "Wikipedia: LinkedIn",
         "url": "https://en.wikipedia.org/wiki/LinkedIn",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/linkedin-ipo-2012.png",
@@ -447,8 +445,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Gangnam Style - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Gangnam_Style"
+        "title": "Wikipedia: Gangnam Style",
+        "url": "https://en.wikipedia.org/wiki/Gangnam_Style",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/psy-gangnam-style-billion-views-2012.jpg",
@@ -471,12 +471,16 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Higgs boson - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Higgs_boson"
+        "title": "Wikipedia: Higgs boson",
+        "url": "https://en.wikipedia.org/wiki/Higgs_boson",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Curiosity (rover) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)"
+        "title": "Wikipedia: Curiosity (rover)",
+        "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/curiosity-rover.jpg",
@@ -486,7 +490,6 @@
     "id": "sneaker-wedges-peplum-fashion-2012",
     "title": "Isabel Marant Sneaker Wedges & Peak Tumblr Girl Aesthetic",
     "year": 2012,
-    "date": "2012-05-01",
     "category": [
       "fashion",
       "culture"
@@ -499,8 +502,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Isabel Marant - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Isabel_Marant"
+        "title": "Wikipedia: Isabel Marant",
+        "url": "https://en.wikipedia.org/wiki/Isabel_Marant",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2012/sneaker-wedges-peplum-fashion-2012.jpg",

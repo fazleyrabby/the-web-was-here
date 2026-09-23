@@ -33,18 +33,18 @@
     ],
     "sources": [
       {
-        "title": "NFT: Non-fungible token",
+        "title": "Wikipedia: Non-fungible token",
         "url": "https://en.wikipedia.org/wiki/Non-fungible_token",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
-        "title": "Beeple - Everydays",
+        "title": "Wikipedia: Beeple",
         "url": "https://en.wikipedia.org/wiki/Beeple",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/nft-craze-2021.png",
@@ -85,11 +85,11 @@
     ],
     "sources": [
       {
-        "title": "Meta Platforms",
+        "title": "Wikipedia: Meta Platforms",
         "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/metaverse-rebrand-2021.png",
@@ -129,11 +129,11 @@
     ],
     "sources": [
       {
-        "title": "Dogecoin",
+        "title": "Wikipedia: Dogecoin",
         "url": "https://en.wikipedia.org/wiki/Dogecoin",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/dogecoin-musk-2021.jpg",
@@ -143,7 +143,6 @@
     "id": "apple-m1-macbook-2021",
     "title": "Apple M1 MacBook Air Dominates Laptops",
     "year": 2021,
-    "date": "2021-11-01",
     "category": [
       "hardware",
       "software"
@@ -173,11 +172,11 @@
     ],
     "sources": [
       {
-        "title": "Apple M1",
+        "title": "Wikipedia: Apple M1",
         "url": "https://en.wikipedia.org/wiki/Apple_M1",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/apple-m1-macbook-2021.jpg",
@@ -217,11 +216,11 @@
     ],
     "sources": [
       {
-        "title": "2020s global chip shortage",
+        "title": "Wikipedia: 2020\u20132023 global chip shortage",
         "url": "https://en.wikipedia.org/wiki/2020%E2%80%932023_global_chip_shortage",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/chip-shortage-2021.png",
@@ -231,7 +230,6 @@
     "id": "clubhouse-peak-2021",
     "title": "Clubhouse Peaks at 2 Million Daily Users",
     "year": 2021,
-    "date": "2021-02-01",
     "category": [
       "social",
       "communication"
@@ -262,11 +260,11 @@
     ],
     "sources": [
       {
-        "title": "Clubhouse (app)",
+        "title": "Wikipedia: Clubhouse (app)",
         "url": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/clubhouse-peak-2021.png",
@@ -307,11 +305,11 @@
     ],
     "sources": [
       {
-        "title": "Web3",
+        "title": "Wikipedia: Web3",
         "url": "https://en.wikipedia.org/wiki/Web3",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/web3-hype-2021.jpg",
@@ -351,11 +349,11 @@
     ],
     "sources": [
       {
-        "title": "Amazon Luna",
+        "title": "Wikipedia: Amazon Luna",
         "url": "https://en.wikipedia.org/wiki/Amazon_Luna",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/amazon-luna-2021.png",
@@ -378,8 +376,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "GameStop short squeeze - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze"
+        "title": "Wikipedia: GameStop short squeeze",
+        "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/gamestop-reddit-short-squeeze-2021.png",
@@ -402,8 +402,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Squid Game - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Squid_Game"
+        "title": "Wikipedia: Squid Game",
+        "url": "https://en.wikipedia.org/wiki/Squid_Game",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/squid-game-netflix-sensation-2021.png",
@@ -426,8 +428,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Drivers License (song) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Drivers_License_(song)"
+        "title": "Wikipedia: Drivers License (song)",
+        "url": "https://en.wikipedia.org/wiki/Drivers_License_(song)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2021/olivia-rodrigo-drivers-license-2021.jpg",

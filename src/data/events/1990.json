@@ -29,11 +29,11 @@
     ],
     "sources": [
       {
-        "title": "World Wide Web - Wikipedia",
+        "title": "Wikipedia: World Wide Web",
         "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/tim-berners-lee-proposal-1990.png",
@@ -69,11 +69,11 @@
     ],
     "sources": [
       {
-        "title": "WorldWideWeb (web browser) - Wikipedia",
+        "title": "Wikipedia: WorldWideWeb",
         "url": "https://en.wikipedia.org/wiki/WorldWideWeb",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/first-web-browser-1990.png",
@@ -109,11 +109,11 @@
     ],
     "sources": [
       {
-        "title": "CERN - Wikipedia",
+        "title": "Wikipedia: CERN",
         "url": "https://en.wikipedia.org/wiki/CERN",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/next-cube-cern.png",
@@ -149,11 +149,11 @@
     ],
     "sources": [
       {
-        "title": "Internet Relay Chat - Wikipedia",
+        "title": "Wikipedia: Internet Relay Chat",
         "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/irc-invented-1990.png",
@@ -189,11 +189,11 @@
     ],
     "sources": [
       {
-        "title": "Graphics Interchange Format - Wikipedia",
+        "title": "Wikipedia: Graphics Interchange Format",
         "url": "https://en.wikipedia.org/wiki/Graphics_Interchange_Format",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/compuserve-gif-1990.jpg",
@@ -203,7 +203,6 @@
     "id": "europanet-launch-1990",
     "title": "EuropaNet: Early European Network",
     "year": 1990,
-    "date": "1990-01-01",
     "category": [
       "communication",
       "standards"
@@ -228,11 +227,11 @@
     ],
     "sources": [
       {
-        "title": "History of the Internet - Wikipedia",
+        "title": "Wikipedia: History of the Internet",
         "url": "https://en.wikipedia.org/wiki/History_of_the_Internet",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/europanet-launch-1990.png",
@@ -242,7 +241,6 @@
     "id": "ncsa-mosaic-nascent-1990",
     "title": "NCSA Begins Mosaic Browser Development",
     "year": 1990,
-    "date": "1990-09-01",
     "category": [
       "software",
       "browser"
@@ -268,11 +266,11 @@
     ],
     "sources": [
       {
-        "title": "NCSA Mosaic - Wikipedia",
+        "title": "Wikipedia: NCSA Mosaic",
         "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/ncsa-mosaic-nascent-1990.png",
@@ -282,7 +280,6 @@
     "id": "usenet-growth-1990",
     "title": "Usenet Reaches 1,000 Newsgroups",
     "year": 1990,
-    "date": "1990-06-01",
     "category": [
       "social",
       "communication"
@@ -308,11 +305,11 @@
     ],
     "sources": [
       {
-        "title": "Usenet - Wikipedia",
+        "title": "Wikipedia: Usenet",
         "url": "https://en.wikipedia.org/wiki/Usenet",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/usenet-growth-1990.png",
@@ -348,11 +345,11 @@
     ],
     "sources": [
       {
-        "title": "Bulletin board system - Wikipedia",
+        "title": "Wikipedia: Bulletin board system",
         "url": "https://en.wikipedia.org/wiki/Bulletin_board_system",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/bbs-culture-peak-1990.png",
@@ -375,8 +372,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Game Boy - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Game_Boy"
+        "title": "Wikipedia: Game Boy",
+        "url": "https://en.wikipedia.org/wiki/Game_Boy",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/game-boy-dmg01.png",
@@ -399,12 +398,16 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "German Reunification - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/German_reunification"
+        "title": "Wikipedia: German reunification",
+        "url": "https://en.wikipedia.org/wiki/German_reunification",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Nelson Mandela - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+        "title": "Wikipedia: Nelson Mandela",
+        "url": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/reunification-mandela-1990.jpg",
@@ -427,8 +430,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Vogue (Madonna song) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Vogue_(Madonna_song)"
+        "title": "Wikipedia: Vogue (Madonna song)",
+        "url": "https://en.wikipedia.org/wiki/Vogue_(Madonna_song)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1990/madonna-vogue-mchammer-1990.jpg",

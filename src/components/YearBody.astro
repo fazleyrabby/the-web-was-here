@@ -227,7 +227,7 @@ const allCategories = Array.from(
     font-weight: 500;
   }
 
-  .events__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); gap: var(--spacing-md); align-items: start; }
+  .events__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 480px), 1fr)); gap: var(--spacing-md); align-items: start; }
   .event { display: grid; grid-template-columns: 70px 1fr; gap: var(--spacing-md); padding: var(--spacing-md); background: var(--bg-card); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out); position: relative; }
   .event:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--accent); }
   .event--hidden { display: none !important; }

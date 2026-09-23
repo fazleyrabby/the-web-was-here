@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Amazon.com",
+        "title": "Wikipedia: Amazon (company)",
         "url": "https://en.wikipedia.org/wiki/Amazon_(company)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/amazon-ipo-1997.jpg",
@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Netflix",
+        "title": "Wikipedia: Netflix",
         "url": "https://en.wikipedia.org/wiki/Netflix",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/netflix-concept-1997.jpg",
@@ -119,11 +119,11 @@
     ],
     "sources": [
       {
-        "title": "Bluetooth",
+        "title": "Wikipedia: Bluetooth",
         "url": "https://en.wikipedia.org/wiki/Bluetooth",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/bluetooth-1_0-1997.jpg",
@@ -133,7 +133,6 @@
     "id": "realplayer-streaming-1997",
     "title": "RealPlayer Enables Live Streaming",
     "year": 1997,
-    "date": "1997-01-01",
     "category": [
       "media",
       "software"
@@ -162,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "RealPlayer",
+        "title": "Wikipedia: RealPlayer",
         "url": "https://en.wikipedia.org/wiki/RealPlayer",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/realplayer-streaming-1997.jpg",
@@ -205,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "AOL Instant Messenger",
+        "title": "Wikipedia: AOL Instant Messenger",
         "url": "https://en.wikipedia.org/wiki/AOL_Instant_Messenger",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/aim-launch-1997.png",
@@ -219,7 +218,6 @@
     "id": "early-blogs-1997",
     "title": "The First Web Logs Appear",
     "year": 1997,
-    "date": "1997-01-01",
     "category": [
       "culture",
       "web"
@@ -248,11 +246,11 @@
     ],
     "sources": [
       {
-        "title": "Blog",
+        "title": "Wikipedia: Blog",
         "url": "https://en.wikipedia.org/wiki/Blog",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/early-blogs-1997.png",
@@ -292,11 +290,11 @@
     ],
     "sources": [
       {
-        "title": "DVD",
+        "title": "Wikipedia: DVD",
         "url": "https://en.wikipedia.org/wiki/DVD",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/dvd-launched-1997.jpg",
@@ -306,7 +304,6 @@
     "id": "w3c-css2-1997",
     "title": "CSS2 in Development",
     "year": 1997,
-    "date": "1997-05-01",
     "category": [
       "standards",
       "web"
@@ -335,11 +332,11 @@
     ],
     "sources": [
       {
-        "title": "Cascading Style Sheets Level 2",
+        "title": "Wikipedia: Cascading Style Sheets",
         "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_2",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/w3c-css2-1997.png",
@@ -362,8 +359,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Death of Diana, Princess of Wales - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales"
+        "title": "Wikipedia: Death of Diana, Princess of Wales",
+        "url": "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/princess-diana-global-grief-1997.jpg",
@@ -373,7 +372,6 @@
     "id": "tamagotchi-craze-1997",
     "title": "Bandai's Tamagotchi Virtual Pet Craze",
     "year": 1997,
-    "date": "1997-05-01",
     "category": [
       "gadget",
       "culture"
@@ -386,8 +384,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Tamagotchi - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Tamagotchi"
+        "title": "Wikipedia: Tamagotchi",
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/tamagotchi.png",
@@ -410,8 +410,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "OK Computer - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/OK_Computer"
+        "title": "Wikipedia: OK Computer",
+        "url": "https://en.wikipedia.org/wiki/OK_Computer",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1997/radiohead-ok-computer-1997.jpg",

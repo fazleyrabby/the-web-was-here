@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Google Chrome: Launch",
+        "title": "Wikipedia: Google Chrome",
         "url": "https://en.wikipedia.org/wiki/Google_Chrome",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/chrome-launch-2008.png",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "HTC Dream: The first Android phone",
+        "title": "Wikipedia: HTC Dream",
         "url": "https://en.wikipedia.org/wiki/HTC_Dream",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/htc-dream-android.png",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "App Store: Launch and Impact",
+        "title": "Wikipedia: App Store (Apple)",
         "url": "https://en.wikipedia.org/wiki/App_Store_(Apple)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/app-store-2008.jpg",
@@ -162,11 +162,11 @@
     ],
     "sources": [
       {
-        "title": "Bitcoin: The Original Whitepaper",
+        "title": "Wikipedia: Bitcoin",
         "url": "https://en.wikipedia.org/wiki/Bitcoin",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/bitcoin-whitepaper-2008.png",
@@ -205,29 +205,28 @@
     ],
     "sources": [
       {
-        "title": "2008 Financial Crisis: Impact on Tech",
+        "title": "Wikipedia: 2007\u20132008 financial crisis",
         "url": "https://en.wikipedia.org/wiki/2007%E2%80%932008_financial_crisis",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/financial-crisis-tech-2008.png",
     "image_caption": "Lehman Brothers collapses. The global financial crisis crashes the economy. Tech funding dries up, but the lean startup movement emerges."
   },
   {
-    "id": "spotify-expansion-2008",
-    "title": "Spotify Launches in the UK",
+    "id": "spotify-launch-2008",
+    "title": "Spotify Launches in Europe",
     "year": 2008,
-    "date": "2008-02-01",
     "category": [
       "entertainment",
       "business"
     ],
     "type": "company_launch",
-    "summary": "Spotify expands from Sweden to the UK, bringing free legal music streaming to a wider European audience.",
-    "narrative": "Spotify launched in Sweden in 2007, but 2008 is when it starts to matter. The UK launch brings it to a major English-speaking market. The model is simple: free music with ads, or pay for premium. The music industry is terrified \u2014 but the downloads aren't paying the bills anymore. Streaming is the future, and Spotify is leading the charge.",
-    "why_it_matters": "Established streaming as the future of music distribution. Proved the freemium model could work for entertainment. Forced the music industry to embrace digital.",
+    "summary": "Spotify launches in six European countries, offering licensed music streaming.",
+    "narrative": "Spotify launched in October 2008 across Finland, France, Norway, Spain, Sweden, and the UK. Its desktop app made a large licensed catalog feel immediate, offering a convenient alternative to downloads and piracy.",
+    "why_it_matters": "Spotify helped establish on-demand streaming as a mainstream way to listen to music.",
     "impact": 4,
     "nostalgia": 3,
     "influence": [
@@ -249,21 +248,20 @@
     ],
     "sources": [
       {
-        "title": "Spotify: History and Expansion",
-        "url": "https://en.wikipedia.org/wiki/Spotify",
+        "title": "Spotify: A Visual History",
+        "url": "https://newsroom.spotify.com/spotify-timeline/",
         "type": "primary",
-        "accessed": "2026-09-15",
+        "accessed": "2026-09-23",
         "confidence": "high"
       }
     ],
     "image": "/images/events/2008/spotify-expansion-2008.jpg",
-    "image_caption": "Spotify expands from Sweden to the UK, bringing free legal music streaming to a wider European audience."
+    "image_caption": "Spotify launched in six European markets in October 2008."
   },
   {
     "id": "facebook-platform-2008",
     "title": "Facebook Platform Explodes",
     "year": 2008,
-    "date": "2008-05-01",
     "category": [
       "social",
       "software"
@@ -292,11 +290,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook Platform",
+        "title": "Wikipedia: Facebook Platform",
         "url": "https://en.wikipedia.org/wiki/Facebook_Platform",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/facebook-platform-2008.png",
@@ -306,7 +304,6 @@
     "id": "myspace-decline-2008",
     "title": "MySpace Starts to Crumble",
     "year": 2008,
-    "date": "2008-06-01",
     "category": [
       "social",
       "business"
@@ -336,11 +333,11 @@
     ],
     "sources": [
       {
-        "title": "MySpace: The Fall",
+        "title": "Wikipedia: MySpace",
         "url": "https://en.wikipedia.org/wiki/MySpace",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/myspace-decline-2008.jpg",
@@ -379,11 +376,11 @@
     ],
     "sources": [
       {
-        "title": "Obama 2008 Campaign: Digital Strategy",
+        "title": "Wikipedia: Barack Obama 2008 presidential campaign",
         "url": "https://en.wikipedia.org/wiki/Barack_Obama_2008_presidential_campaign",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/obama-campaign-tech-2008.jpg",
@@ -422,11 +419,11 @@
     ],
     "sources": [
       {
-        "title": "Google Play: History",
+        "title": "Wikipedia: Google Play",
         "url": "https://en.wikipedia.org/wiki/Google_Play",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/android-market-2008.png",
@@ -449,8 +446,10 @@
     "nostalgia": 2,
     "sources": [
       {
-        "title": "Bankruptcy of Lehman Brothers - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+        "title": "Wikipedia: Bankruptcy of Lehman Brothers",
+        "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/lehman-brothers-financial-crisis-2008.jpg",
@@ -473,8 +472,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "The Fame - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/The_Fame"
+        "title": "Wikipedia: The Fame",
+        "url": "https://en.wikipedia.org/wiki/The_Fame",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/lady-gaga-the-fame-2008.jpg",
@@ -484,7 +485,6 @@
     "id": "shutter-shades-keffiyeh-streetwear-2008",
     "title": "Kanye Shutter Shades, Keffiyeh Scarves & Indie-Hop Style",
     "year": 2008,
-    "date": "2008-04-01",
     "category": [
       "fashion",
       "culture"
@@ -497,8 +497,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Shutter Shades - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Shutter_Shades"
+        "title": "Wikipedia: Shutter Shades",
+        "url": "https://en.wikipedia.org/wiki/Shutter_Shades",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2008/shutter-shades-keffiyeh-streetwear-2008.jpg",

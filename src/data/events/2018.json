@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "General Data Protection Regulation",
+        "title": "Wikipedia: General Data Protection Regulation",
         "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/gdpr-enforcement-2018.png",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook\u2013Cambridge Analytica data scandal",
+        "title": "Wikipedia: Facebook\u2013Cambridge Analytica data scandal",
         "url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/cambridge-analytica-2018.png",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "TikTok",
+        "title": "Wikipedia: TikTok",
         "url": "https://en.wikipedia.org/wiki/TikTok",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/tiktok-merger-2018.png",
@@ -132,7 +132,6 @@
     "id": "fortnite-cultural-2018",
     "title": "Fortnite Becomes a Cultural Phenomenon",
     "year": 2018,
-    "date": "2018-01-01",
     "category": [
       "gaming",
       "culture"
@@ -161,11 +160,11 @@
     ],
     "sources": [
       {
-        "title": "Fortnite Battle Royale",
+        "title": "Wikipedia: Fortnite Battle Royale",
         "url": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/fortnite-cultural-2018.png",
@@ -204,11 +203,11 @@
     ],
     "sources": [
       {
-        "title": "March for Our Lives",
+        "title": "Wikipedia: March for Our Lives",
         "url": "https://en.wikipedia.org/wiki/March_for_Our_Lives",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/march-for-our-lives-2018.png",
@@ -218,7 +217,6 @@
     "id": "youtube-ad-pocalypse-2018",
     "title": "YouTube's Advertiser Apocalypse",
     "year": 2018,
-    "date": "2018-02-01",
     "category": [
       "media",
       "business"
@@ -247,58 +245,15 @@
     ],
     "sources": [
       {
-        "title": "YouTube issues",
+        "title": "Wikipedia: YouTube",
         "url": "https://en.wikipedia.org/wiki/YouTube#Issues",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/youtube-ad-pocalypse-2018.png",
     "image_caption": "Major advertisers pull ads from YouTube over extremist content, forcing the platform to overhaul its moderation policies."
-  },
-  {
-    "id": "iphone-x-2017",
-    "title": "iPhone X Redefines Smartphone Design",
-    "year": 2018,
-    "date": "2017-11-03",
-    "category": [
-      "hardware",
-      "design"
-    ],
-    "type": "product_launch",
-    "summary": "Apple's iPhone X removes the home button, introduces Face ID, and sets the template for modern smartphones.",
-    "narrative": "The iPhone X is Apple's biggest design overhaul since the original. No home button. Edge-to-edge OLED display. Face ID replaces Touch ID. The notch becomes the most copied design element in tech. Gestures replace buttons. The price hits $999 \u2014 a psychological barrier that becomes the new normal. Every Android phone starts copying the notch. The modern smartphone is born.",
-    "why_it_matters": "Set the design template every phone would follow. Made Face ID the standard for biometric authentication. Proved consumers would pay $1,000+ for a phone.",
-    "impact": 5,
-    "nostalgia": 4,
-    "influence": [
-      "face-id-adoption",
-      "notch-design",
-      "premium-phone-pricing",
-      "gesture-navigation"
-    ],
-    "tags": [
-      "iphone-x",
-      "apple",
-      "face-id",
-      "notch",
-      "smartphone-design"
-    ],
-    "region": [
-      "global"
-    ],
-    "sources": [
-      {
-        "title": "iPhone X",
-        "url": "https://en.wikipedia.org/wiki/iPhone_X",
-        "type": "primary",
-        "accessed": "2026-09-15",
-        "confidence": "high"
-      }
-    ],
-    "image": "/images/events/2018/iphone-x-2017.png",
-    "image_caption": "Apple's iPhone X removes the home button, introduces Face ID, and sets the template for modern smartphones."
   },
   {
     "id": "facebook-redesign-2018",
@@ -333,11 +288,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook news feed changes",
+        "title": "Wikipedia: Facebook",
         "url": "https://en.wikipedia.org/wiki/Facebook#History",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/facebook-redesign-2018.png",
@@ -347,7 +302,6 @@
     "id": "steam-fortnite-2018",
     "title": "Epic Bypasses Steam with Fortnite",
     "year": 2018,
-    "date": "2018-08-01",
     "category": [
       "gaming",
       "business"
@@ -376,11 +330,11 @@
     ],
     "sources": [
       {
-        "title": "Epic Games Store",
+        "title": "Wikipedia: Epic Games Store",
         "url": "https://en.wikipedia.org/wiki/Epic_Games_Store",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/steam-fortnite-2018.png",
@@ -390,7 +344,6 @@
     "id": "blackout-challenge-2018",
     "title": "TikTok's Blackout Challenge Goes Viral",
     "year": 2018,
-    "date": "2018-10-01",
     "category": [
       "culture",
       "social"
@@ -419,11 +372,11 @@
     ],
     "sources": [
       {
-        "title": "TikTok: Safety and controversies",
+        "title": "Wikipedia: TikTok",
         "url": "https://en.wikipedia.org/wiki/TikTok#Safety_and_controversies",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/blackout-challenge-2018.png",
@@ -446,8 +399,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Fortnite Battle Royale - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale"
+        "title": "Wikipedia: Fortnite Battle Royale",
+        "url": "https://en.wikipedia.org/wiki/Fortnite_Battle_Royale",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/fortnite-ninja-drake-twitch-2018.jpg",
@@ -470,8 +425,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Black Panther (film) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)"
+        "title": "Wikipedia: Black Panther (film)",
+        "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/black-panther-cultural-milestone-2018.png",
@@ -481,7 +438,6 @@
     "id": "ugly-dad-sneaker-trend-2018",
     "title": "The Balenciaga Triple S & The 'Ugly Dad Sneaker' Craze",
     "year": 2018,
-    "date": "2018-04-01",
     "category": [
       "fashion",
       "culture"
@@ -494,8 +450,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Sneakers as fashion - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Sneakers_as_fashion"
+        "title": "Wikipedia: Sneakers as fashion",
+        "url": "https://en.wikipedia.org/wiki/Sneakers_as_fashion",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2018/ugly-dad-sneaker-trend-2018.jpg",

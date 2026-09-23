@@ -3,7 +3,6 @@
     "id": "ai-agents-mainstream-2025",
     "title": "AI Agents Become Everyday Tools",
     "year": 2025,
-    "date": "2025-03-01",
     "category": [
       "software",
       "business"
@@ -33,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "AI agent",
+        "title": "Wikipedia: AI agent",
         "url": "https://en.wikipedia.org/wiki/AI_agent",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/ai-agents-mainstream-2025.jpg",
@@ -47,7 +46,6 @@
     "id": "quantum-advance-2025",
     "title": "Quantum Computing Reaches New Milestone",
     "year": 2025,
-    "date": "2025-06-15",
     "category": [
       "hardware",
       "standards"
@@ -77,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "Quantum computing",
+        "title": "Wikipedia: Quantum computing",
         "url": "https://en.wikipedia.org/wiki/Quantum_computing",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/quantum-advance-2025.jpg",
@@ -89,15 +87,14 @@
   },
   {
     "id": "spatial-computing-growth-2025",
-    "title": "Spatial Computing Goes Mainstream",
+    "title": "Spatial Computing Seeks a Wider Audience",
     "year": 2025,
-    "date": "2025-01-01",
     "category": [
       "hardware",
       "software"
     ],
-    "type": "cultural_event",
-    "summary": "Spatial computing devices \u2014 from Vision Pro to Meta Quest \u2014 achieve mainstream adoption with lower prices and better content.",
+    "type": "prediction",
+    "summary": "Headset makers continue to improve devices and content, while widespread adoption remains uncertain.",
     "narrative": "2024's Vision Pro was too expensive for most people. 2025's spatial computing landscape was different. Meta launched Quest 3S at $299. Samsung partnered with Google on XR headsets. Apple released a cheaper Vision model. The content caught up: spatial video from iPhones, immersive sports, virtual workspaces. Spatial computing crossed the chasm from early adopters to mainstream. People used it for exercise, entertainment, and even remote work. The 'metaverse' rebranded as 'spatial computing' and finally found product-market fit.",
     "why_it_matters": "Made spatial computing accessible to average consumers. Created a viable market for AR/VR content. Changed expectations for immersive experiences.",
     "impact": 4,
@@ -121,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Spatial computing",
+        "title": "Wikipedia: Spatial computing",
         "url": "https://en.wikipedia.org/wiki/Spatial_computing",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/spatial-computing-growth-2025.jpg",
@@ -135,7 +132,6 @@
     "id": "ai-regulation-global-2025",
     "title": "Global AI Regulation Frameworks Take Shape",
     "year": 2025,
-    "date": "2025-05-01",
     "category": [
       "standards",
       "business"
@@ -165,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "Artificial Intelligence Act",
+        "title": "Wikipedia: Artificial Intelligence Act",
         "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/ai-regulation-global-2025.png",
@@ -179,7 +175,6 @@
     "id": "open-source-ai-2025",
     "title": "Open Source AI Models Challenge Big Tech",
     "year": 2025,
-    "date": "2025-02-01",
     "category": [
       "software",
       "business"
@@ -209,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "Large language model",
+        "title": "Wikipedia: Large language model",
         "url": "https://en.wikipedia.org/wiki/Large_language_model",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/open-source-ai-2025.png",
@@ -223,7 +218,6 @@
     "id": "ai-creative-revolution-2025",
     "title": "AI-Native Creative Tools Transform Industries",
     "year": 2025,
-    "date": "2025-04-01",
     "category": [
       "software",
       "culture"
@@ -254,11 +248,11 @@
     ],
     "sources": [
       {
-        "title": "Generative artificial intelligence",
+        "title": "Wikipedia: Generative artificial intelligence",
         "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/ai-creative-revolution-2025.png",
@@ -268,7 +262,6 @@
     "id": "wearable-ai-companions-2025",
     "title": "AI Wearable Companions Launch",
     "year": 2025,
-    "date": "2025-03-15",
     "category": [
       "hardware",
       "communication"
@@ -298,11 +291,11 @@
     ],
     "sources": [
       {
-        "title": "AI Pin",
+        "title": "Wikipedia: AI Pin",
         "url": "https://en.wikipedia.org/wiki/AI_Pin",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2025/wearable-ai-companions-2025.jpg",
@@ -325,8 +318,11 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "DeepSeek - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/DeepSeek"
+        "title": "DeepSeek-R1 release",
+        "url": "https://deepseek.com/en/news/deepseek-r1/",
+        "type": "primary",
+        "accessed": "2026-09-23",
+        "confidence": "high"
       }
     ],
     "image": "/images/events/2025/deepseek-open-reasoning-breakthrough-2025.jpg",
@@ -336,24 +332,69 @@
     "id": "ray-ban-meta-smart-glasses-boom-2025",
     "title": "Multimodal AI Smart Glasses Become the First Hit AI Wearable",
     "year": 2025,
-    "date": "2025-04-15",
     "category": [
       "gadget",
       "tech"
     ],
     "type": "cultural_shift",
-    "summary": "Stylish, lightweight glasses with multimodal computer vision and discreet audio became the breakout consumer device.",
+    "summary": "Meta reports millions of Ray-Ban Meta glasses sold since launch as it introduces a second generation.",
     "narrative": "While bulky VR headsets and awkward wearable pins struggled to find mainstream consumer adoption, stylish sunglasses with camera sensors and open-ear directional speakers quietly conquered the market. Wearers could look at a foreign street sign, landmark, or recipe ingredient and simply ask questions out loud, receiving instant, context-aware answers without taking a phone out of their pocket.",
     "why_it_matters": "It proved that multimodal ambient computing succeeded best when seamlessly embedded into timeless, fashionable everyday accessories.",
     "impact": 5,
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Ray-Ban Stories - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Ray-Ban_Stories"
+        "title": "Meta: Ray-Ban Meta Gen 2 announcement",
+        "url": "https://about.fb.com/news/2025/09/ray-ban-meta-gen-2-better-battery-life-video-capture/",
+        "type": "primary",
+        "accessed": "2026-09-23",
+        "confidence": "high"
       }
     ],
     "image": "/images/events/2025/ray-ban-meta-smart-glasses-boom-2025.png",
     "image_caption": "Stylish, lightweight glasses with multimodal computer vision and discreet audio became the breakout consumer device."
+  },
+  {
+    "id": "no-kings-protest-2025",
+    "title": "No Kings Protests Mobilize Across the US",
+    "year": 2025,
+    "date": "2025-06-14",
+    "category": [
+      "culture",
+      "social"
+    ],
+    "type": "cultural_event",
+    "summary": "Organizers coordinate No Kings demonstrations across the United States on June 14, 2025.",
+    "narrative": "On June 14, 2025, No Kings organizers coordinated demonstrations across the United States. Digital organizing helped participants find local events, share information, and document the gatherings. The protests showed how online networks continue to support in-person political action.",
+    "why_it_matters": "The demonstrations illustrated the link between online organizing and large in-person civic events.",
+    "impact": 4,
+    "nostalgia": 2,
+    "influence": [
+      "digital-activism",
+      "social-media-politics",
+      "protest-culture",
+      "democratic-norms"
+    ],
+    "tags": [
+      "protests",
+      "no-kings",
+      "activism",
+      "social-media",
+      "democracy"
+    ],
+    "region": [
+      "usa"
+    ],
+    "sources": [
+      {
+        "title": "No Kings organizers",
+        "url": "https://www.nokings.org/",
+        "type": "primary",
+        "accessed": "2026-09-23",
+        "confidence": "high"
+      }
+    ],
+    "image": "/images/events/2025/no-kings-protest-2025.jpg",
+    "image_caption": "No Kings demonstrations took place across the United States on June 14, 2025."
   }
 ]

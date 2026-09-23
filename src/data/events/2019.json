@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Google Stadia",
+        "title": "Wikipedia: Stadia",
         "url": "https://en.wikipedia.org/wiki/Stadia",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/google-stadia-2019.png",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "Disney+",
+        "title": "Wikipedia: Disney+",
         "url": "https://en.wikipedia.org/wiki/Disney%2B",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/disney-plus-2019.png",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Joker (2019 film)",
+        "title": "Wikipedia: Joker (2019 film)",
         "url": "https://en.wikipedia.org/wiki/Joker_(2019_film)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/joker-movie-2019.jpg",
@@ -161,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "Zoom Video Communications",
+        "title": "Wikipedia: Zoom Video Communications",
         "url": "https://en.wikipedia.org/wiki/Zoom_Video_Communications",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/zoom-ipo-2019.jpg",
@@ -204,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "Samsung Galaxy Fold",
+        "title": "Wikipedia: Samsung Galaxy Fold",
         "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fold",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/foldable-phones-2019.png",
@@ -247,11 +247,11 @@
     ],
     "sources": [
       {
-        "title": "5G",
+        "title": "Wikipedia: 5G",
         "url": "https://en.wikipedia.org/wiki/5G",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/5g-launch-2019.png",
@@ -290,11 +290,11 @@
     ],
     "sources": [
       {
-        "title": "Pegasus (spyware)",
+        "title": "Wikipedia: Pegasus (spyware)",
         "url": "https://en.wikipedia.org/wiki/Pegasus_(spyware)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/whatsapp-zero-click-2019.png",
@@ -304,7 +304,6 @@
     "id": "tiktok-algorithm-2019",
     "title": "TikTok's Algorithm Becomes the Talk of Silicon Valley",
     "year": 2019,
-    "date": "2019-06-01",
     "category": [
       "software",
       "culture"
@@ -333,11 +332,11 @@
     ],
     "sources": [
       {
-        "title": "TikTok: Algorithm and features",
+        "title": "Wikipedia: TikTok",
         "url": "https://en.wikipedia.org/wiki/TikTok#Algorithm",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/tiktok-algorithm-2019.jpg",
@@ -376,11 +375,11 @@
     ],
     "sources": [
       {
-        "title": "2019\u20132020 Hong Kong protests",
+        "title": "Wikipedia: 2019\u20132020 Hong Kong protests",
         "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/hk-protests-tech-2019.jpg",
@@ -419,11 +418,11 @@
     ],
     "sources": [
       {
-        "title": "Internet shutdowns and restrictions during the 2019 Iranian protests",
+        "title": "Wikipedia: 2019 Iranian protests",
         "url": "https://en.wikipedia.org/wiki/2019_Iranian_protests#Internet_shutdown",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/iran-internet-shutdown-2019.jpg",
@@ -446,8 +445,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Old Town Road - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Old_Town_Road"
+        "title": "Wikipedia: Old Town Road",
+        "url": "https://en.wikipedia.org/wiki/Old_Town_Road",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/old-town-road-tiktok-record-2019.jpg",
@@ -470,8 +471,10 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Event Horizon Telescope - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+        "title": "Wikipedia: Event Horizon Telescope",
+        "url": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/m87-black-hole.jpg",
@@ -481,7 +484,6 @@
     "id": "vsco-girl-scrunchie-aesthetic-2019",
     "title": "VSCO Girls, Hydro Flasks & the Viral Subculture Explosion",
     "year": 2019,
-    "date": "2019-07-01",
     "category": [
       "fashion",
       "culture"
@@ -494,8 +496,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "VSCO girl - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/VSCO_girl"
+        "title": "Wikipedia: VSCO girl",
+        "url": "https://en.wikipedia.org/wiki/VSCO_girl",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2019/vsco-girl-scrunchie-aesthetic-2019.png",

@@ -3,7 +3,6 @@
     "id": "chatgpt-explosion-2023",
     "title": "ChatGPT Reaches 100 Million Users",
     "year": 2023,
-    "date": "2023-01-01",
     "category": [
       "software",
       "culture"
@@ -34,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "ChatGPT",
+        "title": "Wikipedia: ChatGPT",
         "url": "https://en.wikipedia.org/wiki/ChatGPT",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/chatgpt-explosion-2023.png",
@@ -79,11 +78,11 @@
     ],
     "sources": [
       {
-        "title": "X (social media platform)",
+        "title": "Wikipedia: X (social media)",
         "url": "https://en.wikipedia.org/wiki/X_(social_media)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/twitter-becomes-x-2023.png",
@@ -122,11 +121,11 @@
     ],
     "sources": [
       {
-        "title": "Threads (social network)",
+        "title": "Wikipedia: Threads (social network)",
         "url": "https://en.wikipedia.org/wiki/Threads_(social_network)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/threads-launch-2023.png",
@@ -167,11 +166,11 @@
     ],
     "sources": [
       {
-        "title": "Microsoft Bing",
+        "title": "Wikipedia: Microsoft Bing",
         "url": "https://en.wikipedia.org/wiki/Microsoft_Bing",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/bing-ai-2023.png",
@@ -213,11 +212,11 @@
     ],
     "sources": [
       {
-        "title": "2022-2023 tech industry layoffs",
+        "title": "Wikipedia: Layoff",
         "url": "https://en.wikipedia.org/wiki/Layoff",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/tech-layoffs-2023.png",
@@ -257,11 +256,11 @@
     ],
     "sources": [
       {
-        "title": "Artificial Intelligence Act",
+        "title": "Wikipedia: Artificial Intelligence Act",
         "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/ai-regulation-eu-2023.png",
@@ -301,18 +300,18 @@
     ],
     "sources": [
       {
-        "title": "Barbie (film)",
+        "title": "Wikipedia: Barbie (film)",
         "url": "https://en.wikipedia.org/wiki/Barbie_(film)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
-        "title": "Oppenheimer (film)",
+        "title": "Wikipedia: Oppenheimer (film)",
         "url": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/barbenheimer-2023.png",
@@ -353,11 +352,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Vision Pro",
+        "title": "Wikipedia: Apple Vision Pro",
         "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/apple-vision-pro-announce-2023.jpg",
@@ -380,8 +379,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "The Eras Tour - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/The_Eras_Tour"
+        "title": "Wikipedia: The Eras Tour",
+        "url": "https://en.wikipedia.org/wiki/The_Eras_Tour",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/taylor-swift-eras-tour-economic-force-2023.jpg",
@@ -391,7 +392,6 @@
     "id": "quiet-luxury-gorpcore-fashion-2023",
     "title": "'Quiet Luxury' & Gorpcore: Stealth Wealth and Outdoor Techwear",
     "year": 2023,
-    "date": "2023-05-01",
     "category": [
       "fashion",
       "culture"
@@ -404,8 +404,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Quiet luxury - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Quiet_luxury"
+        "title": "Wikipedia: Quiet luxury",
+        "url": "https://en.wikipedia.org/wiki/Quiet_luxury",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/quiet-luxury-gorpcore-fashion-2023.jpg",
@@ -428,8 +430,10 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Removal of Sam Altman from OpenAI - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI"
+        "title": "Wikipedia: Removal of Sam Altman from OpenAI",
+        "url": "https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2023/openai-sam-altman-boardroom-drama-2023.jpg",

@@ -34,11 +34,11 @@
     ],
     "sources": [
       {
-        "title": "Acquisition of Twitter by Elon Musk",
+        "title": "Wikipedia: Acquisition of Twitter by Elon Musk",
         "url": "https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/elon-musk-twitter-2022.png",
@@ -78,11 +78,11 @@
     ],
     "sources": [
       {
-        "title": "Fall of FTX",
+        "title": "Wikipedia: FTX",
         "url": "https://en.wikipedia.org/wiki/FTX",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/ftx-collapse-2022.png",
@@ -92,7 +92,6 @@
     "id": "dalle-midjourney-2022",
     "title": "AI Image Generators Break Through",
     "year": 2022,
-    "date": "2022-04-01",
     "category": [
       "software",
       "culture"
@@ -122,18 +121,18 @@
     ],
     "sources": [
       {
-        "title": "DALL-E",
+        "title": "Wikipedia: DALL-E",
         "url": "https://en.wikipedia.org/wiki/DALL-E",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
-        "title": "Midjourney",
+        "title": "Wikipedia: Midjourney",
         "url": "https://en.wikipedia.org/wiki/Midjourney",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/dalle-midjourney-2022.jpg",
@@ -173,11 +172,11 @@
     ],
     "sources": [
       {
-        "title": "Russian invasion of Ukraine",
+        "title": "Wikipedia: Russian invasion of Ukraine",
         "url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/ukraine-war-tech-2022.png",
@@ -187,7 +186,6 @@
     "id": "wordle-2022",
     "title": "Wordle Takes Over the Internet",
     "year": 2022,
-    "date": "2022-01-01",
     "category": [
       "culture",
       "gaming"
@@ -216,11 +214,11 @@
     ],
     "sources": [
       {
-        "title": "Wordle",
+        "title": "Wikipedia: Wordle",
         "url": "https://en.wikipedia.org/wiki/Wordle",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/wordle-2022.png",
@@ -259,11 +257,11 @@
     ],
     "sources": [
       {
-        "title": "Twitter Blue",
+        "title": "Wikipedia: Twitter Blue",
         "url": "https://en.wikipedia.org/wiki/Twitter_Blue",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/musk-twitter-blue-2022.png",
@@ -303,11 +301,11 @@
     ],
     "sources": [
       {
-        "title": "2022 cryptocurrency crash",
+        "title": "Wikipedia: Terra (blockchain)",
         "url": "https://en.wikipedia.org/wiki/Terra_(blockchain)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/crypto-winter-2022.png",
@@ -347,11 +345,11 @@
     ],
     "sources": [
       {
-        "title": "iPhone 14",
+        "title": "Wikipedia: iPhone 14",
         "url": "https://en.wikipedia.org/wiki/iPhone_14",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/iphone-emergency-satellite-2022.png",
@@ -374,8 +372,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "ChatGPT - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/ChatGPT"
+        "title": "Wikipedia: ChatGPT",
+        "url": "https://en.wikipedia.org/wiki/ChatGPT",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/chatgpt-ai-revolution-inflection-2022.png",
@@ -398,8 +398,10 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Webb's First Deep Field - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Webb%27s_First_Deep_Field"
+        "title": "Wikipedia: Webb's First Deep Field",
+        "url": "https://en.wikipedia.org/wiki/Webb%27s_First_Deep_Field",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/jwst-deep-field.jpg",
@@ -409,7 +411,6 @@
     "id": "adidas-samba-clean-girl-fashion-2022",
     "title": "Adidas Samba Resurgence & The 'Clean Girl' Minimalist Aesthetic",
     "year": 2022,
-    "date": "2022-06-01",
     "category": [
       "fashion",
       "culture"
@@ -422,8 +423,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Adidas Samba - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Adidas_Samba"
+        "title": "Wikipedia: Adidas Samba",
+        "url": "https://en.wikipedia.org/wiki/Adidas_Samba",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2022/adidas-samba-clean-girl-fashion-2022.jpg",

@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "LinkedIn",
+        "title": "Wikipedia: LinkedIn",
         "url": "https://en.wikipedia.org/wiki/LinkedIn",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/linkedin-launch-2002.jpg",
@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Mac OS X v10.2",
+        "title": "Wikipedia: Mac OS X Jaguar",
         "url": "https://en.wikipedia.org/wiki/Mac_OS_X_Jaguar",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/mac-osx-jaguar-2002.jpg",
@@ -90,7 +90,6 @@
     "id": "camera-phone-era-2002",
     "title": "Camera Phones Enter the Mainstream",
     "year": 2002,
-    "date": "2002-06-01",
     "category": [
       "hardware",
       "culture"
@@ -119,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Camera phone",
+        "title": "Wikipedia: Camera phone",
         "url": "https://en.wikipedia.org/wiki/Camera_phone",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/camera-phone-era-2002.jpg",
@@ -162,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "Windows XP Tablet PC Edition",
+        "title": "Wikipedia: Windows XP Tablet PC Edition",
         "url": "https://en.wikipedia.org/wiki/Windows_XP_Tablet_PC_Edition",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/tablet-pc-launch-2002.jpg",
@@ -205,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "Xbox Live",
+        "title": "Wikipedia: Xbox Live",
         "url": "https://en.wikipedia.org/wiki/Xbox_Live",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/xbox-live-launch-2002.png",
@@ -219,7 +218,6 @@
     "id": "wifi-standard-802.11-2002",
     "title": "Wi-Fi Standard Gains Momentum",
     "year": 2002,
-    "date": "2002-09-01",
     "category": [
       "infrastructure",
       "hardware"
@@ -248,11 +246,11 @@
     ],
     "sources": [
       {
-        "title": "IEEE 802.11",
+        "title": "Wikipedia: IEEE 802.11",
         "url": "https://en.wikipedia.org/wiki/IEEE_802.11",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/wifi-standard-802_11-2002.jpg",
@@ -262,7 +260,6 @@
     "id": "blog-blogger-boom-2002",
     "title": "Blogging Reaches the Mainstream",
     "year": 2002,
-    "date": "2002-08-01",
     "category": [
       "media",
       "culture",
@@ -292,11 +289,11 @@
     ],
     "sources": [
       {
-        "title": "Blog",
+        "title": "Wikipedia: Blog",
         "url": "https://en.wikipedia.org/wiki/Blog",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/blog-blogger-boom-2002.png",
@@ -335,11 +332,11 @@
     ],
     "sources": [
       {
-        "title": "Enron scandal",
+        "title": "Wikipedia: Enron scandal",
         "url": "https://en.wikipedia.org/wiki/Enron_scandal",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/enron-scandal-2002.png",
@@ -362,8 +359,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Let Go (Avril Lavigne album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Let_Go_(Avril_Lavigne_album)"
+        "title": "Wikipedia: Let Go (Avril Lavigne album)",
+        "url": "https://en.wikipedia.org/wiki/Let_Go_(Avril_Lavigne_album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/avril-lavigne-juicy-couture-2002.jpg",
@@ -386,8 +385,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "American Idol (season 1) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/American_Idol_(season_1)"
+        "title": "Wikipedia: American Idol (season 1)",
+        "url": "https://en.wikipedia.org/wiki/American_Idol_(season_1)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/american-idol-kelly-clarkson-2002.png",
@@ -410,12 +411,16 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Lose Yourself - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Lose_Yourself"
+        "title": "Wikipedia: Lose Yourself",
+        "url": "https://en.wikipedia.org/wiki/Lose_Yourself",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "8 Mile (film) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/8_Mile_(film)"
+        "title": "Wikipedia: 8 Mile (film)",
+        "url": "https://en.wikipedia.org/wiki/8_Mile_(film)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2002/eminem-lose-yourself-8mile-2002.jpg",

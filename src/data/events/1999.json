@@ -3,7 +3,6 @@
     "id": "napster-launch-1999",
     "title": "Napster Launches",
     "year": 1999,
-    "date": "1999-06-01",
     "category": [
       "culture",
       "media"
@@ -34,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Napster",
+        "title": "Wikipedia: Napster",
         "url": "https://en.wikipedia.org/wiki/Napster",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/napster-launch-1999.png",
@@ -48,7 +47,6 @@
     "id": "broadband-starts-1999",
     "title": "DSL and Cable Modems Reach Mass Market",
     "year": 1999,
-    "date": "1999-01-01",
     "category": [
       "hardware",
       "business"
@@ -78,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Broadband",
+        "title": "Wikipedia: Broadband",
         "url": "https://en.wikipedia.org/wiki/Broadband",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/broadband-starts-1999.png",
@@ -122,11 +120,11 @@
     ],
     "sources": [
       {
-        "title": "Palm V",
+        "title": "Wikipedia: Palm V",
         "url": "https://en.wikipedia.org/wiki/Palm_V",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/palm-pilot-1999.jpg",
@@ -167,11 +165,11 @@
     ],
     "sources": [
       {
-        "title": "EverQuest",
+        "title": "Wikipedia: EverQuest",
         "url": "https://en.wikipedia.org/wiki/EverQuest",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/everquest-launch-1999.png",
@@ -210,11 +208,11 @@
     ],
     "sources": [
       {
-        "title": "IEEE 802.11",
+        "title": "Wikipedia: IEEE 802.11",
         "url": "https://en.wikipedia.org/wiki/IEEE_802.11",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/wifi-spec-1999.jpg",
@@ -254,11 +252,11 @@
     ],
     "sources": [
       {
-        "title": "Year 2000 problem",
+        "title": "Wikipedia: Year 2000 problem",
         "url": "https://en.wikipedia.org/wiki/Year_2000_problem",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/y2k-preparations-1999.jpg",
@@ -268,7 +266,6 @@
     "id": "i-will-survive-hoax-1999",
     "title": "The 'ILOVEYOU' Virus Preview",
     "year": 1999,
-    "date": "1999-10-01",
     "category": [
       "security",
       "culture"
@@ -298,11 +295,11 @@
     ],
     "sources": [
       {
-        "title": "Melissa (computer virus)",
+        "title": "Wikipedia: Melissa (computer virus)",
         "url": "https://en.wikipedia.org/wiki/Melissa_(computer_virus)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/i-will-survive-hoax-1999.jpg",
@@ -312,7 +309,6 @@
     "id": "mp3-com-riots-1999",
     "title": "MP3.com Music Revolution",
     "year": 1999,
-    "date": "1999-01-01",
     "category": [
       "media",
       "culture"
@@ -343,11 +339,11 @@
     ],
     "sources": [
       {
-        "title": "MP3.com",
+        "title": "Wikipedia: MP3.com",
         "url": "https://en.wikipedia.org/wiki/MP3.com",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/mp3-com-riots-1999.png",
@@ -386,11 +382,11 @@
     ],
     "sources": [
       {
-        "title": "Windows 2000",
+        "title": "Wikipedia: Windows 2000",
         "url": "https://en.wikipedia.org/wiki/Windows_2000",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/windows-2000-preview-1999.png",
@@ -413,8 +409,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "The Matrix - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/The_Matrix"
+        "title": "Wikipedia: The Matrix",
+        "url": "https://en.wikipedia.org/wiki/The_Matrix",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/the-matrix-cyberpunk-1999.jpg",
@@ -437,8 +435,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Year 2000 problem - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Year_2000_problem"
+        "title": "Wikipedia: Year 2000 problem",
+        "url": "https://en.wikipedia.org/wiki/Year_2000_problem",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/y2k-panic-preparations-1999.jpg",
@@ -461,12 +461,16 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "...Baby One More Time (album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/...Baby_One_More_Time_(album)"
+        "title": "Wikipedia: ...Baby One More Time (album)",
+        "url": "https://en.wikipedia.org/wiki/...Baby_One_More_Time_(album)",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Millennium (Backstreet Boys album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)"
+        "title": "Wikipedia: Millennium (Backstreet Boys album)",
+        "url": "https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1999/teen-pop-explosion-britney-backstreet-1999.jpg",

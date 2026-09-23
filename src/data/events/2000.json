@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Dot-com bubble",
+        "title": "Wikipedia: Dot-com bubble",
         "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/dotcom-bubble-peak-2000.png",
@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Mac OS X",
+        "title": "Wikipedia: Mac OS X",
         "url": "https://en.wikipedia.org/wiki/Mac_OS_X",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/mac-osx-launch-2000.jpg",
@@ -119,11 +119,11 @@
     ],
     "sources": [
       {
-        "title": "PlayStation 2",
+        "title": "Wikipedia: PlayStation 2",
         "url": "https://en.wikipedia.org/wiki/PlayStation_2",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/playstation-2.png",
@@ -133,7 +133,6 @@
     "id": "broadband-tipping-point-2000",
     "title": "Broadband Adoption Crosses 5 Million",
     "year": 2000,
-    "date": "2000-09-01",
     "category": [
       "infrastructure",
       "culture"
@@ -162,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "Broadband in the United States",
+        "title": "Wikipedia: Broadband in the United States",
         "url": "https://en.wikipedia.org/wiki/Broadband_in_the_United_States",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/broadband-tipping-point-2000.png",
@@ -205,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "AOL Time Warner",
+        "title": "Wikipedia: AOL Time Warner",
         "url": "https://en.wikipedia.org/wiki/AOL_Time_Warner",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/aol-time-warner-merger-2000.png",
@@ -219,7 +218,6 @@
     "id": "napster-peak-2000",
     "title": "Napster Reaches 80 Million Users",
     "year": 2000,
-    "date": "2000-07-01",
     "category": [
       "music",
       "culture",
@@ -249,11 +247,11 @@
     ],
     "sources": [
       {
-        "title": "Napster",
+        "title": "Wikipedia: Napster",
         "url": "https://en.wikipedia.org/wiki/Napster",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/napster-peak-2000.png",
@@ -263,7 +261,6 @@
     "id": "w3c-css2-spec-2000",
     "title": "W3C Publishes CSS2 Recommendation",
     "year": 2000,
-    "date": "2000-05-01",
     "category": [
       "standards",
       "web"
@@ -292,11 +289,11 @@
     ],
     "sources": [
       {
-        "title": "Cascading Style Sheets Level 2",
+        "title": "Wikipedia: Cascading Style Sheets",
         "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/w3c-css2-spec-2000.png",
@@ -306,7 +303,6 @@
     "id": "mobile-internet-wap-2000",
     "title": "WAP Mobile Internet Gains Traction",
     "year": 2000,
-    "date": "2000-06-01",
     "category": [
       "communication",
       "hardware"
@@ -335,11 +331,11 @@
     ],
     "sources": [
       {
-        "title": "Wireless Application Protocol",
+        "title": "Wikipedia: Wireless Application Protocol",
         "url": "https://en.wikipedia.org/wiki/Wireless_Application_Protocol",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/mobile-internet-wap-2000.jpg",
@@ -349,7 +345,6 @@
     "id": "nokia-3310-snake-2000",
     "title": "Nokia 3310 & the 'Snake II' Mobile Craze",
     "year": 2000,
-    "date": "2000-09-01",
     "category": [
       "gadget",
       "culture"
@@ -362,8 +357,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Nokia 3310 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nokia_3310"
+        "title": "Wikipedia: Nokia 3310",
+        "url": "https://en.wikipedia.org/wiki/Nokia_3310",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/nokia-3310.png",
@@ -386,8 +383,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "2000 United States presidential election - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election"
+        "title": "Wikipedia: 2000 United States presidential election",
+        "url": "https://en.wikipedia.org/wiki/2000_United_States_presidential_election",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/bush-gore-election-hanging-chads-2000.png",
@@ -410,12 +409,16 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "The Marshall Mathers LP - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP"
+        "title": "Wikipedia: The Marshall Mathers LP",
+        "url": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Stankonia - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Stankonia"
+        "title": "Wikipedia: Stankonia",
+        "url": "https://en.wikipedia.org/wiki/Stankonia",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2000/eminem-marshall-mathers-outkast-2000.jpg",

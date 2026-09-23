@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Instagram: From Launch to Billion Users",
+        "title": "Wikipedia: Instagram",
         "url": "https://en.wikipedia.org/wiki/Instagram",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/instagram-launch-2010.png",
@@ -131,7 +131,6 @@
     "id": "android-iphone-2010",
     "title": "Android Overtakes iPhone in Market Share",
     "year": 2010,
-    "date": "2010-10-01",
     "category": [
       "hardware",
       "business"
@@ -203,11 +202,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook 500 Million Users",
+        "title": "Wikipedia: Facebook",
         "url": "https://en.wikipedia.org/wiki/Facebook",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/facebook-500m-2010.jpg",
@@ -217,7 +216,6 @@
     "id": "foursquare-checkin-2010",
     "title": "Foursquare and the Check-In Craze",
     "year": 2010,
-    "date": "2010-01-01",
     "category": [
       "social",
       "viral-culture"
@@ -247,11 +245,11 @@
     ],
     "sources": [
       {
-        "title": "Foursquare: A History",
+        "title": "Wikipedia: Foursquare (company)",
         "url": "https://en.wikipedia.org/wiki/Foursquare_(company)",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/foursquare-checkin-2010.jpg",
@@ -261,7 +259,6 @@
     "id": "whatsapp-2010",
     "title": "WhatsApp Gains Traction",
     "year": 2010,
-    "date": "2010-01-01",
     "category": [
       "communication",
       "software"
@@ -290,11 +287,11 @@
     ],
     "sources": [
       {
-        "title": "WhatsApp: The Full Story",
+        "title": "Wikipedia: WhatsApp",
         "url": "https://en.wikipedia.org/wiki/WhatsApp",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/whatsapp-2010.png",
@@ -304,7 +301,6 @@
     "id": "social-network-movie-2010",
     "title": "The Social Network Movie",
     "year": 2010,
-    "date": "2010-10-01",
     "category": [
       "entertainment",
       "cultural-event"
@@ -332,11 +328,11 @@
     ],
     "sources": [
       {
-        "title": "The Social Network - IMDb",
+        "title": "Wikipedia: The Social Network",
         "url": "https://en.wikipedia.org/wiki/The_Social_Network",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/social-network-movie-2010.jpg",
@@ -376,11 +372,11 @@
     ],
     "sources": [
       {
-        "title": "Bitcoin Pizza Day",
+        "title": "Wikipedia: Bitcoin Pizza Day",
         "url": "https://en.wikipedia.org/wiki/Bitcoin_Pizza_Day",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/bitcoin-2010.png",
@@ -418,11 +414,11 @@
     ],
     "sources": [
       {
-        "title": "iPhone 4 Antennagate",
+        "title": "Wikipedia: iPhone 4",
         "url": "https://en.wikipedia.org/wiki/iPhone_4#Antenna_issues",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/apple-antenna-2010.png",
@@ -445,8 +441,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "iPad (1st generation) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/IPad_(1st_generation)"
+        "title": "Wikipedia: IPad (1st generation)",
+        "url": "https://en.wikipedia.org/wiki/IPad_(1st_generation)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/ipad-1st-gen.png",
@@ -469,8 +467,10 @@
     "nostalgia": 2,
     "sources": [
       {
-        "title": "Deepwater Horizon oil spill - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill"
+        "title": "Wikipedia: Deepwater Horizon oil spill",
+        "url": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/deepwater-horizon-haiti-2010.jpg",
@@ -493,8 +493,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Teenage Dream (Katy Perry album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Teenage_Dream_(Katy_Perry_album)"
+        "title": "Wikipedia: Teenage Dream (Katy Perry album)",
+        "url": "https://en.wikipedia.org/wiki/Teenage_Dream_(Katy_Perry_album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2010/katy-perry-teenage-dream-2010.jpg",

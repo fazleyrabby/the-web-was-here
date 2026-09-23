@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Java (programming language)",
+        "title": "Wikipedia: Java (programming language)",
         "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/java-launch-1995.png",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "Internet Explorer",
+        "title": "Wikipedia: Internet Explorer",
         "url": "https://en.wikipedia.org/wiki/Internet_Explorer",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/internet-explorer-1995.png",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Netscape",
+        "title": "Wikipedia: Netscape",
         "url": "https://en.wikipedia.org/wiki/Netscape",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/netscape-ipo-1995.jpg",
@@ -132,7 +132,6 @@
     "id": "geocities-launch-1995",
     "title": "GeoCities Launches",
     "year": 1995,
-    "date": "1995-10-01",
     "category": [
       "web",
       "culture"
@@ -161,11 +160,11 @@
     ],
     "sources": [
       {
-        "title": "GeoCities",
+        "title": "Wikipedia: GeoCities",
         "url": "https://en.wikipedia.org/wiki/GeoCities",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/geocities-launch-1995.png",
@@ -205,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "AltaVista",
+        "title": "Wikipedia: AltaVista",
         "url": "https://en.wikipedia.org/wiki/AltaVista",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/altavista-launch-1995.png",
@@ -249,11 +248,11 @@
     ],
     "sources": [
       {
-        "title": "ICQ",
+        "title": "Wikipedia: ICQ",
         "url": "https://en.wikipedia.org/wiki/ICQ",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/icq-launch-1996-preview.png",
@@ -292,11 +291,11 @@
     ],
     "sources": [
       {
-        "title": "Windows 95",
+        "title": "Wikipedia: Windows 95",
         "url": "https://en.wikipedia.org/wiki/Windows_95",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/windows-95-launch-1995.jpg",
@@ -335,11 +334,11 @@
     ],
     "sources": [
       {
-        "title": "HTML",
+        "title": "Wikipedia: HTML",
         "url": "https://en.wikipedia.org/wiki/HTML",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/html-2_0-1995.png",
@@ -349,7 +348,6 @@
     "id": "yahoo-ipo-1996-preview",
     "title": "Yahoo! Directory Dominates",
     "year": 1995,
-    "date": "1995-03-01",
     "category": [
       "search",
       "business"
@@ -378,11 +376,11 @@
     ],
     "sources": [
       {
-        "title": "Yahoo!",
+        "title": "Wikipedia: Yahoo!",
         "url": "https://en.wikipedia.org/wiki/Yahoo!",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/yahoo-ipo-1996-preview.png",
@@ -405,8 +403,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Toy Story - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Toy_Story"
+        "title": "Wikipedia: Toy Story",
+        "url": "https://en.wikipedia.org/wiki/Toy_Story",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/toy-story-pixar-cgi-1995.png",
@@ -429,8 +429,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "eBay - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/EBay"
+        "title": "Wikipedia: EBay",
+        "url": "https://en.wikipedia.org/wiki/EBay",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/ebay-auctionweb-founded-1995.png",
@@ -453,8 +455,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Jagged Little Pill - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Jagged_Little_Pill"
+        "title": "Wikipedia: Jagged Little Pill",
+        "url": "https://en.wikipedia.org/wiki/Jagged_Little_Pill",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1995/alanis-morissette-jagged-little-pill-1995.jpg",

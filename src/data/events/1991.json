@@ -29,11 +29,11 @@
     ],
     "sources": [
       {
-        "title": "World Wide Web - Wikipedia",
+        "title": "Wikipedia: World Wide Web",
         "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/world-wide-web-public-1991.png",
@@ -69,11 +69,11 @@
     ],
     "sources": [
       {
-        "title": "Linux - Wikipedia",
+        "title": "Wikipedia: Linux",
         "url": "https://en.wikipedia.org/wiki/Linux",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/linux-kernel-released-1991.png",
@@ -109,11 +109,11 @@
     ],
     "sources": [
       {
-        "title": "Trojan Room coffee pot - Wikipedia",
+        "title": "Wikipedia: Trojan Room coffee pot",
         "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/first-webcam-1991.png",
@@ -123,7 +123,6 @@
     "id": "first-web-server-outside-cern-1991",
     "title": "First Web Server Outside CERN",
     "year": 1991,
-    "date": "1991-03-01",
     "category": [
       "hardware",
       "standards"
@@ -149,11 +148,11 @@
     ],
     "sources": [
       {
-        "title": "History of the World Wide Web - Wikipedia",
+        "title": "Wikipedia: History of the World Wide Web",
         "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/first-web-server-outside-cern-1991.png",
@@ -163,7 +162,6 @@
     "id": "commodore-amiga-still-alive-1991",
     "title": "Commodore Amiga 3000 Released",
     "year": 1991,
-    "date": "1991-04-01",
     "category": [
       "hardware",
       "multimedia"
@@ -188,100 +186,20 @@
     ],
     "sources": [
       {
-        "title": "Amiga 3000 - Wikipedia",
+        "title": "Wikipedia: Amiga 3000",
         "url": "https://en.wikipedia.org/wiki/Amiga_3000",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/commodore-amiga-still-alive-1991.jpg",
     "image_caption": "Commodore released the Amiga 3000, a powerful multimedia computer that influenced early digital video and graphics."
   },
   {
-    "id": "pdf-format-standardized-1991",
-    "title": "PDF Format Introduced by Adobe",
-    "year": 1991,
-    "date": "1991-01-01",
-    "category": [
-      "software",
-      "standards"
-    ],
-    "type": "launch",
-    "summary": "Adobe introduced the Portable Document Format (PDF), enabling documents to be shared across platforms.",
-    "narrative": "Before PDF, sharing a document between a Mac and a PC meant dealing with formatting nightmares. Adobe's Portable Document Format promised to look the same on any screen\u2014a revolutionary idea in an era of incompatible systems. While it would take years for PDF to become ubiquitous, this was the beginning of digital document standardization that would transform business and publishing.",
-    "why_it_matters": "PDF became the universal standard for sharing documents, transforming paper-based workflows into digital ones.",
-    "impact": 4,
-    "nostalgia": 3,
-    "influence": [
-      "acrobat-reader-free-1993"
-    ],
-    "tags": [
-      "pdf",
-      "adobe",
-      "document",
-      "format"
-    ],
-    "region": [
-      "usa"
-    ],
-    "sources": [
-      {
-        "title": "Portable Document Format - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Portable_Document_Format",
-        "type": "primary",
-        "accessed": "2026-09-15",
-        "confidence": "high"
-      }
-    ],
-    "image": "/images/events/1991/pdf-format-standardized-1991.png",
-    "image_caption": "Adobe introduced the Portable Document Format (PDF), enabling documents to be shared across platforms."
-  },
-  {
-    "id": "microsoft-activex-1991",
-    "title": "Microsoft Begins ActiveX Development",
-    "year": 1991,
-    "date": "1991-06-01",
-    "category": [
-      "software",
-      "business"
-    ],
-    "type": "innovation",
-    "summary": "Microsoft began work on what would become ActiveX, their technology for interactive web content.",
-    "narrative": "As the web began to gain momentum, Microsoft started developing technologies to bring interactivity to web pages. ActiveX, which would eventually debut in 1996, was their answer to Java applets. This early work signaled Microsoft's recognition that the web would be important\u2014and their determination to control how it worked on Windows.",
-    "why_it_matters": "This marked Microsoft's early engagement with web technologies, foreshadowing the browser wars to come.",
-    "impact": 3,
-    "nostalgia": 3,
-    "influence": [
-      "internet-explorer-1995",
-      "browser-wars-1998"
-    ],
-    "tags": [
-      "microsoft",
-      "activex",
-      "interactive",
-      "web"
-    ],
-    "region": [
-      "usa"
-    ],
-    "sources": [
-      {
-        "title": "ActiveX - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/ActiveX",
-        "type": "primary",
-        "accessed": "2026-09-15",
-        "confidence": "high"
-      }
-    ],
-    "image": "/images/events/1991/microsoft-activex-1991.png",
-    "image_caption": "Microsoft began work on what would become ActiveX, their technology for interactive web content."
-  },
-  {
     "id": "aol-free-trial-disk-1991",
     "title": "AOL Distributes Free Trial Disks",
     "year": 1991,
-    "date": "1991-01-01",
     "category": [
       "business",
       "communication"
@@ -307,11 +225,11 @@
     ],
     "sources": [
       {
-        "title": "America Online - Wikipedia",
+        "title": "Wikipedia: America Online",
         "url": "https://en.wikipedia.org/wiki/America_Online",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/aol-free-trial-disk-1991.png",
@@ -347,11 +265,11 @@
     ],
     "sources": [
       {
-        "title": "Domain Name System - Wikipedia",
+        "title": "Wikipedia: Domain Name System",
         "url": "https://en.wikipedia.org/wiki/Domain_Name_System",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/first-domain-names-registered-1991.png",
@@ -374,8 +292,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Nevermind - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nevermind"
+        "title": "Wikipedia: Nevermind",
+        "url": "https://en.wikipedia.org/wiki/Nevermind",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/nirvana-nevermind-grunge-1991.png",
@@ -398,8 +318,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Super Nintendo Entertainment System - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System"
+        "title": "Wikipedia: Super Nintendo Entertainment System",
+        "url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/snes-console.png",
@@ -422,8 +344,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Dissolution of the Soviet Union - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+        "title": "Wikipedia: Dissolution of the Soviet Union",
+        "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1991/ussr-dissolution-desert-storm-1991.png",

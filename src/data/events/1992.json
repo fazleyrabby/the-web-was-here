@@ -29,11 +29,11 @@
     ],
     "sources": [
       {
-        "title": "NCSA Mosaic - Wikipedia",
+        "title": "Wikipedia: NCSA Mosaic",
         "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/mosaic-browser-beta-1992.png",
@@ -43,7 +43,6 @@
     "id": "first-online-bookstore-1992",
     "title": "Early Online Bookstores Emerge",
     "year": 1992,
-    "date": "1992-03-01",
     "category": [
       "business",
       "e-commerce"
@@ -69,11 +68,11 @@
     ],
     "sources": [
       {
-        "title": "E-commerce - Wikipedia",
+        "title": "Wikipedia: E-commerce",
         "url": "https://en.wikipedia.org/wiki/E-commerce",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/first-online-bookstore-1992.jpg",
@@ -109,11 +108,11 @@
     ],
     "sources": [
       {
-        "title": "History of the World Wide Web - Wikipedia",
+        "title": "Wikipedia: History of the World Wide Web",
         "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/early-web-growth-1992.png",
@@ -123,7 +122,6 @@
     "id": "gopher-protocol-1992",
     "title": "Gopher Protocol Peaks in Popularity",
     "year": 1992,
-    "date": "1992-01-01",
     "category": [
       "software",
       "standards"
@@ -149,11 +147,11 @@
     ],
     "sources": [
       {
-        "title": "Gopher (protocol) - Wikipedia",
+        "title": "Wikipedia: Gopher (protocol)",
         "url": "https://en.wikipedia.org/wiki/Gopher_(protocol)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/gopher-protocol-1992.png",
@@ -163,7 +161,6 @@
     "id": "first-graphics-web-browser-1992",
     "title": "ViolaWWW: First Graphical Web Browser",
     "year": 1992,
-    "date": "1992-04-01",
     "category": [
       "software",
       "browser"
@@ -189,11 +186,11 @@
     ],
     "sources": [
       {
-        "title": "ViolaWWW - Wikipedia",
+        "title": "Wikipedia: ViolaWWW",
         "url": "https://en.wikipedia.org/wiki/ViolaWWW",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/first-graphics-web-browser-1992.png",
@@ -229,11 +226,11 @@
     ],
     "sources": [
       {
-        "title": "JPEG - Wikipedia",
+        "title": "Wikipedia: JPEG",
         "url": "https://en.wikipedia.org/wiki/JPEG",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/jpeg-format-created-1992.jpg",
@@ -243,7 +240,6 @@
     "id": "veronica-gopher-search-1992",
     "title": "Veronica Search Engine for Gopher",
     "year": 1992,
-    "date": "1992-02-01",
     "category": [
       "search",
       "software"
@@ -269,11 +265,11 @@
     ],
     "sources": [
       {
-        "title": "Veronica (search engine) - Wikipedia",
+        "title": "Wikipedia: Veronica (search engine)",
         "url": "https://en.wikipedia.org/wiki/Veronica_(search_engine)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/veronica-gopher-search-1992.png",
@@ -283,7 +279,6 @@
     "id": "first-credit-card-online-1992",
     "title": "First Online Credit Card Transaction",
     "year": 1992,
-    "date": "1992-08-01",
     "category": [
       "business",
       "e-commerce",
@@ -310,11 +305,11 @@
     ],
     "sources": [
       {
-        "title": "E-commerce - Wikipedia",
+        "title": "Wikipedia: E-commerce",
         "url": "https://en.wikipedia.org/wiki/E-commerce",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/first-credit-card-online-1992.jpg",
@@ -324,7 +319,6 @@
     "id": "compu-serv-graphics-1992",
     "title": "CompuServe Introduces Graphics Forum",
     "year": 1992,
-    "date": "1992-06-01",
     "category": [
       "media",
       "social"
@@ -350,11 +344,11 @@
     ],
     "sources": [
       {
-        "title": "CompuServe - Wikipedia",
+        "title": "Wikipedia: CompuServe",
         "url": "https://en.wikipedia.org/wiki/CompuServe",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/compu-serv-graphics-1992.jpg",
@@ -377,8 +371,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "SMS - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/SMS"
+        "title": "Wikipedia: SMS",
+        "url": "https://en.wikipedia.org/wiki/SMS",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/first-sms-text-message-1992.jpg",
@@ -401,8 +397,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "The Chronic - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/The_Chronic"
+        "title": "Wikipedia: The Chronic",
+        "url": "https://en.wikipedia.org/wiki/The_Chronic",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/dr-dre-the-chronic-gfunk-1992.jpeg",
@@ -425,8 +423,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "1992 Los Angeles riots - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots"
+        "title": "Wikipedia: 1992 Los Angeles riots",
+        "url": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1992/la-riots-and-clinton-1992.jpg",

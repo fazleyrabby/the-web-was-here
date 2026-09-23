@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Ice Bucket Challenge - Wikipedia",
+        "title": "Wikipedia: Ice Bucket Challenge",
         "url": "https://en.wikipedia.org/wiki/Ice_Bucket_Challenge",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/ice-bucket-challenge-2014.jpg",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "WhatsApp acquisition by Facebook - Wikipedia",
+        "title": "Wikipedia: WhatsApp",
         "url": "https://en.wikipedia.org/wiki/WhatsApp#Acquisition_by_Facebook",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/whatsapp-facebook-acquisition-2014.png",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Twitch - Wikipedia",
+        "title": "Wikipedia: Twitch",
         "url": "https://en.wikipedia.org/wiki/Twitch",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/twitch-amazon-acquisition-2014.png",
@@ -161,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "Heartbleed - Wikipedia",
+        "title": "Wikipedia: Heartbleed",
         "url": "https://en.wikipedia.org/wiki/Heartbleed",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/heartbleed-2014.png",
@@ -204,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "Mt. Gox - Wikipedia",
+        "title": "Wikipedia: Mt. Gox",
         "url": "https://en.wikipedia.org/wiki/Mt._Gox",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/bitcoin-decline-2014.png",
@@ -218,7 +218,6 @@
     "id": "net-neutrality-debate-2014",
     "title": "Net Neutrality Debate Heats Up",
     "year": 2014,
-    "date": "2014-01-01",
     "category": [
       "standards",
       "business"
@@ -247,11 +246,11 @@
     ],
     "sources": [
       {
-        "title": "Net neutrality in the United States - Wikipedia",
+        "title": "Wikipedia: Net neutrality in the United States",
         "url": "https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/net-neutrality-debate-2014.jpg",
@@ -290,11 +289,11 @@
     ],
     "sources": [
       {
-        "title": "2014 celebrity photo hack - Wikipedia",
+        "title": "Wikipedia: 2014 celebrity photo hack",
         "url": "https://en.wikipedia.org/wiki/2014_celebrity_photo_hack",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/fappening-2014.jpg",
@@ -304,7 +303,6 @@
     "id": "uber-global-expansion-2014",
     "title": "Uber's Global Expansion",
     "year": 2014,
-    "date": "2014-01-01",
     "category": [
       "business",
       "culture"
@@ -333,11 +331,11 @@
     ],
     "sources": [
       {
-        "title": "Uber - Wikipedia",
+        "title": "Wikipedia: Uber",
         "url": "https://en.wikipedia.org/wiki/Uber",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/uber-global-expansion-2014.jpg",
@@ -347,7 +345,6 @@
     "id": "ebola-social-media-2014",
     "title": "Ebola Outbreak Social Media Response",
     "year": 2014,
-    "date": "2014-03-01",
     "category": [
       "social",
       "culture"
@@ -376,11 +373,11 @@
     ],
     "sources": [
       {
-        "title": "West African Ebola epidemic - Wikipedia",
+        "title": "Wikipedia: West African Ebola virus epidemic",
         "url": "https://en.wikipedia.org/wiki/West_African_Ebola_virus_epidemic",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/ebola-social-media-2014.png",
@@ -390,7 +387,6 @@
     "id": "flappy-bird-2014",
     "title": "Flappy Bird Phenomenon",
     "year": 2014,
-    "date": "2014-01-01",
     "category": [
       "gaming",
       "culture"
@@ -419,11 +415,11 @@
     ],
     "sources": [
       {
-        "title": "Flappy Bird - Wikipedia",
+        "title": "Wikipedia: Flappy Bird",
         "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/flappy-bird-2014.png",
@@ -446,8 +442,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "1989 (Taylor Swift album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)"
+        "title": "Wikipedia: 1989 (Taylor Swift album)",
+        "url": "https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/taylor-swift-1989-pop-transition-2014.jpg",
@@ -470,8 +468,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Normcore - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Normcore"
+        "title": "Wikipedia: Normcore",
+        "url": "https://en.wikipedia.org/wiki/Normcore",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/normcore-fashion-movement-2014.jpg",
@@ -494,8 +494,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "iPhone 6 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/IPhone_6"
+        "title": "Wikipedia: IPhone 6",
+        "url": "https://en.wikipedia.org/wiki/IPhone_6",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2014/iphone-6-bendgate-2014.png",

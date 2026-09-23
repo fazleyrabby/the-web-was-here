@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Bitcoin: Genesis Block",
+        "title": "Wikipedia: Genesis block",
         "url": "https://en.wikipedia.org/wiki/Genesis_block",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/bitcoin-genesis-block-2009.jpg",
@@ -47,7 +47,6 @@
     "id": "whatsapp-launch-2009",
     "title": "WhatsApp Launches",
     "year": 2009,
-    "date": "2009-01-01",
     "category": [
       "communication",
       "software"
@@ -76,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "WhatsApp: History",
+        "title": "Wikipedia: WhatsApp",
         "url": "https://en.wikipedia.org/wiki/WhatsApp",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/whatsapp-launch-2009.png",
@@ -120,11 +119,11 @@
     ],
     "sources": [
       {
-        "title": "Spotify: Global Expansion",
+        "title": "Wikipedia: Spotify",
         "url": "https://en.wikipedia.org/wiki/Spotify",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/spotify-us-launch-2009.jpg",
@@ -165,11 +164,11 @@
     ],
     "sources": [
       {
-        "title": "4G: History and Deployment",
+        "title": "Wikipedia: 4G",
         "url": "https://en.wikipedia.org/wiki/4G",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/4g-lte-launch-2009.png",
@@ -179,7 +178,6 @@
     "id": "uber-founding-2009",
     "title": "Uber Is Founded",
     "year": 2009,
-    "date": "2009-03-01",
     "category": [
       "business",
       "software"
@@ -210,11 +208,11 @@
     ],
     "sources": [
       {
-        "title": "Uber: Founding and History",
+        "title": "Wikipedia: Uber",
         "url": "https://en.wikipedia.org/wiki/Uber",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/uber-founding-2009.jpg",
@@ -253,11 +251,11 @@
     ],
     "sources": [
       {
-        "title": "Angry Birds: History",
+        "title": "Wikipedia: Angry Birds",
         "url": "https://en.wikipedia.org/wiki/Angry_Birds",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/angry-birds-2009.jpg",
@@ -296,11 +294,11 @@
     ],
     "sources": [
       {
-        "title": "Google Wave: Rise and Fall",
+        "title": "Wikipedia: Google Wave",
         "url": "https://en.wikipedia.org/wiki/Google_Wave",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/google-wave-2009.png",
@@ -310,7 +308,6 @@
     "id": "tweetdeck-2009",
     "title": "TweetDeck Becomes Essential",
     "year": 2009,
-    "date": "2009-03-01",
     "category": [
       "software",
       "social"
@@ -339,11 +336,11 @@
     ],
     "sources": [
       {
-        "title": "TweetDeck: History",
+        "title": "Wikipedia: TweetDeck",
         "url": "https://en.wikipedia.org/wiki/TweetDeck",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/tweetdeck-2009.png",
@@ -366,8 +363,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Death of Michael Jackson - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson"
+        "title": "Wikipedia: Death of Michael Jackson",
+        "url": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/michael-jackson-death-internet-crash-2009.jpg",
@@ -390,8 +389,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "2009 MTV Video Music Awards - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2009_MTV_Video_Music_Awards"
+        "title": "Wikipedia: 2009 MTV Video Music Awards",
+        "url": "https://en.wikipedia.org/wiki/2009_MTV_Video_Music_Awards",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/kanye-taylor-vma-interruption-2009.jpg",
@@ -414,8 +415,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Avatar (2009 film) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+        "title": "Wikipedia: Avatar (2009 film)",
+        "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2009/avatar-3d-cinema-revolution-2009.jpg",

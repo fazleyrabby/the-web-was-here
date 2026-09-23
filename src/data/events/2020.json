@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Zoom: 30x Growth in a Few Months",
+        "title": "Wikipedia: Zoom (software)",
         "url": "https://en.wikipedia.org/wiki/Zoom_(software)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "title": "Zoom Q1 Earnings 2020",
@@ -84,7 +84,7 @@
       {
         "title": "The Remote Work Revolution",
         "url": "https://techcrunch.com/2020/03/06/as-coronavirus-pandemic-spreads-demand-for-remote-work-startups-spikes/",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
         "confidence": "high"
       }
@@ -126,11 +126,11 @@
     ],
     "sources": [
       {
-        "title": "Clubhouse: The Full Story",
+        "title": "Wikipedia: Clubhouse (app)",
         "url": "https://en.wikipedia.org/wiki/Clubhouse_(app)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/clubhouse-2020.png",
@@ -140,7 +140,6 @@
     "id": "tiktok-explosion-2020",
     "title": "TikTok Becomes the Most Downloaded App",
     "year": 2020,
-    "date": "2020-04-01",
     "category": [
       "social",
       "entertainment"
@@ -169,11 +168,11 @@
     ],
     "sources": [
       {
-        "title": "TikTok: The Pandemic Platform",
+        "title": "Wikipedia: TikTok",
         "url": "https://en.wikipedia.org/wiki/TikTok",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/tiktok-explosion-2020.png",
@@ -212,11 +211,11 @@
     ],
     "sources": [
       {
-        "title": "The Pandemic Internet",
+        "title": "Wikipedia: TikTok",
         "url": "https://en.wikipedia.org/wiki/TikTok",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/stimulus-check-memes-2020.jpg",
@@ -255,11 +254,11 @@
     ],
     "sources": [
       {
-        "title": "PS5 Launch and the Chip Shortage",
+        "title": "Wikipedia: PlayStation 5",
         "url": "https://en.wikipedia.org/wiki/PlayStation_5",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/ps5-xsx-launch-2020.png",
@@ -298,11 +297,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Silicon: The M1 Revolution",
+        "title": "Wikipedia: Apple M1",
         "url": "https://en.wikipedia.org/wiki/Apple_M1",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/apple-silicon-2020.jpg",
@@ -341,11 +340,11 @@
     ],
     "sources": [
       {
-        "title": "DoorDash IPO",
+        "title": "Wikipedia: DoorDash",
         "url": "https://en.wikipedia.org/wiki/DoorDash",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/doordash-ipo-2020.png",
@@ -384,11 +383,11 @@
     ],
     "sources": [
       {
-        "title": "SpaceX Crew Dragon: The Mission",
+        "title": "Wikipedia: Crew Dragon Demo-2",
         "url": "https://en.wikipedia.org/wiki/Crew_Dragon_Demo-2",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/spacex-crew-dragon-2020.jpg",
@@ -398,7 +397,6 @@
     "id": "robinhood-gamestop-2020",
     "title": "Robinhood and the Meme Stock Prelude",
     "year": 2020,
-    "date": "2020-12-01",
     "category": [
       "business",
       "viral-culture"
@@ -427,11 +425,11 @@
     ],
     "sources": [
       {
-        "title": "Robinhood: The App That Changed Trading",
+        "title": "Wikipedia: Robinhood (company)",
         "url": "https://en.wikipedia.org/wiki/Robinhood_(company)",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/robinhood-gamestop-2020.png",
@@ -454,8 +452,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Animal Crossing: New Horizons - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons"
+        "title": "Wikipedia: Animal Crossing: New Horizons",
+        "url": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/animal-crossing-lockdown-comfort-2020.jpg",
@@ -478,8 +478,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Blinding Lights - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Blinding_Lights"
+        "title": "Wikipedia: Blinding Lights",
+        "url": "https://en.wikipedia.org/wiki/Blinding_Lights",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/the-weeknd-blinding-lights-2020.jpg",
@@ -489,7 +491,6 @@
     "id": "cottagecore-sweatpants-lockdown-fashion-2020",
     "title": "Cottagecore, DIY Tie-Dye & The Great Sweatpants Era",
     "year": 2020,
-    "date": "2020-05-01",
     "category": [
       "fashion",
       "culture"
@@ -502,8 +503,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Cottagecore - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Cottagecore"
+        "title": "Wikipedia: Cottagecore",
+        "url": "https://en.wikipedia.org/wiki/Cottagecore",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2020/cottagecore-sweatpants-lockdown-fashion-2020.jpg",

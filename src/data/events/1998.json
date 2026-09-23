@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "The Browser Wars",
+        "title": "Wikipedia: Browser wars",
         "url": "https://en.wikipedia.org/wiki/Browser_wars",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/ie-wins-browser-war-1998.png",
@@ -120,11 +120,11 @@
     ],
     "sources": [
       {
-        "title": "Amazon.com History",
+        "title": "Wikipedia: History of Amazon",
         "url": "https://en.wikipedia.org/wiki/History_of_Amazon",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/amazon-ebay-growth-1998.jpg",
@@ -163,11 +163,11 @@
     ],
     "sources": [
       {
-        "title": "United States v. Microsoft Corp.",
+        "title": "Wikipedia: United States v. Microsoft Corp.",
         "url": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/microsoft-antitrust-1998.png",
@@ -177,7 +177,6 @@
     "id": "icq-aim-1998",
     "title": "IM Wars: ICQ vs AIM",
     "year": 1998,
-    "date": "1998-01-01",
     "category": [
       "communication",
       "software"
@@ -206,11 +205,11 @@
     ],
     "sources": [
       {
-        "title": "The Golden Age of Instant Messaging",
+        "title": "Wikipedia: Instant messaging",
         "url": "https://en.wikipedia.org/wiki/Instant_messaging",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/icq-aim-1998.png",
@@ -220,7 +219,6 @@
     "id": "mp3-napster-1998",
     "title": "MP3 and the Napster Prelude",
     "year": 1998,
-    "date": "1998-01-01",
     "category": [
       "entertainment",
       "software"
@@ -249,11 +247,11 @@
     ],
     "sources": [
       {
-        "title": "MP3: The Definitive Source",
+        "title": "Wikipedia: MP3",
         "url": "https://en.wikipedia.org/wiki/MP3",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/mp3-napster-1998.png",
@@ -263,7 +261,6 @@
     "id": "geocities-peak-1998",
     "title": "GeoCities Peak and the Personal Web",
     "year": 1998,
-    "date": "1998-01-01",
     "category": [
       "web",
       "design"
@@ -292,11 +289,11 @@
     ],
     "sources": [
       {
-        "title": "GeoCities: A History",
+        "title": "Wikipedia: GeoCities",
         "url": "https://en.wikipedia.org/wiki/GeoCities",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/geocities-peak-1998.png",
@@ -306,7 +303,6 @@
     "id": "aol-digital-city-1998",
     "title": "AOL Dominates ISP Market",
     "year": 1998,
-    "date": "1998-01-01",
     "category": [
       "business",
       "communication"
@@ -335,11 +331,11 @@
     ],
     "sources": [
       {
-        "title": "AOL: The Rise and Fall",
+        "title": "Wikipedia: AOL",
         "url": "https://en.wikipedia.org/wiki/AOL",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/aol-digital-city-1998.png",
@@ -349,7 +345,6 @@
     "id": "real-audio-1998",
     "title": "RealAudio Streaming",
     "year": 1998,
-    "date": "1998-01-01",
     "category": [
       "entertainment",
       "software"
@@ -378,11 +373,11 @@
     ],
     "sources": [
       {
-        "title": "RealNetworks History",
+        "title": "Wikipedia: RealNetworks",
         "url": "https://en.wikipedia.org/wiki/RealNetworks",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/real-audio-1998.jpg",
@@ -448,8 +443,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "iMac G3 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/IMac_G3"
+        "title": "Wikipedia: IMac G3",
+        "url": "https://en.wikipedia.org/wiki/IMac_G3",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/imac-g3-bondi.png",
@@ -473,8 +470,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Pokmon Red and Blue - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+        "title": "Wikipedia: Pok\u00e9mon Red and Blue",
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/pokemon-red-blue-craze-1998.jpg",
@@ -497,8 +496,10 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Drudge Report - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Drudge_Report"
+        "title": "Wikipedia: Drudge Report",
+        "url": "https://en.wikipedia.org/wiki/Drudge_Report",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1998/drudge-report-breaks-lewinsky-1998.jpg",

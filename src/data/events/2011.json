@@ -31,11 +31,11 @@
     ],
     "sources": [
       {
-        "title": "Google+ on Wikipedia",
+        "title": "Wikipedia: Google+",
         "url": "https://en.wikipedia.org/wiki/Google%2B",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/google-plus-launch-2011.jpg",
@@ -74,11 +74,11 @@
     ],
     "sources": [
       {
-        "title": "Instagram - Wikipedia",
+        "title": "Wikipedia: Instagram",
         "url": "https://en.wikipedia.org/wiki/Instagram",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/instagram-1m-users-2011.png",
@@ -88,7 +88,6 @@
     "id": "snapchat-launch-2011",
     "title": "Snapchat Launches",
     "year": 2011,
-    "date": "2011-09-01",
     "category": [
       "social",
       "communication"
@@ -117,11 +116,11 @@
     ],
     "sources": [
       {
-        "title": "Snapchat - Wikipedia",
+        "title": "Wikipedia: Snapchat",
         "url": "https://en.wikipedia.org/wiki/Snapchat",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/snapchat-launch-2011.png",
@@ -131,7 +130,6 @@
     "id": "icq-shutdown-2011",
     "title": "ICQ Shuts Down",
     "year": 2011,
-    "date": "2011-03-01",
     "category": [
       "communication",
       "culture"
@@ -159,11 +157,11 @@
     ],
     "sources": [
       {
-        "title": "ICQ - Wikipedia",
+        "title": "Wikipedia: ICQ",
         "url": "https://en.wikipedia.org/wiki/ICQ",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/icq-shutdown-2011.png",
@@ -201,11 +199,11 @@
     ],
     "sources": [
       {
-        "title": "Kindle Fire - Wikipedia",
+        "title": "Wikipedia: Kindle Fire",
         "url": "https://en.wikipedia.org/wiki/Kindle_Fire",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/kindle-fire-2011.png",
@@ -245,11 +243,11 @@
     ],
     "sources": [
       {
-        "title": "Occupy Wall Street - Wikipedia",
+        "title": "Wikipedia: Occupy Wall Street",
         "url": "https://en.wikipedia.org/wiki/Occupy_Wall_Street",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/occupy-wall-street-2011.jpg",
@@ -288,11 +286,11 @@
     ],
     "sources": [
       {
-        "title": "HTML5 - Wikipedia",
+        "title": "Wikipedia: HTML5",
         "url": "https://en.wikipedia.org/wiki/HTML5",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/html5-finalized-2011.png",
@@ -331,11 +329,11 @@
     ],
     "sources": [
       {
-        "title": "Spotify - Wikipedia",
+        "title": "Wikipedia: Spotify",
         "url": "https://en.wikipedia.org/wiki/Spotify",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/spotify-us-launch-2011.jpg",
@@ -375,11 +373,11 @@
     ],
     "sources": [
       {
-        "title": "Qwikster - Wikipedia",
+        "title": "Wikipedia: Qwikster",
         "url": "https://en.wikipedia.org/wiki/Qwikster",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/netflix-dvd-split-2011.png",
@@ -418,11 +416,11 @@
     ],
     "sources": [
       {
-        "title": "Arab Spring - Wikipedia",
+        "title": "Wikipedia: Arab Spring",
         "url": "https://en.wikipedia.org/wiki/Arab_Spring",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/arab-spring-twitter-2011.jpg",
@@ -445,8 +443,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Steve Jobs - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Steve_Jobs"
+        "title": "Wikipedia: Steve Jobs",
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/death-of-steve-jobs-2011.jpg",
@@ -469,8 +469,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "21 (Adele album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/21_(Adele_album)"
+        "title": "Wikipedia: 21 (Adele album)",
+        "url": "https://en.wikipedia.org/wiki/21_(Adele_album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/adele-21-global-phenomenon-2011.jpg",
@@ -493,8 +495,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "iMessage - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/IMessage"
+        "title": "Wikipedia: IMessage",
+        "url": "https://en.wikipedia.org/wiki/IMessage",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2011/imessage-blue-bubbles-2011.png",

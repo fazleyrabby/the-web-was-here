@@ -31,11 +31,11 @@
     ],
     "sources": [
       {
-        "title": "Netscape",
+        "title": "Wikipedia: Netscape",
         "url": "https://en.wikipedia.org/wiki/Netscape",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/netscape-founded-1994.png",
@@ -73,11 +73,11 @@
     ],
     "sources": [
       {
-        "title": "Web banner",
+        "title": "Wikipedia: Web banner",
         "url": "https://en.wikipedia.org/wiki/Web_banner",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/first-banner-ad-1994.jpg",
@@ -87,7 +87,6 @@
     "id": "yahoo-founded-1994",
     "title": "Yahoo! Founded",
     "year": 1994,
-    "date": "1994-01-01",
     "category": [
       "search",
       "business",
@@ -115,11 +114,11 @@
     ],
     "sources": [
       {
-        "title": "Yahoo!",
+        "title": "Wikipedia: Yahoo!",
         "url": "https://en.wikipedia.org/wiki/Yahoo!",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/yahoo-founded-1994.jpg",
@@ -129,7 +128,6 @@
     "id": "lycos-launch-1994",
     "title": "Lycos Search Engine Launches",
     "year": 1994,
-    "date": "1994-05-01",
     "category": [
       "search",
       "software"
@@ -156,11 +154,11 @@
     ],
     "sources": [
       {
-        "title": "Lycos",
+        "title": "Wikipedia: Lycos",
         "url": "https://en.wikipedia.org/wiki/Lycos",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/lycos-launch-1994.png",
@@ -170,7 +168,6 @@
     "id": "w3c-founded-1994",
     "title": "The W3C Is Founded",
     "year": 1994,
-    "date": "1994-10-01",
     "category": [
       "standards",
       "software"
@@ -197,11 +194,11 @@
     ],
     "sources": [
       {
-        "title": "World Wide Web Consortium",
+        "title": "Wikipedia: World Wide Web Consortium",
         "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/w3c-founded-1994.png",
@@ -238,7 +235,7 @@
     ],
     "sources": [
       {
-        "title": "E-commerce",
+        "title": "Wikipedia: E-commerce",
         "url": "https://en.wikipedia.org/wiki/E-commerce",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -280,11 +277,11 @@
     ],
     "sources": [
       {
-        "title": "HotWired",
+        "title": "Wikipedia: HotWired",
         "url": "https://en.wikipedia.org/wiki/HotWired",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/hotwired-launch-1994.jpg",
@@ -320,11 +317,11 @@
     ],
     "sources": [
       {
-        "title": "PHP",
+        "title": "Wikipedia: PHP",
         "url": "https://en.wikipedia.org/wiki/PHP",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/php-created-1994.png",
@@ -362,11 +359,11 @@
     ],
     "sources": [
       {
-        "title": "PlayStation (console)",
+        "title": "Wikipedia: PlayStation (console)",
         "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/playstation-launch-1994.png",
@@ -389,8 +386,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "PlayStation (console) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+        "title": "Wikipedia: PlayStation (console)",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/playstation-1.png",
@@ -413,8 +412,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "O.J. Simpson chase - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case"
+        "title": "Wikipedia: O. J. Simpson murder case",
+        "url": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/oj-simpson-chase-media-1994.png",
@@ -437,12 +438,16 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Illmatic - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Illmatic"
+        "title": "Wikipedia: Illmatic",
+        "url": "https://en.wikipedia.org/wiki/Illmatic",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Ready to Die - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Ready_to_Die"
+        "title": "Wikipedia: Ready to Die",
+        "url": "https://en.wikipedia.org/wiki/Ready_to_Die",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1994/hiphop-golden-illmatic-ready-to-die-1994.jpg",

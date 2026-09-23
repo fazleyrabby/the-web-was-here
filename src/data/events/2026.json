@@ -3,7 +3,6 @@
     "id": "ai-assistants-everywhere-2026",
     "title": "AI Assistants Are Everywhere",
     "year": 2026,
-    "date": "2026-01-15",
     "category": [
       "software",
       "culture",
@@ -30,7 +29,7 @@
     ],
     "sources": [
       {
-        "title": "Virtual assistant",
+        "title": "Wikipedia: Virtual assistant",
         "url": "https://en.wikipedia.org/wiki/Virtual_assistant",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -44,7 +43,6 @@
     "id": "agentic-web-2026",
     "title": "The Agentic Web",
     "year": 2026,
-    "date": "2026-02-20",
     "category": [
       "software",
       "business",
@@ -71,7 +69,7 @@
     ],
     "sources": [
       {
-        "title": "AI agent",
+        "title": "Wikipedia: AI agent",
         "url": "https://en.wikipedia.org/wiki/AI_agent",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -85,7 +83,6 @@
     "id": "ai-search-shift-2026",
     "title": "Search Becomes Answers",
     "year": 2026,
-    "date": "2026-03-10",
     "category": [
       "search",
       "media",
@@ -112,7 +109,7 @@
     ],
     "sources": [
       {
-        "title": "Search engine",
+        "title": "Wikipedia: Search engine",
         "url": "https://en.wikipedia.org/wiki/Search_engine",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -154,10 +151,10 @@
     ],
     "sources": [
       {
-        "title": "Artificial Intelligence Act",
-        "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
-        "type": "secondary",
-        "accessed": "2026-09-15",
+        "title": "European Commission: AI Act enforcement framework",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+        "type": "primary",
+        "accessed": "2026-09-23",
         "confidence": "high"
       }
     ],
@@ -166,18 +163,17 @@
   },
   {
     "id": "quantum-advantage-2026",
-    "title": "Quantum Computing Reaches Real Problems",
+    "title": "Quantum Computing Targets Useful Problems",
     "year": 2026,
-    "date": "2026-05-12",
     "category": [
       "hardware",
       "security",
       "standards"
     ],
-    "type": "technology_release",
-    "summary": "Quantum systems begin solving narrow but commercially useful problems, accelerating the race to post-quantum cryptography.",
-    "narrative": "Quantum computers stop being only a laboratory curiosity. In chemistry, logistics, and optimization, they start beating classical machines at tightly defined tasks. At the same time, the clock ticks louder on encryption, pushing the web toward new math designed to survive them.",
-    "why_it_matters": "Brings quantum from theory to practice and forces the web to migrate to post-quantum encryption.",
+    "type": "prediction",
+    "summary": "Researchers continue working toward practical quantum applications; broad commercial quantum advantage remains a goal.",
+    "narrative": "Quantum hardware and error correction continue to improve, but useful large-scale quantum computing remains an open research goal. The race also motivates work on post-quantum cryptography.",
+    "why_it_matters": "Progress in this area could eventually change computing and security, even while practical applications remain uncertain.",
     "impact": 4,
     "nostalgia": 1,
     "influence": [
@@ -195,7 +191,7 @@
     ],
     "sources": [
       {
-        "title": "Quantum computing",
+        "title": "Wikipedia: Quantum computing",
         "url": "https://en.wikipedia.org/wiki/Quantum_computing",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -209,7 +205,6 @@
     "id": "open-source-ai-frontier-2026",
     "title": "Open Models Close the Gap",
     "year": 2026,
-    "date": "2026-04-18",
     "category": [
       "software",
       "business",
@@ -236,7 +231,7 @@
     ],
     "sources": [
       {
-        "title": "Open-source artificial intelligence",
+        "title": "Wikipedia: Open-source artificial intelligence",
         "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -250,7 +245,6 @@
     "id": "spatial-computing-2026",
     "title": "Spatial Computing Grows Up",
     "year": 2026,
-    "date": "2026-06-05",
     "category": [
       "hardware",
       "culture",
@@ -277,7 +271,7 @@
     ],
     "sources": [
       {
-        "title": "Spatial computing",
+        "title": "Wikipedia: Spatial computing",
         "url": "https://en.wikipedia.org/wiki/Spatial_computing",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -291,13 +285,12 @@
     "id": "ambient-computing-2026",
     "title": "Computing Fades Into the Background",
     "year": 2026,
-    "date": "2026-07-22",
     "category": [
       "hardware",
       "culture",
       "software"
     ],
-    "type": "culture_moment",
+    "type": "prediction",
     "summary": "Sensors, wearables, and always-listening devices make computing ambient rather than something you sit down to do.",
     "narrative": "The screen was never the point, it was just the best interface we had. Now the house listens, the watch measures, the glasses annotate, and the assistant anticipates. Computing stops being a destination and becomes a layer over daily life \u2014 convenient, and a little unsettling.",
     "why_it_matters": "Continues the shift from devices you visit to an environment that surrounds you, raising new questions about privacy.",
@@ -318,7 +311,7 @@
     ],
     "sources": [
       {
-        "title": "Ambient intelligence",
+        "title": "Wikipedia: Ambient intelligence",
         "url": "https://en.wikipedia.org/wiki/Ambient_intelligence",
         "type": "secondary",
         "accessed": "2026-09-15",
@@ -332,7 +325,6 @@
     "id": "agentic-web-autonomous-action-2026",
     "title": "The Agentic Web: Autonomous AI Agents Transact and Navigate",
     "year": 2026,
-    "date": "2026-03-01",
     "category": [
       "web",
       "software"
@@ -345,8 +337,10 @@
     "nostalgia": 2,
     "sources": [
       {
-        "title": "World Wide Web - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+        "title": "Wikipedia: World Wide Web",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2026/agentic-web-autonomous-action-2026.png",
@@ -356,7 +350,6 @@
     "id": "cryptographic-human-content-authenticity-2026",
     "title": "Content Authenticity Standards (C2PA) & The 'Handmade' Renaissance",
     "year": 2026,
-    "date": "2026-06-15",
     "category": [
       "standards",
       "culture"
@@ -369,8 +362,10 @@
     "nostalgia": 3,
     "sources": [
       {
-        "title": "Coalition for Content Provenance and Authenticity - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Coalition_for_Content_Provenance_and_Authenticity"
+        "title": "Wikipedia: Coalition for Content Provenance and Authenticity",
+        "url": "https://en.wikipedia.org/wiki/Coalition_for_Content_Provenance_and_Authenticity",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2026/cryptographic-human-content-authenticity-2026.png",

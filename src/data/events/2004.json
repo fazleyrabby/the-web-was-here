@@ -15,7 +15,7 @@
     "impact": 5,
     "nostalgia": 5,
     "influence": [
-      "facebook-mainstream-2007",
+      "facebook-open-registration-2006",
       "social-media-dominance"
     ],
     "tags": [
@@ -30,11 +30,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook",
+        "title": "Wikipedia: Facebook",
         "url": "https://en.wikipedia.org/wiki/Facebook",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/facebook-launch-2004.png",
@@ -44,7 +44,6 @@
     "id": "gmail-launch-2004",
     "title": "Gmail Launches",
     "year": 2004,
-    "date": "2004-04-01",
     "category": [
       "communication",
       "software",
@@ -71,11 +70,11 @@
     ],
     "sources": [
       {
-        "title": "Gmail",
+        "title": "Wikipedia: Gmail",
         "url": "https://en.wikipedia.org/wiki/Gmail",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/gmail-launch-2004.png",
@@ -111,11 +110,11 @@
     ],
     "sources": [
       {
-        "title": "Firefox",
+        "title": "Wikipedia: Firefox",
         "url": "https://en.wikipedia.org/wiki/Firefox",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/firefox-1-0-2004.png",
@@ -152,11 +151,11 @@
     ],
     "sources": [
       {
-        "title": "World of Warcraft",
+        "title": "Wikipedia: World of Warcraft",
         "url": "https://en.wikipedia.org/wiki/World_of_Warcraft",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/world-of-warcraft-2004.jpg",
@@ -194,11 +193,11 @@
     ],
     "sources": [
       {
-        "title": "Google",
+        "title": "Wikipedia: Google",
         "url": "https://en.wikipedia.org/wiki/Google",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/google-ipo-2004.jpg",
@@ -235,11 +234,11 @@
     ],
     "sources": [
       {
-        "title": "Podcast",
+        "title": "Wikipedia: Podcast",
         "url": "https://en.wikipedia.org/wiki/Podcast",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/podcasting-term-2004.jpg",
@@ -249,7 +248,6 @@
     "id": "digg-launch-2004",
     "title": "Digg Launches",
     "year": 2004,
-    "date": "2004-11-01",
     "category": [
       "social",
       "media",
@@ -277,11 +275,11 @@
     ],
     "sources": [
       {
-        "title": "Digg",
+        "title": "Wikipedia: Digg",
         "url": "https://en.wikipedia.org/wiki/Digg",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/digg-launch-2004.png",
@@ -317,11 +315,11 @@
     ],
     "sources": [
       {
-        "title": "Ubuntu",
+        "title": "Wikipedia: Ubuntu",
         "url": "https://en.wikipedia.org/wiki/Ubuntu",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/ubuntu-first-release-2004.png",
@@ -345,7 +343,7 @@
     "nostalgia": 4,
     "influence": [
       "youtube-2005",
-      "facebook-mainstream-2007",
+      "facebook-open-registration-2006",
       "web2-design-2007"
     ],
     "tags": [
@@ -360,11 +358,11 @@
     ],
     "sources": [
       {
-        "title": "Web 2.0",
+        "title": "Wikipedia: Web 2.0",
         "url": "https://en.wikipedia.org/wiki/Web_2.0",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/web-2-0-conference-2004.png",
@@ -402,11 +400,11 @@
     ],
     "sources": [
       {
-        "title": "PlayStation Portable",
+        "title": "Wikipedia: PlayStation Portable",
         "url": "https://en.wikipedia.org/wiki/PlayStation_Portable",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/psp-launch-2004.png",
@@ -416,7 +414,6 @@
     "id": "motorola-razr-v3-2004",
     "title": "Motorola RAZR V3: The Ultimate Flip Phone Icon",
     "year": 2004,
-    "date": "2004-10-01",
     "category": [
       "gadget",
       "design"
@@ -429,8 +426,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Motorola Razr V3 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Motorola_Razr_V3"
+        "title": "Wikipedia: Motorola Razr V3",
+        "url": "https://en.wikipedia.org/wiki/Motorola_Razr_V3",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/motorola-razr-v3.png",
@@ -453,8 +452,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Nintendo DS - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nintendo_DS"
+        "title": "Wikipedia: Nintendo DS",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_DS",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/nintendo-ds.png",
@@ -477,8 +478,10 @@
     "nostalgia": 2,
     "sources": [
       {
-        "title": "2004 Indian Ocean earthquake and tsunami - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+        "title": "Wikipedia: 2004 Indian Ocean earthquake and tsunami",
+        "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2004/indian-ocean-tsunami-2004.jpg",

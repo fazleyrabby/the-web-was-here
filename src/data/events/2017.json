@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "2017 Equifax data breach",
+        "title": "Wikipedia: 2017 Equifax data breach",
         "url": "https://en.wikipedia.org/wiki/2017_Equifax_data_breach",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/equifax-breach-2017.jpg",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "History of Bitcoin",
+        "title": "Wikipedia: History of bitcoin",
         "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/bitcoin-boom-2017.png",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Me Too movement",
+        "title": "Wikipedia: Me Too movement",
         "url": "https://en.wikipedia.org/wiki/Me_Too_movement",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/metoo-2017.jpg",
@@ -132,7 +132,6 @@
     "id": "alexa-mainstream-2017",
     "title": "Amazon Echo and Alexa Go Mainstream",
     "year": 2017,
-    "date": "2017-11-01",
     "category": [
       "hardware",
       "software"
@@ -161,11 +160,11 @@
     ],
     "sources": [
       {
-        "title": "Amazon Echo",
+        "title": "Wikipedia: Amazon Echo",
         "url": "https://en.wikipedia.org/wiki/Amazon_Echo",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/alexa-mainstream-2017.jpg",
@@ -175,7 +174,6 @@
     "id": "gdpr-announced-2017",
     "title": "GDPR Enforcement Date Announced",
     "year": 2017,
-    "date": "2017-01-01",
     "category": [
       "standards",
       "security"
@@ -204,11 +202,11 @@
     ],
     "sources": [
       {
-        "title": "General Data Protection Regulation",
+        "title": "Wikipedia: General Data Protection Regulation",
         "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/gdpr-announced-2017.png",
@@ -247,11 +245,11 @@
     ],
     "sources": [
       {
-        "title": "BlueBorne (computer security)",
+        "title": "Wikipedia: BlueBorne",
         "url": "https://en.wikipedia.org/wiki/BlueBorne",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/blueborne-2017.jpg",
@@ -290,11 +288,11 @@
     ],
     "sources": [
       {
-        "title": "WannaCry ransomware attack",
+        "title": "Wikipedia: WannaCry ransomware attack",
         "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/wannacry-2017.jpg",
@@ -333,11 +331,11 @@
     ],
     "sources": [
       {
-        "title": "Snap Inc.",
+        "title": "Wikipedia: Snap Inc.",
         "url": "https://en.wikipedia.org/wiki/Snap_Inc.",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/snapchat-ipo-2017.jpg",
@@ -376,11 +374,11 @@
     ],
     "sources": [
       {
-        "title": "Net neutrality in the United States",
+        "title": "Wikipedia: Net neutrality in the United States",
         "url": "https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/fcc-net-neutrality-2017.png",
@@ -390,7 +388,6 @@
     "id": "slack-bots-2017",
     "title": "Slack Introduces Bot Platform",
     "year": 2017,
-    "date": "2017-04-01",
     "category": [
       "communication",
       "software"
@@ -419,11 +416,11 @@
     ],
     "sources": [
       {
-        "title": "Slack Technologies",
+        "title": "Wikipedia: Slack Technologies",
         "url": "https://en.wikipedia.org/wiki/Slack_Technologies",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/slack-bots-2017.jpg",
@@ -446,8 +443,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Nintendo Switch - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nintendo_Switch"
+        "title": "Wikipedia: Nintendo Switch",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/nintendo-switch.png",
@@ -470,8 +469,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Fidget spinner - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Fidget_spinner"
+        "title": "Wikipedia: Fidget spinner",
+        "url": "https://en.wikipedia.org/wiki/Fidget_spinner",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/fidget-spinner.png",
@@ -494,11 +495,56 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Despacito - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Despacito"
+        "title": "Wikipedia: Despacito",
+        "url": "https://en.wikipedia.org/wiki/Despacito",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2017/despacito-latin-pop-streaming-2017.png",
     "image_caption": "The Puerto Rican reggaeton-pop smash tied the all-time Billboard record with 16 weeks at #1."
+  },
+  {
+    "id": "iphone-x-2017",
+    "title": "iPhone X Redefines Smartphone Design",
+    "year": 2017,
+    "date": "2017-11-03",
+    "category": [
+      "hardware",
+      "design"
+    ],
+    "type": "product_launch",
+    "summary": "Apple's iPhone X removes the home button, introduces Face ID, and sets the template for modern smartphones.",
+    "narrative": "The iPhone X is Apple's biggest design overhaul since the original. No home button. Edge-to-edge OLED display. Face ID replaces Touch ID. The notch becomes the most copied design element in tech. Gestures replace buttons. The price hits $999 \u2014 a psychological barrier that becomes the new normal. Every Android phone starts copying the notch. The modern smartphone is born.",
+    "why_it_matters": "Set the design template every phone would follow. Made Face ID the standard for biometric authentication. Proved consumers would pay $1,000+ for a phone.",
+    "impact": 5,
+    "nostalgia": 4,
+    "influence": [
+      "face-id-adoption",
+      "notch-design",
+      "premium-phone-pricing",
+      "gesture-navigation"
+    ],
+    "tags": [
+      "iphone-x",
+      "apple",
+      "face-id",
+      "notch",
+      "smartphone-design"
+    ],
+    "region": [
+      "global"
+    ],
+    "sources": [
+      {
+        "title": "Apple: iPhone X arrives in stores",
+        "url": "https://www.apple.com/newsroom/2017/11/iphone-x-arriving-in-stores-around-the-world/",
+        "type": "primary",
+        "accessed": "2026-09-23",
+        "confidence": "high"
+      }
+    ],
+    "image": "/images/events/2017/iphone-x-2017.png",
+    "image_caption": "Apple's iPhone X removes the home button, introduces Face ID, and sets the template for modern smartphones."
   }
 ]

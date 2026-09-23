@@ -22,6 +22,8 @@ Open the URL printed by Astro. For a production check, run `npm run build`; the 
 
 Run `npm run validate:data` after editing content. It checks both schemas, matching years, unique IDs, year event references, and local image paths. The production build runs the same check first. Source links should support the event's factual claims; the validator checks their format, not their accuracy or availability.
 
+Use `date` only when the exact day is supported by a source. Leave it out for trends or milestones known only to a month or year. Label Wikipedia and other summaries as `secondary`; reserve `primary` for contemporary announcements, original records, or first-party documentation. The validator also rejects Wikipedia links labeled `primary` and dates whose year differs from the event year. Historical accuracy still requires editorial review.
+
 ## Code map
 
 - `src/pages/index.astro`: timeline homepage

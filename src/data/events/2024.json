@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Intelligence",
+        "title": "Wikipedia: Apple Intelligence",
         "url": "https://en.wikipedia.org/wiki/Apple_Intelligence",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/apple-intelligence-2024.png",
@@ -77,11 +77,11 @@
     ],
     "sources": [
       {
-        "title": "Gemini (language model)",
+        "title": "Wikipedia: Gemini (language model)",
         "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/gemini-launch-2024.png",
@@ -122,11 +122,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Vision Pro",
+        "title": "Wikipedia: Apple Vision Pro",
         "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/apple-vision-pro.png",
@@ -167,11 +167,11 @@
     ],
     "sources": [
       {
-        "title": "Divest or ban TikTok Act",
+        "title": "Wikipedia: TikTok ban in the United States",
         "url": "https://en.wikipedia.org/wiki/TikTok_ban_in_the_United_States",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/tiktok-ban-threats-2024.png",
@@ -181,7 +181,6 @@
     "id": "ai-agents-2024",
     "title": "AI Agents Start Doing Real Work",
     "year": 2024,
-    "date": "2024-06-01",
     "category": [
       "software",
       "business"
@@ -211,11 +210,11 @@
     ],
     "sources": [
       {
-        "title": "AI agent",
+        "title": "Wikipedia: AI agent",
         "url": "https://en.wikipedia.org/wiki/AI_agent",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/ai-agents-2024.jpg",
@@ -255,11 +254,11 @@
     ],
     "sources": [
       {
-        "title": "Sora (text-to-video model)",
+        "title": "Wikipedia: Sora (text-to-video model)",
         "url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/sora-video-2024.jpg",
@@ -300,58 +299,15 @@
     ],
     "sources": [
       {
-        "title": "Nvidia",
+        "title": "Wikipedia: Nvidia",
         "url": "https://en.wikipedia.org/wiki/Nvidia",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/nvidia-dominance-2024.jpg",
     "image_caption": "Nvidia briefly becomes the world's most valuable company as AI chip demand sends its stock soaring past $3 trillion."
-  },
-  {
-    "id": "no-kings-protest-2024",
-    "title": "No Kings Day Protests Go Viral",
-    "year": 2024,
-    "date": "2024-06-14",
-    "category": [
-      "culture",
-      "social"
-    ],
-    "type": "cultural_event",
-    "summary": "The 'No Kings' protest movement organizes mass demonstrations against authoritarianism, coordinated primarily through social media.",
-    "narrative": "On June 14, 2024, protests erupted across the United States under the 'No Kings' banner. Thousands took to the streets in coordinated demonstrations, organized primarily through social media platforms. The movement reflected growing tensions around democratic norms and political power. Social media's role in organizing mass protests \u2014 from the Arab Spring to Black Lives Matter to No Kings \u2014 continued to evolve. The internet remained humanity's most powerful tool for collective action.",
-    "why_it_matters": "Demonstrated social media's continued power for political organizing. Reflected global concerns about democratic backsliding. Showed that digital tools still enable grassroots movements.",
-    "impact": 4,
-    "nostalgia": 2,
-    "influence": [
-      "digital-activism",
-      "social-media-politics",
-      "protest-culture",
-      "democratic-norms"
-    ],
-    "tags": [
-      "protests",
-      "no-kings",
-      "activism",
-      "social-media",
-      "democracy"
-    ],
-    "region": [
-      "usa"
-    ],
-    "sources": [
-      {
-        "title": "No Kings Day",
-        "url": "https://en.wikipedia.org/wiki/No_Kings_Day",
-        "type": "primary",
-        "accessed": "2026-09-15",
-        "confidence": "high"
-      }
-    ],
-    "image": "/images/events/2024/no-kings-protest-2024.jpg",
-    "image_caption": "The 'No Kings' protest movement organizes mass demonstrations against authoritarianism, coordinated primarily through social media."
   },
   {
     "id": "brat-summer-charli-xcx-2024",
@@ -370,8 +326,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Brat (album) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Brat_(album)"
+        "title": "Wikipedia: Brat (album)",
+        "url": "https://en.wikipedia.org/wiki/Brat_(album)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/brat-summer-charli-xcx-2024.png",
@@ -394,8 +352,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Drake\u2013Kendrick Lamar feud - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Drake%E2%80%93Kendrick_Lamar_feud"
+        "title": "Wikipedia: Drake\u2013Kendrick Lamar feud",
+        "url": "https://en.wikipedia.org/wiki/Drake%E2%80%93Kendrick_Lamar_feud",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/kendrick-drake-rap-feud-2024.jpg",
@@ -418,8 +378,10 @@
     "nostalgia": 2,
     "sources": [
       {
-        "title": "2024 CrowdStrike-related IT outages - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
+        "title": "Wikipedia: 2024 CrowdStrike-related IT outages",
+        "url": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2024/crowdstrike-global-it-outage-2024.jpg",

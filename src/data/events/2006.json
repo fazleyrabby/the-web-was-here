@@ -33,10 +33,10 @@
     ],
     "sources": [
       {
-        "title": "Twitter: History",
-        "url": "https://en.wikipedia.org/wiki/Twitter",
+        "title": "Twitter: Discovering your first Tweet",
+        "url": "https://blog.x.com/en_gb/a/en-gb/2014/discovering-your-firsttweet",
         "type": "primary",
-        "accessed": "2026-09-15",
+        "accessed": "2026-09-23",
         "confidence": "high"
       }
     ],
@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Justin.tv: The Early Days",
+        "title": "Wikipedia: Justin.tv",
         "url": "https://en.wikipedia.org/wiki/Justin.tv",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/justin-tv-2006.jpg",
@@ -119,11 +119,11 @@
     ],
     "sources": [
       {
-        "title": "Wii: Launch and Legacy",
+        "title": "Wikipedia: Wii",
         "url": "https://en.wikipedia.org/wiki/Wii",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/nintendo-wii-2006.png",
@@ -163,11 +163,11 @@
     ],
     "sources": [
       {
-        "title": "Google Acquires YouTube",
+        "title": "Wikipedia: YouTube",
         "url": "https://en.wikipedia.org/wiki/YouTube",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/google-youtube-acquisition-2006.png",
@@ -207,10 +207,10 @@
     ],
     "sources": [
       {
-        "title": "Facebook: History",
-        "url": "https://en.wikipedia.org/wiki/Facebook",
+        "title": "Facebook expansion announcement",
+        "url": "https://about.fb.com/news/2006/09/facebook-expansion-enables-more-people-to-connect-with-friends-in-a-trusted-environment/",
         "type": "primary",
-        "accessed": "2026-09-15",
+        "accessed": "2026-09-23",
         "confidence": "high"
       }
     ],
@@ -251,11 +251,11 @@
     ],
     "sources": [
       {
-        "title": "Amazon Web Services: History",
+        "title": "Wikipedia: Amazon Web Services",
         "url": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/aws-growth-2006.png",
@@ -265,7 +265,6 @@
     "id": "roku-founding-2006",
     "title": "Roku Founded",
     "year": 2006,
-    "date": "2006-01-01",
     "category": [
       "hardware",
       "media"
@@ -294,11 +293,11 @@
     ],
     "sources": [
       {
-        "title": "Roku: Company History",
+        "title": "Wikipedia: Roku",
         "url": "https://en.wikipedia.org/wiki/Roku",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/roku-founding-2006.jpg",
@@ -308,7 +307,6 @@
     "id": "linkedin-growth-2006",
     "title": "LinkedIn Hits 10 Million Users",
     "year": 2006,
-    "date": "2006-10-01",
     "category": [
       "social",
       "business"
@@ -336,11 +334,11 @@
     ],
     "sources": [
       {
-        "title": "LinkedIn: History",
+        "title": "Wikipedia: LinkedIn",
         "url": "https://en.wikipedia.org/wiki/LinkedIn",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/linkedin-growth-2006.png",
@@ -350,7 +348,6 @@
     "id": "limewire-fall-2006",
     "title": "LimeWire and the P2P Wars",
     "year": 2006,
-    "date": "2006-09-01",
     "category": [
       "software",
       "culture"
@@ -379,11 +376,11 @@
     ],
     "sources": [
       {
-        "title": "LimeWire: History",
+        "title": "Wikipedia: LimeWire",
         "url": "https://en.wikipedia.org/wiki/LimeWire",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/limewire-fall-2006.png",
@@ -406,8 +403,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Wii - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Wii"
+        "title": "Wikipedia: Wii",
+        "url": "https://en.wikipedia.org/wiki/Wii",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/nintendo-wii.png",
@@ -430,8 +429,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Back to Black - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Back_to_Black"
+        "title": "Wikipedia: Back to Black",
+        "url": "https://en.wikipedia.org/wiki/Back_to_Black",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/amy-winehouse-back-to-black-2006.jpg",
@@ -441,7 +442,6 @@
     "id": "skinny-jeans-indie-sleaze-dawn-2006",
     "title": "Skinny Jeans Conquer Bootcut & the Rise of Indie Sleaze",
     "year": 2006,
-    "date": "2006-08-01",
     "category": [
       "fashion",
       "culture"
@@ -454,8 +454,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Indie sleaze - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Indie_sleaze"
+        "title": "Wikipedia: Indie sleaze",
+        "url": "https://en.wikipedia.org/wiki/Indie_sleaze",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2006/skinny-jeans-indie-sleaze-dawn-2006.jpg",

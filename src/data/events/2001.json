@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Wikipedia",
+        "title": "Wikipedia: Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Wikipedia",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/wikipedia-launch-2001.png",
@@ -77,11 +77,11 @@
     ],
     "sources": [
       {
-        "title": "IPod",
+        "title": "Wikipedia: IPod",
         "url": "https://en.wikipedia.org/wiki/IPod",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/ipod-classic.png",
@@ -120,11 +120,11 @@
     ],
     "sources": [
       {
-        "title": "Windows XP",
+        "title": "Wikipedia: Windows XP",
         "url": "https://en.wikipedia.org/wiki/Windows_XP",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/windows-xp-launch-2001.png",
@@ -164,11 +164,11 @@
     ],
     "sources": [
       {
-        "title": "Dot-com bubble",
+        "title": "Wikipedia: Dot-com bubble",
         "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/dotcom-crash-2001.png",
@@ -208,11 +208,11 @@
     ],
     "sources": [
       {
-        "title": "Napster",
+        "title": "Wikipedia: Napster",
         "url": "https://en.wikipedia.org/wiki/Napster",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/napster-shutdown-2001.png",
@@ -252,11 +252,11 @@
     ],
     "sources": [
       {
-        "title": "Internet after September 11 attacks",
+        "title": "Wikipedia: September 11 attacks",
         "url": "https://en.wikipedia.org/wiki/September_11_attacks#Aftermath",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/september-11-internet-2001.jpeg",
@@ -266,7 +266,6 @@
     "id": "flash-animation-era-2001",
     "title": "Flash Animation Peaks",
     "year": 2001,
-    "date": "2001-06-01",
     "category": [
       "media",
       "culture",
@@ -296,11 +295,11 @@
     ],
     "sources": [
       {
-        "title": "Adobe Flash",
+        "title": "Wikipedia: Adobe Flash",
         "url": "https://en.wikipedia.org/wiki/Adobe_Flash",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/flash-animation-era-2001.png",
@@ -310,7 +309,6 @@
     "id": "instant-messenger-wars-2001",
     "title": "Instant Messenger Wars Heat Up",
     "year": 2001,
-    "date": "2001-05-01",
     "category": [
       "communication",
       "culture"
@@ -339,11 +337,11 @@
     ],
     "sources": [
       {
-        "title": "Instant messaging",
+        "title": "Wikipedia: Instant messaging",
         "url": "https://en.wikipedia.org/wiki/Instant_messaging",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/instant-messenger-wars-2001.png",
@@ -384,11 +382,11 @@
     ],
     "sources": [
       {
-        "title": "Xbox (console)",
+        "title": "Wikipedia: Xbox (console)",
         "url": "https://en.wikipedia.org/wiki/Xbox_(console)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/xbox-launch-2001.png",
@@ -411,8 +409,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Halo: Combat Evolved - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved"
+        "title": "Wikipedia: Halo: Combat Evolved",
+        "url": "https://en.wikipedia.org/wiki/Halo:_Combat_Evolved",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/original-xbox.png",
@@ -435,8 +435,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Apple Store - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Apple_Store"
+        "title": "Wikipedia: Apple Store",
+        "url": "https://en.wikipedia.org/wiki/Apple_Store",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/apple-first-retail-stores-2001.png",
@@ -459,8 +461,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "I'm a Slave 4 U - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/I%27m_a_Slave_4_U"
+        "title": "Wikipedia: I'm a Slave 4 U",
+        "url": "https://en.wikipedia.org/wiki/I%27m_a_Slave_4_U",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2001/low-rise-jeans-y2k-fashion-2001.jpg",

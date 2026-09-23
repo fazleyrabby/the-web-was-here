@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Cascading Style Sheets",
+        "title": "Wikipedia: Cascading Style Sheets",
         "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/css1-1996.png",
@@ -46,7 +46,6 @@
     "id": "icq-mass-adoption-1996",
     "title": "ICQ Reaches 5 Million Users",
     "year": 1996,
-    "date": "1996-06-01",
     "category": [
       "communication",
       "software"
@@ -75,11 +74,11 @@
     ],
     "sources": [
       {
-        "title": "ICQ",
+        "title": "Wikipedia: ICQ",
         "url": "https://en.wikipedia.org/wiki/ICQ",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/icq-mass-adoption-1996.png",
@@ -118,11 +117,11 @@
     ],
     "sources": [
       {
-        "title": "Hotmail",
+        "title": "Wikipedia: Hotmail",
         "url": "https://en.wikipedia.org/wiki/Hotmail",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/hotmail-launch-1996.png",
@@ -161,11 +160,11 @@
     ],
     "sources": [
       {
-        "title": "WebTV",
+        "title": "Wikipedia: MSN TV",
         "url": "https://en.wikipedia.org/wiki/MSN_TV",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/webtv-launch-1996.jpg",
@@ -175,7 +174,6 @@
     "id": "realplayer-1996",
     "title": "RealPlayer 1.0 Released",
     "year": 1996,
-    "date": "1996-04-01",
     "category": [
       "software",
       "media"
@@ -205,11 +203,11 @@
     ],
     "sources": [
       {
-        "title": "RealPlayer",
+        "title": "Wikipedia: RealPlayer",
         "url": "https://en.wikipedia.org/wiki/RealPlayer",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/realplayer-1996.jpg",
@@ -219,7 +217,6 @@
     "id": "frame-pages-1996",
     "title": "Frames and the Ugly Web",
     "year": 1996,
-    "date": "1996-01-01",
     "category": [
       "web",
       "design"
@@ -248,11 +245,11 @@
     ],
     "sources": [
       {
-        "title": "Frameset",
+        "title": "Wikipedia: Frame (HTML)",
         "url": "https://en.wikipedia.org/wiki/Frame_(HTML)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/frame-pages-1996.jpg",
@@ -262,7 +259,6 @@
     "id": "bobby-early-accessibility-1996",
     "title": "Bobby Web Accessibility Checker",
     "year": 1996,
-    "date": "1996-01-01",
     "category": [
       "standards",
       "software"
@@ -291,11 +287,11 @@
     ],
     "sources": [
       {
-        "title": "Web accessibility",
+        "title": "Wikipedia: Web accessibility",
         "url": "https://en.wikipedia.org/wiki/Web_accessibility",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/bobby-early-accessibility-1996.png",
@@ -305,7 +301,6 @@
     "id": "giphy-precursor-1996",
     "title": "Animated GIF Renaissance",
     "year": 1996,
-    "date": "1996-01-01",
     "category": [
       "culture",
       "media"
@@ -334,11 +329,11 @@
     ],
     "sources": [
       {
-        "title": "Animated GIF",
+        "title": "Wikipedia: GIF",
         "url": "https://en.wikipedia.org/wiki/GIF",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/giphy-precursor-1996.jpg",
@@ -348,7 +343,6 @@
     "id": "javascript-becomes-standard-1996",
     "title": "JavaScript Ships with Netscape Navigator 2.0",
     "year": 1996,
-    "date": "1996-03-01",
     "category": [
       "software",
       "web"
@@ -377,11 +371,11 @@
     ],
     "sources": [
       {
-        "title": "JavaScript",
+        "title": "Wikipedia: JavaScript",
         "url": "https://en.wikipedia.org/wiki/JavaScript",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/javascript-becomes-standard-1996.png",
@@ -404,8 +398,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Nintendo 64 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nintendo_64"
+        "title": "Wikipedia: Nintendo 64",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_64",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/nintendo-64.png",
@@ -428,8 +424,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Wannabe (song) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Wannabe_(song)"
+        "title": "Wikipedia: Wannabe (song)",
+        "url": "https://en.wikipedia.org/wiki/Wannabe_(song)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/spice-girls-girl-power-1996.jpg",
@@ -452,11 +450,53 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Dolly (sheep) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+        "title": "Wikipedia: Dolly (sheep)",
+        "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1996/dolly-the-sheep-cloned-1996.jpg",
     "image_caption": "Scientists in Scotland successfully cloned the first mammal from an adult somatic cell."
+  },
+  {
+    "id": "microsoft-activex-1996",
+    "title": "Microsoft Announces ActiveX",
+    "year": 1996,
+    "date": "1996-03-12",
+    "category": [
+      "software",
+      "business"
+    ],
+    "type": "innovation",
+    "summary": "Microsoft announces ActiveX technologies for interactive web and PC software.",
+    "narrative": "Microsoft announced ActiveX in March 1996 as a framework for reusable software components, including interactive content in Internet Explorer. Its tight integration with Windows made it influential during the browser wars and later raised security concerns.",
+    "why_it_matters": "ActiveX shaped the interactive Windows web of the late 1990s and became a major browser security concern.",
+    "impact": 3,
+    "nostalgia": 3,
+    "influence": [
+      "internet-explorer-1995",
+      "browser-wars-1998"
+    ],
+    "tags": [
+      "microsoft",
+      "activex",
+      "interactive",
+      "web"
+    ],
+    "region": [
+      "usa"
+    ],
+    "sources": [
+      {
+        "title": "Microsoft Announces ActiveX Technologies",
+        "url": "https://news.microsoft.com/source/1996/03/12/microsoft-announces-activex-technologies/",
+        "type": "primary",
+        "accessed": "2026-09-23",
+        "confidence": "high"
+      }
+    ],
+    "image": "/images/events/1996/microsoft-activex-1996.png",
+    "image_caption": "Microsoft announced ActiveX technologies in March 1996."
   }
 ]

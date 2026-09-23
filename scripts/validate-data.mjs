@@ -33,15 +33,26 @@ for (let year = 1990; year <= 2026; year++) {
     eventCount++;
     if (!validateEvent(event)) errors.push(`${eventPath} ${event.id ?? '?'}: ${ajv.errorsText(validateEvent.errors)}`);
     if (event.year !== year) errors.push(`${eventPath} ${event.id}: year does not match filename`);
+    if (event.date && Number(event.date.slice(0, 4)) !== year) {
+      errors.push(`${eventPath} ${event.id}: date year does not match event year`);
+    }
     if (ids.has(event.id)) errors.push(`duplicate event ID: ${event.id}`);
     ids.add(event.id);
     localIds.add(event.id);
     if (event.image?.startsWith('/') && !fs.existsSync(path.join('public', event.image))) {
       errors.push(`${eventPath} ${event.id}: missing image ${event.image}`);
     }
+    for (const source of event.sources ?? []) {
+      if (source.type === 'primary' && new URL(source.url).hostname.endsWith('wikipedia.org')) {
+        errors.push(`${eventPath} ${event.id}: Wikipedia is a secondary source`);
+      }
+    }
   }
   for (const id of yearData.events ?? []) {
     if (!localIds.has(id)) errors.push(`${yearPath}: unknown event ID ${id}`);
+  }
+  for (const id of localIds) {
+    if (!yearData.events.includes(id)) errors.push(`${yearPath}: event ${id} is missing from the year index`);
   }
 }
 

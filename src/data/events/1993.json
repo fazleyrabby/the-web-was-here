@@ -30,11 +30,11 @@
     ],
     "sources": [
       {
-        "title": "NCSA Mosaic - Wikipedia",
+        "title": "Wikipedia: NCSA Mosaic",
         "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/mosaic-browser-1993.png",
@@ -44,7 +44,6 @@
     "id": "gif-a2-b-1993",
     "title": "GIF89a Animation Standard Released",
     "year": 1993,
-    "date": "1993-06-01",
     "category": [
       "software",
       "media"
@@ -70,11 +69,11 @@
     ],
     "sources": [
       {
-        "title": "Graphics Interchange Format - Wikipedia",
+        "title": "Wikipedia: Graphics Interchange Format",
         "url": "https://en.wikipedia.org/wiki/Graphics_Interchange_Format",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/gif-a2-b-1993.jpg",
@@ -110,11 +109,11 @@
     ],
     "sources": [
       {
-        "title": "Windows 3.1x - Wikipedia",
+        "title": "Wikipedia: Windows 3.1x",
         "url": "https://en.wikipedia.org/wiki/Windows_3.1x",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/windows-31-released-1993.png",
@@ -124,7 +123,6 @@
     "id": "nls-gopher-closed-1993",
     "title": "University of Minnesota Charges for Gopher",
     "year": 1993,
-    "date": "1993-02-01",
     "category": [
       "business",
       "standards"
@@ -150,11 +148,11 @@
     ],
     "sources": [
       {
-        "title": "Gopher (protocol) - Wikipedia",
+        "title": "Wikipedia: Gopher (protocol)",
         "url": "https://en.wikipedia.org/wiki/Gopher_(protocol)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/nls-gopher-closed-1993.jpg",
@@ -164,7 +162,6 @@
     "id": "first-graphic-novel-online-1993",
     "title": "First Web Comics Published",
     "year": 1993,
-    "date": "1993-05-01",
     "category": [
       "culture",
       "media"
@@ -190,11 +187,11 @@
     ],
     "sources": [
       {
-        "title": "Webcomic - Wikipedia",
+        "title": "Wikipedia: Webcomic",
         "url": "https://en.wikipedia.org/wiki/Webcomic",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/first-graphic-novel-online-1993.png",
@@ -204,7 +201,6 @@
     "id": "online-gambling-first-1993",
     "title": "First Online Gambling Site",
     "year": 1993,
-    "date": "1993-09-01",
     "category": [
       "gaming",
       "business"
@@ -230,11 +226,11 @@
     ],
     "sources": [
       {
-        "title": "Online gambling - Wikipedia",
+        "title": "Wikipedia: Online gambling",
         "url": "https://en.wikipedia.org/wiki/Online_gambling",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/online-gambling-first-1993.jpg",
@@ -244,7 +240,6 @@
     "id": "first-web-directory-1993",
     "title": "First Web Directories Emerge",
     "year": 1993,
-    "date": "1993-06-01",
     "category": [
       "search",
       "software"
@@ -271,11 +266,11 @@
     ],
     "sources": [
       {
-        "title": "Web directory - Wikipedia",
+        "title": "Wikipedia: Web directory",
         "url": "https://en.wikipedia.org/wiki/Web_directory",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/first-web-directory-1993.jpg",
@@ -285,7 +280,6 @@
     "id": "interNIC-established-1993",
     "title": "InterNIC Established for Domain Management",
     "year": 1993,
-    "date": "1993-01-01",
     "category": [
       "infrastructure",
       "standards"
@@ -311,11 +305,11 @@
     ],
     "sources": [
       {
-        "title": "InterNIC - Wikipedia",
+        "title": "Wikipedia: InterNIC",
         "url": "https://en.wikipedia.org/wiki/InterNIC",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/interNIC-established-1993.png",
@@ -325,7 +319,6 @@
     "id": "mcnc-ncsa-mosaic-publicity-1993",
     "title": "Mosaic Featured in Major Media",
     "year": 1993,
-    "date": "1993-11-01",
     "category": [
       "culture",
       "media"
@@ -351,11 +344,11 @@
     ],
     "sources": [
       {
-        "title": "NCSA Mosaic - Wikipedia",
+        "title": "Wikipedia: NCSA Mosaic",
         "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/mcnc-ncsa-mosaic-publicity-1993.png",
@@ -402,8 +395,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Doom (1993 video game) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)"
+        "title": "Wikipedia: Doom (1993 video game)",
+        "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/doom-shareware-multiplayer-1993.jpg",
@@ -426,11 +421,52 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Jurassic Park (film) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
+        "title": "Wikipedia: Jurassic Park (film)",
+        "url": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/1993/jurassic-park-cgi-revolution-1993.jpg",
     "image_caption": "Steven Spielberg and ILM amazed the world with computer-generated dinosaurs, transforming Hollywood cinema forever."
+  },
+  {
+    "id": "pdf-format-introduced-1993",
+    "title": "Adobe Introduces PDF",
+    "year": 1993,
+    "date": "1993-06-15",
+    "category": [
+      "software",
+      "standards"
+    ],
+    "type": "launch",
+    "summary": "Adobe introduced the Portable Document Format (PDF), enabling documents to be shared across platforms.",
+    "narrative": "Before PDF, sharing a document between a Mac and a PC meant dealing with formatting nightmares. Adobe's Portable Document Format promised to look the same on any screen\u2014a revolutionary idea in an era of incompatible systems. While it would take years for PDF to become ubiquitous, this was the beginning of digital document standardization that would transform business and publishing.",
+    "why_it_matters": "PDF became the universal standard for sharing documents, transforming paper-based workflows into digital ones.",
+    "impact": 4,
+    "nostalgia": 3,
+    "influence": [
+      "acrobat-reader-free-1993"
+    ],
+    "tags": [
+      "pdf",
+      "adobe",
+      "document",
+      "format"
+    ],
+    "region": [
+      "usa"
+    ],
+    "sources": [
+      {
+        "title": "Adobe: History of the PDF",
+        "url": "https://www.adobe.com/uk/acrobat/resources/pdf-timeline.html",
+        "type": "primary",
+        "accessed": "2026-09-23",
+        "confidence": "high"
+      }
+    ],
+    "image": "/images/events/1993/pdf-format-introduced-1993.png",
+    "image_caption": "Adobe introduced the Portable Document Format (PDF), enabling documents to be shared across platforms."
   }
 ]

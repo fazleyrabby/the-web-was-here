@@ -33,11 +33,11 @@
     ],
     "sources": [
       {
-        "title": "Edward Snowden - Wikipedia",
+        "title": "Wikipedia: Edward Snowden",
         "url": "https://en.wikipedia.org/wiki/Edward_Snowden",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/snowden-nsa-revelations-2013.jpg",
@@ -76,11 +76,11 @@
     ],
     "sources": [
       {
-        "title": "Bitcoin - Wikipedia",
+        "title": "Wikipedia: Bitcoin",
         "url": "https://en.wikipedia.org/wiki/Bitcoin",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/bitcoin-1000-2013.png",
@@ -119,11 +119,11 @@
     ],
     "sources": [
       {
-        "title": "PlayStation 4 - Wikipedia",
+        "title": "Wikipedia: PlayStation 4",
         "url": "https://en.wikipedia.org/wiki/PlayStation_4",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/ps4-xbox-one-launch-2013.jpg",
@@ -133,7 +133,6 @@
     "id": "oculus-rift-kickstarter-2013",
     "title": "Oculus Rift Kickstarter",
     "year": 2013,
-    "date": "2013-08-01",
     "category": [
       "gaming",
       "hardware"
@@ -162,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "Oculus Rift - Wikipedia",
+        "title": "Wikipedia: Oculus Rift",
         "url": "https://en.wikipedia.org/wiki/Oculus_Rift",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/oculus-rift-kickstarter-2013.jpg",
@@ -205,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "Vine (service) - Wikipedia",
+        "title": "Wikipedia: Vine (service)",
         "url": "https://en.wikipedia.org/wiki/Vine_(service)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/vine-launch-2013.png",
@@ -219,7 +218,6 @@
     "id": "ea-origin-2013",
     "title": "EA Launches Origin",
     "year": 2013,
-    "date": "2013-01-01",
     "category": [
       "gaming",
       "software"
@@ -248,11 +246,11 @@
     ],
     "sources": [
       {
-        "title": "EA Origin - Wikipedia",
+        "title": "Wikipedia: Origin (service)",
         "url": "https://en.wikipedia.org/wiki/Origin_(service)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/ea-origin-2013.jpg",
@@ -291,11 +289,11 @@
     ],
     "sources": [
       {
-        "title": "Google Glass - Wikipedia",
+        "title": "Wikipedia: Google Glass",
         "url": "https://en.wikipedia.org/wiki/Google_Glass",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/google-glass-explorer-2013.jpg",
@@ -334,11 +332,11 @@
     ],
     "sources": [
       {
-        "title": "Tumblr - Wikipedia",
+        "title": "Wikipedia: Tumblr",
         "url": "https://en.wikipedia.org/wiki/Tumblr",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/yahoo-tumblr-acquisition-2013.jpg",
@@ -378,11 +376,11 @@
     ],
     "sources": [
       {
-        "title": "Black Lives Matter - Wikipedia",
+        "title": "Wikipedia: Black Lives Matter",
         "url": "https://en.wikipedia.org/wiki/Black_Lives_Matter",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/black-lives-matter-2013.png",
@@ -421,11 +419,11 @@
     ],
     "sources": [
       {
-        "title": "Microsoft acquires Nokia - Wikipedia",
+        "title": "Wikipedia: Microsoft Nokia",
         "url": "https://en.wikipedia.org/wiki/Microsoft_Nokia",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/nokia-microsoft-acquisition-2013.jpg",
@@ -448,8 +446,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Vine (service) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Vine_(service)"
+        "title": "Wikipedia: Vine (service)",
+        "url": "https://en.wikipedia.org/wiki/Vine_(service)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/vine-short-form-video-2013.png",
@@ -472,8 +472,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "iOS 7 - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/IOS_7"
+        "title": "Wikipedia: IOS 7",
+        "url": "https://en.wikipedia.org/wiki/IOS_7",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/ios-7-flat-design-2013.jpg",
@@ -496,12 +498,16 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Get Lucky (Daft Punk song) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)"
+        "title": "Wikipedia: Get Lucky (Daft Punk song)",
+        "url": "https://en.wikipedia.org/wiki/Get_Lucky_(Daft_Punk_song)",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Royals (song) - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Royals_(song)"
+        "title": "Wikipedia: Royals (song)",
+        "url": "https://en.wikipedia.org/wiki/Royals_(song)",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2013/daft-punk-get-lucky-lorde-2013.jpg",

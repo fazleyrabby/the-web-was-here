@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "React Native: A New Architecture",
+        "title": "Wikipedia: React Native",
         "url": "https://en.wikipedia.org/wiki/React_Native",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/react-2015.png",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Watch: A History",
+        "title": "Wikipedia: Apple Watch",
         "url": "https://en.wikipedia.org/wiki/Apple_Watch",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/apple-watch.png",
@@ -89,7 +89,6 @@
     "id": "uber-global-2015",
     "title": "Uber Reaches 1 Million Rides Per Day",
     "year": 2015,
-    "date": "2015-06-01",
     "category": [
       "business",
       "software"
@@ -118,11 +117,11 @@
     ],
     "sources": [
       {
-        "title": "Uber: The Company That Changed Transportation",
+        "title": "Wikipedia: Uber",
         "url": "https://en.wikipedia.org/wiki/Uber",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/uber-global-2015.jpg",
@@ -161,11 +160,11 @@
     ],
     "sources": [
       {
-        "title": "Apple Music Launch",
+        "title": "Wikipedia: Apple Music",
         "url": "https://en.wikipedia.org/wiki/Apple_Music",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/apple-music-2015.png",
@@ -204,11 +203,11 @@
     ],
     "sources": [
       {
-        "title": "Windows 10: The Full Story",
+        "title": "Wikipedia: Windows 10",
         "url": "https://en.wikipedia.org/wiki/Windows_10",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/windows-10-2015.jpg",
@@ -247,11 +246,11 @@
     ],
     "sources": [
       {
-        "title": "Amazon Acquires Twitch",
+        "title": "Wikipedia: Twitch (service)",
         "url": "https://en.wikipedia.org/wiki/Twitch_(service)",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/twitch-acquisition-2015.png",
@@ -261,7 +260,6 @@
     "id": "slack-rise-2015",
     "title": "Slack Becomes the Default Work Chat",
     "year": 2015,
-    "date": "2015-01-01",
     "category": [
       "communication",
       "business"
@@ -304,7 +302,6 @@
     "id": "deep-learning-2015",
     "title": "Deep Learning Breakthroughs",
     "year": 2015,
-    "date": "2015-06-01",
     "category": [
       "software",
       "development"
@@ -333,11 +330,11 @@
     ],
     "sources": [
       {
-        "title": "Deep Learning: A Brief History",
+        "title": "Wikipedia: Deep learning",
         "url": "https://en.wikipedia.org/wiki/Deep_learning",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/deep-learning-2015.jpg",
@@ -347,7 +344,6 @@
     "id": "google-self-driving-2015",
     "title": "Google Self-Driving Car Project",
     "year": 2015,
-    "date": "2015-01-01",
     "category": [
       "hardware",
       "software"
@@ -390,7 +386,6 @@
     "id": "peloton-2015",
     "title": "Peloton Launches Connected Fitness",
     "year": 2015,
-    "date": "2015-01-01",
     "category": [
       "hardware",
       "entertainment"
@@ -419,11 +414,11 @@
     ],
     "sources": [
       {
-        "title": "Peloton: The Company",
+        "title": "Wikipedia: Peloton (company)",
         "url": "https://en.wikipedia.org/wiki/Peloton_(company)",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/peloton-2015.jpg",
@@ -446,8 +441,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Obergefell v. Hodges - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges"
+        "title": "Wikipedia: Obergefell v. Hodges",
+        "url": "https://en.wikipedia.org/wiki/Obergefell_v._Hodges",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/same-sex-marriage-rainbow-filter-2015.jpg",
@@ -470,8 +467,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "Adidas Yeezy - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Adidas_Yeezy"
+        "title": "Wikipedia: Adidas Yeezy",
+        "url": "https://en.wikipedia.org/wiki/Adidas_Yeezy",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/yeezy-boost-athleisure-boom-2015.jpg",
@@ -494,8 +493,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Hotline Bling - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Hotline_Bling"
+        "title": "Wikipedia: Hotline Bling",
+        "url": "https://en.wikipedia.org/wiki/Hotline_Bling",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2015/drake-hotline-bling-meme-2015.png",

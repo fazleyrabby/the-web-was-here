@@ -32,11 +32,11 @@
     ],
     "sources": [
       {
-        "title": "Pok\u00e9mon GO",
+        "title": "Wikipedia: Pok\u00e9mon Go",
         "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/pokemon-go-2016.png",
@@ -75,11 +75,11 @@
     ],
     "sources": [
       {
-        "title": "Facebook Live",
+        "title": "Wikipedia: Facebook Live",
         "url": "https://en.wikipedia.org/wiki/Facebook_Live",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/facebook-live-2016.jpg",
@@ -118,11 +118,11 @@
     ],
     "sources": [
       {
-        "title": "Spectacles (product)",
+        "title": "Wikipedia: Spectacles (product)",
         "url": "https://en.wikipedia.org/wiki/Spectacles_(product)",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/snapchat-spectacles-2016.png",
@@ -161,11 +161,11 @@
     ],
     "sources": [
       {
-        "title": "United Kingdom European Union membership referendum",
+        "title": "Wikipedia: 2016 United Kingdom European Union membership referendum",
         "url": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/brexit-tech-2016.png",
@@ -204,11 +204,11 @@
     ],
     "sources": [
       {
-        "title": "Word of the Year 2016",
+        "title": "Wikipedia: Post-truth",
         "url": "https://en.wikipedia.org/wiki/Post-truth",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/post-truth-2016.png",
@@ -247,11 +247,11 @@
     ],
     "sources": [
       {
-        "title": "Yahoo! data breaches",
+        "title": "Wikipedia: Yahoo! data breaches",
         "url": "https://en.wikipedia.org/wiki/Yahoo!_data_breaches",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/yahoo-breach-2016.jpg",
@@ -290,11 +290,11 @@
     ],
     "sources": [
       {
-        "title": "Google Neural Machine Translation",
+        "title": "Wikipedia: Google Neural Machine Translation",
         "url": "https://en.wikipedia.org/wiki/Google_Neural_Machine_Translation",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/nmt-launch-2016.png",
@@ -333,11 +333,11 @@
     ],
     "sources": [
       {
-        "title": "Uber Autonomous Vehicles",
+        "title": "Wikipedia: Uber",
         "url": "https://en.wikipedia.org/wiki/Uber#Autonomous_vehicles",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/uber-autonomous-2016.jpg",
@@ -347,7 +347,6 @@
     "id": "usb-c-transition-2016",
     "title": "USB-C Becomes the New Standard",
     "year": 2016,
-    "date": "2016-03-01",
     "category": [
       "hardware",
       "standards"
@@ -376,11 +375,11 @@
     ],
     "sources": [
       {
-        "title": "USB Type-C",
+        "title": "Wikipedia: USB Type-C",
         "url": "https://en.wikipedia.org/wiki/USB_Type-C",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/usb-c-transition-2016.jpg",
@@ -390,7 +389,6 @@
     "id": "niansky-2016",
     "title": "SpaceX Rocket Explosion Takes Down WhatsApp",
     "year": 2016,
-    "date": "2016-09-01",
     "category": [
       "hardware",
       "communication"
@@ -419,11 +417,11 @@
     ],
     "sources": [
       {
-        "title": "Amos-6 (satellite)",
+        "title": "Wikipedia: Amos-6",
         "url": "https://en.wikipedia.org/wiki/Amos-6",
-        "type": "primary",
+        "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/niansky-2016.png",
@@ -446,8 +444,10 @@
     "nostalgia": 4,
     "sources": [
       {
-        "title": "AirPods - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/AirPods"
+        "title": "Wikipedia: AirPods",
+        "url": "https://en.wikipedia.org/wiki/AirPods",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/hardware/apple-airpods.png",
@@ -470,12 +470,16 @@
     "nostalgia": 2,
     "sources": [
       {
-        "title": "2016 United States presidential election - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election"
+        "title": "Wikipedia: 2016 United States presidential election",
+        "url": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election",
+        "type": "secondary",
+        "confidence": "medium"
       },
       {
-        "title": "Brexit - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Brexit"
+        "title": "Wikipedia: Brexit",
+        "url": "https://en.wikipedia.org/wiki/Brexit",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/brexit-and-trump-election-2016.png",
@@ -485,7 +489,6 @@
     "id": "millennial-pink-chokers-2016",
     "title": "Millennial Pink & the 90s Choker Renaissance",
     "year": 2016,
-    "date": "2016-05-01",
     "category": [
       "fashion",
       "culture"
@@ -498,8 +501,10 @@
     "nostalgia": 5,
     "sources": [
       {
-        "title": "Millennial pink - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Shades_of_pink#Millennial_pink"
+        "title": "Wikipedia: Shades of pink",
+        "url": "https://en.wikipedia.org/wiki/Shades_of_pink#Millennial_pink",
+        "type": "secondary",
+        "confidence": "medium"
       }
     ],
     "image": "/images/events/2016/millennial-pink-chokers-2016.png",
