@@ -64,6 +64,9 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     const list = document.getElementById('cmdk-list');
     const empty = document.getElementById('cmdk-empty');
     if (!root || !overlay || !input || !list) return;
+    if (root.dataset.bound === 'true') return;
+    root.dataset.bound = 'true';
+    let previousFocus: HTMLElement | null = null;
 
     const items = Array.from(list.querySelectorAll<HTMLElement>('.cmdk__item'));
     let active = 0;
@@ -96,6 +99,7 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     }
 
     function open() {
+      previousFocus = document.activeElement as HTMLElement;
       root.setAttribute('data-open', 'true');
       overlay.classList.add('is-open');
       trigger?.setAttribute('aria-expanded', 'true');
@@ -109,6 +113,7 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
       overlay.classList.remove('is-open');
       trigger?.setAttribute('aria-expanded', 'false');
       input.blur();
+      previousFocus?.focus();
     }
 
     function isOpen() {
@@ -128,6 +133,15 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
         return;
       }
       if (!isOpen()) return;
+      if (e.key === 'Tab') {
+        const controls = Array.from(overlay.querySelectorAll<HTMLElement>('input, a[href]')).filter((el) => el.getClientRects().length > 0);
+        if (!controls.length) return;
+        const first = controls[0];
+        const last = controls[controls.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        return;
+      }
       if (e.key === 'Escape') {
         e.preventDefault();
         close();

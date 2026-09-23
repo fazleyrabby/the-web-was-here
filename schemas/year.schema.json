@@ -3,9 +3,17 @@
   "title": "Year Data",
   "description": "Aggregated data for a single year in the timeline",
   "type": "object",
-  "required": ["year", "title", "era", "events"],
+  "required": [
+    "year",
+    "title",
+    "era",
+    "events"
+  ],
   "properties": {
-    "schema_version": { "type": "string", "default": "1.0" },
+    "schema_version": {
+      "type": "string",
+      "default": "1.0"
+    },
     "year": {
       "type": "integer",
       "minimum": 1990,
@@ -18,8 +26,18 @@
     "era": {
       "type": "string",
       "enum": [
-        "foundation", "early-web", "web-expansion", "web-2",
-        "mobile-social", "platform-era", "algorithmic", "ai-era"
+        "ai-era",
+        "algorithmic",
+        "bust-rebuild",
+        "early-web",
+        "foundation",
+        "mobile-era",
+        "mobile-social",
+        "pandemic",
+        "platform-era",
+        "platform-maturity",
+        "web-2",
+        "web-expansion"
       ]
     },
     "narrative": {
@@ -30,19 +48,37 @@
       "type": "object",
       "description": "Contextual snapshot of digital life",
       "properties": {
-        "os": { "type": "string" },
-        "browser": { "type": "string" },
-        "messenger": { "type": "string" },
-        "social_network": { "type": "string" },
-        "music": { "type": "string" },
-        "phone": { "type": "string" },
-        "video": { "type": "string" },
-        "website": { "type": "string" }
+        "os": {
+          "type": "string"
+        },
+        "browser": {
+          "type": "string"
+        },
+        "messenger": {
+          "type": "string"
+        },
+        "social_network": {
+          "type": "string"
+        },
+        "music": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "video": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string"
+        }
       }
     },
     "events": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Array of event IDs for this year"
     }
   }

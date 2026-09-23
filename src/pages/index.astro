@@ -21,10 +21,10 @@ const years = [
 ];
 
 const featured = [
-  { year: 2007, title: "The Year Everything Changed", tagline: "iPhone. Facebook. Twitter. YouTube.", color: "var(--pink)", image: "/images/illustrations/era-2007-web2.jpg" },
-  { year: 1998, title: "Google & The Browser Wars", tagline: "A garage. Two browsers. One monopoly.", color: "var(--yellow)", image: "/images/illustrations/era-1998-desk.jpg" },
-  { year: 2010, title: "Mobile Ate the World", tagline: "Instagram. iPad. Responsive Design.", color: "var(--green)", image: "/images/illustrations/era-2010-mobile.jpg" },
-  { year: 2020, title: "Everything Went Remote", tagline: "Zoom. TikTok. COVID. The great experiment.", color: "var(--blue)", image: "/images/illustrations/era-2020-wfh.jpg" },
+  { year: 2007, title: "The Year Everything Changed", tagline: "iPhone. Facebook. Twitter. YouTube.", color: "var(--pink)", image: "/images/illustrations/era-2007-web2.webp" },
+  { year: 1998, title: "Google & The Browser Wars", tagline: "A garage. Two browsers. One monopoly.", color: "var(--yellow)", image: "/images/illustrations/era-1998-desk.webp" },
+  { year: 2010, title: "Mobile Ate the World", tagline: "Instagram. iPad. Responsive Design.", color: "var(--green)", image: "/images/illustrations/era-2010-mobile.webp" },
+  { year: 2020, title: "Everything Went Remote", tagline: "Zoom. TikTok. COVID. The great experiment.", color: "var(--blue)", image: "/images/illustrations/era-2020-wfh.webp" },
 ];
 
 const eventModules = import.meta.glob('../data/events/*.json', { eager: true });
@@ -160,7 +160,7 @@ const totalEvents = Object.values(eventModules).reduce(
         {featured.map((item, i) => (
           <a href={`/the-web/${item.year}`} class="featured__card scroll-reveal-card" style={`--card-accent: ${item.color}; --reveal-delay: ${i * 90}ms`}>
             <div class="featured__card-img">
-              <img src={item.image} alt="" loading="lazy" onerror="this.style.display='none';this.parentNode.classList.add('featured__card-img--fallback')" />
+              <img src={item.image} alt="" loading="lazy" decoding="async" width="960" height="717" onerror="this.style.display='none';this.parentNode.classList.add('featured__card-img--fallback')" />
             </div>
             <div class="featured__card-content">
               <span class="featured__card-tag">{item.tagline}</span>

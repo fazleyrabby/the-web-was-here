@@ -3,12 +3,20 @@
   "title": "Historical Event",
   "description": "A single historical event in the Internet timeline",
   "type": "object",
-  "required": ["id", "title", "year", "category", "type", "impact", "nostalgia"],
+  "required": [
+    "id",
+    "title",
+    "year",
+    "category",
+    "type",
+    "impact",
+    "nostalgia"
+  ],
   "properties": {
     "id": {
       "type": "string",
       "description": "Unique identifier (kebab-case, includes year)",
-      "pattern": "^[a-z0-9-]+-\\d{4}$"
+      "pattern": "^[A-Za-z0-9.-]+-\\d{4}(?:-preview)?$"
     },
     "title": {
       "type": "string",
@@ -29,9 +37,38 @@
       "items": {
         "type": "string",
         "enum": [
-          "web", "design", "social", "viral-culture", "hardware",
-          "software", "development", "business", "search", "entertainment",
-          "communication", "bangladesh"
+          "bangladesh",
+          "browser",
+          "business",
+          "communication",
+          "cultural-event",
+          "culture",
+          "design",
+          "development",
+          "e-commerce",
+          "entertainment",
+          "fashion",
+          "gadget",
+          "gaming",
+          "hardware",
+          "history",
+          "infrastructure",
+          "innovation",
+          "media",
+          "multimedia",
+          "music",
+          "news",
+          "open-source",
+          "operating-system",
+          "science",
+          "search",
+          "security",
+          "social",
+          "software",
+          "standards",
+          "tech",
+          "viral-culture",
+          "web"
         ]
       },
       "minItems": 1
@@ -39,11 +76,53 @@
     "type": {
       "type": "string",
       "enum": [
-        "product_launch", "company_launch", "website_launch", "shutdown",
-        "acquisition", "technology_release", "design_trend", "social_trend",
-        "viral_event", "cultural_event", "hardware_release", "software_release",
-        "platform_shift", "business_event", "internet_meme", "community_event",
-        "standardization", "security_event", "prediction"
+        "acquisition",
+        "business_decision",
+        "business_event",
+        "business_milestone",
+        "community_event",
+        "company_launch",
+        "company_rebrand",
+        "cultural_event",
+        "cultural_moment",
+        "cultural_shift",
+        "culture_moment",
+        "design_trend",
+        "hardware_release",
+        "infrastructure_incident",
+        "innovation",
+        "internet_meme",
+        "ipo",
+        "launch",
+        "legal_event",
+        "market_event",
+        "media_launch",
+        "milestone",
+        "organization",
+        "platform_growth",
+        "platform_launch",
+        "platform_peak",
+        "platform_shift",
+        "platform_shutdown",
+        "political_event",
+        "prediction",
+        "product_announcement",
+        "product_launch",
+        "regulation",
+        "regulatory_event",
+        "scandal",
+        "security_event",
+        "security_incident",
+        "shutdown",
+        "social_trend",
+        "software_release",
+        "standard_release",
+        "standardization",
+        "standards",
+        "technology_breakthrough",
+        "technology_release",
+        "viral_event",
+        "website_launch"
       ]
     },
     "summary": {
@@ -72,25 +151,43 @@
     },
     "influence": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "IDs of events this influenced"
     },
     "inspired_by": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "IDs of events that inspired this"
     },
     "tags": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "region": {
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["global", "usa", "europe", "asia", "south-asia", "bangladesh", "japan", "china"]
+        "enum": [
+          "asia",
+          "bangladesh",
+          "china",
+          "europe",
+          "global",
+          "israel",
+          "japan",
+          "south-asia",
+          "usa"
+        ]
       },
-      "default": ["global"]
+      "default": [
+        "global"
+      ]
     },
     "artifacts": {
       "type": "array",
@@ -99,34 +196,74 @@
         "properties": {
           "type": {
             "type": "string",
-            "enum": ["screenshot", "product_photo", "logo", "advertisement", "photograph", "ui", "website", "poster", "video", "icon", "illustration"]
+            "enum": [
+              "screenshot",
+              "product_photo",
+              "logo",
+              "advertisement",
+              "photograph",
+              "ui",
+              "website",
+              "poster",
+              "video",
+              "icon",
+              "illustration"
+            ]
           },
-          "image": { "type": "string" },
-          "video_id": { "type": "string" },
-          "provider": { "type": "string" }
+          "image": {
+            "type": "string"
+          },
+          "video_id": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          }
         }
       }
     },
     "sources": {
       "type": "array",
-      "items": { "$ref": "#/$defs/source" }
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
     }
   },
   "$defs": {
     "source": {
       "type": "object",
-      "required": ["title", "url", "type"],
+      "required": [
+        "title",
+        "url"
+      ],
       "properties": {
-        "title": { "type": "string" },
-        "url": { "type": "string", "format": "uri" },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
         "type": {
           "type": "string",
-          "enum": ["primary", "secondary", "community"]
+          "enum": [
+            "primary",
+            "secondary",
+            "community"
+          ]
         },
-        "accessed": { "type": "string", "format": "date" },
+        "accessed": {
+          "type": "string",
+          "format": "date"
+        },
         "confidence": {
           "type": "string",
-          "enum": ["high", "medium", "low"]
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
         }
       }
     }

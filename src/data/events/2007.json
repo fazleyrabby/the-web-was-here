@@ -147,7 +147,14 @@
     "region": [
       "global"
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Official YouTube Blog: 2007",
+        "url": "https://youtube.googleblog.com/2007/",
+        "type": "primary",
+        "accessed": "2026-09-23"
+      }
+    ],
     "image": "/images/events/2007/youtube-culture-2007.png",
     "image_caption": "YouTube, acquired by Google in 2006, becomes the de facto video platform. Viral videos become a cultural phenomenon."
   },
@@ -218,7 +225,14 @@
     "region": [
       "global"
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Microsoft: Windows Vista consumer launch",
+        "url": "https://news.microsoft.com/source/2007/01/29/microsoft-launches-windows-vista-and-microsoft-office-2007-to-consumers-worldwide/",
+        "type": "primary",
+        "accessed": "2026-09-23"
+      }
+    ],
     "image": "/images/events/2007/windows-vista-2007.png",
     "image_caption": "Microsoft releases Windows Vista. UAC prompts become the universal punchline."
   },
@@ -250,7 +264,14 @@
     "region": [
       "global"
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Newgrounds featured games, October 2007",
+        "url": "https://www.newgrounds.com/fpa/games/10/2007",
+        "type": "primary",
+        "accessed": "2026-09-23"
+      }
+    ],
     "image": "/images/events/2007/flash-games-peak-2007.png",
     "image_caption": "Flash games and animations reach their cultural peak. Newgrounds, Addicting Games, and Kongregate are thriving."
   },
@@ -281,7 +302,14 @@
     "region": [
       "global"
     ],
-    "sources": [],
+    "sources": [
+      {
+        "title": "Contemporary Web 2.0 gradient tutorial",
+        "url": "https://blog.typpz.com/2007/05/16/gradients-for-shiny-web-20-logos/",
+        "type": "primary",
+        "accessed": "2026-09-23"
+      }
+    ],
     "image": "/images/events/2007/web2-design-2007.png",
     "image_caption": "Glossy buttons, reflective surfaces, big typography, and rounded corners define the Web 2.0 aesthetic."
   },

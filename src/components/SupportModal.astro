@@ -2,7 +2,7 @@
 // Support Modal Component — The Web Was Here Neo-Brutalist Theme
 ---
 
-<div class="modal-backdrop" id="support-modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="support-title">
+<div class="modal-backdrop" id="support-modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="support-title" inert>
   <div class="support-modal-box" id="support-modal">
     <!-- Retro Window Bar -->
     <div class="support-window-bar">
@@ -753,7 +753,7 @@
     border: 2.5px solid var(--bark);
     box-shadow: 4px 4px 0 var(--bark);
     pointer-events: auto;
-    animation: toast-in 0.2s var(--ease-bounce) forwards;
+    animation: toast-in 0.2s var(--ease-out) forwards;
     transition: opacity 0.25s ease, transform 0.25s ease;
   }
 
@@ -801,19 +801,31 @@
     const payoneerBox = document.getElementById('btn-copy-payoneer');
     const payoneerCopyBtn = document.getElementById('btn-payoneer-copy-action');
     const copyLabel = document.getElementById('payoneer-copy-label');
+    if (openBtn?.dataset.modalBound === 'true') return;
+    if (openBtn) openBtn.dataset.modalBound = 'true';
+    let previousFocus: HTMLElement | null = null;
+
+    function focusable() {
+      return Array.from(backdrop?.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])') ?? []);
+    }
 
     function openModal() {
       if (!backdrop) return;
+      previousFocus = document.activeElement as HTMLElement;
+      backdrop.removeAttribute('inert');
       backdrop.classList.add('open');
       backdrop.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';
+      closeBtn?.focus();
     }
 
     function closeModal() {
       if (!backdrop) return;
       backdrop.classList.remove('open');
+      backdrop.setAttribute('inert', '');
       backdrop.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
+      previousFocus?.focus();
     }
 
     function showToast(message: string, type: 'success' | 'info' = 'info') {
@@ -854,11 +866,27 @@
     });
 
     payoneerBox?.addEventListener('click', copyPayoneerId);
+    payoneerBox?.addEventListener('keydown', (e) => {
+      if (e.target === payoneerBox && (e.key === 'Enter' || e.key === ' ')) copyPayoneerId(e);
+    });
     payoneerCopyBtn?.addEventListener('click', copyPayoneerId);
 
     window.addEventListener('keydown', (e) => {
+      if (!backdrop?.classList.contains('open')) return;
       if (e.key === 'Escape' && backdrop?.classList.contains('open')) {
         closeModal();
+      } else if (e.key === 'Tab') {
+        const items = focusable();
+        if (!items.length) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
       }
     });
   }

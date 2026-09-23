@@ -1,43 +1,37 @@
-# Astro Starter Kit: Minimal
+# The Web Was Here
+
+An interactive, static archive of internet history from 1990 through 2026. Built with Astro. Each year has a curated narrative, events, sources, and local images.
+
+## Run locally
+
+Requires Node.js 22.12 or newer.
 
 ```sh
-npm create astro@latest -- --template minimal
+npm ci
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Open the URL printed by Astro. For a production check, run `npm run build`; the generated site is in `dist/`. `npm run preview` serves that output locally.
 
-## 🚀 Project Structure
+## Content workflow
 
-Inside of your Astro project, you'll see the following folders and files:
+- `src/data/years/YYYY.json` holds the year summary, era, and event IDs.
+- `src/data/events/YYYY.json` holds the events shown on that year's page.
+- `public/images/events/YYYY/` and `public/images/hardware/` hold event artwork. Use an absolute public path such as `/images/events/2007/example.webp` in JSON.
+- `schemas/` describes year and event data. Keep allowed category, type, and era values current when introducing a new one.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Run `npm run validate:data` after editing content. It checks both schemas, matching years, unique IDs, year event references, and local image paths. The production build runs the same check first. Source links should support the event's factual claims; the validator checks their format, not their accuracy or availability.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Code map
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- `src/pages/index.astro`: timeline homepage
+- `src/pages/the-web/[year].astro`: generated year pages
+- `src/layouts/`: shared shell and year layout
+- `src/components/`: interactive UI, event lists, and decorative effects
+- `src/styles/eras.css`: era styling
 
-Any static assets, like images, can be placed in the `public/` directory.
+The 3D decoration on the 2026 page downloads Three.js when it nears the viewport. Visitors who do not scroll to it do not download that module.
 
-## 🧞 Commands
+## Deploy
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Deploy the `dist/` folder to a static host after `npm run build`. The canonical URL and Open Graph image are configured in `src/layouts/Base.astro`; update `SITE_URL` there if the production domain changes.

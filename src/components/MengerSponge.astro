@@ -32,14 +32,15 @@ const { class: className = '' } = Astro.props;
 </style>
 
 <script>
-  type ThreeModule = typeof import('three');
+  type ThreeModule = typeof import('../lib/sponge-three');
 
   const SELECTOR = '[data-sponge]';
   const cleanups = new WeakMap<HTMLElement, () => void>();
+  const observers = new WeakMap<HTMLElement, IntersectionObserver>();
 
   let threePromise: Promise<ThreeModule> | null = null;
   function loadThree(): Promise<ThreeModule> {
-    if (!threePromise) threePromise = import('three');
+    if (!threePromise) threePromise = import('../lib/sponge-three');
     return threePromise;
   }
 
@@ -277,10 +278,17 @@ const { class: className = '' } = Astro.props;
         stage.classList.add('sponge--ready');
         return;
       }
-      loadThree()
-        .then((THREE) => mountSponge(stage, THREE))
-        .then((cleanup) => cleanups.set(stage, cleanup))
-        .catch((err) => console.warn('[menger-sponge] init failed', err));
+      const observer = new IntersectionObserver((entries) => {
+        if (!entries[0]?.isIntersecting) return;
+        observer.disconnect();
+        observers.delete(stage);
+        loadThree()
+          .then((THREE) => mountSponge(stage, THREE))
+          .then((cleanup) => cleanups.set(stage, cleanup))
+          .catch((err) => console.warn('[menger-sponge] init failed', err));
+      }, { rootMargin: '200px' });
+      observers.set(stage, observer);
+      observer.observe(stage);
     });
   }
 
@@ -288,7 +296,10 @@ const { class: className = '' } = Astro.props;
     document.querySelectorAll<HTMLElement>(SELECTOR).forEach((stage) => {
       const cleanup = cleanups.get(stage);
       if (cleanup) cleanup();
+      observers.get(stage)?.disconnect();
+      observers.delete(stage);
       cleanups.delete(stage);
+      delete stage.dataset.spongeInit;
     });
   }
 
