@@ -28,7 +28,7 @@ const narrative = yearData.narrative;
 const feltLike = yearData.felt_like;
 ---
 
-<YearLayout year={yearNum} title={title} narrative={narrative}>
+<YearLayout year={yearNum} title={title} narrative={narrative} era={yearData.era}>
   {events.length > 0 ? (
     <YearBody events={events} feltLike={feltLike} />
   ) : (

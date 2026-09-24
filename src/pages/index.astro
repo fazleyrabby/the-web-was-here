@@ -5,12 +5,13 @@ import RetroCrtHero from '../components/RetroCrtHero.astro';
 const eras = [
   { start: 1990, end: 1994, label: "Foundation", color: "var(--pink)", tag: "THE DAWN" },
   { start: 1995, end: 1999, label: "Early Web", color: "var(--yellow)", tag: "BROWSER WARS" },
-  { start: 2000, end: 2004, label: "Web Expansion", color: "var(--green)", tag: "BUST & REBUILD" },
+  { start: 2000, end: 2004, label: "Bust & Rebuild", color: "var(--green)", tag: "BUST & REBUILD" },
   { start: 2005, end: 2009, label: "Web 2.0", color: "var(--blue)", tag: "USER-GENERATED" },
   { start: 2010, end: 2014, label: "Mobile + Social", color: "var(--orange)", tag: "POCKET REVOLUTION" },
   { start: 2015, end: 2019, label: "Platform Era", color: "var(--purple)", tag: "ALGORITHMS" },
   { start: 2020, end: 2022, label: "Pandemic Web", color: "var(--teal)", tag: "EVERYTHING REMOTE" },
-  { start: 2023, end: 2026, label: "AI Era", color: "var(--red)", tag: "MACHINE LEARNING" },
+  { start: 2023, end: 2025, label: "AI Era", color: "var(--red)", tag: "MACHINE LEARNING" },
+  { start: 2026, end: 2026, label: "The Present", color: "#c6ff3d", tag: "AGENTIC WEB" },
 ];
 
 const years = [
@@ -78,7 +79,7 @@ const totalEvents = Object.values(eventModules).reduce(
         <div class="hero__meta">
           <span class="hero__stat">{totalEvents} curated events</span>
           <span class="hero__dot">&middot;</span>
-          <span class="hero__stat">8 eras</span>
+          <span class="hero__stat">9 eras</span>
           <span class="hero__dot">&middot;</span>
           <span class="hero__stat">1990&mdash;2026</span>
         </div>
@@ -179,7 +180,7 @@ const totalEvents = Object.values(eventModules).reduce(
     <div class="timeline__inner">
       <div class="timeline__header">
         <h2 class="timeline__heading">1990 &mdash; 2026</h2>
-        <p class="timeline__sub">36 years. Every year tells a story.</p>
+        <p class="timeline__sub">37 years. Every year tells a story.</p>
       </div>
       <div class="eras">
         {eras.map((era, i) => (

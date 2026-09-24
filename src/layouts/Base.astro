@@ -2,6 +2,7 @@
 import VisitorCounter from '../components/VisitorCounter.astro';
 import ScrollProgress from '../components/ScrollProgress.astro';
 import SupportModal from '../components/SupportModal.astro';
+import CommandPalette from '../components/CommandPalette.astro';
 import '../styles/eras.css';
 
 interface Props {
@@ -60,6 +61,7 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
         </a>
         <div class="nav__links">
           <a href="/">Timeline</a>
+          <a href="/the-web/1990">1990</a>
           <a href="/the-web/1998">1998</a>
           <a href="/the-web/2005">2005</a>
           <a href="/the-web/2007">2007</a>
@@ -69,24 +71,20 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
         </div>
       </div>
       <div class="nav__controls">
+        <button id="nav-search-btn" class="nav__btn nav__btn--search" title="Search all 442 events (⌘K)">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <span class="search-text">Search</span>
+          <kbd class="nav__kbd">⌘K</kbd>
+        </button>
         <button id="nav-warp-btn" class="nav__btn nav__btn--warp" title="Time warp to a random year">🎲 Warp</button>
         <button id="nav-sound-btn" class="nav__btn nav__btn--sound" title="Toggle retro sound effects" aria-label="Toggle sound FX">🔊 FX: ON</button>
         <div class="nav__mobile-jump">
           <select class="nav__select" aria-label="Jump to a year" onchange="if(this.value) window.location.href=this.value">
-            <option value="">Jump to...</option>
+            <option value="">Jump to year ▾</option>
             <option value="/">Overview</option>
-            <option value="/the-web/1990">1990 — Foundation</option>
-            <option value="/the-web/1995">1995 — Early Web</option>
-            <option value="/the-web/1998">1998 — Browser Wars</option>
-            <option value="/the-web/2001">2001 — Dot-Com Bust</option>
-            <option value="/the-web/2005">2005 — Web 2.0</option>
-            <option value="/the-web/2007">2007 — Mobile Web</option>
-            <option value="/the-web/2010">2010 — Social Era</option>
-            <option value="/the-web/2015">2015 — Platform Era</option>
-            <option value="/the-web/2020">2020 — Remote Web</option>
-            <option value="/the-web/2024">2024 — AI Web</option>
-            <option value="/the-web/2025">2025 — AI Everywhere</option>
-            <option value="/the-web/2026">2026 — The Present</option>
+            {Array.from({ length: 37 }, (_, i) => 1990 + i).map((y) => (
+              <option value={`/the-web/${y}`}>{y}</option>
+            ))}
           </select>
         </div>
       </div>
@@ -153,6 +151,9 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
 
     <!-- Support Modal -->
     <SupportModal />
+
+    <!-- Global Search Command Palette -->
+    <CommandPalette />
   </body>
 </html>
 
@@ -308,6 +309,18 @@ const canonical = new URL(Astro.url.pathname, SITE_URL).href;
   }
   .nav__btn:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--bark); }
   .nav__btn:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 var(--bark); }
+  .nav__btn--search { background: var(--bg-card); color: var(--ink); display: inline-flex; align-items: center; gap: 0.35rem; }
+  .nav__btn--search:hover { background: var(--green); color: #fff; }
+  .nav__btn--search:hover .nav__kbd { border-color: rgba(255, 255, 255, 0.4); color: #fff; }
+  .nav__kbd {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    padding: 0.05rem 0.28rem;
+    border: 1px solid var(--bark);
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--text-muted);
+  }
   .nav__btn--warp { background: var(--yellow); color: #0a0a0a; }
   .nav__btn--warp:hover { background: #ffe066; }
   .nav__btn--sound { background: var(--bg-card); color: var(--ink); }

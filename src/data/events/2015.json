@@ -214,47 +214,47 @@
     "image_caption": "Microsoft releases Windows 10, skipping version 9 and pushing the 'Windows as a service' model."
   },
   {
-    "id": "twitch-acquisition-2015",
-    "title": "Amazon Acquires Twitch",
+    "id": "discord-launch-2015",
+    "title": "Discord Launches",
     "year": 2015,
-    "date": "2015-08-25",
+    "date": "2015-05-13",
     "category": [
-      "entertainment",
-      "business"
+      "social",
+      "communication",
+      "gaming"
     ],
-    "type": "acquisition",
-    "summary": "Amazon acquires Twitch for $970 million, betting big on live streaming and gaming culture.",
-    "narrative": "Twitch is what happens when Justin.tv pivots. Gaming streams blow up. Amazon pays nearly a billion dollars for a site where people watch other people play video games. Wall Street thinks Bezos is crazy. Then esports explodes. Then streamers become celebrities. Then Amazon gets Twitch Prime, which drives more Prime subscriptions. It's a long game. Bezos plays long games.",
-    "why_it_matters": "Validated live streaming as entertainment. Created the streamer economy. Twitch's model influenced YouTube Live, Facebook Gaming, and every live platform.",
-    "impact": 4,
-    "nostalgia": 3,
+    "type": "product_launch",
+    "summary": "Discord launches as a lightweight voice and text chat platform for gamers, quickly evolving into the digital third place for communities worldwide.",
+    "narrative": "Frustrated with clunky, resource-heavy voice apps like TeamSpeak, Mumble, and Skype, Jason Citron and Stan Vishnevskiy release Discord in May 2015. With free high-quality voice channels, instant server creation, and modern markdown chat, word of mouth spreads rapidly through Reddit and Twitch communities. Within years, Discord becomes the indispensable town square for gamers, developers, and internet subcultures.",
+    "why_it_matters": "Displaced legacy voice-over-IP apps, pioneered modern community server mechanics, and redefined real-time community engagement across the modern web.",
+    "impact": 5,
+    "nostalgia": 4,
     "influence": [
-      "youtube-live-streaming",
-      "twitch-streamers",
-      "esports-boom",
-      "amazon-prime-gaming"
+      "gaming-communities",
+      "streamer-communities",
+      "community-servers"
     ],
     "tags": [
-      "twitch",
-      "amazon",
-      "streaming",
+      "discord",
       "gaming",
-      "live"
+      "voice-chat",
+      "community",
+      "social"
     ],
     "region": [
       "global"
     ],
     "sources": [
       {
-        "title": "Wikipedia: Twitch (service)",
-        "url": "https://en.wikipedia.org/wiki/Twitch_(service)",
+        "title": "Wikipedia: Discord",
+        "url": "https://en.wikipedia.org/wiki/Discord",
         "type": "secondary",
         "accessed": "2026-09-15",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
-    "image": "/images/events/2015/twitch-acquisition-2015.png",
-    "image_caption": "Amazon acquires Twitch for $970 million, betting big on live streaming and gaming culture."
+    "image": "/images/events/2015/discord-launch-2015.png",
+    "image_caption": "Discord launched in May 2015, introducing modern voice and text chat for gaming communities."
   },
   {
     "id": "slack-rise-2015",

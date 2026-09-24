@@ -90,6 +90,13 @@ const hitCount = (year * 1337 + 4210) % 900000 + 100000;
   </div>
 )}
 
+{era === 'now' && (
+  <div class="era-extras">
+    <span class="era-badge era-badge--now">⚡ The Agentic Web</span>
+    <span class="era-badge era-badge--now">Hairline Bento · ⌘K Search Active</span>
+  </div>
+)}
+
 <style>
   .era-banner {
     max-width: var(--max-width);
@@ -164,6 +171,12 @@ const hitCount = (year * 1337 + 4210) % 900000 + 100000;
     background: linear-gradient(120deg, rgba(139, 92, 246, 0.25), rgba(34, 211, 238, 0.25));
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+  }
+  .era-badge--now {
+    background: rgba(198, 255, 61, 0.1);
+    color: #c6ff3d;
+    border: 1px solid rgba(198, 255, 61, 0.25);
     border-radius: 999px;
   }
 

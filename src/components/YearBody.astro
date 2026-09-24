@@ -10,11 +10,14 @@ interface WebEvent {
   year: number;
   date?: string;
   category: string[];
+  type?: string;
   summary?: string;
   narrative: string;
   why_it_matters?: string;
   impact: number;
   nostalgia: number;
+  influence?: string[];
+  tags?: string[];
   sources: EventSource[];
   image?: string;
   image_caption?: string;
@@ -84,6 +87,7 @@ const allCategories = Array.from(
     {events.map((event, i) => (
       <article
         class="event scroll-reveal-card"
+        id={event.id}
         data-event
         data-categories={event.category.join(' ')}
         style={`--accent: ${accentColors[i % accentColors.length]}; --reveal-delay: ${Math.min(i, 6) * 60}ms`}
@@ -104,6 +108,9 @@ const allCategories = Array.from(
         <div class="event__right">
           <div class="event__meta">
             <span class="event__categories">
+              {event.type && (
+                <span class="event__type">{event.type.replace(/_/g, ' ')}</span>
+              )}
               {event.category.map((cat) => (
                 <span class="event__category">{cat}</span>
               ))}
@@ -124,7 +131,17 @@ const allCategories = Array.from(
             </div>
             {event.image && (
               <figure class="event__figure">
-                <div class="event__image-frame">
+                <button
+                  type="button"
+                  class="event__image-frame event__image-frame--interactive"
+                  data-lightbox-trigger
+                  data-img-src={event.image}
+                  data-img-caption={event.image_caption || event.title}
+                  data-img-title={event.title}
+                  data-img-year={event.year}
+                  title="Click to view full artifact"
+                  aria-label={`View full image for ${event.title}`}
+                >
                   <img
                     src={event.image}
                     alt={event.title}
@@ -132,14 +149,15 @@ const allCategories = Array.from(
                     class="event__image"
                     onerror="this.closest('.event__figure').style.display='none'"
                   />
-                </div>
+                  <span class="event__image-zoom-badge" aria-hidden="true">🔍</span>
+                </button>
                 {event.image_caption && (
                   <figcaption class="event__caption">{event.image_caption}</figcaption>
                 )}
               </figure>
             )}
           </div>
-          {event.sources.length > 0 && (
+          {event.sources && event.sources.length > 0 && (
             <div class="event__sources">
               <svg class="event__arrow" viewBox="0 0 48 48" fill="none"><path d="M8 24 Q 16 18 24 24 T 40 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none" /><path d="M34 18 L 40 24 L 34 30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" /></svg>
               {event.sources.map((source) => (
@@ -147,11 +165,59 @@ const allCategories = Array.from(
               ))}
             </div>
           )}
+          {event.tags && event.tags.length > 0 && (
+            <div class="event__tags">
+              {event.tags.map((tag) => (
+                <span class="event__tag">#{tag}</span>
+              ))}
+            </div>
+          )}
+          {event.influence && event.influence.length > 0 && (
+            <div class="event__influences">
+              <span class="event__influences-label">Influenced:</span>
+              <div class="event__influences-list">
+                {event.influence.map((inf) => {
+                  const matchYear = inf.match(/-(\d{4})$/);
+                  if (matchYear) {
+                    return (
+                      <a href={`/the-web/${matchYear[1]}#${inf}`} class="event__influence-pill event__influence-pill--link" title={`Jump to ${inf}`}>
+                        <span>{inf.replace(/-\d{4}$/, '').replace(/-/g, ' ')}</span>
+                        <span class="influence-year">({matchYear[1]})</span>
+                      </a>
+                    );
+                  }
+                  return (
+                    <span class="event__influence-pill">
+                      {inf.replace(/-/g, ' ')}
+                    </span>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       </article>
     ))}
   </div>
 </section>
+
+<!-- Image Lightbox Modal -->
+<div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Historical visual artifact" hidden>
+  <div class="lightbox-modal__backdrop" id="lightbox-backdrop"></div>
+  <div class="lightbox-modal__dialog">
+    <div class="lightbox-modal__header">
+      <div class="lightbox-modal__info">
+        <span class="lightbox-modal__year" id="lightbox-year"></span>
+        <h4 class="lightbox-modal__title" id="lightbox-title"></h4>
+      </div>
+      <button type="button" class="lightbox-modal__close" id="lightbox-close" aria-label="Close image viewer">✕</button>
+    </div>
+    <div class="lightbox-modal__media">
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+    <p class="lightbox-modal__caption" id="lightbox-caption"></p>
+  </div>
+</div>
 
 <style>
   .felt-like { margin-bottom: var(--spacing-xl); padding: var(--spacing-md); background: var(--bg); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); }
@@ -163,6 +229,7 @@ const allCategories = Array.from(
   .felt-like__item:hover { transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--item-accent); border-color: var(--bark); }
   .felt-like__key { font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; display: inline-block; align-self: flex-start; padding: 0.15rem 0.5rem; background: var(--bg-elevated); border: 1.5px solid var(--item-accent); border-radius: 3px; }
   .felt-like__value { font-family: var(--font-body); font-size: 0.95rem; color: var(--text-primary); line-height: 1.5; display: block; overflow-wrap: anywhere; }
+  
   .events__header {
     margin-bottom: var(--spacing-lg);
     display: flex;
@@ -228,9 +295,17 @@ const allCategories = Array.from(
   }
 
   .events__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 480px), 1fr)); gap: var(--spacing-md); align-items: start; }
-  .event { display: grid; grid-template-columns: 70px 1fr; gap: var(--spacing-md); padding: var(--spacing-md); background: var(--bg-card); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out); position: relative; }
+  .event { display: grid; grid-template-columns: 70px 1fr; gap: var(--spacing-md); padding: var(--spacing-md); background: var(--bg-card); border: var(--border-thick); border-radius: 4px; box-shadow: 6px 6px 0 var(--bark); transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out), outline 0.2s; position: relative; }
   .event:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--accent); }
   .event--hidden { display: none !important; }
+  .event--highlighted {
+    animation: highlightPulse 2.5s ease-out;
+  }
+  @keyframes highlightPulse {
+    0% { outline: 4px solid var(--pink); box-shadow: 0 0 25px var(--pink); }
+    100% { outline: 0px solid transparent; }
+  }
+  
   .event__left { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-sm); padding-top: var(--spacing-xs); }
   .event__index { font-family: var(--font-hand); font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1; opacity: 0.75; }
   .event__scores { display: flex; flex-direction: column; gap: var(--spacing-xs); }
@@ -241,7 +316,19 @@ const allCategories = Array.from(
   .event__right { min-width: 0; }
   .event__meta { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.4rem; margin-bottom: var(--spacing-sm); }
   .event__meta-right { display: flex; align-items: center; gap: var(--spacing-sm); }
-  .event__categories { display: flex; gap: var(--spacing-xs); flex-wrap: wrap; }
+  .event__categories { display: flex; gap: var(--spacing-xs); flex-wrap: wrap; align-items: center; }
+  .event__type {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.15rem 0.45rem;
+    background: var(--bg-card);
+    border: 1.5px solid var(--bark);
+    border-radius: 2px;
+    color: var(--ink);
+  }
   .event__category { font-family: var(--font-mono); font-size: 0.72rem; color: #fff; padding: 0.25rem 0.65rem; border: 2px solid var(--bark); border-radius: 2px; text-transform: uppercase; letter-spacing: 0.05em; background: var(--accent); font-weight: 600; box-shadow: 2px 2px 0 var(--bark); }
   .event__date { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
   .event__react-btn { font-family: var(--font-hand); font-size: 1.05rem; font-weight: 600; color: #0a0a0a; background: var(--yellow); border: 2px solid var(--bark); border-radius: 3px; padding: 0.2rem 0.6rem; cursor: pointer; box-shadow: 2px 2px 0 var(--bark); transition: transform 0.15s var(--ease-out), box-shadow 0.15s var(--ease-out), background 0.15s, color 0.15s; }
@@ -250,16 +337,67 @@ const allCategories = Array.from(
   .event__title { font-family: var(--font-hand); font-size: 1.5rem; font-weight: 700; color: var(--accent); margin-bottom: var(--spacing-sm); line-height: 1.2; overflow-wrap: anywhere; }
   .event__body--has-image { display: grid; grid-template-columns: 1fr 170px; gap: var(--spacing-md); align-items: start; }
   .event__text { min-width: 0; }
-  .event__text-body { position: relative; max-height: 9rem; overflow: hidden; }
-  .event__text-body::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2.4rem; background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--bg-card)); pointer-events: none; }
-  .event--expanded .event__text-body { max-height: none; }
-  .event--expanded .event__text-body::after { display: none; }
+  
+  /* Mask-based fade prevents grayish artifacts on dark & glassmorphism themes */
+  .event__text-body {
+    position: relative;
+    max-height: 9rem;
+    overflow: hidden;
+    mask-image: linear-gradient(to bottom, black calc(100% - 2.5rem), transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 2.5rem), transparent 100%);
+  }
+  .event--expanded .event__text-body {
+    max-height: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
   .event__more { display: inline-flex; align-items: center; margin-top: 0.35rem; padding: 0; background: none; border: none; cursor: pointer; font-family: var(--font-mono); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--blue); }
   .event__more:hover { color: var(--pink); text-decoration: underline; }
   .event--expanded .event__more { color: var(--text-muted); }
+  
   .event__figure { margin: 0; width: 100%; max-width: 170px; }
-  .event__image-frame { border: 2.5px solid var(--bark); border-radius: 4px; overflow: hidden; background: #ffffff; box-shadow: 4px 4px 0 var(--bark); padding: var(--spacing-xs); display: flex; align-items: center; justify-content: center; min-height: 110px; max-height: 150px; margin-bottom: 6px; }
+  .event__image-frame {
+    cursor: zoom-in;
+    position: relative;
+    width: 100%;
+    padding: var(--spacing-xs);
+    border: 2.5px solid var(--bark);
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 4px 4px 0 var(--bark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 110px;
+    max-height: 150px;
+    margin-bottom: 6px;
+    transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+  }
+  .event__image-frame:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--bark);
+  }
   .event__image { max-width: 100%; max-height: 175px; width: auto; height: auto; object-fit: contain; display: block; margin: 0 auto; }
+  .event__image-zoom-badge {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 999px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+  }
+  .event__image-frame:hover .event__image-zoom-badge {
+    opacity: 1;
+  }
   .event__caption { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); line-height: 1.4; letter-spacing: 0.02em; }
   .event__narrative { font-size: 0.96rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--spacing-sm); max-width: none; overflow-wrap: anywhere; }
   .event__why { font-family: var(--font-editorial); font-style: italic; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.55; padding: var(--spacing-sm) var(--spacing-md); border: 2px dashed var(--bark); border-radius: 3px; background: rgba(255, 255, 255, 0.5); margin-bottom: var(--spacing-sm); overflow-wrap: anywhere; }
@@ -267,7 +405,184 @@ const allCategories = Array.from(
   .event__arrow { width: 24px; height: 24px; color: var(--green); flex-shrink: 0; }
   .event__source { font-family: var(--font-hand); font-size: 1.15rem; font-weight: 600; color: var(--blue); text-decoration: underline; text-decoration-style: wavy; text-decoration-color: var(--bark); text-underline-offset: 3px; transition: color 0.2s; overflow-wrap: anywhere; }
   .event__source:hover { color: var(--pink); }
+
+  /* Tags & Influences */
+  .event__tags {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    margin-top: 0.35rem;
+  }
+  .event__tag {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    letter-spacing: 0.03em;
+  }
+  .event__influences {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    padding-top: 0.45rem;
+    border-top: 1.5px dotted var(--bark);
+  }
+  .event__influences-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .event__influences-list {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+  .event__influence-pill {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    padding: 0.15rem 0.45rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--bark);
+    border-radius: 3px;
+    color: var(--ink);
+    text-transform: capitalize;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .event__influence-pill--link {
+    text-decoration: none;
+    transition: transform 0.15s, background 0.15s, color 0.15s;
+    cursor: pointer;
+  }
+  .event__influence-pill--link:hover {
+    background: var(--pink);
+    color: #fff;
+    transform: translateY(-1px);
+    border-color: var(--bark);
+  }
+  .event__influence-pill--link:hover .influence-year {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .influence-year {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  /* Lightbox Modal */
+  .lightbox-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  .lightbox-modal[hidden] {
+    display: none !important;
+  }
+  .lightbox-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 10, 14, 0.85);
+    backdrop-filter: blur(8px);
+  }
+  .lightbox-modal__dialog {
+    position: relative;
+    z-index: 2;
+    background: var(--bg-card, #1a1714);
+    border: 3px solid var(--bark, #333);
+    box-shadow: 10px 10px 0 var(--bark, #000);
+    border-radius: 6px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: lightboxPop 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  @keyframes lightboxPop {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .lightbox-modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1.2rem;
+    border-bottom: 2px solid var(--bark);
+    background: var(--bg-elevated);
+  }
+  .lightbox-modal__year {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--pink);
+    text-transform: uppercase;
+  }
+  .lightbox-modal__title {
+    font-family: var(--font-hand);
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--ink);
+  }
+  .lightbox-modal__close {
+    background: var(--yellow);
+    border: 2px solid var(--bark);
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 0 var(--bark);
+    transition: transform 0.15s, background 0.15s;
+  }
+  .lightbox-modal__close:hover {
+    transform: translate(-1px, -1px);
+    background: var(--pink);
+    color: #fff;
+  }
+  .lightbox-modal__media {
+    padding: 1rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex: 1;
+    min-height: 250px;
+  }
+  .lightbox-modal__media img {
+    max-width: 100%;
+    max-height: 60vh;
+    object-fit: contain;
+    border-radius: 2px;
+  }
+  .lightbox-modal__caption {
+    padding: 0.8rem 1.2rem;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    border-top: 1.5px solid var(--bark);
+    background: var(--bg-card);
+  }
+
   .confetti-dot { position: fixed; width: 10px; height: 10px; border-radius: 2px; pointer-events: none; z-index: 9998; border: 2px solid var(--bark); will-change: transform, opacity; }
+  
   @media (max-width: 900px) {
     .event__body--has-image { grid-template-columns: 1fr; gap: var(--spacing-md); }
     .event__figure { max-width: 100%; margin-top: var(--spacing-xs); }
@@ -433,6 +748,64 @@ const allCategories = Array.from(
         more.setAttribute('aria-expanded', String(expanded));
       };
     });
+
+    // 4. Lightbox Modal
+    const lightbox = document.getElementById('lightbox-modal');
+    const lbImg = document.getElementById('lightbox-img') as HTMLImageElement | null;
+    const lbTitle = document.getElementById('lightbox-title');
+    const lbYear = document.getElementById('lightbox-year');
+    const lbCaption = document.getElementById('lightbox-caption');
+    const lbClose = document.getElementById('lightbox-close');
+    const lbBackdrop = document.getElementById('lightbox-backdrop');
+
+    function openLightbox(src: string, caption: string, title: string, year: string) {
+      if (!lightbox || !lbImg) return;
+      lbImg.src = src;
+      lbImg.alt = title;
+      if (lbTitle) lbTitle.textContent = title;
+      if (lbYear) lbYear.textContent = year;
+      if (lbCaption) lbCaption.textContent = caption;
+      lightbox.removeAttribute('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      if (!lightbox) return;
+      lightbox.setAttribute('hidden', '');
+      document.body.style.overflow = '';
+      if (lbImg) lbImg.src = '';
+    }
+
+    document.querySelectorAll<HTMLElement>('[data-lightbox-trigger]').forEach((el) => {
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const src = el.getAttribute('data-img-src') || '';
+        const caption = el.getAttribute('data-img-caption') || '';
+        const title = el.getAttribute('data-img-title') || '';
+        const year = el.getAttribute('data-img-year') || '';
+        if (src) openLightbox(src, caption, title, year);
+      });
+    });
+
+    lbClose?.addEventListener('click', closeLightbox);
+    lbBackdrop?.addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox && !lightbox.hasAttribute('hidden')) {
+        closeLightbox();
+      }
+    });
+
+    // 5. Deep link highlighting if hash exists in URL (e.g. #iphone-2007)
+    if (window.location.hash) {
+      const target = document.querySelector<HTMLElement>(window.location.hash);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          target.classList.add('event--highlighted');
+          setTimeout(() => target.classList.remove('event--highlighted'), 3000);
+        }, 150);
+      }
+    }
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initYearPage);

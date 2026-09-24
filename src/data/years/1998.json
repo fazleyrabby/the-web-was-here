@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "year": 1998,
   "title": "The Year Browsers Went to War",
-  "era": "foundation",
+  "era": "early-web",
   "narrative": "Google is founded in a garage. Microsoft bundles Internet Explorer and wins the browser war. Amazon and eBay go public. The dot-com bubble inflates. Instant messaging connects millions. The internet is about to change everything.",
   "felt_like": {
     "os": "Windows 98 / Mac OS 8.5",
@@ -16,7 +16,7 @@
     "fashion": "Frosted hair tips, oval wire-rim sunglasses, cargo pants, baby tees",
     "gadget": "Apple iMac G3 Bondi Blue & Game Boy Color",
     "news": "Clinton-Lewinsky scandal; Good Friday Agreement signed in Northern Ireland",
-    "culture": "The Truman Show presages reality TV; Pok\u00e9mon Red & Blue launch in the West"
+    "culture": "The Truman Show presages reality TV; Pokémon Red & Blue launch in the West"
   },
   "events": [
     "google-founding-1998",

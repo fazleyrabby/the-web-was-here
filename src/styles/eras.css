@@ -137,7 +137,12 @@ html[data-era='early-web'] .felt-like,
 html[data-era='early-web'] .felt-like__item { box-shadow: var(--shadow-brutal); }
 html[data-era='early-web'] .event__title {
   color: #ffff00; text-shadow: 2px 2px 0 #ff00ff;
-  animation: eraBlink 1.6s steps(2, start) infinite;
+}
+html[data-era='early-web'] .event__blink-star {
+  display: inline-block;
+  color: #ff00ff;
+  animation: eraBlink 1.4s steps(2, start) infinite;
+  margin-right: 0.35rem;
 }
 html[data-era='early-web'] .event__category { border-radius: 0; }
 html[data-era='early-web'] .event__source { color: #00ffff; }

@@ -9,16 +9,29 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
   const era = eraForYear(y);
   return { year: y, era, label: ERA_META[era].label };
 });
+
+const eventModules = import.meta.glob('../data/events/*.json', { eager: true });
+const allEvents = Object.entries(eventModules).flatMap(([path, mod]: [string, any]) => {
+  const year = parseInt(path.split('/').pop()!.replace('.json', ''), 10);
+  const list = (mod.default ?? mod) as any[];
+  return list.map((e: any) => ({
+    id: e.id,
+    year,
+    title: e.title,
+    category: Array.isArray(e.category) ? e.category.join(' ') : (e.category || ''),
+    tags: Array.isArray(e.tags) ? e.tags.join(' ') : (e.tags || ''),
+  }));
+});
 ---
 
 <div class="cmdk" id="cmdk" data-open="false">
-  <button type="button" class="cmdk__trigger" id="cmdk-trigger" aria-haspopup="dialog" aria-expanded="false">
+  <button type="button" class="cmdk__trigger" id="cmdk-trigger" aria-haspopup="dialog" aria-expanded="false" title="Search all 442 events (⌘K)">
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" /><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
-    <span>Jump to a year</span>
+    <span>Search archive</span>
     <kbd>⌘K</kbd>
   </button>
 
-  <div class="cmdk__overlay" id="cmdk-overlay" role="dialog" aria-modal="true" aria-label="Jump to a year">
+  <div class="cmdk__overlay" id="cmdk-overlay" role="dialog" aria-modal="true" aria-label="Search the archive">
     <div class="cmdk__panel" role="document">
       <div class="cmdk__input-row">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" /><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
@@ -26,7 +39,7 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
           type="text"
           class="cmdk__input"
           id="cmdk-input"
-          placeholder="Search years or eras…"
+          placeholder="Search 442 events, years, or tags (e.g. iPhone, Napster, CSS)..."
           autocomplete="off"
           spellcheck="false"
         />
@@ -35,21 +48,33 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
 
       <ul class="cmdk__list" id="cmdk-list" role="listbox">
         {years.map((y) => (
-          <li class="cmdk__item" role="option" data-year={y.year} data-search={`${y.year} ${y.label.toLowerCase()}`}>
+          <li class="cmdk__item cmdk__item--year" role="option" data-type="year" data-search={`${y.year} ${y.label.toLowerCase()}`}>
             <a href={`/the-web/${y.year}`} class="cmdk__link">
               <span class="cmdk__year">{y.year}</span>
               <span class="cmdk__era">{y.label}</span>
+              <span class="cmdk__type-badge">YEAR</span>
               <svg class="cmdk__arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
             </a>
           </li>
         ))}
-        <li class="cmdk__empty" id="cmdk-empty" hidden>No matches</li>
+        {allEvents.map((e) => (
+          <li class="cmdk__item cmdk__item--event" role="option" data-type="event" data-search={`${e.title.toLowerCase()} ${e.year} ${e.category.toLowerCase()} ${e.tags.toLowerCase()}`}>
+            <a href={`/the-web/${e.year}#${e.id}`} class="cmdk__link">
+              <span class="cmdk__year cmdk__year--event">{e.year}</span>
+              <span class="cmdk__title">{e.title}</span>
+              <span class="cmdk__cat">{e.category.split(' ')[0]}</span>
+              <svg class="cmdk__arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </a>
+          </li>
+        ))}
+        <li class="cmdk__empty" id="cmdk-empty" hidden>No matches found</li>
       </ul>
 
       <div class="cmdk__footer">
         <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
-        <span><kbd>↵</kbd> open</span>
+        <span><kbd>↵</kbd> select</span>
         <span><kbd>esc</kbd> close</span>
+        <span class="cmdk__count-label" id="cmdk-count"></span>
       </div>
     </div>
   </div>
@@ -59,10 +84,12 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
   function initCommandPalette() {
     const root = document.getElementById('cmdk');
     const trigger = document.getElementById('cmdk-trigger');
+    const navSearchBtn = document.getElementById('nav-search-btn');
     const overlay = document.getElementById('cmdk-overlay');
     const input = document.getElementById('cmdk-input') as HTMLInputElement | null;
     const list = document.getElementById('cmdk-list');
     const empty = document.getElementById('cmdk-empty');
+    const countLabel = document.getElementById('cmdk-count');
     if (!root || !overlay || !input || !list) return;
     if (root.dataset.bound === 'true') return;
     root.dataset.bound = 'true';
@@ -87,13 +114,36 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     function filter() {
       const q = input.value.trim().toLowerCase();
       let shown = 0;
+      const MAX_SHOWN = 45;
+
       items.forEach((item) => {
+        const isYear = item.getAttribute('data-type') === 'year';
         const hay = item.getAttribute('data-search') || '';
-        const match = !q || hay.includes(q);
-        item.toggleAttribute('hidden', !match);
-        if (match) shown++;
+
+        if (!q) {
+          // Default empty view: show only years
+          if (isYear) {
+            item.removeAttribute('hidden');
+            shown++;
+          } else {
+            item.setAttribute('hidden', '');
+          }
+        } else {
+          // Searching
+          const match = hay.includes(q);
+          if (match && shown < MAX_SHOWN) {
+            item.removeAttribute('hidden');
+            shown++;
+          } else {
+            item.setAttribute('hidden', '');
+          }
+        }
       });
+
       if (empty) empty.hidden = shown !== 0;
+      if (countLabel) {
+        countLabel.textContent = q ? `${shown} results` : '37 years';
+      }
       active = 0;
       setActive(0);
     }
@@ -121,6 +171,8 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     }
 
     trigger?.addEventListener('click', () => (isOpen() ? close() : open()));
+    navSearchBtn?.addEventListener('click', () => (isOpen() ? close() : open()));
+
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay) close();
     });
@@ -155,12 +207,16 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
         e.preventDefault();
         const vis = visibleItems();
         const link = vis[active]?.querySelector<HTMLAnchorElement>('.cmdk__link');
-        if (link) window.location.href = link.href;
+        if (link) {
+          close();
+          window.location.href = link.href;
+        }
       }
     });
   }
 
-  initCommandPalette();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initCommandPalette);
+  else initCommandPalette();
   document.addEventListener('astro:page-load', initCommandPalette);
 </script>
 
@@ -173,24 +229,25 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.55rem 0.8rem;
-    background: rgba(14, 15, 19, 0.9);
+    padding: 0.55rem 0.85rem;
+    background: rgba(14, 15, 19, 0.92);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 12px;
+    border: 1.5px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
     color: var(--text-secondary);
     font-family: var(--font-body);
     font-size: 0.82rem;
     cursor: pointer;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
-    transition: border-color 0.2s, color 0.2s, transform 0.2s;
+    transition: border-color 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
   }
   .cmdk__trigger:hover {
     color: #fff;
-    border-color: rgba(198, 255, 61, 0.5);
+    border-color: var(--green, #22c55e);
     transform: translateY(-2px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.65);
   }
-  .cmdk__trigger svg { width: 16px; height: 16px; }
+  .cmdk__trigger svg { width: 16px; height: 16px; color: var(--green, #22c55e); }
   .cmdk__trigger kbd {
     font-family: var(--font-mono);
     font-size: 0.68rem;
@@ -207,19 +264,19 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     display: none;
     justify-content: center;
     align-items: flex-start;
-    padding: 12vh 1rem 1rem;
-    background: rgba(4, 4, 6, 0.66);
-    backdrop-filter: blur(6px);
+    padding: 10vh 1rem 1rem;
+    background: rgba(4, 4, 6, 0.72);
+    backdrop-filter: blur(8px);
   }
   .cmdk__overlay.is-open { display: flex; }
 
   .cmdk__panel {
     width: 100%;
-    max-width: 560px;
+    max-width: 600px;
     background: #0e0f13;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1.5px solid rgba(255, 255, 255, 0.16);
     border-radius: 16px;
-    box-shadow: 0 40px 90px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 40px 90px rgba(0, 0, 0, 0.8);
     overflow: hidden;
     animation: cmdkIn 0.18s cubic-bezier(0.16, 1, 0.3, 1);
   }
@@ -232,10 +289,10 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     display: flex;
     align-items: center;
     gap: 0.65rem;
-    padding: 0.9rem 1rem;
+    padding: 0.95rem 1.1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
-  .cmdk__input-row svg { width: 18px; height: 18px; color: var(--text-muted); flex-shrink: 0; }
+  .cmdk__input-row svg { width: 20px; height: 20px; color: var(--green, #22c55e); flex-shrink: 0; }
   .cmdk__input {
     flex: 1;
     background: transparent;
@@ -243,13 +300,13 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
     outline: none;
     color: #fff;
     font-family: var(--font-body);
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
-  .cmdk__input::placeholder { color: var(--text-muted); }
+  .cmdk__input::placeholder { color: var(--text-muted); font-size: 0.92rem; }
   .cmdk__esc {
     font-family: var(--font-mono);
-    font-size: 0.62rem;
-    padding: 0.12rem 0.35rem;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.4rem;
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 5px;
     color: var(--text-muted);
@@ -258,56 +315,87 @@ const years = Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, i) => {
   .cmdk__list {
     list-style: none;
     margin: 0;
-    padding: 0.4rem;
-    max-height: 46vh;
+    padding: 0.5rem;
+    max-height: 52vh;
     overflow-y: auto;
   }
-  .cmdk__item { border-radius: 10px; }
-  .cmdk__item.is-active { background: rgba(198, 255, 61, 0.1); }
-  .cmdk__item.is-active .cmdk__arrow { opacity: 1; color: #c6ff3d; }
+  .cmdk__item { border-radius: 8px; margin-bottom: 2px; }
+  .cmdk__item.is-active { background: rgba(255, 255, 255, 0.08); }
+  .cmdk__item.is-active .cmdk__arrow { opacity: 1; color: var(--green, #22c55e); }
   .cmdk__link {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
-    padding: 0.55rem 0.7rem;
-    border-radius: 10px;
+    gap: 0.75rem;
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
     text-decoration: none;
   }
   .cmdk__year {
     font-family: var(--font-mono);
     font-size: 0.95rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
     min-width: 3.2rem;
   }
-  .cmdk__era { font-size: 0.82rem; color: var(--text-muted); flex: 1; }
-  .cmdk__arrow { width: 16px; height: 16px; opacity: 0; transition: opacity 0.15s; }
+  .cmdk__year--event {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .cmdk__era { font-size: 0.85rem; color: var(--text-muted); flex: 1; }
+  .cmdk__title { font-size: 0.95rem; color: #fff; flex: 1; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cmdk__cat {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--green, #22c55e);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.1rem 0.45rem;
+    border-radius: 4px;
+    background: rgba(34, 197, 94, 0.12);
+  }
+  .cmdk__type-badge {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--yellow, #facc15);
+    background: rgba(250, 204, 21, 0.1);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+  }
+  .cmdk__arrow { width: 16px; height: 16px; opacity: 0; transition: opacity 0.15s; flex-shrink: 0; }
 
   .cmdk__empty {
-    padding: 1.2rem;
+    padding: 1.5rem;
     text-align: center;
     color: var(--text-muted);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
 
   .cmdk__footer {
     display: flex;
+    align-items: center;
     gap: 1rem;
-    padding: 0.6rem 1rem;
+    padding: 0.65rem 1.1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     font-family: var(--font-mono);
-    font-size: 0.62rem;
+    font-size: 0.68rem;
     color: var(--text-muted);
+  }
+  .cmdk__count-label {
+    margin-left: auto;
+    color: var(--text-secondary);
   }
   .cmdk__footer kbd {
     font-family: var(--font-mono);
-    padding: 0.05rem 0.28rem;
+    padding: 0.08rem 0.3rem;
     border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 4px;
   }
 
-  @media (max-width: 520px) {
+  @media (max-width: 600px) {
     .cmdk__trigger span { display: none; }
-    .cmdk__overlay { padding-top: 8vh; }
+    .cmdk__overlay { padding-top: 4vh; padding-left: 0.5rem; padding-right: 0.5rem; }
+    .cmdk__cat { display: none; }
   }
 </style>

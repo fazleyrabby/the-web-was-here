@@ -3,7 +3,6 @@ import Base from './Base.astro';
 import YearArt from '../components/YearArt.astro';
 import MengerSponge from '../components/MengerSponge.astro';
 import EraArtifacts from '../components/EraArtifacts.astro';
-import CommandPalette from '../components/CommandPalette.astro';
 import { eraForYear, type Era } from '../lib/era';
 
 interface Props {
@@ -90,8 +89,6 @@ const randomYear = (() => {
       <span class="year-nav__link year-nav__link--disabled"><span class="year-nav__dir">Next &rarr;</span><span class="year-nav__num">—</span></span>
     )}
   </nav>
-
-  {activeEra === 'now' && <CommandPalette />}
 </Base>
 
 <style>

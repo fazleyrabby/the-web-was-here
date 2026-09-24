@@ -26,18 +26,15 @@
     "era": {
       "type": "string",
       "enum": [
-        "ai-era",
-        "algorithmic",
-        "bust-rebuild",
-        "early-web",
         "foundation",
-        "mobile-era",
-        "mobile-social",
-        "pandemic",
-        "platform-era",
-        "platform-maturity",
+        "early-web",
+        "bust-rebuild",
         "web-2",
-        "web-expansion"
+        "mobile",
+        "platform",
+        "pandemic",
+        "ai",
+        "now"
       ]
     },
     "narrative": {

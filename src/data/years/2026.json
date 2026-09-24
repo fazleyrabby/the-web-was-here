@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "year": 2026,
   "title": "The Year the Web Started Answering Back",
-  "era": "ai-era",
+  "era": "now",
   "narrative": "AI stops being a place you go and becomes the layer everything runs on. Assistants live inside the browser and the operating system, agents click through the web on your behalf, and answers replace lists of links. Regulation catches up, open models close the gap, and computing quietly dissolves into the room around you.",
   "felt_like": {
     "os": "Operating systems with native continuous agent orchestration",
